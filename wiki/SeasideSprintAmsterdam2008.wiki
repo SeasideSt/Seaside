@@ -12,9 +12,9 @@
 =Easier=
 
  * Issue 1 - John; solution proposed 
- * Issue 5 - Michael
+ * ~~Issue 5 - Michael~~
  * Issue 40
- * ~~Issue 118 - Philippe~~
+ * Issue 118 - Philippe
  * Issue 3 - investigate... still valid?
  * ~~Issue 13 - Lukas check if it should be closed?~~
  * Issue 44
