@@ -23,7 +23,7 @@
  * Issue 114 - add a FileLibrary to development package
 
 =Harder=
- * Issue 19
+ * Issue 19 - I'll take a look at this one (Dale)
 
 =Discuss=
  * Issue 28
