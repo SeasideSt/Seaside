@@ -3,10 +3,14 @@
  * Lukas Renggli
  * Julian Fitzell
 
-=Bugs=
+=Easier=
 
  * Issue 40
- * Issue 117 - but what method name?
  * Issue 118
- * Issue 1 - close?
+ * Issue 5
+ * Issue 3 - investigate... still valid?
+ * Issue 13 - Lukas check if it should be closed?
  * 
+
+=Harder=
+ * Issue 19
