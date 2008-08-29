@@ -14,10 +14,15 @@
  * Issue 58 - Julian
  * Issue 59 - Julian
  * Issue 64
- *
+ * Issue 69 - investigate... still valid?
+ * Issue 74 - watch for compatibility. write tests!
+ * Issue 87 (VisualWorks)
+ * Issue 90
+ * Issue 114 - add a FileLibrary to development package
 
 =Harder=
  * Issue 19
 
 =Discuss=
  * Issue 28
+ * Issue 112 - Julian
