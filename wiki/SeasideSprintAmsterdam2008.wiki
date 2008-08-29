@@ -22,6 +22,7 @@
  * Issue 87 (VisualWorks)
  * Issue 90
  * Issue 114 - add a FileLibrary to development package
+ * Issue 115
 
 =Harder=
  * Issue 19 - I'll take a look at this one (Dale)
