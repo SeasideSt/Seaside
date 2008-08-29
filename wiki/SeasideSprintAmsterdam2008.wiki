@@ -10,7 +10,14 @@
  * Issue 5
  * Issue 3 - investigate... still valid?
  * Issue 13 - Lukas check if it should be closed?
- * 
+ * Issue 44
+ * Issue 58 - Julian
+ * Issue 59 - Julian
+ * Issue 64
+ *
 
 =Harder=
  * Issue 19
+
+=Discuss=
+ * Issue 28
