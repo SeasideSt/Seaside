@@ -1,4 +1,4 @@
 =Attendees=
 
-* Lukas Renggli
-* Julian Fitzell
+ * Lukas Renggli
+ * Julian Fitzell
