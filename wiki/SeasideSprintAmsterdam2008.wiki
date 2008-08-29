@@ -6,6 +6,7 @@
  * John O'Keefe
  * Yann Monclair
  * Michael Davies
+ * Dale Henrichs ( GemSource 2.9 repository http://seaside.gemstone.com/ss/Seaside29.html)
 
 =Easier=
 
