@@ -10,7 +10,7 @@
 
 =Easier=
 
- * Issue 1
+ * Issue 1 - John; solution proposed 
  * Issue 40
  * Issue 118
  * Issue 5 - Michael
