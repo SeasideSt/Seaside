@@ -24,7 +24,7 @@
  * Issue 74 - watch for compatibility. write tests!
  * Issue 87 (VisualWorks)
  * Issue 90
- * Issue 114 - add a FileLibrary to development package
+ * Issue 114 - Michael   -- add a FileLibrary to development package
  * Issue 115
 
 = Can be closed =
