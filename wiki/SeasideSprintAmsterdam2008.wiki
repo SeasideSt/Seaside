@@ -13,7 +13,6 @@
  * Issue 1 - John; solution proposed 
  * Issue 40
  * Issue 118
- * Issue 5 - Michael
  * Issue 3 - investigate... still valid?
  * ~~Issue 13 - Lukas check if it should be closed?~~
  * Issue 44
@@ -26,6 +25,9 @@
  * Issue 90
  * Issue 114 - add a FileLibrary to development package
  * Issue 115
+
+= Can be closed =
+ * Issue 5 - Michael
 
 =Harder=
  * Issue 19 - I'll take a look at this one (Dale)
