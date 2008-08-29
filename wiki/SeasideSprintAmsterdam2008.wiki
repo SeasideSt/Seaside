@@ -30,6 +30,7 @@
  * Issue 5 - Michael
 
 =Harder=
+ * Issue 16 - Lukas
  * Issue 19 - I'll take a look at this one (Dale)
 
 =Discuss=
