@@ -2,3 +2,11 @@
 
  * Lukas Renggli
  * Julian Fitzell
+
+=Bugs=
+
+ * Issue 40
+ * Issue 117 - but what method name?
+ * Issue 118
+ * Issue 1 - close?
+ * 
