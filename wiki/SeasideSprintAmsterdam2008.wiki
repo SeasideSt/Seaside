@@ -4,6 +4,7 @@
  * Julian Fitzell
  * Niall Ross
  * John O'Keefe
+ * Yann Monclair
 
 =Easier=
 
@@ -16,7 +17,7 @@
  * Issue 44
  * Issue 58 - Julian
  * Issue 59 - Julian
- * Issue 64
+ * Issue 64 - Yann
  * Issue 69 - investigate... still valid?
  * Issue 74 - watch for compatibility. write tests!
  * Issue 87 (VisualWorks)
