@@ -19,7 +19,7 @@
  * Issue 44
  * ~~Issue 58 - Julian~~
  * Issue 59 - Julian
- * Issue 64 - Yann
+ * Issue 64 - Yann Stephan
  * Issue 69 - investigate... still valid?
  * Issue 74 - watch for compatibility. write tests!
  * Issue 87 (VisualWorks)
