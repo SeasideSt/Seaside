@@ -11,7 +11,9 @@
  * Adrian Kuhn
  * Toon Verwaest
 
-=Easier=
+=Issues=
+
+==Easier==
 
  * Issue 1 - John; solution proposed 
  * ~~Issue 5 - Michael~~
@@ -30,7 +32,7 @@
  * Issue 114 - Michael   -- add a FileLibrary to development package
  * Issue 115
 
-=Harder=
+==Harder==
  * ~~Issue 16 - Lukas~~
  * ~~Issue 121 - Lukas~~
  * Issue 19 - I'll take a look at this one (Dale)
