@@ -50,7 +50,7 @@
  * ~~Issue 115 - Lukas~~
  * ~~Issue 121 - Lukas~~
 
-=Discuss=
+==Discuss==
  * Issue 28
  * Issue 112 - Julian
  * ~~Issue 117 - Niall and John have updated with details of VW problem, Lukas~~
