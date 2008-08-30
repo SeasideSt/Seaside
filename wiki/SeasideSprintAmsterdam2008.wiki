@@ -40,7 +40,7 @@
  * Issue 74 - Yann - Adrian - watch for compatibility. write tests! 
  * Issue 87 (VisualWorks)
  * Issue 90
- * Issue 114 - Michael   -- add a FileLibrary to development package
+ * ~~Issue 114 - Michael~~
  * Issue 115
 
 ==Harder==
