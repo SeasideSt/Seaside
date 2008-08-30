@@ -42,7 +42,7 @@
  * Issue 87 (VisualWorks)
  * Issue 90
  * ~~Issue 114 - Michael~~
- * Issue 118 - Philippe
+ * ~~Issue 118 - Philippe~~
 
 ==Harder==
  * ~~Issue 16 - Lukas~~
