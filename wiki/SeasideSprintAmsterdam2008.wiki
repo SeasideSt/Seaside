@@ -16,6 +16,7 @@
  * Yann Monclair
  * Michael Davies
  * Dale Henrichs (Seaside2.9 GemSource http://seaside.gemstone.com/ss/Seaside29.html )
+ * Giovanni Corriga
  * Adrian Kuhn
  * Toon Verwaest
  * Stephan Eggermont
