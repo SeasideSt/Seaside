@@ -21,7 +21,7 @@
  * Issue 118 - Philippe
  * Issue 3 - investigate... still valid?
  * ~~Issue 13 - Lukas check if it should be closed?~~
- * Issue 44 - Toon
+ * ~~Issue 44 - Toon~~
  * ~~Issue 58 - Julian~~
  * ~~Issue 59 - Julian~~
  * ~~Issue 64 - Yann Stephan~~
