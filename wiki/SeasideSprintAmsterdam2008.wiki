@@ -18,6 +18,8 @@
  * Dale Henrichs (Seaside2.9 GemSource http://seaside.gemstone.com/ss/Seaside29.html )
  * Adrian Kuhn
  * Toon Verwaest
+ * Stephan Eggermont
+ * Sebastian Heidbrink
 
 =Issues=
 
