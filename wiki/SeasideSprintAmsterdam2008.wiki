@@ -43,11 +43,11 @@
  * Issue 87 (VisualWorks)
  * Issue 90
  * ~~Issue 114 - Michael~~
- * Issue 115
 
 ==Harder==
  * ~~Issue 16 - Lukas~~
  * ~~Issue 121 - Lukas~~
+ * Issue 115 - Lukas
  * Issue 19 - I'll take a look at this one (Dale)
 
 =Discuss=
