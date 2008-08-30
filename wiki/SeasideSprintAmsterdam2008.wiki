@@ -36,13 +36,13 @@
  * Issue 59 - Julian
  * Issue 64 - Yann Stephan
  * Issue 66 - Sebastian
- * Issue 69 - investigate... still valid?  John says yes (but for a different reason) -- see updated issue
+ * ~~Issue 69 - investigate... still valid?  John says yes (but for a different reason) -- see updated issue~~
  * Issue 74 - Yann - Adrian - watch for compatibility. write tests! 
- * ~~Issue 86 - Michael~~
+ * Issue 86 - Michael
  * Issue 87 (VisualWorks)
  * Issue 90
- * ~~Issue 114 - Michael~~
- * ~~Issue 118 - Philippe~~
+ * Issue 114 - Michael
+ * Issue 118 - Philippe
 
 ==Harder==
  * ~~Issue 16 - Lukas~~
