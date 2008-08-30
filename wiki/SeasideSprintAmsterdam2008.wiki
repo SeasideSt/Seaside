@@ -10,6 +10,8 @@
 =Attendees=
 
  * Lukas Renggli
+ * Philippe Marschal
+ * Cédrick Béler
  * Julian Fitzell
  * Niall Ross
  * John O'Keefe
