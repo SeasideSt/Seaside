@@ -45,12 +45,12 @@
  * Issue 118 - Philippe
 
 ==Harder==
- * ~~Issue 16 - Lukas~~
+ * Issue 16 - Lukas
  * Issue 19 - I'll take a look at this one (Dale)
- * ~~Issue 115 - Lukas~~
+ * Issue 115 - Lukas
  * Issue 121 - Lukas
 
 ==Discuss==
  * Issue 28
  * Issue 112 - Julian
- * ~~Issue 117 - Niall and John have updated with details of VW problem, Lukas~~
+ * Issue 117 - Niall and John have updated with details of VW problem, Lukas
