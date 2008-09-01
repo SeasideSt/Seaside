@@ -24,6 +24,7 @@
  * Toon Verwaest
  * Stephan Eggermont
  * Sebastian Heidbrink
+ * Damien Cassou
 
 =Issues=
 
