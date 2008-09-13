@@ -1,7 +1,7 @@
-* split seaside-core
-* clean-up session (Issue 111, Issue 100)
-* setup an universe repository
-* finish the filter refactoring (Issue 130, Issue 113)
-* evaluate callbacks outside components
-* fix the configuration editor bugs (Issue 3)
-* fix the halos and their issues (Issue 17, Issue 22)
+  * split seaside-core
+  * clean-up session (Issue 111, Issue 100)
+  * setup an universe repository
+  * finish the filter refactoring (Issue 130, Issue 113)
+  * evaluate callbacks outside components
+  * fix the configuration editor bugs (Issue 3)
+  * fix the halos and their issues (Issue 17, Issue 22)
