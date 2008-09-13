@@ -16,7 +16,8 @@
 =Tasks=
 
   * split seaside-core
-  * #handleRequest: gets the request-context
+  * ~~#handleRequest: gets the request-context~~
+  * ~~fix copying of request handler (Issue 153)~~
   * clean-up session (Issue 111, Issue 100)
   * setup an universe repository
   * finish the filter refactoring (Issue 130, Issue 113)
