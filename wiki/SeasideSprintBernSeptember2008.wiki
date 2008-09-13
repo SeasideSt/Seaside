@@ -21,4 +21,4 @@
   * evaluate callbacks outside components
   * fix the configuration editor bugs (Issue 3)
   * fix the halos and their issues (Issue 17, Issue 22)
-  * make WARequest >> #accpet, #acceptCharset, #acceptEncoding, #acceptLangauge return parsed objects (Issue 137)
+  * ~~make WARequest >> #accpet, #acceptCharset, #acceptEncoding, #acceptLangauge return parsed objects (Issue 137)~~
