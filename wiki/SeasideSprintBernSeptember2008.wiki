@@ -1,3 +1,17 @@
+#labels Featured
+=Dates=
+
+ * Friday, September 13, 2008
+ * Sunday, September 14, 2008
+
+=Attendees=
+
+ * Lukas Renggli
+ * Philippe Marschal
+ * Julian Fitzell
+
+=Tasks=
+
   * split seaside-core
   * clean-up session (Issue 111, Issue 100)
   * setup an universe repository
