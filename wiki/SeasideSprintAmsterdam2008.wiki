@@ -1,10 +1,10 @@
 #labels Featured
 =Location=
 
- * Friday, August 29
+ * Friday, August 29, 2008
     * 14:00 - 17:00 [http://www.cafekobalt.nl/location_en.htm Cafe Kobalt]
     * 17:00 - 22:00 [http://www.oba.nl/ Public Library]   
- * Saturday, August 30
+ * Saturday, August 30, 2008
     * 10:00 - 22:00 [http://www.oba.nl/ Public Library]   
 
 =Attendees=
