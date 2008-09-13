@@ -8,9 +8,10 @@
 
 =Attendees=
 
- * Lukas Renggli
- * Philippe Marschal
+ * Michael Davies
  * Julian Fitzell
+ * Philippe Marschal
+ * Lukas Renggli
 
 =Tasks=
 
