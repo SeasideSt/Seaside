@@ -56,3 +56,6 @@
  * SPort
  * Swazoo
  * Seaside-Adapters-Swazoo
+
+== Graph ==
+http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
