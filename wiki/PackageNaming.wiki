@@ -1,4 +1,4 @@
-#The packages of the Seaside project follow a generic pattern.
+#summary The packages of the Seaside project follow a generic pattern.
 
 =Pattern=
 
