@@ -15,7 +15,8 @@
 
 =Tasks=
 
-  * split seaside-core and resolving cyclic dependencies
+  * ~~making the entire system understandable (by julian)~~
+  * ~~split seaside-core and resolving cyclic dependencies~~
   * ~~#handleRequest: gets the request-context~~
   * ~~fix copying of request handler~~ (Issue 153)
   * clean-up session (Issue 111, Issue 100)
