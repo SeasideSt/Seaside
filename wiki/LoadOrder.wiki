@@ -16,9 +16,9 @@
  * Seaside-Development-Core
  * Seaside-Examples
  * Seaside-Tests
+ * Seaside-Squeak-Tests
  * Seaside-Color-Tests
  * Seaside-Development-Tests
- * Seaside-Squeak-Tests
 
 = RSS =
  * RSS-Core
