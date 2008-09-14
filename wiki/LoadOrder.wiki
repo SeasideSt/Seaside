@@ -6,8 +6,8 @@
  * Seaside-Squeak-Platform
  * Seaside-Squeak-Continuation
  * Seaside-Core
- * Seaside-Canvas
  * Seaside-Squeak-Core
+ * Seaside-Canvas
  * Seaside-Session
  * Seaside-Component
  * Seaside-RenderLoop
