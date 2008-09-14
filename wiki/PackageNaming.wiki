@@ -1,0 +1,22 @@
+# Naming of the Seaside Packages
+
+=Pattern=
+
+`Top-(Tests-)(Platform-)Rest`
+
+=Tokens=
+
+|| *Token* || *Explanation* || *Example* ||
+|| Top || The top level package name || `Seaside` ||
+|| Tests || Present for tests only || `Tests` ||
+|| Platform || Present for platform specific code only || `Squeak` ||
+|| Rest || The second level package name || `Canvas` ||
+
+=Example=
+
+The package ...
+
+  * `Seaside-Canvas` contains he canvas implementation of the Seaside project.
+  * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
+  * `Seaside-Squeak-Canvas` contains the platform specific code of the canvas implementation.
+  * `Seaside-Tests-Squeak-Canvas` contains the platform specific code of the test of the canvas implementation.
