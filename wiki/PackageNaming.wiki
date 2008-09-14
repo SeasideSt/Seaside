@@ -17,6 +17,6 @@ The packages of the Seaside project follow a generic pattern.
 The package ...
 
   * `Seaside-Canvas` contains he canvas implementation.
-  * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
   * `Seaside-Squeak-Canvas` contains the platform specific code of the canvas implementation.
-  * `Seaside-Tests-Squeak-Canvas` contains the platform specific code of the test of the canvas implementation.
+  * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
+  * `Seaside-Tests-Squeak-Canvas` contains the platform specific tests of the canvas implementation.
