@@ -1,4 +1,6 @@
+#summary The Seaside Sprint in Amsterdam, August 2008
 #labels Featured
+
 =Location=
 
  * Friday, August 29, 2008
