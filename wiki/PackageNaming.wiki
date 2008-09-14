@@ -7,10 +7,10 @@ The packages of the Seaside project follow a generic pattern.
 =Tokens=
 
 || *Token* || *Explanation* || *Example* ||
-|| Top || The top level package name || `Seaside` ||
+|| Top || The top level package name || `Seaside`, `Scriptaculous`, ... ||
 || Tests || Present for tests only || `Tests` ||
-|| Platform || Present for platform specific code only || `Squeak` ||
-|| Rest || The second level package name || `Canvas` ||
+|| Platform || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
+|| Rest || The second level package name || `Core`, `Canvas`, ...  ||
 
 =Example=
 
