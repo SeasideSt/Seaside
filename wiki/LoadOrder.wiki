@@ -1,4 +1,5 @@
 #summary Load order of packages in Seaside 2.9
+#labels Phase-Implementation
 
 = Basic =
  * Seaside-Platform
@@ -40,6 +41,11 @@
 = Internet Explorer =
  * Seaside-Internet-Explorer-Core
  * Seaside-Internet-Explorer-Tests
+
+= Email =
+ * Seaside-Email-Core
+ * Seaside-Email-Tests
+ * Seaside-Email-Squeak
 
 = Comet =
  * Comet-Squeak-Core
