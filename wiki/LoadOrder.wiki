@@ -30,7 +30,7 @@
  * Scriptaculous-Core
  * Scriptaculous-Squeak-Core
  * Scriptaculous-Tests-Core
- * Scriptacuous-Components
+ * Scriptaculous-Components
  * Scriptaculous-Tests-Components
 
 = HTML 5 =
