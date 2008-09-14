@@ -1,0 +1,58 @@
+#summary Load order of packages in Seaside 2.9
+
+= Basic =
+ * Seaside-Platform
+ * Seaside-Squeak-Platform
+ * Seaside-Squeak-Continuation
+ * Seaside-Core
+ * Seaside-Canvas
+ * Seaside-Squeak-Core
+ * Seaside-Session
+ * Seaside-Component
+ * Seaside-RenderLoop
+ * Seaside-Environment
+
+= Traditional =
+ * Seaside-Development-Core
+ * Seaside-Examples
+ * Seaside-Tests
+ * Seaside-Color-Tests
+ * Seaside-Development-Tests
+ * Seaside-Squeak-Tests
+
+= RSS =
+ * RSS-Core
+ * RSS-Tests
+ * RSS-Examples
+ * RSS-Squeak-Examples
+
+= Scripaculous =
+ * Scriptaculous-Core
+ * Scriptaculous-Squeak-Core
+ * Scriptaculous-Tests-Core
+ * Scriptacuous-Components
+ * Scriptaculous-Tests-Components
+
+= HTML 5 =
+ * Seaside-HTML5-Core
+ * Seaside-HTML5-Tests
+
+= Internet Explorer =
+ * Seaside-Internet-Explorer-Core
+ * Seaside-Internet-Explorer-Tests
+
+= Comet =
+ * Comet-Squeak-Core
+ * Comet-Core
+ * Comet-Examples
+
+= Comanche =
+ * DynamicBindings
+ * KomServices
+ * KomHttpServer
+ * Seaside-Squeak-Kom-Core
+
+= Swazoo 2 =
+ * SPort
+ * Swazoo
+ * Seaside-Adapters-Swazoo
