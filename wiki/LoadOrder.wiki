@@ -27,7 +27,7 @@
  * RSS-Examples
  * RSS-Squeak-Examples
 
-= Scripaculous =
+= Scriptaculous =
  * Scriptaculous-Core
  * Scriptaculous-Squeak-Core
  * Scriptaculous-Tests-Core
