@@ -1,6 +1,8 @@
 #summary Load order of packages in Seaside 2.9
 #labels Phase-Implementation
 
+Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
+
 = Basic =
  * Seaside-Platform
  * Seaside-Squeak-Platform
@@ -14,11 +16,11 @@
  * Seaside-Environment
 
 = Traditional =
- * Seaside-Development-Core
+ * Seaside-Development-Core (PackageNaming)
  * Seaside-Squeak-Development
  * Seaside-Examples
- * Seaside-Tests-All
- * Seaside-Tests-Squeak
+ * Seaside-Tests-All (PackageNaming)
+ * Seaside-Tests-Squeak (PackageNaming)
  * Seaside-Tests-Color
  * Seaside-Tests-Development
 
@@ -36,22 +38,22 @@
  * Scriptaculous-Tests-Components
 
 = HTML 5 =
- * Seaside-HTML5-Core
- * Seaside-HTML5-Tests
+ * Seaside-HTML5-Core (PackageNaming)
+ * Seaside-HTML5-Tests (PackageNaming)
 
 = Internet Explorer =
- * Seaside-Internet-Explorer-Core
- * Seaside-Internet-Explorer-Tests
+ * Seaside-Internet-Explorer-Core (PackageNaming)
+ * Seaside-Internet-Explorer-Tests (PackageNaming)
 
 = Email =
- * Seaside-Email-Core
- * Seaside-Email-Tests
- * Seaside-Email-Squeak
+ * Seaside-Email-Core (PackageNaming)
+ * Seaside-Email-Tests (PackageNaming)
+ * Seaside-Email-Squeak (PackageNaming)
 
 = Comet =
- * Comet-Squeak-Core
- * Comet-Core
- * Comet-Examples
+ * Comet-Squeak-Core (PackageNaming)
+ * Comet-Core (PackageNaming)
+ * Comet-Examples (PackageNaming)
 
 = Comanche =
  * DynamicBindings
@@ -63,6 +65,3 @@
  * SPort
  * Swazoo
  * Seaside-Adapters-Swazoo
-
-== Graph ==
-http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
