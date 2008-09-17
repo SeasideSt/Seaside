@@ -1,5 +1,5 @@
 #summary The Seaside Sprint in Bern, September 2008
-#labels Featured
+#labels Featured,Sprint
 
 =Dates=
 
