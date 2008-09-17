@@ -2,13 +2,13 @@
 
 =Pattern=
 
-`Top-(Tests-)(Platform-)Rest`
+`Top-(Purpose-)(Platform-)Rest`
 
 =Tokens=
 
 || *Token* || *Required* || *Explanation* || *Examples* ||
 || Top || mandatory || The top level package name || `Seaside`, `Scriptaculous`, ... ||
-|| Tests || optional || Present for tests only || `Tests` ||
+|| Purpose || optional || Present for tests or examples only || `Tests`, `Examples`, ... ||
 || Platform || optional || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
 || Rest || mandatory || The second level package name || `Core`, `Canvas`, ...  ||
 
