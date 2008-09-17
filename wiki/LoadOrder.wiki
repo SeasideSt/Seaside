@@ -20,7 +20,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Squeak-Development
  * Seaside-Examples
  * Seaside-Tests-All (PackageNaming)
- * Seaside-Tests-Squeak (PackageNaming)
+ * Seaside-Tests-Squeak-All (PackageNaming)
  * Seaside-Tests-Color
  * Seaside-Tests-Development
 
