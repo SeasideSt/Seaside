@@ -18,5 +18,6 @@ The package ...
 
   * `Seaside-Canvas` contains he canvas implementation.
   * `Seaside-Squeak-Canvas` contains the platform specific code of the canvas implementation.
+  * `Seaside-Examples-Canvas` contains example code showing off the canvas implementation.
   * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
   * `Seaside-Tests-Squeak-Canvas` contains the platform specific tests of the canvas implementation.
