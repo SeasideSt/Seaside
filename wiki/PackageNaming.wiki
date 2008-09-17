@@ -6,11 +6,11 @@
 
 =Tokens=
 
-|| *Token* || *Explanation* || *Examples* ||
-|| Top || The top level package name || `Seaside`, `Scriptaculous`, ... ||
-|| Tests || Present for tests only || `Tests` ||
-|| Platform || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
-|| Rest || The second level package name || `Core`, `Canvas`, ...  ||
+|| *Token* || *Required* || *Explanation* || *Examples* ||
+|| Top || mandatory || The top level package name || `Seaside`, `Scriptaculous`, ... ||
+|| Tests || optional || Present for tests only || `Tests` ||
+|| Platform || optional || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
+|| Rest || mandatory || The second level package name || `Core`, `Canvas`, ...  ||
 
 =Example=
 
