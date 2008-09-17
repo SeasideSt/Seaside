@@ -1,5 +1,5 @@
 #summary The Seaside Sprint in Amsterdam, August 2008
-#labels Featured
+#labels Featured,Sprint
 
 =Location=
 
