@@ -17,14 +17,14 @@
  * Seaside-Development-Core
  * Seaside-Squeak-Development
  * Seaside-Examples
- * Seaside-Tests
- * Seaside-Squeak-Tests
- * Seaside-Color-Tests
- * Seaside-Development-Tests
+ * Seaside-Tests-All
+ * Seaside-Tests-Squeak
+ * Seaside-Tests-Color
+ * Seaside-Tests-Development
 
 = RSS =
  * RSS-Core
- * RSS-Tests
+ * RSS-Tests-Core
  * RSS-Examples
  * RSS-Squeak-Examples
 
