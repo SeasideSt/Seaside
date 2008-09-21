@@ -10,7 +10,7 @@
 || Top || mandatory || The top level package name || `Seaside`, `Scriptaculous`, ... ||
 || Purpose || optional || Present for tests or examples only || `Tests`, `Examples`, ... ||
 || Platform || optional || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
-|| Rest || mandatory || The second level package name || `Core`, `Canvas`, ...  ||
+|| Rest || mandatory || The second level package name (avoid $- in the name) || `Core`, `Canvas`, ...  ||
 
 =Example=
 
