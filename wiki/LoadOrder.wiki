@@ -38,8 +38,8 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Scriptaculous-Tests-Components
 
 = HTML 5 =
- * Seaside-HTML5-Core (PackageNaming)
- * Seaside-HTML5-Tests (PackageNaming)
+ * Seaside-HTML5
+ * Seaside-Tests-HTML5
 
 = Internet Explorer =
  * Seaside-Internet-Explorer-Core (PackageNaming)
