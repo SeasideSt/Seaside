@@ -51,9 +51,9 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Squeak-Email
 
 = Comet =
- * Comet-Squeak-Core (PackageNaming)
- * Comet-Core (PackageNaming)
- * Comet-Examples (PackageNaming)
+ * Comet-Squeak-Core
+ * Comet-Core
+ * Comet-Examples-Core
 
 = Comanche =
  * DynamicBindings
