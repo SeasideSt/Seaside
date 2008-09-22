@@ -46,9 +46,9 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Internet-Explorer-Tests (PackageNaming)
 
 = Email =
- * Seaside-Email-Core (PackageNaming)
- * Seaside-Email-Tests (PackageNaming)
- * Seaside-Email-Squeak (PackageNaming)
+ * Seaside-Email
+ * Seaside-Tests-Email
+ * Seaside-Squeak-Email
 
 = Comet =
  * Comet-Squeak-Core (PackageNaming)
