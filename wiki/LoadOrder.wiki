@@ -16,7 +16,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Environment
 
 = Traditional =
- * Seaside-Development-Core (PackageNaming)
+ * Seaside-Development
  * Seaside-Squeak-Development
  * Seaside-Examples
  * Seaside-Tests-All (PackageNaming)
