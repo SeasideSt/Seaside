@@ -56,10 +56,10 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Comet-Examples-Core
 
 = Comanche =
- * DynamicBindings
- * KomServices
- * KomHttpServer
- * Seaside-Squeak-Kom-Core
+ * !DynamicBindings
+ * !KomServices
+ * !KomHttpServer
+ * Seaside-Squeak-Kom-Core (PackageNaming)
 
 = Swazoo 2 =
  * SPort
