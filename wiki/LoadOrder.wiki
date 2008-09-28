@@ -12,7 +12,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Canvas
  * Seaside-Session
  * Seaside-Component
- * Seaside-RenderLoop
+ * Seaside-!RenderLoop
  * Seaside-Environment
 
 = Traditional =
