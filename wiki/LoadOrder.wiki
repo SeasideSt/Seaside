@@ -42,8 +42,8 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Tests-HTML5
 
 = Internet Explorer =
- * Seaside-InternetExplorer
- * Seaside-Tests-InternetExplorer
+ * Seaside-!InternetExplorer
+ * Seaside-Tests-!InternetExplorer
 
 = Email =
  * Seaside-Email
