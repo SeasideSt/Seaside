@@ -19,10 +19,21 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Development
  * Seaside-Squeak-Development
  * Seaside-Examples
- * Seaside-Tests-All (PackageNaming)
- * Seaside-Tests-Squeak-All (PackageNaming)
+
+= Tests = 
+_(Should also be loadable directly after the packages they test)_
+ * Seaside-Tests-Platform
+ * Seaside-Tests-Squeak-Platform
+ * Seaside-Tests-Core
+ * Seaside-Tests-Squeak-Core
+ * Seaside-Tests-Canvas
+ * Seaside-Tests-Session
+ * Seaside-Tests-!RenderLoop
  * Seaside-Tests-Color
  * Seaside-Tests-Development
+ * Seaside-Tests-Squeak-Development
+ * Seaside-Tests-Functional
+ * Seaside-Tests-Squeak-Functional
 
 = RSS =
  * RSS-Core
@@ -60,6 +71,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * !KomServices
  * !KomHttpServer
  * Seaside-Squeak-Kom-Core (PackageNaming)
+ * Seaside-Test-Squeak-Kom
 
 = Swazoo 2 =
  * SPort
