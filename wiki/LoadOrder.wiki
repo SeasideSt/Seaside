@@ -65,14 +65,14 @@ _(Should also be loadable directly after the packages they test)_
 = Comet =
  * Comet-Squeak-Core
  * Comet-Core
- * Comet-Examples-Core
+ * Comet-Examples (PackageNaming)
 
 = Comanche =
  * !DynamicBindings
  * !KomServices
  * !KomHttpServer
  * Seaside-Squeak-Kom-Core (PackageNaming)
- * Seaside-Test-Squeak-Kom
+ * Seaside-Tests-Squeak-Kom
 
 = Swazoo 2 =
  * SPort
