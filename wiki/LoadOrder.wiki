@@ -49,7 +49,6 @@ _(Should also be loadable directly after the packages they test)_
 
 = Scriptaculous =
  * Scriptaculous-Core
- * Scriptaculous-Squeak-Core
  * Scriptaculous-Tests-Core
  * Scriptaculous-Components
  * Scriptaculous-Tests-Components
