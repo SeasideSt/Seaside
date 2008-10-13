@@ -42,12 +42,22 @@ _(Should also be loadable directly after the packages they test)_
  * RSS-Examples
  * RSS-Squeak-Examples
 
+= Javascript =
+ * Javascript-Core
+ * Javascript-Squeak-Core
+ * Javascript-Tests-Core
+
 = Scriptaculous =
  * Scriptaculous-Core
  * Scriptaculous-Squeak-Core
  * Scriptaculous-Tests-Core
  * Scriptaculous-Components
  * Scriptaculous-Tests-Components
+
+= Comet =
+ * Comet-Squeak-Core
+ * Comet-Core
+ * Comet-Examples (PackageNaming)
 
 = HTML 5 =
  * Seaside-HTML5
@@ -61,11 +71,6 @@ _(Should also be loadable directly after the packages they test)_
  * Seaside-Email
  * Seaside-Tests-Email
  * Seaside-Squeak-Email
-
-= Comet =
- * Comet-Squeak-Core
- * Comet-Core
- * Comet-Examples (PackageNaming)
 
 = Comanche =
  * !DynamicBindings
