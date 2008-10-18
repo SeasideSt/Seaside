@@ -16,9 +16,9 @@
  * Issue 100
  * Issue 104
  * Issue 124
- * Issue 163
+ * Issue 163 (lr)
  * Issue 165
- * pmm, Issue 168
+ * Issue 168 (pmm)
  * Issue 176
  * Issue 177
  * Issue 195
