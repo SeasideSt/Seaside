@@ -85,7 +85,7 @@ _(Should also be loadable directly after the packages they test)_
 
 = File System =
  * SPort
- * Seaside-Environment
+ * Seaside-Canvas
  * load from the [http://www.squeaksource.com/Seaside29LGPL LGPL repository]
  * Seaside-!FileSystem
  * Seaside-Test-!FileSystem
