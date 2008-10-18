@@ -83,9 +83,9 @@ _(Should also be loadable directly after the packages they test)_
  * Swazoo
  * Seaside-Adapters-Swazoo
 
-= Filesystem =
+= File System =
  * SPort
- * load from the [http://www.squeaksource.com/Seaside29LGPL LGPL repository]
  * Seaside-Environment
- * Seaside-FileSystem
- * Seaside-Test-FileSystem
+ * load from the [http://www.squeaksource.com/Seaside29LGPL LGPL repository]
+ * Seaside-!FileSystem
+ * Seaside-Test-!FileSystem
