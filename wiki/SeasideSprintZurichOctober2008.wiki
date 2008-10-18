@@ -12,4 +12,14 @@
  * Lukas Renggli
 
 =Tasks=
+ * Issue 100
+ * Issue 104
+ * Issue 124
+ * Issue 163
+ * Issue 165
+ * Issue 168
+ * Issue 176
+ * Issue 177
+ * Issue 195
+
 
