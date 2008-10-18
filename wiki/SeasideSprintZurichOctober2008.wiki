@@ -1,1 +1,15 @@
 #summary The Seaside Sprint in Zurich, October 2008
+#labels Featured,Sprint
+
+=Dates=
+
+ * Saturday, October 18, 2008
+
+=Attendees=
+
+ * Julian Fitzell
+ * Philippe Marschal
+ * Lukas Renggli
+
+=Tasks=
+
