@@ -54,9 +54,9 @@ _(Should also be loadable directly after the packages they test)_
  * Scriptaculous-Tests-Components
 
 = Comet =
- * Comet-Squeak-Core
  * Comet-Core
- * Comet-Examples (PackageNaming)
+ * Comet-Squeak-Core
+ * Comet-Examples
 
 = HTML 5 =
  * Seaside-HTML5
