@@ -80,8 +80,9 @@ _(Should also be loadable directly after the packages they test)_
 
 = Swazoo 2 =
  * SPort
- * Swazoo
- * Seaside-Swazoo
+ * Swazoo 2
+ * Seaside-Swazoo (LGPL)
+ * Seaside-Adaports-Swazoo
 
 = File System =
  * SPort
