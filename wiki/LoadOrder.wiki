@@ -75,8 +75,8 @@ _(Should also be loadable directly after the packages they test)_
  * !DynamicBindings
  * !KomServices
  * !KomHttpServer
- * Seaside-Squeak-Kom
- * Seaside-Tests-Squeak-Kom
+ * Seaside-Adaptors-Comanche
+ * Seaside-Tests-Adaptors-Comanche
 
 = Swazoo 2 =
  * SPort
