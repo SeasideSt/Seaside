@@ -1,5 +1,5 @@
 #summary The Seaside Sprint in Zurich, October 2008
-#labels Featured,Sprint
+#labels Sprint
 
 =Dates=
 
