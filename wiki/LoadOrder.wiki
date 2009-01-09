@@ -1,5 +1,5 @@
 #summary Load order of packages in Seaside 2.9
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
 
