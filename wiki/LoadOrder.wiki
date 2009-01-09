@@ -30,7 +30,6 @@ _(Should also be loadable directly after the packages they test)_
  * Seaside-Tests-Session
  * Seaside-Tests-!RenderLoop
  * Seaside-Tests-Environment
- * Seaside-Tests-Color
  * Seaside-Tests-Development
  * Seaside-Tests-Squeak-Development
  * Seaside-Tests-Functional
