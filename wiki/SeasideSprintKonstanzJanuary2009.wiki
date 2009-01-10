@@ -15,7 +15,7 @@
 =High-level Priorities=
 These don't necessarily need to be implemented this weekend but should be solved while we're all together.
 
- * Discuss and figure out a solution for configuration of Filters (Issue 263) and Caches (Issue 177)
+ * ~~Discuss and figure out a solution for configuration of Filters~~ (Issue 263) ~~and Caches (Issue 177)~~
  * Determine approach to remaining dependency problems: http://code.google.com/p/seaside/issues/list?q=label:Dependencies
 
 =Discussion Wanted=
