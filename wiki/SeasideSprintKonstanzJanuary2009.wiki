@@ -21,6 +21,7 @@ These don't necessarily need to be implemented this weekend but should be solved
 =Discussion Wanted=
  * Issue 19
  * Issue 188
+ * Issue 236
  * Issue 263
  * Issue 48
  * ~~Why is WAExteranlID a subclass of ByteArray? Could it hold to a ByteArray? Do we want to cache #hash?~~
