@@ -21,9 +21,8 @@ These don't necessarily need to be implemented this weekend but should be solved
 =Discussion Wanted=
  * Issue 19
  * Issue 188
- * Issue 236 - Will be done in the train
+ * Issue 236, Issue 48 - Will be done in the train
  * Issue 263
- * Issue 48
  * ~~Why is WAExteranlID a subclass of ByteArray? Could it hold to a ByteArray? Do we want to cache #hash?~~
  * ~~Do we want to include some workarounds for Squeak #hash and Dictionary issues for WASession and WAExternalID?~~
  * ~~MC2 status update~~
