@@ -16,11 +16,14 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Environment
 
 = Traditional =
- * Seaside-WebTools
- * Seaside-Squeak-WebTools
+ * Seaside-!WebTools
+ * Seaside-Squeak-!WebTools
  * Seaside-Development
  * Seaside-Squeak-Development
  * Seaside-Examples
+
+= Admin Tools =
+ * Seaside-!OmniBrowserTools
 
 = Tests = 
 _(Should also be loadable directly after the packages they test)_
