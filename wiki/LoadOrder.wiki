@@ -6,7 +6,6 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
 = Basic =
  * Seaside-Platform
  * Seaside-Squeak-Platform
- * Seaside-Squeak-Continuation
  * Seaside-Core
  * Seaside-Squeak-Core
  * Seaside-Canvas
@@ -16,6 +15,9 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Environment
 
 = Traditional =
+ * Seaside-Flow
+ * Seaside-Squeak-Continuation
+ * Seaside-Squeak-Flow
  * Seaside-!WebTools
  * Seaside-Squeak-!WebTools
  * Seaside-Development
@@ -32,6 +34,7 @@ _(Should also be loadable directly after the packages they test)_
  * Seaside-Tests-Core
  * Seaside-Tests-Squeak-Core
  * Seaside-Tests-Canvas
+ * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
  * Seaside-Tests-Session
  * Seaside-Tests-!RenderLoop
  * Seaside-Tests-Environment
@@ -40,6 +43,7 @@ _(Should also be loadable directly after the packages they test)_
  * Seaside-Tests-Squeak-Development
  * Seaside-Tests-Functional
  * Seaside-Tests-Squeak-Functional
+ * Seaside-Tests-Flow
 
 = RSS =
  * RSS-Core
