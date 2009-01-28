@@ -20,9 +20,9 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Component
   * Seaside-Tests-Component (for defects see Issue 318)
  * Seaside-!RenderLoop
-  * Seaside-Tests-!RenderLoop
+  * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
  * Seaside-Environment
-  * Seaside-Tests-Environment
+  * Seaside-Tests-Environment (for defects see Issue 319)
 
 = Traditional =
  * Seaside-Flow
