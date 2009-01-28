@@ -18,7 +18,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
   * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
   * Seaside-Tests-Session (for defects see Issue 316 and Issue 317)
  * Seaside-Component
-  * Seaside-Tests-Component
+  * Seaside-Tests-Component (for defects see Issue 318)
  * Seaside-!RenderLoop
   * Seaside-Tests-!RenderLoop
  * Seaside-Environment
