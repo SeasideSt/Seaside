@@ -9,8 +9,8 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
   * Seaside-Tests-Platform
   * Seaside-Tests-Squeak-Platform
  * Seaside-Core
- * Seaside-Squeak-Core
   * Seaside-Tests-Core
+ * Seaside-Squeak-Core
   * Seaside-Tests-Squeak-Core
  * Seaside-Canvas
   * Seaside-Tests-Canvas
