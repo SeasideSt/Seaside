@@ -6,61 +6,60 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
 = Basic =
  * Seaside-Platform
  * Seaside-Squeak-Platform
+  * Seaside-Tests-Platform
+  * Seaside-Tests-Squeak-Platform
  * Seaside-Core
  * Seaside-Squeak-Core
+  * Seaside-Tests-Core
+  * Seaside-Tests-Squeak-Core
  * Seaside-Canvas
+  * Seaside-Tests-Canvas
  * Seaside-Session
+  * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
+  * Seaside-Tests-Session
  * Seaside-Component
+  * Seaside-Tests-Component
  * Seaside-!RenderLoop
+  * Seaside-Tests-!RenderLoop
  * Seaside-Environment
+  * Seaside-Tests-Environment
 
 = Traditional =
  * Seaside-Flow
+  * Seaside-Tests-Flow
  * Seaside-Squeak-Continuation
+  * Seaside-Squeak-Continuation
  * Seaside-Squeak-Flow
  * Seaside-!WebTools
  * Seaside-Squeak-!WebTools
+  * Seaside-Tests-!WebTools
  * Seaside-Development
  * Seaside-Squeak-Development
+  * Seaside-Tests-Development
+  * Seaside-Tests-Squeak-Development
  * Seaside-Examples
+  * Seaside-Tests-Functional
+  * Seaside-Tests-Squeak-Functional
 
 = Admin Tools =
  * Seaside-!OmniBrowserTools
 
-= Tests = 
-_(Should also be loadable directly after the packages they test)_
- * Seaside-Tests-Platform
- * Seaside-Tests-Squeak-Platform
- * Seaside-Tests-Core
- * Seaside-Tests-Squeak-Core
- * Seaside-Tests-Canvas
- * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
- * Seaside-Tests-Session
- * Seaside-Tests-!RenderLoop
- * Seaside-Tests-Environment
- * Seaside-Tests-WebTools
- * Seaside-Tests-Development
- * Seaside-Tests-Squeak-Development
- * Seaside-Tests-Functional
- * Seaside-Tests-Squeak-Functional
- * Seaside-Tests-Flow
-
 = RSS =
  * RSS-Core
- * RSS-Tests-Core
+  * RSS-Tests-Core
  * RSS-Examples
  * RSS-Squeak-Examples
 
 = Javascript =
  * Javascript-Core
  * Javascript-Squeak-Core
- * Javascript-Tests-Core
+  * Javascript-Tests-Core
 
 = Scriptaculous =
  * Scriptaculous-Core
- * Scriptaculous-Tests-Core
+  * Scriptaculous-Tests-Core
  * Scriptaculous-Components
- * Scriptaculous-Tests-Components
+  * Scriptaculous-Tests-Components
 
 = Comet =
  * Comet-Core
@@ -69,15 +68,15 @@ _(Should also be loadable directly after the packages they test)_
 
 = HTML 5 =
  * Seaside-HTML5
- * Seaside-Tests-HTML5
+  * Seaside-Tests-HTML5
 
 = Internet Explorer =
  * Seaside-!InternetExplorer
- * Seaside-Tests-!InternetExplorer
+  * Seaside-Tests-!InternetExplorer
 
 = Email =
  * Seaside-Email
- * Seaside-Tests-Email
+  * Seaside-Tests-Email
  * Seaside-Squeak-Email
 
 = Comanche =
@@ -85,7 +84,7 @@ _(Should also be loadable directly after the packages they test)_
  * !KomServices
  * !KomHttpServer
  * Seaside-Adaptors-Comanche
- * Seaside-Tests-Adaptors-Comanche
+  * Seaside-Tests-Adaptors-Comanche
 
 = Swazoo 2 =
  * SPort
@@ -98,4 +97,4 @@ _(Should also be loadable directly after the packages they test)_
  * Seaside-Canvas
  * load from the [http://www.squeaksource.com/Seaside29LGPL LGPL repository]
  * Seaside-!FileSystem
- * Seaside-Test-!FileSystem
+  * Seaside-Test-!FileSystem
