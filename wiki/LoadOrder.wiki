@@ -5,6 +5,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
 
 = Basic =
  * Seaside-Platform
+  * Seaside-Tests-ANSI
  * Seaside-Squeak-Platform
   * Seaside-Tests-Platform
   * Seaside-Tests-Squeak-Platform
