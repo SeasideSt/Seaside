@@ -26,9 +26,9 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
   * Seaside-Tests-Environment (for defects see Issue 319)
 
 = Traditional =
+ * Seaside-Flow
   * Seaside-Tests-Functional
   * Seaside-Tests-Squeak-Functional
- * Seaside-Flow
   * Seaside-Tests-Flow
  * Seaside-Squeak-Continuation
   * Seaside-Squeak-Continuation
