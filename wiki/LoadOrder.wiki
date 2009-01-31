@@ -29,10 +29,10 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
  * Seaside-Squeak-Continuation
   * Seaside-Squeak-Continuation
  * Seaside-Flow
+ * Seaside-Squeak-Flow
   * Seaside-Tests-Functional
   * Seaside-Tests-Squeak-Functional
   * Seaside-Tests-Flow
- * Seaside-Squeak-Flow
  * Seaside-!WebTools
  * Seaside-Squeak-!WebTools
   * Seaside-Tests-!WebTools
