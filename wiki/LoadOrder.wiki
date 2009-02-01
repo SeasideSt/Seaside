@@ -1,7 +1,7 @@
 #summary Load order of packages in Seaside 2.9
 #labels Phase-Implementation
 
-Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
+Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-02-01.svg
 
 = Basic =
  * Seaside-Platform
@@ -29,7 +29,7 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
   * Seaside-Tests-Functional
   * Seaside-Tests-Squeak-Functional
  * Seaside-Squeak-Continuation
-  * Seaside-Squeak-Continuation
+  * Seaside-Tests-Squeak-Continuation
  * Seaside-Flow
  * Seaside-Squeak-Flow
   * Seaside-Tests-Flow
