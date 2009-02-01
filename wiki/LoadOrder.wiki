@@ -5,7 +5,6 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
 
 = Basic =
  * Seaside-Platform
-  * Seaside-Tests-ANSI
  * Seaside-Squeak-Platform
   * Seaside-Tests-Platform
   * Seaside-Tests-Squeak-Platform
@@ -26,12 +25,13 @@ Details: http://www.lukas-renggli.ch/dropbox/seaside-2.9/seaside.svg
   * Seaside-Tests-Environment (for defects see Issue 319)
 
 = Traditional =
+ * (functional tests)
+  * Seaside-Tests-Functional
+  * Seaside-Tests-Squeak-Functional
  * Seaside-Squeak-Continuation
   * Seaside-Squeak-Continuation
  * Seaside-Flow
  * Seaside-Squeak-Flow
-  * Seaside-Tests-Functional
-  * Seaside-Tests-Squeak-Functional
   * Seaside-Tests-Flow
  * Seaside-!WebTools
  * Seaside-Squeak-!WebTools
