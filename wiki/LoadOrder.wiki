@@ -16,7 +16,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
   * Seaside-Tests-Canvas
  * Seaside-Session
   * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
-  * Seaside-Tests-Session (for defects see Issue 316)
+  * Seaside-Tests-Session
  * Seaside-Component
   * Seaside-Tests-Component (for defects see Issue 318)
  * Seaside-!RenderLoop
