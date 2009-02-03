@@ -32,7 +32,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
   * Seaside-Tests-Squeak-Continuation
  * Seaside-Flow
  * Seaside-Squeak-Flow
-  * Seaside-Tests-Flow
+  * Seaside-Tests-Flow (for defects see Issue 309)
  * Seaside-!WebTools
  * Seaside-Squeak-!WebTools
   * Seaside-Tests-!WebTools
