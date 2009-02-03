@@ -64,11 +64,6 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Scriptaculous-Components
   * Scriptaculous-Tests-Components
 
-= Comet =
- * Comet-Core
- * Comet-Squeak-Core
- * Comet-Examples
-
 = HTML 5 =
  * Seaside-HTML5
   * Seaside-Tests-HTML5
@@ -88,6 +83,11 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * !KomHttpServer
  * Seaside-Adaptors-Comanche
   * Seaside-Tests-Adaptors-Comanche
+
+= Comet =
+ * Comet-Core
+ * Comet-Squeak-Core
+ * Comet-Examples
 
 = Swazoo 2 =
  * SPort
