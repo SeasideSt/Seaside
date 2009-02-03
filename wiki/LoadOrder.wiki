@@ -13,7 +13,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Seaside-Squeak-Core
   * Seaside-Tests-Squeak-Core
  * Seaside-Canvas
-  * Seaside-Tests-Canvas (for defects see Issue 314)
+  * Seaside-Tests-Canvas
  * Seaside-Session
   * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
   * Seaside-Tests-Session (for defects see Issue 316)
