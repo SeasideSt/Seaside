@@ -56,7 +56,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
 = Javascript =
  * Javascript-Core
  * Javascript-Squeak-Core
-  * Javascript-Tests-Core
+  * Javascript-Tests-Core (for defects see Issue 334)
 
 = Scriptaculous =
  * Scriptaculous-Core
