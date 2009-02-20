@@ -21,5 +21,6 @@
  * Fix (some) tests (pmm)
 
 =Tasks=
+ * Issue 310
  * Issue 340
  * Issue 169:	Document response factory
