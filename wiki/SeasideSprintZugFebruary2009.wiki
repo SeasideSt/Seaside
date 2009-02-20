@@ -37,3 +37,4 @@
  * Issue 351
  * Issue 346
  * Issue 275
+ * Issue 353
