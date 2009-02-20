@@ -50,7 +50,6 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * RSS-Core
   * RSS-Tests-Core
  * RSS-Examples
- * RSS-Squeak-Examples
 
 = Javascript =
  * Javascript-Core
