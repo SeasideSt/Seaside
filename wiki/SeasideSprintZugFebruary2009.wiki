@@ -1,0 +1,19 @@
+#summary The Seaside Sprint in Zug, February 2009
+=Dates=
+
+ * Friday, February 20, 2009
+ * Saturday, February 21, 2009
+
+=Attendees=
+
+ * Michael Davies
+ * Julian Fitzell
+ * Philippe Marschal
+ * Lukas Renggli
+
+=High-level Priorities=
+
+=Discussion Wanted=
+
+=Tasks=
+ - Issue 314
