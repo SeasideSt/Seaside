@@ -24,3 +24,4 @@
  * Issue 310
  * Issue 340
  * Issue 169:	Document response factory
+ * Issue 348 pmm
