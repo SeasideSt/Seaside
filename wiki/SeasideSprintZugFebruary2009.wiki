@@ -27,6 +27,7 @@
  * Issue 278
  * Issue 283
  * Issue 302
+ * Issue 305
  * Issue 310
  * Issue 313, pmm
  * Issue 320
