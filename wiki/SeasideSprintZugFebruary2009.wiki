@@ -1,4 +1,5 @@
 #summary The Seaside Sprint in Zug, February 2009
+#labels Featured
 =Dates=
 
  * Friday, February 20, 2009
