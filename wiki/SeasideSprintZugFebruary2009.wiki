@@ -19,7 +19,5 @@ _WASession has almost no inst-vars, and almost no code — it makes me hot._
  * Getting Seaside 2.9beta1
  * Fix (some) tests (pmm)
 
-=Discussion Wanted=
-
 =Tasks=
  - Issue 340
