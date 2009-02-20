@@ -21,14 +21,15 @@
  * ~~Fix tests (pmm)~~
 
 =Tasks=
- * Issue 169:	Document response factory
+ * Issue 169
  * Issue 283
  * Issue 310
  * Issue 313, pmm
  * Issue 320
  * Issue 324
  * Issue 340
- * Issue 348 pmm
+ * Issue 348, pmm
  * Issue 337 
  * Issue 283
  * Issue 351
+ * Issue 346
