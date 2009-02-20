@@ -1,7 +1,7 @@
 #summary The Seaside Sprint in Zug, February 2009
 #labels Featured,Sprint
 
-_WASession has almost no inst-vars, and almost no code — it makes me hot._
+*WASession has almost no inst-vars, and almost no code — it makes me hot.*
 
 =Dates=
 
