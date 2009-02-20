@@ -16,7 +16,7 @@ _WASession has almost no inst-vars, and almost no code — it makes me hot._
  * Philippe Marschal
  * Lukas Renggli
 
-=High-level Priorities=
+=Misc=
  * Getting Seaside 2.9beta1
  * Fix (some) tests (pmm)
 
