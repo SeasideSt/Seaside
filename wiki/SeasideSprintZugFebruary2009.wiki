@@ -10,7 +10,7 @@
 
 =Attendees=
 
- * Patrick Collison
+ * Patrick Collison (Friday)
  * Michael Davies
  * Julian Fitzell
  * Philippe Marschal
