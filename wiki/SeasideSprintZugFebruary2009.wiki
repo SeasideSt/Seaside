@@ -21,20 +21,21 @@
  * ~~Fix tests (pmm)~~
 
 =Tasks=
- * Issue 169
- * Issue 278
- * Issue 283
- * Issue 310
- * Issue 313, pmm
- * Issue 320
- * Issue 324
- * Issue 331
- * Issue 340
- * Issue 341
- * Issue 348, pmm
- * Issue 337 
- * Issue 283
- * Issue 351
- * Issue 346
- * Issue 275
- * Issue 353
+
+* Issue 169
+* Issue 275
+* Issue 278
+* Issue 283
+* Issue 283
+* Issue 310
+* Issue 313, pmm
+* Issue 320
+* Issue 324
+* Issue 331
+* Issue 337 
+* Issue 340
+* Issue 341
+* Issue 346
+* Issue 348, pmm
+* Issue 351
+* Issue 353
