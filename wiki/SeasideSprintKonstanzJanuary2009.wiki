@@ -1,5 +1,5 @@
 #summary The Seaside Sprint in Konstanz, January 2009
-#labels Sprint,Featured
+#labels Sprint
 =Dates=
 
  * Saturday, January 10, 2009
