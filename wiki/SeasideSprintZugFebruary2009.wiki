@@ -20,5 +20,5 @@ _WASession has almost no inst-vars, and almost no code — it makes me hot._
  * Fix (some) tests (pmm)
 
 =Tasks=
- - Issue 340
- - Issue 169:	Document response factory
+ * Issue 340
+ * Issue 169:	Document response factory
