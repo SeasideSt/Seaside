@@ -18,7 +18,7 @@
 
 =Misc=
  * Getting Seaside 2.9beta1
- * Fix (some) tests (pmm)
+ * ~~Fix tests (pmm)~~
 
 =Tasks=
  * Issue 310
