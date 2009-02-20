@@ -13,6 +13,7 @@
  * Lukas Renggli
 
 =High-level Priorities=
+ * Fix (some) tests (pmm)
 
 =Discussion Wanted=
 
