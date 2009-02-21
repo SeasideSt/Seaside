@@ -39,7 +39,8 @@
  * Issue 324
  * Issue 329, pmm
  * Issue 331
- * Issue 337 
+ * Issue 337
+ * Issue 339
  * Issue 340
  * Issue 341
  * Issue 345
