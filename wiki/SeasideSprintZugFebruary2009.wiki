@@ -42,6 +42,7 @@
  * Issue 337 
  * Issue 340
  * Issue 341
+ * Issue 345
  * Issue 346
  * Issue 348, pmm
  * Issue 351
