@@ -32,6 +32,7 @@
  * Issue 278
  * Issue 281
  * Issue 283
+ * Issue 288
  * Issue 302
  * Issue 305
  * Issue 310
