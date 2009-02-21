@@ -25,6 +25,7 @@
  * Issue 151
  * Issue 169
  * Issue 221
+ * Issue 247
  * Issue 275
  * Issue 278
  * Issue 283
