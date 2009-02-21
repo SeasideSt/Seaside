@@ -22,6 +22,7 @@
 
 =Tasks=
 
+ * Issue 151
  * Issue 169
  * Issue 221
  * Issue 275
