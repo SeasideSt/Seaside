@@ -12,3 +12,5 @@
    # Evaluate `PBBuilderComponent initializeDistribution; flush` to register and reload the model.
    # Inspect `PBBuilderComponent distributions` to see if the model gets properly loaded.
    # Test and save the image.
+ # Announce the release in the mailing list.
+ # Repeat forever.
