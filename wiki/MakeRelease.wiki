@@ -5,3 +5,5 @@
  # Click through the functional test suite using the all server adaptors and all different encodings.
  # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/unsorted`. Generate the graph `PDPackageAnalizer saveSeasideDependencyGraph` and make sure the dependencies are valid. Export as SVG and PNG versions and include them with the release.
  # Load `Package-Builder` from `http://source.lukas-renggli.ch/unsorted`. Go to `PBSource>>#seaside` and update the version information. Evaluate the code in the comment of that method to gerate the release locally.
+ # Test the distribution locally by going to `http://localhost:8080/seaside/builder`.
+ # Copy the generated distribution to `builder.seaside.st:/srv/builder.seaside.st/web/distribution`.
