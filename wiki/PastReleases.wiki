@@ -1,6 +1,6 @@
 #summary Keeping track of past Seaside Releases
 
-|| *Name* || *Date*
-|| Seaside 2.9.0 Alpha 1 || 
-|| [http://builder.seaside.st/distributions/002-Seaside2.9.0-a2/ Seaside 2.9.0 Alpha 2] || Tuesday, December 30, 2008
-|| [http://builder.seaside.st/distributions/002-Seaside2.9.0-a3/ Seaside 2.9.0 Alpha 3] || Saturday, March 14, 2009
+|| *Name* || *Date* ||
+|| Seaside 2.9.0 Alpha 1 || || 
+|| [http://builder.seaside.st/distributions/002-Seaside2.9.0-a2/ Seaside 2.9.0 Alpha 2] || Tuesday, December 30, 2008 ||
+|| [http://builder.seaside.st/distributions/002-Seaside2.9.0-a3/ Seaside 2.9.0 Alpha 3] || Saturday, March 14, 2009 ||
