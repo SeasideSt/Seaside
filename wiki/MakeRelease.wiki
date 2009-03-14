@@ -8,4 +8,5 @@ Add your content here.
 
  # Load all the latest code from `http://www.squeaksource.com/Seaside29/` and `http://www.squeaksource.com/Seaside29LGPL`.
  # Load `Package-Dependencies` and `Package-Builder` from `http://source.lukas-renggli.ch/unsorted`. Evaluate `PDPackageAnalizer saveSeasideDependencyGraph` and make sure that `seaside.dot` has correct dependencies.
- # Run the tests and make sure they all pass.
+ # Run the unit tests and make sure they all pass. 
+ # Click through the functional test suite using the all server adaptors and all different encodings.
