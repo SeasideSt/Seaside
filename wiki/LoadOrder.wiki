@@ -21,6 +21,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
   * Seaside-Tests-Component (for defects see Issue 318)
  * Seaside-!RenderLoop
   * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
+ * Seaside-Tools-Core
  * Seaside-Environment
   * Seaside-Tests-Environment (for defects see Issue 319)
 
@@ -33,9 +34,9 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Seaside-Flow
  * Seaside-Squeak-Flow
   * Seaside-Tests-Flow (for defects see Issue 309)
- * Seaside-!WebTools
- * Seaside-Squeak-!WebTools
-  * Seaside-Tests-!WebTools
+ * Seaside-Tools-Web
+ * Seaside-Squeak-Tools-Web
+  * Seaside-Tests-Tools-Web
  * Seaside-Development
  * Seaside-Squeak-Development
   * Seaside-Tests-Development
@@ -43,8 +44,8 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Seaside-Examples
 
 = Admin Tools =
- * Seaside-!OmniBrowserTools
- * Seaside-Squeak-!OmniBrowserTools
+ * Seaside-Tools-OmniBrowser
+ * Seaside-Squeak-Tools-OmniBrowser
 
 = RSS =
  * RSS-Core
