@@ -1,6 +1,6 @@
 #summary Keeping track of past and future Seaside Releases
 
-Check the [[http://builder.seaside.st Seaside Builder] for current distributions.
+Check the [http://builder.seaside.st Seaside Builder] for current distributions.
 
 || *Announcement* || *Distribution* || *Date* ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-November/019215.html Seaside 2.9.0 Alpha 1] || || Sunday, November 9, 2008 || 
