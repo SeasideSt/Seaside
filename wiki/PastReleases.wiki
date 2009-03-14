@@ -1,6 +1,6 @@
 #summary Keeping track of past Seaside Releases
 
 || *Announcement* || *Distribution* || *Date* ||
-|| Seaside 2.9.0 Alpha 1 || || Sunday, November 2, 2008 || 
-|| [http://lists.squeakfoundation.org/pipermail/seaside/2008-December/019516.html Seaside 2.9.0 Alpha 2] || [http://builder.seaside.st/distributions/001-Seaside2.9.0-a2/ files]] || Tuesday, December 30, 2008 ||
-|| [http://lists.squeakfoundation.org/pipermail/seaside/2009-March/019936.html Seaside 2.9.0 Alpha 3] || [http://builder.seaside.st/distributions/002-Seaside2.9.0-a3/ files]] || Saturday, March 14, 2009 ||
+|| [http://lists.squeakfoundation.org/pipermail/seaside/2008-November/019215.html Seaside 2.9.0 Alpha 1] || || Sunday, November 9, 2008 || 
+|| [http://lists.squeakfoundation.org/pipermail/seaside/2008-December/019516.html Seaside 2.9.0 Alpha 2] || [http://builder.seaside.st/distributions/001-Seaside2.9.0-a2/ files] || Tuesday, December 30, 2008 ||
+|| [http://lists.squeakfoundation.org/pipermail/seaside/2009-March/019936.html Seaside 2.9.0 Alpha 3] || [http://builder.seaside.st/distributions/002-Seaside2.9.0-a3/ files] || Saturday, March 14, 2009 ||
