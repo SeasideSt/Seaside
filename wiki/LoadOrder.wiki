@@ -44,8 +44,8 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Seaside-Examples
 
 = Admin Tools =
- * Seaside-Tools-OmniBrowser
- * Seaside-Squeak-Tools-OmniBrowser
+ * Seaside-Tools-!OmniBrowser
+ * Seaside-Squeak-Tools-!OmniBrowser
 
 = RSS =
  * RSS-Core
