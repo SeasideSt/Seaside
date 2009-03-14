@@ -11,3 +11,4 @@
    # Update to the latest version of `Package-Builder`.
    # Evaluate `PBBuilderComponent initializeDistribution; flush` to register and reload the model.
    # Inspect `PBBuilderComponent distributions` to see if the model gets properly loaded.
+   # Test and save the image.
