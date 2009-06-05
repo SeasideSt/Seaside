@@ -7,7 +7,7 @@ Check the [http://builder.seaside.st Seaside Builder] for current distributions.
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-April/017392.html Seaside 2.8.1] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.1.sar sar] || Thursday, April 17, 2008 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-June/017939.html Seaside 2.8.2] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.2.sar sar] || Sunday, June 8, 2008 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-August/018628.html Seaside 2.8.3] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.3.sar sar] || Sunday, August 24, 2008 ||
-|| [Seaside 2.8.4] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.4.sar sar] || Friday, June 5, 2009 ||
+|| [http://lists.squeakfoundation.org/pipermail/seaside/2009-June/020869.html Seaside 2.8.4] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.4.sar sar] || Friday, June 5, 2009 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-November/019215.html Seaside 2.9.0 Alpha 1] || [http://builder.seaside.st/distributions/000-Seaside2.9.0-a1/ files] || Sunday, November 9, 2008 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-December/019516.html Seaside 2.9.0 Alpha 2] || [http://builder.seaside.st/distributions/001-Seaside2.9.0-a2/ files] || Tuesday, December 30, 2008 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2009-March/019936.html Seaside 2.9.0 Alpha 3] || [http://builder.seaside.st/distributions/002-Seaside2.9.0-a3/ files] || Saturday, March 14, 2009 ||
