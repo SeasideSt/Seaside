@@ -63,7 +63,9 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * JQuery-UI
    * JQuery-Tests-UI
 
-= Scriptaculous =
+= Prototype and script.aculo.us =
+ * Prototype-Core
+  * Prototype-Tests-Core
  * Scriptaculous-Core
   * Scriptaculous-Tests-Core
  * Scriptaculous-Components
