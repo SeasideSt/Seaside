@@ -57,7 +57,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
  * Javascript-Squeak-Core
   * Javascript-Tests-Core
 
-= JQuery =
+= JQuery and JQueryUI =
  * JQuery-Core
    * JQuery-Tests-Core
  * JQuery-UI
