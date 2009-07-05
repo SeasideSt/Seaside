@@ -10,6 +10,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
   * Seaside-Tests-Squeak-Platform
  * Seaside-Core
   * Seaside-Tests-Core
+  * Seaside-Tests-UTF8
  * Seaside-Squeak-Core
   * Seaside-Tests-Squeak-Core
  * Seaside-Canvas
