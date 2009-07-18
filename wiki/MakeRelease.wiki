@@ -6,7 +6,7 @@
  # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/unsorted`. Generate the graph `PDPackageAnalizer saveSeasideDependencyGraph` and make sure the dependencies are valid. Export as SVG and PNG versions and include them with the release.
  # Load `Package-Builder` from `http://source.lukas-renggli.ch/unsorted`. Go to `PBSource>>#seaside` and update the version information. Evaluate the code in the comment of that method to gerate the release locally.
  # Test the distribution locally by going to `http://localhost:8080/seaside/builder`.
- # Copy the generated distribution to `builder.seaside.st:/srv/builder.seaside.st/web/distribution`, make sure that the owner is set to `www-data`.
+ # Copy the generated distribution to `builder.seaside.st:/srv/builder.seaside.st/web/distributions`, make sure that the owner is set to `www-data`.
  # Using VNC connect to the builder image at builder.seaside.st:5901. 
    # Update to the latest version of `Package-Builder`.
    # Evaluate `PBBuilderComponent initializeDistribution; flush` to register and reload the model.
