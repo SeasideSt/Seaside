@@ -43,6 +43,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-0
   * Seaside-Tests-Development
   * Seaside-Tests-Squeak-Development
  * Seaside-Examples
+  * Seaside-Tests-Examples
 
 = Admin Tools =
  * Seaside-Tools-!OmniBrowser
