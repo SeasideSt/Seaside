@@ -1,7 +1,7 @@
 #summary Load order of packages in Seaside 2.9
 #labels Phase-Implementation
 
-Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-2009-02-01.svg
+Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notests-2009-07-19.svg
 
 = Basic =
  * Seaside-Platform
