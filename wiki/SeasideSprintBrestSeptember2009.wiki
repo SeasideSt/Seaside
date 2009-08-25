@@ -1,4 +1,5 @@
-#summary One-sentence summary of this page.
+#summary The Seaside Sprint in Brest, September 2009
+#labels Sprint
 
 = Introduction =
 
