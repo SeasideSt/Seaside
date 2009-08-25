@@ -1,14 +1,22 @@
 #summary The Seaside Sprint in Brest, September 2009
-#labels Sprint
+#labels Sprint,Featured
 
-= Introduction =
+=Dates=
 
-Add your content here.
+ * Friday, September 4, 2009
+ * Saturday, September 5, 2009
 
+=Location=
 
-= Details =
+ * Unknown
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=Attendees=
+
+ * Julian Fitzell
+ * Philippe Marschal
+ * Lukas Renggli
+
+=Goals=
+ * Getting Seaside 2.9beta1
+
+=Tasks=
