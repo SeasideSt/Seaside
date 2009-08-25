@@ -20,3 +20,13 @@
  * Getting Seaside 2.9beta1
 
 =Tasks=
+  * Issue 215
+  * Issue 340
+  * Issue 127
+  * Issue 263
+  * Issue 267
+  * Issue 338
+  * Issue 384
+  * Issue 414
+  * Issue 418
+  * Issue 433
