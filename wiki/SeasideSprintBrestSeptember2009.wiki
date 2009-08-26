@@ -15,6 +15,7 @@
  * Julian Fitzell
  * Philippe Marschal
  * Lukas Renggli
+ * Michael Lucas-Smith (Friday)
 
 =Goals=
  * Getting Seaside 2.9beta1
