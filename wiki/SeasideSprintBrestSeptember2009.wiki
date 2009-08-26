@@ -16,6 +16,7 @@
  * Philippe Marschal
  * Lukas Renggli
  * Michael Lucas-Smith (Friday)
+ * Dale Henrichs
 
 =Goals=
  * Seaside 2.9 Beta 1
