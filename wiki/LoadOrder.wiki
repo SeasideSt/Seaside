@@ -5,18 +5,18 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
 
 = Basic =
  * Seaside-Platform
- * Seaside-Squeak-Platform
+ * Seaside-Pharo-Platform
   * Seaside-Tests-Platform
-  * Seaside-Tests-Squeak-Platform
+  * Seaside-Tests-Pharo-Platform
  * Seaside-Core
   * Seaside-Tests-Core
   * Seaside-Tests-UTF8
- * Seaside-Squeak-Core
-  * Seaside-Tests-Squeak-Core
+ * Seaside-Pharo-Core
+  * Seaside-Tests-Pharo-Core
  * Seaside-Canvas
   * Seaside-Tests-Canvas
  * Seaside-Session
-  * Seaside-Squeak-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
+  * Seaside-Pharo-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
   * Seaside-Tests-Session
  * Seaside-Component
   * Seaside-Tests-Component (for defects see Issue 318)
@@ -24,31 +24,31 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
   * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
  * Seaside-Tools-Core
  * Seaside-Environment
-  * Seaside-Squeak-Environment
+  * Seaside-Pharo-Environment
   * Seaside-Tests-Environment (for defects see Issue 319)
 
 = Traditional =
  * (functional tests)
   * Seaside-Tests-Functional
-  * Seaside-Tests-Squeak-Functional
- * Seaside-Squeak-Continuation
-  * Seaside-Tests-Squeak-Continuation
+  * Seaside-Tests-Pharo-Functional
+ * Seaside-Pharo-Continuation
+  * Seaside-Tests-Pharo-Continuation
  * Seaside-Flow
- * Seaside-Squeak-Flow
+ * Seaside-Pharo-Flow
   * Seaside-Tests-Flow (for defects see Issue 309)
  * Seaside-Tools-Web
- * Seaside-Squeak-Tools-Web
+ * Seaside-Pharo-Tools-Web
   * Seaside-Tests-Tools-Web
  * Seaside-Development
- * Seaside-Squeak-Development
+ * Seaside-Pharo-Development
   * Seaside-Tests-Development
-  * Seaside-Tests-Squeak-Development
+  * Seaside-Tests-Pharo-Development
  * Seaside-Examples
   * Seaside-Tests-Examples
 
 = Admin Tools =
  * Seaside-Tools-!OmniBrowser
- * Seaside-Squeak-Tools-!OmniBrowser
+ * Seaside-Pharo-Tools-!OmniBrowser
 
 = RSS =
  * RSS-Core
@@ -57,7 +57,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
 
 = Javascript =
  * Javascript-Core
- * Javascript-Squeak-Core
+ * Javascript-Pharo-Core
   * Javascript-Tests-Core
 
 = JQuery and JQueryUI =
@@ -85,7 +85,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
 = Email =
  * Seaside-Email
   * Seaside-Tests-Email
- * Seaside-Squeak-Email
+ * Seaside-Pharo-Email
 
 = Comanche =
  * !DynamicBindings
@@ -97,8 +97,8 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
 = Comet =
  * Comet-Core
   * Comet-Tests-Core
- * Comet-Squeak-Core
- * Comet-Examples
+  * Comet-Pharo-Core
+  * Comet-Examples
 
 = Swazoo 2 =
  * SPort
