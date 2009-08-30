@@ -24,6 +24,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
   * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
  * Seaside-Tools-Core
  * Seaside-Environment
+  * Seaside-Squeak-Environment
   * Seaside-Tests-Environment (for defects see Issue 319)
 
 = Traditional =
