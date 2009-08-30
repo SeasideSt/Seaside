@@ -16,13 +16,13 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
  * Seaside-Canvas
   * Seaside-Tests-Canvas
  * Seaside-Session
-  * Seaside-Pharo-Continuation (temporarily needed by Seaside-Tests-Session, see Issue 309)
   * Seaside-Tests-Session
  * Seaside-Component
   * Seaside-Tests-Component (for defects see Issue 318)
  * Seaside-!RenderLoop
   * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
  * Seaside-Tools-Core
+ * Seaside-SwineFoo
  * Seaside-Environment
   * Seaside-Pharo-Environment
   * Seaside-Tests-Environment (for defects see Issue 319)
