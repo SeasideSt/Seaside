@@ -17,7 +17,6 @@
  * Lukas Renggli
  * Michael Lucas-Smith (Friday)
  * Dale Henrichs
- * John O'Keefe
 
 =Goals=
  * Seaside 3.0 Beta 1
