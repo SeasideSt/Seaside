@@ -1,4 +1,4 @@
-#summary Load order of packages in Seaside 2.9
+#summary Load order of packages in Seaside 3.0
 #labels Phase-Implementation
 
 Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notests-2009-07-19.svg
