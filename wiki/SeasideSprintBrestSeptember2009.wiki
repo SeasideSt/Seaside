@@ -35,3 +35,4 @@
   * Issue 433
   * Issue 445
   * Seaside-SwineFoo has to be renamed
+ * Issue 448
