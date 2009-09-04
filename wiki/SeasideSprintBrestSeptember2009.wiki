@@ -35,13 +35,17 @@
  * Issue 414
  * Issue 416
  * Issue 418
- * Issue 420
  * Issue 423
  * Issue 428
  * Issue 432
  * Issue 433
- * Issue 445
  * Issue 446 / Issue 427
  * Issue 447
  * Issue 448
  * Issue 450 (Seaside-SwineFoo has to be renamed)
+
+= In Progress =
+ * Issue 445
+
+=Bite Sized=
+ * Issue 420
