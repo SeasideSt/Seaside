@@ -28,6 +28,7 @@
  * Seaside 3.0 Beta 1
 
 =Tasks=
+_(hover over the issues to get a short description)_
  * Issue 215
  * Issue 217
  * Issue 263
