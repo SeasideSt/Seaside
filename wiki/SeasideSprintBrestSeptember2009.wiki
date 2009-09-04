@@ -17,7 +17,11 @@
  * Lukas Renggli
  * Dale Henrichs
  * Michael Davies
+ * James Foster
  * Yann Monclair
+ * Adriaan van Os
+ * Soemirno Kartosoewito
+ * Nick Ager
 
 =Goals=
  * Seaside 3.0 Beta 1
