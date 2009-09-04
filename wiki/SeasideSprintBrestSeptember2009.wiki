@@ -39,11 +39,12 @@
  * Issue 432
  * Issue 446 / Issue 427
  * Issue 447
- * Issue 448
  * Issue 450 (Seaside-SwineFoo has to be renamed)
+ * Issue 454
 
 = In Progress =
  * Issue 445
+ * Issue 448
 
 = Bite Sized =
  * Issue 420
