@@ -17,6 +17,7 @@
  * Lukas Renggli
  * Dale Henrichs
  * Michael Davies
+ * Yann Monclair
 
 =Goals=
  * Seaside 3.0 Beta 1
