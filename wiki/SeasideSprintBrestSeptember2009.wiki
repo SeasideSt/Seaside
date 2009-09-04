@@ -36,9 +36,7 @@
  * Issue 416
  * Issue 418
  * Issue 423
- * Issue 428
  * Issue 432
- * Issue 433
  * Issue 446 / Issue 427
  * Issue 447
  * Issue 448
@@ -47,5 +45,9 @@
 = In Progress =
  * Issue 445
 
-=Bite Sized=
+= Bite Sized =
  * Issue 420
+
+= Done =
+ * Issue 428
+ * Issue 433
