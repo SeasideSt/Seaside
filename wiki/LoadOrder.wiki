@@ -22,7 +22,7 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
  * Seaside-!RenderLoop
   * Seaside-Tests-!RenderLoop (this is an essentially empty package with no tests)
  * Seaside-Tools-Core
- * Seaside-SwineFoo
+ * Seaside-Widgets
  * Seaside-Environment
   * Seaside-Pharo-Environment
   * Seaside-Tests-Environment (for defects see Issue 319)
