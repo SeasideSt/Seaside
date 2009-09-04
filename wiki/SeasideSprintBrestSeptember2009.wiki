@@ -22,16 +22,19 @@
  * Seaside 3.0 Beta 1
 
 =Tasks=
-  * Issue 215
-  * Issue 217
-  * Issue 263
-  * Issue 267
-  * Issue 338
-  * Issue 384
-  * Issue 414
-  * Issue 418
-  * Issue 428
-  * Issue 433
-  * Issue 445
-  * Issue 448
-  * Issue 450 (Seaside-SwineFoo has to be renamed)
+ * Issue 215
+ * Issue 217
+ * Issue 263
+ * Issue 267
+ * Issue 338
+ * Issue 384
+ * Issue 414
+ * Issue 418
+ * Issue 428
+ * Issue 432
+ * Issue 433
+ * Issue 445
+ * Issue 446 / Issue 427
+ * Issue 447
+ * Issue 448
+ * Issue 450 (Seaside-SwineFoo has to be renamed)
