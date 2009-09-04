@@ -44,7 +44,6 @@ _(hover over the issues to get a short description)_
  * Issue 433
  * Issue 445
  * Issue 446 / Issue 427
- * Issue 447
  * Issue 448
  * Issue 450
  * Issue 454
