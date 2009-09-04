@@ -22,6 +22,7 @@
  * Adriaan van Os
  * Soemirno Kartosoewito
  * Nick Ager
+ * Damien Cassou
 
 =Goals=
  * Seaside 3.0 Beta 1
