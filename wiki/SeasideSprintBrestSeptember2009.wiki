@@ -1,14 +1,10 @@
 #summary The Seaside Sprint in Brest, September 2009
 #labels Sprint,Featured
 
-=Dates=
+=Dates and Location=
 
- * Friday, September 4, 2009
- * Saturday, September 5, 2009
-
-=Location=
-
- * Unknown
+ * Friday, September 4, 2009 &mdash; University of Brest
+ * Saturday, September 5, 2009 &mdash; Unknown
 
 =Attendees=
 
