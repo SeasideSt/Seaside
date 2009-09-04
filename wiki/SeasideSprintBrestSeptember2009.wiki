@@ -15,8 +15,8 @@
  * Julian Fitzell
  * Philippe Marschal
  * Lukas Renggli
- * Michael Lucas-Smith (Friday)
  * Dale Henrichs
+ * Michael Davies
 
 =Goals=
  * Seaside 3.0 Beta 1
@@ -27,7 +27,6 @@
   * Issue 263
   * Issue 267
   * Issue 338
-  * Issue 340
   * Issue 384
   * Issue 414
   * Issue 418
