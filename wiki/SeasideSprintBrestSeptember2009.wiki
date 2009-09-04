@@ -26,10 +26,15 @@
  * Issue 217
  * Issue 263
  * Issue 267
+ * Issue 309
  * Issue 338
  * Issue 384
+ * Issue 409
+ * Issue 405 ??
  * Issue 414
+ * Issue 416
  * Issue 418
+ * Issue 420
  * Issue 423
  * Issue 428
  * Issue 432
