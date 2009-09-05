@@ -32,7 +32,6 @@ _(hover over the issues to get a short description)_
  * Issue 217
  * Issue 235
  * Issue 263
- * Issue 267
  * Issue 301
  * Issue 309
  * Issue 338
@@ -51,9 +50,12 @@ _(hover over the issues to get a short description)_
  * Issue 433
  * Issue 442
  * Issue 445
- * Issue 446 / Issue 427
+ * Issue 446
  * Issue 448
  * Issue 450
  * Issue 454
  * Issue 456
  * Issue 457
+
+=Delayed=
+ * Issue 267
