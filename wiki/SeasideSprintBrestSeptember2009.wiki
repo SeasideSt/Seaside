@@ -4,7 +4,7 @@
 =Dates and Location=
 
  * Friday, September 4, 2009 — University of Brest
- * Saturday, September 5, 2009 — [http://maps.google.ch/maps?q=48.39127,-4.487765&num=1&sll=48.395986,-4.484997&sspn=0.007922,0.018561&ie=UTF8&ll=48.392182,-4.485168&spn=0.008278,0.018561&z=16&iwloc=A WiFi Bar in Brest]
+ * Saturday, September 5, 2009 — [http://www.fra.cityvox.fr/bars-et-boites_brest/bhv_39892/Profil-Lieu A WiFi Bar in Brest]
 
 =Attendees=
 
@@ -12,13 +12,13 @@
  * Philippe Marschal
  * Lukas Renggli
  * Dale Henrichs
- * Michael Davies
- * James Foster
+ * Michael Davies 
+ * James Foster (Friday)
  * Yann Monclair
- * Adriaan van Os
- * Soemirno Kartosoewito
- * Nick Ager
- * Damien Cassou
+ * Adriaan van Os (Friday)
+ * Soemirno Kartosoewito (Friday)
+ * Nick Ager (Friday)
+ * Damien Cassou (Friday)
 
 =Goals=
  * Seaside 3.0 Beta 1
