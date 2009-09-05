@@ -34,16 +34,18 @@ _(hover over the issues to get a short description)_
  * Issue 309
  * Issue 338
  * Issue 384
- * Issue 409
  * Issue 405
+ * Issue 409
  * Issue 414
  * Issue 416
  * Issue 418
  * Issue 420
  * Issue 423
+ * Issue 427
  * Issue 428
  * Issue 432
  * Issue 433
+ * Issue 442
  * Issue 445
  * Issue 446 / Issue 427
  * Issue 448
