@@ -36,6 +36,7 @@ _(hover over the issues to get a short description)_
  * Issue 301
  * Issue 309
  * Issue 338
+ * Issue 361 
  * Issue 384
  * Issue 405
  * Issue 409
@@ -54,6 +55,3 @@ _(hover over the issues to get a short description)_
  * Issue 448
  * Issue 450
  * Issue 454
-
-= Others =
- * Issue 361 
