@@ -59,6 +59,7 @@ _(hover over the issues to get a short description)_
  * Issue 456
  * Issue 457
  * Issue 458
+ * Issue 459
 
 =Delayed=
  * Issue 267
