@@ -8,17 +8,19 @@
  * Saturday, September 5, 2009
    * "Bar B.H.V.", place de la liberté
    * "Il Caffe", place de la liberté
+ * Sunday, September 6, 2009
+   * "Mezzo di Pasta", place de la liberté
 
 =Attendees=
 
- * Julian Fitzell
+ * Julian Fitzell (Friday, Saturday)
  * Philippe Marschal
  * Lukas Renggli
  * Dale Henrichs
- * Michael Davies 
- * Yann Monclair
- * Nick Ager
- * James Foster (Friday)
+ * Michael Davies (Friday, Saturday)
+ * Yann Monclair (Friday, Saturday)
+ * Nick Ager (Friday, Saturday)
+ * James Foster (Friday, Sunday)
  * Adriaan van Os (Friday)
  * Soemirno Kartosoewito (Friday)
  * Damien Cassou (Friday)
