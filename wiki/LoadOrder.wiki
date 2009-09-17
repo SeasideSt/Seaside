@@ -9,11 +9,12 @@ Details: http://seaside.googlecode.com/files/seaside-dependencies-reduced-notest
   * Seaside-Tests-Platform
   * Seaside-Tests-Pharo-Platform
  * Seaside-Core
+ * Seaside-Pharo-Core
   * Seaside-Tests-Core
   * Seaside-Tests-UTF8
- * Seaside-Pharo-Core
   * Seaside-Tests-Pharo-Core
  * Seaside-Canvas
+ * Seaside-Pharo-Canvas
   * Seaside-Tests-Canvas
  * Seaside-Session
   * Seaside-Tests-Session
