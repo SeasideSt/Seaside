@@ -14,7 +14,7 @@
  # Copy the generated distribution to `builder.seaside.st:/srv/builder.seaside.st/web/distributions`, make sure that the owner is set to `www-data`.
  # Using VNC connect to the builder image at builder.seaside.st:5901. 
    # Update to the latest version of `Package-Builder`.
-   # Evaluate `PBBuilderComponent initializeDistribution; flush` to register and reload the model.
+   # Evaluate `PBBuilderComponent initializeDeployment; flush` to register and reload the model.
    # Inspect `PBBuilderComponent distributions` to see if the model gets properly loaded.
    # Test and save the image.
  # Announce the release in the mailing list.
