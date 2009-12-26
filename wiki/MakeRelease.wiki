@@ -18,4 +18,5 @@
    # Inspect `PBBuilderComponent distributions` to see if the model gets properly loaded.
    # Test and save the image.
  # Announce the release in the mailing list.
+ # Update PastReleases.
  # Repeat forever.
