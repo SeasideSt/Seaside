@@ -3,11 +3,11 @@
  # Load all the latest code from `http://www.squeaksource.com/Seaside30/` and `http://www.squeaksource.com/Seaside30LGPL`.
    # Run the unit tests and make sure they all pass. 
    # Click through the functional test suite using the all server adaptors and all different encodings.
- # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/unsorted`.
+ # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/packaging`.
   # You will need GraphViz packages from there too
   # Generate the graph `PDPackageAnalizer saveSeasideDependencyGraph` and make sure the dependencies are valid.
   # Export as SVG and PNG versions and include them with the release.
- # Load `Package-Builder` from `http://source.lukas-renggli.ch/unsorted`.
+ # Load `Package-Builder` from `http://source.lukas-renggli.ch/packaging`.
   # Go to `PBSource>>#seaside` and update the version information.
   # Evaluate the code in the comment of that method to gerate the release locally.
  # Test the distribution locally by going to `http://localhost:8080/seaside/builder`.
