@@ -1,18 +1,24 @@
 #summary The packages of the Seaside project follow a generic pattern.
 
-=Pattern=
+=Grammar=
 
-`Top-(Purpose-)(Platform-)Rest`
+Below a rough [http://en.wikipedia.org/wiki/Extended_Backus–Naur_Form EBNF grammar] of how Seaside and Monticello expect packages and versions to be named (no spaces allowed anywhere):
 
-=Tokens=
+{{{
+Package     = PackageName VersionInfo
+PackageName = Name "-" [ Purpose "-" ] [ Platform "-" ] Rest
+VersionInfo = "-" Author [ "." Branch ] "." Version
+}}}
+
+=Package Name=
 
 || *Token* || *Required* || *Explanation* || *Examples* ||
-|| Top || mandatory || The top level package name || `Seaside`, `Scriptaculous`, ... ||
+|| Name || mandatory || The top level package name || `Seaside`, `Scriptaculous`, ... ||
 || Purpose || optional || Present for tests or examples only || `Tests`, `Examples`, ... ||
 || Platform || optional || Present for platform specific code only || `Squeak`, `GemStone`, ... ||
 || Rest || mandatory || The second level package name (avoid $- in the name) || `Core`, `Canvas`, ...  ||
 
-=Example=
+===Examples===
 
 The package ...
 
@@ -21,3 +27,18 @@ The package ...
   * `Seaside-Examples-Canvas` contains example code showing off the canvas implementation.
   * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
   * `Seaside-Tests-Squeak-Canvas` contains the platform specific tests of the canvas implementation.
+
+=Version Info=
+
+|| *Token* || *Required* || *Explanation* || *Examples* ||
+|| Author || mandatory || The author initials, short sequence of lowercase letters || `lr`, `jf`, `pmm`, ... ||
+|| Branch || optional || The branch name starts with a lowercase letter || `issue123`, `configcleanup`, ... ||
+|| Version || mandatory || The version numbers, starting at 1 sequentially counting upwards || `1`, `2`, `3`, ... ||
+
+===Examples===
+
+The versions ...
+
+  * `Seaside-Core-pmm.2` is the second version of the package `Seaside-Core` committed by pmm.
+  * `Seaside-Core-jf.configcleanup.3` is the third version of the package `Seaside-Core` committed by jf into the configcleanup branch.
+  * `Seaside-Core-lr.configcleanup.extraspeedup.69` is the version 69 of the package `Seaside-Core` committed by lr, and is possibly a merge of the branches configcleanup and extraspeedup.
