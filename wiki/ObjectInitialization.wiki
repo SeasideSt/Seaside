@@ -1,6 +1,6 @@
-Making sure all objects are properly initialized can be complex, particularly when dealing with multiple platforms. We have adopted the following initialization and instance creation conventions in Seaside to make sure behaviour is consistent.
+#summary Object initialization and instantion
 
-If possible, make sure classes inherit from `GRObject`; This will ensure that the class has an `#initialize` method and that it gets called when an object is created with `#new`.
+Making sure all objects are properly initialized can be complex, particularly when dealing with multiple platforms. We have adopted the following initialization and instance creation conventions in Seaside to make sure behaviour is consistent. If possible, make sure classes inherit from `GRObject`; This will ensure that the class has an `#initialize` method and that it gets called when an object is created with `#new`.
 
 =Initialization=
 
