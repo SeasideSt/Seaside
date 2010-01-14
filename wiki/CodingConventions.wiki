@@ -6,19 +6,19 @@ Most of our coding conventions are automatically detected by [http://st-www.cs.u
 
 Seaside code has to work on many platforms. At the end of the day the porters will make sure the code is portable, just keep this in mind and don't make their life unnecessary hard. The following list shall serve as a guideline. When in doubt ask on the mailing-list. Tests certainly help to document your assumptions about a platform.
 
-  * Use `#seasideString` for String conversion.
+  * Use `#greaseString` for String conversion.
   * Do not use any of these methods, they are missing, broken or have different semantics on some platforms:
     * Object: `#ifNotNil:`, `#ifNotNilDo:`, `#in:`, ...
     * Boolean: `#and:and:and:`, `#or:or:or:`, ...
-    * Collection: `#`=, `#pairsDo:`, `#with:collect:`
+    * Collection: `#=`, `#pairsDo:`, `#with:collect:`
     * String: `#match:`
     * Stream: `#position`, `#position:`, `#isEmpty`
   * Don't assume `Symbol` to be a subtype of `String`.
-  * Use `WAPlatform` sparingly and only if there is absolutely no other way.
+  * Use `GRPlatform` sparingly and only if there is absolutely no other way.
   * Non-ASCII Strings and Characters are inherently unportable. Same goes for class look-up, compilation and IO. `Character cr` and `Character lf` are not the same on all platforms.
   * Don't use any dialect specific syntax, like byte array literals `#[ ]`, curly braces `{ }`, or pragmas `<pragma>`.
   * For portable code subclass `GRObject`. This makes sure your objects will receive an `#initialize` message upon creation, see [ObjectInitialization] for details.
-  * Instead of `Random` and `Semaphore` use `SeasidePlatformSupport randomClass` and `SeasidePlatformSupport semaphoreClass`.
+  * Instead of `Random` and `Semaphore` use `GRPlatform current newRandom` and `GRPlatform current semaphoreClass`.
   * Instead of `TimeStamp` use `DateAndTime`
   * Do not do non-local returns in error handler block.
   * The receiving block of #on:do: after processing the exception handler of a notification may resume the execution.
@@ -29,13 +29,13 @@ Seaside code has to work on many platforms. At the end of the day the porters wi
   * Send `#daysInMonthNumber:forYear:` to `Date`. Not `#daysInMonth:forYear:` to `Month` or `Date`.
   * Use `#keysAndValuesDo:` instead of `#withIndexDo:`.
   * In Seaside 2.8 and earlier use the class side `#raiseSignal` or `#raiseSignal:` to throw exceptions.
-  * In Seaside 3.0 and later use ASNI exceptions, that means instance or class side `#signal` or `#signal:` on `WAError` and `WANotifications` or subclasses. Do not use any other exception classes.
+  * In Seaside 3.0 and later use ANSI exceptions, that means instance or class side `#signal` or `#signal:` on `GRError` and `GRNotification` or subclasses. Do not use any other exception classes.
   * Do not send `#fork` to a block if you want to get a reference to the created process. Use a combination of `#newProcess` and `#resume`.
   * The second argument passed to `#on:do:` must be a one argument block.
   * Starting with Seaside 3.0 conform with the [ValuableProtocol].
   * Don't send #next to a `ReadStream` that is at end. Instead send #atEnd to check if the stream is at the end.
-  * starting with Seaside 3.0 use #seasideInteger to
-    * convert `Number`s to `Integer`s (ASNI behavior)
+  * starting with Seaside 3.0 use #greaseInteger to
+    * convert `Number`s to `Integer`s (ANSI behavior)
     * convert `String`s to `Integer`s
     * get the code point of a `Character`
   * Use `WriteStream on: String new` instead of `String new writeStream`
@@ -49,7 +49,7 @@ Making sure all objects are properly initialized can be complex, particularly wh
 We are picky about formatting so this gets its own section.
 
   * Have a look at existing code to get a feel.
-  * Always use `:`= for assignments, never the non-portable `&larr;`.
+  * Always use `:=` for assignments, never the non-portable `&larr;`.
   * Don't use a pretty printer.
   * Properly indent your code using tabs, not spaces.
   * No unnecessary brackets, don't bracket the receiver of a cascade if not necessary.
