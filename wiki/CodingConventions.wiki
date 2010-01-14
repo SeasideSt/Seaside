@@ -1,3 +1,5 @@
+#summary The Seaside coding conventions
+
 Most of our coding conventions are automatically detected by [http://st-www.cs.uiuc.edu/users/brant/Refactory/Lint.html Code Critics] and [http://www.lukas-renggli.ch/blog/slime Slime], a Seaside specific extension to Code Critics. We recommend that you follow [http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X Smalltalk Best Practice Pattern] by Kent Beck.
 
 =Portability=
