@@ -49,7 +49,7 @@ Making sure all objects are properly initialized can be complex, particularly wh
 We are picky about formatting so this gets its own section.
 
   * Have a look at existing code to get a feel.
-  * Always use `:=` for assignments, never the non-portable `&larr;`.
+  * Always use `:=` for assignments, never the non-portable `_`.
   * Don't use a pretty printer.
   * Properly indent your code using tabs, not spaces.
   * No unnecessary brackets, don't bracket the receiver of a cascade if not necessary.
