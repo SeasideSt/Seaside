@@ -50,7 +50,7 @@ We are picky about formatting so this gets its own section.
 
   * Have a look at existing code to get a feel.
   * Always use `:=` for assignments, never the non-portable `_`.
-  * Don't use a pretty printer.
+  * Always put a space before and after a binary selector.
   * Properly indent your code using tabs, not spaces.
   * No unnecessary brackets, don't bracket the receiver of a cascade if not necessary.
   * No unnecessary blank lines, expect after the method comment.
@@ -59,11 +59,12 @@ We are picky about formatting so this gets its own section.
   * Add a space at the beginning and end of a temporary variable declarations and blocks.
   * Avoid unnecessary statement separators.
   * Close multiple blocks on one line.
-  * The complete ancestry must be in the Monticello repository.
   * The first comment of a method should state the use and the expected arguments of public methods. Keep it short, but ensure that these are valid sentences starting with an uppercase letter and end with a full stop.
   * Avoid comments within the method body.
+  * Avoid using a pretty printer.
 
 =Presentation=
+  * The complete ancestry must be in the Monticello repository.
   * Commit small changes (a single method is fine), big changes make merging hard.
   * Avoid the use of `#style` and `#script` if possible.
   * Refrain from using IDs and use CSS classes instead.
