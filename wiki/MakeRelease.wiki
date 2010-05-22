@@ -11,3 +11,19 @@
  # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
  # Announce the release in the mailing list.
  # Repeat forever.
+
+Suggested script to setup the image:
+{{{
+Workspace new
+	contents: 'Welcome to Seaside 3.0.
+
+Seaside is already running on port 8080. To get started, simply use your browser to open http://localhost:8080/ and take a look at the examples and documentation listed there.
+
+You can start and stop the server (and change the port) using the new Seaside Control Panel, which is open in the bottom left corner.';
+	openLabel: 'Seaside 3.0'.
+
+WAKom startOn: 8080.
+WAServerAdaptorBrowser open.
+
+"Position the windows!!!"
+}}}
