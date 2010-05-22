@@ -17,4 +17,8 @@
 
 =Tasks=
 _(hover over the issues to get a short description)_
- * Issue ???
+ * Issue 552
+ * Functional tests
+ * Load order tests
+ * Class comment check
+ * First-sight experience
