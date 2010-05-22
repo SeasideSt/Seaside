@@ -8,6 +8,6 @@
   # Generate the graph `PDPackageAnalizer saveSeasideDependencyGraph` and make sure the dependencies are valid.
   # Export as SVG and PNG versions and include them with the release.
  # Update PastReleases.
- # Prepare a list of resolved issues: http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles
+ # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
  # Announce the release in the mailing list.
  # Repeat forever.
