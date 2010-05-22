@@ -26,4 +26,5 @@ _(hover over the issues to get a short description)_
  * ~~Load order tests~~
  * Class comment check
  * First-sight experience
+ * Fix deprecated calls
  * Debugging?
