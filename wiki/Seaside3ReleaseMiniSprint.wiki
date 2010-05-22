@@ -1,4 +1,5 @@
 #summary Seaside 3.0 Release Party!
+#labels Sprint,Featured
 
 =Dates and Location=
 
