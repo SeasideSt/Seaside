@@ -22,9 +22,12 @@
 =Tasks=
 _(hover over the issues to get a short description)_
  * Issue 552
- * Functional tests
+ * ~~Functional tests~~
  * ~~Load order tests~~
  * Class comment check
  * First-sight experience
  * Fix deprecated calls
  * Debugging?
+ * ~~Update version numbers~~
+ * Release announcement
+ * Build final image
