@@ -5,12 +5,14 @@
 
  * Saturday, May 22, 2010
    * Yann's Swingin' Pad
+   * Michael's Structurally Stable Apartment
 
 =Attendees=
 
  * Julian Fitzell
  * Yann Monclair
  * Nick Ager
+ * Michael Lucas-Smith
 
 =Goals=
  * Seaside 3.0 RC
