@@ -5,7 +5,7 @@
    # Click through the functional test suite using the all server adaptors and all different encodings.
  # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/packaging`.
   # You will need GraphViz packages from there too
-  # Generate the graph `PDPackageAnalizer saveSeasideDependencyGraph` and make sure the dependencies are valid.
+  # Generate the graph `PDPackageAnalyzer seaside` and make sure the dependencies are valid.
   # Export as SVG and PNG versions and include them with the release.
  # Update PastReleases.
  # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
