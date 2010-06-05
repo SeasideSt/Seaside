@@ -17,8 +17,8 @@
       is mapped to our webapp/ directory, so this is a convenient way to serve
       static resources.
     -->
-    <f:entry title="French"
-      description="Check if we should say hello in French"
+    <f:entry title="VM"
+      description="Configure Pharo VM parameters"
       help="/plugin/pharo-build/help-globalConfig.html">
       <!--
         we'll have on input field. In HTML, single "namespace" is shared between
@@ -26,7 +26,12 @@
         collide with other plugins. The 'descriptor' variable represents our descriptor
         object, so we use that to determine the initial value for this form.
       -->
-      <f:checkbox name="pharo.useFrench" checked="${descriptor.useFrench()}" />
+      <f:entry title="VM" field="vm">
+        <f:textbox name="pahrobuilder.vm" value="${descriptor.getVm()}"/>
+      </f:entry>
+      <f:entry title="Parameters" field="parameters">
+        <f:textbox name="pahrobuilder.parameters" value="${descriptor.getParameters()}"/>
+      </f:entry>
     </f:entry>
   </f:section>
 </j:jelly>
