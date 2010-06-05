@@ -9,20 +9,20 @@ import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
 import hudson.util.ArgumentListBuilder;
+import hudson.util.FormValidation;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 import java.util.Map;
 
 import net.sf.json.JSONObject;
 
 import org.kohsuke.stapler.DataBoundConstructor;
+import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
 
-import st.seaside.PharoBuilder.DescriptorImpl;
 
 /**
  * {@link Builder} for <a href="http://www.pharo-project.org/">Pharo</a>
@@ -43,6 +43,9 @@ import st.seaside.PharoBuilder.DescriptorImpl;
  * @author Philippe Marschall
  */
 public class PharoBuilder extends Builder {
+    
+    @Extension
+    public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
     private final String inputImage;
     private final String outputImage;
@@ -73,7 +76,15 @@ public class PharoBuilder extends Builder {
         FileOutputStream stream = new FileOutputStream(file);
         try {
             OutputStreamWriter writer = new OutputStreamWriter(stream);
-            writer.write(this.getCode());
+            String beforeCode = getDescriptor().getBeforeCode();
+            if (beforeCode != null && !beforeCode.isEmpty()) {
+                writer.write(beforeCode + "\n!\n");
+            }
+            writer.write(this.getCode() + "\n!\n");
+            String afterCode = getDescriptor().getAfterCode();
+            if (afterCode != null && !afterCode.isEmpty()) {
+                writer.write(afterCode + "\n!\n");
+            }
             writer.close();
         } finally {
             stream.close();
@@ -106,7 +117,6 @@ public class PharoBuilder extends Builder {
         File script = this.getStartUpScript();
         try {
             args.add(script);
-            listener.getLogger().println(Arrays.toString(args.toCommandArray()));
             int r = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(build.getModuleRoot()).join();
             return r == 0;
         } catch (IOException e) {
@@ -128,7 +138,8 @@ public class PharoBuilder extends Builder {
      */
     @Override
     public DescriptorImpl getDescriptor() {
-        return (DescriptorImpl) super.getDescriptor();
+//        return (DescriptorImpl) super.getDescriptor();
+        return DESCRIPTOR;
     }
 
     /**
@@ -139,28 +150,54 @@ public class PharoBuilder extends Builder {
      * See <tt>views/hudson/plugins/pharo-build/PharoBuilder/*.jelly</tt>
      * for the actual HTML fragment for the configuration screen.
      */
-    @Extension // this marker indicates Hudson that this is an implementation of an extension point.
     public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
         
         private String vm;
         
         private String parameters;
+        
+        private String beforeCode;
+        
+        private String afterCode;
+        
+        public DescriptorImpl() {
+            super(PharoBuilder.class);
+            load();
+        }
 
-//        /**
-//         * Performs on-the-fly validation of the form field 'name'.
-//         *
-//         * @param value
-//         *      This parameter receives the value that the user has typed.
-//         * @return
-//         *      Indicates the outcome of the validation. This is sent to the browser.
-//         */
-//        public FormValidation doCheckName(@QueryParameter String value) throws IOException, ServletException {
-//            if(value.isEmpty())
-//                return FormValidation.error("Please set a name");
-//            if(value.length() < 4)
-//                return FormValidation.warning("Isn't the name too short?");
-//            return FormValidation.ok();
-//        }
+        protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
+            super(clazz);
+        }
+
+        /**
+         * Performs on-the-fly validation of the form field 'name'.
+         *
+         * @param value
+         *      This parameter receives the value that the user has typed.
+         * @return
+         *      Indicates the outcome of the validation. This is sent to the browser.
+         */
+        public FormValidation doCheckVm(@QueryParameter String value) {
+            if(value.isEmpty()) {
+                return FormValidation.error("Please set a VM path");
+            }
+            return FormValidation.ok();
+        }
+        
+        /**
+         * Performs on-the-fly validation of the form field 'name'.
+         *
+         * @param value
+         *      This parameter receives the value that the user has typed.
+         * @return
+         *      Indicates the outcome of the validation. This is sent to the browser.
+         */
+        public FormValidation doCheckVM(@QueryParameter String value) {
+            if(value.isEmpty()) {
+                return FormValidation.error("Please set a VM path!");
+            }
+            return FormValidation.ok();
+        }
 
         /**
          * {@inheritDoc}
@@ -188,6 +225,8 @@ public class PharoBuilder extends Builder {
             // set that to properties and call save().
             this.vm = formData.getString("vm");
             this.parameters = formData.getString("parameters");
+            this.beforeCode = formData.getString("beforeCode");
+            this.afterCode = formData.getString("afterCode");
             // ^Can also use req.bindJSON(this, formData);
             //  (easier when there are many fields; need set* methods for this, like setUseFrench)
             save();
@@ -202,8 +241,50 @@ public class PharoBuilder extends Builder {
             return this.parameters;
         }
         
+        public String getBeforeCode() {
+            return this.beforeCode;
+        }
+
+        public String getAfterCode() {
+            return this.afterCode;
+        }
+
+        public String defaultVm() {
+            return "squeak";
+        }
         public String defaultParamters() {
             return "-nodisplay -nosound";
+        }
+        
+        public String defaultBeforeCode() {
+            return "\"Preparations\"\n" 
+            		+ "MCCacheRepository instVarNamed: 'default' put: nil.";
+        }
+        
+        public String defaultAfterCode() {
+            return "\"Clear Author\"\n" + 
+            		"Author reset.\n" + 
+            		"!\n" + 
+            		"\"Clear Monticello Caches\"\n" + 
+            		"MCCacheRepository instVarNamed: 'default' put: nil.\n" + 
+            		"MCFileBasedRepository flushAllCaches.\n" + 
+            		"MCMethodDefinition shutDown.\n" + 
+            		"MCDefinition clearInstances.\n" + 
+            		"!\n" + 
+            		"\"Cleanup Smalltalk\"\n" + 
+            		"Smalltalk flushClassNameCache.\n" + 
+            		"Smalltalk organization removeEmptyCategories.\n" + 
+            		"Smalltalk allClassesAndTraitsDo: [ :each |\n" + 
+            		"    each organization removeEmptyCategories; sortCategories.\n" + 
+            		"    each class organization removeEmptyCategories; sortCategories ].\n" + 
+            		"!\n" + 
+            		"\"Cleanup System Memory\"\n" + 
+            		"Smalltalk garbageCollect.\n" + 
+            		"Symbol compactSymbolTable.\n" + 
+            		"!\n" + 
+            		"\"Save and Quit\"\n" + 
+            		"WorldState addDeferredUIMessage: [\n" + 
+            		"    SmalltalkImage current snapshot: true andQuit: true ].";
         }
 
     }
