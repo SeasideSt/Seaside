@@ -21,8 +21,20 @@
       <id>philippe.marschall</id>
       <name>Philippe Marschall</name>
       <email>philippe.marschall@gmail.com</email>
+      <timezone>+1</timezone>
     </developer>
   </developers>
+  
+  <distributionManagement>
+    <repository>
+      <id>google-seaside-svn-repo</id>
+      <url>svn:https://seaside.googlecode.com/svn/repo</url>
+    </repository>
+    <site>
+      <id>google-seaside-svn-site</id>
+      <url>svn:https://seaside.googlecode.com/svn/site</url>
+    </site>    
+  </distributionManagement>
   
   <build>
    <plugins>
@@ -35,6 +47,13 @@
        </configuration>
      </plugin>
    </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.jvnet.wagon-svn</groupId>
+        <artifactId>wagon-svn</artifactId>
+        <version>1.9</version>  
+      </extension>
+    </extensions> 
   </build>
 
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
