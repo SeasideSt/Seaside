@@ -1,0 +1,15 @@
+1. Configure your credentials in your settings.xml 
+     <server>
+       <id>google-seaside-webdav-repo</id>
+       <username>john.doe</username>
+       <password>yourGoogleCodePassword</password>
+     </server>
+     <server>
+       <id>google-seaside-webdav-site</id>
+       <username>john.doe</username>
+       <password>yourGoogleCodePassword</password>
+     </server>
+
+2. Invoke Maven
+mvn release:prepare -Dusername=john.doe -Dpassword=yourGoogleCodePassword
+mvn release:perform -Dusername=john.doe -Dpassword=yourGoogleCodePassword -DrepositoryId=google-seaside-webdav-repo
