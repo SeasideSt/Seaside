@@ -1,15 +1,8 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-  <!--
-    This jelly script is used for per-project configuration.
-
-    See global.jelly for a general discussion about jelly script.
-  -->
-
-  <!--
-    Creates a text field that shows the value of the "name" property.
-    When submitted, it will be passed to the corresponding constructor parameter.
-  -->
-  <f:entry title="Name" field="name">
-    <f:textbox />
+  <f:entry title="Input Image" field="inputImage">
+    <f:textbox value="${instance.inputImage}"/>
+  </f:entry>
+  <f:entry title="Output Image" field="outputImage">
+    <f:textbox value="${instance.outputImage}"/>
   </f:entry>
 </j:jelly>

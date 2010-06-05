@@ -17,21 +17,22 @@
       is mapped to our webapp/ directory, so this is a convenient way to serve
       static resources.
     -->
-    <f:entry title="VM"
-      description="Configure Pharo VM parameters"
-      help="/plugin/pharo-build/help-globalConfig.html">
       <!--
         we'll have on input field. In HTML, single "namespace" is shared between
         all form components in one <form>, so we need to choose a name that doesn't
         collide with other plugins. The 'descriptor' variable represents our descriptor
         object, so we use that to determine the initial value for this form.
       -->
-      <f:entry title="VM" field="vm">
+      <f:entry
+        title="VM executable" field="vm"
+        description="Path to the Pharo VM executable">
         <f:textbox name="pahrobuilder.vm" value="${descriptor.getVm()}"/>
       </f:entry>
-      <f:entry title="Parameters" field="parameters">
-        <f:textbox name="pahrobuilder.parameters" value="${descriptor.getParameters()}"/>
-      </f:entry>
+      <f:entry title="Parameters" field="parameters"
+        description="Parameters passed to the Pharo VM">
+        <f:textbox name="pahrobuilder.parameters"
+          value="${descriptor.getParameters()}"
+          default="${descriptor.defaultParamters()}/>
     </f:entry>
   </f:section>
 </j:jelly>
