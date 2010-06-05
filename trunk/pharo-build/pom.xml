@@ -25,6 +25,12 @@
     </developer>
   </developers>
   
+  <scm>
+    <connection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</connection>
+    <developerConnection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</developerConnection>
+    <url>https://seaside.googlecode.com/svn/trunk/pharo-build</url>
+  </scm>
+  
   <distributionManagement>
     <repository>
       <id>google-seaside-svn-repo</id>
