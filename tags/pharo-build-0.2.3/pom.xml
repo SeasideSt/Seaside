@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jvnet.hudson.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.361</version><!-- which version of Hudson is this plugin built against? -->
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <groupId>st.seaside</groupId>
+  <artifactId>pharo-build</artifactId>
+  <version>0.2.3</version>
+  <name>Hudson Pharo Plugin</name>
+  <description>This plugin builds Pharo images.</description>
+  <packaging>hpi</packaging>
+  <inceptionYear>2010</inceptionYear>
+  <url>http://www.seaside.st/</url>
+  
+  <developers>
+    <developer>
+      <id>philippe.marschall</id>
+      <name>Philippe Marschall</name>
+      <email>philippe.marschall@gmail.com</email>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  
+  <scm>
+    <connection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.2.3</connection>
+    <developerConnection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.2.3</developerConnection>
+    <url>https://seaside.googlecode.com/svn/tags/pharo-build-0.2.3</url>
+  </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>google-seaside-webdav-repo</id>
+      <url>dav:https://seaside.googlecode.com/svn/repo</url>
+    </repository>
+    <site>
+      <id>google-seaside-webdav-site</id>
+      <url>dav:https://seaside.googlecode.com/svn/site</url>
+    </site>    
+  </distributionManagement>
+  
+  <build>
+   <plugins>
+     <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-compiler-plugin</artifactId>
+       <configuration>
+         <source>1.6</source>
+         <target>1.6</target>
+       </configuration>
+     </plugin>
+   </plugins>
+   <extensions>
+     <extension>
+       <groupId>org.apache.maven.wagon</groupId>
+       <artifactId>wagon-webdav</artifactId>
+       <version>1.0-beta-2</version>
+     </extension>
+   </extensions>
+  </build>
+
+  <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
+  <repositories>
+    <repository>
+      <id>m.g.o-public</id>
+      <url>http://maven.glassfish.org/content/groups/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>m.g.o-public</id>
+      <url>http://maven.glassfish.org/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
