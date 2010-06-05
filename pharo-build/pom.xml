@@ -13,6 +13,8 @@
   <name>Hudson Pharo Plugin</name>
   <description>This plugin builds Pharo images.</description>
   <packaging>hpi</packaging>
+  <inceptionYear>2010</inceptionYear>
+  <url>http://www.seaside.st/</url>
   
   <developers>
     <developer>
