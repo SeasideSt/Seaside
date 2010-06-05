@@ -32,7 +32,7 @@
         description="Parameters passed to the Pharo VM">
         <f:textbox name="pahrobuilder.parameters"
           value="${descriptor.getParameters()}"
-          default="${descriptor.defaultParamters()}/>
+          default="${descriptor.defaultParamters()}"/>
     </f:entry>
   </f:section>
 </j:jelly>

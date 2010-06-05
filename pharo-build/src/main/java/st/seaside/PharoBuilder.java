@@ -1,12 +1,22 @@
 package st.seaside;
 import hudson.Extension;
 import hudson.Launcher;
+import hudson.Util;
 import hudson.model.Build;
 import hudson.model.BuildListener;
 import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
+import hudson.util.ArgumentListBuilder;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.Arrays;
+import java.util.Map;
+
 import net.sf.json.JSONObject;
 
 import org.kohsuke.stapler.DataBoundConstructor;
@@ -36,12 +46,14 @@ public class PharoBuilder extends Builder {
 
     private final String inputImage;
     private final String outputImage;
+    private final String code;
 
     // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
     @DataBoundConstructor
-    public PharoBuilder(String inputImage, String outputImage) {
+    public PharoBuilder(String inputImage, String outputImage, String code) {
         this.inputImage = inputImage;
         this.outputImage = outputImage;
+        this.code = code;
     }
 
     public String getInputImage() {
@@ -51,26 +63,69 @@ public class PharoBuilder extends Builder {
     public String getOutputImage() {
         return this.outputImage;
     }
+    
+    public String getCode() {
+        return this.code;
+    }
+    
+    private File getStartUpScript() throws IOException {
+        File file = File.createTempFile("pharo_build", ".st");
+        FileOutputStream stream = new FileOutputStream(file);
+        try {
+            OutputStreamWriter writer = new OutputStreamWriter(stream);
+            writer.write(this.getCode());
+            writer.close();
+        } finally {
+            stream.close();
+        }
+        return file;
+    }
 
     /**
      * {@inheritDoc}
      */
     @Override
-    public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener) {
-        // this is where you 'build' the project
-        // since this is a dummy, we just say 'hello world' and call that a build
+    public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
+            throws InterruptedException, IOException {
+        
+        ArgumentListBuilder args = new ArgumentListBuilder();
+        args.add(getDescriptor().getVm());
+        // add parameters
+        String trimmed = Util.fixEmptyAndTrim(getDescriptor().getParameters());
+        if (trimmed != null) {
+            for (String each : trimmed.split(" ")) {
+                if (each != null && !each.isEmpty()) {
+                    args.add(each);
+                }
+            }
+        }
+        // add image
+        args.add(getInputImage());
+        
+        Map<String, String> env = build.getEnvironment(listener);
+        File script = this.getStartUpScript();
+        try {
+            args.add(script);
+            listener.getLogger().println(Arrays.toString(args.toCommandArray()));
+            int r = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(build.getModuleRoot()).join();
+            return r == 0;
+        } catch (IOException e) {
+            Util.displayIOException(e,listener);
 
-        // this also shows how you can consult the global configuration of the builder
-        listener.getLogger().println("VM: " + getDescriptor().getVm());
-        listener.getLogger().println("Parameters: "  + getDescriptor().getParameters());
-        listener.getLogger().println("Input Image: "  + this.getInputImage());
-        listener.getLogger().println("Output Image: "  + this.getOutputImage());
-        return true;
+            String errorMessage = Messages.pharo_imageBuildFailed();
+            e.printStackTrace(listener.fatalError(errorMessage));
+            return false;
+        } finally {
+            //TODO uncomment
+//            if (!script.delete()) {
+//                listener.getLogger().println("could not delete temp file");
+//            }
+        }
     }
 
-    // overrided for better type safety.
-    // if your plugin doesn't really define any property on Descriptor,
-    // you don't have to do this.
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public DescriptorImpl getDescriptor() {
         return (DescriptorImpl) super.getDescriptor();

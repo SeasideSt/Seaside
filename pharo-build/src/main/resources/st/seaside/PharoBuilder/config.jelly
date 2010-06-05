@@ -1,8 +1,11 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-  <f:entry title="Input Image" field="inputImage">
-    <f:textbox value="${instance.inputImage}"/>
+  <f:entry title="Input Image">
+    <f:textbox name="pharo.inputImage" value="${instance.inputImage}"/>
   </f:entry>
-  <f:entry title="Output Image" field="outputImage">
-    <f:textbox value="${instance.outputImage}"/>
+  <f:entry title="Output Image">
+    <f:textbox name="pharo.outputImage" value="${instance.outputImage}"/>
+  </f:entry>
+  <f:entry title="Code" field="outputImage">
+    <f:textarea name="pharo.code" value="${instance.code}" />
   </f:entry>
 </j:jelly>
