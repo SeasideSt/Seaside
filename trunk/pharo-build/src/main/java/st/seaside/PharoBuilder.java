@@ -1,19 +1,18 @@
 package st.seaside;
-import hudson.Launcher;
 import hudson.Extension;
-import hudson.util.FormValidation;
-import hudson.model.AbstractBuild;
+import hudson.Launcher;
+import hudson.model.Build;
 import hudson.model.BuildListener;
+import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
-import hudson.tasks.Builder;
 import hudson.tasks.BuildStepDescriptor;
+import hudson.tasks.Builder;
 import net.sf.json.JSONObject;
+
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
-import org.kohsuke.stapler.QueryParameter;
 
-import javax.servlet.ServletException;
-import java.io.IOException;
+import st.seaside.PharoBuilder.DescriptorImpl;
 
 /**
  * {@link Builder} for <a href="http://www.pharo-project.org/">Pharo</a>
@@ -35,29 +34,37 @@ import java.io.IOException;
  */
 public class PharoBuilder extends Builder {
 
-    private final String name;
+    private final String inputImage;
+    private final String outputImage;
 
     // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
     @DataBoundConstructor
-    public PharoBuilder(String name) {
-        this.name = name;
+    public PharoBuilder(String inputImage, String outputImage) {
+        this.inputImage = inputImage;
+        this.outputImage = outputImage;
+    }
+
+    public String getInputImage() {
+        return this.inputImage;
+    }
+
+    public String getOutputImage() {
+        return this.outputImage;
     }
 
     /**
-     * We'll use this from the <tt>config.jelly</tt>.
+     * {@inheritDoc}
      */
-    public String getName() {
-        return this.name;
-    }
-
     @Override
-    public boolean perform(AbstractBuild build, Launcher launcher, BuildListener listener) {
+    public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener) {
         // this is where you 'build' the project
         // since this is a dummy, we just say 'hello world' and call that a build
 
         // this also shows how you can consult the global configuration of the builder
         listener.getLogger().println("VM: " + getDescriptor().getVm());
         listener.getLogger().println("Parameters: "  + getDescriptor().getParameters());
+        listener.getLogger().println("Input Image: "  + this.getInputImage());
+        listener.getLogger().println("Output Image: "  + this.getOutputImage());
         return true;
     }
 
@@ -140,7 +147,9 @@ public class PharoBuilder extends Builder {
             return this.parameters;
         }
         
-        
+        public String defaultParamters() {
+            return "-nodisplay -nosound";
+        }
 
     }
 }
