@@ -1,5 +1,6 @@
 package st.seaside;
 import hudson.Extension;
+import hudson.FilePath;
 import hudson.Launcher;
 import hudson.Util;
 import hudson.model.Build;
@@ -15,6 +16,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.nio.channels.FileChannel;
 import java.util.Map;
 
 import net.sf.json.JSONObject;
@@ -54,8 +56,8 @@ public class PharoBuilder extends Builder {
     // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
     @DataBoundConstructor
     public PharoBuilder(String inputImage, String outputImage, String code) {
-        this.inputImage = inputImage;
-        this.outputImage = outputImage;
+        this.inputImage = stripDotImage(inputImage);
+        this.outputImage = stripDotImage(outputImage);
         this.code = code;
     }
 
@@ -69,6 +71,45 @@ public class PharoBuilder extends Builder {
     
     public String getCode() {
         return this.code;
+    }
+    
+    private static String stripDotImage(String s) {
+        if (s.endsWith(".image")) {
+            return s.substring(0, s.length() - ".image".length());
+        } else {
+            return s;
+        }
+    }
+    
+    private boolean needToCopyImage() {
+        return this.outputImage != null
+            && !this.outputImage.isEmpty();
+    }
+    
+    private boolean copyImage(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
+        FilePath source = folder.child(this.inputImage + ".image");
+        if (!source.exists()) {
+            listener.fatalError(Messages.pharo_inputImageDoesNotExist());
+            return false;
+        }
+        FilePath target = folder.child(this.outputImage + ".image");
+        
+        listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+        source.copyTo(target);
+        return true;
+    }
+    
+    private boolean copyChanges(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
+        FilePath source = folder.child(this.inputImage + ".changes");
+        if (!source.exists()) {
+            listener.fatalError(Messages.pharo_inputChangesDoesNotExist());
+            return false;
+        }
+        
+        FilePath target = folder.child(this.outputImage + ".changes");
+        listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+        source.copyTo(target);
+        return true;
     }
     
     private File getStartUpScript() throws IOException {
@@ -99,6 +140,12 @@ public class PharoBuilder extends Builder {
     public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
             throws InterruptedException, IOException {
         
+        FilePath moduleRoot = build.getModuleRoot();
+        if (this.needToCopyImage()
+                && (!copyImage(listener, moduleRoot) || !copyChanges(listener, moduleRoot))) {
+            return false;
+        }
+        
         ArgumentListBuilder args = new ArgumentListBuilder();
         args.add(getDescriptor().getVm());
         // add parameters
@@ -117,7 +164,7 @@ public class PharoBuilder extends Builder {
         File script = this.getStartUpScript();
         try {
             args.add(script);
-            int r = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(build.getModuleRoot()).join();
+            int r = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).join();
             return r == 0;
         } catch (IOException e) {
             Util.displayIOException(e,listener);
@@ -176,7 +223,7 @@ public class PharoBuilder extends Builder {
         }
 
         /**
-         * Performs on-the-fly validation of the form field 'name'.
+         * Performs on-the-fly validation of the form field 'vm'.
          *
          * @param value
          *      This parameter receives the value that the user has typed.
@@ -191,7 +238,7 @@ public class PharoBuilder extends Builder {
         }
         
         /**
-         * Performs on-the-fly validation of the form field 'name'.
+         * Performs on-the-fly validation of the form field 'vm'.
          *
          * @param value
          *      This parameter receives the value that the user has typed.
@@ -209,7 +256,8 @@ public class PharoBuilder extends Builder {
          * {@inheritDoc}
          */
         @Override
-        public boolean isApplicable(Class<? extends AbstractProject> aClass) {
+        public boolean isApplicable(@SuppressWarnings("rawtypes") /* broken in superclass */
+                Class<? extends AbstractProject> aClass) {
             // indicates that this builder can be used with all kinds of project types 
             return true;
         }
@@ -227,14 +275,12 @@ public class PharoBuilder extends Builder {
          */
         @Override
         public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
-            // To persist global configuration information,
-            // set that to properties and call save().
             this.vm = formData.getString("vm");
             this.parameters = formData.getString("parameters");
             this.beforeCode = formData.getString("beforeCode");
             this.afterCode = formData.getString("afterCode");
             // ^Can also use req.bindJSON(this, formData);
-            //  (easier when there are many fields; need set* methods for this, like setUseFrench)
+            //  (easier when there are many fields; need set* methods for this)
             save();
             return super.configure(req,formData);
         }
