@@ -33,11 +33,11 @@
   
   <distributionManagement>
     <repository>
-      <id>google-seaside-svn-repo</id>
+      <id>google-seaside-webdav-repo</id>
       <url>dav:https://seaside.googlecode.com/svn/repo</url>
     </repository>
     <site>
-      <id>google-seaside-svn-site</id>
+      <id>google-seaside-webdav-site</id>
       <url>dav:https://seaside.googlecode.com/svn/site</url>
     </site>    
   </distributionManagement>
