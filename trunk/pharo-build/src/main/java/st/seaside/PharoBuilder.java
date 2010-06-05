@@ -162,11 +162,17 @@ public class PharoBuilder extends Builder {
         
         public DescriptorImpl() {
             super(PharoBuilder.class);
+            // hack to work around missing defaults in textarea tag
+            this.beforeCode = this.defaultBeforeCode();
+            this.afterCode = this.defaultAfterCode();
             load();
         }
 
         protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
             super(clazz);
+            // hack to work around missing defaults in textarea tag
+            this.beforeCode = this.defaultBeforeCode();
+            this.afterCode = this.defaultAfterCode();
         }
 
         /**
@@ -179,7 +185,7 @@ public class PharoBuilder extends Builder {
          */
         public FormValidation doCheckVm(@QueryParameter String value) {
             if(value.isEmpty()) {
-                return FormValidation.error("Please set a VM path");
+                return FormValidation.error(Messages.pharo_vmPathEmpty());
             }
             return FormValidation.ok();
         }
@@ -194,7 +200,7 @@ public class PharoBuilder extends Builder {
          */
         public FormValidation doCheckVM(@QueryParameter String value) {
             if(value.isEmpty()) {
-                return FormValidation.error("Please set a VM path!");
+                return FormValidation.error(Messages.pharo_vmPathEmpty() + "!");
             }
             return FormValidation.ok();
         }
@@ -213,7 +219,7 @@ public class PharoBuilder extends Builder {
          */
         @Override
         public String getDisplayName() {
-            return "Pharo Image Builder";
+            return Messages.pharo_displayName();
         }
 
         /**
@@ -262,29 +268,29 @@ public class PharoBuilder extends Builder {
         }
         
         public String defaultAfterCode() {
-            return "\"Clear Author\"\n" + 
-            		"Author reset.\n" + 
-            		"!\n" + 
-            		"\"Clear Monticello Caches\"\n" + 
-            		"MCCacheRepository instVarNamed: 'default' put: nil.\n" + 
-            		"MCFileBasedRepository flushAllCaches.\n" + 
-            		"MCMethodDefinition shutDown.\n" + 
-            		"MCDefinition clearInstances.\n" + 
-            		"!\n" + 
-            		"\"Cleanup Smalltalk\"\n" + 
-            		"Smalltalk flushClassNameCache.\n" + 
-            		"Smalltalk organization removeEmptyCategories.\n" + 
-            		"Smalltalk allClassesAndTraitsDo: [ :each |\n" + 
-            		"    each organization removeEmptyCategories; sortCategories.\n" + 
-            		"    each class organization removeEmptyCategories; sortCategories ].\n" + 
-            		"!\n" + 
-            		"\"Cleanup System Memory\"\n" + 
-            		"Smalltalk garbageCollect.\n" + 
-            		"Symbol compactSymbolTable.\n" + 
-            		"!\n" + 
-            		"\"Save and Quit\"\n" + 
-            		"WorldState addDeferredUIMessage: [\n" + 
-            		"    SmalltalkImage current snapshot: true andQuit: true ].";
+            return "\"Clear Author\"\n" 
+            		+ "Author reset.\n"
+            		+ "!\n"
+            		+ "\"Clear Monticello Caches\"\n" 
+            		+ "MCCacheRepository instVarNamed: 'default' put: nil.\n" 
+            		+ "MCFileBasedRepository flushAllCaches.\n"
+            		+ "MCMethodDefinition shutDown.\n"
+            		+ "MCDefinition clearInstances.\n" 
+            		+ "!\n"
+            		+ "\"Cleanup Smalltalk\"\n" 
+            		+ "Smalltalk flushClassNameCache.\n" 
+            		+ "Smalltalk organization removeEmptyCategories.\n" 
+            		+ "Smalltalk allClassesAndTraitsDo: [ :each |\n"
+            		+ "    each organization removeEmptyCategories; sortCategories.\n" 
+            		+ "    each class organization removeEmptyCategories; sortCategories ].\n" 
+            		+ "!\n"
+            		+ "\"Cleanup System Memory\"\n" 
+            		+ "Smalltalk garbageCollect.\n" 
+            		+ "Symbol compactSymbolTable.\n" 
+            		+ "!\n"
+            		+ "\"Save and Quit\"\n" 
+            		+ "WorldState addDeferredUIMessage: [\n" 
+            		+ "    SmalltalkImage current snapshot: true andQuit: true ].";
         }
 
     }
