@@ -56,10 +56,8 @@ public class PharoBuilder extends Builder {
         // since this is a dummy, we just say 'hello world' and call that a build
 
         // this also shows how you can consult the global configuration of the builder
-        if(getDescriptor().useFrench())
-            listener.getLogger().println("Bonjour, " + name + "!");
-        else
-            listener.getLogger().println("Hello, " + name + "!");
+        listener.getLogger().println("VM: " + getDescriptor().getVm());
+        listener.getLogger().println("Parameters: "  + getDescriptor().getParameters());
         return true;
     }
 
@@ -76,36 +74,36 @@ public class PharoBuilder extends Builder {
      * The class is marked as public so that it can be accessed from views.
      *
      * <p>
-     * See <tt>views/hudson/plugins/hello_world/HelloWorldBuilder/*.jelly</tt>
+     * See <tt>views/hudson/plugins/pharo-build/PharoBuilder/*.jelly</tt>
      * for the actual HTML fragment for the configuration screen.
      */
     @Extension // this marker indicates Hudson that this is an implementation of an extension point.
     public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
-        /**
-         * To persist global configuration information,
-         * simply store it in a field and call save().
-         *
-         * <p>
-         * If you don't want fields to be persisted, use <tt>transient</tt>.
-         */
-        private boolean useFrench;
+        
+        private String vm;
+        
+        private String parameters;
+
+//        /**
+//         * Performs on-the-fly validation of the form field 'name'.
+//         *
+//         * @param value
+//         *      This parameter receives the value that the user has typed.
+//         * @return
+//         *      Indicates the outcome of the validation. This is sent to the browser.
+//         */
+//        public FormValidation doCheckName(@QueryParameter String value) throws IOException, ServletException {
+//            if(value.isEmpty())
+//                return FormValidation.error("Please set a name");
+//            if(value.length() < 4)
+//                return FormValidation.warning("Isn't the name too short?");
+//            return FormValidation.ok();
+//        }
 
         /**
-         * Performs on-the-fly validation of the form field 'name'.
-         *
-         * @param value
-         *      This parameter receives the value that the user has typed.
-         * @return
-         *      Indicates the outcome of the validation. This is sent to the browser.
+         * {@inheritDoc}
          */
-        public FormValidation doCheckName(@QueryParameter String value) throws IOException, ServletException {
-            if(value.isEmpty())
-                return FormValidation.error("Please set a name");
-            if(value.length() < 4)
-                return FormValidation.warning("Isn't the name too short?");
-            return FormValidation.ok();
-        }
-
+        @Override
         public boolean isApplicable(Class<? extends AbstractProject> aClass) {
             // indicates that this builder can be used with all kinds of project types 
             return true;
@@ -114,27 +112,36 @@ public class PharoBuilder extends Builder {
         /**
          * This human readable name is used in the configuration screen.
          */
+        @Override
         public String getDisplayName() {
             return "Pharo Image Builder";
         }
 
+        /**
+         * {@inheritDoc}
+         */
         @Override
         public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
             // To persist global configuration information,
             // set that to properties and call save().
-            useFrench = formData.getBoolean("useFrench");
+            this.vm = formData.getString("vm");
+            this.parameters = formData.getString("parameters");
             // ^Can also use req.bindJSON(this, formData);
             //  (easier when there are many fields; need set* methods for this, like setUseFrench)
             save();
             return super.configure(req,formData);
         }
 
-        /**
-         * This method returns true if the global configuration says we should speak French.
-         */
-        public boolean useFrench() {
-            return useFrench;
+        public String getVm() {
+            return this.vm;
         }
+
+        public String getParameters() {
+            return this.parameters;
+        }
+        
+        
+
     }
 }
 
