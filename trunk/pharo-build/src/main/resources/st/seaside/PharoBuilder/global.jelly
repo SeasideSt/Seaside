@@ -24,15 +24,29 @@
         object, so we use that to determine the initial value for this form.
       -->
       <f:entry
-        title="VM executable" field="vm"
+        title="VM executable"
         description="Path to the Pharo VM executable">
-        <f:textbox name="pahrobuilder.vm" value="${descriptor.getVm()}"/>
+        <f:textbox name="pahrobuilder.vm"
+          value="${descriptor.getVm()}"
+          default="${descriptor.defaultVm()}"/>
       </f:entry>
-      <f:entry title="Parameters" field="parameters"
+      <f:entry title="Parameters"
         description="Parameters passed to the Pharo VM">
         <f:textbox name="pahrobuilder.parameters"
           value="${descriptor.getParameters()}"
           default="${descriptor.defaultParamters()}"/>
-    </f:entry>
+      </f:entry>
+      <f:entry title="Before Code"
+        description="The code that is executed before the build specific code">
+        <f:textarea name="pahrobuilder.beforeCode"
+          value="${descriptor.getBeforeCode()}"
+          default="${descriptor.defaultBeforeCode()}" />
+      </f:entry>
+      <f:entry title="After Code"
+        description="The code that is executed after the build specific code">
+        <f:textarea name="pahrobuilder.afterCode"
+          value="${descriptor.getAfterCode()}"
+          default="${descriptor.defaultAfterCode()}" />
+      </f:entry>
   </f:section>
 </j:jelly>
