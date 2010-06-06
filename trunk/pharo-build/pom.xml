@@ -9,7 +9,7 @@
 
   <groupId>st.seaside</groupId>
   <artifactId>pharo-build</artifactId>
-  <version>0.2.4-SNAPSHOT</version>
+  <version>0.3-SNAPSHOT</version>
   <name>Hudson Pharo Plugin</name>
   <description>This plugin builds Pharo images.</description>
   <packaging>hpi</packaging>
@@ -24,6 +24,13 @@
       <timezone>+1</timezone>
     </developer>
   </developers>
+  
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>LICENSE</url>
+    </license>
+  </licenses>
   
   <scm>
     <connection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</connection>
