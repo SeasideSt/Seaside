@@ -12,4 +12,8 @@
   <f:entry title="Code">
     <f:textarea name="pharo.code" value="${instance.code}" />
   </f:entry>
+  <f:entry title="File to Watch"
+    help="/plugin/pharo-build/help-fileToWatch.html">
+    <f:textbox name="pharo.fileToWatch" value="${instance.fileToWatch}" default="PharoDebug.log"/>
+  </f:entry>
 </j:jelly>
