@@ -1,9 +1,24 @@
 package st.seaside;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintStream;
+import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
+
+import org.kohsuke.stapler.DataBoundConstructor;
+import org.kohsuke.stapler.QueryParameter;
+import org.kohsuke.stapler.StaplerRequest;
+
 import hudson.Extension;
 import hudson.FilePath;
 import hudson.Launcher;
+import hudson.Proc;
 import hudson.Util;
-import hudson.model.Build;
 import hudson.model.BuildListener;
 import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
@@ -11,19 +26,8 @@ import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
 import hudson.util.ArgumentListBuilder;
 import hudson.util.FormValidation;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.nio.channels.FileChannel;
-import java.util.Map;
-
 import net.sf.json.JSONObject;
-
-import org.kohsuke.stapler.DataBoundConstructor;
-import org.kohsuke.stapler.QueryParameter;
-import org.kohsuke.stapler.StaplerRequest;
+import st.seaside.PharoBuilder.DescriptorImpl;
 
 
 /**
@@ -40,305 +44,413 @@ import org.kohsuke.stapler.StaplerRequest;
  *
  * <p>
  * When a build is performed, the {@link #perform(Build, Launcher, BuildListener)} method
- * will be invoked. 
+ * will be invoked.
  *
  * @author Philippe Marschall
  */
 public class PharoBuilder extends Builder {
-    
-    @Extension
-    public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
-    private final String inputImage;
-    private final String outputImage;
-    private final String code;
+  @Extension
+  public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
-    // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
-    @DataBoundConstructor
-    public PharoBuilder(String inputImage, String outputImage, String code) {
-        this.inputImage = stripDotImage(inputImage);
-        this.outputImage = stripDotImage(outputImage);
-        this.code = code;
+  //TODO check if we need to creat demon threads to allow the VM to shut down
+  private static final ScheduledExecutorService EXECUTOR;
+
+  static {
+    EXECUTOR = Executors.newSingleThreadScheduledExecutor();
+  }
+
+  private final String inputImage;
+  private final String outputImage;
+  private final String code;
+  private final String fileToWatch;
+
+  // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
+  @DataBoundConstructor
+  public PharoBuilder(String inputImage, String outputImage, String code, String fileToWatch) {
+    this.inputImage = stripDotImage(inputImage);
+    this.outputImage = stripDotImage(outputImage);
+    this.code = code;
+    this.fileToWatch = fileToWatch;
+  }
+
+  public String getInputImage() {
+    return this.inputImage;
+  }
+
+  public String getOutputImage() {
+    return this.outputImage;
+  }
+
+  public String getCode() {
+    return this.code;
+  }
+
+  public String getFileToWatch() {
+    return this.fileToWatch;
+  }
+
+  private static String stripDotImage(String s) {
+    if (s.endsWith(".image")) {
+      return s.substring(0, s.length() - ".image".length());
+    } else {
+      return s;
+    }
+  }
+
+  private boolean needToCopyImage() {
+    return this.outputImage != null
+    && !this.outputImage.isEmpty();
+  }
+
+  private void deleteSqueakDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
+    FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
+    if (squeakDebugLog.exists()) {
+      squeakDebugLog.delete();
+    }
+  }
+
+  private FilePath getSqueakDebugLog(FilePath moduleRoot) {
+    if (this.fileToWatch != null && !this.fileToWatch.isEmpty()) {
+      return moduleRoot.child(this.fileToWatch);
+    } else {
+      return null;
+    }
+  }
+
+  private String getContentsOfSqueakDebugLog(FilePath moduleRoot) throws IOException {
+    FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
+    if (squeakDebugLog != null) {
+      return squeakDebugLog.readToString();
+    } else {
+      return null;
+    }
+  }
+
+  private void appendSqueakDebugLog(FilePath moduleRoot, BuildListener listener) throws IOException {
+    String contents = this.getContentsOfSqueakDebugLog(moduleRoot);
+    if (contents != null) {
+      listener.fatalError(contents);
+    }
+  }
+
+  private boolean copyImage(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
+    FilePath source = folder.child(this.inputImage + ".image");
+    if (!source.exists()) {
+      listener.fatalError(Messages.pharo_inputImageDoesNotExist());
+      return false;
+    }
+    FilePath target = folder.child(this.outputImage + ".image");
+
+    listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+    source.copyTo(target);
+    return true;
+  }
+
+  private boolean copyChanges(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
+    FilePath source = folder.child(this.inputImage + ".changes");
+    if (!source.exists()) {
+      listener.fatalError(Messages.pharo_inputChangesDoesNotExist());
+      return false;
     }
 
-    public String getInputImage() {
-        return this.inputImage;
+    FilePath target = folder.child(this.outputImage + ".changes");
+    listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+    source.copyTo(target);
+    return true;
+  }
+
+  private File getStartUpScript() throws IOException {
+    File file = File.createTempFile("pharo_build", ".st");
+    FileOutputStream stream = new FileOutputStream(file);
+    try {
+      OutputStreamWriter writer = new OutputStreamWriter(stream);
+      String beforeCode = getDescriptor().getBeforeCode();
+      if (beforeCode != null && !beforeCode.isEmpty()) {
+        writer.write(beforeCode + "\n!\n");
+      }
+      writer.write(this.getCode() + "\n!\n");
+      String afterCode = getDescriptor().getAfterCode();
+      if (afterCode != null && !afterCode.isEmpty()) {
+        writer.write(afterCode + "\n!\n");
+      }
+      writer.close();
+    } finally {
+      stream.close();
+    }
+    return file;
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
+      throws InterruptedException, IOException {
+
+    FilePath moduleRoot = build.getModuleRoot();
+    this.deleteSqueakDebugLog(moduleRoot);
+    if (this.needToCopyImage()
+        && (!copyImage(listener, moduleRoot) || !copyChanges(listener, moduleRoot))) {
+      return false;
     }
 
-    public String getOutputImage() {
-        return this.outputImage;
+    ArgumentListBuilder args = new ArgumentListBuilder();
+    args.add(getDescriptor().getVm());
+    addVmParametersTo(args);
+    args.add(getInputImage());
+
+    Map<String, String> env = build.getEnvironment(listener);
+    File script = this.getStartUpScript();
+    try {
+      args.add(script);
+      return this.startVm(build, launcher, listener, args, env);
+    } finally {
+      //TODO uncomment
+      //if (!script.delete()) {
+      //  listener.getLogger().println("could not delete temp file");
+      //}
     }
-    
-    public String getCode() {
-        return this.code;
-    }
-    
-    private static String stripDotImage(String s) {
-        if (s.endsWith(".image")) {
-            return s.substring(0, s.length() - ".image".length());
-        } else {
-            return s;
+  }
+
+  private void addVmParametersTo(ArgumentListBuilder args) {
+    String trimmed = Util.fixEmptyAndTrim(getDescriptor().getParameters());
+    if (trimmed != null) {
+      for (String each : trimmed.split(" ")) {
+        if (each != null && !each.isEmpty()) {
+          args.add(each);
         }
+      }
     }
-    
-    private boolean needToCopyImage() {
-        return this.outputImage != null
-            && !this.outputImage.isEmpty();
+  }
+
+  private boolean startVm(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener,
+      ArgumentListBuilder args, Map<String, String> env) throws InterruptedException, IOException {
+    FilePath moduleRoot = build.getModuleRoot();
+    ScheduledFuture<?> future = null;
+    try {
+      Proc proc = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).start();
+      FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
+      if (squeakDebugLog != null) {
+        Runnable watchdog = new WatdogTask(squeakDebugLog, proc, listener.getLogger());
+        future = EXECUTOR.scheduleAtFixedRate(watchdog, 500L, 500L, TimeUnit.MILLISECONDS);
+      }
+      int r = proc.join();
+      return r == 0;
+    } catch (IOException e) {
+      this.appendSqueakDebugLog(moduleRoot, listener);
+      Util.displayIOException(e, listener);
+
+      String errorMessage = Messages.pharo_imageBuildFailed();
+      e.printStackTrace(listener.fatalError(errorMessage));
+      return false;
+    } catch (InterruptedException e) {
+      this.appendSqueakDebugLog(moduleRoot, listener);
+      Thread.currentThread().interrupt();
+      throw new InterruptedException();
+    } finally {
+      if (future != null) {
+        future.cancel(true);
+      }
     }
-    
-    private boolean copyImage(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
-        FilePath source = folder.child(this.inputImage + ".image");
-        if (!source.exists()) {
-            listener.fatalError(Messages.pharo_inputImageDoesNotExist());
-            return false;
-        }
-        FilePath target = folder.child(this.outputImage + ".image");
-        
-        listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
-        source.copyTo(target);
-        return true;
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public DescriptorImpl getDescriptor() {
+    return DESCRIPTOR;
+  }
+
+  /**
+   * Descriptor for {@link PharoBuilder}. Used as a singleton.
+   * The class is marked as public so that it can be accessed from views.
+   *
+   * <p>
+   * See <tt>views/hudson/plugins/pharo-build/PharoBuilder/*.jelly</tt>
+   * for the actual HTML fragment for the configuration screen.
+   */
+  public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
+
+    private String vm;
+
+    private String parameters;
+
+    private String beforeCode;
+
+    private String afterCode;
+
+    public DescriptorImpl() {
+      super(PharoBuilder.class);
+      // hack to work around missing defaults in textarea tag
+      this.beforeCode = this.defaultBeforeCode();
+      this.afterCode = this.defaultAfterCode();
+      load();
     }
-    
-    private boolean copyChanges(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
-        FilePath source = folder.child(this.inputImage + ".changes");
-        if (!source.exists()) {
-            listener.fatalError(Messages.pharo_inputChangesDoesNotExist());
-            return false;
-        }
-        
-        FilePath target = folder.child(this.outputImage + ".changes");
-        listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
-        source.copyTo(target);
-        return true;
-    }
-    
-    private File getStartUpScript() throws IOException {
-        File file = File.createTempFile("pharo_build", ".st");
-        FileOutputStream stream = new FileOutputStream(file);
-        try {
-            OutputStreamWriter writer = new OutputStreamWriter(stream);
-            String beforeCode = getDescriptor().getBeforeCode();
-            if (beforeCode != null && !beforeCode.isEmpty()) {
-                writer.write(beforeCode + "\n!\n");
-            }
-            writer.write(this.getCode() + "\n!\n");
-            String afterCode = getDescriptor().getAfterCode();
-            if (afterCode != null && !afterCode.isEmpty()) {
-                writer.write(afterCode + "\n!\n");
-            }
-            writer.close();
-        } finally {
-            stream.close();
-        }
-        return file;
+
+    protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
+      super(clazz);
+      // hack to work around missing defaults in textarea tag
+      this.beforeCode = this.defaultBeforeCode();
+      this.afterCode = this.defaultAfterCode();
     }
 
     /**
-     * {@inheritDoc}
-     */
-    @Override
-    public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
-            throws InterruptedException, IOException {
-        
-        FilePath moduleRoot = build.getModuleRoot();
-        if (this.needToCopyImage()
-                && (!copyImage(listener, moduleRoot) || !copyChanges(listener, moduleRoot))) {
-            return false;
-        }
-        
-        ArgumentListBuilder args = new ArgumentListBuilder();
-        args.add(getDescriptor().getVm());
-        // add parameters
-        String trimmed = Util.fixEmptyAndTrim(getDescriptor().getParameters());
-        if (trimmed != null) {
-            for (String each : trimmed.split(" ")) {
-                if (each != null && !each.isEmpty()) {
-                    args.add(each);
-                }
-            }
-        }
-        // add image
-        args.add(getInputImage());
-        
-        Map<String, String> env = build.getEnvironment(listener);
-        File script = this.getStartUpScript();
-        try {
-            args.add(script);
-            int r = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).join();
-            return r == 0;
-        } catch (IOException e) {
-            Util.displayIOException(e,listener);
-
-            String errorMessage = Messages.pharo_imageBuildFailed();
-            e.printStackTrace(listener.fatalError(errorMessage));
-            return false;
-        } finally {
-            //TODO uncomment
-//            if (!script.delete()) {
-//                listener.getLogger().println("could not delete temp file");
-//            }
-        }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public DescriptorImpl getDescriptor() {
-//        return (DescriptorImpl) super.getDescriptor();
-        return DESCRIPTOR;
-    }
-
-    /**
-     * Descriptor for {@link PharoBuilder}. Used as a singleton.
-     * The class is marked as public so that it can be accessed from views.
+     * Performs on-the-fly validation of the form field 'vm'.
      *
-     * <p>
-     * See <tt>views/hudson/plugins/pharo-build/PharoBuilder/*.jelly</tt>
-     * for the actual HTML fragment for the configuration screen.
+     * @param value
+     *      This parameter receives the value that the user has typed.
+     * @return
+     *      Indicates the outcome of the validation. This is sent to the browser.
      */
-    public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
-        
-        private String vm;
-        
-        private String parameters;
-        
-        private String beforeCode;
-        
-        private String afterCode;
-        
-        public DescriptorImpl() {
-            super(PharoBuilder.class);
-            // hack to work around missing defaults in textarea tag
-            this.beforeCode = this.defaultBeforeCode();
-            this.afterCode = this.defaultAfterCode();
-            load();
-        }
+    public FormValidation doCheckVm(@QueryParameter String value) {
+      if (value.isEmpty()) {
+        return FormValidation.error(Messages.pharo_vmPathEmpty());
+      }
+      return FormValidation.ok();
+    }
 
-        protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
-            super(clazz);
-            // hack to work around missing defaults in textarea tag
-            this.beforeCode = this.defaultBeforeCode();
-            this.afterCode = this.defaultAfterCode();
-        }
+    /**
+     * Performs on-the-fly validation of the form field 'vm'.
+     *
+     * @param value
+     *      This parameter receives the value that the user has typed.
+     * @return
+     *      Indicates the outcome of the validation. This is sent to the browser.
+     */
+    public FormValidation doCheckVM(@QueryParameter String value) {
+      if (value.isEmpty()) {
+        return FormValidation.error(Messages.pharo_vmPathEmpty() + "!");
+      }
+      return FormValidation.ok();
+    }
 
-        /**
-         * Performs on-the-fly validation of the form field 'vm'.
-         *
-         * @param value
-         *      This parameter receives the value that the user has typed.
-         * @return
-         *      Indicates the outcome of the validation. This is sent to the browser.
-         */
-        public FormValidation doCheckVm(@QueryParameter String value) {
-            if(value.isEmpty()) {
-                return FormValidation.error(Messages.pharo_vmPathEmpty());
-            }
-            return FormValidation.ok();
-        }
-        
-        /**
-         * Performs on-the-fly validation of the form field 'vm'.
-         *
-         * @param value
-         *      This parameter receives the value that the user has typed.
-         * @return
-         *      Indicates the outcome of the validation. This is sent to the browser.
-         */
-        public FormValidation doCheckVM(@QueryParameter String value) {
-            if(value.isEmpty()) {
-                return FormValidation.error(Messages.pharo_vmPathEmpty() + "!");
-            }
-            return FormValidation.ok();
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean isApplicable(@SuppressWarnings("rawtypes") /* broken in superclass */
+        Class<? extends AbstractProject> aClass) {
+      // indicates that this builder can be used with all kinds of project types
+      return true;
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public boolean isApplicable(@SuppressWarnings("rawtypes") /* broken in superclass */
-                Class<? extends AbstractProject> aClass) {
-            // indicates that this builder can be used with all kinds of project types 
-            return true;
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public String getDisplayName() {
+      return Messages.pharo_displayName();
+    }
 
-        /**
-         * This human readable name is used in the configuration screen.
-         */
-        @Override
-        public String getDisplayName() {
-            return Messages.pharo_displayName();
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
+      this.vm = formData.getString("vm");
+      this.parameters = formData.getString("parameters");
+      this.beforeCode = formData.getString("beforeCode");
+      this.afterCode = formData.getString("afterCode");
+      // ^Can also use req.bindJSON(this, formData);
+      //  (easier when there are many fields; need set* methods for this)
+      save();
+      return super.configure(request, formData);
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
-            this.vm = formData.getString("vm");
-            this.parameters = formData.getString("parameters");
-            this.beforeCode = formData.getString("beforeCode");
-            this.afterCode = formData.getString("afterCode");
-            // ^Can also use req.bindJSON(this, formData);
-            //  (easier when there are many fields; need set* methods for this)
-            save();
-            return super.configure(req,formData);
-        }
+    public String getVm() {
+      return this.vm;
+    }
 
-        public String getVm() {
-            return this.vm;
-        }
+    public String getParameters() {
+      return this.parameters;
+    }
 
-        public String getParameters() {
-            return this.parameters;
-        }
-        
-        public String getBeforeCode() {
-            return this.beforeCode;
-        }
+    public String getBeforeCode() {
+      return this.beforeCode;
+    }
 
-        public String getAfterCode() {
-            return this.afterCode;
-        }
+    public String getAfterCode() {
+      return this.afterCode;
+    }
 
-        public String defaultVm() {
-            return "squeak";
+    public String defaultVm() {
+      return "squeak";
+    }
+    public String defaultParamters() {
+      return "-nodisplay -nosound";
+    }
+
+    public String defaultBeforeCode() {
+      return "\"Preparations\"\n"
+      + "MCCacheRepository instVarNamed: 'default' put: nil.";
+    }
+
+    public String defaultAfterCode() {
+      return "\"Clear Author\"\n"
+      + "Author reset.\n"
+      + "!\n"
+      + "\"Clear Monticello Caches\"\n"
+      + "MCCacheRepository instVarNamed: 'default' put: nil.\n"
+      + "MCFileBasedRepository flushAllCaches.\n"
+      + "MCMethodDefinition shutDown.\n"
+      + "MCDefinition clearInstances.\n"
+      + "!\n"
+      + "\"Cleanup Smalltalk\"\n"
+      + "Smalltalk flushClassNameCache.\n"
+      + "Smalltalk organization removeEmptyCategories.\n"
+      + "Smalltalk allClassesAndTraitsDo: [ :each |\n"
+      + "    each organization removeEmptyCategories; sortCategories.\n"
+      + "    each class organization removeEmptyCategories; sortCategories ].\n"
+      + "!\n"
+      + "\"Cleanup System Memory\"\n"
+      + "Smalltalk garbageCollect.\n"
+      + "Symbol compactSymbolTable.\n"
+      + "!\n"
+      + "\"Save and Quit\"\n"
+      + "WorldState addDeferredUIMessage: [\n"
+      + "    SmalltalkImage current snapshot: true andQuit: true ].";
+    }
+
+  }
+
+  /**
+   * A simple task that checks for file. It it's there it kills a given process.
+   */
+  static final class WatdogTask implements Runnable {
+
+    private final FilePath toWatch;
+
+    private final Proc proc;
+
+    private final PrintStream logger;
+
+    WatdogTask(FilePath toWatch, Proc proc, PrintStream logger) {
+      this.logger = logger;
+      this.toWatch = toWatch;
+      this.proc = proc;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void run() {
+      try {
+        if (this.toWatch.exists()) {
+          this.proc.kill();
         }
-        public String defaultParamters() {
-            return "-nodisplay -nosound";
-        }
-        
-        public String defaultBeforeCode() {
-            return "\"Preparations\"\n" 
-            		+ "MCCacheRepository instVarNamed: 'default' put: nil.";
-        }
-        
-        public String defaultAfterCode() {
-            return "\"Clear Author\"\n" 
-            		+ "Author reset.\n"
-            		+ "!\n"
-            		+ "\"Clear Monticello Caches\"\n" 
-            		+ "MCCacheRepository instVarNamed: 'default' put: nil.\n" 
-            		+ "MCFileBasedRepository flushAllCaches.\n"
-            		+ "MCMethodDefinition shutDown.\n"
-            		+ "MCDefinition clearInstances.\n" 
-            		+ "!\n"
-            		+ "\"Cleanup Smalltalk\"\n" 
-            		+ "Smalltalk flushClassNameCache.\n" 
-            		+ "Smalltalk organization removeEmptyCategories.\n" 
-            		+ "Smalltalk allClassesAndTraitsDo: [ :each |\n"
-            		+ "    each organization removeEmptyCategories; sortCategories.\n" 
-            		+ "    each class organization removeEmptyCategories; sortCategories ].\n" 
-            		+ "!\n"
-            		+ "\"Cleanup System Memory\"\n" 
-            		+ "Smalltalk garbageCollect.\n" 
-            		+ "Symbol compactSymbolTable.\n" 
-            		+ "!\n"
-            		+ "\"Save and Quit\"\n" 
-            		+ "WorldState addDeferredUIMessage: [\n" 
-            		+ "    SmalltalkImage current snapshot: true andQuit: true ].";
-        }
+      } catch (IOException e) {
+        this.logger.print("[ERROR] could not watch: " + this.toWatch.getRemote() + " because " + e.getMessage());
+        throw new RuntimeException(e);
+      } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        return;
+      }
 
     }
+
+  }
 }
 
