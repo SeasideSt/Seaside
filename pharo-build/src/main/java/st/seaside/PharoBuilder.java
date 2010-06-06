@@ -90,6 +90,14 @@ public class PharoBuilder extends Builder {
     return this.fileToWatch;
   }
 
+  public FilePath getImageToBuildAgainst(FilePath moduleRoot) {
+    if (this.outputImage != null) {
+      return moduleRoot.child(this.outputImage + ".image");
+    } else {
+      return moduleRoot.child(this.inputImage + ".image");
+    }
+  }
+
   private static String stripDotImage(String s) {
     if (s.endsWith(".image")) {
       return s.substring(0, s.length() - ".image".length());
@@ -103,14 +111,14 @@ public class PharoBuilder extends Builder {
     && !this.outputImage.isEmpty();
   }
 
-  private void deleteSqueakDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
-    FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
-    if (squeakDebugLog.exists()) {
-      squeakDebugLog.delete();
+  private void deleteDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
+    FilePath debugLog = this.getDebugLog(moduleRoot);
+    if (debugLog.exists()) {
+      debugLog.delete();
     }
   }
 
-  private FilePath getSqueakDebugLog(FilePath moduleRoot) {
+  private FilePath getDebugLog(FilePath moduleRoot) {
     if (this.fileToWatch != null && !this.fileToWatch.isEmpty()) {
       return moduleRoot.child(this.fileToWatch);
     } else {
@@ -118,17 +126,17 @@ public class PharoBuilder extends Builder {
     }
   }
 
-  private String getContentsOfSqueakDebugLog(FilePath moduleRoot) throws IOException {
-    FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
-    if (squeakDebugLog != null) {
-      return squeakDebugLog.readToString();
+  private String getContentsOfDebugLog(FilePath moduleRoot) throws IOException {
+    FilePath debugLog = this.getDebugLog(moduleRoot);
+    if (debugLog != null) {
+      return debugLog.readToString();
     } else {
       return null;
     }
   }
 
-  private void appendSqueakDebugLog(FilePath moduleRoot, BuildListener listener) throws IOException {
-    String contents = this.getContentsOfSqueakDebugLog(moduleRoot);
+  private void appendDebugLog(FilePath moduleRoot, BuildListener listener) throws IOException {
+    String contents = this.getContentsOfDebugLog(moduleRoot);
     if (contents != null) {
       listener.fatalError(contents);
     }
@@ -189,7 +197,7 @@ public class PharoBuilder extends Builder {
       throws InterruptedException, IOException {
 
     FilePath moduleRoot = build.getModuleRoot();
-    this.deleteSqueakDebugLog(moduleRoot);
+    this.deleteDebugLog(moduleRoot);
     if (this.needToCopyImage()
         && (!copyImage(listener, moduleRoot) || !copyChanges(listener, moduleRoot))) {
       return false;
@@ -198,7 +206,7 @@ public class PharoBuilder extends Builder {
     ArgumentListBuilder args = new ArgumentListBuilder();
     args.add(getDescriptor().getVm());
     addVmParametersTo(args);
-    args.add(getInputImage());
+    args.add(getImageToBuildAgainst(moduleRoot));
 
     Map<String, String> env = build.getEnvironment(listener);
     File script = this.getStartUpScript();
@@ -230,22 +238,31 @@ public class PharoBuilder extends Builder {
     ScheduledFuture<?> future = null;
     try {
       Proc proc = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).start();
-      FilePath squeakDebugLog = this.getSqueakDebugLog(moduleRoot);
-      if (squeakDebugLog != null) {
-        Runnable watchdog = new WatdogTask(squeakDebugLog, proc, listener.getLogger());
+      FilePath debugLog = this.getDebugLog(moduleRoot);
+      if (debugLog != null) {
+        Runnable watchdog = new WatdogTask(debugLog, proc, listener.getLogger());
         future = EXECUTOR.scheduleAtFixedRate(watchdog, 500L, 500L, TimeUnit.MILLISECONDS);
+      } else {
+        // FIXME
+        listener.getLogger().println("debug log doesn't exist");
       }
       int r = proc.join();
+      // FIXME
+      listener.getLogger().println("returned: " + r);
       return r == 0;
     } catch (IOException e) {
-      this.appendSqueakDebugLog(moduleRoot, listener);
+      // FIXME
+      listener.getLogger().println("cought IOException");
+      this.appendDebugLog(moduleRoot, listener);
       Util.displayIOException(e, listener);
 
       String errorMessage = Messages.pharo_imageBuildFailed();
       e.printStackTrace(listener.fatalError(errorMessage));
       return false;
     } catch (InterruptedException e) {
-      this.appendSqueakDebugLog(moduleRoot, listener);
+      // FIXME
+      listener.getLogger().println("cought InterruptedException");
+      this.appendDebugLog(moduleRoot, listener);
       Thread.currentThread().interrupt();
       throw new InterruptedException();
     } finally {
@@ -438,13 +455,23 @@ public class PharoBuilder extends Builder {
     @Override
     public void run() {
       try {
+        //FIXME
+        this.logger.println("checking: " + this.toWatch.getRemote());
         if (this.toWatch.exists()) {
+          //FIXME
+          this.logger.println("exists, killing");
+          //FIXME kill does a join, blocking the pool
           this.proc.kill();
+          this.logger.println("exists, killed");
         }
       } catch (IOException e) {
+        //FIXME
+        this.logger.println("Watchdog IOException");
         this.logger.print("[ERROR] could not watch: " + this.toWatch.getRemote() + " because " + e.getMessage());
         throw new RuntimeException(e);
       } catch (InterruptedException e) {
+        //FIXME
+        this.logger.println("Watchdog InterruptedException");
         Thread.currentThread().interrupt();
         return;
       }
