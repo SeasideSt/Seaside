@@ -1,3 +1,21 @@
+= Building
+
+Add the following repo to your settings.xml
+  <repositories>
+    <repository>
+      <id>m.g.o-public</id>
+      <url>http://maven.glassfish.org/content/groups/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>m.g.o-public</id>
+      <url>http://maven.glassfish.org/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+= Making a Release
 1. Configure your credentials in your settings.xml 
      <server>
        <id>google-seaside-webdav-repo</id>
@@ -11,5 +29,6 @@
      </server>
 
 2. Invoke Maven
+export MAVEN_OPTS="-Xmx512m"
 mvn release:prepare -Dusername=john.doe -Dpassword=yourGoogleCodePassword
 mvn release:perform -Dusername=john.doe -Dpassword=yourGoogleCodePassword -DrepositoryId=google-seaside-webdav-repo
