@@ -1,0 +1,28 @@
+#Pharo Build
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+= TODO =
+ * Den Watchdog brauchen wir, sonst hängt der build stundenlang wenn ein Debugger im Image aufpoppt. Ausserdem ist es im Moment mühsam das PharoDebug.log zu suchen. Das Bash script macht das folgende:
+   #  add a per-build configurable log file to watch for, the default should be "PharoDebug.log" (maybe if none is given, don't use the watchdog)
+   #  before starting the vm delete that file in case it is present
+   #  start a watcher that is triggers the following actions when the file appears:
+    *  shows the contents of the file on standard out
+    *  kills the current build vm
+    *  fails the build
+   #  start the build
+
+ * I think the "Input Image" and "Output Image" settings are not really necessary anymore. It would be fine if there was only a property "Image" . The copying (if necessary) should be done by a different plugin, such as a shell script, artifact copier, etc. I think that would make the plugin simpler.
+
+ * I would remove the exclamation marks and just put empty lines in the "After Code" template, they are not really necessary.
