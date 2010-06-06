@@ -150,7 +150,7 @@ public class PharoBuilder extends Builder {
     }
     FilePath target = folder.child(this.outputImage + ".image");
 
-    listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+    listener.getLogger().printf("[INFO] copying %s to %s%n", source.getRemote(), target.getRemote());
     source.copyTo(target);
     return true;
   }
@@ -163,7 +163,7 @@ public class PharoBuilder extends Builder {
     }
 
     FilePath target = folder.child(this.outputImage + ".changes");
-    listener.getLogger().printf("copying %s to %s%n", source.getRemote(), target.getRemote());
+    listener.getLogger().printf("[INFO] copying %s to %s%n", source.getRemote(), target.getRemote());
     source.copyTo(target);
     return true;
   }
@@ -214,10 +214,9 @@ public class PharoBuilder extends Builder {
       args.add(script);
       return this.startVm(build, launcher, listener, args, env);
     } finally {
-      //TODO uncomment
-      //if (!script.delete()) {
-      //  listener.getLogger().println("could not delete temp file");
-      //}
+      if (!script.delete()) {
+        listener.getLogger().println("[WARN] could not delete temp file");
+      }
     }
   }
 
