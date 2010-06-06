@@ -1,16 +1,9 @@
+#labels Hudson
 #Pharo Build
 
 = Introduction =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.pharo.org Pharo] images.
 
 
 = TODO =
@@ -22,7 +15,9 @@ Add your content here.  Format your content with:
     *  kills the current build vm
     *  fails the build
    #  start the build
-
  * I think the "Input Image" and "Output Image" settings are not really necessary anymore. It would be fine if there was only a property "Image" . The copying (if necessary) should be done by a different plugin, such as a shell script, artifact copier, etc. I think that would make the plugin simpler.
-
  * I would remove the exclamation marks and just put empty lines in the "After Code" template, they are not really necessary.
+ * validation of required parameters in global config
+ * validation of required parameters in build config
+
+= Download = 
