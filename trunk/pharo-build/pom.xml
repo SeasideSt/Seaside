@@ -4,12 +4,11 @@
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>1.361</version><!-- which version of Hudson is this plugin built against? -->
-    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <groupId>st.seaside</groupId>
   <artifactId>pharo-build</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.3.0-SNAPSHOT</version>
   <name>Hudson Pharo Plugin</name>
   <description>This plugin builds Pharo images.</description>
   <packaging>hpi</packaging>
