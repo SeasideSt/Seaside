@@ -242,17 +242,11 @@ public class PharoBuilder extends Builder {
       if (debugLog != null) {
         Runnable watchdog = new WatdogTask(debugLog, proc, listener.getLogger());
         future = EXECUTOR.scheduleAtFixedRate(watchdog, 500L, 500L, TimeUnit.MILLISECONDS);
-      } else {
-        // FIXME
-        listener.getLogger().println("debug log doesn't exist");
       }
       int r = proc.join();
-      // FIXME
-      listener.getLogger().println("returned: " + r);
+      this.appendDebugLog(moduleRoot, listener);
       return r == 0;
     } catch (IOException e) {
-      // FIXME
-      listener.getLogger().println("cought IOException");
       this.appendDebugLog(moduleRoot, listener);
       Util.displayIOException(e, listener);
 
@@ -260,8 +254,6 @@ public class PharoBuilder extends Builder {
       e.printStackTrace(listener.fatalError(errorMessage));
       return false;
     } catch (InterruptedException e) {
-      // FIXME
-      listener.getLogger().println("cought InterruptedException");
       this.appendDebugLog(moduleRoot, listener);
       Thread.currentThread().interrupt();
       throw new InterruptedException();
@@ -455,23 +447,14 @@ public class PharoBuilder extends Builder {
     @Override
     public void run() {
       try {
-        //FIXME
-        this.logger.println("checking: " + this.toWatch.getRemote());
         if (this.toWatch.exists()) {
-          //FIXME
-          this.logger.println("exists, killing");
-          //FIXME kill does a join, blocking the pool
+          this.logger.println("[INFO] found " + this.toWatch.getRemote() + ", killing");
           this.proc.kill();
-          this.logger.println("exists, killed");
         }
       } catch (IOException e) {
-        //FIXME
-        this.logger.println("Watchdog IOException");
         this.logger.print("[ERROR] could not watch: " + this.toWatch.getRemote() + " because " + e.getMessage());
         throw new RuntimeException(e);
       } catch (InterruptedException e) {
-        //FIXME
-        this.logger.println("Watchdog InterruptedException");
         Thread.currentThread().interrupt();
         return;
       }
