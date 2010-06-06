@@ -1,6 +1,4 @@
 #labels Hudson
-#Pharo Build
-
 = Introduction =
 
 Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.pharo.org Pharo] images.
@@ -20,4 +18,5 @@ Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.
  * validation of required parameters in global config
  * validation of required parameters in build config
 
-= Download = 
+= Download =
+[https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.2.3/pharo-build-0.2.3.hpi Version 0.2.3] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. 
