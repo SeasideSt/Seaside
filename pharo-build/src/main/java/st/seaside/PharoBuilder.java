@@ -357,33 +357,33 @@ public class PharoBuilder extends Builder {
 
     public String defaultBeforeCode() {
       return "\"Preparations\"\n"
-      + "MCCacheRepository instVarNamed: 'default' put: nil.";
+        + "MCCacheRepository instVarNamed: 'default' put: nil.";
     }
 
     public String defaultAfterCode() {
       return "\"Clear Author\"\n"
-      + "Author reset.\n"
-      + "\n"
-      + "\"Clear Monticello Caches\"\n"
-      + "MCCacheRepository instVarNamed: 'default' put: nil.\n"
-      + "MCFileBasedRepository flushAllCaches.\n"
-      + "MCMethodDefinition shutDown.\n"
-      + "MCDefinition clearInstances.\n"
-      + "\n"
-      + "\"Cleanup Smalltalk\"\n"
-      + "Smalltalk flushClassNameCache.\n"
-      + "Smalltalk organization removeEmptyCategories.\n"
-      + "Smalltalk allClassesAndTraitsDo: [ :each |\n"
-      + "    each organization removeEmptyCategories; sortCategories.\n"
-      + "    each class organization removeEmptyCategories; sortCategories ].\n"
-      + "\n"
-      + "\"Cleanup System Memory\"\n"
-      + "Smalltalk garbageCollect.\n"
-      + "Symbol compactSymbolTable.\n"
-      + "\n"
-      + "\"Save and Quit\"\n"
-      + "WorldState addDeferredUIMessage: [\n"
-      + "    SmalltalkImage current snapshot: true andQuit: true ].";
+        + "Author reset.\n"
+        + "\n"
+        + "\"Clear Monticello Caches\"\n"
+        + "MCCacheRepository instVarNamed: 'default' put: nil.\n"
+        + "MCFileBasedRepository flushAllCaches.\n"
+        + "MCMethodDefinition shutDown.\n"
+        + "MCDefinition clearInstances.\n"
+        + "\n"
+        + "\"Cleanup Smalltalk\"\n"
+        + "Smalltalk flushClassNameCache.\n"
+        + "Smalltalk organization removeEmptyCategories.\n"
+        + "Smalltalk allClassesAndTraitsDo: [ :each |\n"
+        + "    each organization removeEmptyCategories; sortCategories.\n"
+        + "    each class organization removeEmptyCategories; sortCategories ].\n"
+        + "\n"
+        + "\"Cleanup System Memory\"\n"
+        + "Smalltalk garbageCollect.\n"
+        + "Symbol compactSymbolTable.\n"
+        + "\n"
+        + "\"Save and Quit\"\n"
+        + "WorldState addDeferredUIMessage: [\n"
+        + "    SmalltalkImage current snapshot: true andQuit: true ].";
     }
 
   }
