@@ -1,0 +1,146 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jvnet.hudson.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.361</version><!-- which version of Hudson is this plugin built against? -->
+  </parent>
+
+  <groupId>st.seaside</groupId>
+  <artifactId>pharo-build</artifactId>
+  <version>0.4.1</version>
+  <name>Hudson Pharo Plugin</name>
+  <description>This plugin builds Pharo images.</description>
+  <packaging>hpi</packaging>
+  <inceptionYear>2010</inceptionYear>
+  <url>http://www.seaside.st/</url>
+  
+  <developers>
+    <developer>
+      <id>philippe.marschall</id>
+      <name>Philippe Marschall</name>
+      <email>philippe.marschall@gmail.com</email>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>LICENSE</url>
+    </license>
+  </licenses>
+  
+  <scm>
+    <connection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.4.1</connection>
+    <developerConnection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.4.1</developerConnection>
+    <url>https://seaside.googlecode.com/svn/tags/pharo-build-0.4.1</url>
+  </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>google-seaside-webdav-repo</id>
+      <url>dav:https://seaside.googlecode.com/svn/repo</url>
+    </repository>
+    <site>
+      <id>google-seaside-webdav-site</id>
+      <url>dav:https://seaside.googlecode.com/svn/site</url>
+    </site>    
+  </distributionManagement>
+  
+  <build>
+   <plugins>
+     <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-compiler-plugin</artifactId>
+       <configuration>
+         <source>1.6</source>
+         <target>1.6</target>
+       </configuration>
+     </plugin>
+   </plugins>
+   <extensions>
+     <extension>
+       <groupId>org.apache.maven.wagon</groupId>
+       <artifactId>wagon-webdav</artifactId>
+       <version>1.0-beta-2</version>
+     </extension>
+   </extensions>
+  </build>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>2.3.1</version>
+        <configuration>
+          <effort>Max</effort>
+          <threshold>Low</threshold>
+          <xmlOutput>true</xmlOutput>
+            <findbugsXmlOutput>true</findbugsXmlOutput>
+            <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <configLocation>
+            checkstyle-config-cs5.xml 
+          </configLocation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <formats>
+            <format>xml</format>
+            <format>html</format>
+          </formats>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jdepend-maven-plugin</artifactId>
+        <version>2.0-beta-2</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.7</version>
+        <configuration>
+          <show>package</show>
+          <version>true</version>
+          <javadocVersion>${source.version}</javadocVersion>
+          <links>
+            <link>http://java.sun.com/javase/6/docs/api/</link>
+            <link>https://hudson.dev.java.net/nonav/javadoc/</link>
+          </links>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>taglist-maven-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <tags>
+            <tag>@deprecated</tag>
+            <tag>@todo</tag>
+            <tag>FIXME</tag>
+            <tag>TODO</tag>
+            <tag>XXX</tag>
+            <tag>REVIEW</tag>
+          </tags>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
