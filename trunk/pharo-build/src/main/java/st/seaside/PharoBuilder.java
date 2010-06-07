@@ -1,9 +1,7 @@
 package st.seaside;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintStream;
+import java.nio.charset.Charset;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -111,41 +109,44 @@ public class PharoBuilder extends Builder {
     }
   }
 
-  private String getContentsOfDebugLog(FilePath moduleRoot) throws IOException {
+  private String getContentsOfDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
     FilePath debugLog = this.getDebugLog(moduleRoot);
-    if (debugLog != null) {
+    if (debugLog != null && debugLog.exists()) {
       return debugLog.readToString();
     } else {
       return null;
     }
   }
 
-  private void appendDebugLog(FilePath moduleRoot, BuildListener listener) throws IOException {
+  private void appendDebugLog(FilePath moduleRoot, BuildListener listener) throws IOException, InterruptedException {
     String contents = this.getContentsOfDebugLog(moduleRoot);
     if (contents != null) {
       listener.fatalError(contents);
     }
   }
 
-  private File getStartUpScript() throws IOException {
-    File file = File.createTempFile("pharo_build", ".st");
-    FileOutputStream stream = new FileOutputStream(file);
-    try {
-      OutputStreamWriter writer = new OutputStreamWriter(stream);
-      String beforeCode = getDescriptor().getBeforeCode();
-      if (beforeCode != null && !beforeCode.isEmpty()) {
-        writer.write(beforeCode + "\n!\n");
-      }
-      writer.write(this.getScript() + "\n!\n");
-      String afterCode = getDescriptor().getAfterCode();
-      if (afterCode != null && !afterCode.isEmpty()) {
-        writer.write(afterCode + "\n!\n");
-      }
-      writer.close();
-    } finally {
-      stream.close();
+  private FilePath getStartUpScript(FilePath moduleRoot) throws IOException, InterruptedException {
+    FilePath script = moduleRoot.child(this.image + ".st");
+    // REVIEW not sure what the correct encoding would be
+    script.write(this.getStartUpCode(), Charset.defaultCharset().name());
+    return script;
+  }
+
+  private String getStartUpCode() {
+    String code = "";
+    String beforeCode = getDescriptor().getBeforeCode();
+    if (beforeCode != null && !beforeCode.isEmpty()) {
+      code += beforeCode + "\n!\n";
     }
-    return file;
+    String buildScript = this.getScript();
+    if (buildScript != null && !buildScript.isEmpty()) {
+      code += buildScript + "\n!\n";
+    }
+    String afterCode = getDescriptor().getAfterCode();
+    if (afterCode != null && !afterCode.isEmpty()) {
+      code += afterCode + "\n!\n";
+    }
+    return code;
   }
 
   /**
@@ -161,18 +162,10 @@ public class PharoBuilder extends Builder {
     ArgumentListBuilder args = new ArgumentListBuilder();
     args.add(getDescriptor().getVm());
     addVmParametersTo(args);
-    args.add(getImageFile(moduleRoot));
+    args.add(this.getImageFile(moduleRoot));
+    args.add(this.getStartUpScript(moduleRoot));
 
-    Map<String, String> env = build.getEnvironment(listener);
-    File script = this.getStartUpScript();
-    try {
-      args.add(script);
-      return this.startVm(build, launcher, listener, args, env);
-    } finally {
-      if (!script.delete()) {
-        listener.getLogger().println("[WARN] could not delete temp file");
-      }
-    }
+   return this.startVm(build, launcher, listener, args);
   }
 
   private void addVmParametersTo(ArgumentListBuilder args) {
@@ -187,9 +180,11 @@ public class PharoBuilder extends Builder {
   }
 
   private boolean startVm(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener,
-      ArgumentListBuilder args, Map<String, String> env) throws InterruptedException, IOException {
+      ArgumentListBuilder args) throws InterruptedException, IOException {
+
     FilePath moduleRoot = build.getModuleRoot();
     ScheduledFuture<?> future = null;
+    Map<String, String> env = build.getEnvironment(listener);
     try {
       Proc proc = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).start();
       FilePath debugLog = this.getDebugLog(moduleRoot);
@@ -368,24 +363,24 @@ public class PharoBuilder extends Builder {
     public String defaultAfterCode() {
       return "\"Clear Author\"\n"
       + "Author reset.\n"
-      + "!\n"
+      + "\n"
       + "\"Clear Monticello Caches\"\n"
       + "MCCacheRepository instVarNamed: 'default' put: nil.\n"
       + "MCFileBasedRepository flushAllCaches.\n"
       + "MCMethodDefinition shutDown.\n"
       + "MCDefinition clearInstances.\n"
-      + "!\n"
+      + "\n"
       + "\"Cleanup Smalltalk\"\n"
       + "Smalltalk flushClassNameCache.\n"
       + "Smalltalk organization removeEmptyCategories.\n"
       + "Smalltalk allClassesAndTraitsDo: [ :each |\n"
       + "    each organization removeEmptyCategories; sortCategories.\n"
       + "    each class organization removeEmptyCategories; sortCategories ].\n"
-      + "!\n"
+      + "\n"
       + "\"Cleanup System Memory\"\n"
       + "Smalltalk garbageCollect.\n"
       + "Symbol compactSymbolTable.\n"
-      + "!\n"
+      + "\n"
       + "\"Save and Quit\"\n"
       + "WorldState addDeferredUIMessage: [\n"
       + "    SmalltalkImage current snapshot: true andQuit: true ].";
