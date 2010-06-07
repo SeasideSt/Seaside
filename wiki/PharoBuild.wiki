@@ -3,20 +3,21 @@
 
 Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.pharo.org Pharo] images.
 
+= Features =
+== Project Configuration ==
+ * image name
+ * script to execute
+ * debug log file to watch for
+== Global Configuration ==
+ * VM executable
+ * VM parameters
+ * before code
+ * after code
 
 = TODO =
- * Den Watchdog brauchen wir, sonst hängt der build stundenlang wenn ein Debugger im Image aufpoppt. Ausserdem ist es im Moment mühsam das PharoDebug.log zu suchen. Das Bash script macht das folgende:
-   #  add a per-build configurable log file to watch for, the default should be "PharoDebug.log" (maybe if none is given, don't use the watchdog)
-   #  before starting the vm delete that file in case it is present
-   #  start a watcher that is triggers the following actions when the file appears:
-    *  shows the contents of the file on standard out
-    *  kills the current build vm
-    *  fails the build
-   #  start the build
- * I think the "Input Image" and "Output Image" settings are not really necessary anymore. It would be fine if there was only a property "Image" . The copying (if necessary) should be done by a different plugin, such as a shell script, artifact copier, etc. I think that would make the plugin simpler.
  * I would remove the exclamation marks and just put empty lines in the "After Code" template, they are not really necessary.
  * validation of required parameters in global config
- * validation of required parameters in build config
+ * validation of required parameters in build config (image name)
 
 = Download =
-[https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.2.3/pharo-build-0.2.3.hpi Version 0.2.3] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. 
+[https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.3.1/pharo-build-0.3.1.hpi Version 0.3.1] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. You need to remove the version from the file name.
