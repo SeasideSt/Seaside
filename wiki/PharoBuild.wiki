@@ -21,3 +21,8 @@ Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.
 
 = Download =
 [https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.3.1/pharo-build-0.3.1.hpi Version 0.3.1] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. You need to remove the version from the file name.
+
+= General Open Points =
+ * generate Cobertura coverage file
+ * run Task scanner on #flag: and #flag
+ * write compiler output to stdout or stderr
