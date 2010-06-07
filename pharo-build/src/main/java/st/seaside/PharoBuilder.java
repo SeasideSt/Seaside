@@ -60,42 +60,32 @@ public class PharoBuilder extends Builder {
     EXECUTOR = Executors.newSingleThreadScheduledExecutor();
   }
 
-  private final String inputImage;
-  private final String outputImage;
-  private final String code;
-  private final String fileToWatch;
+  private final String image;
+  private final String script;
+  private final String logFile;
 
   // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
   @DataBoundConstructor
-  public PharoBuilder(String inputImage, String outputImage, String code, String fileToWatch) {
-    this.inputImage = stripDotImage(inputImage);
-    this.outputImage = stripDotImage(outputImage);
-    this.code = code;
-    this.fileToWatch = fileToWatch;
+  public PharoBuilder(String image, String script, String logFile) {
+    this.image = stripDotImage(image);
+    this.script = script;
+    this.logFile = logFile;
   }
 
-  public String getInputImage() {
-    return this.inputImage;
+  public String getImage() {
+    return this.image;
   }
 
-  public String getOutputImage() {
-    return this.outputImage;
-  }
-
-  public String getCode() {
-    return this.code;
+  public String getScript() {
+    return this.script;
   }
 
   public String getFileToWatch() {
-    return this.fileToWatch;
+    return this.logFile;
   }
 
-  public FilePath getImageToBuildAgainst(FilePath moduleRoot) {
-    if (this.outputImage != null) {
-      return moduleRoot.child(this.outputImage + ".image");
-    } else {
-      return moduleRoot.child(this.inputImage + ".image");
-    }
+  public FilePath getImageFile(FilePath moduleRoot) {
+    return moduleRoot.child(this.image + ".image");
   }
 
   private static String stripDotImage(String s) {
@@ -106,11 +96,6 @@ public class PharoBuilder extends Builder {
     }
   }
 
-  private boolean needToCopyImage() {
-    return this.outputImage != null
-    && !this.outputImage.isEmpty();
-  }
-
   private void deleteDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
     FilePath debugLog = this.getDebugLog(moduleRoot);
     if (debugLog.exists()) {
@@ -119,8 +104,8 @@ public class PharoBuilder extends Builder {
   }
 
   private FilePath getDebugLog(FilePath moduleRoot) {
-    if (this.fileToWatch != null && !this.fileToWatch.isEmpty()) {
-      return moduleRoot.child(this.fileToWatch);
+    if (this.logFile != null && !this.logFile.isEmpty()) {
+      return moduleRoot.child(this.logFile);
     } else {
       return null;
     }
@@ -142,32 +127,6 @@ public class PharoBuilder extends Builder {
     }
   }
 
-  private boolean copyImage(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
-    FilePath source = folder.child(this.inputImage + ".image");
-    if (!source.exists()) {
-      listener.fatalError(Messages.pharo_inputImageDoesNotExist());
-      return false;
-    }
-    FilePath target = folder.child(this.outputImage + ".image");
-
-    listener.getLogger().printf("[INFO] copying %s to %s%n", source.getRemote(), target.getRemote());
-    source.copyTo(target);
-    return true;
-  }
-
-  private boolean copyChanges(BuildListener listener, FilePath folder) throws IOException, InterruptedException {
-    FilePath source = folder.child(this.inputImage + ".changes");
-    if (!source.exists()) {
-      listener.fatalError(Messages.pharo_inputChangesDoesNotExist());
-      return false;
-    }
-
-    FilePath target = folder.child(this.outputImage + ".changes");
-    listener.getLogger().printf("[INFO] copying %s to %s%n", source.getRemote(), target.getRemote());
-    source.copyTo(target);
-    return true;
-  }
-
   private File getStartUpScript() throws IOException {
     File file = File.createTempFile("pharo_build", ".st");
     FileOutputStream stream = new FileOutputStream(file);
@@ -177,7 +136,7 @@ public class PharoBuilder extends Builder {
       if (beforeCode != null && !beforeCode.isEmpty()) {
         writer.write(beforeCode + "\n!\n");
       }
-      writer.write(this.getCode() + "\n!\n");
+      writer.write(this.getScript() + "\n!\n");
       String afterCode = getDescriptor().getAfterCode();
       if (afterCode != null && !afterCode.isEmpty()) {
         writer.write(afterCode + "\n!\n");
@@ -198,15 +157,11 @@ public class PharoBuilder extends Builder {
 
     FilePath moduleRoot = build.getModuleRoot();
     this.deleteDebugLog(moduleRoot);
-    if (this.needToCopyImage()
-        && (!copyImage(listener, moduleRoot) || !copyChanges(listener, moduleRoot))) {
-      return false;
-    }
 
     ArgumentListBuilder args = new ArgumentListBuilder();
     args.add(getDescriptor().getVm());
     addVmParametersTo(args);
-    args.add(getImageToBuildAgainst(moduleRoot));
+    args.add(getImageFile(moduleRoot));
 
     Map<String, String> env = build.getEnvironment(listener);
     File script = this.getStartUpScript();
@@ -302,6 +257,21 @@ public class PharoBuilder extends Builder {
       // hack to work around missing defaults in textarea tag
       this.beforeCode = this.defaultBeforeCode();
       this.afterCode = this.defaultAfterCode();
+    }
+
+    /**
+     * Performs on-the-fly validation of the form field 'image'.
+     *
+     * @param value
+     *      This parameter receives the value that the user has typed.
+     * @return
+     *      Indicates the outcome of the validation. This is sent to the browser.
+     */
+    public FormValidation doCheckImage(@QueryParameter String value) {
+      if (value.isEmpty()) {
+        return FormValidation.error(Messages.pharo_imageEmpty());
+      }
+      return FormValidation.ok();
     }
 
     /**
