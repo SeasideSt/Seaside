@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 import org.kohsuke.stapler.DataBoundConstructor;
@@ -23,6 +24,7 @@ import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
 import hudson.util.ArgumentListBuilder;
+import hudson.util.DaemonThreadFactory;
 import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
 import st.seaside.PharoBuilder.DescriptorImpl;
@@ -41,7 +43,7 @@ import st.seaside.PharoBuilder.DescriptorImpl;
  * to remember the configuration.
  *
  * <p>
- * When a build is performed, the {@link #perform(Build, Launcher, BuildListener)} method
+ * When a build is performed, the {@link #perform(AbstractBuild, Launcher, BuildListener)} method
  * will be invoked.
  *
  * @author Philippe Marschall
@@ -51,11 +53,12 @@ public class PharoBuilder extends Builder {
   @Extension
   public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
-  //TODO check if we need to creat demon threads to allow the VM to shut down
   private static final ScheduledExecutorService EXECUTOR;
 
   static {
-    EXECUTOR = Executors.newSingleThreadScheduledExecutor();
+    // create a demon thread, otherwise we prevent the VM from shutting down
+    ThreadFactory threadFactory = new DaemonThreadFactory();
+    EXECUTOR = Executors.newSingleThreadScheduledExecutor(threadFactory);
   }
 
   private final String image;
@@ -63,6 +66,20 @@ public class PharoBuilder extends Builder {
   private final String logFile;
 
   // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
+
+  /**
+   * Constructor invoked byJelly.
+   *
+   * <p>Fields in config.jelly must match the parameter names in the
+   * "DataBoundConstructor".</p>
+   *
+   * @param image the name of the image, may or may not end with {@literal ".image"},
+   *    must not be {@literal null}
+   * @param script Smalltalk doit to execute between the before and after code,
+   *    may be {@literal null}
+   * @param logFile name of the debug log file to watch for, may be {@literal null}
+   *    in this case no watching will happen
+   */
   @DataBoundConstructor
   public PharoBuilder(String image, String script, String logFile) {
     this.image = stripDotImage(image);
@@ -82,7 +99,7 @@ public class PharoBuilder extends Builder {
     return this.logFile;
   }
 
-  public FilePath getImageFile(FilePath moduleRoot) {
+  private FilePath getImageFile(FilePath moduleRoot) {
     return moduleRoot.child(this.image + ".image");
   }
 
@@ -204,7 +221,6 @@ public class PharoBuilder extends Builder {
       return false;
     } catch (InterruptedException e) {
       this.appendDebugLog(moduleRoot, listener);
-      Thread.currentThread().interrupt();
       throw new InterruptedException();
     } finally {
       if (future != null) {
