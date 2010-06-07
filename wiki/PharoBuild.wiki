@@ -7,7 +7,7 @@ Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.
 == Project Configuration ==
  * image name
  * script to execute
- * debug log file to watch for
+ * debug log file to watch for, when found will consider the build failed, kill the process and write the contents to the console
 == Global Configuration ==
  * VM executable
  * VM parameters
