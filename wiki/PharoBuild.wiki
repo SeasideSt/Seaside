@@ -14,8 +14,13 @@ Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.
  * before code
  * after code
 
+= Changelog =
+== 0.4.0 ==
+ * removed exclamation marks in the default "After Code" template
+ * write starup script in workspace folder and don't delete it after the build
+ * removed copy image functionality
+
 = TODO =
- * I would remove the exclamation marks and just put empty lines in the "After Code" template, they are not really necessary.
  * validation of required parameters in global config
  * validation of required parameters in build config (image name)
 
