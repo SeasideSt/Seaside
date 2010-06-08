@@ -255,6 +255,9 @@ public class PharoBuilder extends Builder {
 
     private String afterCode;
 
+    /**
+     * Default constructor, loads the defaults first and then the saved data.
+     */
     public DescriptorImpl() {
       super(PharoBuilder.class);
       // hack to work around missing defaults in textarea tag
@@ -263,6 +266,11 @@ public class PharoBuilder extends Builder {
       load();
     }
 
+    /**
+     * Constructor, only loads the defaults and not the saved data.
+     *
+     * @param clazz the builder class
+     */
     protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
       super(clazz);
       // hack to work around missing defaults in textarea tag
@@ -364,9 +372,22 @@ public class PharoBuilder extends Builder {
       return this.afterCode;
     }
 
+    /**
+     * Returns the default value to display for the VM path in the global configuration
+     * of the builder.
+     *
+     * @return the default value for the VM path
+     */
     public String defaultVm() {
       return "squeak";
     }
+
+    /**
+     * Returns the default value to display for the VM parameters in the global configuration
+     * of the builder.
+     *
+     * @return the default value for the VM parameters
+     */
     public String defaultParamters() {
       return "-nodisplay -nosound";
     }
@@ -406,6 +427,9 @@ public class PharoBuilder extends Builder {
 
   /**
    * A simple task that checks for file. It it's there it kills a given process.
+   *
+   * <p>To execute it repeatedly you probably want to wrap it in a {@link ScheduledFuture}
+   * and  {@link ScheduledFuture#cancel(boolean)} it when it is no longer needed.</p>
    */
   static final class WatdogTask implements Runnable {
 
@@ -415,6 +439,16 @@ public class PharoBuilder extends Builder {
 
     private final PrintStream logger;
 
+    /**
+     * Constructor.
+     *
+     * @param toWatch the file to watch for,
+     *    must not be {@literal null}
+     * @param proc the process to kill, {@link Proc#kill()} will be invoked on
+     *   it from a different thread, must not be {@literal null}
+     * @param logger the logger to use for info and error logging,
+     *   must not be {@literal null}
+     */
     WatdogTask(FilePath toWatch, Proc proc, PrintStream logger) {
       this.logger = logger;
       this.toWatch = toWatch;
