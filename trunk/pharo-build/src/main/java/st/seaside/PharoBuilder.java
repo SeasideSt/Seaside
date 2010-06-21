@@ -50,6 +50,9 @@ import st.seaside.PharoBuilder.DescriptorImpl;
  */
 public class PharoBuilder extends Builder {
 
+  /**
+   * Singleton instance of the global configuration descriptor.
+   */
   @Extension
   public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
@@ -87,14 +90,36 @@ public class PharoBuilder extends Builder {
     this.logFile = logFile;
   }
 
+  /**
+   * Returns the name of the image to build.
+   *
+   * <p>Needed by jelly.</p>
+   *
+   * @return the name of the image to build with {@code ".image"} stripped
+   */
   public String getImage() {
     return this.image;
   }
 
+  /**
+   * Returns the Smalltalk script to execute, between the global before and
+   * after scripts.
+   *
+   * <p>Needed by jelly.</p>
+   *
+   * @return the Smalltalk script to execute, may be empty for {@code null}
+   */
   public String getScript() {
     return this.script;
   }
 
+  /**
+   * Returns the name of the debug log to watch for.
+   *
+   * <p>Needed by jelly.</p>
+   *
+   * @return the name of the debug log to watch for, may be empty for {@code null}
+   */
   public String getFileToWatch() {
     return this.logFile;
   }
