@@ -152,6 +152,8 @@ public class PharoBuilder extends Builder {
   }
 
   private String getContentsOfDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
+    // wait a second to give the Pharo VM time to finish writing the debug log
+    Thread.sleep(TimeUnit.SECONDS.toMillis(1L));
     FilePath debugLog = this.getDebugLog(moduleRoot);
     if (debugLog != null && debugLog.exists()) {
       return debugLog.readToString();
