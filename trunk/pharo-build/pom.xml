@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.363</version>
+    <version>1.364</version>
   </parent>
 
   <groupId>st.seaside</groupId>
