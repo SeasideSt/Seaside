@@ -1,10 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>plugin</artifactId>
-    <version>1.364</version>
-  </parent>
 
   <groupId>st.seaside</groupId>
   <artifactId>pharo-build</artifactId>
@@ -31,6 +26,41 @@
     </license>
   </licenses>
   
+  <dependencies>
+    <dependency>
+      <groupId>org.jvnet.hudson.main</groupId>
+      <artifactId>hudson-core</artifactId>
+      <version>${hudson.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jvnet.hudson.main</groupId>
+      <artifactId>hudson-war</artifactId>
+      <type>war</type>
+      <version>${hudson.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- 
+    <dependency>
+      <groupId>org.jvnet.hudson.main</groupId>
+      <artifactId>maven-plugin</artifactId>
+      <version>${hudson.version}</version>
+    </dependency>
+     -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
   <scm>
     <connection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</connection>
     <developerConnection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</developerConnection>
@@ -49,6 +79,8 @@
   </distributionManagement>
   
   <build>
+   <finalName>${project.artifactId}</finalName>
+   <defaultGoal>package</defaultGoal>
    <plugins>
      <plugin>
        <groupId>org.apache.maven.plugins</groupId>
@@ -57,6 +89,12 @@
          <source>1.6</source>
          <target>1.6</target>
        </configuration>
+     </plugin>
+     <plugin>
+       <groupId>org.jvnet.hudson.tools</groupId>
+       <artifactId>maven-hpi-plugin</artifactId>
+       <version>1.53</version>
+       <extensions>true</extensions>
      </plugin>
    </plugins>
    <extensions>
@@ -142,5 +180,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hudson.version>1.366</hudson.version>
   </properties>
 </project>
