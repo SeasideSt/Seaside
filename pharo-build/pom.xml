@@ -40,6 +40,13 @@
       <version>${hudson.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jvnet.hudson.main</groupId>
+      <artifactId>hudson-test-harness</artifactId>
+      <!-- apparently 1.367 isn't uploaded yet -->
+      <version>1.366</version>
+      <scope>test</scope>
+    </dependency>
     <!-- 
     <dependency>
       <groupId>org.jvnet.hudson.main</groupId>
