@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Image"
+    description="The file name of the input to build against."
+    help="/plugin/pharo-build/help-image.html">
+    <f:textbox name="pharo.image" value="${instance.image}"/>
+  </f:entry>
+  <f:entry title="Script"
+    help="/plugin/pharo-build/help-script.html">
+    <f:textarea name="pharo.script" value="${instance.script}" />
+  </f:entry>
+  <f:entry title="Logfile"
+    help="/plugin/pharo-build/help-logFile.html">
+    <f:textbox name="pharo.logFile" value="${instance.logFile}" default="PharoDebug.log"/>
+  </f:entry>
+</j:jelly>
