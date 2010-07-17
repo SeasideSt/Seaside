@@ -30,5 +30,7 @@ Add the following repo to your settings.xml
 
 2. Invoke Maven
 export MAVEN_OPTS="-Xmx512m"
+svn co https://seaside.googlecode.com/svn/trunk/pharo-build
+cd pharo-build
 mvn release:prepare
 mvn release:perform
