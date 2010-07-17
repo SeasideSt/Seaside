@@ -3,7 +3,7 @@
 
   <groupId>st.seaside</groupId>
   <artifactId>pharo-build</artifactId>
-  <version>0.4.3</version>
+  <version>0.4.4-SNAPSHOT</version>
   <name>Hudson Pharo Plugin</name>
   <description>This plugin builds Pharo images.</description>
   <packaging>hpi</packaging>
@@ -69,9 +69,9 @@
   </dependencies>
   
   <scm>
-    <connection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.4.3</connection>
-    <developerConnection>scm:svn:https://seaside.googlecode.com/svn/tags/pharo-build-0.4.3</developerConnection>
-    <url>https://seaside.googlecode.com/svn/tags/pharo-build-0.4.3</url>
+    <connection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</connection>
+    <developerConnection>scm:svn:https://seaside.googlecode.com/svn/trunk/pharo-build</developerConnection>
+    <url>https://seaside.googlecode.com/svn/trunk/pharo-build</url>
   </scm>
   
   <distributionManagement>
