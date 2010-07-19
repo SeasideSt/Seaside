@@ -275,11 +275,8 @@ public class PharoBuilder extends Builder {
   public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
 
     private String vm;
-
     private String parameters;
-
     private String beforeCode;
-
     private String afterCode;
 
     /**

@@ -1,0 +1,26 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Final Name"
+    description="The name of the final artifact.">
+    <f:textbox name="oneClick.finalName" value="${instance.finalName}"/>
+  </f:entry>
+  <f:entry title="Image"
+    description="The path to the Pharo image to use.">
+    <f:textbox name="oneClick.image" value="${instance.image}"/>
+  </f:entry>
+  <f:entry title="Icon"
+    description="The path of the image icon to use for the final artifact.">
+    <f:textbox name="oneClick.icon" value="${instance.icon}"/>
+  </f:entry>
+  <f:entry title="Mac OS VM"
+    description="The path to the Macintosh VM to bundle.">
+    <f:textbox name="oneClick.macVm" value="${instance.macVm}"/>
+  </f:entry>
+  <f:entry title="UNIX VM"
+    description="The path to the UNIX VM to bundle.">
+    <f:textbox name="oneClick.unixVm" value="${instance.unixVm}"/>
+  </f:entry>
+  <f:entry title="Windows VM"
+    description="The path to the Windows VM to bundle.">
+    <f:textbox name="oneClick.windowsVm" value="${instance.windowsVm}"/>
+  </f:entry>
+</j:jelly>
