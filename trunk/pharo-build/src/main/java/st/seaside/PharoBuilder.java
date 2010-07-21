@@ -487,6 +487,9 @@ public class PharoBuilder extends Builder {
       try {
         if (this.toWatch.exists()) {
           this.logger.println("[INFO] found " + this.toWatch.getRemote() + ", killing");
+          // wait a second to give the Pharo VM time to finish writing the debug log
+          // will block other watch dogs but we can live with this
+          Thread.sleep(TimeUnit.SECONDS.toMillis(1L));
           this.proc.kill();
         }
       } catch (IOException e) {
