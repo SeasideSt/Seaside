@@ -7,9 +7,13 @@
     description="The path to the Pharo image to use.">
     <f:textbox name="oneClick.image" value="${instance.image}"/>
   </f:entry>
-  <f:entry title="Icon"
-    description="The path of the image icon to use for the final artifact.">
-    <f:textbox name="oneClick.icon" value="${instance.icon}"/>
+  <f:entry title="Mac OS Icon"
+    description="The path of the Mac OS image icon to use for the final artifact.">
+    <f:textbox name="oneClick.macOsIcon" value="${instance.macOsIcon}"/>
+  </f:entry>
+  <f:entry title="Windows Icon"
+    description="The path of the Windows image icon to use for the final artifact.">
+    <f:textbox name="oneClick.windowsIcon" value="${instance.windowsIcon}"/>
   </f:entry>
   <f:entry title="Mac OS VM"
     description="The path to the Macintosh VM to bundle.">

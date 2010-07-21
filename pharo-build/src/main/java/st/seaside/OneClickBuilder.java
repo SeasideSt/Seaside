@@ -59,21 +59,51 @@ public class OneClickBuilder extends Builder {
   @Extension
   public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
+  private static final String SHELL_SCRIPT_PREFIX = "#!/bin/sh\n"
+    + "APP=`dirname $0`\n"
+    + "EXE=\"$APP/Contents/Linux686\"\n"
+    + "RES=\"$APP/Contents/Resources\"\n"
+    + "\n"
+    + "exec \"$EXE/squeak\" -plugins \"$EXE\" \\\n"
+    + "        -encoding utf-8 \\\n"
+    + "        -vm-display-X11   \\\n"
+    + "        \"$RES/";
+
+  private static final String SHELL_SCRIPT_SUFFIX = ".image\"";
+
+  //TODO use Windows newlines
+  private static final String INI_PREFIX = "[Global]\n"
+    + "DeferUpdate=1\n"
+    + "ShowConsole=0\n"
+    + "DynamicConsole=1\n"
+    + "ReduceCPUUsage=1\n"
+    + "ReduceCPUInBackground=0\n"
+    + "3ButtonMouse=0\n"
+    + "1ButtonMouse=0\n"
+    + "PriorityBoost=1\n"
+    + "B3DXUsesOpenGL=1\n"
+    + "CaseSensitiveFileMode=0\n"
+    + "";
+
   private final String finalName;
   private final String image;
-  private final String icon;
+  private final String macOsIcon;
+  private final String windowsIcon;
   private final String macVm;
   private final String unixVm;
   private final String windowsVm;
 
   //TODO sources?
   //TODO fonts?
-  //TODO windows image?
+  //TODO windows splash image?
+  //TODO handle non-existing icons
 
   @DataBoundConstructor
-  public OneClickBuilder(String finalName, String image, String icon, String macVm, String unixVm, String windowsVm) {
+  public OneClickBuilder(String finalName, String image, String macOsIcon, String windowsIcon, String macVm,
+      String unixVm, String windowsVm) {
     this.finalName = finalName;
-    this.icon = icon;
+    this.macOsIcon = macOsIcon;
+    this.windowsIcon = windowsIcon;
     this.macVm = macVm;
     this.unixVm = unixVm;
     this.windowsVm = windowsVm;
@@ -115,9 +145,11 @@ public class OneClickBuilder extends Builder {
     FilePath unixVmPath = this.getUnixVmPath(moduleRoot);
     FilePath windowsVmPath = this.getWindowsVmPath(moduleRoot);
 
-    macVmPath.copyTo(appFolder);
-    unixVmPath.copyTo(appFolder);
-    windowsVmPath.copyTo(appFolder);
+    macVmPath.copyRecursiveTo(appFolder);
+    unixVmPath.copyRecursiveTo(appFolder);
+    windowsVmPath.copyRecursiveTo(appFolder);
+    //TODO rename .exe
+    //TODO remove / rename .ini
   }
 
   private void copyImageAndChangesToAppFolder(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -127,6 +159,12 @@ public class OneClickBuilder extends Builder {
 
     imagePath.copyTo(resourcesFolder);
     changesPath.copyTo(resourcesFolder);
+  }
+
+  private void writeStartShellScript(FilePath moduleRoot) throws IOException, InterruptedException {
+    FilePath startShellScript = this.getAppFolder(moduleRoot).child(this.finalName + ".sh");
+    String shellScode = SHELL_SCRIPT_PREFIX + this.finalName + SHELL_SCRIPT_SUFFIX;
+    startShellScript.write(shellScode, "US-ASCII");
   }
 
   private FilePath getImagePath(FilePath moduleRoot) {
@@ -200,7 +238,8 @@ public class OneClickBuilder extends Builder {
 
     private String finalName;
     private String image;
-    private String icon;
+    private String macOsIcon;
+    private String windowsIcon;
     private String macVm;
     private String unixVm;
     private String windowsVm;
@@ -220,7 +259,8 @@ public class OneClickBuilder extends Builder {
     public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
       this.finalName = formData.getString("finalName");
       this.image = formData.getString("image");
-      this.icon = formData.getString("icon");
+      this.macOsIcon = formData.getString("macOsIcon");
+      this.windowsIcon = formData.getString("windowsIcon");
       this.macVm = formData.getString("macVm");
       this.unixVm = formData.getString("unixVm");
       this.windowsVm = formData.getString("windowsVm");
@@ -256,8 +296,12 @@ public class OneClickBuilder extends Builder {
       return this.image;
     }
 
-    public String getIcon() {
-      return this.icon;
+    public String getMacOsIcon() {
+      return this.macOsIcon;
+    }
+
+    public String getWindowsIcon() {
+      return this.windowsIcon;
     }
 
     public String getMacVm() {
