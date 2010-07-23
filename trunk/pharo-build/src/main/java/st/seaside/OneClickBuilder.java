@@ -15,6 +15,7 @@ package st.seaside;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.PrintStream;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
@@ -89,21 +90,22 @@ public class OneClickBuilder extends Builder {
   private final String image;
   private final String macOsIcon;
   private final String windowsIcon;
+  private final String windowsSplash;
   private final String macVm;
   private final String unixVm;
   private final String windowsVm;
 
   //TODO sources?
   //TODO fonts?
-  //TODO windows splash image?
   //TODO handle non-existing icons
 
   @DataBoundConstructor
-  public OneClickBuilder(String finalName, String image, String macOsIcon, String windowsIcon, String macVm,
-      String unixVm, String windowsVm) {
+  public OneClickBuilder(String finalName, String image, String macOsIcon, String windowsIcon, String windowsSplash,
+      String macVm, String unixVm, String windowsVm) {
     this.finalName = finalName;
     this.macOsIcon = macOsIcon;
     this.windowsIcon = windowsIcon;
+    this.windowsSplash = windowsSplash;
     this.macVm = macVm;
     this.unixVm = unixVm;
     this.windowsVm = windowsVm;
@@ -121,6 +123,14 @@ public class OneClickBuilder extends Builder {
     this.createEmptyAppFolder(moduleRoot);
     this.copyVmsToAppFolder(moduleRoot);
     this.copyImageAndChangesToAppFolder(moduleRoot);
+
+    this.renameExeAndIni(moduleRoot, listener.getLogger());
+    this.writeStartShellScript(moduleRoot);
+    //TODO copy icons
+    //TODO create .ini
+    //TODO create Info.plist
+    //TODO copy splash
+
     this.zipAppFolder(moduleRoot);
 
     return true;
@@ -148,8 +158,27 @@ public class OneClickBuilder extends Builder {
     macVmPath.copyRecursiveTo(appFolder);
     unixVmPath.copyRecursiveTo(appFolder);
     windowsVmPath.copyRecursiveTo(appFolder);
-    //TODO rename .exe
-    //TODO remove / rename .ini
+  }
+
+  private void renameExeAndIni(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
+    this.
+    renameFileInAppFolderToFinalName(moduleRoot, "exe", logger);
+    this.renameFileInAppFolderToFinalName(moduleRoot, "ini", logger);
+  }
+
+  private void renameFileInAppFolderToFinalName(FilePath moduleRoot, String suffix, PrintStream logger)
+      throws IOException, InterruptedException {
+    FilePath appFolder = this.getAppFolder(moduleRoot);
+    FilePath[] exes = appFolder.list("*." + suffix);
+    if (exes.length == 1) {
+      FilePath exe = exes[0];
+      FilePath target = exe.getParent().child(this.finalName + "." + suffix);
+      exe.renameTo(target);
+    } else if (exes.length == 0) {
+      logger.println("[INFO] [OneClickBuilder] found more than no ." + suffix + ", not renaming");
+    } else {
+      logger.println("[INFO] [OneClickBuilder] found more than one ." + suffix + ", not renaming");
+    }
   }
 
   private void copyImageAndChangesToAppFolder(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -240,6 +269,7 @@ public class OneClickBuilder extends Builder {
     private String image;
     private String macOsIcon;
     private String windowsIcon;
+    private String windowsSplash;
     private String macVm;
     private String unixVm;
     private String windowsVm;
@@ -261,6 +291,7 @@ public class OneClickBuilder extends Builder {
       this.image = formData.getString("image");
       this.macOsIcon = formData.getString("macOsIcon");
       this.windowsIcon = formData.getString("windowsIcon");
+      this.windowsSplash = formData.getString("windowsSplash");
       this.macVm = formData.getString("macVm");
       this.unixVm = formData.getString("unixVm");
       this.windowsVm = formData.getString("windowsVm");
@@ -302,6 +333,10 @@ public class OneClickBuilder extends Builder {
 
     public String getWindowsIcon() {
       return this.windowsIcon;
+    }
+
+    public String getWindowsSplash() {
+      return this.windowsSplash;
     }
 
     public String getMacVm() {
