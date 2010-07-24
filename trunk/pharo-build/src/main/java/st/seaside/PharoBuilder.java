@@ -29,6 +29,8 @@ import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
 import st.seaside.PharoBuilder.DescriptorImpl;
 
+import static st.seaside.PharoUtils.stripDotImage;
+
 
 /**
  * {@link Builder} for <a href="http://www.pharo-project.org/">Pharo</a>
@@ -126,14 +128,6 @@ public class PharoBuilder extends Builder {
 
   private FilePath getImageFile(FilePath moduleRoot) {
     return moduleRoot.child(this.image + ".image");
-  }
-
-  private static String stripDotImage(String s) {
-    if (s.endsWith(".image")) {
-      return s.substring(0, s.length() - ".image".length());
-    } else {
-      return s;
-    }
   }
 
   private void deleteDebugLog(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -254,6 +248,17 @@ public class PharoBuilder extends Builder {
         future.cancel(true);
       }
     }
+  }
+
+
+  static void logInfo(PrintStream logger, String message) {
+    logger.print("[INFO] [PharoBuilder] ");
+    logger.println(message);
+  }
+
+  static void logError(PrintStream logger, String message) {
+    logger.print("[ERROR] [PharoBuilder] ");
+    logger.println(message);
   }
 
   /**
@@ -486,15 +491,14 @@ public class PharoBuilder extends Builder {
     public void run() {
       try {
         if (this.toWatch.exists()) {
-          this.logger.println("[INFO] [PharoBuilder] found " + this.toWatch.getRemote() + ", killing");
+          logInfo(this.logger, "found " + this.toWatch.getRemote() + ", killing");
           // wait a second to give the Pharo VM time to finish writing the debug log
           // will block other watch dogs but we can live with this
           Thread.sleep(TimeUnit.SECONDS.toMillis(1L));
           this.proc.kill();
         }
       } catch (IOException e) {
-        this.logger.print("[ERROR] [PharoBuilder] could not watch: " + this.toWatch.getRemote()
-            + " because " + e.getMessage());
+        logError(this.logger, "could not watch: " + this.toWatch.getRemote() + " because " + e.getMessage());
         throw new RuntimeException(e);
       } catch (InterruptedException e) {
         Thread.currentThread().interrupt();
