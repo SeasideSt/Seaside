@@ -15,6 +15,10 @@
     description="The path of the Windows image icon to use for the final artifact.">
     <f:textbox name="oneClick.windowsIcon" value="${instance.windowsIcon}"/>
   </f:entry>
+  <f:entry title="Windows Splash"
+    description="The Windows splash screens displayed during startup.">
+    <f:textbox name="oneClick.windowsSplash" value="${instance.windowsSplash}"/>
+  </f:entry>
   <f:entry title="Mac OS VM"
     description="The path to the Macintosh VM to bundle.">
     <f:textbox name="oneClick.macVm" value="${instance.macVm}"/>
