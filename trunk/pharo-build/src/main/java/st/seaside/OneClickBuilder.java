@@ -726,38 +726,47 @@ public class OneClickBuilder extends Builder {
   }
 
   public String getFinalName() {
+    // needed by Jelly, don't remove
     return this.finalName;
   }
 
   public String getTitle() {
+    // needed by Jelly, don't remove
     return this.title;
   }
 
   public String getImage() {
+    // needed by Jelly, don't remove
     return this.image;
   }
 
   public String getMacOsIcon() {
+    // needed by Jelly, don't remove
     return this.macOsIcon;
   }
 
   public String getWindowsIcon() {
+    // needed by Jelly, don't remove
     return this.windowsIcon;
   }
 
   public String getWindowsSplash() {
+    // needed by Jelly, don't remove
     return this.windowsSplash;
   }
 
   public String getMacVm() {
+    // needed by Jelly, don't remove
     return this.macVm;
   }
 
   public String getUnixVm() {
+    // needed by Jelly, don't remove
     return this.unixVm;
   }
 
   public String getWindowsVm() {
+    // needed by Jelly, don't remove
     return this.windowsVm;
   }
 
