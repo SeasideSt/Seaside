@@ -49,12 +49,12 @@ public class OneClickBuilder extends Builder {
   // This code was written in an Avro RJ 100
 
   private static final String CRLF;
-  private static final String CR;
+  private static final String LF;
 
   static {
     try {
       CRLF = new String(new byte[] {13, 10}, "US-ASCII");
-      CR = new String(new byte[] {13}, "US-ASCII");
+      LF = new String(new byte[] {10}, "US-ASCII");
     } catch (UnsupportedEncodingException e) {
       throw new RuntimeException("US-ASCII not supported, shouldn't happen");
     }
@@ -76,9 +76,9 @@ public class OneClickBuilder extends Builder {
     "",
     "# execute",
     "exec \"$BASE/squeakvm\" \\",
-    "        -plugins \"$BASE\" ",
-    "        -encoding utf-8 ",
-    "        -vm-display-X11 "
+    "        -plugins \"$BASE\" \\",
+    "        -encoding utf-8 \\",
+    "        -vm-display-X11 \\"
   };
 
   private static final String[] INI_PREFIXES = new String[] {
@@ -939,12 +939,12 @@ public class OneClickBuilder extends Builder {
       Writer writer = new OutputStreamWriter(stream, "US-ASCII");
       for (String line : SHELL_SCRIPT_PREFIXES) {
         writer.write(line);
-        writer.write(CR);
+        writer.write(LF);
       }
       writer.write("        \"$ROOT/Contents/Resources/");
       writer.write(this.finalName);
       writer.write(".image\"");
-      writer.write(CR);
+      writer.write(LF);
       writer.flush();
     } finally {
       stream.close();
