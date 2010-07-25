@@ -40,6 +40,14 @@ public class PharoImageResizer extends Builder {
     this.height = height;
   }
 
+  public int getWidth() {
+    return this.width;
+  }
+
+  public int getHeight() {
+    return this.height;
+  }
+
 
   /**
    * Descriptor for {@link PharoImageResizer}. Used as a singleton.
@@ -50,6 +58,24 @@ public class PharoImageResizer extends Builder {
    * for the actual HTML fragment for the configuration screen.
    */
   public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
+
+
+    /**
+     * Default constructor, loads the defaults first and then the saved data.
+     */
+    public DescriptorImpl() {
+      super(PharoImageResizer.class);
+      load();
+    }
+
+    /**
+     * Constructor, only loads the defaults and not the saved data.
+     *
+     * @param clazz the builder class
+     */
+    protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
+      super(clazz);
+    }
 
     /**
      * {@inheritDoc}

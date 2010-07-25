@@ -11,7 +11,6 @@ import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 import org.kohsuke.stapler.DataBoundConstructor;
-import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
 
 import hudson.Extension;
@@ -23,7 +22,6 @@ import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
 import hudson.util.ArgumentListBuilder;
-import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
 import st.seaside.OneClickBuilder.DescriptorImpl;
 
@@ -727,6 +725,43 @@ public class OneClickBuilder extends Builder {
     this.image = stripDotImage(image);
   }
 
+  public String getFinalName() {
+    return this.finalName;
+  }
+
+  public String getTitle() {
+    return this.title;
+  }
+
+  public String getImage() {
+    return this.image;
+  }
+
+  public String getMacOsIcon() {
+    return this.macOsIcon;
+  }
+
+  public String getWindowsIcon() {
+    return this.windowsIcon;
+  }
+
+  public String getWindowsSplash() {
+    return this.windowsSplash;
+  }
+
+  public String getMacVm() {
+    return this.macVm;
+  }
+
+  public String getUnixVm() {
+    return this.unixVm;
+  }
+
+  public String getWindowsVm() {
+    return this.windowsVm;
+  }
+
+
   /**
    * {@inheritDoc}
    */
@@ -1062,6 +1097,7 @@ public class OneClickBuilder extends Builder {
     appFolder.zip(stream);
   }
 
+
   /**
    * {@inheritDoc}
    */
@@ -1085,20 +1121,10 @@ public class OneClickBuilder extends Builder {
    * The class is marked as public so that it can be accessed from views.
    *
    * <p>
-   * See <tt>views/hudson/plugins/pharo-build/OneClickBuilder/*.jelly</tt>
+   * See <tt>views/hudson/plugins/pharo-build/PharoBuilder/*.jelly</tt>
    * for the actual HTML fragment for the configuration screen.
    */
   public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
-
-    private String finalName;
-    private String title;
-    private String image;
-    private String macOsIcon;
-    private String windowsIcon;
-    private String windowsSplash;
-    private String macVm;
-    private String unixVm;
-    private String windowsVm;
 
     /**
      * Default constructor, loads the defaults first and then the saved data.
@@ -1107,7 +1133,6 @@ public class OneClickBuilder extends Builder {
       super(OneClickBuilder.class);
       load();
     }
-
 
     /**
      * Constructor, only loads the defaults and not the saved data.
@@ -1118,70 +1143,12 @@ public class OneClickBuilder extends Builder {
       super(clazz);
     }
 
-    @Override
-    public Builder newInstance(StaplerRequest req, JSONObject formData)
-        throws hudson.model.Descriptor.FormException {
-      System.out.println("new descriptor");
-      return super.newInstance(req, formData);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
-      System.out.println("saving:" + formData);
-      this.finalName = formData.getString("finalName");
-      this.title = formData.getString("title");
-      this.image = formData.getString("image");
-      this.macOsIcon = formData.getString("macOsIcon");
-      this.windowsIcon = formData.getString("windowsIcon");
-      this.windowsSplash = formData.getString("windowsSplash");
-      this.macVm = formData.getString("macVm");
-      this.unixVm = formData.getString("unixVm");
-      this.windowsVm = formData.getString("windowsVm");
-      // ^Can also use req.bindJSON(this, formData);
-      //  (easier when there are many fields; need set* methods for this)
-      save();
-      return super.configure(request, formData);
-    }
-
-    /**
-     * Performs on-the-fly validation of the form field 'image'.
-     *
-     * @param value
-     *      This parameter receives the value that the user has typed.
-     * @return
-     *      Indicates the outcome of the validation. This is sent to the browser.
-     */
-    public FormValidation doCheckImage(@QueryParameter String value) {
-      if (value.isEmpty()) {
-        return FormValidation.error(Messages.oneClick_imageEmpty());
-      }
-      return FormValidation.ok();
-    }
-
-    /**
-     * Performs on-the-fly validation of the form field 'finalName'.
-     *
-     * @param value
-     *      This parameter receives the value that the user has typed.
-     * @return
-     *      Indicates the outcome of the validation. This is sent to the browser.
-     */
-    public FormValidation doCheckFinalName(@QueryParameter String value) {
-      if (value.isEmpty()) {
-        return FormValidation.error(Messages.oneClick_finalNameEmpty());
-      }
-      return FormValidation.ok();
-    }
-
     /**
      * {@inheritDoc}
      */
     @Override
     public boolean isApplicable(@SuppressWarnings("rawtypes") /* broken in superclass */
-        Class<? extends AbstractProject> jobType) {
+        Class<? extends AbstractProject> aClass) {
       // indicates that this builder can be used with all kinds of project types
       return true;
     }
@@ -1194,42 +1161,14 @@ public class OneClickBuilder extends Builder {
       return Messages.oneClick_displayName();
     }
 
-    public String getFinalName() {
-      return this.finalName;
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
+      save();
+      return super.configure(request, formData);
     }
-
-    public String getTitle() {
-      return this.title;
-    }
-
-    public String getImage() {
-      return this.image;
-    }
-
-    public String getMacOsIcon() {
-      return this.macOsIcon;
-    }
-
-    public String getWindowsIcon() {
-      return this.windowsIcon;
-    }
-
-    public String getWindowsSplash() {
-      return this.windowsSplash;
-    }
-
-    public String getMacVm() {
-      return this.macVm;
-    }
-
-    public String getUnixVm() {
-      return this.unixVm;
-    }
-
-    public String getWindowsVm() {
-      return this.windowsVm;
-    }
-
 
   }
 
