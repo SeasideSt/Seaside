@@ -3,7 +3,7 @@
     description="The name of the final artifact.">
     <f:textbox name="oneClick.finalName" value="${instance.finalName}"/>
   </f:entry>
-  <f:entry title="Ttile"
+  <f:entry title="Title"
     description="The title displayed in the title bar of the image.">
     <f:textbox name="oneClick.title" value="${instance.title}"/>
   </f:entry>
