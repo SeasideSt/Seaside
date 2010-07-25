@@ -457,7 +457,9 @@ public class OneClickBuilder extends Builder {
     + "        <key>CFBundleInfoDictionaryVersion</key>\n"
     + "        <string>6.0</string>\n"
     + "        <key>CFBundleName</key>\n"
-    + "        <string>Squeak VM </string>\n"
+    + "        <string>";
+
+  private static final String INFO_PLIST_3 = "</string>\n"
     + "        <key>CFBundlePackageType</key>\n"
     + "        <string>APPL</string>\n"
     + "        <key>CFBundleShortVersionString</key>\n"
@@ -527,7 +529,7 @@ public class OneClickBuilder extends Builder {
     + "        <key>SqueakImageName</key>\n"
     + "        <string>";
 
-  private static final String INFO_PLIST_3 = "</string>\n"
+  private static final String INFO_PLIST_4 = "</string>\n"
     + "        <key>SqueakMaxHeapSize</key>\n"
     + "        <integer>536870912</integer>\n"
     + "        <key>SqueakMouseCmdButton1</key>\n"
@@ -695,6 +697,7 @@ public class OneClickBuilder extends Builder {
     + "";
 
   private final String finalName;
+  private final String title;
   private final String image;
   private final String macOsIcon;
   private final String windowsIcon;
@@ -707,9 +710,10 @@ public class OneClickBuilder extends Builder {
   //TODO fonts?
 
   @DataBoundConstructor
-  public OneClickBuilder(String finalName, String image,  String macOsIcon, String windowsIcon, String windowsSplash,
-      String macVm, String unixVm, String windowsVm) {
+  public OneClickBuilder(String finalName, String title, String image,  String macOsIcon, String windowsIcon,
+      String windowsSplash, String macVm, String unixVm, String windowsVm) {
     this.finalName = finalName;
+    this.title = title;
     this.macOsIcon = macOsIcon;
     this.windowsIcon = windowsIcon;
     this.windowsSplash = windowsSplash;
@@ -777,12 +781,21 @@ public class OneClickBuilder extends Builder {
     macVmPath.copyRecursiveTo(appFolder);
     unixVmPath.copyRecursiveTo(appFolder.child("Contents").child("Linux"));
     windowsVmPath.copyRecursiveTo(appFolder);
+
+    FilePath splashBmp = appFolder.child("splash.bmp");
+    if (splashBmp.exists()) {
+      splashBmp.delete();
+    }
+
+    // fix file permissions
+    appFolder.child("Contents").child("Linux").child("squeakvm").chmod(0544);
+    appFolder.child("Contents").child("MacOS").child("Squeak VM Opt").chmod(0544);
   }
 
   private void copySources(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
     FilePath target = this.getResourcesFolder(moduleRoot);
     FilePath sourcesFilePath = this.getSourcesFilePath(moduleRoot, logger);
-    sourcesFilePath.copyTo(target);
+    sourcesFilePath.copyTo(target.child(sourcesFilePath.getName()));
   }
 
   private void renameExeAndIni(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
@@ -820,8 +833,8 @@ public class OneClickBuilder extends Builder {
     FilePath imagePath = this.getImagePath(moduleRoot);
     FilePath changesPath = this.getChangesPath(moduleRoot);
 
-    imagePath.copyTo(resourcesFolder);
-    changesPath.copyTo(resourcesFolder);
+    imagePath.copyTo(resourcesFolder.child(this.finalName + ".image"));
+    changesPath.copyTo(resourcesFolder.child(this.finalName + ".changes"));
   }
 
   private void copyWindowsSplash(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -831,7 +844,7 @@ public class OneClickBuilder extends Builder {
 
     FilePath target = this.getAppFolder(moduleRoot);
     FilePath windowsSplashPath = this.getWindowsSplashPath(moduleRoot);
-    windowsSplashPath.copyTo(target);
+    windowsSplashPath.copyTo(target.child(windowsSplashPath.getName()));
   }
 
   private void copyMacOsIcon(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -841,7 +854,7 @@ public class OneClickBuilder extends Builder {
 
     FilePath target = this.getResourcesFolder(moduleRoot);
     FilePath macOsIconPath = this.getMacOsIconPath(moduleRoot);
-    macOsIconPath.copyTo(target);
+    macOsIconPath.copyTo(target.child(macOsIconPath.getName()));
   }
 
   private void writeWindowsIni(FilePath moduleRoot) throws IOException, InterruptedException {
@@ -864,17 +877,28 @@ public class OneClickBuilder extends Builder {
       }
 
       // Window Title
-      writer.write("WindowTitle=");
-      //TODO tile
-      writer.write(this.finalName);
-      writer.write(CRLF);
+      if (!StringUtils.isEmpty(this.title)) {
+        writer.write("WindowTitle=");
+        writer.write(this.title);
+        writer.write(CRLF);
+
+        writer.write("SplashTitle=");
+        writer.write(this.title);
+        writer.write(CRLF);
+      }
 
       // Image File
       writer.write("ImageFile=Contents\\Resources\\");
       writer.write(this.finalName);
       writer.write(".image");
+      writer.write(CRLF);
 
-      //TODO splash
+      if (StringUtils.isNotEmpty(this.windowsSplash)) {
+        writer.write("SplashScreen=");
+        writer.write(this.getWindowsSplashPath(moduleRoot).getName());
+        writer.write(CRLF);
+      }
+      writer.flush();
     } finally {
       stream.close();
     }
@@ -892,9 +916,16 @@ public class OneClickBuilder extends Builder {
         writer.write(this.getMacOsIconPath(moduleRoot).getName());
       }
       writer.write(INFO_PLIST_2);
+      if (StringUtils.isEmpty(this.title)) {
+        writer.write("Squeak VM");
+      } else {
+        writer.write(this.title);
+      }
+      writer.write(INFO_PLIST_3);
       writer.write(this.finalName);
       writer.write(".image");
-      writer.write(INFO_PLIST_3);
+      writer.write(INFO_PLIST_4);
+      writer.flush();
     } finally {
       stream.close();
     }
@@ -914,9 +945,13 @@ public class OneClickBuilder extends Builder {
       writer.write(this.finalName);
       writer.write(".image\"");
       writer.write(CR);
+      writer.flush();
     } finally {
       stream.close();
     }
+
+    // make executalbe
+    startShellScript.chmod(0544);
   }
 
   private FilePath getImagePath(FilePath moduleRoot) {
@@ -1034,6 +1069,7 @@ public class OneClickBuilder extends Builder {
   public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
 
     private String finalName;
+    private String title;
     private String image;
     private String macOsIcon;
     private String windowsIcon;
@@ -1056,6 +1092,7 @@ public class OneClickBuilder extends Builder {
     @Override
     public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
       this.finalName = formData.getString("finalName");
+      this.title = formData.getString("title");
       this.image = formData.getString("image");
       this.macOsIcon = formData.getString("macOsIcon");
       this.windowsIcon = formData.getString("windowsIcon");
@@ -1089,6 +1126,10 @@ public class OneClickBuilder extends Builder {
 
     public String getFinalName() {
       return this.finalName;
+    }
+
+    public String getTitle() {
+      return this.title;
     }
 
     public String getImage() {
