@@ -7,9 +7,11 @@ import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 import org.kohsuke.stapler.DataBoundConstructor;
+import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
 
 import hudson.Extension;
@@ -20,6 +22,8 @@ import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
+import hudson.util.ArgumentListBuilder;
+import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
 import st.seaside.OneClickBuilder.DescriptorImpl;
 
@@ -33,7 +37,7 @@ import static st.seaside.PharoUtils.stripDotImage;
  * <p>
  * When the user configures the project and enables this builder,
  * {@link DescriptorImpl#newInstance(StaplerRequest)} is invoked
- * and a new {@link PharoBuilder} is created. The created
+ * and a new {@link OneClickBuilder} is created. The created
  * instance is persisted to the project configuration XML by using
  * XStream, so this allows you to use instance fields (like {@link #name})
  * to remember the configuration.
@@ -706,12 +710,12 @@ public class OneClickBuilder extends Builder {
   private final String unixVm;
   private final String windowsVm;
 
-  //TODO Title?
   //TODO fonts?
 
   @DataBoundConstructor
   public OneClickBuilder(String finalName, String title, String image,  String macOsIcon, String windowsIcon,
       String windowsSplash, String macVm, String unixVm, String windowsVm) {
+    System.out.println("new builder finalName" + finalName + " title " + title);
     this.finalName = finalName;
     this.title = title;
     this.macOsIcon = macOsIcon;
@@ -728,7 +732,7 @@ public class OneClickBuilder extends Builder {
    */
   @Override
   public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
-  throws InterruptedException, IOException {
+      throws InterruptedException, IOException {
     try {
       FilePath moduleRoot = build.getModuleRoot();
       PrintStream logger = listener.getLogger();
@@ -746,11 +750,29 @@ public class OneClickBuilder extends Builder {
       this.writeWindowsIni(moduleRoot);
       //TODO copy windows icon
 
-      this.zipAppFolder(moduleRoot);
+      this.zipAppFolderUsingShell(build, launcher, listener);
 
       return true;
     } catch (BuildFailedException e) {
       return false;
+    }
+  }
+
+  private void zipAppFolderUsingShell(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
+      throws IOException, InterruptedException {
+    FilePath moduleRoot = build.getModuleRoot();
+    ArgumentListBuilder args = new ArgumentListBuilder();
+    args.add("zip");
+    args.add("--quiet");
+    args.add("--recurse-paths");
+    args.add("-9");
+    String appfolderPath = this.getAppFolder(moduleRoot).getRemote();
+    args.add(appfolderPath + ".zip");
+    args.add(appfolderPath);
+    Map<String, String> env = build.getEnvironment(listener);
+    int result = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).join();
+    if (result != 0) {
+      throw new BuildFailedException();
     }
   }
 
@@ -1032,7 +1054,7 @@ public class OneClickBuilder extends Builder {
     return path.charAt(0) == '/';
   }
 
-  private void zipAppFolder(FilePath moduleRoot) throws IOException, InterruptedException {
+  private void zipAppFolderUsingJava(FilePath moduleRoot) throws IOException, InterruptedException {
     FilePath appFolder = this.getAppFolder(moduleRoot);
     FilePath zippedAppFolder = moduleRoot.child(this.finalName + ".app.zip");
 
@@ -1059,7 +1081,7 @@ public class OneClickBuilder extends Builder {
   }
 
   /**
-   * Descriptor for {@link PharoBuilder}. Used as a singleton.
+   * Descriptor for {@link OneClickBuilder}. Used as a singleton.
    * The class is marked as public so that it can be accessed from views.
    *
    * <p>
@@ -1086,11 +1108,29 @@ public class OneClickBuilder extends Builder {
       load();
     }
 
+
+    /**
+     * Constructor, only loads the defaults and not the saved data.
+     *
+     * @param clazz the builder class
+     */
+    protected DescriptorImpl(Class<? extends PharoBuilder> clazz) {
+      super(clazz);
+    }
+
+    @Override
+    public Builder newInstance(StaplerRequest req, JSONObject formData)
+        throws hudson.model.Descriptor.FormException {
+      System.out.println("new descriptor");
+      return super.newInstance(req, formData);
+    }
+
     /**
      * {@inheritDoc}
      */
     @Override
     public boolean configure(StaplerRequest request, JSONObject formData) throws FormException {
+      System.out.println("saving:" + formData);
       this.finalName = formData.getString("finalName");
       this.title = formData.getString("title");
       this.image = formData.getString("image");
@@ -1104,6 +1144,36 @@ public class OneClickBuilder extends Builder {
       //  (easier when there are many fields; need set* methods for this)
       save();
       return super.configure(request, formData);
+    }
+
+    /**
+     * Performs on-the-fly validation of the form field 'image'.
+     *
+     * @param value
+     *      This parameter receives the value that the user has typed.
+     * @return
+     *      Indicates the outcome of the validation. This is sent to the browser.
+     */
+    public FormValidation doCheckImage(@QueryParameter String value) {
+      if (value.isEmpty()) {
+        return FormValidation.error(Messages.oneClick_imageEmpty());
+      }
+      return FormValidation.ok();
+    }
+
+    /**
+     * Performs on-the-fly validation of the form field 'finalName'.
+     *
+     * @param value
+     *      This parameter receives the value that the user has typed.
+     * @return
+     *      Indicates the outcome of the validation. This is sent to the browser.
+     */
+    public FormValidation doCheckFinalName(@QueryParameter String value) {
+      if (value.isEmpty()) {
+        return FormValidation.error(Messages.oneClick_finalNameEmpty());
+      }
+      return FormValidation.ok();
     }
 
     /**
