@@ -1,0 +1,31 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Pharo Image Builder">
+    <f:entry
+      title="VM executable"
+      description="Path to the Pharo VM executable">
+      <f:textbox name="pahrobuilder.vm"
+        value="${descriptor.getVm()}"
+        default="${descriptor.defaultVm()}"/>
+    </f:entry>
+    <f:entry title="Parameters"
+      description="Parameters passed to the Pharo VM">
+      <f:textbox name="pahrobuilder.parameters"
+        value="${descriptor.getParameters()}"
+        default="${descriptor.defaultParamters()}"/>
+    </f:entry>
+    <f:entry title="Before Code"
+      description="The code that is executed before the build specific code"
+      help="/plugin/pharo-build/help-beforeCode.html">
+      <f:textarea name="pahrobuilder.beforeCode"
+        value="${descriptor.getBeforeCode()}"
+        default="${descriptor.defaultBeforeCode()}"/>
+    </f:entry>
+    <f:entry title="After Code"
+      description="The code that is executed after the build specific code"
+      help="/plugin/pharo-build/help-afterCode.html">
+      <f:textarea name="pahrobuilder.afterCode"
+        value="${descriptor.getAfterCode()}"
+        default="${descriptor.defaultAfterCode()}" />
+    </f:entry>
+  </f:section>
+</j:jelly>
