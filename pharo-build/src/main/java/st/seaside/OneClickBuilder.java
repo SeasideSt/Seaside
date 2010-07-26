@@ -713,7 +713,6 @@ public class OneClickBuilder extends Builder {
   @DataBoundConstructor
   public OneClickBuilder(String finalName, String title, String image,  String macOsIcon, String windowsIcon,
       String windowsSplash, String macVm, String unixVm, String windowsVm) {
-    System.out.println("new builder finalName" + finalName + " title " + title);
     this.finalName = finalName;
     this.title = title;
     this.macOsIcon = macOsIcon;
@@ -810,11 +809,14 @@ public class OneClickBuilder extends Builder {
     args.add("--quiet");
     args.add("--recurse-paths");
     args.add("-9");
-    String appfolderPath = this.getAppFolder(moduleRoot).getRemote();
+    // make a relative path
+    String appfolderPath = this.getAppFolder(moduleRoot).getRemote().substring(moduleRoot.getRemote().length() + 1);
+    // the archive
     args.add(appfolderPath + ".zip");
+    // the folder to archive
     args.add(appfolderPath);
     Map<String, String> env = build.getEnvironment(listener);
-    int result = launcher.launch().cmds(args).envs(env).stdout(listener).pwd(moduleRoot).join();
+    int result = launcher.launch().cmds(args).pwd(moduleRoot).envs(env).stdout(listener).pwd(moduleRoot).join();
     if (result != 0) {
       throw new BuildFailedException();
     }

@@ -1,5 +1,7 @@
 package st.seaside;
 
+import java.io.IOException;
+
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
@@ -31,21 +33,40 @@ import st.seaside.PharoImageResizer.DescriptorImpl;
  */
 public class PharoImageResizer extends Builder {
 
+  private final String image;
   private final int width;
   private final int height;
 
   @DataBoundConstructor
-  public PharoImageResizer(int width, int height) {
+  public PharoImageResizer(String image, int width, int height) {
+    this.image = image;
     this.width = width;
     this.height = height;
   }
 
+  public String getImage() {
+    // needed by Jelly, don't remove
+    return this.image;
+  }
+
   public int getWidth() {
+    // needed by Jelly, don't remove
     return this.width;
   }
 
   public int getHeight() {
+    // needed by Jelly, don't remove
     return this.height;
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
+      throws InterruptedException, IOException {
+    listener.getLogger().println("Not yet implemented");
+    return false;
   }
 
 
