@@ -1,10 +1,17 @@
 package st.seaside;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.channels.FileChannel.MapMode;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
+import hudson.FilePath;
 import hudson.Launcher;
 import hudson.model.BuildListener;
 import hudson.model.AbstractBuild;
@@ -12,6 +19,9 @@ import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepDescriptor;
 import hudson.tasks.Builder;
 import st.seaside.PharoImageResizer.DescriptorImpl;
+
+import static st.seaside.PharoUtils.addDotImage;
+import static st.seaside.PharoUtils.getAbsoluteOrRelativePath;
 
 /**
  * {@link Builder} for <a href="http://www.pharo-project.org/">Pharo</a>
@@ -39,7 +49,7 @@ public class PharoImageResizer extends Builder {
 
   @DataBoundConstructor
   public PharoImageResizer(String image, int width, int height) {
-    this.image = image;
+    this.image = addDotImage(image);
     this.width = width;
     this.height = height;
   }
@@ -71,14 +81,37 @@ public class PharoImageResizer extends Builder {
     return new byte[]{(byte) (i & 0xFF), (byte) (i >> 8)};
   }
 
+  private FilePath getImagePath(FilePath moduleRoot) {
+    return getAbsoluteOrRelativePath(this.image, moduleRoot);
+  }
+
+  private ByteBuffer getDimensionMask() {
+    byte[] data = new byte[4];
+    System.arraycopy(this.getHeightInLittleEndian(), 0, data, 0, 2);
+    System.arraycopy(this.getWidthInLittleEndian(), 0, data, 2, 2);
+    return ByteBuffer.wrap(data);
+  }
+
   /**
    * {@inheritDoc}
    */
   @Override
   public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
       throws InterruptedException, IOException {
-    listener.getLogger().println("Not yet implemented");
-    return false;
+
+    FilePath imagePath = getImagePath(build.getModuleRoot());
+    File file = new File(imagePath.toURI());
+    FileOutputStream stream = new FileOutputStream(file, false);
+    try {
+      FileChannel channel = stream.getChannel();
+      MappedByteBuffer map = channel.map(MapMode.READ_WRITE, 24L, 4L);
+      map.put(this.getDimensionMask());
+      map.force();
+      stream.flush();
+    } finally {
+      stream.close();
+    }
+    return true;
   }
 
 

@@ -1,6 +1,5 @@
 package st.seaside;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -25,6 +24,7 @@ import hudson.util.ArgumentListBuilder;
 import net.sf.json.JSONObject;
 import st.seaside.OneClickBuilder.DescriptorImpl;
 
+import static st.seaside.PharoUtils.getAbsoluteOrRelativePath;
 import static st.seaside.PharoUtils.stripDotImage;
 
 
@@ -1023,27 +1023,27 @@ public class OneClickBuilder extends Builder {
   }
 
   private FilePath getImagePath(FilePath moduleRoot) {
-    return this.getPath(this.image + ".image", moduleRoot);
+    return getAbsoluteOrRelativePath(this.image + ".image", moduleRoot);
   }
 
   private FilePath getChangesPath(FilePath moduleRoot) {
-    return this.getPath(this.image + ".changes", moduleRoot);
+    return getAbsoluteOrRelativePath(this.image + ".changes", moduleRoot);
   }
 
   private FilePath getMacOsIconPath(FilePath moduleRoot) {
-    return this.getPath(this.macOsIcon, moduleRoot);
+    return getAbsoluteOrRelativePath(this.macOsIcon, moduleRoot);
   }
 
   private FilePath getWindowsSplashPath(FilePath moduleRoot) {
-    return this.getPath(this.windowsSplash, moduleRoot);
+    return getAbsoluteOrRelativePath(this.windowsSplash, moduleRoot);
   }
 
   private FilePath getMacVmPath(FilePath moduleRoot) {
-    return this.getPath(this.macVm, moduleRoot);
+    return getAbsoluteOrRelativePath(this.macVm, moduleRoot);
   }
 
   private FilePath getUnixVmPath(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
-    FilePath unixVmPath = this.getPath(this.unixVm, moduleRoot);
+    FilePath unixVmPath = getAbsoluteOrRelativePath(this.unixVm, moduleRoot);
     if (unixVmPath.child("squeakvm").exists()) {
       return unixVmPath;
     }
@@ -1059,7 +1059,7 @@ public class OneClickBuilder extends Builder {
   }
 
   private FilePath getWindowsVmPath(FilePath moduleRoot) {
-    return this.getPath(this.windowsVm, moduleRoot);
+    return getAbsoluteOrRelativePath(this.windowsVm, moduleRoot);
   }
 
   private FilePath getSourcesFilePath(FilePath moduleRoot, PrintStream logger)
@@ -1077,28 +1077,6 @@ public class OneClickBuilder extends Builder {
     }
   }
 
-  private FilePath getPath(String path, FilePath moduleRoot) {
-    if (this.isAbsolute(path)) {
-      return new FilePath(new File(path));
-    } else {
-      return moduleRoot.child(path);
-    }
-  }
-
-  private boolean isAbsolute(String path) {
-    return this.isAbsoluteUnixPath(path) || this.isAbsoluteWindowsPath(path);
-  }
-
-  private boolean isAbsoluteWindowsPath(String path) {
-    return path.length() > 3
-    && Character.isLetter(path.charAt(0))
-    && path.charAt(1) == ':'
-      && path.charAt(2) == '\\';
-  }
-
-  private boolean isAbsoluteUnixPath(String path) {
-    return path.charAt(0) == '/';
-  }
 
   private void zipAppFolderUsingJava(FilePath moduleRoot) throws IOException, InterruptedException {
     FilePath appFolder = this.getAppFolder(moduleRoot);
