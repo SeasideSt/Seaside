@@ -59,6 +59,18 @@ public class PharoImageResizer extends Builder {
     return this.height;
   }
 
+  byte[] getWidthInLittleEndian() {
+    return toLittleEndian(this.width);
+  }
+
+  byte[] getHeightInLittleEndian() {
+    return toLittleEndian(this.height);
+  }
+
+  private static byte[] toLittleEndian(int i) {
+    return new byte[]{(byte) (i & 0xFF), (byte) (i >> 8)};
+  }
+
   /**
    * {@inheritDoc}
    */
