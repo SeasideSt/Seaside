@@ -1,8 +1,8 @@
 package st.seaside;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
@@ -11,6 +11,7 @@ import java.nio.channels.FileChannel.MapMode;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
+import hudson.Extension;
 import hudson.FilePath;
 import hudson.Launcher;
 import hudson.model.BuildListener;
@@ -42,6 +43,13 @@ import static st.seaside.PharoUtils.getAbsoluteOrRelativePath;
  * @author Philippe Marschall
  */
 public class PharoImageResizer extends Builder {
+
+
+  /**
+   * Singleton instance of the global configuration descriptor.
+   */
+  @Extension
+  public static final DescriptorImpl DESCRIPTOR = new DescriptorImpl();
 
   private final String image;
   private final int width;
@@ -101,19 +109,26 @@ public class PharoImageResizer extends Builder {
 
     FilePath imagePath = getImagePath(build.getModuleRoot());
     File file = new File(imagePath.toURI());
-    FileOutputStream stream = new FileOutputStream(file, false);
+    RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
     try {
-      FileChannel channel = stream.getChannel();
-      MappedByteBuffer map = channel.map(MapMode.READ_WRITE, 24L, 4L);
-      map.put(this.getDimensionMask());
-      map.force();
-      stream.flush();
+      FileChannel channel = randomAccessFile.getChannel();
+      MappedByteBuffer buffer = channel.map(MapMode.READ_WRITE, 24L, 4L);
+      buffer.put(this.getDimensionMask());
+      buffer.force();
     } finally {
-      stream.close();
+      randomAccessFile.close();
     }
     return true;
   }
 
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public DescriptorImpl getDescriptor() {
+    return DESCRIPTOR;
+  }
 
   /**
    * Descriptor for {@link PharoImageResizer}. Used as a singleton.
