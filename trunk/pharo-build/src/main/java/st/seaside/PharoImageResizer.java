@@ -2,8 +2,8 @@ package st.seaside;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.io.RandomAccessFile;
-import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
@@ -93,11 +93,17 @@ public class PharoImageResizer extends Builder {
     return getAbsoluteOrRelativePath(this.image, moduleRoot);
   }
 
-  private ByteBuffer getDimensionMask() {
+  byte[] getDimensionMask() {
     byte[] data = new byte[4];
     System.arraycopy(this.getHeightInLittleEndian(), 0, data, 0, 2);
     System.arraycopy(this.getWidthInLittleEndian(), 0, data, 2, 2);
-    return ByteBuffer.wrap(data);
+    return data;
+  }
+
+
+  static void logInfo(PrintStream logger, String message) {
+    logger.print("[INFO] [PharoImageResizer] ");
+    logger.println(message);
   }
 
   /**
@@ -107,18 +113,42 @@ public class PharoImageResizer extends Builder {
   public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
       throws InterruptedException, IOException {
 
-    FilePath imagePath = getImagePath(build.getModuleRoot());
-    File file = new File(imagePath.toURI());
-    RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
+
+    FilePath moduleRoot = build.getModuleRoot();
+    PrintStream logger = listener.getLogger();
+
+    logStart(moduleRoot, logger);
+
+    RandomAccessFile randomAccessFile = this.getImageFile(moduleRoot);
     try {
-      FileChannel channel = randomAccessFile.getChannel();
-      MappedByteBuffer buffer = channel.map(MapMode.READ_WRITE, 24L, 4L);
-      buffer.put(this.getDimensionMask());
-      buffer.force();
+      resizeBio(randomAccessFile);
     } finally {
       randomAccessFile.close();
     }
     return true;
+  }
+
+  private void logStart(FilePath moduleRoot, PrintStream logger) {
+    FilePath imagePath = getImagePath(moduleRoot);
+    logInfo(logger, "resizing image " + imagePath.getRemote() + " to " + this.width + "x" + this.height);
+  }
+
+  private RandomAccessFile getImageFile(FilePath moduleRoot) throws IOException, InterruptedException {
+    FilePath imagePath = getImagePath(moduleRoot);
+    File file = new File(imagePath.toURI());
+    return new RandomAccessFile(file, "rw");
+  }
+
+  private void resizeBio(RandomAccessFile file) throws IOException {
+    file.seek(24L);
+    file.write(this.getDimensionMask());
+  }
+
+  private void resizeNio(RandomAccessFile file) throws IOException {
+    FileChannel channel = file.getChannel();
+    MappedByteBuffer buffer = channel.map(MapMode.READ_WRITE, 24L, 4L);
+    buffer.put(this.getDimensionMask());
+    buffer.force();
   }
 
 
