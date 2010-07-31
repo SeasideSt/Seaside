@@ -780,6 +780,12 @@ public class OneClickBuilder extends Builder {
       FilePath moduleRoot = build.getModuleRoot();
       PrintStream logger = listener.getLogger();
 
+      logInfo(logger, "building with image: " + this.image
+          + " to " + this.finalName
+          + " Mac VM " + this.macVm
+          + " Unix VM " + this.unixVm
+          + " Windows VM " + this.windowsVm
+          );
       this.createEmptyAppFolder(moduleRoot);
       this.copyVmsToAppFolder(moduleRoot, logger);
       this.copyImageAndChangesToAppFolder(moduleRoot);
@@ -844,7 +850,7 @@ public class OneClickBuilder extends Builder {
     FilePath appFolder = this.getAppFolder(moduleRoot);
     FilePath macVmPath = this.getMacVmPath(moduleRoot);
     FilePath unixVmPath = this.getUnixVmPath(moduleRoot, logger);
-    FilePath windowsVmPath = this.getWindowsVmPath(moduleRoot);
+    FilePath windowsVmPath = this.getWindowsVmPath(moduleRoot, logger);
 
     macVmPath.copyRecursiveTo(appFolder);
     unixVmPath.copyRecursiveTo(appFolder.child("Contents").child("Linux"));
@@ -888,6 +894,11 @@ public class OneClickBuilder extends Builder {
 
   private static void logInfo(PrintStream logger, String message) {
     logger.print("[INFO] [OneClickBuilder] ");
+    logger.println(message);
+  }
+
+  private static void logWarn(PrintStream logger, String message) {
+    logger.print("[WARN] [OneClickBuilder] ");
     logger.println(message);
   }
 
@@ -1058,8 +1069,17 @@ public class OneClickBuilder extends Builder {
     throw new BuildFailedException();
   }
 
-  private FilePath getWindowsVmPath(FilePath moduleRoot) {
-    return getAbsoluteOrRelativePath(this.windowsVm, moduleRoot);
+  private FilePath getWindowsVmPath(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
+    FilePath windowsVmPath = getAbsoluteOrRelativePath(this.windowsVm, moduleRoot);
+    if (windowsVmPath.exists()
+        && !windowsVmPath.isDirectory()
+        && windowsVmPath.getName().endsWith(".exe")) {
+
+      logWarn(logger, "Windows VM points to the .exe instead of the folder");
+      return windowsVmPath.getParent();
+    } else {
+      return windowsVmPath;
+    }
   }
 
   private FilePath getSourcesFilePath(FilePath moduleRoot, PrintStream logger)

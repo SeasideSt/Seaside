@@ -24,15 +24,15 @@
     <f:textbox name="oneClick.windowsSplash" value="${instance.windowsSplash}"/>
   </f:entry>
   <f:entry title="Mac OS VM"
-    description="The path to the Macintosh VM to bundle.">
+    description="The path to the Macintosh VM to include.">
     <f:textbox name="oneClick.macVm" value="${instance.macVm}"/>
   </f:entry>
   <f:entry title="UNIX VM"
-    description="The path to the UNIX VM to bundle.">
+    description="The path to the UNIX VM to include.">
     <f:textbox name="oneClick.unixVm" value="${instance.unixVm}"/>
   </f:entry>
   <f:entry title="Windows VM"
-    description="The path to the Windows VM to bundle.">
+    description="The path to the Windows VM to include.">
     <f:textbox name="oneClick.windowsVm" value="${instance.windowsVm}"/>
   </f:entry>
 </j:jelly>
