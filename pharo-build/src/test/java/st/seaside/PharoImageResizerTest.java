@@ -38,4 +38,9 @@ public class PharoImageResizerTest {
     assertArrayEquals(new byte[] {(byte) 0x80, 0x07}, this.builder.getHeightInLittleEndian());
   }
 
+  @Test
+  public void getDimensionMask() {
+    assertArrayEquals(new byte[] {(byte) 0x80, 0x07, 0x08, 0x04}, this.builder.getDimensionMask());
+  }
+
 }
