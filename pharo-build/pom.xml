@@ -3,7 +3,7 @@
 
   <groupId>st.seaside</groupId>
   <artifactId>pharo-build</artifactId>
-  <version>0.5.2-SNAPSHOT</version>
+  <version>0.6.0-SNAPSHOT</version>
   <name>Hudson Pharo Plugin</name>
   <description>This plugin builds Pharo images.</description>
   <packaging>hpi</packaging>
@@ -256,6 +256,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <hudson.version>1.367</hudson.version>
+    <hudson.version>1.368</hudson.version>
   </properties>
 </project>
