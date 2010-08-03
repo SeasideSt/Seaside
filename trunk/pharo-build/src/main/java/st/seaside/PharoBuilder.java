@@ -499,7 +499,7 @@ public class PharoBuilder extends Builder {
           this.proc.kill();
         }
       } catch (IOException e) {
-        logError(this.logger, "could not watch " + this.toWatch.getRemote() + " because " + e.getMessage());
+        logError(this.logger, "could not watch '" + this.toWatch.getRemote() + "' because " + e.getMessage());
         throw new RuntimeException(e);
       } catch (InterruptedException e) {
         Thread.currentThread().interrupt();
