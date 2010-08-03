@@ -119,11 +119,11 @@ public class PharoImageResizer extends Builder {
 
     logStart(moduleRoot, logger);
 
-    RandomAccessFile randomAccessFile = this.getImageFile(moduleRoot);
+    RandomAccessFile file = this.getImageFile(moduleRoot);
     try {
-      resizeBio(randomAccessFile);
+      resizeBio(file);
     } finally {
-      randomAccessFile.close();
+      file.close();
     }
     return true;
   }

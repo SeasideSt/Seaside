@@ -29,6 +29,7 @@ import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
 import st.seaside.PharoBuilder.DescriptorImpl;
 
+import static org.apache.commons.lang.StringUtils.isNotEmpty;
 import static st.seaside.PharoUtils.stripDotImage;
 
 
@@ -210,7 +211,7 @@ public class PharoBuilder extends Builder {
     String trimmed = Util.fixEmptyAndTrim(getDescriptor().getParameters());
     if (trimmed != null) {
       for (String each : trimmed.split(" ")) {
-        if (each != null && !each.isEmpty()) {
+        if (isNotEmpty(each)) {
           args.add(each);
         }
       }
@@ -498,7 +499,7 @@ public class PharoBuilder extends Builder {
           this.proc.kill();
         }
       } catch (IOException e) {
-        logError(this.logger, "could not watch: " + this.toWatch.getRemote() + " because " + e.getMessage());
+        logError(this.logger, "could not watch " + this.toWatch.getRemote() + " because " + e.getMessage());
         throw new RuntimeException(e);
       } catch (InterruptedException e) {
         Thread.currentThread().interrupt();
