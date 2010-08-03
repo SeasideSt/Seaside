@@ -780,12 +780,13 @@ public class OneClickBuilder extends Builder {
       FilePath moduleRoot = build.getModuleRoot();
       PrintStream logger = listener.getLogger();
 
-      logInfo(logger, "building with One-Click image from " + this.image
-          + " named " + this.finalName
-          + " Mac VM " + this.macVm
-          + " Unix VM " + this.unixVm
-          + " Windows VM " + this.windowsVm
-          );
+      logInfo(logger,
+          "building with One-Click image from '" + this.image
+          + "' named '" + this.finalName
+          + "' Mac VM '" + this.macVm
+          + "' Unix VM '" + this.unixVm
+          + "' Windows VM '" + this.windowsVm
+          + "'");
       this.createEmptyAppFolder(moduleRoot);
       this.copyVmsToAppFolder(moduleRoot, logger);
       this.copyImageAndChangesToAppFolder(moduleRoot);
