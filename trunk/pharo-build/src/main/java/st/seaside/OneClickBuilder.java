@@ -780,8 +780,8 @@ public class OneClickBuilder extends Builder {
       FilePath moduleRoot = build.getModuleRoot();
       PrintStream logger = listener.getLogger();
 
-      logInfo(logger, "building with image: " + this.image
-          + " to " + this.finalName
+      logInfo(logger, "building with One-Click image from " + this.image
+          + " named " + this.finalName
           + " Mac VM " + this.macVm
           + " Unix VM " + this.unixVm
           + " Windows VM " + this.windowsVm
@@ -793,7 +793,7 @@ public class OneClickBuilder extends Builder {
       this.copyMacOsIcon(moduleRoot);
       this.copyWindowsSplash(moduleRoot);
 
-      this.renameExeAndIni(moduleRoot, logger);
+      this.renameExe(moduleRoot, logger);
       this.writeInfoPlist(moduleRoot);
       this.writeStartShellScript(moduleRoot);
       this.writeWindowsIni(moduleRoot);
@@ -872,21 +872,20 @@ public class OneClickBuilder extends Builder {
     sourcesFilePath.copyTo(target.child(sourcesFilePath.getName()));
   }
 
-  private void renameExeAndIni(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
+  private void renameExe(FilePath moduleRoot, PrintStream logger) throws IOException, InterruptedException {
     this.renameFileInAppFolderToFinalName(moduleRoot, "exe", logger);
-    this.renameFileInAppFolderToFinalName(moduleRoot, "ini", logger);
   }
 
   private void renameFileInAppFolderToFinalName(FilePath moduleRoot, String suffix, PrintStream logger)
-  throws IOException, InterruptedException {
+      throws IOException, InterruptedException {
     FilePath appFolder = this.getAppFolder(moduleRoot);
-    FilePath[] exes = appFolder.list("*." + suffix);
-    if (exes.length == 1) {
-      FilePath exe = exes[0];
-      FilePath target = exe.getParent().child(this.finalName + "." + suffix);
-      exe.renameTo(target);
-    } else if (exes.length == 0) {
-      logInfo(logger, "found more than no ." + suffix + ", not renaming");
+    FilePath[] paths = appFolder.list("*." + suffix);
+    if (paths.length == 1) {
+      FilePath path = paths[0];
+      FilePath target = path.getParent().child(this.finalName + "." + suffix);
+      path.renameTo(target);
+    } else if (paths.length == 0) {
+      logInfo(logger, "found no no ." + suffix + ", not renaming");
     } else {
       logInfo(logger, "found more than one ." + suffix + ", not renaming");
     }
