@@ -4,7 +4,7 @@
    # Run the unit tests and make sure they all pass. 
    # Click through the functional test suite using the all server adaptors and all different encodings.
  # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/packaging`.
-  # You will need GraphViz packages from there too
+  # You will need `GraphViz` packages from there too
   # Generate the graph `PDPackageAnalyzer seaside` and make sure the dependencies are valid.
   # Export as SVG and PNG versions and include them with the release.
  # Update PastReleases.
