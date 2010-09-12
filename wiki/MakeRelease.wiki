@@ -9,8 +9,8 @@
   # Export as SVG and PNG versions and include them with the release.
  # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
  # Upload image and one-click distribution to website; update links (`http://www.seaside.st/download/pharo` and `http://www.seaside.st/design/parts/download`).
-# Update PastReleases. 
-# Announce the release in the mailing list.
+ # Update PastReleases. 
+ # Announce the release in the mailing list.
  # Repeat forever.
 
 Suggested script to setup the image:
