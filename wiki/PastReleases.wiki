@@ -1,7 +1,5 @@
 #summary Keeping track of past and future Seaside Releases
 
-Check the [http://builder.seaside.st Seaside Builder] for current distributions.
-
 || *Announcement* || *Distribution* || *Date* ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2007-October/014930.html Seaside 2.8] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.sar sar] || Sunday, October 28, 2007 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-April/017392.html Seaside 2.8.1] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.1.sar sar] || Thursday, April 17, 2008 ||
