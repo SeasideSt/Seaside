@@ -1,14 +1,13 @@
 #summary Release Early. Release Often
 
- # Load all the latest code from `http://www.squeaksource.com/Seaside30/` and `http://www.squeaksource.com/Seaside30LGPL` (ready made images are available from the [http://hudson.lukas-renggli.ch/job/Seaside%203.0/lastSuccessfulBuild/artifact/ build-server].
+ # Load all the latest code from `http://www.squeaksource.com/Seaside30/` and `http://www.squeaksource.com/Seaside30LGPL` (distribution ready images are available from the [http://hudson.lukas-renggli.ch/job/Seaside%203.0/lastSuccessfulBuild/artifact/ build-server].
    # Run the unit tests and make sure they all pass. 
    # Click through the functional test suite using the all server adaptors and all different encodings.
- # Load `Package-Dependencies` from `http://source.lukas-renggli.ch/packaging`.
-  # You will need `GraphViz` packages from there too
-  # Generate the graph `PDPackageAnalyzer seaside` and make sure the dependencies are valid.
-  # Export as SVG and PNG versions and include them with the release.
+ # Load `Package-Dependencies` and `GraphViz` from `http://source.lukas-renggli.ch/packaging`.
+  # Generate the graph `WADevelopment graphFunctionalDependencies: true tests: true` and make sure the dependencies are valid.
  # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
  # Upload image and one-click distribution to website; update links (`http://www.seaside.st/download/pharo` and `http://www.seaside.st/design/parts/download`).
+ # Announce the release in the mailing-list and on twitter.
  # Update PastReleases. 
- # Announce the release in the mailing list.
+ # Update and fix this list.
  # Repeat forever.
