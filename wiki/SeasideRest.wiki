@@ -12,8 +12,12 @@ You start by sublassing either {{{WARestfulFilter}}} or {{{WARestfulHandler}}} a
 == HTTP Method ==
 Every method must have a pragma that indicates the HTTP method on which it should be invoked.
 {{{
-indexHtml
+simpleGet
    <GET>
+}}}
+{{{
+simplePost
+   <POST>
 }}}
 
 == Request URL path ==
@@ -33,6 +37,7 @@ getFirstPathElement: firstPathElement secondPathElement: secondPathElement
     "Will be executed if the request path is two elements long, the first path element will be bound to the first method argument, the second path element will be bound to the second method argument. "
     <GET>
 }}}
+You can use the {{{Path:}}} pragma to get more control over when the method should be invoked. 
 
 == Query Arguments ==
 
