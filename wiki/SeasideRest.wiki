@@ -100,6 +100,16 @@ getIndexPage: extension
 }}}
 
 == Query Arguments ==
+You can also 
+{{{
+searchFor: query
+    "Will be executed if the request path is 'search' and there is a query parameter named 'q'.
+    The value of the query parameter will be the value of the method argument.
+    Eg. if the request is for '/search?q=Seaside' the value of query will be 'Seaside'."
+    <GET>
+    <Path: '/search?q={query}'>
+}}}
+Note that this can be combined with the patch matching techniques outlined above.
 
 == Conent-Type ==
 You can mark methods as to be invoked only on certain content types. This only makes sense for HTTP methods that have a request body like POST and PUT.
@@ -118,3 +128,5 @@ getPng
 }}}
 
 == Conflict Resolution ==
+
+== If Things Go Wrong
