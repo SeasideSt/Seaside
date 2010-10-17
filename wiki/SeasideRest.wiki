@@ -155,8 +155,8 @@ getImage
 Sometimes there are several methods which Seaside-REST could choose for a request, here's how it finds the "best" one.
  # Exact path matches like '/index.html' take precedence over partial ('/index.{1}' or '{1}.html') or wildcard ones ('{1}').
  # Partial path matches like '/index.{1}' or '{1}.html' take precedence over wildcard ones ('{1}').
- # Exact mime type matches like 'text/xml' take precedence over partial ('*/xml' or 'xml/*') or wildcard ones ('*/*').
- # Partial mime type matches like '*/xml' or 'xml/*' take precedence over wildcard ones ('*/*').
+ # Exact mime type matches like 'text/xml' take precedence over partial ('**/xml' or 'xml/**'), wildcard ('*/*') and missing ones.
+ # Partial mime type matches like '*/xml' or 'xml/*' take precedence over wildcard ones ('**/**') or missing ones.
 
 == If Things Go Wrong ==
 It is important to note that for performance reasons handlers and filter are introspected only on registration. Therefore changes you make during development are not immediately visible. Execute the following code make them visible:
