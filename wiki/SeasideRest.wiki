@@ -4,6 +4,9 @@
 
 Seaside-REST allows you to easily dispatch to methods based on several properties of an HTTP request. Think of pattern matching in functional programming languages for an HTTP request. This can be used to write RESTful web application.
 
+= Loading =
+
+Seaside-REST can be found at [http://www.squeaksource.com/Seaside30Addons.html Seaside 3.0 Addons].
 
 = Details =
 
