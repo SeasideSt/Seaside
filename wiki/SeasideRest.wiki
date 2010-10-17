@@ -29,7 +29,8 @@ getEmptyPath
 }}}
 {{{
 getFirstPathElement: pathElement
-    "Will be executed if the request path is one element long, the path element will be bound to the first method argument."
+    "Will be executed if the request path is one element long, the path element will be bound to the first method argument.
+    Eg. if the request is for '/index.html' the value of pathElement will be 'index.html'"
     <GET>
 }}}
 {{{
