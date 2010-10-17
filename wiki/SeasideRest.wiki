@@ -60,7 +60,16 @@ getFrontPage: applicationName
     <GET>
     <Path: '/{1}/index.html'>
 }}}
-In case case the index of the placeholder (1) must match the index of the method argument.
+In case case the index of the placeholder (1) must match the index of the method argument. You can use this to reorder arguments.
+{{{
+getPage: pageName for: applicationName
+    "Will be executed if the request path is two elements long.
+    The first path element will be bound to the second method argument, the second path element will be
+    bound to the second method argument.
+    Eg. if the request is for '/mail/index.html' the value of pageName will be 'index.html' and the value of applicationName will be 'mail'"
+    <GET>
+    <Path: '/{2}/{1}'>
+}}}
 
 == Query Arguments ==
 
