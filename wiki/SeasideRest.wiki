@@ -114,9 +114,21 @@ Note that this can be combined with the patch matching techniques outlined above
 == Conent-Type ==
 You can mark methods as to be invoked only on certain content types. This only makes sense for HTTP methods that have a request body like POST and PUT.
 {{{
-urlEncodedPst
+urlEncodedPost
     <POST>
     <Consumes: 'application/x-www-form-urlencoded'>
+}}}
+Note that wildcards are supported
+{{{
+postXml
+    <POST>
+    <Consumes: '*/xml'>
+}}}
+or 
+{{{
+postImage
+    <POST>
+    <Consumes: 'image/*'>
 }}}
 
 == Accept ==
@@ -125,6 +137,18 @@ You can mark methods as to be invoked when the client accepts the response conte
 getPng
     <GET>
     <Produces: 'image/png'>
+}}}
+Note that wildcards are supported
+{{{
+getXml
+    <POST>
+    <Produces: '*/xml'>
+}}}
+or 
+{{{
+getImage
+    <POST>
+    <Produces: 'image/*'>
 }}}
 
 == Conflict Resolution ==
