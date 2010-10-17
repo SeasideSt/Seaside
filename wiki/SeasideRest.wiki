@@ -16,7 +16,23 @@ indexHtml
    <GET>
 }}}
 
-== URL path ==
+== Request URL path ==
+You can mark method to be executed only on a certain request path and bind it to method arguments.
+{{{
+getEmptyPath
+    "will be executed if the request path is empty"
+    <GET>
+}}}
+{{{
+getFirstPathElement: pathElement
+    "Will be executed if the request path is one element long, the path element will be bound to the first method argument."
+    <GET>
+}}}
+{{{
+getFirstPathElement: firstPathElement secondPathElement: secondPathElement
+    "Will be executed if the request path is two elements long, the first path element will be bound to the first method argument, the second path element will be bound to the second method argument. "
+    <GET>
+}}}
 
 == Query Arguments ==
 
