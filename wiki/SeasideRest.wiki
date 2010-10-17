@@ -2,12 +2,19 @@
 
 = Introduction =
 
-Add your content here.
+Seaside-REST allows you to easily dispatch to methods based on several properties of an HTTP request. Think of pattern matching in functional programming languages for an HTTP request. This can be used to write RESTful web application.
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+There are several request properties that you can dispatch on
+
+== HTTP Method ==
+
+== URL path ==
+
+== Query Arguments ==
+
+== Conent-Type ==
+
+== Accept ==
