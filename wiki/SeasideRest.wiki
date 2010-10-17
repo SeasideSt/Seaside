@@ -51,6 +51,16 @@ getFrontPage: applicationName
     <GET>
     <Path: '/{applicationName}/index.html'>
 }}}
+In case case the name of the placeholder ({{{applicationName}}}) must match the method argument name. The same can be achieved with:
+{{{
+getFrontPage: applicationName
+    "Will be executed if the request path is two elements long and the second element is equal to 'index.html'.
+    The first path element will be bound to the first method argument, the second path element will be discarded.
+    Eg. if the request is for '/mail/index.html' the value of applicationName will be 'mail'"
+    <GET>
+    <Path: '/{1}/index.html'>
+}}}
+In case case the index of the placeholder (1) must match the index of the method argument.
 
 == Query Arguments ==
 
