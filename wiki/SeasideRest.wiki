@@ -43,6 +43,14 @@ getFirstPathElement: firstPathElement secondPathElement: secondPathElement
     <GET>
 }}}
 You can use the {{{Path:}}} pragma to get more control over when the method should be invoked. 
+{{{
+getFrontPage: applicationName
+    "Will be executed if the request path is two elements long and the second element is equal to 'index.html'.
+    The first path element will be bound to the first method argument, the second path element will be discarded.
+    Eg. if the request is for '/mail/index.html' the value of applicationName will be 'mail'"
+    <GET>
+    <Path: '/{applicationName}/index.html'>
+}}}
 
 == Query Arguments ==
 
