@@ -38,8 +38,8 @@ getFirstPathElement: pathElement
 getFirstPathElement: firstPathElement secondPathElement: secondPathElement
     "Will be executed if the request path is two elements long, the first path element will be bound
     to the first method argument, the second path element will be bound to the second method argument.
-     Eg. if the request is for '/mail/index.html' the value of firstPathElement will be 'firstPathElement'
-     and the value of secondPathElement will be 'index.html'"
+    Eg. if the request is for '/mail/index.html' the value of firstPathElement will be 'firstPathElement'
+    and the value of secondPathElement will be 'index.html'"
     <GET>
 }}}
 You can use the {{{Path:}}} pragma to get more control over when the method should be invoked. 
