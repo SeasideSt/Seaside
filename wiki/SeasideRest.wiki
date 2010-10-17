@@ -7,9 +7,14 @@ Seaside-REST allows you to easily dispatch to methods based on several propertie
 
 = Details =
 
-There are several request properties that you can dispatch on
+You start by sublassing either {{{WARestfulFilter}}} or {{{WARestfulHandler}}} and putting methods there. There are several request properties that you can dispatch on:
 
 == HTTP Method ==
+Every method must have a pragma that indicates the HTTP method on which it should be invoked.
+{{{
+indexHtml
+   <GET>
+}}}
 
 == URL path ==
 
