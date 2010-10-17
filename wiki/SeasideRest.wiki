@@ -114,7 +114,7 @@ Note that this can be combined with the patch matching techniques outlined above
 == Conent-Type ==
 You can mark methods as to be invoked only on certain content types. This only makes sense for HTTP methods that have a request body like POST and PUT.
 {{{
-urlEncodedPost
+urlEncodedPst
     <POST>
     <Consumes: 'application/x-www-form-urlencoded'>
 }}}
@@ -129,4 +129,11 @@ getPng
 
 == Conflict Resolution ==
 
-== If Things Go Wrong
+== If Things Go Wrong ==
+It is important to note that for performance reasons handlers and filter are introspected only on registration. Therefore changes you make during development are not immediately visible. Execute the following code make them visible:
+{{{
+WARestfulFilter allSubInstancesDo: [ :each |
+    each initializeRoutes ].
+WARestfulHandler allSubInstancesDo: [ :each |
+    each initializeRoutes ]
+}}}
