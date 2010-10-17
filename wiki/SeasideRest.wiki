@@ -70,6 +70,34 @@ getPage: pageName for: applicationName
     <GET>
     <Path: '/{2}/{1}'>
 }}}
+This can also be done with named place holder:
+{{{
+getPage: pageName for: applicationName
+    "Will be executed if the request path is two elements long.
+    The first path element will be bound to the second method argument, the second path element will be
+    bound to the second method argument.
+    Eg. if the request is for '/mail/index.html' the value of pageName will be 'index.html' and the value of applicationName will be 'mail'"
+    <GET>
+    <Path: '/{applicationName}/{pageName}'>
+}}}
+Also partial matches are supported for example
+{{{
+getHtmlPageName: pageName
+    "Will be executed if the request path is one element long and ends with '.html'.
+    The first path element will be bound to the path element minus '.html'.
+    Eg. if the request is for '/index.html' the value of pageName will be 'index'."
+    <GET>
+    <Path: '/{pageName}.html'>
+}}}
+or 
+{{{
+getIndexPage: extension
+    "Will be executed if the request path is one element long and starts with 'index.'.
+    The first path element will be bound to the path element minus 'index.'.
+    Eg. if the request is for '/index.html' the value of pageName will be 'html'."
+    <GET>
+    <Path: '/index.{extension}'>
+}}}
 
 == Query Arguments ==
 
