@@ -29,3 +29,4 @@ In addition the following improvements were made:
   * made the halo class configurable, like in morphic
   * added an experimental space tally to /status
   * The tool tips in the /config application update themselves depending on the state
+  * fixed the WideString method JQDevelopmentLibrary>>jQueryJs
