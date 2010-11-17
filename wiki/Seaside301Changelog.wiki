@@ -12,6 +12,7 @@ The following bugs were fixed:
   * Issue 602 Seaside's scriptaculous in place editor is bugged
   * Issue 600 BlockClosure>>processHttp sends deprecated #fixTemps
   * Issue 610 Welcome should display a warning if author initials are not set
+  * Issue 612 subscript out of bounds when encoding a single 0 character to UTF-8
 
 In addition the following improvements were made:
   * added the possibility for new items to CTReport
