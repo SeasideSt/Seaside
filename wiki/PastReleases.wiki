@@ -1,6 +1,6 @@
 #summary Keeping track of past and future Seaside Releases
 
-|| *Announcement* || *Distribution* || *Date* ||
+|| *Announcement* || *Distribution* || *Date* || *Changelog* ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2007-October/014930.html Seaside 2.8] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.sar sar] || Sunday, October 28, 2007 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-April/017392.html Seaside 2.8.1] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.1.sar sar] || Thursday, April 17, 2008 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2008-June/017939.html Seaside 2.8.2] || [http://map.squeak.org/accountbyid/771b44e8-e84b-4f54-8fee-e7cf5b4e4ee4/files/seaside-2.8.2.sar sar] || Sunday, June 8, 2008 ||
@@ -13,3 +13,4 @@
 || [http://lists.squeakfoundation.org/pipermail/seaside/2009-October/021723.html Seaside 3.0.0 Alpha 5] || [http://builder.seaside.st/distributions/004-Seaside3.0.0-a5/ app] || Thursday, October 8, 2009 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2010-July/023759.html Seaside 3.0.0 RC] || [http://www.seaside.st/distributions/Seaside-3.0rc.app.zip app] || Saturday, July 3, 2010 ||
 || Seaside 3.0.0 Final || [http://www.seaside.st/distributions/Seaside-3.0-final.app.zip files] || Sunday, September 12, 2010 ||
+|| Seaside 3.0.2 || || not yet released || Seaside301Changelog ||
