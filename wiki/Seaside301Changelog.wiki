@@ -20,7 +20,7 @@ In addition the following improvements were made:
   * removed #hash, #= and #isDictionary from GRSmallDictionary
   * added a rule decting the use of "self class hash", which does not work in GemStone
   * fixed findTokens: rule
-  * updated to jQuery 1.4.3
+  * updated to jQuery 1.4.4
   * updated to jQuery UI 1.8.6
   * do not include fragment in AJAX request URLs
   * fixes and improvements to the jQuery UI auto complete dialog
