@@ -18,7 +18,7 @@ In addition the following improvements were made:
   * added the possibility for new items to CTReport
   * GRCodecStream >> #isStream added
   * removed #hash, #= and #isDictionary from GRSmallDictionary
-  * added a rule decting the use of "self class hash", which does not work in GemStone
+  * added a rule detecting the use of "self class hash", which does not work in GemStone
   * fixed findTokens: rule
   * updated to jQuery 1.4.4
   * updated to jQuery UI 1.8.6
