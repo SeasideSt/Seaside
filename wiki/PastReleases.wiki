@@ -13,4 +13,4 @@
 || [http://lists.squeakfoundation.org/pipermail/seaside/2009-October/021723.html Seaside 3.0.0 Alpha 5] || [http://builder.seaside.st/distributions/004-Seaside3.0.0-a5/ app] || Thursday, October 8, 2009 ||
 || [http://lists.squeakfoundation.org/pipermail/seaside/2010-July/023759.html Seaside 3.0.0 RC] || [http://www.seaside.st/distributions/Seaside-3.0rc.app.zip app] || Saturday, July 3, 2010 ||
 || Seaside 3.0.0 Final || [http://www.seaside.st/distributions/Seaside-3.0-final.app.zip files] || Sunday, September 12, 2010 ||
-|| Seaside 3.0.2 || || Sunday, November 21, 2010 || Seaside302Changelog ||
+|| Seaside 3.0.2 || [http://www.seaside.st/distributions/Seaside-3.0.2-OneClick.zip files] || Sunday, November 21, 2010 || Seaside302Changelog ||
