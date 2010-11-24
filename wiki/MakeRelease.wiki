@@ -14,8 +14,8 @@
  # Upload image/changes in a ZIP and one-click distribution to website
   * locally under /srv/seaside.st/web/distributions
   * update links
-   # `http://www.seaside.st/download/pharo`
-   # `http://www.seaside.st/design/parts/download`).
+   * `http://www.seaside.st/download/pharo`
+   * `http://www.seaside.st/design/parts/download`
  # Announce the release in the mailing-list and on twitter.
  # Update PastReleases. 
  # Update and fix this list.
