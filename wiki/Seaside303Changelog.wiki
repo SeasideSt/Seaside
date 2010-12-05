@@ -8,3 +8,4 @@ Seaside 3.0.3 is a not yet released bug fix release for Seaside 3.0.
 
 The following bugs were fixed:
   * Issue 607: 	No adapter can be stared if two stopped adapters are on the same port
+  * Issue 609: 	Consider not using #subStrings: in WAUrl>>addToPath:
