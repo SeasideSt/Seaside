@@ -12,4 +12,4 @@ The following bugs were fixed:
   * Issue 611:	Auto Reload of a page and memory consumption
 
 In addition the following improvements were made:
-  * Reaping of sessions now happens every n (default 10) session creations instead of every n session accesses. This is back to the behavior of Seaside 2.8. If you rely on the new behavior implement a {{{WACacheReapingStrategy}}}.
+  * Reaping of expired sessions now happens every _n_ (default 10) session creations instead of every _n_ session accesses. This is back to the behavior of Seaside 2.8. If you rely on the new behavior implement a {{{WACacheReapingStrategy}}}.
