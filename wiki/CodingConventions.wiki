@@ -40,6 +40,7 @@ Seaside code has to work on many platforms. At the end of the day the porters wi
     * get the code point of a `Character`
   * Use `WriteStream on: String new` instead of `String new writeStream`
   * Do not send #hash to a class (GemStone)
+  * convert class names to strings using `#greaseString`
 
 = Initialization and Instance Creation =
 
