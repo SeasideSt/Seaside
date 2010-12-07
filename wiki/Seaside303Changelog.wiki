@@ -10,6 +10,7 @@ The following bugs were fixed:
   * Issue 607: 	No adapter can be stared if two stopped adapters are on the same port
   * Issue 609: 	Consider not using #subStrings: in WAUrl>>addToPath:
   * Issue 611:	Auto Reload of a page and memory consumption
+  * Issue 619:	error detected on WATemporaryFile
 
 In addition the following improvements were made:
   * Reaping of expired sessions now happens every _n_ (default 10) session creations instead of every _n_ session accesses. This is back to the behavior of Seaside 2.8. If you rely on the behavior of previous Seaside 3 releases implement a {{{WACacheReapingStrategy}}}.
