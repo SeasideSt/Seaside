@@ -9,3 +9,7 @@ Seaside 3.0.3 is a not yet released bug fix release for Seaside 3.0.
 The following bugs were fixed:
   * Issue 607: 	No adapter can be stared if two stopped adapters are on the same port
   * Issue 609: 	Consider not using #subStrings: in WAUrl>>addToPath:
+  * Issue 611:	Auto Reload of a page and memory consumption
+
+In addition the following improvements were made:
+  * Reaping of sessions now happens every n (default 10) session creations instead of every n session accesses. This is back to the behavior of Seaside 2.8. If you rely on the new behavior implement a ==WACacheReapingStrategy==.
