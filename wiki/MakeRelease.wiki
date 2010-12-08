@@ -4,8 +4,8 @@
   * GRPlatform >> #version
   * GRPlatform >> #seasideVersion
  # Upate the Metacello config
-  * see ConfigurationOfSeaside30 >> #README
-  * see ConfigurationOfGrease >> #README
+  * see ConfigurationOfSeaside30 >> #DevelopmentProcess
+  * see ConfigurationOfGrease >> #DevelopmentProcess
  # Load all the latest code from `http://www.squeaksource.com/Seaside30/` and `http://www.squeaksource.com/Seaside30LGPL` (distribution ready images are available from the [http://hudson.lukas-renggli.ch/job/Seaside%203.0/lastSuccessfulBuild/artifact/ build-server].
    # Run the unit tests and make sure they all pass. 
    # Click through the functional test suite using the all server adaptors and all different encodings.
