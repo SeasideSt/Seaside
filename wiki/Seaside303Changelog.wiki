@@ -13,4 +13,4 @@ The following bugs were fixed:
   * Issue 619:	error detected on WATemporaryFile
 
 In addition the following improvements were made:
-  * Reaping of expired sessions now happens every _n_ (default 10) session creations instead of every _n_ session accesses. This is back to the behavior of Seaside 2.8. If you rely on the behavior of previous Seaside 3 releases implement a {{{WACacheReapingStrategy}}}.
+  * Reaping of expired sessions now happens every _n_ (default 10) session creations instead of every _n_ session accesses. This is back to the behavior of Seaside 2.8. If you want the behavior of previous Seaside 3 releases use {{{WARetrievalIntervalReapingStrategy}}}. {{{WARetrievalIntervalReapingStrategy}}} reaps on access as well as creation (_new_). Already registered applications will not be migrated and continue to use {{{WARetrievalIntervalReapingStrategy}}}. To use the new {{{WAAccessIntervalReapingStrategy}}} they have to be registered again or the configuration of the cache has to be updated.
