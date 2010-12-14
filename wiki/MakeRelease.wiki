@@ -7,7 +7,7 @@
    # Run the unit tests and make sure they all pass. 
    # Click through the functional test suite using the all server adaptors and all different encodings.
  # Upate the Metacello config
-  * see !ConfigurationOfSeaside30 >> #DevelopmentProcess
+  * see !ConfigurationOfSeaside30 >> #!DevelopmentProcess
   * see !ConfigurationOfGrease >> #DevelopmentProcess
  # Load `Package-Dependencies` and `GraphViz` from `http://source.lukas-renggli.ch/packaging`. Generate the graph `WADevelopment graphFunctionalDependencies: true tests: true` and make sure the dependencies are valid.
  # Prepare a list of [http://code.google.com/p/seaside/wiki/Seaside304Changelog resolved issues].
