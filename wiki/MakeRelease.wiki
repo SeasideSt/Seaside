@@ -10,7 +10,7 @@
   * see ConfigurationOfSeaside30 >> #DevelopmentProcess
   * see ConfigurationOfGrease >> #DevelopmentProcess
  # Load `Package-Dependencies` and `GraphViz` from `http://source.lukas-renggli.ch/packaging`. Generate the graph `WADevelopment graphFunctionalDependencies: true tests: true` and make sure the dependencies are valid.
- # Prepare a list of [http://code.google.com/p/seaside/issues/csv?can=1&q=&colspec=ID+Type+Status+Priority+Version+Platform+Owner+Summary+Milestone+Stars+Opened+Closed+Modified+BlockedOn+Blocking+Blocked+MergedInto+Reporter+Cc+Release&cells=tiles resolved issues].
+ # Prepare a list of [Seaside304Changelog resolved issues].
  # Upload image/changes in a ZIP and one-click distribution to website
   * locally under /srv/seaside.st/web/distributions
   * update links
