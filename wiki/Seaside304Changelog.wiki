@@ -8,3 +8,4 @@ Seaside 3.0.4 is a not yet released bug fix release for Seaside 3.0.
 
 The following bugs were fixed:
   * Issue 625: 	DNU RRComponent class >> #canBeRoot
+  * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
