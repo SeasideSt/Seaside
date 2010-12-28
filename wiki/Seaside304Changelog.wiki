@@ -11,3 +11,4 @@ The following bugs were fixed:
   * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
   * Issue 356: 	Add functional test for WAValidationDecoration
   * Issue 482: 	speedup WAEncoder
+  * Issue 629: 	Seaside is broken on Swazoo 2.3
