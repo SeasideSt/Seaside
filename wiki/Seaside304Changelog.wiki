@@ -12,3 +12,4 @@ The following bugs were fixed:
   * Issue 356: 	Add functional test for WAValidationDecoration
   * Issue 482: 	speedup WAEncoder
   * Issue 629: 	Seaside is broken on Swazoo 2.3
+  * Issue 630: 	Add WANoReapingStrategy
