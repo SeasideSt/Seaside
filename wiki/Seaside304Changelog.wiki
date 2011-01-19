@@ -13,3 +13,4 @@ The following bugs were fixed:
   * Issue 482: 	speedup WAEncoder
   * Issue 629: 	Seaside is broken on Swazoo 2.3
   * Issue 630: 	Add WANoReapingStrategy
+  * Issue 634:	Add GC settings from Pharo
