@@ -1,0 +1,14 @@
+#Security Features of Seaside
+
+= Introduction =
+
+At one point this should be a comprehensive list of security features in Seaside.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * XSS protection
+  * XSRF protection
+  * Session fixation
+  * STS
