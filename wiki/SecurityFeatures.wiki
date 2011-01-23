@@ -13,3 +13,5 @@ Add your content here.  Format your content with:
   * Session fixation
   * STS
   * capabilities
+  * malicious file execution (hey, it's OWASP Top 3)
+Ideally we'd go over OWASP Top 10 or something.
