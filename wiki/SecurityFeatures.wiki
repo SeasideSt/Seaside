@@ -12,3 +12,4 @@ Add your content here.  Format your content with:
   * XSRF protection
   * Session fixation
   * STS
+  * capabilities
