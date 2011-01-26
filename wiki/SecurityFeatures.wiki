@@ -5,7 +5,7 @@ Unlike some low level frameworks Seaside offers built in protection against many
 
 = Attacks =
 
-This is how Seaside protects you agains common attacks against your web application.
+This is how Seaside protects you against common attacks against your web application.
 
 == Session Fixation  ==
 Further information:
