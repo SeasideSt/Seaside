@@ -10,9 +10,18 @@ At one point this should be a comprehensive list of security features in Seaside
 Add your content here.  Format your content with:
   * XSS protection
   * XSRF protection
-  * response splitting
+
   * Session fixation
   * STS
   * capabilities
   * malicious file execution (hey, it's OWASP Top 3)
+
+==   Response Splitting ==
+HTTP response splitting is an attack that allows an attacker to control response headers and the body by injecting a header with a CR or LF value. Seaside does not allow CR or LF values in headers which are also not allowed by HTTP.
+
+Further information:
+  * [http://www.owasp.org/index.php/Response_Splitting]
+  * [http://en.wikipedia.org/wiki/HTTP_response_splitting]
+  * [http://nealpoole.com/blog/2011/01/http-response-splitting-on-reddit-com/]
+
 Ideally we'd go over OWASP Top 10 or something.
