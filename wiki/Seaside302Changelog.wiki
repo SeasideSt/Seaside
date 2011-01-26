@@ -1,4 +1,4 @@
-# All the things that changed in 3.0.2.
+#summary All the things that changed in 3.0.2.
 
 = Introduction =
 Seaside 3.0.2 is a bug fix release for Seaside 3.0. There never was an official 3.0.1 release.
