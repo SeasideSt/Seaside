@@ -1,8 +1,6 @@
 #summary Security Features of Seaside
 #sidebar TableOfContents
 
-= Introduction =
-
 Unlike some low level frameworks Seaside offers built in protection against many common web application vulnerabilities.
 
 = Attacks =
