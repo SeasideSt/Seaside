@@ -15,4 +15,4 @@ The following bugs were fixed:
   * Issue 630: 	Add WANoReapingStrategy
   * Issue 634:	Add GC settings from Pharo
   * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
-  * Issue 632: prevent response splitting
+  * Issue 632:	prevent response splitting
