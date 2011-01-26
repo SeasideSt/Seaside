@@ -5,6 +5,7 @@
 
 Unlike some low level frameworks Seaside offers built in protection against many common web application vulnerabilities.
 
+<wiki:toc max_depth="1" />
 = Details =
 
 Add your content here.  Format your content with:
