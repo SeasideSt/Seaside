@@ -10,6 +10,7 @@ At one point this should be a comprehensive list of security features in Seaside
 Add your content here.  Format your content with:
   * XSS protection
   * XSRF protection
+  * response splitting
   * Session fixation
   * STS
   * capabilities
