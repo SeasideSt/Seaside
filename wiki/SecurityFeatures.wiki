@@ -2,19 +2,25 @@
 
 = Introduction =
 
-At one point this should be a comprehensive list of security features in Seaside.
-
+Unlike some low level frameworks Seaside offers built in protection against many common web application vulnerabilities.
 
 = Details =
 
 Add your content here.  Format your content with:
   * XSS protection
   * XSRF protection
-
   * Session fixation
   * STS
   * capabilities
   * malicious file execution (hey, it's OWASP Top 3)
+Ideally we'd go over OWASP Top 10 or something.
+
+== Cross-site Scripting (XSS) ==
+The Seaside templating engine, the render canvas, escapes all output by default. It therefore adopts a safe by default policy. Special effort has to be taken to render values without escaping. Such places can easily be found and audited by looking at all the senders of #html:.
+
+Further information:
+  * [http://www.owasp.org/index.php/XSS]
+  * [http://en.wikipedia.org/wiki/Cross-site_scripting]
 
 ==   Response Splitting ==
 HTTP response splitting is an attack that allows an attacker to control response headers and the body by injecting a header with a CR or LF value. Seaside does not allow CR or LF values in headers which are also not allowed by HTTP.
@@ -23,5 +29,3 @@ Further information:
   * [http://www.owasp.org/index.php/Response_Splitting]
   * [http://en.wikipedia.org/wiki/HTTP_response_splitting]
   * [http://nealpoole.com/blog/2011/01/http-response-splitting-on-reddit-com/]
-
-Ideally we'd go over OWASP Top 10 or something.
