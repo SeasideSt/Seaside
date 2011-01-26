@@ -1,4 +1,5 @@
 #summary Security Features of Seaside
+#sidebar TableOfContents
 
 = Introduction =
 
@@ -7,8 +8,6 @@ Unlike some low level frameworks Seaside offers built in protection against many
 = Details =
 
 Add your content here.  Format your content with:
-  * XSS protection
-  * XSRF protection
   * Session fixation
   * STS
   * capabilities
@@ -21,6 +20,10 @@ The Seaside templating engine, the render canvas, escapes all output by default.
 Further information:
   * [http://www.owasp.org/index.php/XSS]
   * [http://en.wikipedia.org/wiki/Cross-site_scripting]
+
+== Cross-Site Request Forgery (CSRF) ==
+Further information:
+  * [http://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)]
 
 ==   Response Splitting ==
 HTTP response splitting is an attack that allows an attacker to control response headers and the body by injecting a header with a CR or LF value. Seaside does not allow CR or LF values in headers which are also not allowed by HTTP.
