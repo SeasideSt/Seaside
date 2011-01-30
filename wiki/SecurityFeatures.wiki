@@ -12,7 +12,7 @@ Further information:
   * [http://www.owasp.org/index.php/Session_fixation]
 
 == Cross-site Scripting (XSS) ==
-The Seaside templating engine, the render canvas, escapes all output by default. It therefore adopts a safe by default policy. Special effort has to be taken to render values without escaping. Such places can easily be found and audited by looking at all the senders of #html:.
+The Seaside templating engine—the render canvas—escapes all output by default. It therefore adopts a safe by default policy. Special effort has to be taken to render values without escaping. Such places can easily be found and audited by looking at all the senders of #html:.
 
 Further information:
   * [http://www.owasp.org/index.php/XSS]
