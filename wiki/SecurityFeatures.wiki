@@ -40,3 +40,7 @@ In addition to the protections against the attacks above Seaside offers the foll
 == Capabilities ==
 
 == Strict Transport Security (STS) ==
+
+= Further Information =
+  * [http://www.owasp.org/ Open Web Application Security Project (OWASP)]
+  * [http://guides.rubyonrails.org/security.html Ruby On Rails Security Guide]
