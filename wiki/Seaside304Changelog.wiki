@@ -7,12 +7,13 @@ Seaside 3.0.4 is a not yet released bug fix release for Seaside 3.0.
 = Details =
 
 The following bugs were fixed:
-  * Issue 625: 	DNU RRComponent class >> #canBeRoot
-  * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
+  * Issue 9:    Add switch to WAFileLibrary such that #/ also generates static paths
   * Issue 356: 	Add functional test for WAValidationDecoration
   * Issue 482: 	speedup WAEncoder
+  * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
+  * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
+  * Issue 625: 	DNU RRComponent class >> #canBeRoot
   * Issue 629: 	Seaside is broken on Swazoo 2.3
   * Issue 630: 	Add WANoReapingStrategy
   * Issue 634:	Add GC settings from Pharo
-  * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
   * Issue 632:	prevent response splitting
