@@ -9,6 +9,7 @@ Seaside 3.0.4 is a not yet released bug fix release for Seaside 3.0.
 The following bugs were fixed:
   * Issue 9:    Add switch to WAFileLibrary such that #/ also generates static paths
   * Issue 356: 	Add functional test for WAValidationDecoration
+  * Issue 462:	Have convenience methods for http status codes on WAResponse (thanks Avi Shefi)
   * Issue 482: 	speedup WAEncoder
   * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
   * Issue 608:	Configuration Lookup is Slow (thanks Avi Shefi)
