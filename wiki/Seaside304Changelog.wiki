@@ -14,6 +14,7 @@ The following bugs were fixed:
   * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
   * Issue 608:	Configuration Lookup is Slow (thanks Avi Shefi)
   * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
+  * Issue 624: 	Changing assigned configuration partens of an application does not correctly update the /config UI (thanks Avi Shefi)
   * Issue 625: 	DNU RRComponent class >> #canBeRoot
   * Issue 629: 	Seaside is broken on Swazoo 2.3
   * Issue 630: 	Add WANoReapingStrategy
