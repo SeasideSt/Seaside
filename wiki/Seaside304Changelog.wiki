@@ -20,3 +20,4 @@ The following bugs were fixed:
   * Issue 630: 	Add WANoReapingStrategy
   * Issue 634:	Add GC settings from Pharo
   * Issue 632:	prevent response splitting
+  * Issue 637: 	Add option to make a file library send an X-Sendfile header instead of the the response body. (thanks Avi Shefi)
