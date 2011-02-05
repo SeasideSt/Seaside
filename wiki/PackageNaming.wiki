@@ -7,7 +7,7 @@ Below a rough [http://en.wikipedia.org/wiki/Extended_Backus–Naur_Form EBNF gra
 {{{
 Package     = PackageName VersionInfo
 PackageName = Name "-" [ Purpose "-" ] [ Platform "-" ] Rest
-VersionInfo = "-" Author { "." Branch } "." Version
+VersionInfo = { "." Branch } "-" Author "." Version
 }}}
 
 =Package Name=
@@ -31,14 +31,14 @@ The package ...
 =Version Info=
 
 || *Token* || *Required* || *Explanation* || *Examples* ||
-|| Author || mandatory || The author initials are a short sequence of lowercase letters || `lr`, `jf`, `pmm`, ... ||
-|| Branch || zero-or-more || The branch name starts with a lowercase letter || `issue123`, `configcleanup`, ... ||
-|| Version || mandatory || The version numbering starts at 1 and is sequentially counting upwards with every commit || `1`, `2`, `3`, ... ||
+|| Branch || zero-or-more || The branch name starts with a lowercase letter and should not contain hyphens ($-). Several branches may be combined with periods ($.). || `issue123`, `configcleanup`, ... ||
+|| Author || mandatory || The author initials are a short sequence of lowercase letters. || `lr`, `jf`, `pmm`, ... ||
+|| Version || mandatory || The version numbering starts at 1 and is sequentially counting upwards with every commit. || `1`, `2`, `3`, ... ||
 
 ===Examples===
 
 The version ...
 
   * `Seaside-Core-pmm.2` is the second version of the package `Seaside-Core` committed by `pmm`.
-  * `Seaside-Core-jf.configcleanup.3` is the third version of the package `Seaside-Core` committed by `jf` into the `configcleanup` branch.
-  * `Seaside-Core-lr.configcleanup.extraspeedup.69` is the version 69 of the package `Seaside-Core` committed by `lr`, and is possibly a merge of the branches `configcleanup` and `extraspeedup`.
+  * `Seaside-Core.configcleanup-jf.3` is the third version of the package `Seaside-Core` committed by `jf` into the `configcleanup` branch.
+  * `Seaside-Core.configcleanup.extraspeedup-lr.69` is the version 69 of the package `Seaside-Core` committed by `lr`, and is possibly a merge of the branches `configcleanup` and `extraspeedup`.
