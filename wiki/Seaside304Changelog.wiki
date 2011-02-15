@@ -22,3 +22,9 @@ The following bugs were fixed:
   * Issue 632:	prevent response splitting
   * Issue 637: 	Add option to make a file library send an X-Sendfile header instead of the the response body. (thanks Avi Shefi)
   * Issue 639: 	merge WAHtmlCanvas and WARenderCanvas (thanks Avi Shefi)
+
+= Trouble Shooting =
+If you get a {{{WAAttributeNotFound}}} after upgrading execute {{{
+WASystemConfiguration clearAllDescriptions
+}}}
+See also Issue 643
