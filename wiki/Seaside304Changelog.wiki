@@ -24,7 +24,8 @@ The following bugs were fixed:
   * Issue 639: 	merge WAHtmlCanvas and WARenderCanvas (thanks Avi Shefi)
 
 = Trouble Shooting =
-If you get a {{{WAAttributeNotFound}}} after upgrading execute {{{
+If you get a {{{WAAttributeNotFound}}} after upgrading execute
+{{{
 WASystemConfiguration clearAllDescriptions
 }}}
 See also Issue 643
