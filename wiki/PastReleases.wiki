@@ -15,3 +15,4 @@
 || Seaside 3.0.0 Final || [http://www.seaside.st/distributions/Seaside-3.0-final.app.zip files] || Sunday, September 12, 2010 ||
 || Seaside 3.0.2 || [http://www.seaside.st/distributions/Seaside-3.0.2-OneClick.zip files] || Monday, November 22, 2010 || Seaside302Changelog ||
 || Seaside 3.0.3 || [http://www.seaside.st/distributions/Seaside-3.0.3-OneClick.zip files] || Saturday, December 17, 2010 || Seaside303Changelog ||
+|| Seaside 3.0.4 || [http://www.seaside.st/distributions/Seaside-3.0.4-OneClick.zip files] || Monday, February 15, 2011 || Seaside304Changelog ||
