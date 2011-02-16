@@ -11,6 +11,7 @@ The following bugs were fixed:
   * Issue 356: 	Add functional test for WAValidationDecoration
   * Issue 462:	Have convenience methods for http status codes on WAResponse (thanks Avi Shefi)
   * Issue 482: 	speedup WAEncoder
+  * Issue 522:	WAFileLibrary generated methods don't have timestamps
   * Issue 542:	implement Strict Transport Security (thanks Avi Shefi)
   * Issue 608:	Configuration Lookup is Slow (thanks Avi Shefi)
   * Issue 620: 	WAFileLibrary>>name answers a Symbol, but used in places where String should be used
