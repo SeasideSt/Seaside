@@ -24,6 +24,7 @@ The following bugs were fixed:
   * Issue 637: 	Add option to make a file library send an X-Sendfile header instead of the the response body. (thanks Avi Shefi)
   * Issue 639: 	merge WAHtmlCanvas and WARenderCanvas (thanks Avi Shefi)
   * Issue 641:	Halo source view incorrectly displaying entity characters
+  * Issue 643:	load 3.0.4 on top of 3.0.3 results in tests hitting WAAttributeNotFound
   * Issue 646:	GRPharoPlatform>>isIpAddress broken
 
 = Trouble Shooting =
