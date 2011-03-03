@@ -23,7 +23,7 @@ Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.
  * removed copy image functionality
 
 = Download =
-[https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.4.0/pharo-build-0.4.0.hpi Version 0.4.0] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. You need to remove the version from the file name.
+[https://seaside.googlecode.com/svn/repo/st/seaside/pharo-build/0.6.1/pharo-build-0.6.1.hpi Version 0.6.1] see the [http://wiki.hudson-ci.org/display/HUDSON/Plugins Hudson page on manually installing plugins]. You need to remove the version from the file name.
 
 = TODO =
  * validation of required parameters in global config
