@@ -1,7 +1,7 @@
 #labels Hudson
 = Introduction =
 
-Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.pharo.org Pharo] images.
+Pharo Build is a [http://www.hudson-ci.org/ Hudson] plugin to build [http://www.pharo-project.org Pharo] images.
 
 = Features =
 == Project Configuration ==
