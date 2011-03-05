@@ -26,10 +26,3 @@ The following bugs were fixed:
   * Issue 641:	Halo source view incorrectly displaying entity characters
   * Issue 643:	load 3.0.4 on top of 3.0.3 results in tests hitting WAAttributeNotFound
   * Issue 646:	GRPharoPlatform>>isIpAddress broken
-
-= Trouble Shooting =
-If you get a {{{WAAttributeNotFound}}} after upgrading execute
-{{{
-WASystemConfiguration clearAllDescriptions
-}}}
-See also Issue 643
