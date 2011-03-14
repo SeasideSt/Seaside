@@ -8,3 +8,4 @@ Seaside 3.0.5 is a not yet released bug fix release for Seaside 3.0.
 
 The following bugs were fixed:
  * experimental Pharo 1.2 support
+ * Seaside applications no longer handle prefetch requests from Firefox
