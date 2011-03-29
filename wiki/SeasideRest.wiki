@@ -193,7 +193,7 @@ WAAdmin register: MyRestHandler at: 'myapp'.
 When you have a subclass of {{{WAPragmaBasedRestfulFilter}}} that you want to add to your application you can add it with:
 {{{
 | application |
-app := WAAdmin register: MyRootComponent asApplicationAt: 'myapp'.
+application := WAAdmin register: MyRootComponent asApplicationAt: 'myapp'.
 application addFilterFirst: MyRestFilter new.
 }}}
 
