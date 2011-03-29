@@ -10,7 +10,7 @@ Seaside-REST can be found at [http://www.squeaksource.com/Seaside30Addons.html S
 
 = Details =
 
-You start by sublassing either {{{WARestfulFilter}}} or {{{WARestfulHandler}}} and putting methods there. There are several request properties that you can dispatch on:
+You start by sublassing either {{{WAPragmaBasedRestfulHandler}}} or {{{WAPragmaBasedRestfulFilter}}} and putting methods there. There are several request properties that you can dispatch on:
 
 == HTTP Method ==
 Every method must have a pragma that indicates the HTTP method on which it should be invoked.
@@ -183,6 +183,19 @@ Sometimes there are several methods which Seaside-REST could choose for a reques
  # Exact mime type matches like 'text/xml' take precedence over partial ('`*`/xml' or 'xml/`*`'), wildcard ('`*`/`*`') and missing ones.
  # Partial mime type matches like '`*`/xml' or 'xml/`*`' take precedence over wildcard ones ('`*`/`*`') or missing ones.
  # If the user agent supplies quality values for the Accept header, then that is taken into account as well.
+
+== Registration ==
+If you have a subclass of {{{WAPragmaBasedRestfulHandler}}} you can register it as:
+{{{
+WAAdmin register: MyRestHandler at: 'myapp'.
+}}}
+
+When you have a subclass of {{{WAPragmaBasedRestfulFilter}}} that you want to add to your application you can add it with:
+{{{
+| application |
+app := WAAdmin register: MyRootComponent asApplicationAt: 'myapp'.
+application addFilterFirst: MyRestFilter new.
+}}}
 
 == If Things Go Wrong ==
 It is important to note that for performance reasons handlers and filter are introspected only on registration. Therefore changes you make during development are not immediately visible. Execute the following code make them visible:
