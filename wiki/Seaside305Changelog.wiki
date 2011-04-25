@@ -12,3 +12,4 @@ The following bugs were fixed:
  * Issue 596: 	uptime reporting on /status may be wrong (thanks Sven)
  * Issue 648: 	WARequest >> #rawBody is empty
  * Issue 587: 	clean up WAComancheRequestConverter >> #requestBodyFor:
+ * Issue 651: 	JQPost appends arguments onto url
