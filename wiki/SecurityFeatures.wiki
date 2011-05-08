@@ -17,6 +17,7 @@ The Seaside templating engine—the render canvas—escapes all output by defaul
 Further information:
   * [http://www.owasp.org/index.php/XSS]
   * [http://en.wikipedia.org/wiki/Cross-site_scripting]
+  * [http://wonko.com/post/html-escaping]
 
 == Cross-Site Request Forgery (CSRF) ==
 Further information:
