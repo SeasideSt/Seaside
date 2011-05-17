@@ -13,5 +13,5 @@ The following bugs were fixed:
  * Issue 648: 	WARequest >> #rawBody is empty
  * Issue 587: 	clean up WAComancheRequestConverter >> #requestBodyFor:
  * Issue 651: 	JQPost appends arguments onto url
- * update to jQuery UI 1.8.12
- * jQuery 1.6
+ * jQuery 1.6.1
+ * update to jQuery UI 1.8.13
