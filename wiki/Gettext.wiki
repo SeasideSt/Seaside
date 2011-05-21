@@ -14,9 +14,10 @@ The easiest way to translate a string is using the `#translate:` message on the 
 {{{
 html translate: 'text to translate'
 }}}
-
-
+This will use content negotiation to find the first language that's supported by both your system and the user. If you want the set the user language to a specific one send `#locale:` to the current session. If you want to translate to a specific language use
+{{{
 html translate: 'other text to translate' to: aWALocale
+}}}
 
 which renders the translation. This has the problem that is doesn't
 work for attributes, I'll need to come up with a solution for this,
@@ -28,7 +29,7 @@ API proposals are welcome.
  # have Pier and a reporting application running in the same image and want each to use it's own dictionary: {{{TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'}}}
  #  export the template {{{ WAGetTextExporter new exportTemplate }}}
  # create the translation files e.g. using [http://www.poedit.net/ poedit]
- # put the translation files in locale/&gt;locale&gt;/LC_MESSAGES/<domain>.(po|mo)
+ # put the translation files in `locale/<locale>/LC_MESSAGES/<domain>.(po|mo)`
  # done
 
 One of the nice things about gettext is that there are external tools
