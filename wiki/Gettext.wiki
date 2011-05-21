@@ -21,10 +21,8 @@ API proposals are welcome.
 = Workflow = 
  # write your application using the API above
  # register your domain. A domain is a way to group strings, you might
- # have Pier and a reporting application running in the same image and want each to use it's own dictionary: TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'
- #  export the template {{{
-WAGetTextExporter new exportTemplate
-}}}
+ # have Pier and a reporting application running in the same image and want each to use it's own dictionary: {{{TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'}}}
+ #  export the template {{{ WAGetTextExporter new exportTemplate }}}
  # create the translation files e.g. using [http://www.poedit.net/ poedit]
  # put the translation files in locale/<locale>/LC_MESSAGES/<domain>.(po|mo)
  # done
