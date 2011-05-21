@@ -28,7 +28,7 @@ API proposals are welcome.
  # have Pier and a reporting application running in the same image and want each to use it's own dictionary: {{{TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'}}}
  #  export the template {{{ WAGetTextExporter new exportTemplate }}}
  # create the translation files e.g. using [http://www.poedit.net/ poedit]
- # put the translation files in locale/\<locale\>/LC_MESSAGES/<domain>.(po|mo)
+ # put the translation files in locale/&gt;locale&gt;/LC_MESSAGES/<domain>.(po|mo)
  # done
 
 One of the nice things about gettext is that there are external tools
