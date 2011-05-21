@@ -19,13 +19,23 @@ This will use content negotiation to find the first language that's supported by
 html translate: 'other text to translate' to: aWALocale
 }}}
 
-This doesn't work for attributes. In these cases you want to use
+This doesn't work for attributes. In these cases you want to use `#seasideTranslated` on `String`
 {{{
 html image url: aWAUrl; altText: 'sunrise at the beach' seasideTranslated
 }}}
 or
 {{{
 html image url: aWAUrl; altText: ('sunrise at the beach' seasideTranslatedTo: aWALocale)
+}}}
+
+There are some cases when neither of these approaches work. Mainly when the method that contains the literal is executed outside of a Seaside request. In these cases you can use `#seasideLazyTranslated`
+{{{
+descriptionFirstName
+	^ MAStringDescription new
+		accessor: #firstName;
+		label: 'First Name' seasideLazyTranslated;
+		priority: 100;
+		yourself
 }}}
 
 = Workflow = 
