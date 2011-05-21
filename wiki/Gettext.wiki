@@ -19,9 +19,14 @@ This will use content negotiation to find the first language that's supported by
 html translate: 'other text to translate' to: aWALocale
 }}}
 
-which renders the translation. This has the problem that is doesn't
-work for attributes, I'll need to come up with a solution for this,
-API proposals are welcome.
+This doesn't work for attributes. In these cases you want to use
+{{{
+html image url: aWAUrl; altText: 'sunrise at the beach' seasideTranslated
+}}}
+or
+{{{
+html image url: aWAUrl; altText: ('sunrise at the beach' seasideTranslatedTo: aWALocale)
+}}}
 
 = Workflow = 
  # write your application using the API above
