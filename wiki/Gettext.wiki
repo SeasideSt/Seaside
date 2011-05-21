@@ -10,9 +10,12 @@
  # Load Seaside-Gettext from [http://www.squeaksource.com/Seaside30Addons]
 
 = API =
-
-
+The easiest way to translate a string is using the `#translate:` message on the render canvas.
+{{{
 html translate: 'text to translate'
+}}}
+
+
 html translate: 'other text to translate' to: aWALocale
 
 which renders the translation. This has the problem that is doesn't
