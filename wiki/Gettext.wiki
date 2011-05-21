@@ -2,15 +2,15 @@
 
 = Introduction =
 
-Add your content here.
+[http://www.gnu.org/software/gettext/ Gettext] is a library for "translating" applications to multiple languages. Seaside-Gettext allows you to use gettext from Seaside applications.
 
 
-= Details =
+= Getting Started =
+ # 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= API =
+
+
 html translate: 'text to translate'
 html translate: 'other text to translate' to: aWALocale
 
@@ -19,22 +19,18 @@ work for attributes, I'll need to come up with a solution for this,
 API proposals are welcome.
 
 = Workflow = 
- * write your application using the API above
- * register your domain. A domain is a way to group strings, you might
- * have Pier and a reporting application running in the same image and want each to use it's own dictionary: TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'
- *  export the template {{{
+ # write your application using the API above
+ # register your domain. A domain is a way to group strings, you might
+ # have Pier and a reporting application running in the same image and want each to use it's own dictionary: TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'
+ #  export the template {{{
 WAGetTextExporter new exportTemplate
 }}}
- * create the translation files e.g. using poedit [2]
- * put the translation files in locale/<locale>/LC_MESSAGES/<domain>.(po|mo)
- * done
+ # create the translation files e.g. using [http://www.poedit.net/ poedit]
+ # put the translation files in locale/<locale>/LC_MESSAGES/<domain>.(po|mo)
+ # done
 
 One of the nice things about gettext is that there are external tools
-like poedit [2] to manage the translation files which you can give to
+like [http://www.poedit.net/ poedit]] to manage the translation files which you can give to
 your translators. No more need to mess around with Excel. There are
-also tools [3] that display how much of your application is already
+also [http://l10n.gnome.org/languages/de/gnome-office/ui/ tools] that display how much of your application is already
 translated.
-
- [1] http://www.squeaksource.com/Seaside29Addons
- [2] http://www.poedit.net/
- [3] http://l10n.gnome.org/languages/de/gnome-office/ui/
