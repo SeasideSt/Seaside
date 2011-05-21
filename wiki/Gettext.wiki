@@ -6,7 +6,8 @@
 
 
 = Getting Started =
- # 
+ # Load Gettext from [http://www.squeaksource.com/PharoNonCorePackages]
+ # Load Seaside-Gettext from [http://www.squeaksource.com/Seaside30Addons]
 
 = API =
 
@@ -28,7 +29,7 @@ API proposals are welcome.
  # done
 
 One of the nice things about gettext is that there are external tools
-like [http://www.poedit.net/ poedit]] to manage the translation files which you can give to
+like [http://www.poedit.net/ poedit] to manage the translation files which you can give to
 your translators. No more need to mess around with Excel. There are
 also [http://l10n.gnome.org/languages/de/gnome-office/ui/ tools] that display how much of your application is already
 translated.
