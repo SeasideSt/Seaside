@@ -21,4 +21,4 @@ The following bugs were fixed:
 If you're on Pharo 1.1 or 1.0 and don't use Metacello you additionally need to load Grease-Pharo11-Core.
 
 == jQuery Users ==
-Check you the [http://blog.jquery.com/2011/05/12/jquery-1-6-1-released/ jQuery 1.6.1 changelog]
+Check you the [http://blog.jquery.com/2011/05/12/jquery-1-6-1-released/ jQuery 1.6.1 changelog].
