@@ -53,3 +53,6 @@ like [http://www.poedit.net/ poedit] to manage the translation files which you c
 your translators. No more need to mess around with Excel. There are
 also [http://l10n.gnome.org/languages/de/gnome-office/ui/ tools] that display how much of your application is already
 translated.
+
+= Application Configuration =
+To use Seaside-Gettest in an application a {{{WALocalizationContextFilter}}} has to be present. An easy way to do this is override {{{initializeFilters}}} in your session class and add it there. See Seaside-Gettext-Examples for an example.
