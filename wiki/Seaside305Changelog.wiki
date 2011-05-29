@@ -15,3 +15,10 @@ The following bugs were fixed:
  * Issue 651: 	JQPost appends arguments onto url
  * jQuery 1.6.1
  * update to jQuery UI 1.8.13
+
+= Upgrading =
+== Pharo Users ==
+If you're on Pharo 1.1 or 1.0 and don't use Metacello you additionally need to load Grease-Pharo11-Core.
+
+== jQuery Users ==
+Check you the [http://blog.jquery.com/2011/05/12/jquery-1-6-1-released/ jQuery 1.6.1 changelog]
