@@ -7,7 +7,8 @@
 
 = Getting Started =
  # Load Gettext from [http://www.squeaksource.com/PharoNonCorePackages]
- # Load Seaside-Gettext from [http://www.squeaksource.com/Seaside30Addons]
+ # Load Seaside-Gettext-Core from [http://www.squeaksource.com/Seaside30Addons]
+ # If you're on Pharo load Seaside-Pharo-Gettext-Core from [http://www.squeaksource.com/Seaside30Addons]
 
 = API =
 The easiest way to translate a string is using the `#translate:` message on the render canvas.
