@@ -10,3 +10,4 @@ The following bugs were fixed:
  * added some mssing jQuery 1.6 methods
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete:
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
+ * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
