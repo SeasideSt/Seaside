@@ -1,7 +1,7 @@
 #summary All the things that changed in 3.0.5.
 
 = Introduction =
-Seaside 3.0.5 is a not yet released bug fix release for Seaside 3.0.
+Seaside 3.0.5 is bug fix release for Seaside 3.0.
 
 
 = Details =
