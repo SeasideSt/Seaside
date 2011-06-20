@@ -11,3 +11,4 @@ The following bugs were fixed:
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete:
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
+ * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch
