@@ -7,8 +7,9 @@ Seaside 3.0.6 is a not yet released bug fix release for Seaside 3.0.
 = Details =
 
 The following bugs were fixed:
- * added some mssing jQuery 1.6 methods
- * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete:
+ * added some mssing jQuery 1.6 methods (thanks Nick)
+ * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
- * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch
+ * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
+ * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
