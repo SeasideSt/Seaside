@@ -7,6 +7,7 @@ Seaside 3.0.6 is a not yet released bug fix release for Seaside 3.0.
 = Details =
 
 The following bugs were fixed:
+ * jQuery 1.6.2
  * added some mssing jQuery 1.6 methods (thanks Nick)
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
