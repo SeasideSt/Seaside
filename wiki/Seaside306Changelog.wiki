@@ -14,5 +14,6 @@ The following bugs were fixed:
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
  * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
+ * Issue 660: 	support path parameters in WAUrl
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
