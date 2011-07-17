@@ -10,11 +10,12 @@ The following bugs were fixed:
  * jQuery 1.6.2
  * added some mssing jQuery 1.6 methods (thanks Nick)
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
- * Issue 658: 	Seaside-Email should use request handler for configuration look up
- * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
- * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
+ * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
+ * Issue 658: 	Seaside-Email should use request handler for configuration look up
+ * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 660: 	support path parameters in WAUrl
+ * Issue 662: Refactor GRDelayedSend to use composition and reduce duplicate
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
