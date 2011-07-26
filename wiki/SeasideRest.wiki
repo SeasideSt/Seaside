@@ -196,12 +196,3 @@ When you have a subclass of {{{WAPragmaBasedRestfulFilter}}} that you want to ad
 application := WAAdmin register: MyRootComponent asApplicationAt: 'myapp'.
 application addFilterFirst: MyRestFilter new.
 }}}
-
-== If Things Go Wrong ==
-It is important to note that for performance reasons handlers and filter are introspected only on registration. Therefore changes you make during development are not immediately visible. Execute the following code make them visible:
-{{{
-WARestfulFilter allSubInstancesDo: [ :each |
-    each initializeRoutes ].
-WARestfulHandler allSubInstancesDo: [ :each |
-    each initializeRoutes ]
-}}}
