@@ -10,7 +10,7 @@ Seaside-REST can be found at [http://www.squeaksource.com/Seaside30Addons.html S
 
 = Details =
 
-You start by sublassing either {{{WAPragmaBasedRestfulHandler}}} or {{{WAPragmaBasedRestfulFilter}}} and putting methods there. There are several request properties that you can dispatch on:
+You start by sublassing either {{{WARestfulHandler}}} or {{{WARestfulFilter}}} and putting methods there. There are several request properties that you can dispatch on:
 
 == HTTP Method ==
 Every method must have a pragma that indicates the HTTP method on which it should be invoked.
