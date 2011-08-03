@@ -6,7 +6,7 @@ Seaside 3.1 contains the following changes.
   * query fields
   * cookies of the browser supports it, query fields otherwise
   * _new_: cookies only
-  * _new_: cookies for browsers and IPs for web crawlers
+  * _new_: cookies for browsers and IPs for web crawlers, inspired by [http://www.tomcatexpert.com/blog/2011/05/18/crawler-session-manager-valve Crawler Session Manager Valve] for Tomcat
  * All the deprecated methods and classes have been removed.
 
 = Bugs Fixed =
