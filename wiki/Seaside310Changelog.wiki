@@ -2,7 +2,12 @@
 
 = Introduction =
 Seaside 3.1 contains the following changes.
- * all the deprecated methods and classes have been removed
+ * The way session are tracked has been made customizable. The following strategies are supported out of the box:
+  * query fields
+  * cookies of the browser supports it, query fields otherwise
+  * _new_ cookies only
+  * _new_ cookies for browsers and IPs for web crawlers
+ * All the deprecated methods and classes have been removed.
 
 = Bugs Fixed =
  * Issue 325 in seaside: Force the use of cookies
