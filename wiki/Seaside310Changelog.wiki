@@ -1,0 +1,6 @@
+#summary All the things that changed in 3.1.0.
+
+= Introduction =
+Seaside 3.1 contains the following changes.
+
+= Bugs Fixed =
