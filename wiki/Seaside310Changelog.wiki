@@ -2,5 +2,7 @@
 
 = Introduction =
 Seaside 3.1 contains the following changes.
+ * all the deprecated methods and classes have been removed
 
 = Bugs Fixed =
+ * Issue 325 in seaside: Force the use of cookies
