@@ -10,6 +10,7 @@ The following bugs were fixed:
  * jQuery 1.6.2
  * added some mssing jQuery 1.6 methods (thanks Nick)
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
+ * Issue 617:	update WAPerformanceFunctionalTest for Cog, thanks Gerd
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
