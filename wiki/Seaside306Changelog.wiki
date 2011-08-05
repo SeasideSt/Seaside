@@ -16,7 +16,7 @@ The following bugs were fixed:
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
  * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 660: 	support path parameters in WAUrl
- * Issue 662: Refactor GRDelayedSend to use composition and reduce duplicate
+ * Issue 662: 	Refactor GRDelayedSend to use composition and reduce duplicate
  * Issue 672:	SequenceableCollection>>#endsWith: is not portable
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
