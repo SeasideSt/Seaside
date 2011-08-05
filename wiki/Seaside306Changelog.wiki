@@ -17,6 +17,7 @@ The following bugs were fixed:
  * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 660: 	support path parameters in WAUrl
  * Issue 662: Refactor GRDelayedSend to use composition and reduce duplicate
+ * Issue 672:	SequenceableCollection>>#endsWith: is not portable
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
