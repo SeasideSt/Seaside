@@ -18,6 +18,7 @@ The following bugs were fixed:
  * Issue 660: 	support path parameters in WAUrl
  * Issue 662: 	Refactor GRDelayedSend to use composition and reduce duplicate
  * Issue 672:	SequenceableCollection>>#endsWith: is not portable
+ * Issue 673:	WAHeaderFieldsTest>>#testCrLf uses non-portable method
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
