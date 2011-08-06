@@ -43,6 +43,7 @@ Seaside code has to work on many platforms. At the end of the day the porters wi
   * convert class names to strings using `#greaseString`
   * use `SequenceableCollection >> #beginsWithSubCollection:` instead of `SequenceableCollection >> #beginsWith:`
   * use `SequenceableCollection >> #endsWithSubCollection:` instead of `SequenceableCollection >> #endsWith:`
+  * use `(String with: Character cr with: Character lf)` instead of `String crlf`
 
 = Initialization and Instance Creation =
 
