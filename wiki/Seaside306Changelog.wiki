@@ -17,6 +17,7 @@ The following bugs were fixed:
  * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
  * Issue 660: 	support path parameters in WAUrl
  * Issue 662: 	Refactor GRDelayedSend to use composition and reduce duplicate
+ * Issue 671:	Seaside-Tests-Core-Documents breaks dependencies
  * Issue 672:	SequenceableCollection>>#endsWith: is not portable
  * Issue 673:	WAHeaderFieldsTest>>#testCrLf uses non-portable method
  * deprecate WATagBrush>>#onEnter:
