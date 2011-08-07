@@ -20,6 +20,7 @@ The following bugs were fixed:
  * Issue 671:	Seaside-Tests-Core-Documents breaks dependencies
  * Issue 672:	SequenceableCollection>>#endsWith: is not portable
  * Issue 673:	WAHeaderFieldsTest>>#testCrLf uses non-portable method
+ * Issue 674: 	WASwazooAdaptor decodes an already decoded URI
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
