@@ -24,7 +24,7 @@ The package ...
 
   * `Seaside-Canvas` contains he canvas implementation.
   * `Seaside-Pharo-Canvas` contains the platform specific code of the canvas implementation.
-  * `Seaside-Examples-Canvas` contains example code showing off the canvas implementation.
+  * `Seaside-Examples-Canvas` contains example code showing of the canvas implementation.
   * `Seaside-Tests-Canvas` contains the tests for the canvas implementation.
   * `Seaside-Tests-Pharo-Canvas` contains the platform specific tests of the canvas implementation.
 
