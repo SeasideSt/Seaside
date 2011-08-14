@@ -13,3 +13,7 @@ Seaside 3.1 contains the following changes.
 = Bugs Fixed =
  * Issue 325 in seaside: Force the use of cookies
  * Issue 592:	investigate tracking sessions by SSL session id
+
+= Changes =
+== Server Adaptors == 
+ * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
