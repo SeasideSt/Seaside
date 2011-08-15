@@ -13,7 +13,11 @@ Seaside 3.1 contains the following changes.
 = Bugs Fixed =
  * Issue 325 in seaside: Force the use of cookies
  * Issue 592:	investigate tracking sessions by SSL session id
+ * Issue 626: 	Allow platforms to implement custom encoders for speed
 
 = Changes =
 == Server Adaptors == 
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
+
+== Porters ==
+ * {{{GRPlatform >> #includesUnsafeUrlCharacter:}}} and {{{GRPlatform >> #includesUnsafeXmlCharacter:}}} are no longer used. They are replaced by
