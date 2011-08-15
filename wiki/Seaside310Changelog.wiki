@@ -20,4 +20,4 @@ Seaside 3.1 contains the following changes.
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
 
 == Porters ==
- * {{{GRPlatform >> #includesUnsafeUrlCharacter:}}} and {{{GRPlatform >> #includesUnsafeXmlCharacter:}}} are no longer used. They are replaced by
+ * {{{GRPlatform >> #includesUnsafeUrlCharacter:}}} and {{{#includesUnsafeXmlCharacter:}}} are no longer used. They are replaced by {{{GRPlatform >> #xmlEncoderOn:}}}, {{{#urlEncoderOn:}}} and {{{#urlEncoderOn:codec:}}} which allow you to answer custom implementations. You don't have to do this, the old implementations are provided as default implementations.
