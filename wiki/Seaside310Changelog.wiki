@@ -21,3 +21,4 @@ Seaside 3.1 contains the following changes.
 
 == Porters ==
  * {{{GRPlatform >> #includesUnsafeUrlCharacter:}}} and {{{#includesUnsafeXmlCharacter:}}} are no longer used. They are replaced by {{{GRPlatform >> #xmlEncoderOn:}}}, {{{#urlEncoderOn:}}} and {{{#urlEncoderOn:codec:}}} which allow you to answer custom implementations. You don't have to do this, the old implementations are provided as default implementations.
+ * There is a new {{{#sourceFileEncoding}}} method on {{{GRPlatform}}} that is used by the file library to save the conent of uploaded files into methods. It defaults to ISO-8859-1 which is what was hard coded in Seaside 3.0.
