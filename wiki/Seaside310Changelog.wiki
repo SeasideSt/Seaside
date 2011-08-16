@@ -11,7 +11,7 @@ Seaside 3.1 contains the following changes.
  * All the deprecated methods and classes have been removed.
 
 = Bugs Fixed =
- * Issue 325 in seaside: Force the use of cookies
+ * Issue 325:	Force the use of cookies
  * Issue 592:	investigate tracking sessions by SSL session id
  * Issue 626: 	Allow platforms to implement custom encoders for speed
  * Issue 663: 	Remove default nil option from WAListAttribute
