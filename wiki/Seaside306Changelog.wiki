@@ -22,6 +22,7 @@ The following bugs were fixed:
  * Issue 672:	SequenceableCollection>>#endsWith: is not portable
  * Issue 673:	WAHeaderFieldsTest>>#testCrLf uses non-portable method
  * Issue 674: 	WASwazooAdaptor decodes an already decoded URI
+ * Issue 677: 	"self.opener is null" when opening sytle editor
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
