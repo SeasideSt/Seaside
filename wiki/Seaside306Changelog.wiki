@@ -27,3 +27,6 @@ The following bugs were fixed:
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
+
+The following features were added:
+ * The iframe tag now has a #callback: method that allows you to switch the session presenter. This has the advantage that the script generator and all the libraries are preserved. See {{{WAIframeFunctionalTest}}} for an example.
