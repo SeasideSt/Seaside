@@ -14,6 +14,7 @@ The following bugs were fixed:
  * Issue 617:	update WAPerformanceFunctionalTest for Cog (thanks Gerd)
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
+ * Issue 655: 	WAMimeType>>fromString: cannot handle a wildcard
  * Issue 656: 	Browser broken on Welcome Page
  * Issue 658: 	Seaside-Email should use request handler for configuration look up
  * Issue 659: 	WAApplication>>handleFiltered: DNU when request isPrefetch (thanks Nick)
