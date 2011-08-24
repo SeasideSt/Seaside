@@ -11,6 +11,7 @@ Seaside 3.1 contains the following changes.
  * All the deprecated methods and classes have been removed.
  * Session continuations have been made subclasses of WARequestHandler. Those who have created their own continuation subclasses may need to make adjustments to their classes.
  * New WAPluggableActionContinuation introduced (see Issue 680 for details). Those subclassing WAActionPhaseContinuation probably want to be subclasses WACallbackProcessingActionContinuation now instead.
+ * Removed WAMain and its subclasses. Applications now specify an initial continuation instead. Those subclassing WAMain should consider implementing a subclass of WASessionContinuation instead.
 
 = Bugs Fixed =
  * Issue 325:	Force the use of cookies
@@ -18,7 +19,8 @@ Seaside 3.1 contains the following changes.
  * Issue 626: 	Allow platforms to implement custom encoders for speed
  * Issue 663: 	Remove default nil option from WAListAttribute
  * Issue 679:   Make SessionContinuations into subclasses of RequestHandler
- * Issue 680:   Add a pluggable action phase continuation 
+ * Issue 680:   Add a pluggable action phase continuation
+ * Issue 681:   Get rid of WAMain and subclasses
 
 = Changes =
 == Server Adaptors == 
