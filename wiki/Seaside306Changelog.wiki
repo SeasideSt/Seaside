@@ -8,6 +8,7 @@ Seaside 3.0.6 is a not yet released bug fix release for Seaside 3.0.
 
 The following bugs were fixed:
  * jQuery 1.6.2
+ * jQuery UI 1.8.16
  * added some mssing jQuery 1.6 methods (thanks Nick)
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
  * when unable to proceed from a debugger the HTML would only be rendered in Comanche
@@ -27,6 +28,7 @@ The following bugs were fixed:
  * Issue 674: 	WASwazooAdaptor decodes an already decoded URI
  * Issue 677: 	"self.opener is null" when opening sytle editor
  * Issue 678: 	an iframe should be more like a pop up
+ * Issue 682: 	JQButton >> #icons and #icons: seem inconsistent
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
