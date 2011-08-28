@@ -15,6 +15,7 @@ Seaside 3.1 contains the following changes.
 
 = Bugs Fixed =
  * Issue 111: 	jumpTo instance variable on WASession
+ * Issue 244 : 	WABatchedList>>hasMultiplePages
  * Issue 325:	Force the use of cookies
  * Issue 364: 	add always redirect option to WARegistry
  * Issue 453: 	document path consumer
