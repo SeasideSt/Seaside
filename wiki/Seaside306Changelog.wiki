@@ -29,6 +29,7 @@ The following bugs were fixed:
  * Issue 677: 	"self.opener is null" when opening sytle editor
  * Issue 678: 	an iframe should be more like a pop up
  * Issue 682: 	JQButton >> #icons and #icons: seem inconsistent
+ * Issue 683: 	self call: self infinite recursion detection (thanks Sean)
  * deprecate WATagBrush>>#onEnter:
  * deprecate WADivTag>>#clear
  * WARequestHandler class >> #push:while: has been deprecated for #push:during:
