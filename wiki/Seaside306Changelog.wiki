@@ -12,6 +12,7 @@ The following bugs were fixed:
  * added some mssing jQuery 1.6 methods (thanks Nick)
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
  * when unable to proceed from a debugger the HTML would only be rendered in Comanche
+ * Issue 572: 	add #removeDelegation convenience
  * Issue 617:	update WAPerformanceFunctionalTest for Cog (thanks Gerd)
  * Issue 631: 	update /status for Cog VM (thanks Michael)
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
