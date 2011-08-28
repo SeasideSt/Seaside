@@ -13,6 +13,7 @@ The following bugs were fixed:
  * changed JQAutocomplete use of #onComplete: to #onSuccess: as JQGetJson no longer supports #onComplete: (thanks Nick)
  * when unable to proceed from a debugger the HTML would only be rendered in Comanche
  * Issue 617:	update WAPerformanceFunctionalTest for Cog (thanks Gerd)
+ * Issue 631: 	update /status for Cog VM (thanks Michael)
  * Issue 642: 	WATagBrush and WAPrettyPrintedDocument inconsistencies
  * Issue 653: 	WARequestContext>>newDocument assumes #handler is not nil
  * Issue 654: 	Add support for the disabled option to JQButton (thanks Jan)
