@@ -14,6 +14,7 @@ Seaside 3.1 contains the following changes.
  * Removed WAMain and its subclasses. Applications now specify an initial continuation instead. Those subclassing WAMain should consider implementing a subclass of WASessionContinuation instead.
 
 = Bugs Fixed =
+ * Issue 111: 	jumpTo instance variable on WASession
  * Issue 325:	Force the use of cookies
  * Issue 364: 	add always redirect option to WARegistry
  * Issue 500: 	WADebugErrorHandler>>unableToResumeResponse provides invalid instructions
