@@ -23,6 +23,7 @@ Seaside 3.1 contains the following changes.
  * Issue 500: 	WADebugErrorHandler>>unableToResumeResponse provides invalid instructions
  * Issue 592:	investigate tracking sessions by SSL session id
  * Issue 626: 	Allow platforms to implement custom encoders for speed
+ * Issue 636: 	expected exception behavior WAWalkbackErrorHandler not portable (and not ANSI compliant)
  * Issue 645: 	WAPopupAnchorTag overrides #name: of WAAnchorTag with different semantics
  * Issue 663: 	Remove default nil option from WAListAttribute
  * Issue 676: 	response generators have to reset the response before generating a new one
