@@ -48,6 +48,7 @@ Seaside code has to work on many platforms. At the end of the day the porters wi
     * `#count:`
     * `#withIndexCollect:`
     * `#anyOne`
+  * don't use `OrderedCollection >> #at:ifAbsentPut:`
 
 = Initialization and Instance Creation =
 
