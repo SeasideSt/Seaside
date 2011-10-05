@@ -12,4 +12,5 @@ The following bugs were fixed:
  * Issue 689:	WAPharoWalkback misuses debugger API
  * Issue 691:	WAHtml5ElementsTest has undeclared (and unneeded) dependency on Seaside-Tools-Web (thanks John)
  * Issue 692:	marked element is `<mark>` not `<m>`
+ * Issue 694: 	Swazoo adapter does not respect Request URIs ending in slash.
  * add GRCodecStream>>#print:
