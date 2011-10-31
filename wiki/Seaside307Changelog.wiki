@@ -13,4 +13,5 @@ The following bugs were fixed:
  * Issue 691:	WAHtml5ElementsTest has undeclared (and unneeded) dependency on Seaside-Tools-Web (thanks John)
  * Issue 692:	marked element is `<mark>` not `<m>`
  * Issue 694: 	Swazoo adapter does not respect Request URIs ending in slash.
+ * Issue 695:	WATelephoneInputTag type="telephone", but iPhone and jQueryMobile expects type="tel"
  * add GRCodecStream>>#print:
