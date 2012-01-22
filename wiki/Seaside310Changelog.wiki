@@ -30,6 +30,7 @@ Seaside 3.1 contains the following changes.
  * Issue 679:   Make SessionContinuations into subclasses of RequestHandler
  * Issue 680:   Add a pluggable action phase continuation
  * Issue 681:   Get rid of WAMain and subclasses
+ * Issue 699: 	GRPharoPlatform>>#write:toFile:inFolder: uses CrLfFileStream in seaside 3.0.6.3
 
 = Changes =
 == Users ==
