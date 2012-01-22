@@ -35,6 +35,8 @@ Seaside 3.1 contains the following changes.
 = Changes =
 == Users ==
  * replaced WARenderCanvas with WAHtmlCanvas (already available in 3.0)
+ * WASelectionDateTable no longer adds border
+ * WASelectionDateTable no longer adds CSS style
 
 == Server Adaptors == 
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
