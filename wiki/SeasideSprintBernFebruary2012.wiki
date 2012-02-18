@@ -10,7 +10,7 @@ Add your content here.
 
 Add your content here.  Format your content with:
   * REST filter decorations that don't consume the request path
-  * move document handlers form application to session
+  * move document handlers form application to session ✓
   * move #jsonOn: to Seaside-JSON-Core, change implementation to use canvas
   * update Magritte-JSON
   * move Seaside-JSON and Seaside-REST to 3.1 from addons
