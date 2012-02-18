@@ -15,3 +15,4 @@ Add your content here.  Format your content with:
   * update Magritte-JSON
   * move Seaside-JSON and Seaside-REST to 3.1 from addons
   * merge streaming patch
+  * Issue 707
