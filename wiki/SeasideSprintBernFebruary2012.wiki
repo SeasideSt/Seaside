@@ -17,5 +17,5 @@ Add your content here.  Format your content with:
  * update seaside-31 builder script to include Seaside-JSON-Core
  * update magritte-3 builder script to include Seaside-JSON-Core 
  * move Seaside-REST to 3.1 from addons
- * merge streaming patch
+ * merge streaming patch, Issue 591
  * Issue 707
