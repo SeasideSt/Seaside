@@ -13,6 +13,7 @@ Seaside 3.1 contains the following changes.
  * New WAPluggableActionContinuation introduced (see Issue 680 for details). Those subclassing WAActionPhaseContinuation probably want to be subclasses WACallbackProcessingActionContinuation now instead.
  * Removed WAMain and its subclasses. Applications now specify an initial continuation instead. Those subclassing WAMain should consider implementing a subclass of WASessionContinuation instead.
  * `WAPopupAnchorTag>>#name:` has been replaced by `WAPopupAnchorTag>>#windowTitle:
+ * JSON support is now in Seaside-JSON-Core, #jsonOn: methods get a JSON canvas instead of a stream as an argument
 
 = Bugs Fixed =
  * Issue 111: 	jumpTo instance variable on WASession
