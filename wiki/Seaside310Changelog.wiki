@@ -35,6 +35,7 @@ Seaside 3.1 contains the following changes.
  * Issue 707:	don't use #document:mimeType: when mime type is nil
  * Issue 708:	JQDialog>>#buttons:
  * Issue 709:	move document handlers to session
+ * Issue 712:	Pretty printing is broken for JavaScript expressions
 
 = Changes =
 == Users ==
