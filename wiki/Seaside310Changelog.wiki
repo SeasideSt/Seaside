@@ -22,6 +22,7 @@ Seaside 3.1 contains the following changes.
  * Issue 364: 	add always redirect option to WARegistry
  * Issue 453: 	document path consumer
  * Issue 500: 	WADebugErrorHandler>>unableToResumeResponse provides invalid instructions
+ * Issue 591:	WAComboResponse - a combined buffered / streaming response
  * Issue 592:	investigate tracking sessions by SSL session id
  * Issue 626: 	Allow platforms to implement custom encoders for speed
  * Issue 636: 	expected exception behavior WAWalkbackErrorHandler not portable (and not ANSI compliant)
