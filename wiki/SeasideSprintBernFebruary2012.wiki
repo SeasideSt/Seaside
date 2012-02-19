@@ -1,14 +1,20 @@
-#summary One-sentence summary of this page.
+#summary The Seaside Sprint in Bern, February 2012
 #labels Sprint,Bern
 
-= Introduction =
+=Dates and Location=
 
-Add your content here.
+ * Saturday, February 18, 2012
+   * University of Bern
+ * Sunday, February 19, 2012
+   * University of Bern
+
+=Attendees=
+
+ * Philippe Marschal
+ * Lukas Renggli
 
 
-= Details =
-
-Add your content here.  Format your content with:
+=Tasks=
  * REST filter decorations that don't consume the request path ✓
  * move document handlers form application to session ✓
  * move #jsonOn: to Seaside-JSON-Core, change implementation to use canvas ✓
