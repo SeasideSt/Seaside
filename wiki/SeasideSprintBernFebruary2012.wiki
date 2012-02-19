@@ -24,7 +24,7 @@
  * move Seaside-REST to 3.1 from addons
  * merge streaming patch, Issue 591
  * Issue 707   ✓
- * fix failing tests
+ * fix failing tests   ✓
   * Seaside.Tests.Session.WASessionTest.testAddFilter 	0 ms	1
   * Seaside.Tests.Session.WASessionTest.testAddFilterFirst 	0 ms	1
   * Seaside.Tests.Session.WASessionTest.testAddFilterLast 	0 ms	1
