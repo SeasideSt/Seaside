@@ -8,6 +8,7 @@ Seaside 3.0.7 is a not yet released bug fix release for Seaside 3.0.
 
 The following bugs were fixed:
  * jQuery 1.7.1
+ * Issue 267: 	FileLibrary improvements
  * Issue 650:	Usage of #tempScopedNames
  * Issue 686: 	WAUrl uses OrderedCollection>>at:ifAbsentPut:
  * Issue 689:	WAPharoWalkback misuses debugger API
