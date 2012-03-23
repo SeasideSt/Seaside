@@ -8,4 +8,4 @@ There's a new method for recursing a sub-directory tree to add all the files and
 
 The work was based on a previous implementation by Avi Shefi with ideas from Boris Popov.
 
-see [http://code.google.com/p/seaside/issues/detail?id=267 issues 267] for further detail.
+see [http://code.google.com/p/seaside/issues/detail?id=267 issue 267] for further detail.
