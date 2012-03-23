@@ -7,3 +7,5 @@ There's a new method for recursing a sub-directory tree to add all the files and
 `MYWAFileMetadataDerivedFileLib​rary recursivelyAddAllFilesIn: '/var/www/files/​twitterbootstrap'`
 
 The work was based on a previous implementation by Avi Shefi with ideas from Boris Popov.
+
+[http://code.google.com/p/seaside/issues/detail?id=267 the issues solves are described in the bug reference]
