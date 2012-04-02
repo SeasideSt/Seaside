@@ -38,6 +38,7 @@ Seaside 3.1 contains the following changes.
  * Issue 709:	move document handlers to session
  * Issue 712:	Pretty printing is broken for JavaScript expressions
  * Issue 718: 	Make profile tree more useful
+ * Issue 717: 	WAMemoryItem>>sizeOfObject
 
 = Changes =
 == Users ==
