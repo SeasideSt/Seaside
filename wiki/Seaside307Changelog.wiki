@@ -20,3 +20,4 @@ The following bugs were fixed:
  * Issue 695:	WATelephoneInputTag type="telephone", but iPhone and jQueryMobile expects type="tel"
  * Issue 701: 	HTML5 Tags have superfluous space
  * add GRCodecStream>>#print:
+ * Issue 719  Load issues on Pharo 1.4 alpha release
