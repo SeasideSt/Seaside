@@ -18,3 +18,4 @@
 || Seaside 3.0.4 || [http://www.seaside.st/distributions/Seaside-3.0.4-OneClick.zip files] || Saturday, March 5, 2011 || Seaside304Changelog ||
 || Seaside 3.0.5 || [http://www.seaside.st/distributions/Seaside-3.0.5-OneClick.zip files] || Sunday, Mai 22, 2011 || Seaside305Changelog ||
 || Seaside 3.0.6 || [http://www.seaside.st/distributions/Seaside-3.0.6-OneClick.zip files] || Sunday, September 11, 2011 || Seaside306Changelog ||
+|| Seaside 3.0.7 || [http://www.seaside.st/distributions/Seaside-3.0.7-OneClick.zip files] || Monday, April 2, 2012 || Seaside307Changelog ||
