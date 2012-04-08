@@ -140,3 +140,6 @@ Reverse-engineered after the fact, here are (roughly) what I think the requireme
   # It should be very clear to users of the class what parameters are required for initialization.
   # It is more important to minimize the complexity and effort for users of the framework than for developers of the framework.
   # Without sacrificing the above points, we should not have to write or override more code than necessary (we don't want to have to override every instance creation method each time we subclass, for example). 
+
+=Notes=
+The conventions presented above are subtly different to those used by [http://developer.apple.com/library/ios/#documentation/general/conceptual/CocoaEncyclopedia/Initialization/Initialization.html Apple in Objective-C]. In Objective-C an initializer method can call super with a selector other than it's own, when it is redefining the designated initializer in a sub-class.
