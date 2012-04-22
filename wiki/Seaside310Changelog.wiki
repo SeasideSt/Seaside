@@ -14,7 +14,7 @@ Seaside 3.1 contains the following changes.
  * Removed WAMain and its subclasses. Applications now specify an initial continuation instead. Those subclassing WAMain should consider implementing a subclass of WASessionContinuation instead.
  * `WAPopupAnchorTag>>#name:` has been replaced by `WAPopupAnchorTag>>#windowTitle:
  * JSON support is now in Seaside-JSON-Core, #jsonOn: methods get a JSON canvas instead of a stream as an argument
- * support for the HTML 5 "multiple" attribute has been added. Text input and file upload tags now have a #multipleValuesCallback: who's argument will be a sequenceable collection .
+ * support for the HTML 5 "multiple" attribute has been added. Text input and file upload tags now have a #multipleValuesCallback: who's argument will be a sequenceable collection.
 
 = Bugs Fixed =
  * Issue 111: 	jumpTo instance variable on WASession
