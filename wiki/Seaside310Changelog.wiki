@@ -41,6 +41,7 @@ Seaside 3.1 contains the following changes.
  * Issue 718: 	Make profile tree more useful
  * Issue 717: 	WAMemoryItem>>sizeOfObject
  * Issue 722: 	add support for the "multiple" attribute
+ * Issue 727: 	walkback only works for exceptions in callback phase
 
 = Changes =
 == Users ==
