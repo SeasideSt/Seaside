@@ -15,6 +15,7 @@ Seaside 3.1 contains the following changes.
  * `WAPopupAnchorTag>>#name:` has been replaced by `WAPopupAnchorTag>>#windowTitle:`
  * JSON support is now in Seaside-JSON-Core, #jsonOn: methods get a JSON canvas instead of a stream as an argument
  * support for the HTML 5 "multiple" attribute has been added. Text input and file upload tags now have a #multipleValuesCallback: who's argument will be a sequenceable collection.
+ * a `#resetIfPossible` method has been added to `WAResponse`. It clears a partially rendered response if that's possible (not streaming server is used).
 
 = Bugs Fixed =
  * Issue 111: 	jumpTo instance variable on WASession
