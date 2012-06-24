@@ -47,7 +47,7 @@ Seaside 3.1 contains the following changes.
  * Issue 727: 	walkback only works for exceptions in callback phase
  * Issue 728: 	add support for new HTTP status codes
  * Issue 730: 	Float infinity and nan don't produce correct JSON representations
- * Issue 732
+ * Issue 732: 	Add flushing render phase continuation
 
 = Changes =
 == Users ==
