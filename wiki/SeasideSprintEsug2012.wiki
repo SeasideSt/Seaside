@@ -1,0 +1,15 @@
+#summary The Seaside Sprint at ESUG 2012
+
+=Dates and Location=
+
+=Attendees=
+
+
+=Ideas=
+ * configurations for 3.1
+ * type conversion for Seaside-REST
+ * make Seaside-REST and WAApplication BFF
+ * buffer recycling for Zinc
+ * finis AJP GemStone port
+ * address scalability concerns in cache, see Issue 262
+ * investigate ways to make configurations easier to understand
