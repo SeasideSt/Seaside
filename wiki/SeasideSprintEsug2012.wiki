@@ -10,6 +10,12 @@
  * type conversion for Seaside-REST
  * make Seaside-REST and WAApplication BFF
  * buffer recycling for Zinc
- * finis AJP GemStone port
  * address scalability concerns in cache, see Issue 262
  * investigate ways to make configurations easier to understand
+ * EventSource using continuations
+ * AJP
+  * finish GemStone port
+  * composite buffers (for request bodies)
+  * read request body from buffer
+  * read request URL from buffer
+  * response streaming
