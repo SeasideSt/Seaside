@@ -13,6 +13,7 @@
  * address scalability concerns in cache, see Issue 262
  * investigate ways to make configurations easier to understand
  * EventSource using continuations
+ * jQuery UI using "new" file library
  * AJP
   * finish GemStone port
   * composite buffers (for request bodies)
