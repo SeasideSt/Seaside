@@ -9,6 +9,7 @@
  * configurations for 3.1
  * type conversion for Seaside-REST
  * make Seaside-REST and WAApplication BFF
+ * port Seaisde-REST to VW
  * buffer recycling for Zinc
  * address scalability concerns in cache, see Issue 262
  * investigate ways to make configurations easier to understand
