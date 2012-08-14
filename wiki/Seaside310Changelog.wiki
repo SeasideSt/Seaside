@@ -52,6 +52,7 @@ Seaside 3.1 contains the following changes.
  * Issue 732: 	Add flushing render phase continuation
  * Issue 733: 	multibyte characters broken when flushing a WAComboResponse
  * Issue 736: 	implement #basicNextPutAll: on pseudo streams
+ * Issue 737: 	Update WAScreenshot to work with Pharo 2.0
 
 = Changes =
 == Users ==
