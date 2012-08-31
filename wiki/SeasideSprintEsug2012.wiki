@@ -21,5 +21,8 @@
   * read request URL from buffer
   * response streaming
 
+=Work In Progres=
+ * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
+
 =Done=
  * make Seaside-REST and WAApplication BFF
