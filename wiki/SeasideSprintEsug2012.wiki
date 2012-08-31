@@ -21,7 +21,7 @@
   * read request URL from buffer
   * response streaming
 
-=Work In Progres=
+=Work In Progress=
  * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
 
 =Done=
