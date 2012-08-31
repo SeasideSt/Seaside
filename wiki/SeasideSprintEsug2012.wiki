@@ -13,7 +13,6 @@
  * port Seaisde-REST to VW
  * buffer recycling for Zinc
  * address scalability concerns in cache, see Issue 262
- * investigate ways to make configurations easier to understand
  * EventSource using continuations
  * jQuery UI using "new" file library
  * AJP
@@ -25,6 +24,7 @@
 
 =Work In Progress=
  * Issue 724:	add .pushState to ajaxifier
+ * investigate ways to make configurations easier to understand
 
 =Done=
  * make Seaside-REST and WAApplication BFF
