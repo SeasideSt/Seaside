@@ -5,7 +5,14 @@
  * 2River offices
 
 =Attendees=
-
+ * Adriaan van Os
+ * Dale Henrichs
+ * Denis Defreyne
+ * Diego Lont
+ * Johan Brichau
+ * John O'Keefe
+ * Nick Arger
+ * Philippe Marschall
 
 =Ideas=
  * configurations for 3.1
