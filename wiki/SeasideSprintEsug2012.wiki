@@ -23,6 +23,7 @@
 
 =Work In Progress=
  * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
+ * Issue 735:	Problem with WAFileMetadataLibrary>>#deployFiles
 
 =Done=
  * make Seaside-REST and WAApplication BFF
