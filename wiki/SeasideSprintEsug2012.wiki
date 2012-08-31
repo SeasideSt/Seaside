@@ -33,6 +33,7 @@
  * Issue 724:	add .pushState to ajaxifier
  * configurations for 3.1
  * investigate ways to make configurations easier to understand
+ * port 3.1 to VA Smalltalk
 
 =Done=
  * make Seaside-REST and WAApplication BFF
