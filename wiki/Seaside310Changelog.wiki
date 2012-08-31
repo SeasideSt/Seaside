@@ -53,6 +53,7 @@ Seaside 3.1 contains the following changes.
  * Issue 731: 	utf-16 broken
  * Issue 732: 	Add flushing render phase continuation
  * Issue 733: 	multibyte characters broken when flushing a WAComboResponse
+ * Issue 735:	Problem with WAFileMetadataLibrary>>#deployFiles
  * Issue 736: 	implement #basicNextPutAll: on pseudo streams
  * Issue 737: 	Update WAScreenshot to work with Pharo 2.0
  * Issue 738: 	Set encoding for Seaside-REST responses
