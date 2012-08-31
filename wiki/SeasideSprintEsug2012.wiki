@@ -16,7 +16,6 @@
  * Philippe Marschall
 
 =Ideas=
- * configurations for 3.1
  * type conversion for Seaside-REST
  * port Seaisde-REST to VW
  * buffer recycling for Zinc
@@ -32,6 +31,7 @@
 
 =Work In Progress=
  * Issue 724:	add .pushState to ajaxifier
+ * configurations for 3.1
  * investigate ways to make configurations easier to understand
 
 =Done=
