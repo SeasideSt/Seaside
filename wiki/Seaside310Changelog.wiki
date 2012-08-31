@@ -42,8 +42,9 @@ Seaside 3.1 contains the following changes.
  * Issue 708:	JQDialog>>#buttons:
  * Issue 709:	move document handlers to session
  * Issue 712:	Pretty printing is broken for JavaScript expressions
- * Issue 718: 	Make profile tree more useful
+ * Issue 716:	WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
  * Issue 717: 	WAMemoryItem>>sizeOfObject
+ * Issue 718: 	Make profile tree more useful
  * Issue 722: 	add support for the "multiple" attribute
  * Issue 726: 	Rework JSON and JavaScript escaping
  * Issue 727: 	walkback only works for exceptions in callback phase
