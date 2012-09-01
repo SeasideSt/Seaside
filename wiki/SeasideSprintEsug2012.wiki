@@ -35,6 +35,8 @@
  * port 3.1 to VA Smalltalk
 
 =Done=
+ * add slime rule for unnecessary comma after last statement
+ * reduce the number of false positives in the string concatenation rule
  * make Seaside-REST and WAApplication BFF
  * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
  * Issue 735:	Problem with WAFileMetadataLibrary>>#deployFiles
