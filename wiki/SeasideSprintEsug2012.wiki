@@ -30,7 +30,6 @@
   * response streaming
 
 =Work In Progress=
- * Issue 724:	add .pushState to ajaxifier
  * configurations for 3.1
  * investigate ways to make configurations easier to understand
  * port 3.1 to VA Smalltalk
@@ -39,3 +38,4 @@
  * make Seaside-REST and WAApplication BFF
  * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
  * Issue 735:	Problem with WAFileMetadataLibrary>>#deployFiles
+ * Issue 724:	add .pushState to ajaxifier
