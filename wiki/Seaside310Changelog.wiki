@@ -37,6 +37,7 @@ Seaside 3.1 contains the following changes.
  * Issue 679:   Make SessionContinuations into subclasses of RequestHandler
  * Issue 680:   Add a pluggable action phase continuation
  * Issue 681:   Get rid of WAMain and subclasses
+ * Issue 697:	Within a WAComponent I've repeated implemented #children to return a collection that contains a reference to self. Causing infinite recursion
  * Issue 699: 	GRPharoPlatform>>#write:toFile:inFolder: uses CrLfFileStream in seaside 3.0.6.3
  * Issue 707:	don't use #document:mimeType: when mime type is nil
  * Issue 708:	JQDialog>>#buttons:
