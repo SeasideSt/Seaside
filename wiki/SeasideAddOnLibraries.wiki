@@ -1,0 +1,17 @@
+#summary Add-on libraries which build on Seaside
+= Add-on libraries which build on Seaside =
+
+Some useful add-on libraries:
+  * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQWidgets with Seaside integration
+  * [http://www.squeaksource.com/Seaside30Addons/ Seaside-REST] building RESTful applications with Seaside
+  * [http://www.squeaksource.com/ajp AJP] connector for Seaside. Efficient communications between front end servers (Apache, Nginx) to backend Seaside instances.
+  * [http://source.lukas-renggli.ch/magritte3/ Magritte 3] a meta-description frame work for annotating your model objects to automate generation of form, table report UIs etc
+  * [http://source.lukas-renggli.ch/magritte3addons/ Magritte-JSON] and [http://source.lukas-renggli.ch/magritte3addons/ Magritte-XML], read and store your Magritte described models in JSON and XML
+ * [http://source.lukas-renggli.ch/pier3/ Pier 3] Version 3 of the powerful object-based content management system.
+ * [http://source.lukas-renggli.ch/pier3addons/ Pier 3 addons] including Wysiwyg editing, Pier Admin - separate administration interface, Pier Admin setup - generate Pier sites from a set of templates
+ * [http://jquerymobile.seasidehosting.st/ JQueryMobile] Seaside integration - build mobile sites and applications that work across a range of smartphones with Seaside.
+ * [http://twitterbootstrap.seasidehosting.st Twitter bootstrap] Seaside and Magritte integration. A modern CSS, javascript library integrated with Seaside.
+ * [http://seafox.seasidehosting.st Seafox] translate HTML into Seaside canvas methods, including a Firefox add-on.
+ * [http://ss3.gemstone.com/ss/TopFeeder TopFeeder] rss reader library.
+
+add your favourite library here...
