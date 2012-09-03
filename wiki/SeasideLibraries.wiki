@@ -1,3 +1,4 @@
+#summary Libraries which build on Seaside
 = Some libraries which build on Seaside =
 
 Some useful libraries:
@@ -12,3 +13,5 @@ Some useful libraries:
  * [http://twitterbootstrap.seasidehosting.st Twitter bootstrap] Seaside and Magritte integration. A modern CSS, javascript library integrated with Seaside.
  * [http://seafox.seasidehosting.st Seafox] translate HTML into Seaside canvas methods, including a Firefox add-on.
  * [http://ss3.gemstone.com/ss/TopFeeder TopFeeder] rss reader library.
+
+add your favourite library here...
