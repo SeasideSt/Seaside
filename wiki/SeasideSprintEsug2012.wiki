@@ -12,7 +12,7 @@
  * Diego Lont
  * Johan Brichau
  * John O'Keefe
- * Nick Arger
+ * Nick Ager
  * Philippe Marschall
 
 =Ideas=
