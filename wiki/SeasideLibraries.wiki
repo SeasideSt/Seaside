@@ -3,6 +3,7 @@
 Some useful libraries:
   * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQWidgets with Seaside integration
   * [http://www.squeaksource.com/Seaside30Addons/ Seaside-REST] building RESTful applications with Seaside
+  * [http://www.squeaksource.com/ajp AJP] connector for Seaside. Efficient communications between front end servers (Apache, Nginx) to backend Seaside instances.
   * [http://source.lukas-renggli.ch/magritte3/ Magritte 3] a meta-description frame work for annotating your model objects to automate generation of form, table report UIs etc
   * [http://source.lukas-renggli.ch/magritte3addons/ Magritte-JSON] and [http://source.lukas-renggli.ch/magritte3addons/ Magritte-XML], read and store your Magritte described models in JSON and XML
  * [http://source.lukas-renggli.ch/pier3/ Pier 3] Version 3 of the powerful object-based content management system.
