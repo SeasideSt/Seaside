@@ -9,5 +9,5 @@ Some useful libraries:
  * [http://source.lukas-renggli.ch/pier3addons/ Pier 3 addons] including Wysiwyg editing, Pier Admin - separate administration interface, Pier Admin setup - generate Pier sites from a set of templates
  * [http://jquerymobile.seasidehosting.st/ JQueryMobile] Seaside integration - build mobile sites and applications that work across a range of smartphones with Seaside.
  * [http://twitterbootstrap.seasidehosting.st Twitter bootstrap] Seaside and Magritte integration. A modern CSS, javascript library integrated with Seaside.
- * [http://seafox.seasidehosting.st Seafox] translate HTML into Seaside canvas methods.
+ * [http://seafox.seasidehosting.st Seafox] translate HTML into Seaside canvas methods, including a Firefox add-on.
  * [http://ss3.gemstone.com/ss/TopFeeder TopFeeder] rss reader library.
