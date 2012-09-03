@@ -2,7 +2,7 @@
 = Add-on libraries which build on Seaside =
 
 Some useful add-on libraries:
-  * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQWidgets with Seaside integration
+  * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQuery Widgets with Seaside integration
   * [http://www.squeaksource.com/Seaside30Addons/ Seaside-REST] building RESTful applications with Seaside
   * [http://www.squeaksource.com/ajp AJP] connector for Seaside. Efficient communications between front end servers (Apache, Nginx) to backend Seaside instances.
   * [http://source.lukas-renggli.ch/magritte3/ Magritte 3] a meta-description frame work for annotating your model objects to automate generation of form, table report UIs etc
