@@ -41,3 +41,4 @@
  * Issue 716 in seaside: WARequestHandler>>#preferenceAt: has no corresponding WARequestHandler>>#preferenceAt: ifAbsent:
  * Issue 735:	Problem with WAFileMetadataLibrary>>#deployFiles
  * Issue 724:	add .pushState to ajaxifier
+ * Issue 697:    Within a WAComponent I've repeated implemented #children to return a collection that contains a reference to self. Causing infinite recursion
