@@ -1,4 +1,6 @@
-The new file library seeks to address the following issues: 
+#summary the rational behind WAFileMetadataLibrary
+
+The WAFileMetadataLibrary seeks to address the following issues which WAFileLibrary didn't support: 
   * *Arbitrary support for filenames* JQuery-UI theme libraries contain currently unsupported filenames such as "e6e6e6_40x100_textures_02_glass_75.png".
   * *Arbitrary directories for files* JQuery-UI (and Twitter Bootstrap) expects certain JavaScript files, images etc in a subdirectory, such as "ui/i18n/ui.datepicker-de.js".
   * *Arbitrary mime-types for files* Currently mime-types are determined from the file-extension, sometimes it would be good to have some more control.
