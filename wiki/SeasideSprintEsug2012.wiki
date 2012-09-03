@@ -33,6 +33,7 @@
  * configurations for 3.1
  * investigate ways to make configurations easier to understand
  * port 3.1 to VA Smalltalk
+ * port of Pier 3 to Gemstone
 
 =Done=
  * add slime rule for unnecessary comma after last statement
