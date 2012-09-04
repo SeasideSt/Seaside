@@ -1,5 +1,5 @@
 #summary Add-on libraries which build on Seaside
-= Add-on libraries which build on Seaside =
+= Seaside add-on libraries =
 
 Some useful add-on libraries:
   * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQuery Widgets with Seaside integration
