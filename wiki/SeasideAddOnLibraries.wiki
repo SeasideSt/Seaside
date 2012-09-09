@@ -5,7 +5,7 @@ Some useful add-on libraries:
   * [http://www.squeaksource.com/JQueryWidgetBox/ JQWidgetBox] JQuery Widgets with Seaside integration
   * [SeasideRest Seaside-REST] RESTful applications with Seaside; included with Seaside 3.1.
   * [http://www.squeaksource.com/ajp AJP] connector for Seaside. Efficient communications between front end servers (Apache, Nginx) to backend Seaside instances.
-  * [http://www.seaside.st/documentation/persistence Persisting] data.
+  * [http://www.seaside.st/documentation/persistence Persisting] data from your Seaside applications.
   * [Gettext] How to localize Seaside applications using gettext.
   * [http://www.seaside.st/documentation/pdfs PDF] generation.
   * [https://github.com/svenvc/ston STON] - Smalltalk Object Notation - JSON compatible notation for Smalltalk. 
