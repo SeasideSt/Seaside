@@ -8,7 +8,7 @@ Some useful add-on libraries:
   * [http://www.seaside.st/documentation/persistence Persisting] data.
   * [Gettext] How to localize Seaside applications using gettext.
   * [http://www.seaside.st/documentation/pdfs PDF] generation.
-  * [https://github.com/svenvc/ston STON] - Smalltalk Object Notation - JSON for Smalltalk. 
+  * [https://github.com/svenvc/ston STON] - Smalltalk Object Notation - JSON compatible descriptions for Smalltalk. 
   * [http://blog.doit.st/2011/02/15/cloudforksso-openid-and-oauth-support-for-smalltalk/ OAuth] support - [http://blog.doit.st/2011/02/15/cloudforksso-openid-and-oauth-support-for-smalltalk/ documentation] and [http://www.squeaksource.com/Cloudfork/  repository].
   * [http://blog.doit.st  Amazon Web Service] (AWS) support includes: SimpleDB persistency service, SQS queing service and S3 storage service. Work on EC2, RDS and SNS support is in progress.  
   * [http://source.lukas-renggli.ch/magritte3/ Magritte 3] a meta-description frame work for annotating your model objects to automate generation of form, table report UIs etc
