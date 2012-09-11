@@ -19,5 +19,7 @@ Some useful add-on libraries:
  * [http://twitterbootstrap.seasidehosting.st Twitter bootstrap] Seaside and Magritte integration. A modern CSS, javascript library integrated with Seaside.
  * [http://seafox.seasidehosting.st Seafox] translate HTML into Seaside canvas methods, including a Firefox add-on.
  * [http://ss3.gemstone.com/ss/TopFeeder TopFeeder] rss reader library.
+ * [http://www.squeaksource.com/SSpec.html SSpec] BDD testing framework
+ * [http://www.squeaksource.com/Mocketry.html mock objects] framework with SSpec functionality
 
 add your favourite library here...
