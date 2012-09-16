@@ -11,6 +11,7 @@ Some useful add-on libraries:
   * [https://github.com/svenvc/ston STON] - Smalltalk Object Notation - JSON compatible notation for Smalltalk. 
   * [http://blog.doit.st/2011/02/15/cloudforksso-openid-and-oauth-support-for-smalltalk/ OAuth] support - [http://blog.doit.st/2011/02/15/cloudforksso-openid-and-oauth-support-for-smalltalk/ documentation] and [http://www.squeaksource.com/Cloudfork/  repository].
   * [http://blog.doit.st  Amazon Web Service] (AWS) support includes: SimpleDB persistency service, SQS queing service and S3 storage service. Work on EC2, RDS and SNS support is in progress. 
+  * [http://dbxtalk.smallworks.com.ar DBXTalk] Smalltalk to relational databases via OpenDBX and Glorp.
   * MongoDB  [http://squeaksource.com/MongoTalk/ driver] and [http://smalltalkhub.com/#!/~estebanlm/Voyage mapper].
   * [http://source.lukas-renggli.ch/magritte3/ Magritte 3] a meta-description framework for annotating your model objects to automate generation of forms, tables, reports etc
   * [http://source.lukas-renggli.ch/magritte3addons/ Magritte-JSON] and [http://source.lukas-renggli.ch/magritte3addons/ Magritte-XML], read and store your Magritte described models in JSON and XML
