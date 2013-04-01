@@ -51,6 +51,7 @@ Seaside code has to work on many platforms. At the end of the day the porters wi
   * don't use `OrderedCollection >> #at:ifAbsentPut:`
   * don't use `1 / 0`, Smalltak/X has constant folding (evaluates this at compile time) which will raise an error during code loading
   * don't use `#canPerform:` it's not portable use `#respondsTo:`
+  * use `#indexOfSubCollection:startingAt:` (ANSI) instead of `#includesSubString:`
 
 = Initialization and Instance Creation =
 
