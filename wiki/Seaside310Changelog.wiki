@@ -61,6 +61,7 @@ Seaside 3.1 contains the following changes.
  * Issue 738: 	Set encoding for Seaside-REST responses
  * Issue 740:	Improper use of #replaceAll:with: (@ WAFileMetadataLibrary)
  * Issue 754:	#asJson produces strings with non-valid escape sequences "\0", "\a" and "\x.."
+ * Issue 755:	JSJsonParser removes whitespace at the start of string literals
 
 = Changes =
 == Users ==
