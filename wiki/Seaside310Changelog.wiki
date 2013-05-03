@@ -60,6 +60,7 @@ Seaside 3.1 contains the following changes.
  * Issue 737: 	Update WAScreenshot to work with Pharo 2.0
  * Issue 738: 	Set encoding for Seaside-REST responses
  * Issue 740:	Improper use of #replaceAll:with: (@ WAFileMetadataLibrary)
+ * Issue 751:	WAAccept>>fromString: assumes the only parameter to a media-range is 'q'
  * Issue 754:	#asJson produces strings with non-valid escape sequences "\0", "\a" and "\x.."
  * Issue 755:	JSJsonParser removes whitespace at the start of string literals
 
