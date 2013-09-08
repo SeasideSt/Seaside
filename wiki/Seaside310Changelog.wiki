@@ -75,6 +75,7 @@ Seaside 3.1 contains the following changes.
  *  {{{#jsonOn:}}} now has a JsonCanvas as an argument
  *  {{{#jsonOn:}}} is in Seaside-JSON-Core
  * `JSJsonParser` was renamed to `WAJsonParser`
+ * `WACookie >> #oldNetscapeStringWithoutKey` is now in Seaside-Adaptors-Comanche
 
 == Server Adaptors == 
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
