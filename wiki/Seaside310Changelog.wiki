@@ -83,6 +83,7 @@ Seaside 3.1 contains the following changes.
 == Server Adaptors == 
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
  * optionally you can implement `#resetIfPossible` and `#flush`
+ * instead of using `WARequestCookie class >> #fromString:` you should use `WARequestCookie class >> #fromString:codec:`, this has also been added to the latest versions of Seaside 3.0
 
 == Porters ==
  * {{{GRPlatform >> #includesUnsafeUrlCharacter:}}} and {{{#includesUnsafeXmlCharacter:}}} are no longer used. They are replaced by {{{GRPlatform >> #xmlEncoderOn:}}}, {{{#urlEncoderOn:}}}, {{{#urlEncoderOn:codec:}}}, and {{{#jsonEncoderOn:}}} which allow you to answer custom implementations. You don't have to do this, the old implementations are provided as default implementations.
