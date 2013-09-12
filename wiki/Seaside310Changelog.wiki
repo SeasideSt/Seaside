@@ -80,6 +80,7 @@ Seaside 3.1 contains the following changes.
  * `JSJsonParser` was renamed to `WAJsonParser`
  * `WACookie >> #oldNetscapeStringWithoutKey` is now in Seaside-Adaptors-Comanche
  * `WAUrl` >> #pathString is deprecated, use either `#pathStringUnencoded` or `#pathStringEncodedWith:`
+ * The default doctype is now html5
 
 == Server Adaptors == 
  * if your server supports access to the SSL session id implement {{{#sslSessionIdFor:}}}
@@ -92,4 +93,5 @@ Seaside 3.1 contains the following changes.
 
 == Dependencies ==
  * `Seaside-JSON-Core` along `Seaside-Pharo-JSON-Core` is now in the Seaside 3.1 repository
- * `#callback:json:` was moved from `JQuery-Core`to `JQuery-JSON` which depends on `Seaside-JSON-Core`
+ * `#callback:json:` was moved from `JQuery-Core` to `JQuery-JSON` which depends on `Seaside-JSON-Core`
+ * `Seaside-HTML5` has been merged into `Seaside-Canvas` and `Seaside-Core`
