@@ -1,0 +1,2 @@
+ * Issue 755:	JSJsonParser removes whitespace at the start of string literals
+ * Issue 754:	#asJson produces strings with non-valid escape sequences "\0", "\a" and "\x.."
