@@ -1,2 +1,10 @@
+#summary All the things that changed in 3.0.9.
+
+= Introduction =
+Seaside 3.0.9 is a not yet released bug fix release for Seaside 3.0.
+
+= Details =
+
+The following bugs were fixed:
  * Issue 755:	JSJsonParser removes whitespace at the start of string literals
  * Issue 754:	#asJson produces strings with non-valid escape sequences "\0", "\a" and "\x.."
