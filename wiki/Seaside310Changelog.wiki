@@ -60,6 +60,7 @@ Seaside 3.1 contains the following changes.
  * Issue 737: 	Update WAScreenshot to work with Pharo 2.0
  * Issue 738: 	Set encoding for Seaside-REST responses
  * Issue 740:	Improper use of #replaceAll:with: (@ WAFileMetadataLibrary)
+ * Issue 741: 	#includesSubString: deprecated in Pharo 2.0
  * Issue 742: 	Generated javascripts are not directly serialized on the canvas stream (leading to slow performance?)
  * Issue 743: 	WAVNCController still uses Project which is gone from Pharo-1.4
  * Issue 747: 	Fix HTML 5 support
