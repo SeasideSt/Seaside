@@ -19,6 +19,7 @@ Seaside 3.1 contains the following changes.
  * The `#resetIfPossible` method has been added to `WAResponse`. It clears a partially rendered response if that's possible (not streaming server is used).
  * The optional `#flush` method has been added to `WAResponse`. This allows programmatic flushing of a partially rendered response. Out of the box this is used by comet and a new render phase continuation that flushes once the HTML header has been rendered. Currently only the Comanche adaptor supports this.
  * `WARestfulComponentFilter` allows applications to easily switch from session-less parts to session-based parts.
+ * add `#dontDestroy` to `WARequestContext` to prevent object destruction during debugging
 
 = Bugs Fixed =
  * Issue 111: 	jumpTo instance variable on WASession
