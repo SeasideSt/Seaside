@@ -72,6 +72,7 @@ Seaside 3.1 contains the following changes.
  * Issue 756: 	WACanvasBrushTest>>testCanvasWithLineBreaksGemStoneIssue289 uses non-portable selectors
  * Issue 759: 	application/json recognized as a binary mime type
  * Issue 762: 	WAUrl decodePercent: 'abc%' fails
+ * Issue 769: 	more Slime rule for collections
 
 = Changes =
 == Users ==
