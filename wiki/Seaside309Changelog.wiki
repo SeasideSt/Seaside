@@ -10,3 +10,4 @@ The following bugs were fixed:
  * Issue 754:	#asJson produces strings with non-valid escape sequences "\0", "\a" and "\x.."
  * Issue 756: 	WACanvasBrushTest>>testCanvasWithLineBreaksGemStoneIssue289 uses non-portable selectors
  * Issue 759: 	application/json recognized as a binary mime type
+ * Issue 772: 	WAResponse >>#doNotCache doesn't send full Cache-Control header
