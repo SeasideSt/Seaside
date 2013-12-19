@@ -75,6 +75,7 @@ Seaside 3.1 contains the following changes.
  * Issue 762: 	WAUrl decodePercent: 'abc%' fails
  * Issue 769: 	more Slime rule for collections
  * Issue 770: 	ScaledDecimal rendering support
+ * Issue 772: 	WAResponse >>#doNotCache doesn't send full Cache-Control header
 
 = Changes =
 == Users ==
