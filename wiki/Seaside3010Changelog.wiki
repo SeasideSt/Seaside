@@ -1,0 +1,9 @@
+#summary All the things that changed in 3.0.10.
+
+= Introduction =
+Seaside 3.0.10 is a not yet released bug fix release for Seaside 3.0.
+
+= Details =
+
+The following bugs were fixed:
+ * Issue 772: 	WAResponse >>#doNotCache doesn't send full Cache-Control header
