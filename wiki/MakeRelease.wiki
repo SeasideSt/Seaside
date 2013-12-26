@@ -12,7 +12,7 @@
  # Load `Package-Dependencies` and `GraphViz` from `http://source.lukas-renggli.ch/packaging`. Generate the graph `WADevelopment graphFunctionalDependencies: true tests: true` and make sure the dependencies are valid.
  # Prepare a list of [http://code.google.com/p/seaside/wiki/Seaside305Changelog resolved issues].
  # Upload image/changes in a ZIP and one-click distribution to website
-  * locally under /srv/seaside.st/web/distributions
+  * locally under `/srv/seaside.st/web/distributions`
   * update links
    * `http://www.seaside.st/download/pharo`
    * `http://www.seaside.st/design/parts/download`
