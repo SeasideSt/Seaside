@@ -1,0 +1,9 @@
+#summary All the things that changed in 3.1.1
+
+= Introduction =
+Seaside 3.1.1 is a not yet released bug fix release for Seaside 3.1.
+
+= Details =
+
+The following bugs were fixed:
+ * Issue 776: 	Testcase>>#fail is not portable
