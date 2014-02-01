@@ -47,3 +47,4 @@ In addition to the protections against the attacks above Seaside offers the foll
 = Further Information =
   * [http://www.owasp.org/ Open Web Application Security Project (OWASP)]
   * [http://guides.rubyonrails.org/security.html Ruby On Rails Security Guide]
+ * http://ibuildings.nl/blog/2013/03/4-http-security-headers-you-should-always-be-using
