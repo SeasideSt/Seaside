@@ -11,6 +11,8 @@ This is how Seaside protects you against common attacks against your web applica
 Further information:
   * [http://www.owasp.org/index.php/Session_fixation]
 
+Not possible because client supplied session ids are ignored when no matching session is found. Review the implementors of `#noHandlerFoundForKey:in:context:`.
+
 == Cross-site Scripting (XSS) ==
 The Seaside templating engine—the render canvas—escapes all output by default. It therefore adopts a safe by default policy. Special effort has to be taken to render values without escaping. Such places can easily be found and audited by looking at all the senders of #html:.
 
