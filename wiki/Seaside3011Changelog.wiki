@@ -1,0 +1,5 @@
+#All things that changed in Seaside 3.0.11
+
+Seaside 3.0.11 is a not yet released bugfix release of Seaside 3.0
+
+= Details =
