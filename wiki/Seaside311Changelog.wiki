@@ -15,3 +15,4 @@ The following changes occurred:
 The following bugs were fixed:
  * Issue 776: 	Testcase>>#fail is not portable
  * Issue 780: 	Fixes for the web tools in Pharo3
+ * Issue 781: 	Also catch platform deprecation signals
