@@ -9,6 +9,7 @@ The following changes occurred:
   * Ported to Gemstone 3.1
   * Slime is now available on Squeak, Pharo1.4, Pharo2.0 and Pharo3.0
   * Gettext is now included in the ConfigurationOfSeaside3
+  * DateAndTime>>jsonOn: now prints the ISO8601 representation in a string
 
 = Bugs Fixed =
 
