@@ -20,3 +20,4 @@ The following bugs were fixed:
  * Issue 780: 	Fixes for the web tools in Pharo3
  * Issue 781: 	Also catch platform deprecation signals
  * Issue 787: 	WAUrl relies on not portable Stream semantics
+ * Issue 788: 	Screenshot application does not work on Pharo 2.0+
