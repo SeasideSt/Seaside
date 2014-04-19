@@ -19,5 +19,6 @@ The following bugs were fixed:
  * Issue 779: 	WAVersion uploader broken in 3.1
  * Issue 780: 	Fixes for the web tools in Pharo3
  * Issue 781: 	Also catch platform deprecation signals
+ * Issue 784:    Some status code messages are missing from WAResponse class>>initializeStatusMessages
  * Issue 787: 	WAUrl relies on not portable Stream semantics
  * Issue 788: 	Screenshot application does not work on Pharo 2.0+
