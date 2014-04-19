@@ -22,3 +22,4 @@ The following bugs were fixed:
  * Issue 784:    Some status code messages are missing from WAResponse class>>initializeStatusMessages
  * Issue 787: 	WAUrl relies on not portable Stream semantics
  * Issue 788: 	Screenshot application does not work on Pharo 2.0+
+ * Issue 789:     Running WAFilelibraryTest on Pharo3 leaves Seaside-Tests-Core package in a dirty state
