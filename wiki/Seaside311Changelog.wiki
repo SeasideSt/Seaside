@@ -25,3 +25,4 @@ The following bugs were fixed:
  * Issue 787: 	WAUrl relies on not portable Stream semantics
  * Issue 788: 	Screenshot application does not work on Pharo 2.0+
  * Issue 789:   Running WAFilelibraryTest on Pharo3 leaves Seaside-Tests-Core package in a dirty state
+ * Issue 792: 	Issue encoding a non-ascii character preceded by an xml-unsafe one
