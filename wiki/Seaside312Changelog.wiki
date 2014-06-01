@@ -1,0 +1,10 @@
+#summary All the things that changed in 3.1.2
+
+= Introduction =
+Seaside 3.1.2 is a not yet released bug fix release for Seaside 3.1.
+
+
+= Bugs Fixed =
+
+The following bugs were fixed:
+ *  Issue 794: 	WARestfulComponentFilter does not check for expired sessions
