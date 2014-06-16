@@ -9,4 +9,4 @@ Seaside 3.1.2 is a not yet released bug fix release for Seaside 3.1.
 The following bugs were fixed:
  *  Issue 794: 	WARestfulComponentFilter does not check for expired sessions
  *  Issue 795:    Update http://www.seaside.st/download/pharo to reflect no Seaside Menu
-*   Issue 797:	Seaside-JSON-Core extends BlockClosure but BlockClosure is not a portable class
+ *   Issue 797:	Seaside-JSON-Core extends BlockClosure but BlockClosure is not a portable class
