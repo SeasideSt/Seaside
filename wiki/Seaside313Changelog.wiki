@@ -1,0 +1,10 @@
+#summary All the things that changed in 3.1.3
+
+= Introduction =
+Seaside 3.1.3 is a not yet release bug fix release for Seaside 3.1.
+
+
+= Bugs Fixed =
+
+The following bugs were fixed:
+ * Issue 810: 	Provide a dedicated security package
