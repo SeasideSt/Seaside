@@ -16,6 +16,9 @@
   * merge the cache
  * git
   * what would it mean for other people like VASt
+ * ports
+  * general work, issues
+  * convince people about secure PRNG
  * Issue 790
  * Issue 801 ask for feedback
  * tODE for Pharo
