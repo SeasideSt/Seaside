@@ -19,6 +19,8 @@
  * Issue 790
  * Issue 801 ask for feedback
  * tODE for Pharo
+  * StON editor
+  * Issue 768
  * AJP
   * composite buffers (for request bodies)
   * read request body from buffer
