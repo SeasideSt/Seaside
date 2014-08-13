@@ -18,6 +18,7 @@
   * what would it mean for other people like VASt
  * Issue 790
  * Issue 801 ask for feedback
+ * tODE for Pharo
  * AJP
   * composite buffers (for request bodies)
   * read request body from buffer
