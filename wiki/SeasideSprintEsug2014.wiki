@@ -1,0 +1,31 @@
+#summary The Seaside Sprint at ESUG 2014
+
+=Dates and Location=
+ * Friday, August 22, 2014, Cambridge
+ * Saturday, August 23, 2014, Cambridge
+ * Sunday, August 24, 2014, Cambridge
+
+=Attendees=
+ * Dale Henrichs
+ * Johan Brichau
+ * John O'Keefe
+ * Philippe Marschall
+
+=Ideas=
+ * 3.2
+  * merge the cache
+ * git
+  * what would it mean for other people like VASt
+ * Issue 790
+ * Issue 801 ask for feedback
+ * AJP
+  * composite buffers (for request bodies)
+  * read request body from buffer
+  * read request URL from buffer
+  * response streaming
+  * VASt port?
+
+=Work In Progress=
+
+
+=Done=
