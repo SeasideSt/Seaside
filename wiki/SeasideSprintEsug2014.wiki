@@ -30,6 +30,7 @@
   * read request URL from buffer
   * response streaming
   * VASt port?
+ * Review syntax highlighting
 
 =Work In Progress=
 
