@@ -9,5 +9,6 @@ Seaside 3.1.3 is a not yet release bug fix release for Seaside 3.1.
 The following bugs were fixed:
  * Issue 778: 	remove JSON libraries
  * Issue 791: 	Replace Set-Cookie2 with RFC 6265
+ * Issue 796: 	Add support for Forwarded header
  * Issue 809: 	Use HTML 5 meta tag for charset
  * Issue 810: 	Provide a dedicated security package
