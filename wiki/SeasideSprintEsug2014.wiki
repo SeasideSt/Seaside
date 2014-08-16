@@ -6,6 +6,7 @@
  * Sunday, August 24, 2014, Cambridge
 
 =Attendees=
+ * Adriaan van Os 
  * Dale Henrichs
  * Johan Brichau
  * John O'Keefe
