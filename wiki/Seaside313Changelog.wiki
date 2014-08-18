@@ -3,6 +3,8 @@
 = Introduction =
 Seaside 3.1.3 is a not yet release bug fix release for Seaside 3.1.
 
+= Features =
+ * In Pharo the web based class browser will use Nautilus if available (Pharo 2+).
 
 = Bugs Fixed =
 
