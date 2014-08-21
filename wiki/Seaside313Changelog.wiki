@@ -19,3 +19,4 @@ The following bugs were fixed:
  * Issue 810: 	Provide a dedicated security package
  * Issue 815: 	fix WABrowser in Pharo 4
  * Issue 816: 	WAHtmlAttributes >> #addClass: allocates too much
+ * Issue 819:	JQAjax does not have a json: callback
