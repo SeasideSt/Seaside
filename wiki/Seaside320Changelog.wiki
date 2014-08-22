@@ -3,6 +3,9 @@
 = Features =
  * In Pharo the web based class browser will use Nautilus if available (Pharo 2+).
 
+= Breaking Changes =
+ * you have to change the CSS selector of the input type eg `.checkbox` to `[type='checkbox']`
+
 = Bugs Fixed =
 
 The following bugs were fixed:
