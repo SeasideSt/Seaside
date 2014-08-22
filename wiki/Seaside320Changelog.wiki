@@ -5,6 +5,7 @@
 
 = Breaking Changes =
  * you have to change the CSS selector of the input type eg `.checkbox` to `[type='checkbox']`
+ * inline JavaScript in XHTML in XML mode will no longer work
 
 = Bugs Fixed =
 
