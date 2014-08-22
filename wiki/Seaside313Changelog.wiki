@@ -12,7 +12,6 @@ The following bugs were fixed:
  * Issue 763: 	Add support for srcset on img and source tag
  * Issue 777: 	Make TestCase >> #fail SLime rule
  * Issue 807: 	MNU RBArgumentNode>>key with parameterized Seaside 3.1 REST Method
- * Issue 809: 	Use HTML 5 meta tag for charset
  * Issue 810: 	Provide a dedicated security package
  * Issue 815: 	fix WABrowser in Pharo 4
  * Issue 816: 	WAHtmlAttributes >> #addClass: allocates too much
