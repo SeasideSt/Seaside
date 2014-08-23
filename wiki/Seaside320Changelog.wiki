@@ -26,3 +26,4 @@ The following bugs were fixed:
  * Issue 816: 	WAHtmlAttributes >> #addClass: allocates too much
  * Issue 819:	JQAjax does not have a json: callback
  * Issue 812: 	Input elements should not generate a class by default
+ * Issue 822: 	Drop clever CDATA trick
