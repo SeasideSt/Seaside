@@ -10,10 +10,12 @@
  * we no longer ship JavaScript libraries for generating and parsing JSON
  * server adapter authors should send `#rfc6265String` instead of #`oldNetscapeString`, #`rfc2109String`, #`rfc2965String`, #`rfc6265String`
  * Cookie2 support is gone (only Opera ever supported it but doesn't anymore)
+ * `WADivTag` has been removed, `WAGenericTag` is used instead, if you have class extensions there you need to move them to `WAGenericTag`
 
 = Bugs Fixed =
 
 The following bugs were fixed:
+ * Issue 706: 	Remove WADivTag
  * Issue 763: 	Add support for srcset on img and source tag
  * Issue 777: 	Make TestCase >> #fail SLime rule
  * Issue 778: 	remove JSON libraries
