@@ -12,6 +12,11 @@
  * Cookie2 support is gone (only Opera ever supported it but doesn't anymore)
  * `WADivTag` has been removed, `WAGenericTag` is used instead, if you have class extensions there you need to move them to `WAGenericTag`
  * parsing an URL with a non-numeric port (eg. `http://www.seaside.st:8x/`) will now signal a `WAInvalidUrlSyntaxError`
+ * the following deprecated methods have been removed
+  * WARequestCookie class >> #fromString:
+  * WAUrl >> #pathString
+  * WAPopupAnchorTag >> #name
+  * WAPopupAnchorTag >> #name:
 
 = Bugs Fixed =
 
@@ -32,3 +37,4 @@ The following bugs were fixed:
  * Issue 812: 	Input elements should not generate a class by default
  * Issue 822: 	Drop clever CDATA trick
  * Issue 824:   GRPackage>>#resolveWith: contains non-portable usage of String>>indexOfSubCollection:startingAt:
+ * Issue 825: 	Remove Methods deprecated in 3.1
