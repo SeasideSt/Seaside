@@ -15,3 +15,4 @@ The following bugs were fixed:
  * Issue 815: 	fix WABrowser in Pharo 4
  * Issue 819:	JQAjax does not have a json: callback
  * Issue 824: 	GRPackage>>#resolveWith: contains non-portable usage of String>>indexOfSubCollection:startingAt:
+ * Issue 827: 	GRPlatform >> #deprecationExceptionSet should use ExceptionSet
