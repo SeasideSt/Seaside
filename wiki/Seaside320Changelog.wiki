@@ -38,3 +38,4 @@ The following bugs were fixed:
  * Issue 822: 	Drop clever CDATA trick
  * Issue 824:   GRPackage>>#resolveWith: contains non-portable usage of String>>indexOfSubCollection:startingAt:
  * Issue 825: 	Remove Methods deprecated in 3.1
+ * Issue 827: 	GRPlatform >> #deprecationExceptionSet should use ExceptionSet
