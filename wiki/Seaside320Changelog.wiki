@@ -42,3 +42,4 @@ The following bugs were fixed:
  * Issue 827: 	GRPlatform >> #deprecationExceptionSet should use ExceptionSet
  * Issue 828: 	replace TimeStamp with DateAndTime
  * Issue 830:    	[ENH] Javascript Condition with else decoration (JSConditionElse)
+ * Issue 833:	WARequest>>destroy doesn't set the body' to nil
