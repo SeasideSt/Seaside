@@ -6,6 +6,11 @@
 
 
 = Getting Started =
+In a recent image, DoIt:
+
+ # ( ConfigurationOfSeaside3 project version: #stable ) load: #('Seaside-Gettext-Core'  'Seaside-Gettext- Examples').
+
+Previously that was:
  # Load Gettext from [http://www.squeaksource.com/PharoNonCorePackages]
  # Load Seaside-Gettext-Core from [http://www.squeaksource.com/Seaside30Addons]
  # If you're on Pharo load Seaside-Pharo-Gettext-Core from [http://www.squeaksource.com/Seaside30Addons]. This is only needed to export the strings to translate.
