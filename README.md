@@ -11,3 +11,7 @@
 Seaside also has good support for [CSS and Javascript](http://www.seaside.st/documentation/css-and-js), excellent [web-based development tools](http://www.seaside.st/documentation/tools) and [debugging support](http://www.seaside.st/documentation/debugging), a rich [configuration and preferences](http://www.seaside.st/documentation/configuration-and-preferences) framework, and more.
 
 If you would like to contribute, please visit [Seaside's contributors page](http://seaside.st/community/contribute).
+
+
+## Build Status
+ - [![dev/3.2 branch (pharo/squeak):](https://travis-ci.org/SeasideSt/Seaside.svg?branch=dev%2F3.2)](https://travis-ci.org/SeasideSt/Seaside)  dev/3.2 (Pharo/Squeak)
