@@ -1,3 +1,5 @@
+This is an experimental repository. For the Smalltalk sources, use the [Smalltalkhub repository](http://www.smalltalkhub.com/#!/~Seaside).
+
 [Seaside](http://www.seaside.st) provides a layered set of abstractions over HTTP and XHTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
   * [Programmatic XHTML generation](http://www.seaside.st/documentation/generating-html).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page.  Seaside has a rich API for generating XHTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
@@ -11,3 +13,6 @@
 Seaside also has good support for [CSS and Javascript](http://www.seaside.st/documentation/css-and-js), excellent [web-based development tools](http://www.seaside.st/documentation/tools) and [debugging support](http://www.seaside.st/documentation/debugging), a rich [configuration and preferences](http://www.seaside.st/documentation/configuration-and-preferences) framework, and more.
 
 If you would like to contribute, please visit [Seaside's contributors page](http://seaside.st/community/contribute).
+
+## Build Status
+ - [![master branch (pharo/squeak):](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside)  master (Pharo/Squeak)
