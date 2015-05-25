@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"configurations" : "jf 7/31/2008 14:38",
+		"initialize" : "lr 10/21/2008 15:34",
+		"named:" : "lr 8/22/2010 15:30",
+		"new" : "lr 1/9/2009 08:21",
+		"unregister:" : "lr 1/9/2009 08:30" },
+	"instance" : {
+		"initializeWithName:" : "jf 3/13/2009 18:18",
+		"isShared" : "lr 10/21/2008 15:49",
+		"name" : "jf 7/31/2008 14:15",
+		"unregister" : "lr 10/21/2008 15:55" } }

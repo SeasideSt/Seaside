@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMultipleValuesCallback",
+	"pools" : [
+		 ],
+	"super" : "WAValuesCallback",
+	"type" : "normal" }

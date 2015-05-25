@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handler" ],
+	"name" : "WASessionTest",
+	"pools" : [
+		 ],
+	"super" : "WAContextTest",
+	"type" : "normal" }

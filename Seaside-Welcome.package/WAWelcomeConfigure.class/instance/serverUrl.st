@@ -1,0 +1,3 @@
+private
+serverUrl
+	^ WAWelcomeUrlDialog serverUrl

@@ -1,0 +1,15 @@
+{
+	"category" : "RSS-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/20/2009 14:28",
+	"instvars" : [
+		"dateAndTime",
+		"timeZoneString" ],
+	"name" : "RRRfc822DateTime",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

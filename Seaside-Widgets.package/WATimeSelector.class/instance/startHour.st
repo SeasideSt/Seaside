@@ -1,0 +1,3 @@
+accessing
+startHour
+	^ startHour

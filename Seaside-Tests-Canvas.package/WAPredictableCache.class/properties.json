@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/14/2009 15:43",
+	"instvars" : [
+		"nextKey" ],
+	"name" : "WAPredictableCache",
+	"pools" : [
+		 ],
+	"super" : "WACache",
+	"type" : "normal" }

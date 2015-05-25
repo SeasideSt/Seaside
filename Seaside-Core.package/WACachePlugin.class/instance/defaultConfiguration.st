@@ -1,0 +1,3 @@
+configuration
+defaultConfiguration
+	^ WAUserConfiguration new

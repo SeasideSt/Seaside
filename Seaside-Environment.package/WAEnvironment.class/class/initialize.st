@@ -1,0 +1,6 @@
+class initialization
+initialize
+	self configureApplicationDefaults.
+	self configureApplicationExceptionHandlingDefaults.
+	self registerDefaultRequestHandlers.
+	self registerDefaultComponents

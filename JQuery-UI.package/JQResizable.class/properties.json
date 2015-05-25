@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Interaction",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/21/2008 13:40",
+	"instvars" : [
+		 ],
+	"name" : "JQResizable",
+	"pools" : [
+		 ],
+	"super" : "JQWidget",
+	"type" : "normal" }

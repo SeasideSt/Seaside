@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addParent:" : "pmm 2/16/2011 22:25",
+		"initialize" : "pmm 9/1/2012 16:00",
+		"myApplication" : "pmm 11/5/2010 21:04",
+		"openConfiguration:" : "pmm 11/5/2010 21:05",
+		"potentialParents" : "pmm 11/5/2010 21:05",
+		"removeConfiguration:" : "pmm 9/1/2012 16:00",
+		"renderAncestryListOn:" : "pmm 9/1/2012 16:00",
+		"renderConfigurationOn:" : "obi 9/29/2009 20:12",
+		"renderParentSelectorOn:" : "obi 9/29/2009 20:12" } }

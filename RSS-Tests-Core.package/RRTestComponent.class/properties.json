@@ -1,0 +1,14 @@
+{
+	"category" : "RSS-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RRTestComponent",
+	"pools" : [
+		 ],
+	"super" : "RRComponent",
+	"type" : "normal" }

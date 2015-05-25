@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 3/28/2007 22:34",
+	"instvars" : [
+		 ],
+	"name" : "WAMeterTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

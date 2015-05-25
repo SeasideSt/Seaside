@@ -1,0 +1,16 @@
+{
+	"category" : "Comet-Core",
+	"classinstvars" : [
+		"process" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mutex",
+		"handlers",
+		"rendererClass" ],
+	"name" : "CTPusher",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

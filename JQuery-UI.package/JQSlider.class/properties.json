@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQSlider",
+	"pools" : [
+		 ],
+	"super" : "JQWidget",
+	"type" : "normal" }

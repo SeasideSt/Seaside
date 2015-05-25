@@ -1,0 +1,3 @@
+actions
+unregister
+	method := 'unregister'

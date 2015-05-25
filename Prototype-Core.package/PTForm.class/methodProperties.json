@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"disable" : "lr 6/11/2007 07:59",
+		"elements" : "lr 9/12/2007 07:31",
+		"enable" : "lr 6/11/2007 08:00",
+		"findFirstElement" : "lr 6/11/2007 08:00",
+		"focusFirstElement" : "lr 6/11/2007 08:00",
+		"inputs" : "lr 9/12/2007 07:31",
+		"request" : "lr 6/11/2007 08:00",
+		"reset" : "lr 6/11/2007 07:59",
+		"serialize" : "lr 6/11/2007 08:00",
+		"submit" : "lr 6/12/2007 16:55" } }

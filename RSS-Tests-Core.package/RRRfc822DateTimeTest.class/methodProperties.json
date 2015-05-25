@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"render:" : "jf 2/15/2009 21:01",
+		"testNewDateAndTime" : "pmm 8/31/2008 20:23",
+		"testNewDateAndTimeTimezoneString" : "jgf 2/3/2009 10:38",
+		"testNewDateAndTimeUtc" : "pmm 8/31/2008 19:31",
+		"testOffsetString" : "jok 4/20/2010 08:23" } }

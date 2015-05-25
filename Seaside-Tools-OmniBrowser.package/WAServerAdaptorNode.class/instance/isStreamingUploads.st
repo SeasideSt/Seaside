@@ -1,0 +1,3 @@
+testing
+isStreamingUploads
+	^ adaptor streamUploads

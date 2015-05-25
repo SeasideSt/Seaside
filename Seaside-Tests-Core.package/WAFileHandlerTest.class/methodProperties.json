@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertListing:" : "jf 10/6/2008 23:52",
+		"assertNotExisiting:" : "jf 10/6/2008 23:52",
+		"newHandler" : "jf 9/23/2009 23:57",
+		"testHandleDoesNotExist" : "lr 1/21/2009 20:15",
+		"testHandleFileRequest" : "pmm 9/5/2009 11:09",
+		"testHandleListing" : "pmm 9/1/2012 16:42",
+		"testResourceBaseUrlConfigured" : "pmm 1/30/2011 15:32",
+		"testResourceBaseUrlNotConfigured" : "pmm 1/30/2011 15:36" } }

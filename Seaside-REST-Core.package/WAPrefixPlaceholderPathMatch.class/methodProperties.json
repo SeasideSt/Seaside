@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"fromString:index:arguments:" : "pmm 6/27/2010 10:20",
+		"source:target:prefix:" : "pmm 6/27/2010 10:14" },
+	"instance" : {
+		"initializeWithSourceIndex:targetIndex:prefix:" : "pmm 2/13/2011 10:32",
+		"mapArgumentsWithElements:into:usingOffset:" : "pmm 3/22/2011 10:07",
+		"matches:" : "lr 7/26/2011 14:06",
+		"priority" : "pmm 3/20/2011 14:11" } }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addFilterForClass:" : "obi 10/2/2009 19:29",
+		"filters" : "lr 7/25/2011 19:57",
+		"handler" : "obi 9/25/2009 13:27",
+		"handler:" : "obi 9/25/2009 13:27",
+		"potentialFilters" : "lr 7/25/2011 19:58",
+		"removeFilter:" : "obi 9/26/2009 22:37",
+		"renderConfigurationOn:" : "pmm 9/1/2012 16:00",
+		"renderPossibleFiltersOn:" : "obi 10/2/2009 19:29" } }

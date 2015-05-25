@@ -1,0 +1,3 @@
+initialization
+stopped
+	status := #stopped

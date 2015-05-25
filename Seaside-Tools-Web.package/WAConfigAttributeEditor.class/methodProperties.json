@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"attributes" : "obi 9/26/2009 22:02",
+		"attributes:" : "obi 9/26/2009 22:02",
+		"canClear" : "lr 7/25/2011 19:57",
+		"clearAttribute:" : "obi 9/24/2009 21:53",
+		"configureCollectionAttribute:" : "obi 9/26/2009 19:12",
+		"hasLocalValueForAttribute:" : "jf 5/23/2010 22:48",
+		"inheritedValueAndSourceAt:do:" : "pmm 11/5/2010 21:07",
+		"isCollectionAttribute:" : "lr 7/25/2011 19:57",
+		"modifyCollectionAttribute:" : "obi 9/24/2009 21:52",
+		"overrideAttribute:" : "obi 9/24/2009 21:53",
+		"renderActionsForAttribute:on:" : "lr 7/25/2011 18:22",
+		"renderAttribute:on:" : "pmm 1/22/2012 16:32",
+		"renderCollectionFieldForAttribute:on:" : "pmm 11/5/2010 21:09",
+		"renderConfigurationOn:" : "pmm 11/5/2010 21:10",
+		"renderFieldForAttribute:on:" : "pmm 11/5/2010 21:10",
+		"renderInheritedAttribute:on:" : "obi 9/24/2009 21:51",
+		"visitAttribute:on:" : "obi 9/29/2009 20:14" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"manager" ],
+	"name" : "WAServerManagerNode",
+	"pools" : [
+		 ],
+	"super" : "WANode",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"root",
+		"mode",
+		"plugins" ],
+	"name" : "WAHalo",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

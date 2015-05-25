@@ -1,0 +1,5 @@
+commands
+cmdRemoveAdaptor
+	<command>
+	
+	^ WACmdRemoveAdaptor

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Core-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"adaptor",
+		"manager" ],
+	"name" : "WAServerManagerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

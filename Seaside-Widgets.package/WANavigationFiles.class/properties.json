@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/11/2009 19:15",
+	"instvars" : [
+		 ],
+	"name" : "WANavigationFiles",
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

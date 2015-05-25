@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"dateAndTime:timeZoneString:" : "lr 7/25/2011 19:47",
+		"newDateAndTime:" : "lr 7/25/2011 19:47",
+		"newDateAndTime:offset:" : "lr 7/25/2011 19:47",
+		"newUtc:" : "lr 7/25/2011 19:46",
+		"offsetString:" : "lr 7/25/2011 19:47" },
+	"instance" : {
+		"dateAndTime" : "lr 7/25/2011 19:54",
+		"dateAndTime:" : "pmm 10/23/2006 10:14",
+		"encodeOn:" : "pmm 1/2/2010 14:16",
+		"printString" : "pmm 9/20/2009 14:31",
+		"timeZoneString" : "lr 7/25/2011 19:54",
+		"timeZoneString:" : "pmm 1/2/2010 14:16" } }

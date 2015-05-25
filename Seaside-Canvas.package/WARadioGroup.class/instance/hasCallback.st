@@ -1,0 +1,3 @@
+private
+hasCallback
+	^ values notNil

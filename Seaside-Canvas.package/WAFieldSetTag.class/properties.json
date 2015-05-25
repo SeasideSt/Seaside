@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/10/2007 10:12",
+	"instvars" : [
+		"legend" ],
+	"name" : "WAFieldSetTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

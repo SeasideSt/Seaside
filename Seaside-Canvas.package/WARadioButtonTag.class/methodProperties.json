@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beChecked" : "TestRunner 1/25/2010 11:02",
+		"beUnchecked" : "TestRunner 1/25/2010 11:03",
+		"callback:" : "lr 9/5/2010 22:18",
+		"checked:" : "TestRunner 1/25/2010 11:05",
+		"group" : "TestRunner 1/25/2010 11:02",
+		"group:" : "obi 12/31/2009 13:22",
+		"selected:" : "TestRunner 1/25/2010 11:05",
+		"type" : "lr 9/23/2005 13:46",
+		"value:" : "TestRunner 1/25/2010 11:01" } }

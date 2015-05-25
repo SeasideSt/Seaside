@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"createRoutesFor:" : "lr 7/26/2011 11:17",
+		"createRoutesFrom:to:" : "JohanBrichau 2/2/2014 10:47",
+		"initialize" : "lr 7/26/2011 11:32",
+		"on:" : "lr 7/26/2011 14:14" },
+	"instance" : {
+		"consumes:" : "lr 7/26/2011 11:32",
+		"copy" : "lr 7/26/2011 11:32",
+		"create" : "lr 7/26/2011 11:23",
+		"createComplexRoute" : "pmm 7/28/2011 21:35",
+		"createMimeTypeMatch:" : "lr 7/26/2011 11:23",
+		"createSimpleRoute" : "pmm 7/28/2011 21:34",
+		"delete" : "lr 7/26/2011 11:32",
+		"get" : "lr 7/26/2011 11:32",
+		"initializeOn:" : "pmm 8/24/2012 13:46",
+		"method:" : "lr 7/26/2011 11:32",
+		"move" : "lr 7/26/2011 11:32",
+		"path:" : "lr 7/26/2011 11:32",
+		"post" : "lr 7/26/2011 11:32",
+		"produces:" : "pmm 7/28/2011 21:34",
+		"put" : "lr 7/26/2011 11:32" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/24/2011 21:00",
+	"instvars" : [
+		 ],
+	"name" : "WAQueryFieldHandlerTrackingStrategySessionTest",
+	"pools" : [
+		 ],
+	"super" : "WASessionTrackingStrategyTest",
+	"type" : "normal" }

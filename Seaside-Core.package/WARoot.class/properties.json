@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/22/2010 14:41",
+	"instvars" : [
+		"context" ],
+	"name" : "WARoot",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

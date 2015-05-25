@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"taskExample" ],
+	"name" : "WAWelcomeExampleFlow",
+	"pools" : [
+		 ],
+	"super" : "WAWelcomeExample",
+	"type" : "normal" }

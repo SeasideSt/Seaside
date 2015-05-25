@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "pmm 2/18/2012 13:01" },
+	"instance" : {
+		"newHandler" : "jf 3/13/2012 12:28",
+		"requestWithMethod:" : "pmm 2/18/2012 13:01",
+		"setUp" : "pmm 2/19/2012 09:29",
+		"testRegisterDocumentHandler" : "pmm 2/18/2012 13:13" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WATestNoopSessionHandler",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

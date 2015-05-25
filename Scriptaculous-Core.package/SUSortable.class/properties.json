@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Core-Dragging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUSortable",
+	"pools" : [
+		 ],
+	"super" : "PTNamed",
+	"type" : "normal" }

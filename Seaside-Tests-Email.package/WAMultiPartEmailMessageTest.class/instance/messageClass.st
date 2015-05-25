@@ -1,0 +1,3 @@
+configuration
+messageClass
+	^ WAMultiPartEmailMessage

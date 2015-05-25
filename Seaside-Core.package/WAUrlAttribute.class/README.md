@@ -1,0 +1,1 @@
+WAUrlAttribute represents a URL attribute. It converts between text entered on the configuration page and WAUrl instances.

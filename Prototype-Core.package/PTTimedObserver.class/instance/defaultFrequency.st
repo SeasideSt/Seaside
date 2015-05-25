@@ -1,0 +1,3 @@
+defaults
+defaultFrequency
+	^ 1

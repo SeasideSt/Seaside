@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"animate" : "lr 11/17/2008 20:57",
+		"target" : "lr 11/17/2008 20:56",
+		"testAnimateEvents" : "lr 4/16/2010 08:26",
+		"testAnimateOptions" : "lr 4/16/2010 08:26",
+		"testAnimateParams" : "lr 4/16/2010 08:26",
+		"testFadeIn" : "lr 11/28/2008 17:50",
+		"testFadeOut" : "lr 11/28/2008 17:50",
+		"testFadeTo" : "lr 11/28/2008 17:50",
+		"testFadeToggle" : "lr 11/13/2010 10:23",
+		"testHide" : "lr 11/28/2008 17:50",
+		"testId" : "lr 4/16/2010 08:08",
+		"testShow" : "lr 11/28/2008 17:50",
+		"testSlideDown" : "lr 11/28/2008 17:50",
+		"testSlideToggle" : "lr 11/28/2008 17:50",
+		"testSlideUp" : "lr 11/28/2008 17:50",
+		"testStop" : "lr 11/28/2008 17:50",
+		"testToggle" : "lr 12/5/2009 10:52" } }

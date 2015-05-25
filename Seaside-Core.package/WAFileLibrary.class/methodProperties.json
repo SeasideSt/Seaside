@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"addFileNamed:contents:" : "NickAger 3/9/2012 00:37",
+		"adjustForVisualWorks" : "lr 7/25/2011 19:01",
+		"migrateSubclassesSeaside29" : "pmm 2/21/2009 10:43",
+		"migrateToSeaside29" : "pmm 2/20/2009 21:17",
+		"register" : "pmm 2/13/2007 18:03",
+		"unregister" : "pmm 2/16/2007 16:01" },
+	"instance" : {
+		"asFilename:" : "pmm 6/26/2011 14:10",
+		"cacheDuration" : "NickAger 3/8/2012 22:11",
+		"deployFiles" : "pmm 8/24/2010 19:09",
+		"documentOf:" : "NickAger 3/8/2012 23:53",
+		"fileSelectors" : "NickAger 3/9/2012 13:33",
+		"fileSizeOf:" : "pmm 8/24/2010 19:06",
+		"handle:" : "NickAger 3/9/2012 09:19",
+		"mimetypeForFile:" : "NickAger 3/9/2012 13:54",
+		"mimetypeOf:" : "NickAger 3/9/2012 13:54" } }

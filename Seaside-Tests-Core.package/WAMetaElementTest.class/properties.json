@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMetaElementTest",
+	"pools" : [
+		 ],
+	"super" : "WAAbstractHtmlElementTest",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I display the configuration dialog for the currently active application

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alwaysRefresh" : "obi 1/14/2008 23:15",
+		"alwaysRefresh:" : "obi 1/14/2008 23:15",
+		"body" : "obi 1/13/2008 21:30",
+		"body:" : "obi 1/13/2008 21:30",
+		"children" : "lr 7/25/2011 18:39",
+		"cssClass" : "obi 1/14/2008 20:37",
+		"initialize" : "pmm 9/1/2012 15:57",
+		"loaded" : "obi 1/14/2008 23:15",
+		"loaded:" : "obi 1/14/2008 23:15",
+		"mainId" : "lr 7/25/2011 19:57",
+		"open" : "obi 1/13/2008 22:34",
+		"open:" : "obi 1/13/2008 22:34",
+		"renderBodyOn:" : "lr 7/25/2011 18:39",
+		"renderContentOn:" : "lr 7/25/2011 18:40",
+		"renderTitleOn:" : "lr 7/25/2011 18:39",
+		"scriptToggleOn:" : "lr 7/25/2011 18:39",
+		"startOpen" : "obi 1/14/2008 23:15",
+		"title" : "obi 1/13/2008 21:30",
+		"title:" : "obi 1/13/2008 21:30",
+		"uid" : "obi 1/13/2008 22:34",
+		"uid:" : "obi 1/13/2008 22:34" } }

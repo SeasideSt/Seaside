@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Libraries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WATextFileHandlerListing",
+	"pools" : [
+		 ],
+	"super" : "WAFileHandlerListing",
+	"type" : "normal" }

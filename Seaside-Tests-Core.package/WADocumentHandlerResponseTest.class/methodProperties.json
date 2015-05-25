@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertHttpResponseFrom:matches:" : "pmm 2/20/2009 09:57",
+		"createAndVerifyBinaryDocumentNamed:hasAttachment:" : "jok 8/3/2009 09:11",
+		"createAndVerifyDocumentNamed:content:mimeType:hasAttachment:" : "jok 8/3/2009 09:12",
+		"createAndVerifyTextDocumentNamed:hasAttachment:" : "jok 8/3/2009 09:12",
+		"headerAt:forResponse:" : "lr 1/21/2009 20:21",
+		"testByteArrayWithFilename" : "jok 8/3/2009 09:13",
+		"testByteArrayWithoutFilename" : "jok 8/3/2009 09:13",
+		"testStringWithFilename" : "jok 8/3/2009 09:14",
+		"testStringWithoutFilename" : "jok 8/3/2009 09:14" } }

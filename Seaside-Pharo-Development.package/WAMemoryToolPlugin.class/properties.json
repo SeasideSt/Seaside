@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Development-Core-Plugins",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/27/2007 18:32",
+	"instvars" : [
+		 ],
+	"name" : "WAMemoryToolPlugin",
+	"pools" : [
+		 ],
+	"super" : "WAToolPlugin",
+	"type" : "normal" }

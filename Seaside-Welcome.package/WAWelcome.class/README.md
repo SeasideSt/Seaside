@@ -1,0 +1,1 @@
+An short introduction to Seaside

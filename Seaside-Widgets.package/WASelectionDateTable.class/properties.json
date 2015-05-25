@@ -1,0 +1,18 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 1/23/2008 21:13",
+	"instvars" : [
+		"cellBlock",
+		"dateSelectionStart",
+		"dateSelectionEnd",
+		"rowSelectionStart",
+		"rowSelectionEnd" ],
+	"name" : "WASelectionDateTable",
+	"pools" : [
+		 ],
+	"super" : "WADateTable",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"example" : "lr 8/3/2009 19:25",
+		"options:" : "lr 8/3/2009 19:24",
+		"options:selection:" : "lr 8/3/2009 19:24" },
+	"instance" : {
+		"buttons" : "avi 3/21/2004 01:00",
+		"cancel" : "avi 3/21/2004 01:00",
+		"ok" : "lr 8/3/2009 19:22",
+		"options" : "avi 3/21/2004 00:59",
+		"options:" : "avi 3/21/2004 00:59",
+		"renderContentOn:" : "lr 8/3/2009 19:22",
+		"selection" : "lr 8/3/2009 19:22",
+		"selection:" : "lr 8/3/2009 19:22" } }

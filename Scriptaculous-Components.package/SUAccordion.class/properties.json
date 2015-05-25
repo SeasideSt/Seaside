@@ -1,0 +1,15 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"visible",
+		"maxVisible" ],
+	"name" : "SUAccordion",
+	"pools" : [
+		 ],
+	"super" : "SUNavigation",
+	"type" : "normal" }

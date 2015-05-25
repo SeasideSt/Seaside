@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 10/6/2008 21:27",
+	"instvars" : [
+		 ],
+	"name" : "WADevelopmentFiles",
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

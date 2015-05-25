@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFullInstantiation" : "pmm 9/1/2012 16:37",
+		"testFullMapArgumentsWithElementsInto" : "pmm 6/30/2010 07:38",
+		"testMatchesFull" : "pmm 6/26/2010 17:49",
+		"testMatchesPrefix" : "pmm 9/1/2012 16:36",
+		"testMatchesSuffix" : "pmm 9/1/2012 16:37",
+		"testMultiInstantiation" : "pmm 9/1/2012 16:37",
+		"testNamedInstantiation" : "pmm 9/1/2012 16:37",
+		"testNamedMultiInstantiation" : "pmm 9/1/2012 16:38",
+		"testPrefixInstantiation" : "pmm 9/1/2012 16:37",
+		"testPrefixMapArgumentsWithElementsInto" : "pmm 6/30/2010 07:38",
+		"testSuffixInstantiation" : "pmm 9/1/2012 16:37",
+		"testSuffixMapArgumentsWithElementsInto" : "pmm 6/30/2010 07:38" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pathMatches",
+		"parameterMatches",
+		"isOverlyComplex" ],
+	"name" : "WAComplexRoute",
+	"pools" : [
+		 ],
+	"super" : "WARoute",
+	"type" : "normal" }

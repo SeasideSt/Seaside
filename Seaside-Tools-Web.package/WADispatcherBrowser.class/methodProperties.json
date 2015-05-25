@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"canBeRoot" : "jf 3/4/2009 14:27",
+		"description" : "jf 3/4/2009 14:27",
+		"initialize" : "jf 3/15/2009 18:41",
+		"new" : "jf 3/15/2009 18:41",
+		"on:" : "jf 3/4/2009 15:57" },
+	"instance" : {
+		"dispatcher" : "jf 3/4/2009 16:00",
+		"dispatcher:" : "jf 3/4/2009 15:58",
+		"handlers" : "jf 9/23/2009 23:36",
+		"initialRequest:" : "pmm 8/31/2009 15:00",
+		"initializeOn:" : "jf 3/4/2009 15:58",
+		"lookupHandler" : "jf 9/23/2009 23:36",
+		"openHandler:" : "Nick 6/13/2010 19:21",
+		"renderContentOn:" : "jf 3/4/2009 15:39",
+		"renderDispatcherOn:" : "Nick 6/13/2010 18:57",
+		"renderHeadingOn:" : "jf 2/14/2010 23:52",
+		"renderRow:named:on:" : "lr 1/5/2007 22:08",
+		"renderRowActions:named:on:" : "lr 1/5/2007 22:08",
+		"renderRowDescription:named:on:" : "Nick 6/13/2010 18:57",
+		"renderRowName:named:on:" : "pmm 7/17/2010 16:22",
+		"states" : "lr 4/15/2007 19:54",
+		"title" : "Nick 6/13/2010 21:41",
+		"updateRoot:" : "lr 9/8/2009 12:40",
+		"updateUrl:" : "Nick 6/13/2010 21:33",
+		"updateUrlHandler" : "Nick 6/13/2010 19:12" } }

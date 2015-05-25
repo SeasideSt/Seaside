@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Flow-Unit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAFlowPlatformTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

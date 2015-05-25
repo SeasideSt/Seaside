@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertLog:" : "lr 10/22/2008 22:52",
+		"assertRenders:" : "jf 1/23/2009 12:02",
+		"log:" : "lr 10/22/2008 22:47",
+		"renderContext" : "lr 2/4/2009 08:02",
+		"renderingGuide" : "jf 1/23/2009 12:04",
+		"setUp" : "jf 9/4/2009 16:37",
+		"testActiveComponent" : "lr 11/4/2008 10:09",
+		"testAddDecoration" : "lr 10/7/2009 22:57",
+		"testChildComponentShouldNotBeSelfError" : "pmm 9/2/2012 11:05",
+		"testDecorations" : "jf 9/4/2009 16:36",
+		"testDelegations" : "jf 9/4/2009 16:36",
+		"testHome" : "lr 11/4/2008 10:12",
+		"testInitialRequest" : "jf 11/3/2008 16:19",
+		"testRemoveDecoration" : "lr 10/7/2009 22:56",
+		"testRemoveDelegation" : "jok 8/28/2011 07:50",
+		"testRenderingChildren" : "lr 11/5/2008 17:10",
+		"testRenderingDecoration" : "lr 11/5/2008 17:10",
+		"testRenderingDelegation" : "lr 11/5/2008 17:11",
+		"testUpdateRoot" : "jf 11/3/2008 16:16",
+		"testUpdateStates" : "jf 11/3/2008 16:13",
+		"testUpdateUrl" : "jf 11/3/2008 16:10" } }

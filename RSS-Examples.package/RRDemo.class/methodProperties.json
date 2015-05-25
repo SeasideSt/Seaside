@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"canBeRoot" : "lr 7/25/2011 19:46",
+		"description" : "lr 7/25/2011 19:46",
+		"initialize" : "pmm 10/26/2008 23:38" },
+	"instance" : {
+		"firstPublicationDate" : "lr 7/25/2011 19:54",
+		"fourthPublicationDate" : "lr 7/25/2011 19:54",
+		"renderChannelOn:" : "pmm 9/23/2006 12:18",
+		"renderContentOn:" : "pmm 9/23/2006 12:26",
+		"renderFirstItemOn:" : "pmm 10/23/2006 10:50",
+		"renderFourthtemOn:" : "pmm 11/30/2008 15:27",
+		"renderSecondItemOn:" : "pmm 10/23/2006 10:49",
+		"renderThirdItemOn:" : "pmm 1/2/2010 14:17",
+		"secondPublicationDate" : "lr 7/25/2011 19:54",
+		"thirdPublicationDate" : "lr 7/25/2011 19:54" } }

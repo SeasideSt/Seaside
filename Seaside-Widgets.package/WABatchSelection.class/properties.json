@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 9/24/2007 20:22",
+	"instvars" : [
+		"batcher",
+		"linkSelector",
+		"textSelector" ],
+	"name" : "WABatchSelection",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

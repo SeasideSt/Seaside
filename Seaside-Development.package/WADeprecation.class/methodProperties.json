@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:" : "lr 7/25/2011 19:48" },
+	"instance" : {
+		"buildTable" : "pmm 2/13/2011 10:52",
+		"children" : "lr 12/30/2008 15:37",
+		"filter:" : "obi 10/8/2008 20:20",
+		"notifications" : "lr 12/30/2008 15:37",
+		"renderContentOn:" : "pmm 10/11/2008 18:52",
+		"resetDeprecationWarnings" : "pmm 10/11/2008 18:30",
+		"table" : "lr 12/30/2008 15:37" } }

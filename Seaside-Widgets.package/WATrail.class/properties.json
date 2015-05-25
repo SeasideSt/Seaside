@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 1/25/2008 20:49",
+	"instvars" : [
+		"root" ],
+	"name" : "WATrail",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

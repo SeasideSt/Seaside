@@ -1,0 +1,3 @@
+accessing
+hasCallback
+	^ values notNil

@@ -1,0 +1,16 @@
+{
+	"category" : "RSS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rssAttributes",
+		"channelAttributes",
+		"styles" ],
+	"name" : "RRRssRoot",
+	"pools" : [
+		 ],
+	"super" : "WAXmlRoot",
+	"type" : "normal" }

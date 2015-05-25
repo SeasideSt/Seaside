@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"arguments" : "lr 10/14/2008 20:58",
+		"doesNotUnderstand:" : "lr 10/16/2008 16:19",
+		"duration:" : "lr 10/14/2008 20:59",
+		"easing:" : "lr 10/14/2008 20:59",
+		"method" : "lr 10/14/2008 20:58",
+		"onComplete:" : "lr 10/14/2008 21:00",
+		"onStep:" : "lr 10/14/2008 21:01",
+		"parameterAt:put:" : "lr 10/14/2008 22:11",
+		"parameters" : "jf 9/30/2009 00:26",
+		"parameters:" : "lr 10/14/2008 20:57",
+		"queue:" : "lr 10/14/2008 21:00" } }

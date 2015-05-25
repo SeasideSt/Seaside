@@ -1,0 +1,3 @@
+options
+isSupportedOption: aString
+	^ true

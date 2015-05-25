@@ -1,0 +1,3 @@
+private
+break
+	self subclassResponsibility 

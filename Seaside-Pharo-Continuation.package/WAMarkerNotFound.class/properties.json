@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Continuation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMarkerNotFound",
+	"pools" : [
+		 ],
+	"super" : "GRError",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/9/2011 22:41",
+	"instvars" : [
+		 ],
+	"name" : "WANullReapingStrategy",
+	"pools" : [
+		 ],
+	"super" : "WACacheReapingStrategy",
+	"type" : "normal" }

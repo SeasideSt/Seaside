@@ -1,0 +1,3 @@
+accessing
+beComponent
+	dialog := false

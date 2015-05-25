@@ -1,0 +1,3 @@
+private
+defaultAction
+	^ GRDelayedSend empty

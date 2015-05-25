@@ -1,0 +1,3 @@
+private
+defaultOptions
+	^ GRSmallDictionary new

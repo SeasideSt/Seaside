@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents",
+		"model",
+		"message" ],
+	"name" : "WABrowser",
+	"pools" : [
+		 ],
+	"super" : "WATool",
+	"type" : "normal" }

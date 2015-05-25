@@ -1,0 +1,3 @@
+converting-request
+requestFieldsFor: aNativeRequest
+	self shouldNotImplement

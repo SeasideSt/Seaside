@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authenticator" : "lr 8/31/2008 15:05",
+		"authenticator:" : "lr 8/31/2008 12:54",
+		"handleFiltered:" : "lr 2/20/2009 11:09",
+		"realm" : "jf 2/13/2009 09:13",
+		"realm:" : "lr 8/31/2008 12:54",
+		"verifyRequest:" : "lr 8/31/2008 13:10" } }

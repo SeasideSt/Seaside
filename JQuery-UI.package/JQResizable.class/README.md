@@ -1,0 +1,1 @@
+Creates new resizables on the nodeset supplied by the query.

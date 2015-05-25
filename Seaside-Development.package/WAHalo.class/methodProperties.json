@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:" : "jf 2/12/2009 20:22" },
+	"instance" : {
+		"initializeOn:" : "jf 2/12/2009 20:22",
+		"mode" : "lr 12/6/2006 20:25",
+		"mode:" : "lr 12/6/2006 20:24",
+		"modeSelector" : "jf 9/30/2009 01:10",
+		"modes" : "jf 2/13/2009 15:36",
+		"plugins" : "lr 5/11/2007 01:06",
+		"render:visitor:" : "jf 2/13/2009 15:31",
+		"renderWithContext:visitor:" : "as 2/6/2011 22:05",
+		"root" : "lr 5/11/2007 09:39",
+		"source:visitor:" : "pmm 8/19/2014 10:19",
+		"updateStates:" : "jf 2/13/2009 09:23" } }

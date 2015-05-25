@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputElements",
+		"hasBody",
+		"ran" ],
+	"name" : "WAInputPostFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

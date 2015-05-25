@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Libraries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NickAger 3/23/2012 10:57",
+	"instvars" : [
+		 ],
+	"name" : "WAFileMetadataLibrary",
+	"pools" : [
+		 ],
+	"super" : "WAAbstractFileLibrary",
+	"type" : "normal" }

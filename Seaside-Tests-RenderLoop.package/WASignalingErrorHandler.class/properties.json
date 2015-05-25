@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-RenderLoop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASignalingErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "WAErrorHandler",
+	"type" : "normal" }

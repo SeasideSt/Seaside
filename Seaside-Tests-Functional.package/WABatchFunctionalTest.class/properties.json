@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"batcher" ],
+	"name" : "WABatchFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

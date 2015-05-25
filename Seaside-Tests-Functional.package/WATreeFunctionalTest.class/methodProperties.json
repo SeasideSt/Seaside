@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "lr 7/25/2011 20:13",
+		"initialize" : "pmm 3/9/2008 11:40",
+		"renderContentOn:" : "pmm 3/9/2008 11:47",
+		"renderExplanationOn:" : "pmm 3/9/2008 11:46",
+		"renderTreeOn:" : "pmm 3/9/2008 11:46",
+		"states" : "lr 7/25/2011 20:13" } }

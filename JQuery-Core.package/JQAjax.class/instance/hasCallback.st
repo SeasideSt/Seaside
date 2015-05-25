@@ -1,0 +1,3 @@
+private
+hasCallback
+	^ callbackId notNil

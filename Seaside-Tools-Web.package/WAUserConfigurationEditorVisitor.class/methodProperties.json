@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"configuration:canvas:" : "jf 1/11/2009 19:57" },
+	"instance" : {
+		"configuration" : "jf 1/11/2009 19:47",
+		"html" : "jf 1/11/2009 19:47",
+		"initializeWithConfiguration:canvas:" : "jf 1/11/2009 19:46",
+		"visitBooleanAttribute:" : "lr 1/20/2009 15:29",
+		"visitClassListAttribute:" : "pmm 7/24/2011 13:14",
+		"visitCollectionAttribute:" : "jf 9/30/2009 01:10",
+		"visitListAttribute:" : "lr 1/20/2009 14:07",
+		"visitNumberAttribute:" : "lr 1/20/2009 14:08",
+		"visitPasswordAttribute:" : "jf 1/11/2009 19:52",
+		"visitStringAttribute:" : "lr 1/20/2009 15:34",
+		"visitUrlAttribute:" : "jf 11/3/2009 00:14" } }

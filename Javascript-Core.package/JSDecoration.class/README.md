@@ -1,0 +1,1 @@
+I decorate JavaScript objects.

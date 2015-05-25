@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Unit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUEffectTest",
+	"pools" : [
+		 ],
+	"super" : "JSObjectTest",
+	"type" : "normal" }

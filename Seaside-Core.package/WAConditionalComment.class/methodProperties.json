@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"root:" : "lr 7/25/2011 19:48" },
+	"instance" : {
+		"addToCondition:" : "lr 3/27/2007 11:36",
+		"closingConditionClass" : "lr 7/25/2011 19:58",
+		"do:" : "pmm 11/25/2007 21:51",
+		"equal" : "pmm 10/11/2006 17:19",
+		"greaterThan" : "pmm 10/11/2006 17:14",
+		"ie" : "pmm 10/11/2006 17:16",
+		"ie5" : "pmm 9/20/2009 11:33",
+		"ie50" : "pmm 9/20/2009 11:32",
+		"ie55" : "pmm 9/20/2009 11:32",
+		"ie6" : "pmm 9/20/2009 11:32",
+		"ie7" : "pmm 9/20/2009 11:32",
+		"ie8" : "pmm 9/20/2009 11:32",
+		"ie:" : "pmm 9/20/2009 11:32",
+		"initializeWithRoot:" : "jf 3/13/2009 18:05",
+		"lessThan" : "pmm 10/11/2006 17:15",
+		"not" : "tbn 11/21/2007 12:41",
+		"openingConditionClass" : "lr 7/25/2011 19:58",
+		"orEqual" : "pmm 10/19/2006 20:19" } }

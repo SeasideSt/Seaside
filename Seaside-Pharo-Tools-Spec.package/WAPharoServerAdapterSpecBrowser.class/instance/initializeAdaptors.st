@@ -1,0 +1,3 @@
+initialization
+initializeAdaptors
+	self adapters: WAServerManager default adaptors

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handler",
+		"dispatcher" ],
+	"name" : "WARequestHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "WAContextTest",
+	"type" : "normal" }

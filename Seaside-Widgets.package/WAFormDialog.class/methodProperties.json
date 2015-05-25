@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addForm" : "avi 3/16/2004 13:45",
+		"addFormByDefault" : "avi 3/16/2004 14:05",
+		"buttons" : "avi 3/12/2004 16:37",
+		"defaultButton" : "lr 7/25/2011 20:04",
+		"divClass" : "avi 3/12/2004 20:41",
+		"initialize" : "lr 7/25/2011 18:45",
+		"isValid" : "avi 3/12/2004 16:35",
+		"model" : "avi 3/12/2004 16:35",
+		"ok" : "avi 3/12/2004 16:37",
+		"removeForm" : "lr 2/28/2009 22:45",
+		"renderContentOn:" : "lr 2/28/2009 22:45",
+		"renderDialogOn:" : "avi 3/12/2004 20:37",
+		"renderSpacerRowOn:" : "lr 1/7/2007 17:55",
+		"renderValidationError:on:" : "lr 1/7/2007 17:56",
+		"validationError:" : "avi 3/12/2004 16:35" } }

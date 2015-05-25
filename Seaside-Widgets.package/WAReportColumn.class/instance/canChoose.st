@@ -1,0 +1,3 @@
+public
+canChoose
+	^ clickBlock notNil

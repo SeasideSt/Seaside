@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/17/2011 16:58",
+	"instvars" : [
+		 ],
+	"name" : "WAHandlerTrackingStrategy",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

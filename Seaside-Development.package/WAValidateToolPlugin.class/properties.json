@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Development-Plugins",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/27/2007 18:31",
+	"instvars" : [
+		 ],
+	"name" : "WAValidateToolPlugin",
+	"pools" : [
+		 ],
+	"super" : "WAToolPlugin",
+	"type" : "normal" }

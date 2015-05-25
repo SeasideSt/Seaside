@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"configuration",
+		"attribute",
+		"selections",
+		"selectionsCurrent" ],
+	"name" : "WACollectionAttributeEditor",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

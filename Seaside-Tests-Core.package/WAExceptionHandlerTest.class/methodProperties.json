@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertHandles:" : "lr 7/25/2011 19:01",
+		"assertHandles:returnsSatisfying:" : "jf 1/1/2009 15:18",
+		"createHandler" : "jf 1/21/2009 11:16",
+		"createRequestContext" : "jf 7/31/2009 09:38",
+		"handlerClass" : "jf 12/30/2008 20:09",
+		"testCommaReturnsExceptionSet" : "jf 1/1/2009 15:18",
+		"testHandlerClassValidExceptionSelector" : "lr 7/25/2011 19:01",
+		"testHandlerInstanceValidExceptionSelector" : "lr 7/25/2011 19:01",
+		"testHandlesReturnsBool" : "pmm 2/16/2011 22:30",
+		"testInternalError" : "jok 1/26/2009 15:44",
+		"testInternalErrorWithMessage" : "jok 1/26/2009 15:44",
+		"testUnhandledException" : "pmm 1/10/2009 14:43",
+		"unhandledExceptionClass" : "jf 12/30/2008 20:09" } }

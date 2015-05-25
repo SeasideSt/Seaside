@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testArray" : "lr 10/13/2008 21:48",
+		"testCharacter" : "lr 7/16/2009 08:51",
+		"testDateAndTime" : "lr 10/13/2008 21:48",
+		"testDictionary" : "lr 4/15/2010 20:27",
+		"testDuration" : "jf 2/6/2010 00:26",
+		"testIsJavascript" : "lr 4/28/2009 20:37",
+		"testJoinAssocation" : "lr 7/14/2010 13:20",
+		"testJoinEmpty" : "lr 7/14/2010 13:13",
+		"testJoinMultiple" : "lr 7/14/2010 13:14",
+		"testJoinString" : "lr 7/14/2010 13:20",
+		"testLiteral" : "lr 10/13/2008 21:48",
+		"testNumber" : "pmm 9/1/2012 15:56",
+		"testStringBasic" : "lr 10/13/2008 21:48",
+		"testStringEscaping" : "lr 10/13/2008 21:48",
+		"testStringSpecial" : "lr 7/16/2009 08:52",
+		"testStringSpecialLineTerminator" : "pmm 5/2/2012 20:16",
+		"testUrl" : "lr 10/13/2008 21:48" } }

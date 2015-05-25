@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"canvas:" : "ac 7/6/2005 11:30" },
+	"instance" : {
+		"callback:" : "obi 12/30/2009 16:35",
+		"callbackValue:" : "lr 7/25/2011 20:07",
+		"hasCallback" : "lr 7/25/2011 20:08",
+		"hasSelection" : "obi 12/31/2009 21:49",
+		"initializeWithCanvas:" : "TestRunner 1/25/2010 11:04",
+		"isSelected:" : "obi 12/31/2009 21:22",
+		"key" : "TestRunner 1/25/2010 11:04",
+		"radioButton" : "TestRunner 1/25/2010 11:03",
+		"selected:" : "obi 12/31/2009 21:21",
+		"valuesAt:put:" : "lr 7/25/2011 20:08",
+		"with:" : "TestRunner 1/25/2010 11:03" } }

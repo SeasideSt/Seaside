@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:02",
+	"instvars" : [
+		"sortColumn",
+		"isReversed",
+		"columns",
+		"rowPeriod",
+		"rowColors",
+		"rows" ],
+	"name" : "WATableReport",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

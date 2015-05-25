@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertContentType:accept:produces:" : "jok 1/23/2014 21:04",
+		"assertContentType:accept:routesTo:" : "jok 1/23/2014 21:06",
+		"testMultipleConentTypeRouting" : "pmm 9/1/2012 16:33",
+		"testProduceMimeType" : "pmm 9/1/2012 16:32",
+		"testProduceNoMimeType" : "pmm 7/28/2011 21:26",
+		"testSimpleAcceptRouting" : "pmm 9/1/2012 16:33",
+		"testSimpleConentTypeRouting" : "pmm 9/1/2012 16:33" } }

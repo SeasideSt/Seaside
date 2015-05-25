@@ -1,0 +1,1 @@
+Periodically performs an AJAX request and gives you the ability to update multiple elements on the page with a single callback. Offers a mechanism for decay, which lets it trigger at widening intervals while the response is unchanged.

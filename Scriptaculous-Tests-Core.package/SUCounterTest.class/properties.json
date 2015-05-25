@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"count" ],
+	"name" : "SUCounterTest",
+	"pools" : [
+		 ],
+	"super" : "SUFunctionalTest",
+	"type" : "normal" }

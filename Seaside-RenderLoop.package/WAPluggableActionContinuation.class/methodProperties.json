@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"action:" : "jf 8/23/2011 16:19",
+		"defaultAction" : "jf 8/23/2011 16:17",
+		"snapshot:renderContext:" : "jf 8/23/2011 16:16",
+		"snapshot:renderContext:action:" : "jf 8/23/2011 16:16" },
+	"instance" : {
+		"basicPerformAction" : "jf 8/23/2011 12:02",
+		"initializeWithSnapshot:renderContext:action:" : "jf 8/23/2011 16:15" } }

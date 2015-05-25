@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTask" : "jf 2/5/2009 08:54",
+		"children" : "jf 2/5/2009 08:43",
+		"initialize" : "jf 12/19/2009 02:37",
+		"renderContentOn:" : "jf 12/14/2009 21:26",
+		"renderTasksOn:" : "lr 2/28/2009 22:29",
+		"showTask" : "jf 12/14/2009 21:26",
+		"states" : "jf 2/8/2009 10:50",
+		"taskClasses" : "lr 7/25/2011 18:46" } }

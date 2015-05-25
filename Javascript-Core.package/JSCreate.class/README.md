@@ -1,0 +1,1 @@
+I instantiate the decorated object.

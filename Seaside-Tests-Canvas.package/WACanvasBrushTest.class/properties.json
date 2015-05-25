@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WACanvasBrushTest",
+	"pools" : [
+		 ],
+	"super" : "WAAbstractCanvasBrushTest",
+	"type" : "normal" }

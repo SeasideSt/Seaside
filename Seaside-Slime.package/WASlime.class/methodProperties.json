@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"attributeSelectors" : "lr 2/28/2009 23:09",
+		"brushSelectors" : "lr 2/28/2009 23:09",
+		"callbackSelectors" : "lr 2/28/2009 23:09",
+		"class:includesBehaviorNamed:" : "lr 7/25/2011 19:03",
+		"findAttributeSelectors" : "lr 11/2/2009 20:09",
+		"findBrushSelectors" : "lr 11/2/2009 20:09",
+		"findCallbackSelectors" : "pmm 9/14/2013 16:58",
+		"findClasses:" : "lr 2/28/2009 23:02",
+		"initialize" : "jf 9/30/2009 00:19",
+		"isBrushSelector:" : "lr 2/28/2009 23:13",
+		"isCallbackSelector:" : "lr 2/28/2009 23:13",
+		"isWithinCallback:" : "lr 2/28/2009 23:13",
+		"startUp" : "lr 2/28/2009 23:10" },
+	"instance" : {
+		 } }

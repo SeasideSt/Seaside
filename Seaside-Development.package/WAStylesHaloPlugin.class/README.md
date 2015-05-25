@@ -1,0 +1,1 @@
+I open the style editor on the component class.

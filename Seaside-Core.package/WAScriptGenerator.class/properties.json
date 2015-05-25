@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"loadScripts" ],
+	"name" : "WAScriptGenerator",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Security",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filter" ],
+	"name" : "WANoSniffFilterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

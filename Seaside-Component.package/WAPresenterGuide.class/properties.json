@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:10",
+	"instvars" : [
+		"client" ],
+	"name" : "WAPresenterGuide",
+	"pools" : [
+		 ],
+	"super" : "WAPainterVisitor",
+	"type" : "normal" }

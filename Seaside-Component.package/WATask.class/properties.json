@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component-Tasks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:03",
+	"instvars" : [
+		 ],
+	"name" : "WATask",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

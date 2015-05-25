@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"windows" ],
+	"name" : "SUWindowTest",
+	"pools" : [
+		 ],
+	"super" : "SUFunctionalTest",
+	"type" : "normal" }

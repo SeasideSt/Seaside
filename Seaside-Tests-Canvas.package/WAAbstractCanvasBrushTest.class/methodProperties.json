@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 5/18/2010 21:53",
+		"packageNamesUnderTest" : "lr 9/9/2010 12:25" },
+	"instance" : {
+		"assert:gives:" : "pmm 2/18/2012 13:35",
+		"builder" : "as 2/6/2011 22:03" } }

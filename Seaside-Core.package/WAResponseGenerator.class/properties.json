@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/20/2009 11:16",
+	"instvars" : [
+		"requestContext" ],
+	"name" : "WAResponseGenerator",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

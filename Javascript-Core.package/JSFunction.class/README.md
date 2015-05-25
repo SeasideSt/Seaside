@@ -1,0 +1,1 @@
+I represent an anonymous JavaScript function.

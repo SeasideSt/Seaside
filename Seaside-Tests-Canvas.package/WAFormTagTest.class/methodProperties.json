@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertUserAgent:isInternetExplorer:" : "as 2/6/2011 22:04",
+		"testBasicForm" : "pmm 9/1/2012 16:03",
+		"testDefaultAction" : "pmm 9/1/2012 16:03",
+		"testDefaultActionGet" : "pmm 9/1/2012 16:02",
+		"testIsGet" : "pmm 9/1/2012 16:02",
+		"testIsInternetExplorer" : "pmm 9/1/2012 16:02",
+		"userAgent:" : "pmm 5/11/2008 09:33" } }

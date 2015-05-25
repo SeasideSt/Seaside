@@ -1,0 +1,1 @@
+Creates new droppables on the nodeset supplied by the query.

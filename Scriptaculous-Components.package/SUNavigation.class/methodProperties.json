@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "lr 1/10/2008 08:50",
+		"add:label:" : "lr 1/10/2008 01:40",
+		"children" : "obi 3/2/2008 19:48",
+		"cssClass" : "lr 1/10/2008 08:53",
+		"findIndex:ifAbsent:" : "lr 1/10/2008 08:53",
+		"initialize" : "lr 1/10/2008 08:47",
+		"navigationItemClass" : "lr 1/10/2008 08:53",
+		"remove:" : "lr 1/10/2008 08:51",
+		"renderContentOn:" : "lr 1/4/2008 13:16",
+		"renderNavigationOn:" : "lr 1/4/2008 13:16",
+		"uid" : "lr 1/10/2008 02:06",
+		"uid:at:" : "mlucas-smith 5/14/2010 22:54",
+		"visible" : "lr 7/25/2011 19:54",
+		"visibleComponentsFor:" : "lr 7/25/2011 19:54" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute" : "lr 1/23/2009 08:32",
+		"group" : "lr 8/14/2010 09:22",
+		"isActive" : "jf 1/7/2009 21:26",
+		"isEnabled" : "jf 1/7/2009 21:25",
+		"keystroke" : "jf 1/7/2009 21:28",
+		"label" : "lr 8/14/2010 09:21" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-REST-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"match" ],
+	"name" : "WAFullMimeTypeMatchTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

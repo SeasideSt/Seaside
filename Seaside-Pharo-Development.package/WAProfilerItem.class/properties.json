@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"tally",
+		"request" ],
+	"name" : "WAProfilerItem",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

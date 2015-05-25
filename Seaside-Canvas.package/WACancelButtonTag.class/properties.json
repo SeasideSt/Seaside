@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WACancelButtonTag",
+	"pools" : [
+		 ],
+	"super" : "WASubmitButtonTag",
+	"type" : "normal" }

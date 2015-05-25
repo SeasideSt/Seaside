@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUWelcomeTest",
+	"pools" : [
+		 ],
+	"super" : "SUFunctionalTest",
+	"type" : "normal" }

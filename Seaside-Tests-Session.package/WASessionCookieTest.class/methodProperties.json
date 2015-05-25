@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "pmm 8/12/2010 23:23" },
+	"instance" : {
+		"newHandler" : "jf 3/13/2012 12:30",
+		"requestWithMethod:" : "pmm 8/12/2010 23:23",
+		"testDeleteSessionCookieDomain" : "pmm 8/12/2010 23:54",
+		"testNewSessionCookieDomain" : "pmm 8/12/2010 23:47" } }

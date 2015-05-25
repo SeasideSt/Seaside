@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"initialize" : "jf 2/21/2009 02:47" },
+	"instance" : {
+		"accumulate:" : "jf 2/21/2009 01:45",
+		"buildTable" : "lr 2/20/2009 22:13",
+		"children" : "avi 2/10/2004 16:15",
+		"initialize" : "lr 7/8/2010 07:54",
+		"renderContentOn:" : "lr 2/20/2009 16:30",
+		"totalInstances" : "jf 12/29/2009 20:42",
+		"totalSize" : "jf 12/29/2009 20:42",
+		"traverse:value:seen:" : "jf 2/21/2009 02:34" } }

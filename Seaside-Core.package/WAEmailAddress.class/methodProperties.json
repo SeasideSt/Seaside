@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"address:" : "lr 7/25/2011 19:48",
+		"address:username:" : "lr 7/25/2011 19:48" },
+	"instance" : {
+		"address" : "lr 7/25/2011 20:00",
+		"address:" : "pmm 8/31/2008 13:36",
+		"encodeOn:" : "lr 2/22/2010 08:08",
+		"encodeOn:usingQuotes:" : "pmm 9/2/2008 14:14",
+		"greaseString" : "pmm 2/25/2012 14:56",
+		"printOn:" : "jf 9/30/2009 01:10",
+		"sanitize:" : "lr 7/25/2011 20:00",
+		"username" : "lr 7/25/2011 20:00",
+		"username:" : "pmm 8/31/2008 13:37" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 8/11/2009 10:59",
+	"instvars" : [
+		"closed" ],
+	"name" : "WATransactionFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

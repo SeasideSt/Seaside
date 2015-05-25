@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tests-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"merged",
+		"one",
+		"two" ],
+	"name" : "WAMergedRequestFieldsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

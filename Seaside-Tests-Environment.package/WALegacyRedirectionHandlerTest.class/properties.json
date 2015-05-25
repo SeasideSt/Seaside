@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Environment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handler" ],
+	"name" : "WALegacyRedirectionHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "WAContextTest",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+channelAttributes
+	^ channelAttributes

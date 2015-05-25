@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"file",
+		"url" ],
+	"name" : "WAVersionUploader",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

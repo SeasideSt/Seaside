@@ -1,0 +1,4 @@
+public-meta
+getInfo
+	<get>
+	

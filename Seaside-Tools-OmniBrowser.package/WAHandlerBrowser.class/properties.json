@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAHandlerBrowser",
+	"pools" : [
+		 ],
+	"super" : "OBBrowser",
+	"type" : "normal" }

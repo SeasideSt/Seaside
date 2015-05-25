@@ -1,0 +1,15 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tabs",
+		"selected" ],
+	"name" : "SUAllTests",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

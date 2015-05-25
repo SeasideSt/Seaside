@@ -1,0 +1,3 @@
+accessing
+sortOrder
+	^ self subclassResponsibility

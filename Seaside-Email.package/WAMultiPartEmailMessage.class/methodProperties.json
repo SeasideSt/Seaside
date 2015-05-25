@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newBoundary" : "PaulDeBruicker 10/25/2013 12:54" },
+	"instance" : {
+		"addPart:" : "PaulDeBruicker 10/25/2013 11:08",
+		"boundary" : "PaulDeBruicker 10/25/2013 11:22",
+		"initialize" : "PaulDeBruicker 11/6/2013 15:12",
+		"isMultipart" : "PaulDeBruicker 10/25/2013 12:00",
+		"parts" : "PaulDeBruicker 10/25/2013 11:08",
+		"setHtmlBody:" : "PaulDeBruicker 10/25/2013 11:18",
+		"setStringBody:wrap:" : "PaulDeBruicker 11/6/2013 15:19",
+		"writeBodyOn:" : "PaulDeBruicker 10/25/2013 11:43",
+		"writeEndBoundaryOn:" : "PaulDeBruicker 10/25/2013 11:25",
+		"writeMiddleBoundaryOn:" : "PaulDeBruicker 10/25/2013 11:24" } }

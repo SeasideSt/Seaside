@@ -1,0 +1,3 @@
+accessing
+bytes
+	^ value * multiplier

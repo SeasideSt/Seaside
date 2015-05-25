@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 8/4/2010 20:31",
+	"instvars" : [
+		"bufferedStream",
+		"externalStream",
+		"committed",
+		"closed" ],
+	"name" : "WAComboResponse",
+	"pools" : [
+		 ],
+	"super" : "WAResponse",
+	"type" : "normal" }

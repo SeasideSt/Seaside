@@ -1,0 +1,15 @@
+{
+	"category" : "Comet-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"phone" ],
+	"name" : "CTReportItem",
+	"pools" : [
+		 ],
+	"super" : "GRObject",
+	"type" : "normal" }

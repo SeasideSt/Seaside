@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"component" ],
+	"name" : "WAConfigurationTool",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"seasideAdaptorRunning" : "lr 12/16/2011 16:28",
+		"seasideAdaptorStopped" : "lr 12/16/2011 16:28",
+		"seasideBrush" : "lr 12/16/2011 16:28",
+		"seasideComponent" : "lr 12/16/2011 16:28",
+		"seasideDecoration" : "lr 12/16/2011 16:28",
+		"seasideFileLibrary" : "lr 12/16/2011 16:28",
+		"seasideRequestFilter" : "lr 12/16/2011 16:28",
+		"seasideRequestHandler" : "lr 12/16/2011 16:28" } }

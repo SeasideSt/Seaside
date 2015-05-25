@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"on:context:" : "jf 11/9/2008 17:35" },
+	"instance" : {
+		"initializeWithFileHandler:context:" : "jf 11/9/2008 17:36",
+		"responseForLibraries" : "jf 11/9/2008 18:14",
+		"responseForLibrary:" : "jf 11/9/2008 18:14" } }

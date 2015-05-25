@@ -1,0 +1,3 @@
+testing
+handlerClass
+	self subclassResponsibility

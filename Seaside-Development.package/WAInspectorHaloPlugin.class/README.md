@@ -1,0 +1,1 @@
+I open an inspector on the component class.

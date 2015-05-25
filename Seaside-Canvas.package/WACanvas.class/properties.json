@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:04",
+	"instvars" : [
+		"currentBrush",
+		"parentBrush" ],
+	"name" : "WACanvas",
+	"pools" : [
+		 ],
+	"super" : "WARenderer",
+	"type" : "normal" }

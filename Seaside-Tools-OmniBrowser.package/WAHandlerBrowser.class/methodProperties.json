@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"adaptorMetaNode" : "MAD 2/21/2009 19:50",
+		"buttonPanel" : "lr 12/16/2011 16:44",
+		"defaultMetaNode" : "MAD 2/21/2009 19:50",
+		"defaultRootNode" : "jf 3/15/2009 18:40",
+		"handlerMetaNode" : "lr 8/14/2010 09:17",
+		"title" : "jf 1/7/2009 22:46" },
+	"instance" : {
+		"cmdAddHandler" : "lr 10/29/2010 12:18",
+		"cmdRemoveExpression" : "lr 10/29/2010 12:18",
+		"cmdRemoveHandler" : "lr 10/29/2010 12:18",
+		"defaultBackgroundColor" : "lr 1/9/2009 21:52" } }

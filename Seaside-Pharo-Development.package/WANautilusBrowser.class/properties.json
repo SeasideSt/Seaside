@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/19/2014 10:34",
+	"instvars" : [
+		"nautilus",
+		"selectedMessageCategory",
+		"dependent",
+		"selectedClass" ],
+	"name" : "WANautilusBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

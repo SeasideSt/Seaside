@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 4/30/2007 23:41",
+	"instvars" : [
+		"options",
+		"month",
+		"day",
+		"year" ],
+	"name" : "WADateInput",
+	"pools" : [
+		 ],
+	"super" : "WACompound",
+	"type" : "normal" }

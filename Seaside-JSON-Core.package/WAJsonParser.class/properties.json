@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-JSON-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 12/31/2009 23:56",
+	"instvars" : [
+		"stream" ],
+	"name" : "WAJsonParser",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

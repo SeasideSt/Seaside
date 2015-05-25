@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 8/31/2008 13:03",
+	"instvars" : [
+		"authenticator",
+		"realm" ],
+	"name" : "WAAuthenticationFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

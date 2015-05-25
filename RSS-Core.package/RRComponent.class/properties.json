@@ -1,0 +1,14 @@
+{
+	"category" : "RSS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/1/2007 22:01",
+	"instvars" : [
+		 ],
+	"name" : "RRComponent",
+	"pools" : [
+		 ],
+	"super" : "WAPainter",
+	"type" : "normal" }

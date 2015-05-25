@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parameters" ],
+	"name" : "JQAnimate",
+	"pools" : [
+		 ],
+	"super" : "JQPlugin",
+	"type" : "normal" }

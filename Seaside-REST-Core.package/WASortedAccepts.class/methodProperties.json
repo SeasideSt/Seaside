@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"accepts:" : "pmm 8/22/2011 09:58" },
+	"instance" : {
+		"acceptsDo:" : "pmm 1/22/2012 16:36",
+		"initializeWithAccepts:" : "pmm 8/22/2011 10:21",
+		"isEmpty" : "pmm 8/22/2011 10:22" } }

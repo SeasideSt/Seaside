@@ -1,0 +1,3 @@
+handling
+handleFiltered: aRequestContext
+	self responseForContext: aRequestContext

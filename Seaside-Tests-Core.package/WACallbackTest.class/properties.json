@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Core-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"registry",
+		"log" ],
+	"name" : "WACallbackTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

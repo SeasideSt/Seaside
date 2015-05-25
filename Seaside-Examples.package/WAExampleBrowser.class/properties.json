@@ -1,0 +1,18 @@
+{
+	"category" : "Seaside-Examples-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"class",
+		"selector",
+		"component",
+		"hasAnswer",
+		"answer" ],
+	"name" : "WAExampleBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAExampleComponent",
+	"type" : "normal" }

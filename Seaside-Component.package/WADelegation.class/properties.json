@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"delegate" ],
+	"name" : "WADelegation",
+	"pools" : [
+		 ],
+	"super" : "WADecoration",
+	"type" : "normal" }

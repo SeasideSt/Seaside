@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initialize" : "jf 2/20/2009 23:29",
+		"unload" : "jf 2/20/2009 23:29" },
+	"instance" : {
+		"frameCount" : "jf 2/20/2009 23:16",
+		"frames" : "jf 2/20/2009 23:08",
+		"initializeWithException:" : "jf 2/20/2009 23:02",
+		"renderObject:labelled:on:" : "lr 9/29/2009 22:47",
+		"renderStackFrame:on:" : "pmm 9/17/2011 11:39",
+		"renderStackOn:" : "jf 2/20/2009 23:11",
+		"safePrintString:" : "jf 2/20/2009 23:55",
+		"tempNamesAndValuesIn:do:" : "lr 10/13/2010 12:43" } }

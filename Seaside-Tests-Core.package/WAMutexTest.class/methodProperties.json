@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "jf 2/5/2009 10:59",
+		"tearDown" : "jf 9/30/2009 00:19",
+		"testCopy" : "jf 9/30/2009 00:19",
+		"testExclusion" : "pmm 9/2/2012 13:29",
+		"testMultipleEntry" : "jf 2/5/2009 11:17",
+		"testSelfTerminate" : "pmm 9/2/2012 13:28",
+		"testSimple" : "jf 2/5/2009 11:17",
+		"testTerminate" : "pmm 9/2/2012 13:29" } }

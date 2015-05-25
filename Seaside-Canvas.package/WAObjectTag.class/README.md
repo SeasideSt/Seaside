@@ -1,0 +1,2 @@
+Defines an embedded object. Use this element to add multimedia to your XHTML page.
+This element allows you to specify the data and parameters for objects inserted into HTML documents, and the code that can be used to display/manipulate that data.

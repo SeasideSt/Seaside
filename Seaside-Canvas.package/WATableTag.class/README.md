@@ -1,0 +1,1 @@
+The <table> tag defines a table. Inside a <table> tag you can put table headers, table rows, table cells, and other tables.

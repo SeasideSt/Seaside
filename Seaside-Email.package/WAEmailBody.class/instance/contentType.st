@@ -1,0 +1,3 @@
+accessing
+contentType
+	^ self subclassResponsibility

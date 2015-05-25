@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:54",
+	"instvars" : [
+		"operator" ],
+	"name" : "JSBinary",
+	"pools" : [
+		 ],
+	"super" : "JSStatement",
+	"type" : "normal" }

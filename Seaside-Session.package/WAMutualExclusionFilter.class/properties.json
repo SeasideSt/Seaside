@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Session-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mutex" ],
+	"name" : "WAMutualExclusionFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

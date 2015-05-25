@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handler",
+		"filterEditor",
+		"configurationEditor" ],
+	"name" : "WAHandlerEditor",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

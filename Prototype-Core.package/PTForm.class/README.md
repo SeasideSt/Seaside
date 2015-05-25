@@ -1,0 +1,1 @@
+Form is a namespace and a module for all things form-related, packed with form manipulation and serialization goodness. While it holds methods dealing with forms as whole, its submodule Form.Element deals with specific form controls.

@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text" ],
+	"name" : "SUSmallBoxTest",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

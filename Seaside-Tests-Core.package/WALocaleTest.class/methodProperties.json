@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCountryName" : "pmm 3/16/2008 12:38",
+		"testIso3" : "jf 9/30/2009 01:10",
+		"testLanguage" : "pmm 5/8/2010 22:53",
+		"testLanguageName" : "pmm 3/16/2008 12:58",
+		"testLangugeAndCountry" : "jf 9/30/2009 01:10",
+		"testLangugeOnly" : "jf 9/30/2009 01:10",
+		"testWithoutCountry" : "pmm 9/1/2012 16:30" } }

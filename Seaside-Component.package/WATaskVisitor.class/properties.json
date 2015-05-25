@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WATaskVisitor",
+	"pools" : [
+		 ],
+	"super" : "WAPainterVisitor",
+	"type" : "normal" }

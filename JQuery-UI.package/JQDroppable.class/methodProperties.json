@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "lr 6/14/2009 19:50",
+		"activeClass:" : "lr 6/14/2009 19:50",
+		"addClasses:" : "lr 6/14/2009 19:50",
+		"greedy:" : "lr 6/14/2009 19:50",
+		"hoverClass:" : "lr 6/14/2009 19:50",
+		"method" : "lr 10/20/2008 19:49",
+		"onActivate:" : "lr 6/14/2009 19:50",
+		"onDeactivate:" : "lr 6/14/2009 19:50",
+		"onDrop:" : "lr 6/14/2009 19:50",
+		"onOut:" : "lr 6/14/2009 19:50",
+		"onOver:" : "lr 6/14/2009 19:50",
+		"scope:" : "lr 6/14/2009 19:50",
+		"tolerance:" : "lr 11/12/2009 08:55" } }

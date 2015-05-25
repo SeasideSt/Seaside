@@ -1,0 +1,3 @@
+private
+defaultSnapshot
+	^ WASnapshot new

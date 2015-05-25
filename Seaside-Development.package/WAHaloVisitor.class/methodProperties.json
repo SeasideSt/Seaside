@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"decoration:context:" : "jf 2/12/2009 20:26" },
+	"instance" : {
+		"initializeWithToolDecoration:renderContext:" : "jf 2/12/2009 20:25",
+		"postCopyForRenderContext:" : "jf 2/12/2009 21:24",
+		"renderContext" : "jf 2/12/2009 20:26",
+		"toolDecoration" : "jf 2/12/2009 20:27",
+		"visitPainter:" : "jf 2/13/2009 15:32",
+		"visitor" : "jf 2/12/2009 19:41",
+		"visitor:" : "jf 2/12/2009 19:41" } }

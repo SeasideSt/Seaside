@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "jf 12/30/2008 19:37" },
+	"instance" : {
+		"handlerClass" : "jf 12/29/2008 17:32",
+		"testError" : "jf 1/23/2009 16:11",
+		"testHandlesError" : "jf 1/1/2009 15:17",
+		"testHandlesWarning" : "jf 1/1/2009 15:17",
+		"testWarning" : "jf 1/23/2009 16:11" } }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultArguments" : "lr 5/10/2006 21:33",
+		"defaultId" : "lr 10/14/2008 00:39",
+		"defaultPrototype" : "lr 5/10/2006 21:26",
+		"evalScripts:" : "lr 6/30/2009 23:23",
+		"id" : "lr 5/10/2006 21:33",
+		"id:" : "lr 4/20/2006 15:09",
+		"initialize" : "lr 4/30/2007 20:27",
+		"insertion:" : "lr 2/27/2007 20:38",
+		"processOn:with:" : "lr 2/28/2009 22:47" } }

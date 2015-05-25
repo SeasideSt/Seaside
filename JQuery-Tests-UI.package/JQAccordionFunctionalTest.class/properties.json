@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQAccordionFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQUiFunctionalTest",
+	"type" : "normal" }

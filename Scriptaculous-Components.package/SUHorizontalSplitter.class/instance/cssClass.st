@@ -1,0 +1,3 @@
+accessing
+cssClass
+	^ 'splitter-horizontal'

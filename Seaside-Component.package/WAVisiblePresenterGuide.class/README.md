@@ -1,0 +1,1 @@
+Visit the tree of all Presenters and their registered #children. Do not visit a Decoration's #next Decoration if the Decoration indicates that it is not visible.

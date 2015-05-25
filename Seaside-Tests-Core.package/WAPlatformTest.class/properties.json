@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAPlatformTest",
+	"pools" : [
+		 ],
+	"super" : "GRPlatformTest",
+	"type" : "normal" }

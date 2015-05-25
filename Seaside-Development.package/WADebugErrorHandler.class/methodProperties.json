@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicResume:" : "pmm 5/5/2012 18:44",
+		"debugAndResume:" : "pmm 9/14/2011 19:22",
+		"handleDefault:" : "jf 9/19/2008 19:45",
+		"open:" : "jf 9/30/2009 00:19",
+		"resume:" : "pmm 5/5/2012 18:44",
+		"unableToResumeResponse" : "pmm 9/14/2011 22:04" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTAjaxTest",
+	"pools" : [
+		 ],
+	"super" : "JSObjectTest",
+	"type" : "normal" }

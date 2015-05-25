@@ -1,0 +1,3 @@
+private
+defaultPrototype
+	^ 'Ajax.Request'

@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 1/28/2010 14:34",
+	"instvars" : [
+		 ],
+	"name" : "JQButton",
+	"pools" : [
+		 ],
+	"super" : "JQWidget",
+	"type" : "normal" }

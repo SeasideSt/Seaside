@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAEncoderLatin1Test",
+	"pools" : [
+		 ],
+	"super" : "WAEncoderTest",
+	"type" : "normal" }

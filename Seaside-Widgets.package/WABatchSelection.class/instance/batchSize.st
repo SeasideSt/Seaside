@@ -1,0 +1,3 @@
+accessing
+batchSize
+	^ batcher batchSize

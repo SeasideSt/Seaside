@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WATaskErrorFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTaskTest",
+	"type" : "normal" }

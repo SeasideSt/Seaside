@@ -1,0 +1,16 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"renderer",
+		"label" ],
+	"name" : "SUTreeReportColumn",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

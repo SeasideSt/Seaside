@@ -1,0 +1,19 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textInput",
+		"textArea",
+		"checkBox",
+		"radioButton",
+		"selectList",
+		"multiSelectList" ],
+	"name" : "SUFormTest",
+	"pools" : [
+		 ],
+	"super" : "SUFunctionalTest",
+	"type" : "normal" }

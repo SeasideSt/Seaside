@@ -1,0 +1,1 @@
+An abstract class to describe the HTML elements that allow the user to enter text.

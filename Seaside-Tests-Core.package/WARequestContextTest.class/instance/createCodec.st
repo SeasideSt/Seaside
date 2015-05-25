@@ -1,0 +1,3 @@
+configuration
+createCodec
+	^ GRNullCodec new

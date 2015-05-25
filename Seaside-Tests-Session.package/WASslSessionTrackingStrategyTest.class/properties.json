@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASslSessionTrackingStrategyTest",
+	"pools" : [
+		 ],
+	"super" : "WAInvisibleSessionTrackingStrategyTest",
+	"type" : "normal" }

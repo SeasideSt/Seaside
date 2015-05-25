@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logger" ],
+	"name" : "JQRequestFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQFunctionalTest",
+	"type" : "normal" }

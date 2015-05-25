@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/5/2007 19:01",
+	"instvars" : [
+		"contents" ],
+	"name" : "WAValueHolder",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

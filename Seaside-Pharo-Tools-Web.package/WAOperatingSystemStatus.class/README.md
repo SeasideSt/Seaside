@@ -1,0 +1,1 @@
+A WAOperatingSystemStatus displays information about the operating system the virtual machine of this image runs on.

@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

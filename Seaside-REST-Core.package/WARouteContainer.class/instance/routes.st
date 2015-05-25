@@ -1,0 +1,3 @@
+public
+routes
+	^ routes

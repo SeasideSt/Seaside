@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"authorName" ],
+	"name" : "WAWelcomeAuthorNamePrompter",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

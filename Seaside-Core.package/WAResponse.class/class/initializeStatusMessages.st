@@ -1,0 +1,62 @@
+initialization
+initializeStatusMessages
+	StatusMessages := Dictionary new.
+	StatusMessages
+		at: self statusContinue put: 'Continue';
+		at: self statusSwitchingProtocols put: 'Switching Protocols';
+		at: self statusProcessing put: 'Processing';
+		at: self statusOk put: 'OK';
+		at: self statusCreated put: 'Created';
+		at: self statusAccepted put: 'Accepted';
+		at: self statusNonAuthoritativeInformation put: 'Non-Authoritative Information';
+		at: self statusNoContent put: 'No Content';
+		at: self statusResetContent put: 'Reset Content';
+		at: self statusPartialContent put: 'Partial Content';
+		at: self statusMultiStatus put: 'Multi-Status';
+		at: self statusAlreadyReported put: 'Already Reported';
+		at: self statusInstanceManipulationUsed put: 'IM Used';		
+		at: self statusMultipleChoices put: 'Multiple Choices';
+		at: self statusMovedPermanently put: 'Moved Permanently';
+		at: self statusFound put: 'Found';
+		at: self statusSeeOther put: 'See Other';
+		at: self statusNotModified put: 'Not Modified';
+		at: self statusUseProxy put: 'Use Proxy';
+		at: self statusTemporaryRedirect put: 'Temporary Redirect';
+		at: self statusPermanentRedirect put: 'Permanent Redirect';
+		at: self statusBadRequest put: 'Bad Request';
+		at: self statusUnauthorized put: 'Unauthorized';
+		at: self statusPaymentRequired put: 'Payment Required';
+		at: self statusForbidden put: 'Forbidden';
+		at: self statusNotFound put: 'Not Found';
+		at: self statusMethodNotAllowed put: 'Method Not Allowed';
+		at: self statusNotAcceptable put: 'Not Acceptable';
+		at: self statusProxyAuthenticationRequired put: 'Proxy Authentication Required';
+		at: self statusRequestTimeout put: 'Request Timeout';
+		at: self statusConflict put: 'Conflict';
+		at: self statusGone put: 'Gone';
+		at: self statusLengthRequired put: 'Length Required';
+		at: self statusPreconditionFailed put: 'Precondition Failed';
+		at: self statusRequestEntityTooLarge put: 'Request Entity Too Large';
+		at: self statusRequestUriTooLong put: 'Request-URI Too Long';
+		at: self statusUnsupportedMediaType put: 'Unsupported Media Type';
+		at: self statusRequestedRangeNotSatisfiable put: 'Requested Range Not Satisfiable';
+		at: self statusExpectationFailed put: 'Expectation Failed';
+		at: self statusImATeapot put: 'I''m a teapot';
+		at: self statusUnprocessableEntity put: 'Unprocessable Entity';
+		at: self statusLocked put: 'Locked';
+		at: self statusFailedDependency put: 'Failed Dependency';
+		at: self statusUpgradeRequired put: 'Upgrade Required';
+		at: self statusPreconditionRequired put: 'Precondition Required';
+		at: self statusTooManyRequests put: 'Too Many Requests';
+		at: self statusRequestHeaderFieldsTooLarge put: 'Request Header Fields Too Large';
+		at: self statusInternalServerError put: 'Internal Server Error';
+		at: self statusNotImplemented put: 'Not Implemented';
+		at: self statusBadGateway put: 'Bad Gateway';
+		at: self statusServiceUnavailable put: 'Service Unavailable';
+		at: self statusGatewayTimeout put: 'Gateway Timeout';
+		at: self statusHttpVersionNotSupported put: 'HTTP Version Not Supported';
+		at: self statusVariantAlsoNegotiates put: 'Variant Also Negotiates';
+		at: self statusInsufficientStorage put: 'Insufficient Storage';
+		at: self statusLoopDetected put: 'Loop Detected';
+		at: self statusNotExtended put: 'Not Extended';
+		at: self statusNetworkAuthenticationRequired put: 'Network Authentication Required'

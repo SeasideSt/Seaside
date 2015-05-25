@@ -1,0 +1,3 @@
+private
+defaultGeneratorString
+	^ 'Seaside-RSRSS'

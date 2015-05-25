@@ -1,0 +1,1 @@
+Abstract root class for all plugins that add an action for an application to the dispatcher editor.

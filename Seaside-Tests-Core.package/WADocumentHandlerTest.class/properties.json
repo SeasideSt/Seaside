@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WADocumentHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandlerTest",
+	"type" : "normal" }

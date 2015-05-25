@@ -1,0 +1,1 @@
+This is the core dependency of the effects of jQuery UI. This file is needed by all other effects and can also be used as stand-alone. Please note that ui.core.js is not a dependency for the effects to work.

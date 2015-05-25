@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"current" ],
+	"name" : "JQSliderFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQUiFunctionalTest",
+	"type" : "normal" }

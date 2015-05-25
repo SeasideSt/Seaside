@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"fromString:index:arguments:" : "pmm 6/27/2010 00:28",
+		"matchClassFor:" : "pmm 3/22/2011 09:15" },
+	"instance" : {
+		"argumentCount" : "pmm 9/8/2009 18:30",
+		"mapArgumentsWithElements:into:" : "pmm 3/22/2011 10:06",
+		"mapArgumentsWithElements:into:usingOffset:" : "pmm 3/22/2011 10:06",
+		"matches:" : "pmm 9/6/2009 23:57",
+		"matchesJustOneElement" : "pmm 3/22/2011 09:08",
+		"printOn:" : "NickAger 8/13/2011 15:12",
+		"priority" : "pmm 9/6/2009 21:49" } }

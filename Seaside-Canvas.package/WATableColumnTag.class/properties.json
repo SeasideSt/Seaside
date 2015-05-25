@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 3/24/2008 13:48",
+	"instvars" : [
+		 ],
+	"name" : "WATableColumnTag",
+	"pools" : [
+		 ],
+	"super" : "WATableColumnGroupTag",
+	"type" : "normal" }

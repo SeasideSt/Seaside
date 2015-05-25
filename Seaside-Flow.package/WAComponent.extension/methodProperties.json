@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authenticateWith:during:" : "lr 8/31/2008 14:30",
+		"call:" : "jf 12/19/2009 01:43",
+		"chooseFrom:" : "lr 1/24/2009 21:03",
+		"chooseFrom:caption:" : "lr 1/24/2009 21:04",
+		"chooseFrom:default:" : "lr 8/3/2009 20:23",
+		"chooseFrom:default:caption:" : "lr 8/3/2009 20:24",
+		"confirm:" : "lr 1/24/2009 21:04",
+		"filterWith:during:" : "lr 8/31/2008 14:12",
+		"inform:" : "lr 1/24/2009 21:04",
+		"request:" : "lr 1/24/2009 21:05",
+		"request:default:" : "lr 1/24/2009 21:05",
+		"request:label:" : "lr 1/24/2009 21:05",
+		"request:label:default:" : "lr 1/24/2009 21:05",
+		"wait:" : "jf 2/9/2010 01:31" } }

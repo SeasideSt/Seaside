@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core-Observers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 5/19/2009 09:09",
+	"instvars" : [
+		 ],
+	"name" : "PTFormObserver",
+	"pools" : [
+		 ],
+	"super" : "PTTimedObserver",
+	"type" : "normal" }

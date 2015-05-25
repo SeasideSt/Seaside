@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authentication" : "jf 12/19/2009 02:54",
+		"children" : "lr 8/31/2008 15:12",
+		"initialize" : "lr 8/31/2008 15:12",
+		"protector" : "jf 12/19/2009 02:54",
+		"renderActionsOn:" : "lr 8/31/2008 15:16",
+		"renderContentOn:" : "lr 8/31/2008 15:08",
+		"renderFiltersOn:" : "lr 11/4/2008 09:22",
+		"verifyPassword:forUser:" : "lr 8/31/2008 15:01" } }

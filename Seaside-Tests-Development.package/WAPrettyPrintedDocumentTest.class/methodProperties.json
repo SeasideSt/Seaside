@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:rendersAs:" : "pmm 6/25/2011 19:47",
+		"testEventsInKnownEvents" : "pmm 8/5/2011 23:13",
+		"testKnownEventsInTagBrush" : "pmm 6/26/2011 14:20",
+		"testRendering" : "pmm 2/19/2012 15:40" } }

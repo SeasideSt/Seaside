@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 10/27/2008 22:44",
+	"instvars" : [
+		 ],
+	"name" : "WAWalkbackErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "WADebugErrorHandler",
+	"type" : "normal" }

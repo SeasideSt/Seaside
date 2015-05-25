@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Server",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"adaptors" ],
+	"name" : "WAServerManager",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

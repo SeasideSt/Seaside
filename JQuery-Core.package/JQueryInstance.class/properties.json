@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"arguments" ],
+	"name" : "JQueryInstance",
+	"pools" : [
+		 ],
+	"super" : "JQuery",
+	"type" : "normal" }

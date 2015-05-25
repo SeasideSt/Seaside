@@ -1,0 +1,3 @@
+updating
+setVerboseMode
+	adaptor setVerboseMode

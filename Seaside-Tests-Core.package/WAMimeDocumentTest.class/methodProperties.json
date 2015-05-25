@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsMIMEDocumentByteArray" : "lr 10/18/2008 16:45",
+		"testAsMIMEDocumentByteArrayColon" : "lr 10/18/2008 16:46",
+		"testAsMIMEDocumentString" : "lr 10/18/2008 16:46",
+		"testAsMIMEDocumentStringColon" : "lr 10/18/2008 16:46",
+		"testByteArraySeasideMimeDocumentType" : "pmm 6/19/2010 08:41",
+		"testStringSeasideMimeDocumentType" : "pmm 6/19/2010 08:39" } }

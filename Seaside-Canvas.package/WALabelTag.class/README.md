@@ -1,0 +1,1 @@
+Defines a label to a control. If you click the text within the label element,  it is supposed to toggle the control.

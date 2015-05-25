@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Security",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filter" ],
+	"name" : "WAFrameOptionsFilterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

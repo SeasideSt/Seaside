@@ -1,0 +1,3 @@
+testing
+isStopped
+	^ adaptor isStopped

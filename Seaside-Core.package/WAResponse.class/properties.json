@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"StatusMessages" ],
+	"commentStamp" : "pmm 2/18/2011 23:07",
+	"instvars" : [
+		"headers",
+		"cookies",
+		"status",
+		"message" ],
+	"name" : "WAResponse",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lr 1/10/2009 12:49",
+		"testAt" : "lr 10/4/2008 19:52",
+		"testAtIfAbsent" : "lr 10/4/2008 19:53",
+		"testAtPut" : "pmm 9/1/2012 16:01",
+		"testClear" : "jf 2/6/2009 19:24",
+		"testCopy" : "pmm 9/1/2012 16:01",
+		"testKeyAtValue" : "jf 2/6/2009 19:24",
+		"testLastAccess" : "jf 2/6/2009 20:22",
+		"testLeastRecentlyUsed" : "jf 2/6/2009 20:22",
+		"testLeastRecentlyUsedCopy" : "pmm 9/1/2012 16:01",
+		"testRemove" : "jf 2/6/2009 19:24",
+		"testRemoveKey" : "jf 2/6/2009 19:25",
+		"testRetrieve" : "jf 2/6/2009 20:23",
+		"testSize" : "pmm 9/1/2012 16:00" } }

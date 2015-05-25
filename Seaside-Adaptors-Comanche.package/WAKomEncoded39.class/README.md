@@ -1,0 +1,1 @@
+I have exactly the same responsibility as WAKomEncoded and am only provided for compatibility reasons with old versions. I should not be used anymore.

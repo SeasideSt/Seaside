@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:00",
+	"instvars" : [
+		"urlencoded",
+		"multipart",
+		"get" ],
+	"name" : "WAEncodingFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

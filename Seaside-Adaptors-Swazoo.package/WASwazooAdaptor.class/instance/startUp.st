@@ -1,0 +1,3 @@
+private
+startUp
+	SwazooServer start

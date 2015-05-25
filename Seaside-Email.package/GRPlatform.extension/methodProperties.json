@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"seasideDeliverEmailMessage:" : "dkh 11/25/2009 11:48",
+		"seasideHandlerPreferenceAt:ifAbsent:" : "pmm 6/19/2011 16:40",
+		"seasideSmtpPassword" : "topa 10/13/2010 12:51",
+		"seasideSmtpPort" : "topa 10/13/2010 12:51",
+		"seasideSmtpServer" : "topa 10/13/2010 12:51",
+		"seasideSmtpUsername" : "topa 10/13/2010 12:51" } }

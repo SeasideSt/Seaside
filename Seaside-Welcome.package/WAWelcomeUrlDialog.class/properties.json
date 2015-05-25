@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAWelcomeUrlDialog",
+	"pools" : [
+		 ],
+	"super" : "WAPainter",
+	"type" : "normal" }

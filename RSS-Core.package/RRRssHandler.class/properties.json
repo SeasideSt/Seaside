@@ -1,0 +1,14 @@
+{
+	"category" : "RSS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/21/2009 12:44",
+	"instvars" : [
+		 ],
+	"name" : "RRRssHandler",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

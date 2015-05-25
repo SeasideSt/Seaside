@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"newStrategy" : "pmm 7/17/2011 11:48",
+		"testAddKeyOfSessionToUrl" : "pmm 2/18/2012 13:49",
+		"testAddKeyOfSessionToUrlCookieAlreadyPresent" : "pmm 2/18/2012 13:49" } }

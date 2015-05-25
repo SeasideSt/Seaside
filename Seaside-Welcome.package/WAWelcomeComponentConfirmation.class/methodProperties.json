@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"component:named:" : "NickAger 6/16/2010 00:12" },
+	"instance" : {
+		"children" : "NickAger 6/16/2010 01:45",
+		"component" : "NickAger 6/16/2010 00:08",
+		"component:" : "NickAger 6/16/2010 00:08",
+		"componentName" : "NickAger 6/15/2010 20:19",
+		"componentName:" : "NickAger 6/15/2010 20:19",
+		"renderContentOn:" : "NickAger 11/6/2010 18:40" } }

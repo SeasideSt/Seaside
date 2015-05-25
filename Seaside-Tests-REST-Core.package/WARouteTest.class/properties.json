@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-REST-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WARouteTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

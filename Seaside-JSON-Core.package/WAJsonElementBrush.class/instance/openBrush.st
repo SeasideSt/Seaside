@@ -1,0 +1,3 @@
+private
+openBrush
+	canvas writeIfNotFirst: ', '

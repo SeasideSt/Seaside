@@ -1,0 +1,3 @@
+mode
+setVerboseMode
+	service setVerboseMode

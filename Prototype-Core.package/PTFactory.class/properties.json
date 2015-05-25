@@ -1,0 +1,16 @@
+{
+	"category" : "Prototype-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:46",
+	"instvars" : [
+		"context",
+		"block",
+		"rendererClass" ],
+	"name" : "PTFactory",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

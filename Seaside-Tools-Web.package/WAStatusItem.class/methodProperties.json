@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"isAbstract" : "jf 1/19/2009 12:36",
+		"sortedConcreteSubinstances" : "pmm 8/16/2014 16:35" },
+	"instance" : {
+		"<=" : "jf 1/19/2009 12:27",
+		"isSupported" : "pmm 8/28/2011 15:57",
+		"label" : "jf 1/19/2009 12:27",
+		"priority" : "pmm 2/19/2012 11:40",
+		"renderContentOn:" : "jf 1/19/2009 12:19",
+		"renderFooterOn:" : "jf 1/19/2009 12:19",
+		"renderHeaderOn:" : "jf 1/19/2009 12:19",
+		"renderLabel:on:" : "pmm 2/16/2009 20:57",
+		"renderLabel:value:on:" : "pmm 2/16/2009 21:01",
+		"renderLabel:value:value:on:" : "pmm 2/16/2009 21:01",
+		"renderLabel:value:value:value:on:" : "pmm 2/16/2009 21:02",
+		"renderValue:on:" : "pmm 2/16/2009 20:57",
+		"renderValuesOn:" : "pmm 2/20/2011 19:47",
+		"tableBodyCssClass" : "lr 7/25/2011 20:09",
+		"title" : "jf 1/19/2009 12:28" } }

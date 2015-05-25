@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Development",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WADevelopmentPlatformTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I am like WAErrorHandler except that I open a debugger in the image for errors and warnings (not for internal errors).

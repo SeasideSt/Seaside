@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"group" ],
+	"name" : "WARadioButtonTag",
+	"pools" : [
+		 ],
+	"super" : "WAFormInputTag",
+	"type" : "normal" }

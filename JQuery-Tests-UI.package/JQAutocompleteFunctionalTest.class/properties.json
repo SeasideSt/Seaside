@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packages" ],
+	"name" : "JQAutocompleteFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQUiFunctionalTest",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"effect" : "jf 7/19/2009 14:57",
+		"testBasic" : "lr 4/15/2010 20:23",
+		"testMorph" : "lr 4/15/2010 20:24",
+		"testMove" : "lr 4/15/2010 20:22",
+		"testOpacitiy" : "lr 4/15/2010 20:22",
+		"testParallel" : "lr 4/15/2010 20:22",
+		"testScale" : "lr 4/15/2010 20:22",
+		"testToggle" : "lr 4/15/2010 20:22",
+		"testTween" : "lr 10/13/2008 22:04" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"on:" : "lr 10/18/2008 17:09",
+		"on:mimeType:" : "lr 10/18/2008 16:21",
+		"on:mimeType:fileName:" : "jf 3/13/2009 18:14" },
+	"instance" : {
+		"=" : "pmm 11/4/2008 11:17",
+		"content" : "lr 10/18/2008 16:43",
+		"contentStream" : "lr 10/18/2008 16:47",
+		"contentType" : "lr 10/18/2008 16:43",
+		"contents" : "lr 10/18/2008 15:56",
+		"contents:" : "lr 10/18/2008 15:57",
+		"fileName" : "lr 10/18/2008 15:20",
+		"fileName:" : "lr 10/18/2008 15:57",
+		"hash" : "pmm 11/4/2008 11:17",
+		"initializeOn:mimeType:fileName:" : "jf 3/13/2009 18:14",
+		"mimeType" : "lr 10/18/2008 15:48",
+		"mimeType:" : "lr 10/18/2008 17:09",
+		"seasideMimeDocument" : "lr 10/18/2008 15:21" } }

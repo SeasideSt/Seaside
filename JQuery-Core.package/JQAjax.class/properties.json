@@ -1,0 +1,15 @@
+{
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/14/2008 22:09",
+	"instvars" : [
+		"callback",
+		"callbackId" ],
+	"name" : "JQAjax",
+	"pools" : [
+		 ],
+	"super" : "JQAjaxSetup",
+	"type" : "normal" }

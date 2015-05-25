@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"on:" : "obi 9/25/2009 08:22" },
+	"instance" : {
+		"apply" : "obi 12/16/2009 20:57",
+		"beComponent" : "obi 12/16/2009 21:11",
+		"beDialog" : "obi 12/16/2009 21:09",
+		"buildGroups" : "pmm 9/1/2012 15:23",
+		"cancel" : "obi 12/16/2009 22:05",
+		"children" : "lr 7/25/2011 20:13",
+		"configuration" : "jf 7/21/2008 18:05",
+		"groupedAttributes" : "lr 7/25/2011 18:59",
+		"groups" : "lr 7/25/2011 20:13",
+		"includesAdvanced:" : "lr 1/3/2010 13:10",
+		"initializeOn:" : "pmm 9/1/2012 15:23",
+		"ok" : "lr 7/25/2011 18:59",
+		"parent" : "lr 7/25/2011 18:59",
+		"parent:" : "obi 9/25/2009 20:56",
+		"parents" : "lr 8/30/2008 15:25",
+		"renderButtonsOn:" : "obi 12/16/2009 22:10",
+		"renderContentOn:" : "obi 10/2/2009 19:50",
+		"renderFormOn:" : "lr 7/25/2011 18:59" } }

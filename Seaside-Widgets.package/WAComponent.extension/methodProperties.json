@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMessage:" : "lr 8/3/2009 20:26",
+		"chooseFrom:caption:onAnswer:" : "lr 8/3/2009 20:21",
+		"chooseFrom:default:caption:onAnswer:" : "jf 12/19/2009 01:47",
+		"chooseFrom:default:onAnswer:" : "lr 8/3/2009 20:22",
+		"chooseFrom:onAnswer:" : "lr 8/3/2009 20:22",
+		"confirm:onAnswer:" : "jf 12/19/2009 01:47",
+		"inform:onAnswer:" : "jf 12/19/2009 01:48",
+		"request:default:onAnswer:" : "lr 1/24/2009 20:58",
+		"request:label:default:onAnswer:" : "jf 12/19/2009 01:48",
+		"request:label:onAnswer:" : "lr 1/24/2009 20:58",
+		"request:onAnswer:" : "lr 1/24/2009 20:54",
+		"validateWith:" : "lr 8/3/2009 20:26" } }

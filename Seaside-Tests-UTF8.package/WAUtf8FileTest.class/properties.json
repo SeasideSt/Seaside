@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-UTF8",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"file" ],
+	"name" : "WAUtf8FileTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

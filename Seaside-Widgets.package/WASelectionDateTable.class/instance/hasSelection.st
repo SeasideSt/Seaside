@@ -1,0 +1,3 @@
+testing
+hasSelection
+	^ dateSelectionStart notNil

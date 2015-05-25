@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 2/5/2009 12:49",
+	"instvars" : [
+		"semaphore",
+		"owner" ],
+	"name" : "WAMutex",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+converting
+seasideMimeType
+	^ self

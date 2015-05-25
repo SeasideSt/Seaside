@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"configuration" ],
+	"name" : "WAConfiguredRequestFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

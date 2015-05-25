@@ -1,0 +1,3 @@
+private
+shutDown
+	SwazooServer stop

@@ -1,0 +1,15 @@
+{
+	"category" : "Javascript-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:40",
+	"instvars" : [
+		"return",
+		"arguments" ],
+	"name" : "JSFunction",
+	"pools" : [
+		 ],
+	"super" : "JSScript",
+	"type" : "normal" }

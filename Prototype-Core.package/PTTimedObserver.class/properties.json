@@ -1,0 +1,15 @@
+{
+	"category" : "Prototype-Core-Observers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kdt 1/19/2009 10:58",
+	"instvars" : [
+		"frequency",
+		"function" ],
+	"name" : "PTTimedObserver",
+	"pools" : [
+		 ],
+	"super" : "PTNamed",
+	"type" : "normal" }

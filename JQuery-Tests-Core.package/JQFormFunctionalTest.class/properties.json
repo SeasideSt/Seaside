@@ -1,0 +1,19 @@
+{
+	"category" : "JQuery-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textInput",
+		"textArea",
+		"checkBox",
+		"radioButton",
+		"selectList",
+		"multiSelectList" ],
+	"name" : "JQFormFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQFunctionalTest",
+	"type" : "normal" }

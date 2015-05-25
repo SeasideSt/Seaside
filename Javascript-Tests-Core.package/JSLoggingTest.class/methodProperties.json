@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"logger" : "jf 7/19/2009 14:58",
+		"testAssert" : "lr 4/28/2009 20:41",
+		"testComparison" : "lr 10/13/2008 22:06",
+		"testLogging" : "lr 10/13/2008 22:06",
+		"testMessages" : "lr 10/13/2008 22:06" } }

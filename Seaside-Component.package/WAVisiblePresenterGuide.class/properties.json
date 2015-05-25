@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/31/2009 01:56",
+	"instvars" : [
+		 ],
+	"name" : "WAVisiblePresenterGuide",
+	"pools" : [
+		 ],
+	"super" : "WAPresenterGuide",
+	"type" : "normal" }

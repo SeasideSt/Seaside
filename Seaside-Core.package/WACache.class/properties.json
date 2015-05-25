@@ -1,0 +1,20 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 22:56",
+	"instvars" : [
+		"mutex",
+		"keysByObject",
+		"objectsByKey",
+		"expiryPolicy",
+		"reapingStrategy",
+		"missStrategy",
+		"removalAction" ],
+	"name" : "WACache",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

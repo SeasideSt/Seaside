@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Pharo-Development",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"first",
+		"second" ],
+	"name" : "WAExampleClass",
+	"pools" : [
+		 ],
+	"super" : "GRObject",
+	"type" : "variable" }

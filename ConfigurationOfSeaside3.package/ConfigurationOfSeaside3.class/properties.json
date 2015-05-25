@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfSeaside3",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "JohanBrichau 1/18/2014 11:46",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfSeaside3",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

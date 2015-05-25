@@ -1,0 +1,3 @@
+private
+openingConditionClass
+	^ WAOpeningConditionalComment

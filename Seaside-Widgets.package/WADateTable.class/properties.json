@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 1/23/2008 21:11",
+	"instvars" : [
+		"rows",
+		"startDate",
+		"endDate",
+		"datesCache" ],
+	"name" : "WADateTable",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

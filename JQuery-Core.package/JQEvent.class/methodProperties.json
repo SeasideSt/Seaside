@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"currentTarget" : "lr 4/3/2010 10:08",
+		"data" : "lr 4/3/2010 10:09",
+		"initialize" : "lr 4/3/2010 10:08",
+		"isDefaultPrevented" : "lr 4/3/2010 10:03",
+		"isImmediatePropagationStopped" : "lr 4/3/2010 10:05",
+		"isPropagationStopped" : "lr 4/3/2010 10:04",
+		"javascriptContentOn:" : "lr 4/3/2010 10:08",
+		"namespace" : "lr 10/17/2010 17:51",
+		"pageX" : "lr 4/3/2010 10:09",
+		"pageY" : "lr 4/3/2010 10:09",
+		"preventDefault" : "lr 4/3/2010 10:03",
+		"relatedTarget" : "lr 4/3/2010 10:09",
+		"result" : "lr 4/3/2010 10:09",
+		"setOwner:" : "lr 4/3/2010 10:08",
+		"stopImmediatePropagation" : "lr 4/3/2010 11:09",
+		"stopPropagation" : "lr 4/3/2010 10:04",
+		"target" : "lr 4/3/2010 10:09",
+		"timeStamp" : "lr 4/3/2010 10:09",
+		"type" : "lr 4/3/2010 10:09" } }

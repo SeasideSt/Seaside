@@ -1,0 +1,3 @@
+testing
+canHaveChildren
+	^ true

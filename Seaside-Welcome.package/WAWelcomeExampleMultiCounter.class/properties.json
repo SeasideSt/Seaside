@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"multicounter" ],
+	"name" : "WAWelcomeExampleMultiCounter",
+	"pools" : [
+		 ],
+	"super" : "WAWelcomeExample",
+	"type" : "normal" }

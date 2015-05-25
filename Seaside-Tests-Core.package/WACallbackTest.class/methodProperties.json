@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertLog:" : "lr 12/28/2008 13:26",
+		"request:" : "jf 2/15/2010 17:34",
+		"setUp" : "lr 12/28/2008 16:14",
+		"testActionCallback" : "jf 2/15/2010 17:30",
+		"testAdvanceKey" : "lr 12/28/2008 12:42",
+		"testCancelCallback" : "jf 2/15/2010 17:31",
+		"testDefaultCallback" : "jf 2/15/2010 17:31",
+		"testDispatchCallback" : "jf 2/15/2010 19:04",
+		"testImageCallback" : "pmm 12/1/2010 07:44",
+		"testMapCallback" : "jf 2/15/2010 17:32",
+		"testMultiValuesCallback" : "pmm 9/1/2012 16:01",
+		"testNextKey" : "lr 12/28/2008 12:42",
+		"testUploadCallback" : "jf 2/15/2010 17:33",
+		"testValueCallback" : "jf 2/15/2010 19:01",
+		"testValuesCallback" : "pmm 9/1/2012 16:01" } }

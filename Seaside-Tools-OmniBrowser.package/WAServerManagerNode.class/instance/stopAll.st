@@ -1,0 +1,3 @@
+updating
+stopAll
+	manager stopAll

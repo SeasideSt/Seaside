@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQEffectFunctionalTest",
+	"pools" : [
+		 ],
+	"super" : "JQUiFunctionalTest",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/28/2007 23:06",
+	"instvars" : [
+		 ],
+	"name" : "WARemoveHandlerPlugin",
+	"pools" : [
+		 ],
+	"super" : "WAConfigurationToolPlugin",
+	"type" : "normal" }

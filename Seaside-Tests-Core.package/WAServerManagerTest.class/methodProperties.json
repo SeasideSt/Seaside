@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"availablePort" : "lr 7/25/2011 18:23",
+		"setUp" : "pmm 9/1/2012 16:51",
+		"tearDown" : "pmm 9/1/2012 16:51",
+		"testCanStartWithAvailablePort" : "pmm 9/1/2012 16:51",
+		"testCanStartWithUnavailablePort" : "pmm 9/1/2012 16:51",
+		"testCanStop" : "lr 7/25/2011 18:24" } }

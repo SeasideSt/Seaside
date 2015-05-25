@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"builderJs" : "lr 1/14/2011 20:14",
+		"controlsJs" : "lr 1/14/2011 20:14",
+		"dragdropJs" : "lr 1/14/2011 20:14",
+		"effectsJs" : "lr 1/14/2011 20:14",
+		"scriptaculousJs" : "lr 1/14/2011 20:15",
+		"selectorsToInclude" : "lr 6/29/2009 15:29",
+		"sliderJs" : "lr 1/14/2011 20:15",
+		"soundJs" : "lr 1/14/2011 20:15",
+		"treePatchJs" : "lr 1/14/2011 20:09",
+		"unittestJs" : "lr 1/14/2011 20:16" } }

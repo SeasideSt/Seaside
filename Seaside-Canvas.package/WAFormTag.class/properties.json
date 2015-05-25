@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/15/2007 08:23",
+	"instvars" : [
+		"defaultAction" ],
+	"name" : "WAFormTag",
+	"pools" : [
+		 ],
+	"super" : "WABasicFormTag",
+	"type" : "normal" }

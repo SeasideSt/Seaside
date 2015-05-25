@@ -1,0 +1,3 @@
+accessing-readonly
+manager
+	^ manager

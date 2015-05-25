@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Slime",
+	"classinstvars" : [
+		"brushSelectors",
+		"callbackSelectors",
+		"attributeSelectors" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASlime",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

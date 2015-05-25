@@ -1,0 +1,3 @@
+actions
+disableErrorWalkbacks
+	WAAdmin applicationExceptionHandlingDefaults at: #exceptionHandler put: WAHtmlErrorHandler

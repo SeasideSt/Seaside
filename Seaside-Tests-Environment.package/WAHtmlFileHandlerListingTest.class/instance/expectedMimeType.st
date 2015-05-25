@@ -1,0 +1,3 @@
+testing
+expectedMimeType
+	^ WAMimeType textHtml

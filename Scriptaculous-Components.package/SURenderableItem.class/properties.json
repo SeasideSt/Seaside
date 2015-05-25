@@ -1,0 +1,15 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"body" ],
+	"name" : "SURenderableItem",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCallback" : "pmm 11/4/2008 20:27",
+		"addHoursCallbackToBrush:" : "lr 7/25/2011 19:04",
+		"addMinutesCallbackToBrush:" : "lr 7/25/2011 19:04",
+		"addSecondsCallbackToBrush:" : "lr 7/25/2011 19:04",
+		"hours" : "lr 7/25/2011 20:12",
+		"hours:" : "jf 9/30/2009 01:04",
+		"initialize" : "pmm 9/12/2006 19:18",
+		"minutes" : "lr 7/25/2011 20:12",
+		"minutes:" : "jf 9/30/2009 01:04",
+		"renderHours" : "jf 9/30/2009 00:32",
+		"renderMinutes" : "jf 9/30/2009 00:32",
+		"renderSeconds" : "jf 9/30/2009 00:32",
+		"seconds" : "lr 7/25/2011 20:12",
+		"seconds:" : "lr 7/25/2011 19:04",
+		"setValueWithNewTime" : "lr 7/25/2011 20:12",
+		"with:" : "lr 7/25/2011 19:04",
+		"withSeconds" : "mb 2/6/2006 09:55",
+		"withoutSeconds" : "mb 2/6/2006 09:56" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Javascript-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Arguments",
+		"JavascriptCharacters",
+		"This" ],
+	"commentStamp" : "lr 4/28/2008 09:44",
+	"instvars" : [
+		"stream" ],
+	"name" : "JSStream",
+	"pools" : [
+		 ],
+	"super" : "JSObject",
+	"type" : "normal" }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialize" : "lr 9/5/2009 10:49" },
+	"instance" : {
+		"handleDefault:" : "pmm 9/14/2011 21:49",
+		"open:" : "pmm 5/5/2012 18:46",
+		"openUsingCall:" : "pmm 9/14/2011 20:11",
+		"openUsingDirectRendering:" : "pmm 5/5/2012 18:45",
+		"shouldCall" : "pmm 9/14/2011 20:07" } }

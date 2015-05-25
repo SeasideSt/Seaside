@@ -1,0 +1,20 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 1/23/2008 21:14",
+	"instvars" : [
+		"root",
+		"selected",
+		"expanded",
+		"childrenBlock",
+		"labelBlock",
+		"canSelectBlock",
+		"selectBlock" ],
+	"name" : "WATree",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

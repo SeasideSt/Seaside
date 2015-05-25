@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"entities" : "lr 7/25/2011 19:58",
+		"exchangeRates" : "lr 7/25/2011 19:58",
+		"renderContentOn:" : "pmm 5/16/2007 17:11",
+		"renderCurrencyTableBodyOn:" : "pmm 1/22/2012 16:34",
+		"renderCurrencyTableHeadOn:" : "lr 7/25/2011 18:43",
+		"renderCurrencyTableOn:" : "lr 7/25/2011 18:43",
+		"renderEntityTableBodyOn:" : "pmm 1/22/2012 16:34",
+		"renderEntityTableColumnGroupsOn:" : "lr 10/28/2007 14:42",
+		"renderEntityTableFootOn:" : "lr 7/25/2011 18:43",
+		"renderEntityTableHeadOn:" : "pmm 1/22/2012 16:38",
+		"renderEntityTableOn:" : "lr 7/25/2011 18:43",
+		"style" : "lr 7/25/2011 19:58" } }

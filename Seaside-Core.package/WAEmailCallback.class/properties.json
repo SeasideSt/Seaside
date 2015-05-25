@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/14/2009 13:29",
+	"instvars" : [
+		 ],
+	"name" : "WAEmailCallback",
+	"pools" : [
+		 ],
+	"super" : "WAValueCallback",
+	"type" : "normal" }

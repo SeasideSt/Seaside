@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"example" : "lr 7/25/2011 19:47" },
+	"instance" : {
+		"batch" : "rjl 8/9/2006 14:30",
+		"batchSize" : "ab 5/25/2003 23:12",
+		"batchSize:" : "ab 5/25/2003 23:09",
+		"currentPage" : "ab 5/25/2003 23:12",
+		"currentPage:" : "ab 5/25/2003 23:12",
+		"endIndex" : "rjl 8/9/2006 14:30",
+		"hasMultiplePages" : "pmm 8/28/2011 16:58",
+		"initialize" : "lr 4/15/2007 19:55",
+		"isOnFirstPage" : "rjl 8/9/2006 14:32",
+		"isOnLastPage" : "rjl 8/9/2006 14:32",
+		"items" : "ab 5/25/2003 23:12",
+		"items:" : "ab 5/25/2003 22:57",
+		"maxPages" : "rjl 8/9/2006 14:30",
+		"nextPage" : "lr 7/25/2011 18:43",
+		"pageRange" : "lr 9/3/2003 10:44",
+		"pageRangeEnd" : "lr 9/3/2003 10:50",
+		"pageRangeStart" : "lr 9/3/2003 10:51",
+		"previousPage" : "lr 7/25/2011 18:42",
+		"renderContentOn:" : "lr 3/4/2009 12:16",
+		"renderNextOn:" : "lr 10/28/2007 14:42",
+		"renderPagesOn:" : "pmm 1/22/2012 16:33",
+		"renderPreviousOn:" : "lr 10/28/2007 14:42",
+		"startIndex" : "rjl 8/9/2006 14:30",
+		"states" : "lr 4/15/2007 19:55" } }

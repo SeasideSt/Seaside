@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAApplicationEncodingFallbackTest",
+	"pools" : [
+		 ],
+	"super" : "WARegistryTest",
+	"type" : "normal" }

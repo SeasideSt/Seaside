@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAPharoServerAdaptorBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAServerAdaptorBrowser",
+	"type" : "normal" }

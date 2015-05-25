@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"presenter" ],
+	"name" : "WAViewer",
+	"pools" : [
+		 ],
+	"super" : "WALabelledFormDialog",
+	"type" : "normal" }

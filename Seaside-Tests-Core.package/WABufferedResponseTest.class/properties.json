@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WABufferedResponseTest",
+	"pools" : [
+		 ],
+	"super" : "WAResponseTest",
+	"type" : "normal" }

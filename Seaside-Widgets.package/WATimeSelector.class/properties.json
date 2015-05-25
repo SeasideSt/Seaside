@@ -1,0 +1,18 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:03",
+	"instvars" : [
+		"second",
+		"hour",
+		"minute",
+		"startHour",
+		"endHour" ],
+	"name" : "WATimeSelector",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

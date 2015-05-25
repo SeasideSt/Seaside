@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"arguments" : "pmm 9/9/2009 18:59",
+		"compactDatabase:" : "pmm 9/9/2009 19:01",
+		"createBulkDocumentsInDatabase:" : "pmm 9/9/2009 19:03",
+		"createDatabase:" : "pmm 9/9/2009 19:01",
+		"createNewDocumentInDatabase:" : "pmm 9/9/2009 19:02",
+		"createOrUpdateDocument:inDatabase:" : "pmm 9/9/2009 19:55",
+		"deleteDatabase:" : "pmm 9/9/2009 19:01",
+		"deleteDocument:inDatabase:" : "pmm 9/9/2009 19:03",
+		"getAllDatabases" : "pmm 9/9/2009 19:00",
+		"getAllDocuments:" : "pmm 9/9/2009 19:02",
+		"getConfig" : "pmm 9/9/2009 19:00",
+		"getDatabase:" : "pmm 9/9/2009 19:02",
+		"getDocument:ofDatabase:" : "pmm 9/9/2009 19:02",
+		"getInfo" : "pmm 9/9/2009 19:00",
+		"getStats" : "pmm 9/9/2009 19:01",
+		"getUuids:" : "pmm 9/9/2009 19:01",
+		"getView:inDesign:inDatabase:" : "pmm 9/9/2009 19:04",
+		"queryDatabase:" : "pmm 9/9/2009 19:03",
+		"replicate" : "pmm 9/9/2009 19:01",
+		"selector" : "pmm 9/9/2009 18:59" } }

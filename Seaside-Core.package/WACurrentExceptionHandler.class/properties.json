@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/29/2011 09:37",
+	"instvars" : [
+		 ],
+	"name" : "WACurrentExceptionHandler",
+	"pools" : [
+		 ],
+	"super" : "WADynamicVariable",
+	"type" : "normal" }

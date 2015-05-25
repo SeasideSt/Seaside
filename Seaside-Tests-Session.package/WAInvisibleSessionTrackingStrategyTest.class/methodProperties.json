@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 8/14/2011 11:16" },
+	"instance" : {
+		"sessionId" : "pmm 8/14/2011 11:19",
+		"testAddKeyOfSessionToContext" : "pmm 2/18/2012 13:44",
+		"testAddKeyOfSessionToUrl" : "pmm 2/18/2012 13:49",
+		"testKeyFromIpAddress" : "pmm 1/22/2012 16:23",
+		"testKeyFromQueryField" : "pmm 1/22/2012 16:23",
+		"testNoHandlerFoundForDocumentHandlerKey" : "pmm 9/1/2012 16:25",
+		"testNoHandlerFoundForSessionKey" : "pmm 9/1/2012 16:28" } }

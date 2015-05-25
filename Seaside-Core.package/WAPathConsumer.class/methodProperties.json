@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"path:" : "lr 7/25/2011 19:49" },
+	"instance" : {
+		"atEnd" : "lr 7/25/2011 20:07",
+		"initializeWith:" : "lr 9/4/2009 09:48",
+		"next" : "lr 7/25/2011 20:07",
+		"nextIfPresentDo:" : "pmm 9/1/2009 08:48",
+		"peek" : "lr 7/25/2011 20:07",
+		"peekToEnd" : "pmm 10/23/2010 19:52",
+		"try:" : "pmm 9/14/2013 17:16",
+		"upToEnd" : "pmm 10/19/2010 21:28" } }

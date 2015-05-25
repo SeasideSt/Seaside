@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"label" : "jf 1/19/2009 12:28",
+		"priority" : "pmm 8/28/2011 16:09",
+		"renderCogValuesOn:" : "MichaelDavies 8/27/2011 14:42",
+		"renderContentOn:" : "pmm 10/29/2008 12:50",
+		"renderHeaderOn:" : "pmm 10/29/2008 10:41",
+		"renderValuesOn:" : "SvenVanCaekenberghe 8/28/2012 13:32",
+		"setBiasToGrowLimit" : "jf 9/30/2009 01:04",
+		"tableBodyCssClass" : "lr 7/25/2011 20:09",
+		"title" : "lr 7/25/2011 20:09" } }

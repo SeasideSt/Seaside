@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"on:" : "jf 1/7/2009 20:41" },
+	"instance" : {
+		"adaptors" : "lr 1/23/2009 08:31",
+		"initializeWithManager:" : "jf 1/7/2009 20:38",
+		"name" : "lr 11/23/2010 08:41",
+		"startAll" : "jf 1/7/2009 21:40",
+		"stopAll" : "jf 1/7/2009 21:34" } }

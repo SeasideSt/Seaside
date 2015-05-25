@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "jf 10/22/2008 11:02",
+		"allPresentersDo:" : "jf 2/13/2009 14:46",
+		"children" : "jf 11/3/2008 13:53",
+		"childrenDo:" : "NickAger 9/3/2012 06:38",
+		"decoratedComponent" : "jf 9/30/2009 18:23",
+		"handleAnswer:" : "jf 10/21/2008 22:15",
+		"initialRequest:" : "pmm 8/27/2011 16:19",
+		"isDecoration" : "avi 3/27/2004 19:55",
+		"renderContentOn:" : "jf 9/9/2009 19:21",
+		"renderUndecoratedWithContext:" : "jf 2/13/2009 19:21",
+		"script" : "pmm 4/7/2007 17:16",
+		"states" : "lr 10/28/2007 14:42",
+		"style" : "pmm 8/19/2014 10:21",
+		"updateRoot:" : "pmm 6/25/2011 12:08",
+		"updateStates:" : "lr 10/28/2007 14:42",
+		"visiblePresentersDo:" : "jf 2/12/2009 20:54" } }

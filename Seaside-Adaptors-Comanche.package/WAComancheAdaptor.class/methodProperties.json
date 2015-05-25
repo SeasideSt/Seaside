@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicStart" : "jf 10/30/2008 13:28",
+		"basicStop" : "lr 8/31/2009 17:00",
+		"convertCookiesFrom:to:" : "lr 7/25/2011 19:58",
+		"createService" : "jf 9/30/2009 01:10",
+		"isRunning" : "jf 10/30/2008 10:38",
+		"isStarting" : "jf 10/30/2008 10:50",
+		"isStopped" : "jf 10/30/2008 10:42",
+		"isStopping" : "jf 10/30/2008 10:44",
+		"processHttp" : "ab 5/18/2003 13:53",
+		"processHttpRequest:" : "ab 5/18/2003 11:24",
+		"responseFor:" : "pmm 6/25/2012 20:55",
+		"responseFrom:" : "pmm 6/24/2012 21:48",
+		"setDebugMode" : "jf 10/29/2008 16:51",
+		"setDeploymentMode" : "jf 10/29/2008 16:51",
+		"setVerboseMode" : "jf 10/29/2008 16:52",
+		"statusString" : "jf 9/30/2009 01:10",
+		"validateForStack:" : "ab 5/18/2003 14:11" } }

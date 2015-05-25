@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:52",
+	"instvars" : [
+		 ],
+	"name" : "JSAssignLocal",
+	"pools" : [
+		 ],
+	"super" : "JSAssign",
+	"type" : "normal" }

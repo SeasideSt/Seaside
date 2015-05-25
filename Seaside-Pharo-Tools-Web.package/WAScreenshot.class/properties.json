@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"button",
+		"zoom" ],
+	"name" : "WAScreenshot",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

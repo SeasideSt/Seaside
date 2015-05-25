@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Development-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startTime",
+		"previousTiming" ],
+	"name" : "WATimingToolFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

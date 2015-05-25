@@ -1,0 +1,1 @@
+The output element represents the result of a calculation.

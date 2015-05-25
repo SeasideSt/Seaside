@@ -1,0 +1,3 @@
+private
+newStrategy
+	^ WAIPSessionTrackingStrategy new

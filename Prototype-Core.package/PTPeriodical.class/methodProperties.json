@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"decay:" : "lr 4/25/2007 10:18",
+		"defaultPrototype" : "lr 5/10/2006 21:26",
+		"frequency:" : "lr 2/27/2007 20:36",
+		"start" : "lr 10/28/2007 14:40",
+		"stop" : "lr 10/28/2007 14:40" } }

@@ -1,0 +1,3 @@
+configuration
+defaultDispatcher
+	^ WADispatcher default

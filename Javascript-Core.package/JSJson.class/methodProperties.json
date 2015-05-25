@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"javascriptContentOn:" : "lr 12/24/2009 10:16",
+		"parse:" : "lr 9/22/2009 10:44",
+		"parse:reviver:" : "lr 9/22/2009 10:48",
+		"stringify:" : "lr 9/22/2009 10:39",
+		"stringify:replacer:" : "lr 9/22/2009 10:42",
+		"stringify:replacer:space:" : "lr 9/22/2009 10:42",
+		"stringify:space:" : "lr 9/22/2009 10:42" } }

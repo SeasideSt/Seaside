@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object" ],
+	"name" : "JSPassenger",
+	"pools" : [
+		 ],
+	"super" : "WACallback",
+	"type" : "normal" }

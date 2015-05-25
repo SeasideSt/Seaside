@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Development-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"notifications" ],
+	"name" : "WADeprecatedToolFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

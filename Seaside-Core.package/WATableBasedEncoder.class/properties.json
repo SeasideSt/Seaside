@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		"table" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/23/2009 19:50",
+	"instvars" : [
+		"table" ],
+	"name" : "WATableBasedEncoder",
+	"pools" : [
+		 ],
+	"super" : "WAEncoder",
+	"type" : "normal" }

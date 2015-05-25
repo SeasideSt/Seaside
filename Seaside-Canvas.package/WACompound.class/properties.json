@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/22/2007 22:22",
+	"instvars" : [
+		"callbackBlock",
+		"value",
+		"id",
+		"properties" ],
+	"name" : "WACompound",
+	"pools" : [
+		 ],
+	"super" : "WABrush",
+	"type" : "normal" }

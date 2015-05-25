@@ -1,0 +1,1 @@
+I toggle halos on and off.

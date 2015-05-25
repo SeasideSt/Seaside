@@ -1,0 +1,17 @@
+{
+	"category" : "JQuery-UI-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/27/2008 22:15",
+	"instvars" : [
+		"method",
+		"effect",
+		"speed",
+		"complete" ],
+	"name" : "JQEffect",
+	"pools" : [
+		 ],
+	"super" : "JQPlugin",
+	"type" : "normal" }

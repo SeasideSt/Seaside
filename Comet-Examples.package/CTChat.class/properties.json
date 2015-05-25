@@ -1,0 +1,14 @@
+{
+	"category" : "Comet-Examples",
+	"classinstvars" : [
+		"pusher" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CTChat",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

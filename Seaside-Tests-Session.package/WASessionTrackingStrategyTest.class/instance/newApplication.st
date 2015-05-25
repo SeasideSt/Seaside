@@ -1,0 +1,3 @@
+private
+newApplication
+	^ WAApplication new

@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:46",
+	"instvars" : [
+		"collection" ],
+	"name" : "JSJoin",
+	"pools" : [
+		 ],
+	"super" : "JSObject",
+	"type" : "normal" }

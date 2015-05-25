@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:at:charset:quality:" : "pmm 9/10/2008 22:55",
+		"assert:at:encoding:quality:" : "pmm 9/10/2008 22:56",
+		"assert:at:language:country:quality:" : "pmm 9/1/2012 15:58",
+		"assert:at:main:sub:quality:" : "pmm 9/1/2012 15:57",
+		"testIe6" : "pmm 8/28/2009 08:36",
+		"testIssue655" : "pmm 1/22/2012 16:23",
+		"testMozilla" : "pmm 9/1/2012 15:57",
+		"testRfc1" : "pmm 5/1/2013 19:59",
+		"testRfc2" : "pmm 5/1/2013 20:01",
+		"testRfc3" : "pmm 5/1/2013 20:07",
+		"testRfc4" : "pmm 5/1/2013 21:01" } }

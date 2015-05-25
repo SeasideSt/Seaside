@@ -1,0 +1,3 @@
+configuration
+defaultUri
+	^ '/' seasideUrl

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 22:59",
+	"instvars" : [
+		"classes",
+		"current" ],
+	"name" : "WAAllFunctionalTests",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

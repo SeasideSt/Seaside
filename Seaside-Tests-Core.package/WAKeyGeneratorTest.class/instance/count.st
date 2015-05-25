@@ -1,0 +1,3 @@
+accessing
+count
+	^ 512

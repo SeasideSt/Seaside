@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 7/24/2008 19:45",
+	"instvars" : [
+		"expressions",
+		"parents" ],
+	"name" : "WAUserConfiguration",
+	"pools" : [
+		 ],
+	"super" : "WAConfiguration",
+	"type" : "normal" }

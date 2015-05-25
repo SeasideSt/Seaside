@@ -1,0 +1,3 @@
+private
+nextText
+	^ self subclassResponsibility

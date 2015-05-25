@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertMethod:selector:path:arguments:" : "pmm 9/9/2009 19:23",
+		"assertMethod:selector:path:parameters:arguments:" : "pmm 2/18/2012 14:07",
+		"routes" : "lr 7/26/2011 09:40",
+		"setUp" : "lr 7/26/2011 09:41",
+		"testArgumentNamesOf" : "jok 1/21/2014 00:39",
+		"testCompactDatabase" : "pmm 9/9/2009 19:17",
+		"testCreateBulkDocumentsInDatabase" : "pmm 9/9/2009 19:21",
+		"testCreateDatabase" : "pmm 9/9/2009 19:17",
+		"testCreateNewDocumentInDatabase" : "pmm 9/9/2009 19:19",
+		"testCreateOrUpdateDocumentinDatabase" : "pmm 9/9/2009 19:20",
+		"testDeleteDatabase" : "pmm 9/9/2009 19:17",
+		"testDeleteDocumentInDatabase" : "pmm 9/9/2009 19:20",
+		"testGetAllDatabases" : "pmm 9/9/2009 19:10",
+		"testGetConfig" : "pmm 9/9/2009 19:11",
+		"testGetDatabase" : "pmm 9/9/2009 19:13",
+		"testGetDocumentOfDatabase" : "pmm 9/9/2009 19:16",
+		"testGetInfo" : "pmm 9/9/2009 19:10",
+		"testGetStats" : "pmm 9/9/2009 19:11",
+		"testGetUuids" : "pmm 9/9/2009 19:25",
+		"testGetViewInDesignInDatabase" : "pmm 9/9/2009 19:23",
+		"testPathUnconsumedWhenNotFound" : "pmm 2/18/2012 14:08",
+		"testQueryDatabase" : "pmm 9/9/2009 19:21",
+		"testReplicate" : "pmm 9/9/2009 19:16" } }

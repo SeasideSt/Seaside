@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"defaultMetaNode" : "jf 1/7/2009 21:54",
+		"defaultRootNode" : "jf 3/17/2009 15:09",
+		"paneCount" : "jf 1/7/2009 20:54",
+		"title" : "jf 1/7/2009 22:26" },
+	"instance" : {
+		"cmdAddAdaptor" : "lr 10/29/2010 12:18",
+		"cmdBrowseRequestHandler" : "lr 12/16/2011 16:41",
+		"cmdChangeEncoding" : "pmm 12/12/2010 11:16",
+		"cmdChangePort" : "pmm 12/12/2010 11:17",
+		"cmdClearConfigurationCaches" : "lr 10/29/2010 12:19",
+		"cmdClearSessions" : "lr 10/29/2010 12:19",
+		"cmdInspectAdaptor" : "lr 10/29/2010 12:19",
+		"cmdModeDebug" : "lr 10/29/2010 12:19",
+		"cmdModeDeployment" : "lr 10/29/2010 12:19",
+		"cmdModeVerbose" : "lr 10/29/2010 12:19",
+		"cmdRemoveAdaptor" : "lr 10/29/2010 12:19",
+		"cmdStartAdaptor" : "lr 12/16/2011 16:41",
+		"cmdStopAdaptor" : "lr 12/16/2011 16:41",
+		"cmdToggleStreamUploads" : "pmm 12/12/2010 18:16",
+		"cmdUseNewDispatcher" : "lr 10/29/2010 12:19",
+		"defaultBackgroundColor" : "lr 1/10/2009 22:33",
+		"initialExtent" : "lr 1/9/2009 21:53",
+		"step" : "lr 11/23/2010 08:38",
+		"wantsSteps" : "lr 11/23/2010 08:38" } }

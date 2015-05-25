@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionClass" : "jf 2/15/2010 17:46",
+		"testAt" : "jf 2/15/2010 17:06",
+		"testCrLf" : "pmm 8/6/2011 20:16",
+		"testDictionaryConversion" : "jf 2/15/2010 17:52",
+		"testRemoveKey" : "pmm 9/1/2012 15:33",
+		"testSmallDictionaryConversion" : "jf 2/15/2010 17:52" } }

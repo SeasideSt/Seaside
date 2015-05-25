@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "lr 3/12/2006 16:26",
+		"add" : "lr 2/19/2007 13:45",
+		"containment:" : "lr 3/12/2006 16:26",
+		"defaultMethod" : "lr 5/12/2006 14:15",
+		"defaultPrototype" : "lr 5/12/2006 15:32",
+		"greedy:" : "lr 3/12/2006 16:26",
+		"hoverclass:" : "lr 3/12/2006 16:26",
+		"onDrop:" : "lr 4/1/2006 11:17",
+		"onHover:" : "lr 4/1/2006 11:17",
+		"overlap:" : "lr 3/12/2006 16:26",
+		"overlapHorizontal" : "lr 3/12/2006 16:26",
+		"overlapVertical" : "lr 3/12/2006 16:26",
+		"remove" : "lr 2/19/2007 13:45" } }

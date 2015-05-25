@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 12/6/2008 11:31",
+	"instvars" : [
+		 ],
+	"name" : "JQGetJson",
+	"pools" : [
+		 ],
+	"super" : "JQAjax",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+pathElementCount
+	^ pathMatches size

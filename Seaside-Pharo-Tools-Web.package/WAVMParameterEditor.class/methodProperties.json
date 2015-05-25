@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"paramterIndex:" : "jf 3/13/2009 18:20" },
+	"instance" : {
+		"children" : "lr 7/25/2011 20:13",
+		"initialize" : "pmm 10/31/2008 16:43",
+		"initializeWithParameter:" : "jf 3/13/2009 18:20",
+		"ok" : "pmm 11/1/2008 15:59",
+		"renderContentOn:" : "pmm 11/1/2008 15:59" } }

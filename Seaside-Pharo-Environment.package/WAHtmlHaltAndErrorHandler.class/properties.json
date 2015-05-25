@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Environment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 11/10/2008 10:09",
+	"instvars" : [
+		 ],
+	"name" : "WAHtmlHaltAndErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "WAHtmlErrorHandler",
+	"type" : "normal" }

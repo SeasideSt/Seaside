@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"bytes:" : "lr 1/25/2009 15:32",
+		"new" : "lr 7/25/2011 19:48" },
+	"instance" : {
+		"bytes" : "lr 7/25/2011 20:06",
+		"bytes:" : "jf 2/15/2010 23:38",
+		"initialize" : "pmm 10/29/2008 13:05",
+		"multiplier" : "pmm 10/29/2008 13:00",
+		"multiplier:" : "pmm 10/29/2008 13:00",
+		"renderContentOn:" : "jf 2/15/2010 23:38",
+		"unitDictionary" : "lr 7/25/2011 20:06",
+		"value" : "pmm 10/29/2008 13:00",
+		"value:" : "pmm 10/29/2008 13:00" } }

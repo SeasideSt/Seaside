@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleException:debuggerSimulation:" : "jf 3/14/2009 01:11",
+		"simulateWithDebugBlock:progress:result:" : "jf 9/30/2009 00:19",
+		"testMechanismAbort" : "lr 7/25/2011 19:00",
+		"testMechanismProceed" : "lr 7/25/2011 19:00" } }

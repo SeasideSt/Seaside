@@ -1,0 +1,1 @@
+I am a factory to create Scriptaculous objects.

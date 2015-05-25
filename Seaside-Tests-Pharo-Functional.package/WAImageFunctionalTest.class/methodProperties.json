@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"formClass" : "lr 7/25/2011 20:04",
+		"haloDebugForm" : "lr 7/25/2011 20:05",
+		"haloPaintForm" : "lr 7/25/2011 20:05",
+		"haloViewForm" : "lr 7/25/2011 20:05",
+		"isSupported" : "lr 7/25/2011 20:05",
+		"label" : "lr 7/25/2011 20:05",
+		"renderContentOn:" : "pmm 5/28/2007 20:06",
+		"renderImagesOn:" : "jf 12/19/2009 02:55",
+		"renderNotSupportedOn:" : "pmm 5/28/2007 20:02" } }

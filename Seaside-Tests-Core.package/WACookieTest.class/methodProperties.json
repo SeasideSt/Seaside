@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCombine" : "lr 11/17/2008 20:36",
+		"testCopy" : "pmm 9/1/2012 16:17",
+		"testEquals" : "pmm 9/1/2012 16:17",
+		"testExpireInPast" : "pmm 4/5/2008 15:42",
+		"testExpirePrinting" : "jgf 1/21/2009 11:45",
+		"testFromStringOldNetscape" : "pmm 9/11/2013 12:22",
+		"testFromStringRfc2965" : "pmm 9/11/2013 12:24",
+		"testPathEncoding" : "pmm 9/11/2013 12:42",
+		"testWriteOn" : "pmm 9/8/2013 14:43" } }

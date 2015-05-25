@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addKey:toContext:" : "pmm 2/18/2012 13:46",
+		"addKey:toUrl:" : "pmm 2/18/2012 13:48",
+		"crawlerSubStrings" : "pmm 7/24/2011 13:57",
+		"initialize" : "pmm 7/24/2011 14:04",
+		"isFromCrawler:" : "pmm 7/24/2011 14:00",
+		"keyFromContext:" : "pmm 7/24/2011 14:05",
+		"noHandlerFoundForKey:in:context:" : "pmm 7/24/2011 14:05",
+		"strategyFor:" : "pmm 7/24/2011 14:03" } }

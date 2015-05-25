@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callcc:" : "lr 2/5/2009 09:06",
+		"mark:" : "jf 2/6/2009 21:27",
+		"markDiscardingResultOf:" : "jf 2/7/2009 12:40",
+		"testEnsure" : "lr 2/5/2009 10:32",
+		"testMarkerOnValue" : "pmm 9/1/2012 16:34",
+		"testNestedEvaluation" : "lr 1/16/2009 23:35",
+		"testNoMarkerOnCall" : "pmm 9/1/2012 16:35",
+		"testNoMarkerOnValue" : "pmm 9/1/2012 16:35",
+		"testReentrant" : "lr 1/16/2009 23:36",
+		"testSimple" : "lr 1/16/2009 23:44" } }

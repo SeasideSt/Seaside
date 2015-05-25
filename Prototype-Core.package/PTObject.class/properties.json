@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTObject",
+	"pools" : [
+		 ],
+	"super" : "JSObject",
+	"type" : "normal" }

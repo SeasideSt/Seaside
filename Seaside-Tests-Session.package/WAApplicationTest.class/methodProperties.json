@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "jf 1/29/2009 20:59" },
+	"instance" : {
+		"newHandler" : "jf 3/13/2012 12:30",
+		"requestWithMethod:" : "pmm 8/31/2009 14:05",
+		"testNotImplemented" : "jf 1/29/2009 21:19",
+		"testPathConsumption" : "lr 9/8/2009 19:46",
+		"testPreFetchIsForbidden" : "pmm 2/18/2012 11:56",
+		"testUrlFor" : "pmm 2/18/2012 11:56" } }

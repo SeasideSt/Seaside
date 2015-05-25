@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"canBeRoot" : "lr 9/14/2008 12:54" },
+	"instance" : {
+		"accept:" : "jf 10/22/2008 09:19",
+		"decoratedComponent" : "jf 9/30/2009 18:22",
+		"handleAnswer:" : "lr 7/25/2011 19:00",
+		"handleAnswer:continueWith:" : "avi 6/22/2004 11:03",
+		"initialize" : "lr 9/5/2007 11:21",
+		"isDecoration" : "avi 3/27/2004 19:55",
+		"isDelegation" : "jf 11/6/2008 11:48",
+		"isGlobal" : "avi 3/28/2004 20:48",
+		"isLocal" : "lr 7/25/2011 19:00",
+		"next" : "lr 9/13/2008 17:03",
+		"remove" : "jf 9/30/2009 18:24",
+		"renderContentOn:" : "jf 10/22/2008 10:10",
+		"renderNextOn:" : "jf 10/22/2008 10:28",
+		"setNext:" : "lr 9/13/2008 17:03",
+		"updateStates:" : "lr 4/20/2007 20:18" } }

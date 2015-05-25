@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/26/2011 07:28",
+	"instvars" : [
+		 ],
+	"name" : "WAHeaderFields",
+	"pools" : [
+		 ],
+	"super" : "GROrderedMultiMap",
+	"type" : "normal" }

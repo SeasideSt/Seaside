@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "pmm 3/14/2011 08:06",
+	"instvars" : [
+		"imageBootTime" ],
+	"name" : "WAUpTimeTracker",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

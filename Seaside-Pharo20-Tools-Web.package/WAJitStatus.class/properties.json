@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo20-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/28/2011 15:55",
+	"instvars" : [
+		 ],
+	"name" : "WAJitStatus",
+	"pools" : [
+		 ],
+	"super" : "WAPharoStatusItem",
+	"type" : "normal" }

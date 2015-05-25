@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:10",
+	"instvars" : [
+		 ],
+	"name" : "WAPharoStatusItem",
+	"pools" : [
+		 ],
+	"super" : "WAStatusItem",
+	"type" : "normal" }

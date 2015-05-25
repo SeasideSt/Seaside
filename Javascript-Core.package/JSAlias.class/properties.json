@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:51",
+	"instvars" : [
+		 ],
+	"name" : "JSAlias",
+	"pools" : [
+		 ],
+	"super" : "JSMember",
+	"type" : "normal" }

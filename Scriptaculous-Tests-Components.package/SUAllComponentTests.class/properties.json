@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUAllComponentTests",
+	"pools" : [
+		 ],
+	"super" : "SUAllTests",
+	"type" : "normal" }

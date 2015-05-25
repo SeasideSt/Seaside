@@ -1,0 +1,3 @@
+private
+cookieKey
+	^ self fieldName

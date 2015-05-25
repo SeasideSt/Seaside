@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Continuation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMarkerRequest",
+	"pools" : [
+		 ],
+	"super" : "GRNotification",
+	"type" : "normal" }

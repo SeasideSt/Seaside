@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "lr 9/9/2010 12:25" },
+	"instance" : {
+		"performTest" : "jf 9/30/2009 00:27",
+		"render:" : "jf 2/15/2009 21:05",
+		"renderFull:" : "lr 7/25/2011 19:52",
+		"renderFull:rootBlock:" : "lr 7/25/2011 19:52",
+		"testEmail" : "pmm 1/1/2009 18:50",
+		"testExample" : "lr 2/8/2009 15:44",
+		"testRenderExample" : "lr 2/8/2009 15:44",
+		"testRenderExampleFull" : "pmm 9/20/2009 14:33",
+		"testWithLineBreaks" : "jok 6/28/2010 14:00" } }

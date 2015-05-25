@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertLines:" : "jok 3/22/2010 11:58",
+		"contents" : "lr 1/23/2009 11:16",
+		"response" : "lr 2/4/2009 08:02",
+		"testCanResetIfNoBody" : "pmm 8/25/2011 11:46",
+		"testCantReset" : "pmm 8/25/2011 13:55",
+		"testCookieAfterCommit" : "lr 1/22/2009 09:06",
+		"testFlushDelay" : "lr 1/23/2009 11:19",
+		"testFlushNextPutAll" : "lr 1/23/2009 11:19",
+		"testFlushStream" : "lr 1/23/2009 11:19",
+		"testHeaderAfterCommit" : "lr 1/22/2009 09:05",
+		"testIsCommitted" : "lr 1/17/2009 17:57",
+		"testStatusAfterCommit" : "lr 1/22/2009 09:06" } }

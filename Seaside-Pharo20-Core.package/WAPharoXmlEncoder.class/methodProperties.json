@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"delegateOn:" : "pmm 8/14/2011 17:51",
+		"initialize" : "pmm 8/14/2011 13:25",
+		"initializeXmlTable" : "pmm 8/14/2011 17:50",
+		"on:codec:" : "pmm 8/15/2011 08:23" },
+	"instance" : {
+		 } }

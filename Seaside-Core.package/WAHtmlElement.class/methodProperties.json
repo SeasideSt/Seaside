@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"root:" : "jf 3/13/2009 18:13" },
+	"instance" : {
+		"add:" : "lr 3/27/2007 10:47",
+		"attributeAt:" : "lr 3/21/2007 15:59",
+		"attributeAt:ifAbsent:" : "lr 3/21/2007 15:59",
+		"attributeAt:put:" : "lr 3/21/2007 15:59",
+		"attributes" : "lr 3/21/2007 15:58",
+		"childrenDo:" : "lr 2/28/2009 22:46",
+		"encodeAfterOn:" : "lr 1/26/2008 21:08",
+		"encodeBeforeOn:" : "lr 1/26/2008 21:08",
+		"encodeChildrenOn:" : "lr 1/26/2008 21:08",
+		"encodeOn:" : "lr 1/26/2008 21:08",
+		"initializeWithRoot:" : "jf 3/13/2009 18:13",
+		"isClosed" : "lr 3/27/2007 11:24",
+		"tag" : "lr 3/27/2007 11:24",
+		"with:" : "lr 11/5/2007 17:22" } }

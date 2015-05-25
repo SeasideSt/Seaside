@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 11/15/2008 20:45",
+	"instvars" : [
+		"selector" ],
+	"name" : "JQLoad",
+	"pools" : [
+		 ],
+	"super" : "JQAjax",
+	"type" : "normal" }

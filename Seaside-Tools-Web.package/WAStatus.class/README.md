@@ -1,0 +1,1 @@
+A WAStatus displays various information about state of this system.

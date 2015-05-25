@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activate" : "lr 2/19/2007 13:45",
+		"autoSelect:" : "lr 9/5/2006 17:24",
+		"defaultArguments" : "lr 5/15/2006 11:17",
+		"defaultPrototype" : "lr 5/15/2006 10:49",
+		"element" : "lr 5/15/2006 10:59",
+		"element:" : "lr 5/15/2006 11:00",
+		"frequency:" : "obi 3/2/2008 20:00",
+		"hide" : "lr 2/19/2007 13:45",
+		"indicator:" : "lr 5/15/2006 10:50",
+		"minChars:" : "obi 3/2/2008 19:59",
+		"next" : "lr 2/19/2007 13:45",
+		"onHide:" : "lr 4/6/2006 20:34",
+		"onSelected:" : "lr 5/15/2006 11:24",
+		"onShow:" : "lr 4/6/2006 20:34",
+		"onUpdate:" : "lr 5/15/2006 11:23",
+		"paramName:" : "jf 7/11/2008 16:00",
+		"previous" : "lr 2/19/2007 13:45",
+		"registerCallbackIn:" : "lr 7/25/2011 18:36",
+		"selectClass:" : "lr 2/19/2007 13:45",
+		"selectedIndex" : "lr 2/19/2007 13:45",
+		"tokens:" : "lr 2/19/2007 13:45" } }

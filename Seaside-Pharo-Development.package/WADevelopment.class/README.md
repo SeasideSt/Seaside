@@ -1,0 +1,1 @@
+A WADevelopment is a collection of convenience methods for dealing with Seaside development in Squeak. This code is not supposed to be ported.

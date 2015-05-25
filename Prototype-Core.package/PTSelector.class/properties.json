@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core-Elements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/25/2007 10:20",
+	"instvars" : [
+		"selectors" ],
+	"name" : "PTSelector",
+	"pools" : [
+		 ],
+	"super" : "PTEnumerable",
+	"type" : "normal" }

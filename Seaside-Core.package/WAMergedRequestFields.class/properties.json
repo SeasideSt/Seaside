@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/22/2009 16:08",
+	"instvars" : [
+		"delegates" ],
+	"name" : "WAMergedRequestFields",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

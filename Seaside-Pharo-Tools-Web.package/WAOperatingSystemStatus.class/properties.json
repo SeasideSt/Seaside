@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/4/2008 21:29",
+	"instvars" : [
+		 ],
+	"name" : "WAOperatingSystemStatus",
+	"pools" : [
+		 ],
+	"super" : "WAPharoStatusItem",
+	"type" : "normal" }

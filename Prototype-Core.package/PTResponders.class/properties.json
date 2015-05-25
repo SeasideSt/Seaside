@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core-Ajax",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/27/2007 20:41",
+	"instvars" : [
+		 ],
+	"name" : "PTResponders",
+	"pools" : [
+		 ],
+	"super" : "PTNamed",
+	"type" : "normal" }

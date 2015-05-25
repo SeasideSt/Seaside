@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "jf 1/30/2009 13:30" },
+	"instance" : {
+		"assertDefault:" : "jok 3/22/2010 11:53",
+		"createRegistry" : "pmm 9/5/2009 12:23",
+		"registerNewHandler" : "pmm 8/13/2010 13:59",
+		"testFieldNoCookieHandlerAbsent" : "pmm 7/17/2011 21:20",
+		"testFieldNoCookieHandlerPresent" : "pmm 7/17/2011 13:01",
+		"testMatchingHandlerAbsent" : "pmm 7/17/2011 21:21",
+		"testMatchingHandlerPresent" : "pmm 7/17/2011 21:21",
+		"testMismatchingWithBothHandlers" : "pmm 7/17/2011 13:04",
+		"testMismatchingWithCookieHandler" : "pmm 7/17/2011 21:22",
+		"testMismatchingWithNoHandlers" : "pmm 7/17/2011 21:22",
+		"testMismatchingWithUrlHandler" : "pmm 7/17/2011 12:52",
+		"testNoFieldCookieHandlerAbsent" : "pmm 7/17/2011 21:23",
+		"testNoFieldCookieHandlerPresent" : "pmm 7/17/2011 21:23",
+		"testNoKey" : "jf 1/30/2009 16:15" } }

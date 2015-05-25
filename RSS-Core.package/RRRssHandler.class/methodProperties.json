@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"description" : "lr 7/25/2011 19:47" },
+	"instance" : {
+		"createDocumentRoot" : "lr 7/25/2011 19:54",
+		"createRootComponent" : "lr 7/25/2011 19:54",
+		"defaultConfiguration" : "pmm 8/29/2008 19:40",
+		"handleFiltered:" : "pmm 8/14/2010 11:57",
+		"initialize" : "jf 3/4/2009 10:52",
+		"rootComponentClass" : "pmm 8/29/2008 19:57",
+		"rootComponentClass:" : "pmm 8/29/2008 19:58",
+		"setContentType:" : "pmm 9/1/2012 16:40" } }

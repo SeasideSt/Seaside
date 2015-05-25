@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 10/18/2008 10:19",
+	"instvars" : [
+		"notification" ],
+	"name" : "WAUnhandledNotificationError",
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

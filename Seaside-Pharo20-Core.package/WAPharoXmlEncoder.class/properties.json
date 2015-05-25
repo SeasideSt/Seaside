@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo20-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAPharoXmlEncoder",
+	"pools" : [
+		 ],
+	"super" : "WAPharoEncoder",
+	"type" : "normal" }

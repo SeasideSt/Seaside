@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"description" : "lr 7/25/2011 19:48",
+		"initialize" : "jf 10/26/2008 17:34" },
+	"instance" : {
+		"children" : "avi 4/15/2004 21:50",
+		"initialize" : "lr 2/20/2007 12:06",
+		"renderContentOn:" : "lr 10/28/2007 14:42" } }

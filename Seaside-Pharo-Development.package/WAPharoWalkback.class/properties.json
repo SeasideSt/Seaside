@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 2/21/2009 00:00",
+	"instvars" : [
+		"frames" ],
+	"name" : "WAPharoWalkback",
+	"pools" : [
+		 ],
+	"super" : "WAWalkback",
+	"type" : "normal" }

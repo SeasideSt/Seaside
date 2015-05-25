@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Adaptors-Comanche",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAComancheDocumentHandlerResponseTest",
+	"pools" : [
+		 ],
+	"super" : "WADocumentHandlerResponseTest",
+	"type" : "normal" }

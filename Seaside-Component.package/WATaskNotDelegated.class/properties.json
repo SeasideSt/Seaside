@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component-Tasks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WATaskNotDelegated",
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

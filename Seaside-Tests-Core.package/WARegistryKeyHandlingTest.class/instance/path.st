@@ -1,0 +1,3 @@
+private
+path
+	^ '/', self registryName

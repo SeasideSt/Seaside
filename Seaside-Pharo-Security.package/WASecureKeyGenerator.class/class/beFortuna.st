@@ -1,0 +1,3 @@
+public
+beFortuna
+	generator := #fortuna

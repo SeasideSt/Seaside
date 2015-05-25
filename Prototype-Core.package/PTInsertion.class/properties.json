@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core-Ajax",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/27/2007 21:19",
+	"instvars" : [
+		 ],
+	"name" : "PTInsertion",
+	"pools" : [
+		 ],
+	"super" : "PTNamed",
+	"type" : "normal" }

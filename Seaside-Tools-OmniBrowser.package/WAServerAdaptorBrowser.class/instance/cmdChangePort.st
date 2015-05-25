@@ -1,0 +1,5 @@
+commands
+cmdChangePort
+	<command>
+	
+	^ WACmdPortForAdaptor

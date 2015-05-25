@@ -1,0 +1,3 @@
+defaults
+defaultFunction
+	^ JSFunction new

@@ -1,0 +1,1 @@
+I evaluate the decorated object after a timeout.

@@ -1,0 +1,3 @@
+accessing
+tag
+	self subclassResponsibility

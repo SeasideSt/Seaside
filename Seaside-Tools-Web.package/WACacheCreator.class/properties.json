@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "WACacheCreator",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

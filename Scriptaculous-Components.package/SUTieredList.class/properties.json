@@ -1,0 +1,17 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectionPath",
+		"childrenBlock",
+		"labelBlock",
+		"uid" ],
+	"name" : "SUTieredList",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

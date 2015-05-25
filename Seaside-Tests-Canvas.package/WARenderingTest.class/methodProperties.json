@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:gives:" : "as 2/6/2011 22:06",
+		"testConditionalComment" : "pmm 11/25/2007 11:17",
+		"testContentType" : "jf 3/13/2009 18:22",
+		"testJavascript" : "pmm 1/26/2008 20:14",
+		"testLinkElement" : "pmm 12/4/2007 20:23",
+		"testLinkElementWithContent" : "pmm 1/29/2008 21:55",
+		"testRevealedConditionalComment" : "pmm 11/25/2007 22:01" } }

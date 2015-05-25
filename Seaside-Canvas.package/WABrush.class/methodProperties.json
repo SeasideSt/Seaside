@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"close" : "lr 4/9/2007 16:32",
+		"initialize" : "jf 8/30/2008 16:29",
+		"labelForSelector:of:" : "lr 3/27/2007 17:38",
+		"parent" : "avi 6/13/2004 00:27",
+		"setParent:canvas:" : "avi 6/13/2004 00:27",
+		"with:" : "lr 3/27/2007 11:10" } }

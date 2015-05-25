@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAEmailAddressTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

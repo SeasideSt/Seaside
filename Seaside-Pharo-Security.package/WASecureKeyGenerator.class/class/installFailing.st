@@ -1,0 +1,3 @@
+private
+installFailing
+	WAKeyGenerator current: WANoSecureKeyGeneratorAvailable new

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WANode",
+	"pools" : [
+		 ],
+	"super" : "OBNode",
+	"type" : "normal" }

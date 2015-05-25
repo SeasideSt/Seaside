@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/18/2008 10:06",
+	"instvars" : [
+		 ],
+	"name" : "WADevelopment",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

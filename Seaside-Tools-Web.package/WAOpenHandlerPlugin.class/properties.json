@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAOpenHandlerPlugin",
+	"pools" : [
+		 ],
+	"super" : "WAConfigurationToolPlugin",
+	"type" : "normal" }

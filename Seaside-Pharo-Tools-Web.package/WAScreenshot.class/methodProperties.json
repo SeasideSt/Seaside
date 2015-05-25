@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"canBeRoot" : "avi 2/5/2004 12:57",
+		"description" : "lr 8/30/2009 17:40",
+		"initialize" : "jf 10/26/2008 17:34" },
+	"instance" : {
+		"buttonCode" : "pmm 9/20/2006 17:48",
+		"click:" : "lr 8/11/2009 20:10",
+		"form" : "pmm 9/20/2006 17:48",
+		"handleEvent:" : "lr 8/11/2009 20:10",
+		"initialize" : "pmm 9/20/2006 17:45",
+		"offset" : "pmm 9/20/2006 17:49",
+		"renderContentOn:" : "lr 10/28/2007 14:42",
+		"renderMouseButtonOn:" : "pmm 1/22/2012 16:39",
+		"renderMouseClickOn:" : "pmm 1/22/2012 16:35",
+		"renderToggleUIProcessOn:" : "lr 7/25/2011 18:58",
+		"renderToggleZoomOn:" : "pmm 11/1/2007 21:42",
+		"toggleUIProcess" : "pmm 8/14/2012 20:13",
+		"toggleUIText" : "pmm 8/14/2012 20:13",
+		"toggleZoom" : "pmm 9/20/2006 17:47",
+		"toggleZoomText" : "pmm 11/1/2007 21:42",
+		"topWindow" : "avi 2/5/2004 14:18",
+		"uiProcess" : "pmm 8/14/2012 20:13" } }

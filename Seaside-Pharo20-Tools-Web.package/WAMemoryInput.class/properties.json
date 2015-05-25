@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Pharo20-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/23/2009 19:35",
+	"instvars" : [
+		"value",
+		"multiplier" ],
+	"name" : "WAMemoryInput",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

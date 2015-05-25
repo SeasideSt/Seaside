@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Security",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/1/2014 12:10",
+	"instvars" : [
+		 ],
+	"name" : "WAContentSecurityPolicyFilter",
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

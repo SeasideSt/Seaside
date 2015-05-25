@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:00",
+	"instvars" : [
+		 ],
+	"name" : "WAClosedRangeTag",
+	"pools" : [
+		 ],
+	"super" : "WASteppedTag",
+	"type" : "normal" }

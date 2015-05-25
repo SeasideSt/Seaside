@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUVerticalCarousel",
+	"pools" : [
+		 ],
+	"super" : "SUCarousel",
+	"type" : "normal" }

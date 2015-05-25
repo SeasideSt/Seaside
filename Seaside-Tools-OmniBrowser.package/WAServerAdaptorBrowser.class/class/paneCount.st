@@ -1,0 +1,3 @@
+configuration
+paneCount
+	^ 1

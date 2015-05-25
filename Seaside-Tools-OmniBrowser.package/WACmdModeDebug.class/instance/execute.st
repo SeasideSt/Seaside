@@ -1,0 +1,3 @@
+execution
+execute
+	target setDebugMode

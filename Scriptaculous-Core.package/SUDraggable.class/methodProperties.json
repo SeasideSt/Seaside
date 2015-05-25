@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"constraint:" : "lr 3/7/2006 13:48",
+		"constraintHorizontal" : "lr 3/7/2006 13:48",
+		"constraintVertical" : "lr 3/7/2006 13:48",
+		"defaultPrototype" : "lr 6/30/2006 19:48",
+		"delay:" : "lr 9/5/2006 17:23",
+		"endEffect:" : "lr 9/5/2006 17:28",
+		"ghosting:" : "lr 3/7/2006 13:44",
+		"handle:" : "lr 3/7/2006 13:45",
+		"initialize" : "lr 6/30/2006 19:48",
+		"onChange:" : "lr 2/1/2008 15:57",
+		"onDrag:" : "lr 9/5/2006 17:26",
+		"onDropped:" : "lr 3/12/2007 16:50",
+		"onEnd:" : "lr 9/5/2006 17:26",
+		"onSnap:" : "lr 2/1/2008 16:01",
+		"onStart:" : "lr 9/5/2006 17:26",
+		"revert:" : "lr 3/7/2006 13:45",
+		"revertEffect:" : "lr 9/5/2006 17:29",
+		"scroll:" : "lr 4/7/2006 13:48",
+		"scrollSensitivity:" : "lr 4/7/2006 13:48",
+		"scrollSpeed:" : "lr 4/7/2006 13:48",
+		"snap:" : "lr 3/7/2006 13:45",
+		"startEffect:" : "lr 1/11/2007 08:38",
+		"zindex:" : "lr 3/7/2006 13:45" } }

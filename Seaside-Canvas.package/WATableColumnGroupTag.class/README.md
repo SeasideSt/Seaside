@@ -1,0 +1,1 @@
+WATableColumnGroupTag groups a set of col elements. It allows you to group several semantically related columns together.

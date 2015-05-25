@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"browserUserAgents" : "pmm 8/1/2011 13:52",
+		"crawlerUserAgents" : "pmm 8/1/2011 13:55",
+		"newStrategy" : "pmm 7/31/2011 14:14",
+		"testIsFromCrawler" : "pmm 8/1/2011 13:54",
+		"testIsNotFromCrawler" : "pmm 8/1/2011 13:54" } }

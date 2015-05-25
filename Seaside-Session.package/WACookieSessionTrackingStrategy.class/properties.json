@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/17/2011 17:52",
+	"instvars" : [
+		 ],
+	"name" : "WACookieSessionTrackingStrategy",
+	"pools" : [
+		 ],
+	"super" : "WASessionTrackingStrategy",
+	"type" : "normal" }

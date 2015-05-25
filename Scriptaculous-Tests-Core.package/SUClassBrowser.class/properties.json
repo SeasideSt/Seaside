@@ -1,0 +1,15 @@
+{
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"selector" ],
+	"name" : "SUClassBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

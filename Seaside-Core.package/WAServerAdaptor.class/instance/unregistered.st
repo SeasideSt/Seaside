@@ -1,0 +1,3 @@
+registration
+unregistered
+	manager := nil

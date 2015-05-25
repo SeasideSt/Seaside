@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultArguments" : "lr 2/27/2007 20:53",
+		"defaultMethod" : "lr 2/27/2007 20:49",
+		"defaultPrototype" : "lr 2/27/2007 20:42",
+		"onComplete:" : "lr 2/27/2007 20:45",
+		"onCreate:" : "lr 2/27/2007 20:45",
+		"onException:" : "lr 2/27/2007 20:45",
+		"onFailure:" : "lr 2/27/2007 20:45",
+		"onInteractive:" : "lr 2/27/2007 20:45",
+		"onLoaded:" : "lr 2/27/2007 20:45",
+		"onLoading:" : "lr 2/27/2007 20:45",
+		"onStatus:do:" : "jf 9/30/2009 01:10",
+		"onSuccess:" : "lr 2/27/2007 20:45",
+		"onUninitialized:" : "lr 2/27/2007 20:45",
+		"register" : "lr 2/27/2007 20:50",
+		"unregister" : "lr 2/27/2007 20:50" } }

@@ -1,0 +1,3 @@
+private
+defaultMethod
+	^ nil

@@ -1,0 +1,5 @@
+commands
+cmdRemoveHandler
+	<command>
+	
+	^ WACmdRemoveHandler

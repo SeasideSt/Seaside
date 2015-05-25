@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Interaction",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/26/2008 20:06",
+	"instvars" : [
+		 ],
+	"name" : "JQDroppable",
+	"pools" : [
+		 ],
+	"super" : "JQWidget",
+	"type" : "normal" }

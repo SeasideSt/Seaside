@@ -1,0 +1,5 @@
+commands
+cmdAddAdaptor
+	<command>
+	
+	^ WACmdAddAdaptor

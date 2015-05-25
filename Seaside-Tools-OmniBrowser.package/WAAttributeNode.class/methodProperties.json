@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"configuration:attribute:" : "lr 1/11/2009 23:16" },
+	"instance" : {
+		"attribute" : "jf 1/12/2009 10:55",
+		"configuration" : "jf 1/12/2009 10:55",
+		"default" : "jf 1/12/2009 11:02",
+		"definition" : "lr 1/11/2009 23:17",
+		"isAbstract" : "jf 1/12/2009 10:59",
+		"isAttribute" : "jf 1/12/2009 10:55",
+		"isLocal" : "jf 1/12/2009 11:01",
+		"isOverridden" : "jf 1/12/2009 11:05",
+		"isOverride" : "jf 5/23/2010 22:49",
+		"name" : "jf 9/17/2008 23:19",
+		"removeExpression" : "jf 1/12/2009 12:07",
+		"setConfiguration:attribute:" : "lr 1/11/2009 23:16" } }

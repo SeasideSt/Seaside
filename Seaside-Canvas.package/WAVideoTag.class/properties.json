@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 4/4/2007 03:01",
+	"instvars" : [
+		 ],
+	"name" : "WAVideoTag",
+	"pools" : [
+		 ],
+	"super" : "WAMediaElementTag",
+	"type" : "normal" }

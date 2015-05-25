@@ -1,0 +1,14 @@
+{
+	"category" : "RSS-Core-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/22/2006 14:39",
+	"instvars" : [
+		 ],
+	"name" : "RRCloudTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+scriptGeneratorClass: aScriptGeneratorClass
+	scriptGeneratorClass := aScriptGeneratorClass

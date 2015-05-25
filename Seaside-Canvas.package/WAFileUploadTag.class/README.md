@@ -1,0 +1,1 @@
+I represent a file input element (<input type="file"). My callbacks will be evaluated with an instance of WAFile as an argument.

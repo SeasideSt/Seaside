@@ -1,0 +1,3 @@
+*comet-core
+isCometFilter
+	^ false

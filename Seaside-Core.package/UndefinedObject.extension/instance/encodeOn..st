@@ -1,0 +1,2 @@
+*seaside-core
+encodeOn: aDocument

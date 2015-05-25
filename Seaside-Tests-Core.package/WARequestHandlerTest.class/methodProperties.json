@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"isAbstract" : "jf 10/7/2008 01:01" },
+	"instance" : {
+		"handlerName" : "pmm 1/30/2011 15:35",
+		"newHandler" : "jf 10/6/2008 23:13",
+		"setUp" : "pmm 1/30/2011 15:36",
+		"testAddFilter" : "lr 8/31/2008 15:46",
+		"testAddFilterFirst" : "lr 11/3/2008 21:56",
+		"testAddFilterLast" : "lr 11/3/2008 21:54",
+		"testCopyConfiguration" : "pmm 9/1/2012 16:41",
+		"testCopyEmpty" : "jf 10/7/2008 00:14",
+		"testCopyFilters" : "jf 10/7/2008 00:13",
+		"testCopyParent" : "jf 9/23/2009 23:19",
+		"testHandler" : "lr 8/31/2008 15:47",
+		"testPreferenceAt" : "jf 5/23/2010 23:00",
+		"testRemoveFilter" : "lr 8/31/2008 15:45",
+		"testRemoveFromOldParent" : "pmm 9/1/2012 16:41" } }

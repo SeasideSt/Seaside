@@ -1,0 +1,3 @@
+private
+builder
+	^ WAHtmlCanvas builder

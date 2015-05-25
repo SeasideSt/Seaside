@@ -1,0 +1,1 @@
+I'm purely for backwards compatibility with Seaside 3.0

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAAttributeInheritanceFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

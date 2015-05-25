@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"example" : "lr 7/25/2011 11:05",
+		"method:selector:pattern:" : "lr 7/25/2011 11:05",
+		"method:selector:pattern:arguments:produces:consumes:" : "lr 7/25/2011 11:05",
+		"method:selector:url:arguments:produces:consumes:" : "lr 7/25/2011 11:05" },
+	"instance" : {
+		"argumentCount" : "lr 7/26/2011 14:07",
+		"buildPathMatchesFrom:arguments:" : "pmm 8/27/2011 11:51",
+		"initializeWithMethod:selector:url:arguments:produces:consumes:" : "pmm 9/1/2012 16:03",
+		"isOverlyComplex" : "pmm 3/22/2011 14:30",
+		"mapArgumentsWithElements:parameters:into:" : "lr 7/26/2011 14:07",
+		"matchesFlexibleNumberOfPathElements" : "pmm 3/22/2011 14:33",
+		"matchesModeratelyComplex:" : "pmm 3/22/2011 09:17",
+		"matchesOverlyComplex:" : "pmm 7/10/2011 16:45",
+		"matchesParameters:" : "pmm 9/8/2009 17:13",
+		"matchesPath:" : "lr 7/25/2011 10:56",
+		"pathElementCount" : "pmm 9/6/2009 22:09",
+		"printOn:" : "NickAger 8/13/2011 15:27",
+		"priority" : "pmm 9/7/2009 00:27" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pmm 7/24/2007 22:05",
+		"testBorderline" : "lr 10/28/2007 14:42",
+		"testContentType" : "pmm 10/31/2010 14:04",
+		"testContents" : "pmm 8/2/2011 20:56",
+		"testContentsDecoded" : "pmm 11/14/2009 22:07",
+		"testNonLatinWindowsPath" : "lr 7/16/2009 08:52",
+		"testWindowsPath" : "pmm 7/25/2007 21:39" } }

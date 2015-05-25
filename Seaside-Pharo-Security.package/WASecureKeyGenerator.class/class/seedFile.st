@@ -1,0 +1,3 @@
+private
+seedFile
+	^ '/dev/urandom'

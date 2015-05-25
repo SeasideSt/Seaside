@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JSScriptTest",
+	"pools" : [
+		 ],
+	"super" : "JSObjectTest",
+	"type" : "normal" }

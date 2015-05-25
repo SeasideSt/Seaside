@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"context:" : "jf 2/9/2011 23:16",
+		"on:codec:" : "jf 2/9/2011 23:03" },
+	"instance" : {
+		"attribute:with:" : "jf 2/9/2011 23:41",
+		"attributes:" : "pmm 2/9/2011 07:03",
+		"closeTag:" : "jf 2/9/2011 23:33",
+		"indent" : "jf 2/9/2011 23:50",
+		"initializeWithContext:" : "pmm 2/19/2012 15:21",
+		"knownEvents" : "pmm 6/25/2011 20:47",
+		"knownRefs" : "lr 4/20/2007 22:11",
+		"nextPut:" : "jf 2/9/2011 23:05",
+		"nextPutAll:" : "jf 2/9/2011 23:05",
+		"openTag:attributes:closed:" : "jf 2/9/2011 23:34" } }

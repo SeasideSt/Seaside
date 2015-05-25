@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"new" : "lr 10/16/2008 19:19",
+		"on:" : "lr 10/16/2008 19:19" },
+	"instance" : {
+		"collection" : "avi 9/27/2005 23:40",
+		"encodeElement:on:" : "lr 7/14/2010 13:24",
+		"encodeEmptyOn:" : "lr 7/14/2010 12:48",
+		"encodeOn:" : "lr 7/14/2010 12:48",
+		"initializeOn:" : "jf 3/13/2009 17:59",
+		"javascriptContentOn:" : "lr 7/14/2010 13:11" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Libraries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQBlackTieTheme",
+	"pools" : [
+		 ],
+	"super" : "JQBaseTheme",
+	"type" : "normal" }

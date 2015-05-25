@@ -1,0 +1,3 @@
+configuration
+buttonPanel
+	^ nil

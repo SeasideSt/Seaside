@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/13/2008 21:46",
+	"instvars" : [
+		 ],
+	"name" : "JSInterval",
+	"pools" : [
+		 ],
+	"super" : "JSTimed",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+This filter provides the implementation of WAComponent>>#isolate:. It rejects all requests as soon as the filter has been closed.

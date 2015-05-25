@@ -1,0 +1,1 @@
+I access a property of the decorated object.

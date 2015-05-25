@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/28/2011 20:33",
+	"instvars" : [
+		"method",
+		"selector",
+		"produces",
+		"consumes" ],
+	"name" : "WARoute",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

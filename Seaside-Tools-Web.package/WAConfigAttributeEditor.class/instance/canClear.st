@@ -1,0 +1,3 @@
+testing
+canClear
+	^ group ~~ #authentication

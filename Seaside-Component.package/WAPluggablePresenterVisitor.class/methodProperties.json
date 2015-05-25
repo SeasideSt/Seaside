@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"block:" : "jf 11/3/2008 16:22",
+		"new" : "jf 2/9/2009 17:16" },
+	"instance" : {
+		"block" : "jf 10/22/2008 16:07",
+		"initializeWithBlock:" : "jf 11/3/2008 16:22",
+		"visitPresenter:" : "jf 10/22/2008 16:07" } }

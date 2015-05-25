@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultArguments" : "lr 5/17/2006 11:29",
+		"defaultEvent" : "lr 10/14/2008 00:40",
+		"defaultPrototype" : "lr 5/10/2006 21:20",
+		"element" : "lr 10/14/2008 09:10",
+		"event" : "lr 5/10/2006 21:13",
+		"event:" : "lr 5/10/2006 21:14",
+		"findElement:" : "lr 10/14/2008 09:13",
+		"isLeftClick" : "lr 10/14/2008 09:10",
+		"observe:on:do:" : "lr 10/14/2008 09:10",
+		"stop" : "lr 10/14/2008 09:00",
+		"x" : "lr 10/14/2008 09:00",
+		"y" : "lr 10/14/2008 09:00" } }

@@ -1,0 +1,5 @@
+commands
+cmdRemoveExpression
+	<command>
+	
+	^ WACmdRemoveExpression

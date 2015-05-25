@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Tests-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mutex",
+		"process",
+		"process2" ],
+	"name" : "WAMutexTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

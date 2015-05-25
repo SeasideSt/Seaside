@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 7/17/2011 21:39" },
+	"instance" : {
+		"assertCookieInContext:withValue:" : "pmm 7/31/2011 13:35",
+		"assertNoCookies:" : "pmm 7/24/2011 21:01",
+		"createRequest" : "pmm 7/24/2011 21:23",
+		"newDocumentHandler" : "pmm 7/24/2011 20:51",
+		"newStrategy" : "pmm 7/17/2011 21:40",
+		"setUp" : "pmm 7/17/2011 21:40" } }

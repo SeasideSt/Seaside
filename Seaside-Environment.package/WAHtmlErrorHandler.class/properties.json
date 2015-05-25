@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Environment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 11/10/2008 10:07",
+	"instvars" : [
+		 ],
+	"name" : "WAHtmlErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "WAErrorHandler",
+	"type" : "normal" }

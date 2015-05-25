@@ -1,0 +1,3 @@
+converting-request
+requestCookiesFor: aNativeRequest
+	self shouldNotImplement

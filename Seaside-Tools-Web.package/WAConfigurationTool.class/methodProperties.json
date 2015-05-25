@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"canBeRoot" : "lr 7/25/2011 19:47",
+		"description" : "obi 9/23/2009 10:30",
+		"initialize" : "obi 9/23/2009 10:29",
+		"new" : "obi 9/21/2009 21:21",
+		"on:" : "obi 9/21/2009 21:21" },
+	"instance" : {
+		"children" : "lr 7/25/2011 19:59",
+		"component" : "lr 7/25/2011 19:59",
+		"initializeOn:" : "lr 12/24/2009 18:35",
+		"renderComponentOn:" : "obi 9/21/2009 21:24",
+		"renderContentOn:" : "obi 6/3/2010 10:15",
+		"renderHeadingOn:" : "Nick 6/13/2010 21:08",
+		"renderLogoOn:" : "jf 2/14/2010 23:52",
+		"renderTopBarOn:" : "pmm 9/1/2012 16:15",
+		"title" : "Nick 6/13/2010 21:37" } }

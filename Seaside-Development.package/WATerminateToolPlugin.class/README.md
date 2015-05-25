@@ -1,0 +1,1 @@
+I try to terminate the process handling this session. This can work of you're at 100% CPU.

@@ -1,0 +1,17 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 4/30/2007 23:41",
+	"instvars" : [
+		"withSeconds",
+		"hours",
+		"minutes",
+		"seconds" ],
+	"name" : "WATimeInput",
+	"pools" : [
+		 ],
+	"super" : "WACompound",
+	"type" : "normal" }

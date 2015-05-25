@@ -1,0 +1,3 @@
+updating
+startAll
+	manager startAll

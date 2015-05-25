@@ -1,0 +1,3 @@
+doctype
+docType
+	^ docType

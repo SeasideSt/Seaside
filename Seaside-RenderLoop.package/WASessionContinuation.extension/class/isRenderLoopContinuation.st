@@ -1,0 +1,3 @@
+*seaside-renderloop
+isRenderLoopContinuation
+	^ false

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCodec" : "jf 9/30/2009 00:27",
+		"testEncodedLatin1Url" : "pmm 8/14/2012 20:01",
+		"testEncodedSupplementaryMultilingualPlane" : "pmm 8/14/2012 20:03",
+		"testEncodedSupplementaryMultilingualPlaneUrl" : "pmm 8/14/2012 20:03",
+		"testEncodedUnicode" : "pmm 8/14/2012 20:02",
+		"testEncodedUnicodeUrl" : "pmm 8/14/2012 20:02" } }

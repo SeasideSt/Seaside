@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:07",
+	"instvars" : [
+		"attributes" ],
+	"name" : "WATagBrush",
+	"pools" : [
+		 ],
+	"super" : "WABrush",
+	"type" : "normal" }

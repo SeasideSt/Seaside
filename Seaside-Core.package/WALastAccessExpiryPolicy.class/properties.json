@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lastAccessTable" ],
+	"name" : "WALastAccessExpiryPolicy",
+	"pools" : [
+		 ],
+	"super" : "WACacheExpiryPolicy",
+	"type" : "normal" }

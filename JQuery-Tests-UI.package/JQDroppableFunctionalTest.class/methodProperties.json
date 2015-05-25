@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"colors" : "lr 12/23/2009 10:17",
+		"initialize" : "lr 12/23/2009 10:09",
+		"renderContentOn:" : "lr 12/23/2009 10:48",
+		"renderInstructionsOn:" : "lr 12/23/2009 11:42",
+		"renderInventoryOn:" : "lr 12/23/2009 10:49",
+		"renderSelectedItemsOn:" : "lr 12/23/2009 12:06",
+		"renderSelectedOn:" : "lr 12/23/2009 11:56",
+		"selected" : "lr 12/23/2009 11:44",
+		"selectors" : "lr 12/23/2009 11:42",
+		"style" : "lr 12/23/2009 12:04",
+		"title" : "lr 12/17/2008 09:38",
+		"url" : "lr 1/28/2010 18:12" } }

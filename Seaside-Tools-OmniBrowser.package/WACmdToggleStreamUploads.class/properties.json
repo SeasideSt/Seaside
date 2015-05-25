@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WACmdToggleStreamUploads",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

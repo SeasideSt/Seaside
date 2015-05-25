@@ -1,0 +1,1 @@
+A Squeak-specific implementation of a web-based object inspector.

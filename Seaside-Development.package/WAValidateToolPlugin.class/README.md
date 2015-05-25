@@ -1,0 +1,1 @@
+I validate and XHTML page by sending it to the W3C validator. I only work if the website is publically available.

@@ -1,0 +1,1 @@
+A WAJitStatus displays information about the Just-In-Time native code compiler.

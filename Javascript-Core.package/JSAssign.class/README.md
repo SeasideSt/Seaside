@@ -1,0 +1,1 @@
+I assign the decorated object to a global variable.

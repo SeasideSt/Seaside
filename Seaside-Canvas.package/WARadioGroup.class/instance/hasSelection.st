@@ -1,0 +1,3 @@
+testing
+hasSelection
+ 	^ selected notNil

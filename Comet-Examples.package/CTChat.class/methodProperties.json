@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"initialize" : "lr 6/7/2010 10:59",
+		"pusher" : "lr 1/2/2008 17:58" },
+	"instance" : {
+		"isLoggedIn" : "lr 1/2/2008 19:00",
+		"login:" : "lr 1/2/2008 20:01",
+		"logout" : "lr 1/2/2008 20:01",
+		"message:" : "lr 1/2/2008 19:35",
+		"push:with:" : "lr 11/17/2009 08:32",
+		"pusher" : "lr 1/2/2008 18:37",
+		"renderChatInputOn:" : "lr 4/28/2012 18:18",
+		"renderChatMessagesOn:" : "lr 1/2/2008 20:05",
+		"renderChatOn:" : "lr 1/2/2008 19:44",
+		"renderChatPusherOn:" : "lr 3/25/2009 08:56",
+		"renderChatStatusOn:" : "lr 1/2/2008 19:56",
+		"renderContentOn:" : "lr 1/2/2008 18:38",
+		"renderLoginOn:" : "lr 1/2/2008 18:52",
+		"renderMessage:class:on:" : "lr 1/2/2008 20:05",
+		"style" : "lr 1/10/2009 13:36",
+		"username" : "lr 1/2/2008 18:38",
+		"users" : "lr 1/2/2008 20:01" } }

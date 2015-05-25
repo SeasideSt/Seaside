@@ -1,0 +1,23 @@
+{
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"component",
+		"id",
+		"updateBlock",
+		"componentBlock",
+		"extent",
+		"origin",
+		"properties",
+		"collapsed",
+		"visible" ],
+	"name" : "SUWindow",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

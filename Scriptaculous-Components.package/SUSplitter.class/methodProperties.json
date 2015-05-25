@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "lr 2/1/2008 16:48",
+		"add:size:" : "lr 2/1/2008 16:48",
+		"add:size:min:" : "obi 5/5/2008 20:28",
+		"children" : "lr 2/1/2008 16:28",
+		"cssClass" : "lr 2/1/2008 17:10",
+		"draggable:and:on:" : "obi 2/11/2009 20:59",
+		"initOffsetScript" : "obi 2/3/2008 20:47",
+		"initialize" : "lr 2/1/2008 16:41",
+		"items" : "lr 2/1/2008 16:49",
+		"renderContentOn:" : "lr 2/1/2008 17:24",
+		"renderItem:on:" : "lr 2/1/2008 16:35",
+		"renderSplitter:and:on:" : "lr 2/1/2008 17:20" } }

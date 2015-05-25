@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Widgets-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 10/3/2007 21:11",
+	"instvars" : [
+		"title",
+		"cssClass" ],
+	"name" : "WAWindowDecoration",
+	"pools" : [
+		 ],
+	"super" : "WAWidgetDecoration",
+	"type" : "normal" }

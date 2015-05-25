@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"printer" ],
+	"name" : "WAJsonStreamTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+Initiates and processes an AJAX request.

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"context:" : "jf 1/23/2009 12:00" },
+	"instance" : {
+		"initializeWithContext:" : "jf 1/23/2009 12:01",
+		"postCopyForRenderContext:" : "jf 2/12/2009 21:25",
+		"renderContext" : "jf 1/23/2009 12:02",
+		"visitPainter:" : "jf 2/12/2009 19:48" } }

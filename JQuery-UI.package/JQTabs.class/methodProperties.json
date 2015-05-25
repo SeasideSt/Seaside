@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"active:" : "JohanBrichau 3/1/2014 17:23",
+		"collapsible:" : "lr 6/14/2009 19:50",
+		"destroy" : "JohanBrichau 3/1/2014 17:32",
+		"disable:" : "lr 3/7/2009 12:59",
+		"disabled:" : "lr 6/14/2009 19:50",
+		"enable:" : "lr 3/7/2009 12:59",
+		"event:" : "lr 6/14/2009 19:50",
+		"heightStyle:" : "JohanBrichau 3/1/2014 17:14",
+		"hide:" : "JohanBrichau 3/1/2014 17:17",
+		"load:" : "lr 3/7/2009 12:59",
+		"method" : "lr 10/20/2008 19:51",
+		"onActivate:" : "JohanBrichau 3/1/2014 17:26",
+		"onBeforeActivate:" : "JohanBrichau 3/1/2014 17:22",
+		"onBeforeLoad:" : "JohanBrichau 3/1/2014 17:19",
+		"onCreate:" : "JohanBrichau 3/1/2014 17:28",
+		"onLoad:" : "lr 6/14/2009 19:50",
+		"refresh" : "JohanBrichau 3/1/2014 18:24",
+		"show:" : "JohanBrichau 3/1/2014 17:17" } }

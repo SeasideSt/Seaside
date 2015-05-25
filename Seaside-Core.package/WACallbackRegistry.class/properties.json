@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callbacks",
+		"nextKey" ],
+	"name" : "WACallbackRegistry",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

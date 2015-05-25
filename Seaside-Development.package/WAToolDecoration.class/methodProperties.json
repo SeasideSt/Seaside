@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"canBeRoot" : "lr 9/14/2008 12:54" },
+	"instance" : {
+		"haloFor:" : "lr 9/19/2010 09:42",
+		"initialize" : "dkh 11/25/2009 11:34",
+		"isGlobal" : "lr 1/3/2008 13:15",
+		"plugins" : "dkh 11/25/2009 11:34",
+		"renderChildOn:" : "jf 2/12/2009 21:05",
+		"renderContentOn:" : "lr 10/28/2007 14:42",
+		"renderToolbarOn:" : "lr 3/7/2009 14:36",
+		"showHalos" : "lr 6/5/2007 21:46",
+		"states" : "lr 4/15/2007 18:46",
+		"toggleHalos" : "lr 3/24/2008 11:20",
+		"updateRoot:" : "lr 9/8/2009 12:40",
+		"updateStates:" : "jf 2/21/2009 03:20" } }

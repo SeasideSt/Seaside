@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"method:selector:" : "pmm 10/17/2010 15:51",
+		"method:selector:produces:consumes:" : "pmm 8/27/2011 11:44" },
+	"instance" : {
+		"argumentCount" : "pmm 9/8/2009 18:29",
+		"initializeWithMethod:count:selector:produces:consumes:" : "pmm 2/13/2011 10:37",
+		"mapArgumentsWithElements:parameters:into:" : "pmm 9/9/2009 07:01",
+		"matchesFlexibleNumberOfPathElements" : "pmm 3/22/2011 14:33",
+		"matchesParameters:" : "pmm 9/8/2009 17:13",
+		"matchesPath:" : "pmm 9/8/2009 13:02",
+		"pathElementCount" : "pmm 9/6/2009 21:55",
+		"priority" : "pmm 9/7/2009 00:25" } }

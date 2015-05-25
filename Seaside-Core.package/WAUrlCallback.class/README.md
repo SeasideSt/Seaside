@@ -1,0 +1,1 @@
+A WAEmailCallback is a callback for url input fields.

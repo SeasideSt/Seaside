@@ -1,0 +1,1 @@
+Creates new selectable on the nodeset supplied by the query.

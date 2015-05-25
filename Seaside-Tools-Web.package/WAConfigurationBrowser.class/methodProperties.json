@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "lr 12/24/2009 18:13",
+		"configure:" : "Nick 6/13/2010 19:52",
+		"defaultDispatcher" : "lr 7/25/2011 19:59",
+		"editor" : "lr 12/24/2009 18:14",
+		"editor:" : "obi 9/29/2009 21:30",
+		"emptyPage" : "lr 12/24/2009 18:14",
+		"handlerClasses" : "jf 9/23/2009 23:42",
+		"initializeOn:" : "obi 6/3/2010 11:22",
+		"openHandler:" : "Nick 6/13/2010 19:57",
+		"renderContentOn:" : "obi 6/3/2010 10:14",
+		"renderEditorOn:" : "Nick 6/13/2010 22:01",
+		"renderRow:named:on:" : "Nick 6/13/2010 18:49",
+		"renderRowDescription:on:" : "obi 6/13/2010 09:17",
+		"renderRowName:named:on:" : "pmm 1/22/2012 16:34",
+		"selection" : "obi 9/22/2009 21:33",
+		"selection:" : "obi 9/22/2009 21:33",
+		"setEmptyPage" : "obi 9/29/2009 21:38",
+		"show:onAnswer:" : "obi 9/24/2009 17:00",
+		"updateUrlHandler" : "Nick 6/13/2010 19:12" } }

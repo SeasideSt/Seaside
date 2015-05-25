@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alignX:" : "lr 3/13/2006 20:16",
+		"alignY:" : "lr 3/13/2006 20:17",
+		"axis:" : "lr 3/13/2006 20:13",
+		"defaultArguments" : "lr 5/15/2006 13:40",
+		"defaultPrototype" : "lr 5/15/2006 13:41",
+		"disabled:" : "lr 3/13/2006 20:17",
+		"handleId" : "lr 3/30/2006 20:18",
+		"handleId:" : "lr 3/30/2006 20:18",
+		"increment:" : "lr 3/13/2006 20:14",
+		"initialize" : "lr 5/15/2006 13:41",
+		"maximum:" : "lr 3/13/2006 20:14",
+		"minimum:" : "lr 3/13/2006 20:14",
+		"onChange:" : "lr 4/1/2006 11:19",
+		"onSlide:" : "lr 4/1/2006 11:19",
+		"range:" : "lr 3/13/2006 20:15",
+		"trackId" : "lr 3/30/2006 20:16",
+		"trackId:" : "lr 3/30/2006 20:16",
+		"value:" : "lr 3/20/2006 19:39",
+		"values:" : "lr 3/13/2006 20:18" } }

@@ -1,0 +1,3 @@
+updating
+inspectAdaptor
+	adaptor inspect

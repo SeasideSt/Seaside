@@ -1,0 +1,3 @@
+testing
+expectedLibrariesContents
+	^ 'forbidden'

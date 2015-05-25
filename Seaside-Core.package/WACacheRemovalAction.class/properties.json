@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 2/6/2009 16:33",
+	"instvars" : [
+		 ],
+	"name" : "WACacheRemovalAction",
+	"pools" : [
+		 ],
+	"super" : "WACachePlugin",
+	"type" : "normal" }

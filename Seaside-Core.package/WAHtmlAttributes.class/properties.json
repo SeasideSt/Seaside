@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/23/2009 12:28",
+	"instvars" : [
+		 ],
+	"name" : "WAHtmlAttributes",
+	"pools" : [
+		 ],
+	"super" : "GRSmallDictionary",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "lr 1/12/2008 09:28",
+		"renderContentOn:" : "lr 1/12/2008 09:12",
+		"renderInPlaceCollectionEditorOn:" : "lr 12/22/2008 23:38",
+		"renderInPlaceEditorOn:" : "lr 12/22/2008 23:38" } }

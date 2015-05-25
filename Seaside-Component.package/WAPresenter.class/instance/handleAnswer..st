@@ -1,0 +1,3 @@
+delegation
+handleAnswer: anObject
+	^ false

@@ -1,0 +1,1 @@
+Creates new sortable on the nodeset supplied by the query.

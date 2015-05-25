@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:02",
+	"instvars" : [
+		"windowTitle",
+		"features" ],
+	"name" : "WAPopupAnchorTag",
+	"pools" : [
+		 ],
+	"super" : "WAAnchorTag",
+	"type" : "normal" }

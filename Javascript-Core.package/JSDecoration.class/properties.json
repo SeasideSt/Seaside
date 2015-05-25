@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:47",
+	"instvars" : [
+		"owner" ],
+	"name" : "JSDecoration",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

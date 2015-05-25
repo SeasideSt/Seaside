@@ -1,0 +1,1 @@
+Periodically performs an AJAX request and updates a container's contents based on the response text. Offers a mechanism for decay, which lets it trigger at widening intervals while the response is unchanged.

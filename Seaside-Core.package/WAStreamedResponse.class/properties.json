@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 1/23/2009 11:07",
+	"instvars" : [
+		"committed",
+		"externalStream" ],
+	"name" : "WAStreamedResponse",
+	"pools" : [
+		 ],
+	"super" : "WAResponse",
+	"type" : "normal" }

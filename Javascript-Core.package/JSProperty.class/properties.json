@@ -1,0 +1,14 @@
+{
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 22:52",
+	"instvars" : [
+		 ],
+	"name" : "JSProperty",
+	"pools" : [
+		 ],
+	"super" : "JSMember",
+	"type" : "normal" }

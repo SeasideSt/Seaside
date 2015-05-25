@@ -1,0 +1,1 @@
+I am a password input widget that does not display the entered text.

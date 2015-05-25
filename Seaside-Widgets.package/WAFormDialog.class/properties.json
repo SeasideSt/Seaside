@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rew 9/24/2007 20:23",
+	"instvars" : [
+		"validationError",
+		"form" ],
+	"name" : "WAFormDialog",
+	"pools" : [
+		 ],
+	"super" : "WACanvasWidget",
+	"type" : "normal" }

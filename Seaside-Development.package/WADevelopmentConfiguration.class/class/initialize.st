@@ -1,0 +1,3 @@
+initialization
+initialize
+	WAAdmin applicationDefaults addParent: self instance

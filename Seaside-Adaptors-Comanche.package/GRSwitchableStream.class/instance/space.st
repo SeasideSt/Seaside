@@ -1,0 +1,3 @@
+streaming
+space
+	^ stream space

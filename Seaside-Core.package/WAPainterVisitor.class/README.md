@@ -1,0 +1,1 @@
+An implementation of the Visitor pattern for Painter subclasses.

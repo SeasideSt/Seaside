@@ -1,0 +1,1 @@
+The param element allows you to specify the run-time settings for an object inserted into XHTML documents.

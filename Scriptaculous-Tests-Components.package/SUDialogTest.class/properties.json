@@ -1,0 +1,14 @@
+{
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"answerBlock" ],
+	"name" : "SUDialogTest",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

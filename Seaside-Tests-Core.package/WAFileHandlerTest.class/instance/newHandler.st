@@ -1,0 +1,3 @@
+private
+newHandler
+	^ WAFileHandler new

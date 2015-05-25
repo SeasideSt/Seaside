@@ -1,0 +1,3 @@
+configuration
+default
+	^ JQUiWelcomeFunctionalTest new

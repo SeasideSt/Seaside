@@ -1,0 +1,1 @@
+WAStringAttribute represents a string attribute. It does the trivial conversion between text entered on the Seaside configuration page and a string.

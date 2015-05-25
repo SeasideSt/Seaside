@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"isAbstract" : "lr 7/25/2011 19:48" },
+	"instance" : {
+		"assertLibrariesResponse:" : "lr 7/25/2011 18:23",
+		"assertLibraryResponse:" : "lr 7/25/2011 18:23",
+		"expectedLibrariesContents" : "MAD 2/21/2009 14:53",
+		"expectedLibraryContents" : "MAD 2/21/2009 15:13",
+		"expectedMimeType" : "MAD 2/21/2009 13:42",
+		"expectedStatus" : "MAD 2/21/2009 14:34",
+		"handlerClass" : "MAD 2/21/2009 13:41",
+		"testFileLibraries" : "pmm 9/1/2012 16:21",
+		"testFileLibrary" : "pmm 9/1/2012 16:21" } }

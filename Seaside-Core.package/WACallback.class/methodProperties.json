@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:" : "MAD 2/20/2009 12:33" },
+	"instance" : {
+		"<=" : "lr 12/28/2008 14:47",
+		"block:" : "lr 3/5/2009 21:07",
+		"convertKey:" : "avi 9/2/2004 14:46",
+		"evaluateWithArgument:" : "lr 12/28/2008 14:30",
+		"evaluateWithFieldValues:" : "jf 2/15/2010 19:10",
+		"isEnabledFor:" : "MAD 2/11/2009 21:41",
+		"key" : "lr 12/28/2008 14:47",
+		"priority" : "lr 12/28/2008 14:48",
+		"setKey:callbacks:" : "lr 12/28/2008 14:49",
+		"valueForField:" : "jf 2/22/2010 12:06" } }

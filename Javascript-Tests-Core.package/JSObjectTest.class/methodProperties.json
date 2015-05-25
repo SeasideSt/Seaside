@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"isAbstract" : "lr 11/15/2008 20:28",
+		"packageNamesUnderTest" : "lr 4/28/2009 19:43",
+		"shouldInheritSelectors" : "lr 2/2/2010 21:57" },
+	"instance" : {
+		"assert:equals:" : "lr 1/28/2010 17:32",
+		"assert:renders:" : "as 2/6/2011 22:02",
+		"javascript" : "jf 7/19/2009 15:54",
+		"mock" : "lr 10/13/2008 21:59",
+		"renderContext" : "jf 7/19/2009 14:55",
+		"stream" : "lr 10/15/2008 21:43" } }

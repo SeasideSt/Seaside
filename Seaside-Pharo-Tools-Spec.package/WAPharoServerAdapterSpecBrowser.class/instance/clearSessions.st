@@ -1,0 +1,3 @@
+actions
+clearSessions
+	WAAdmin clearSessions

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 7/17/2011 11:45" },
+	"instance" : {
+		"assertNotFound:" : "pmm 7/31/2011 13:57",
+		"createRequest" : "pmm 7/24/2011 21:37",
+		"testAddCookieNonePresentYet" : "pmm 2/18/2012 13:44",
+		"testAddCookieOneAlreadyPresent" : "pmm 2/18/2012 13:44",
+		"testAddCookieOneAlreadyPresentWithWrongValue" : "pmm 2/18/2012 13:44",
+		"testEmpty" : "pmm 7/24/2011 21:32",
+		"testNoHandlerFoundForKey" : "pmm 9/1/2012 16:16",
+		"testOneOfMany" : "pmm 1/22/2012 16:23",
+		"testOneOfManySlashInCookie" : "pmm 1/22/2012 16:23",
+		"testOneOfManySlashInUrl" : "pmm 1/22/2012 16:23",
+		"testOnlyOne" : "pmm 1/22/2012 16:23",
+		"testQueryFieldOverridesCookie" : "pmm 1/22/2012 16:23",
+		"testWrongKey" : "pmm 1/22/2012 16:23",
+		"testWrongPrefix" : "pmm 1/22/2012 16:23" } }

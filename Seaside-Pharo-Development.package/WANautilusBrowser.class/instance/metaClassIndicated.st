@@ -1,0 +1,3 @@
+accessing
+metaClassIndicated
+	^ nautilus showInstance

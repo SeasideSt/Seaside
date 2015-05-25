@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beCheckbox" : "pmm 8/8/2007 22:03",
+		"beChecked" : "pmm 8/8/2007 22:06",
+		"beCommand" : "pmm 8/8/2007 22:03",
+		"beDisabled" : "pmm 8/8/2007 22:06",
+		"beHidden" : "pmm 8/8/2007 22:06",
+		"beRadio" : "pmm 8/8/2007 22:03",
+		"checked:" : "pmm 8/8/2007 22:05",
+		"disabled:" : "pmm 8/8/2007 22:05",
+		"hidden:" : "pmm 8/8/2007 22:05",
+		"icon:" : "pmm 8/8/2007 22:04",
+		"label:" : "pmm 8/8/2007 22:04",
+		"tag" : "pmm 8/8/2007 22:01",
+		"type:" : "pmm 8/8/2007 22:02" } }

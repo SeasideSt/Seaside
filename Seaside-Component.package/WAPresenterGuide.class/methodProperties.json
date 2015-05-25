@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"client:" : "jf 11/3/2008 15:58",
+		"new" : "jf 2/9/2009 17:18" },
+	"instance" : {
+		"client" : "jf 10/22/2008 14:51",
+		"initializeWithClient:" : "jf 11/3/2008 15:55",
+		"postCopyForRenderContext:" : "jf 2/12/2009 21:25",
+		"visit:" : "jf 11/3/2008 17:31",
+		"visitPainter:" : "jf 11/3/2008 17:22" } }

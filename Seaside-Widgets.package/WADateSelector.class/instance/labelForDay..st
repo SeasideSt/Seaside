@@ -1,0 +1,3 @@
+accessing
+labelForDay: aNumber
+	^ aNumber

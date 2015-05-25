@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "lr 3/12/2006 15:29",
+		"initialize" : "lr 8/30/2008 11:45",
+		"initializeTabs" : "lr 8/30/2008 11:58",
+		"renderChildrenOn:" : "dkh 11/18/2009 15:03",
+		"renderContentOn:" : "lr 3/12/2006 16:03",
+		"renderHeaderOn:" : "pmm 9/25/2007 06:44",
+		"renderMenuOn:" : "lr 3/30/2006 22:10",
+		"states" : "lr 5/18/2007 22:38",
+		"title" : "lr 3/13/2006 20:59",
+		"updateRoot:" : "lr 9/8/2009 12:40" } }

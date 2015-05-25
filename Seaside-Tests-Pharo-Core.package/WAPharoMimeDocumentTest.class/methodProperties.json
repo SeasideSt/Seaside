@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsMIMEDocumentForm" : "lr 10/18/2008 16:44",
+		"testAsMIMEDocumentFormColon" : "lr 10/18/2008 16:44",
+		"testAsMIMEDocumentFormColonString" : "jf 9/30/2009 01:10",
+		"testAsMIMEDocumentFormUnknown" : "pmm 9/1/2012 16:36",
+		"testAsMIMEDocumentMorph" : "pmm 7/30/2010 06:43",
+		"testAsMIMEDocumentMorphColol" : "pmm 7/30/2010 06:43",
+		"testAsMIMEDocumentStream" : "lr 10/18/2008 16:45",
+		"testAsMIMEDocumentStreamColon" : "lr 10/18/2008 16:45",
+		"testBinaryStreamSeasideMimeDocumentType" : "pmm 6/19/2010 08:53",
+		"testTextStreamSeasideMimeDocumentType" : "pmm 6/19/2010 08:53" } }

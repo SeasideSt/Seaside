@@ -1,0 +1,3 @@
+actions
+close
+	visible := false

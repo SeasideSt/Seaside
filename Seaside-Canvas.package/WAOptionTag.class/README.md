@@ -1,0 +1,1 @@
+The option element defines an option in a drop-down list. 

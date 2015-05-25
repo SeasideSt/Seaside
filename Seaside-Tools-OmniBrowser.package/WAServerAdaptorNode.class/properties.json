@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"adaptor" ],
+	"name" : "WAServerAdaptorNode",
+	"pools" : [
+		 ],
+	"super" : "WANode",
+	"type" : "normal" }

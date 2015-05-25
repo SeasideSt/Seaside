@@ -1,0 +1,3 @@
+actions
+showClass
+	self model indicateClassMessages

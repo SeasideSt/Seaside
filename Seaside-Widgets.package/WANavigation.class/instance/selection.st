@@ -1,0 +1,3 @@
+selection
+selection
+	^ selection contents

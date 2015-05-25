@@ -1,0 +1,22 @@
+{
+	"category" : "Seaside-Core-Rendering",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephanEggermont 3/11/2014 11:07",
+	"instvars" : [
+		"fullDocument",
+		"rootBlock",
+		"rootClass",
+		"documentClass",
+		"scriptGeneratorClass",
+		"rendererClass",
+		"codec",
+		"actionUrl",
+		"resourceUrl" ],
+	"name" : "WABuilder",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

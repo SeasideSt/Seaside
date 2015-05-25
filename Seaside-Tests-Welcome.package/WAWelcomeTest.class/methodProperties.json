@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cleanEnvironment" : "lr 7/25/2011 19:04",
+		"setUp" : "NickAger 7/25/2010 13:58",
+		"tearDown" : "NickAger 7/25/2010 14:08",
+		"testComponentCreation" : "NickAger 7/25/2010 14:13",
+		"testImplementedIsAuthorNameSet" : "NickAger 11/6/2010 18:52" } }

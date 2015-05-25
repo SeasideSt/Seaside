@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"delete" : "pmm 8/1/2008 14:10",
+		"isTemporary" : "lr 7/25/2011 20:02",
+		"rawContents" : "lr 7/25/2011 20:02",
+		"readFromChunk:" : "pmm 12/7/2010 21:05",
+		"readStreamDo:" : "lr 7/25/2011 20:02",
+		"size" : "lr 7/25/2011 20:02",
+		"temporaryDirectory" : "lr 7/25/2011 20:02",
+		"temporaryFileName" : "pmm 2/18/2011 22:44" } }

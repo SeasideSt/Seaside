@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DamienPollet 6/27/2011 16:35",
+	"instvars" : [
+		"count" ],
+	"name" : "WASimpleRoute",
+	"pools" : [
+		 ],
+	"super" : "WARoute",
+	"type" : "normal" }

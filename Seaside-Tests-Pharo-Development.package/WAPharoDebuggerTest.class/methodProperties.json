@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "pmm 9/17/2011 11:52",
+		"signalInterestingError" : "pmm 9/17/2011 11:37",
+		"testNamedTempAt" : "pmm 9/1/2012 16:35" } }

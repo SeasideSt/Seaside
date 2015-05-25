@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-JSON-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAJsonArrayBrush",
+	"pools" : [
+		 ],
+	"super" : "WAJsonBrush",
+	"type" : "normal" }

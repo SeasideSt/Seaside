@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:03",
+	"instvars" : [
+		"route",
+		"elements",
+		"parameters" ],
+	"name" : "WARouteResult",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

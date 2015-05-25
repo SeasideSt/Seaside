@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/26/2008 20:21",
+	"instvars" : [
+		 ],
+	"name" : "JQDialog",
+	"pools" : [
+		 ],
+	"super" : "JQWidget",
+	"type" : "normal" }

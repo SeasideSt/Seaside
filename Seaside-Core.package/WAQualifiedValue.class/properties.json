@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/4/2008 14:45",
+	"instvars" : [
+		"value",
+		"quality" ],
+	"name" : "WAQualifiedValue",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

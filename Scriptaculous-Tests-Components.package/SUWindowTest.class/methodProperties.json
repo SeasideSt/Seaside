@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "lr 7/25/2011 19:57",
+		"coreClass" : "obi 6/24/2008 20:47",
+		"initialize" : "pmm 9/1/2012 15:57",
+		"renderContentOn:" : "lr 7/25/2011 18:42",
+		"script" : "obi 11/30/2008 10:17",
+		"style" : "obi 11/30/2008 10:15",
+		"tooltipScriptOn:window:" : "pmm 2/19/2012 11:30" } }

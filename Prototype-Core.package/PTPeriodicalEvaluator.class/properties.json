@@ -1,0 +1,14 @@
+{
+	"category" : "Prototype-Core-Ajax",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/19/2014 09:44",
+	"instvars" : [
+		 ],
+	"name" : "PTPeriodicalEvaluator",
+	"pools" : [
+		 ],
+	"super" : "PTEvaluator",
+	"type" : "normal" }

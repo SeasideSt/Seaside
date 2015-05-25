@@ -1,0 +1,18 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"html",
+		"indentLevel",
+		"indentCloseTags",
+		"firstLine",
+		"singleEncoder" ],
+	"name" : "WAPrettyPrintedDocument",
+	"pools" : [
+		 ],
+	"super" : "WAHtmlDocument",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I control the rendering modes of the halo.

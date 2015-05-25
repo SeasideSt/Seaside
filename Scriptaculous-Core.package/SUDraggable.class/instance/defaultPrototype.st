@@ -1,0 +1,3 @@
+private
+defaultPrototype
+	^ 'Draggable'

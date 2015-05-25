@@ -1,0 +1,3 @@
+running
+go
+	self subclassResponsibility

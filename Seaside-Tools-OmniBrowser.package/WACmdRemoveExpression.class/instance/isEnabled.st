@@ -1,0 +1,3 @@
+testing
+isEnabled
+	^ target isOverride

@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"canBeRoot" : "pmm 2/18/2011 22:12",
+		"description" : "lr 2/12/2007 23:15" },
+	"instance" : {
+		"accept:" : "jf 10/22/2008 09:18",
+		"acceptDecorated:" : "jf 11/3/2008 16:34",
+		"activeComponent" : "lr 11/4/2008 10:04",
+		"addDecoration:" : "lr 10/7/2009 22:59",
+		"answer" : "avi 3/27/2004 00:55",
+		"answer:" : "jf 10/22/2008 13:26",
+		"call:onAnswer:" : "pmm 8/19/2014 10:22",
+		"decorateWith:during:" : "lr 10/7/2009 22:59",
+		"decoratedComponent" : "jf 9/30/2009 18:23",
+		"decoration" : "lr 4/15/2007 18:48",
+		"decoration:" : "avi 9/22/2004 13:59",
+		"decoration:shouldWrap:" : "lr 7/25/2011 18:37",
+		"decorations" : "pmm 8/19/2014 10:21",
+		"delegations" : "pmm 8/19/2014 10:21",
+		"home" : "lr 11/4/2008 10:03",
+		"initialize" : "jf 2/9/2009 16:59",
+		"onAnswer:" : "lr 10/28/2007 14:42",
+		"removeDecoration:" : "lr 10/7/2009 22:51",
+		"removeDelegation" : "jok 8/28/2011 07:31",
+		"show:" : "lr 10/28/2007 14:42",
+		"show:onAnswer:" : "lr 10/28/2007 14:42",
+		"show:onAnswer:delegation:" : "jf 9/17/2009 15:27",
+		"updateStates:" : "lr 4/20/2007 20:18" } }

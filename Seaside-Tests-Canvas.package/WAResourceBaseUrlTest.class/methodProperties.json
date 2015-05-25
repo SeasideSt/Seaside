@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertRoot:gives:" : "lr 2/21/2010 22:57",
+		"builder" : "jf 2/21/2009 18:49",
+		"resourceBaseUrl" : "jf 2/21/2009 18:42",
+		"testAbsoluteFtpUrl" : "pmm 1/7/2008 19:14",
+		"testAbsoluteHttpUrl" : "pmm 1/7/2008 19:12",
+		"testAbsoluteHttpsUrl" : "pmm 1/7/2008 19:13",
+		"testFileNameWithHttp" : "jf 2/21/2009 18:50",
+		"testImageTag" : "jf 2/21/2009 18:50",
+		"testRootScript" : "jf 2/21/2009 18:51",
+		"testScriptTag" : "jf 2/21/2009 18:51",
+		"testSylesheet" : "jf 2/21/2009 18:51" } }

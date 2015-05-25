@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASeasideVersionStatus",
+	"pools" : [
+		 ],
+	"super" : "WAPharoStatusItem",
+	"type" : "normal" }

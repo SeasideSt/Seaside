@@ -1,0 +1,3 @@
+*javascript-core
+isPassenger
+	^ false

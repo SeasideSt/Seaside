@@ -1,0 +1,3 @@
+private
+spaceEntity
+	self subclassResponsibility 

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-RenderLoop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WARenderPhaseContinuation",
+	"pools" : [
+		 ],
+	"super" : "WARenderLoopContinuation",
+	"type" : "normal" }

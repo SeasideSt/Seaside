@@ -1,0 +1,26 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textInput",
+		"textArea",
+		"singleSelection",
+		"singleSelectionOptional",
+		"singleSelectionCustom",
+		"multiSelection",
+		"nestedSelection",
+		"nestedMultiSelection",
+		"checkbox",
+		"radio",
+		"upload",
+		"hiddenInput",
+		"radioCustom" ],
+	"name" : "WAInputElementContainer",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

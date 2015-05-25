@@ -1,0 +1,5 @@
+commands
+cmdInspectAdaptor
+	<command>
+	
+	^ WACmdInspectAdaptor

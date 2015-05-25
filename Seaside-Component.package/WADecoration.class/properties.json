@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Component",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 10/19/2008 03:56",
+	"instvars" : [
+		"next" ],
+	"name" : "WADecoration",
+	"pools" : [
+		 ],
+	"super" : "WAPresenter",
+	"type" : "normal" }

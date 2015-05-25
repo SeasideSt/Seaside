@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"logoff" : "jf 12/19/2009 02:55",
+		"logon" : "jf 12/19/2009 02:55",
+		"pass" : "mb 2/9/2006 15:04",
+		"pass:" : "mb 2/9/2006 15:04",
+		"renderButtonOn:" : "pmm 5/12/2008 09:59",
+		"renderContentOn:" : "lr 7/25/2011 18:48",
+		"renderFeedbackOn:" : "pmm 5/15/2007 19:49",
+		"renderPasswordOn:" : "lr 10/28/2007 14:42",
+		"renderUsernameOn:" : "pmm 5/15/2007 19:52",
+		"test" : "mb 2/9/2006 15:04",
+		"test:" : "mb 2/9/2006 15:04",
+		"user" : "mb 2/9/2006 15:10",
+		"user:" : "mb 2/9/2006 15:10" } }

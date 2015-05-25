@@ -1,0 +1,1 @@
+Provides CSS to render WANavigation using tabs.

@@ -1,0 +1,1 @@
+WAPharoServerAdapterSpecBrowser example

@@ -1,0 +1,29 @@
+{
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"required",
+		"autofocus",
+		"pattern",
+		"search",
+		"range",
+		"email",
+		"url",
+		"number",
+		"datetimelocal",
+		"datetime",
+		"date",
+		"time",
+		"month",
+		"week",
+		"color",
+		"telephone" ],
+	"name" : "WAHtml5InputTest",
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

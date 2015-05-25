@@ -1,0 +1,14 @@
+{
+	"category" : "JQuery-Tests-UI-Unit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JQProgressbarTest",
+	"pools" : [
+		 ],
+	"super" : "JQueryUiTest",
+	"type" : "normal" }

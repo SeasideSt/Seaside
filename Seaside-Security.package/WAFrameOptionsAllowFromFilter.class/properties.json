@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Security",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/1/2014 08:53",
+	"instvars" : [
+		 ],
+	"name" : "WAFrameOptionsAllowFromFilter",
+	"pools" : [
+		 ],
+	"super" : "WAConfiguredRequestFilter",
+	"type" : "normal" }

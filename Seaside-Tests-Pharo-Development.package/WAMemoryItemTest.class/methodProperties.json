@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:equals:" : "pmm 9/14/2013 11:20",
+		"assert:equalsAny:" : "pmm 9/14/2013 11:55",
+		"setUp" : "pmm 4/2/2012 19:52",
+		"testSizeOneInstanceVariable" : "pmm 9/14/2013 11:21",
+		"testSizeStringPadding" : "pmm 9/14/2013 12:37",
+		"testSizeVariableBytes" : "pmm 9/14/2013 12:22",
+		"testSizeVariableBytesLarge" : "pmm 9/14/2013 11:21",
+		"testSizeVariableWords" : "pmm 9/14/2013 11:21" } }

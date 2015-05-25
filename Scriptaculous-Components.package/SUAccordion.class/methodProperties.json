@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cssClass" : "lr 6/28/2006 10:27",
+		"hide:" : "lr 1/10/2008 01:48",
+		"initialize" : "lr 1/10/2008 01:48",
+		"isVisible:" : "lr 2/20/2007 10:43",
+		"maxVisible" : "lr 6/28/2006 09:56",
+		"maxVisible:" : "lr 6/28/2006 09:57",
+		"renderBody:index:visible:on:" : "lr 1/10/2008 01:49",
+		"renderHead:index:on:" : "obi 5/23/2010 18:37",
+		"renderNavigationOn:" : "lr 2/28/2009 22:33",
+		"scriptHide:on:" : "obi 5/29/2010 21:09",
+		"scriptShow:on:" : "obi 5/21/2010 20:08",
+		"scriptToggle:on:" : "lr 1/10/2008 01:50",
+		"show:" : "lr 1/10/2008 01:48",
+		"toggle:" : "lr 1/10/2008 01:48",
+		"visible" : "lr 6/28/2006 11:46" } }

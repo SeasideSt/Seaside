@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Widgets-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/1/2014 13:48",
+	"instvars" : [
+		"delay" ],
+	"name" : "WADelayedAnswerDecoration",
+	"pools" : [
+		 ],
+	"super" : "WAWidgetDecoration",
+	"type" : "normal" }

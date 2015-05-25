@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/30/2007 00:46",
+	"instvars" : [
+		"callbackBlock" ],
+	"name" : "WAListTag",
+	"pools" : [
+		 ],
+	"super" : "WACollectionTag",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/4/2008 21:37",
+	"instvars" : [
+		"navigation" ],
+	"name" : "WAStatus",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

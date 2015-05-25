@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Pharo20-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAVNCController",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

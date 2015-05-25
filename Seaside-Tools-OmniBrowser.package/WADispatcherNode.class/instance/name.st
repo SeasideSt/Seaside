@@ -1,0 +1,3 @@
+public
+name
+	^ super name, '/'

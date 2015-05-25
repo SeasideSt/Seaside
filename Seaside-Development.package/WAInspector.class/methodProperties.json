@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"current" : "jf 3/3/2009 22:35",
+		"current:" : "jf 3/3/2009 22:05",
+		"on:" : "jf 3/3/2009 22:26",
+		"select" : "jf 3/3/2009 22:04",
+		"unselect" : "jf 3/3/2009 22:04" },
+	"instance" : {
+		"actions" : "jf 3/3/2009 22:10",
+		"children" : "avi 2/10/2004 16:34",
+		"chooseObject:named:" : "jf 3/3/2009 22:10",
+		"doIt" : "jf 3/3/2009 22:09",
+		"evaluate" : "jf 3/3/2009 22:11",
+		"fieldsFor:" : "jf 2/6/2010 04:32",
+		"initialize" : "al 9/7/2006 15:22",
+		"inspectIt" : "jf 9/30/2009 01:10",
+		"isPrimitiveType:" : "jf 3/3/2009 22:14",
+		"object" : "ab 5/31/2003 15:12",
+		"object:" : "jf 9/30/2009 01:10",
+		"renderContentOn:" : "lr 10/28/2007 14:42",
+		"renderEditAreaOn:" : "jf 3/3/2009 21:59",
+		"renderMembersOn:" : "jf 2/6/2010 04:32",
+		"renderRow:named:group:on:" : "obi 12/31/2009 18:48",
+		"style" : "lr 5/28/2007 19:20" } }

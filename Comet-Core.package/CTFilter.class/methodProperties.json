@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cometForContext:" : "lr 3/5/2009 21:37",
+		"handleFiltered:" : "ar 8/4/2010 20:58",
+		"initialize" : "lr 11/3/2008 20:43",
+		"isCometFilter" : "lr 11/3/2008 20:50",
+		"registerPusher:context:" : "lr 3/5/2009 21:47" } }

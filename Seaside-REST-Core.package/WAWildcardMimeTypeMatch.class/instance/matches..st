@@ -1,0 +1,3 @@
+testing
+matches: aMimeType
+	^ true

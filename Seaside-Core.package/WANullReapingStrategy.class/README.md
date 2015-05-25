@@ -1,0 +1,1 @@
+I am a cache reaping strategy that under no circumstances does ever reap the cache. You should use me when you have periodic background process reaping the cache.

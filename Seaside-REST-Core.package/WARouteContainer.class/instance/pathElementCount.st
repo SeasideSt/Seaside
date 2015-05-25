@@ -1,0 +1,3 @@
+public
+pathElementCount
+	^ pathElementCount

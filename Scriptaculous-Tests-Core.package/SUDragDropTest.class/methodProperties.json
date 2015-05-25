@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cart" : "lr 8/8/2007 14:56",
+		"inventory" : "lr 8/8/2007 14:57",
+		"renderCartItemsOn:" : "jf 2/15/2010 23:36",
+		"renderCartOn:id:" : "lr 12/22/2008 23:40",
+		"renderContentOn:" : "obi 7/29/2008 19:30",
+		"renderInventoryOn:" : "lr 12/22/2008 23:40",
+		"renderTrashOn:id:" : "lr 12/22/2008 23:41",
+		"style" : "obi 7/29/2008 19:50" } }

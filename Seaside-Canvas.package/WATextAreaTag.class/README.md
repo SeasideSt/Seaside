@@ -1,0 +1,1 @@
+I am a multi line text input widget. See WAInputTest >> #renderTextAreaWithExampleOn: for examples.

@@ -1,0 +1,15 @@
+{
+	"category" : "Prototype-Core-Ajax",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url",
+		"callback" ],
+	"name" : "PTAjax",
+	"pools" : [
+		 ],
+	"super" : "PTPrototype",
+	"type" : "normal" }

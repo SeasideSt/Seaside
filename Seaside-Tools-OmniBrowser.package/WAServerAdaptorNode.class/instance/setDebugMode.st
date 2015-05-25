@@ -1,0 +1,3 @@
+updating
+setDebugMode
+	adaptor setDebugMode

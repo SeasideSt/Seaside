@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"on:body:" : "lr 2/1/2008 16:44" },
+	"instance" : {
+		"body" : "lr 2/1/2008 16:43",
+		"initializeOn:body:" : "jf 3/13/2009 18:01",
+		"isComponent" : "lr 2/1/2008 16:44",
+		"owner" : "lr 2/1/2008 16:43",
+		"renderOn:" : "lr 2/1/2008 16:43" } }

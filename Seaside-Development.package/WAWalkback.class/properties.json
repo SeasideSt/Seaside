@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "pmm 2/18/2011 23:03",
+	"instvars" : [
+		"exception",
+		"limit" ],
+	"name" : "WAWalkback",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

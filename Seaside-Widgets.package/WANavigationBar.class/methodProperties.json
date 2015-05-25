@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actions" : "ab 5/30/2003 00:15",
+		"actionsSelector:" : "ab 5/30/2003 00:15",
+		"initialize" : "mb 4/23/2006 15:27",
+		"owner:" : "lr 10/28/2007 14:42",
+		"renderContentOn:" : "pmm 10/11/2006 18:32",
+		"renderInput:on:" : "pmm 10/11/2006 18:34",
+		"renderLink:on:" : "pmm 10/11/2006 18:34",
+		"target" : "pmm 10/11/2006 18:31" } }

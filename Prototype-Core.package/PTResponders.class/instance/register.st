@@ -1,0 +1,3 @@
+actions
+register
+	method := 'register'

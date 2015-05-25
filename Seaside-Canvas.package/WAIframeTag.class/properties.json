@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/22/2007 22:25",
+	"instvars" : [
+		"rootBlock",
+		"url" ],
+	"name" : "WAIframeTag",
+	"pools" : [
+		 ],
+	"super" : "WATagBrush",
+	"type" : "normal" }

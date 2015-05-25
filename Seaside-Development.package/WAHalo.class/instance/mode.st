@@ -1,0 +1,3 @@
+accessing
+mode
+	^ mode contents

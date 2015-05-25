@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clickEvent" : "lr 4/3/2010 11:05",
+		"newEvent" : "lr 6/6/2010 18:19",
+		"testCurrentTarget" : "lr 4/3/2010 11:06",
+		"testData" : "lr 4/3/2010 11:06",
+		"testIsDefaultPrevented" : "lr 4/3/2010 11:10",
+		"testIsImmediatePropagationStopped" : "lr 4/3/2010 11:10",
+		"testIsPropagationStopped" : "lr 4/3/2010 11:11",
+		"testNamespace" : "lr 10/17/2010 17:52",
+		"testPageX" : "lr 4/3/2010 11:07",
+		"testPageY" : "lr 4/3/2010 11:08",
+		"testPlain" : "lr 4/3/2010 11:07",
+		"testPreventDefault" : "lr 4/3/2010 11:09",
+		"testRelatedTarget" : "lr 4/3/2010 11:08",
+		"testResult" : "lr 4/3/2010 11:08",
+		"testStopImmediatePropagation" : "lr 4/3/2010 11:09",
+		"testStopPropagation" : "lr 4/3/2010 11:10",
+		"testTarget" : "lr 4/3/2010 11:08",
+		"testTimeStamp" : "lr 4/3/2010 11:08",
+		"testType" : "lr 4/3/2010 11:09" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/1/2008 00:19",
+	"instvars" : [
+		"scriptGenerator" ],
+	"name" : "WAHtmlDocument",
+	"pools" : [
+		 ],
+	"super" : "WAXmlDocument",
+	"type" : "normal" }
