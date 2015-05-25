@@ -6,7 +6,7 @@
 		"at:ifAbsent:" : "jf 2/6/2009 19:50",
 		"at:put:" : "pmm 7/16/2011 15:56",
 		"clear" : "jf 9/27/2009 21:46",
-		"copy" : "jf 2/6/2009 20:16",
+		"copy" : "pmm 8/19/2014 10:16",
 		"copyEmpty" : "jf 9/27/2009 21:51",
 		"expiryPolicy" : "jf 10/5/2008 22:40",
 		"initialize" : "pmm 12/10/2010 06:49",
@@ -34,5 +34,5 @@
 		"setMissStrategy:" : "jf 10/5/2008 22:50",
 		"setReapingStrategy:" : "jf 10/5/2008 22:50",
 		"setRemovalAction:" : "jf 2/6/2009 16:51",
-		"size" : "pmm 9/1/2012 16:00",
+		"size" : "pmm 8/19/2014 10:16",
 		"store:" : "pmm 9/3/2012 19:36" } }

@@ -5,6 +5,6 @@ writeScriptTag: aBlock on: aDocument
 	| attributes |
 	attributes := WAHtmlAttributes new.
 	attributes at: 'type' put: 'text/javascript'.
-	aDocument openTag: 'script' attributes: attributes; nextPutAll: '/*<![CDATA[*/'.
+	aDocument openTag: 'script' attributes: attributes.
 	aBlock value.
-	aDocument nextPutAll: '/*]]>*/'; closeTag: 'script'
+	aDocument closeTag: 'script'

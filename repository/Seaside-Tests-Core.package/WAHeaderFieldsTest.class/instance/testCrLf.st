@@ -19,7 +19,11 @@ testCrLf
 		raise: WAInvalidHeaderValueError.
 	self
 		should: [
-			collection at: 'key' add: testValue ]
+			collection at: 'key' put: testValue ]
+		raise: WAInvalidHeaderValueError.
+	self
+		should: [
+			collection at: 'key' ifAbsentPut: [ testValue ] ]
 		raise: WAInvalidHeaderValueError.
 	self
 		should: [

@@ -1,3 +1,3 @@
 writing
 writeOn: aStream
-	aStream nextPutAll: self oldNetscapeString
+	aStream nextPutAll: self rfc6265String

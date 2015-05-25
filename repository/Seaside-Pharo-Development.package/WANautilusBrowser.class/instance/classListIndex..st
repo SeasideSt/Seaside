@@ -1,6 +1,6 @@
 accessing
 classListIndex: anInteger
-	nautilus selectedClass: ((nautilus classesInTheSelectedPackage
+	nautilus selectedClass: ((self classesInTheSelectedPackage
 		sorted: [ :a :b | a name <= b name ])
 		at: anInteger).
 	self clearMessageAndProtoclSelection.

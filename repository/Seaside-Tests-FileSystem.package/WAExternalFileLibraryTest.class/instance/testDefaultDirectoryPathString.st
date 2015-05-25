@@ -1,0 +1,3 @@
+testing
+testDefaultDirectoryPathString
+	self assert: GRPlatform current defaultDirectoryPathString isString.

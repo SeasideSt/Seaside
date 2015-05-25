@@ -13,6 +13,6 @@ assert: aBlock gives: aString
 		document open: root.
 		document close ].
 	self
-		assert: html = ('<html><head><title></title>', aString, '</head><body onload="onLoad()"><script type="text/javascript">/*<![CDATA[*/function onLoad(){};/*]]>*/</script></body></html>')
+		assert: html = ('<html><head><title></title>', aString, '</head><body onload="onLoad()"><script type="text/javascript">function onLoad(){};</script></body></html>')
 		description:	'Expected: ' , aString printString , ', Actual: ' , html printString
 		resumable: true

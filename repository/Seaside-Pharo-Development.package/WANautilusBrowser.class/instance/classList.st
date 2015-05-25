@@ -1,5 +1,5 @@
 accessing
 classList
-	^ (nautilus classesInTheSelectedPackage
+	^ (self classesInTheSelectedPackage
 		collect: [ :each | each name ])
 		sorted

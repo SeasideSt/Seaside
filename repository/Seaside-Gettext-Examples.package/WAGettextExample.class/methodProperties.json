@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"export" : "pmm 5/8/2010 21:05",
+		"import" : "JohanBrichau 10/2/2014 22:12",
+		"initialize" : "pmm 5/8/2010 16:05",
+		"register" : "pmm 5/8/2010 22:01",
+		"unload" : "pmm 5/8/2010 16:00" },
+	"instance" : {
+		"availableLocales" : "pmm 5/8/2010 20:52",
+		"renderContentOn:" : "pmm 5/8/2010 21:52",
+		"renderLocaleSelectionOn:" : "pmm 5/8/2010 21:52" } }

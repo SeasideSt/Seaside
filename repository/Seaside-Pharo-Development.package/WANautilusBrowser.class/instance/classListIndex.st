@@ -1,5 +1,5 @@
 accessing
 classListIndex
-	^ (nautilus classesInTheSelectedPackage
+	^ (self classesInTheSelectedPackage
 		sorted: [ :a :b | a name <= b name ])
 		indexOf: nautilus selectedClass

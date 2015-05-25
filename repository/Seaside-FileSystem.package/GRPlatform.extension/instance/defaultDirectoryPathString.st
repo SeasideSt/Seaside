@@ -1,0 +1,3 @@
+*seaside-filesystem
+defaultDirectoryPathString
+	self subclassResponsibility 

@@ -5,4 +5,4 @@ assert: aBlock gives: aString
 		fullDocument: true;
 		rootBlock: aBlock;
 		render: [ :canvas | ].
-	self assert: '<html><head>' , aString , '</head><body onload="onLoad()"><script type="text/javascript">/*<![CDATA[*/function onLoad(){};/*]]>*/</script></body></html>' = html
+	self assert: '<html><head>' , aString , '</head><body onload="onLoad()"><script type="text/javascript">function onLoad(){};</script></body></html>' = html

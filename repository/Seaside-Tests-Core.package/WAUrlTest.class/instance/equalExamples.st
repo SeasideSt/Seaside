@@ -13,6 +13,7 @@ equalExamples
 		 ( 'http://example.com/~smith/'		'http://example.com/%7esmith/' )
 		 ( 'http://example.com/%7Esmith/'	'http://example.com/%7esmith/' )
 		 ( 'http://example.com/foo/bar/'		'http://example.com/foo//bar/' )
+		 ( 'http://example.com/foo/bar/'		'http://example.com/foo////bar/' )
 			
-		"The following example requires Unicode normalization, something that no Smalltalk implementation is able to perform.
+		"The following example requires Unicode normalization, something that probably only GemStone/S 3.2+ is able to perform.
 		 ( 'http://example.com/%C3%87'		'http://example.com/C%CC%A7' )" )

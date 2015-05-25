@@ -8,6 +8,8 @@ smalltalkForEvent: anArraySpec value: aString
 			ifTrue: [ result at: spec last put: (stream upTo: $,) greaseInteger ].
 		(spec first = #passenger)
 			ifTrue: [ result at: spec last put: (self renderContext callbacks passengerAt: (stream upTo: $,)) ].
-		(#(#position #size) includes: spec first)
+		(spec first = #position)
+			ifTrue: [ result at: spec last put: (GRSmallDictionary new add: 'top' -> (stream upTo: $,) greaseInteger; add: 'left' -> (stream upTo: $,) greaseInteger; yourself) ].
+		(spec first = #size)
 			ifTrue: [ result at: spec last put: (stream upTo: $,) greaseInteger @ (stream upTo: $,) greaseInteger ] ].
 	^ result

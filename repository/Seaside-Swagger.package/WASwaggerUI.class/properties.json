@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Swagger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASwaggerUI",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

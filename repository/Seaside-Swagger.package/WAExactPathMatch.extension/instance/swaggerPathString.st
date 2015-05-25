@@ -1,0 +1,3 @@
+*seaside-swagger
+swaggerPathString
+	^ element

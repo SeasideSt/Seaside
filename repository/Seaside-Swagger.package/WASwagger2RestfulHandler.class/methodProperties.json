@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"apiVersion" : "JohanBrichau 12/27/2014 10:41",
+		"applicationTitle" : "JohanBrichau 12/27/2014 10:41",
+		"getSwaggerSpecificationFile" : "JohanBrichau 12/27/2014 11:50",
+		"renderSwaggerInfoOn:" : "JohanBrichau 2/28/2015 09:41",
+		"renderSwaggerObjectOn:" : "JohanBrichau 2/28/2015 09:38",
+		"renderSwaggerOperationForRoute:on:" : "JohanBrichau 2/28/2015 17:13",
+		"renderSwaggerPathItemForRoutes:on:" : "JohanBrichau 2/28/2015 11:03",
+		"renderSwaggerPathsOn:" : "JohanBrichau 2/28/2015 10:56",
+		"renderSwaggerResponse:on:" : "JohanBrichau 3/1/2015 08:56",
+		"renderSwaggerResponsesForRoute:on:" : "JohanBrichau 3/1/2015 08:58",
+		"swaggerBasePath" : "JohanBrichau 2/28/2015 09:40",
+		"swaggerRoutes" : "JohanBrichau 2/28/2015 11:03",
+		"swaggerVersion" : "JohanBrichau 2/28/2015 09:39" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/18/2014 18:56",
+	"instvars" : [
+		"values",
+		"separator" ],
+	"name" : "WAConcatenatedHtmlAttributeValue",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

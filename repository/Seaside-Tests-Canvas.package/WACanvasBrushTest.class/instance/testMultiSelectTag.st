@@ -14,4 +14,4 @@ testMultiSelectTag
 		gives: '<select multiple="multiple"><option disabled="disabled">1</option><option>2</option></select>'.
 	self
 		assert: [ :html | html multiSelect list: #(3 4); callback: [ :v | ] ]
-		gives: '<select name="1" multiple="multiple"><option value="1">3</option><option value="2">4</option></select><input name="2" type="hidden" class="hidden"/>'
+		gives: '<select name="1" multiple="multiple"><option value="1">3</option><option value="2">4</option></select><input name="2" type="hidden"/>'

@@ -1,0 +1,3 @@
+localization
+export
+	WAGetTextExporter new exportTemplate

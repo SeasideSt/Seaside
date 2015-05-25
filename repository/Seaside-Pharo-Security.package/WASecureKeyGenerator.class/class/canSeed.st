@@ -1,3 +1,3 @@
 private
 canSeed
-	^ (FileDirectory forFileName: self seedFile) exists
+	^ GRPlatform current fileExists: self seedFile

@@ -9,4 +9,5 @@ renderContentOn: html
 		self renderAcceptFor: request on: html.
 		self renderAcceptCharsetFor: request on: html.
 		self renderAcceptEncodingFor: request on: html.
-		self renderAcceptLanguageFor: request on: html ]
+		self renderAcceptLanguageFor: request on: html.
+		self renderOtherHeadersFor: request on: html ]

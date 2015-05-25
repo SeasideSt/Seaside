@@ -1,6 +1,7 @@
 *Seaside-Adaptors-Comanche
 oldNetscapeStringWithoutKey
 	"same as oldNetscapeString except that the key is not included, used for Kom hacks"
+	self greaseDeprecatedApi: 'WACookie>>#oldNetscapeStringWithoutKey' details: 'Use #rfc6265StringWithoutKey instead.'.
 	^ String streamContents: [ :stream |
 		self value isNil ifFalse: [
 			stream nextPutAll: self value ].
