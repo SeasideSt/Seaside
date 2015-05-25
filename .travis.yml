@@ -1,0 +1,20 @@
+language: erlang
+
+env:
+   - ST=Pharo-2.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=Pharo-3.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+#   - ST=Pharo-4.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=Squeak-4.4 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=Squeak-4.5 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - ./build_image.sh
+
+script: $PROJECT_HOME/tests/testTravisCI.sh -verbose
