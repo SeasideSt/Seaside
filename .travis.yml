@@ -1,9 +1,10 @@
+sudo: true
 language: erlang
 
 env:
    - ST=Pharo-2.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
    - ST=Pharo-3.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-#   - ST=Pharo-4.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=Pharo-4.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
    - ST=Squeak-4.4 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
    - ST=Squeak-4.5 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
 
