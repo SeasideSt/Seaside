@@ -1,3 +1,0 @@
-private
-reap
-	"no reaping"

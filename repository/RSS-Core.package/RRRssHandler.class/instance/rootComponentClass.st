@@ -1,3 +1,3 @@
 configuration
 rootComponentClass
-	^ self preferenceAt: #rootComponentClass
+	^ (self preferenceAt: #rootComponentClass) value

@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"handler" ],
+		"handler",
+		"maximumSize",
+		"maximumAbsoluteAge",
+		"maximumRelativeAge",
+		"overflowAction",
+		"overflowActionLabels" ],
 	"name" : "WACacheAttributeEditor",
 	"pools" : [
 		 ],

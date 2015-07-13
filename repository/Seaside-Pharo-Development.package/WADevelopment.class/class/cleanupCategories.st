@@ -19,7 +19,7 @@ cleanupCategories
 	self allGRPackages
 		do: [ :each |
 			| package |
-			package := PackageInfo named: each name.
+			package := RPackage organizer packageNamed: each name.
 			package classesAndMetaClasses do: [ :class |
 				(package coreCategoriesForClass: class)
 					do: [ :protocol | cleanup value: class value: protocol ] ].

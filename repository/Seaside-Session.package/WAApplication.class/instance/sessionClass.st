@@ -1,3 +1,3 @@
 configuration
 sessionClass
-	^ self preferenceAt: #sessionClass
+	^ (self preferenceAt: #sessionClass) value

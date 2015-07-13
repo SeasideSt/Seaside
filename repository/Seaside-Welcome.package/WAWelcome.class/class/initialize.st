@@ -8,4 +8,4 @@ initialize
 		addLibrary: JQUiDeploymentLibrary;
 		addLibrary: JQUiLightnessTheme;
 		addLibrary: WAWelcomeFiles;
-		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator
+		scriptGeneratorClass: JQScriptGenerator

@@ -5,6 +5,7 @@ visitCollectionAttribute: anAttribute
 	attributeCollection isEmpty ifTrue: [ ^ self html text: '(none)' ].
 	listSize := (attributeCollection size min: 10) max: 2.
 	self html select
+		disabled;
 		size: listSize;
 		title: 'Current';
 		labels: [ :each | each value greaseString , ' [' , each key greaseString , ']' ];

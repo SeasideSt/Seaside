@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/22/2011 11:37",
+	"instvars" : [
+		 ],
+	"name" : "WACounterRenderer",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

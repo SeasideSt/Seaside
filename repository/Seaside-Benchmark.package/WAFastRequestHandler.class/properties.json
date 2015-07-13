@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/19/2014 09:47",
+	"instvars" : [
+		"pageContent" ],
+	"name" : "WAFastRequestHandler",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

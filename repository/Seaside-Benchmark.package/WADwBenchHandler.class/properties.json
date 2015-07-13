@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pageContent" ],
+	"name" : "WADwBenchHandler",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

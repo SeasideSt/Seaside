@@ -1,8 +1,8 @@
 rendering
 renderCacheReplaceOn: html
 	html paragraph: [
-		html anchor
+		html button
 			class: 'large';
-			title: 'Replace the cache to initialize all plugins';
+			title: 'Replace the cache';
 			callback: [ self replaceCache ];
 			with: 'Replace cache' ]

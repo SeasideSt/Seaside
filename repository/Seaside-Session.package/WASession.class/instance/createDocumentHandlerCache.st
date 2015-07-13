@@ -1,0 +1,3 @@
+initialization
+createDocumentHandlerCache
+	^ WADictionaryCache new

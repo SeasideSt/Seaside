@@ -4,5 +4,5 @@ register: aComponentClass asApplicationAt: aString in: aDispatcher
 	| application |
 	application := self register: WAApplication at: aString in: aDispatcher.
 	self configureNewApplication: application.
-	application preferenceAt: #rootClass put: aComponentClass.
+	application rootClass: aComponentClass.
 	^ application

@@ -1,3 +1,3 @@
 configuration
 documentClass
-	^ self preferenceAt: #documentClass
+	^ (self preferenceAt: #documentClass) value

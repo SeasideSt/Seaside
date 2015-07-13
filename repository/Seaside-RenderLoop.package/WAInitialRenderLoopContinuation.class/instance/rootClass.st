@@ -1,3 +1,3 @@
 accessing
 rootClass
-	^ self application preferenceAt: #rootClass
+	^ (self application preferenceAt: #rootClass) value

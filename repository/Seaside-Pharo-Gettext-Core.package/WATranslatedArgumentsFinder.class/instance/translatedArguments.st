@@ -23,12 +23,13 @@ translatedArguments
 		matches: '`#string seasideLazyTranslated' do: extractReceiver;
 		matches: '`#string seasideTranslatedTo: `@arg' do: extractReceiver;
 		yourself.
-	RBBrowserEnvironment new classesAndSelectorsDo: [ :class :selector |
-		(searcher canMatchMethod: class >> selector) ifTrue: [
-		| tree |
-		(tree := class parseTreeFor: selector) notNil ifTrue: [
-			currentClass contents: class.
-			searcher executeTree: tree ] ] ].
+	(RBBrowserEnvironment new allNonMetaClasses, RBBrowserEnvironment new allMetaClasses) do:[:class |
+		class selectors do:[:selector |
+			(searcher canMatchMethod: class >> selector) ifTrue: [
+				| tree |
+				(tree := class parseTreeFor: selector) notNil ifTrue: [
+					currentClass contents: class.
+					searcher executeTree: tree ] ] ] ].
 	^ Array streamContents: [ :stream |
 		result keysDo: [ :key |
 			stream nextPut: key -> (result allAt: key) ] ]

@@ -4,15 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pmm 2/18/2011 22:56",
+	"commentStamp" : "pmm 9/9/2013 09:13",
 	"instvars" : [
-		"mutex",
-		"keysByObject",
-		"objectsByKey",
-		"expiryPolicy",
-		"reapingStrategy",
-		"missStrategy",
-		"removalAction" ],
+		 ],
 	"name" : "WACache",
 	"pools" : [
 		 ],

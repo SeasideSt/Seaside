@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasReceivedUnregistered" ],
+	"name" : "WAObjectUnderstandingUnregistered",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

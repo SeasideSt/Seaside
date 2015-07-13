@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/10/2013 11:35",
+	"instvars" : [
+		"byKey",
+		"byValue" ],
+	"name" : "WADictionaryCache",
+	"pools" : [
+		 ],
+	"super" : "WACache",
+	"type" : "normal" }

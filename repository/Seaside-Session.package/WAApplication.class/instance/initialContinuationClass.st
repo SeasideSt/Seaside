@@ -1,3 +1,3 @@
 configuration
 initialContinuationClass
-	^ self preferenceAt: #initialContinuationClass
+	^ (self preferenceAt: #initialContinuationClass) value

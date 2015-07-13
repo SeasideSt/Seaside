@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cache",
-		"key" ],
+		"cache" ],
 	"name" : "WACacheTest",
 	"pools" : [
 		 ],
-	"super" : "WAContextTest",
+	"super" : "TestCase",
 	"type" : "normal" }

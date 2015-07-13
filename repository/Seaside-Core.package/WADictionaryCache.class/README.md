@@ -1,0 +1,1 @@
+WADictionaryCacheNG is a dictionary based implementation of WACacheNG.

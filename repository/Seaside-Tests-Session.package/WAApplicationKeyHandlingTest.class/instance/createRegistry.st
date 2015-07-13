@@ -2,6 +2,7 @@ private
 createRegistry
 	^ WADispatcher new
 		register: (WAApplication new
-			preferenceAt: #sessionClass put: WATestSession;
+			sessionClass: WATestSession;
+			cache: WADictionaryCache new;
 			yourself)
 		at: self registryName

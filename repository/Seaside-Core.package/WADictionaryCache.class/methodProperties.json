@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:ifAbsent:" : "pmm 9/10/2013 11:36",
+		"at:put:" : "pmm 9/14/2013 10:53",
+		"clear" : "pmm 9/10/2013 11:39",
+		"errorAlreadyMapped" : "pmm 2/1/2014 12:21",
+		"includesKey:" : "pmm 1/31/2014 15:56",
+		"initialize" : "pmm 9/14/2013 10:41",
+		"keyAtValue:ifAbsent:" : "pmm 9/10/2013 11:37",
+		"keysAndValuesDo:" : "pmm 9/10/2013 11:38",
+		"postCopy" : "pmm 9/14/2013 16:26",
+		"remove:" : "pmm 9/10/2013 11:42",
+		"size" : "pmm 7/12/2015 17:48",
+		"store:" : "pmm 9/10/2013 11:41" } }

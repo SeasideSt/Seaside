@@ -6,6 +6,7 @@
 		"at:addAll:" : "jf 10/5/2008 14:42",
 		"at:addAll:removeAll:" : "jf 10/5/2008 14:42",
 		"at:put:" : "jf 10/5/2008 14:40",
+		"at:putClass:" : "pmm 7/12/2015 16:40",
 		"canAddParent:" : "jf 7/24/2008 19:42",
 		"expressionAt:ifAbsent:" : "jf 8/4/2008 16:17",
 		"initialize" : "jf 8/4/2008 16:17",

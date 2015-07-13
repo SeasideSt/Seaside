@@ -1,4 +1,3 @@
 running
 setUp
-	cache := WACache new.
-	key := WAKeyGenerator current keyOfLength: 8
+	cache := self createCache

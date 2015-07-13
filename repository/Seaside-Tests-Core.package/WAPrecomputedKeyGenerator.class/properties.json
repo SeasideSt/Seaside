@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keys",
+		"current" ],
+	"name" : "WAPrecomputedKeyGenerator",
+	"pools" : [
+		 ],
+	"super" : "WAKeyGenerator",
+	"type" : "normal" }

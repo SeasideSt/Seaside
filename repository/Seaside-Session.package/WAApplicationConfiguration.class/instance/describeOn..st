@@ -1,8 +1,8 @@
 description
 describeOn: config
-	(config collection: #libraries)
+	(config classBindingCollection: #libraries)
 		options: [ self libraryClasses ].
-	(config list: #initialContinuationClass)
+	(config classBinding: #initialContinuationClass)
 		beAdvanced;
 		options: [ self continuationClasses ];
 		default: WANullSessionContinuation.
@@ -17,7 +17,7 @@ describeOn: config
 	(config boolean: #sessionAllowTermination)
 		comment: 'Whether sessions allows a special HTTP request to terminate the process currently running in the session. This is used during development and should be disabled for deployment.';
 		default: false.
-	(config list: #sessionClass)
+	(config classBinding: #sessionClass)
 		comment: 'Sessions in this application will be instances of this class.';
 		options: [ self sessionClasses ];
 		default: WASession.

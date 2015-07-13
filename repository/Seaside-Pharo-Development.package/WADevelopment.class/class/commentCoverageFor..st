@@ -15,7 +15,7 @@ commentCoverageFor: aCollectionOfPackage
 
 	| package allClasses classesCommented allMethods methodsCommented linesOfCode |
 	aCollectionOfPackage do: [ :each |
-		package := PackageInfo named: each name.
+		package := RPackage organizer packageNamed: each name.
 		allClasses := classesCommented := 0.
 		package classes do: [ :theClass |
 			allClasses := allClasses + 1.

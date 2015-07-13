@@ -3,7 +3,7 @@
 		"shouldInheritSelectors" : "jf 1/30/2009 13:30" },
 	"instance" : {
 		"assertDefault:" : "jok 3/22/2010 11:53",
-		"createRegistry" : "pmm 9/5/2009 12:23",
+		"createRegistry" : "pmm 7/12/2015 16:58",
 		"registerNewHandler" : "pmm 8/13/2010 13:59",
 		"testFieldNoCookieHandlerAbsent" : "pmm 7/17/2011 21:20",
 		"testFieldNoCookieHandlerPresent" : "pmm 7/17/2011 13:01",
@@ -15,4 +15,4 @@
 		"testMismatchingWithUrlHandler" : "pmm 7/17/2011 12:52",
 		"testNoFieldCookieHandlerAbsent" : "pmm 7/17/2011 21:23",
 		"testNoFieldCookieHandlerPresent" : "pmm 7/17/2011 21:23",
-		"testNoKey" : "jf 1/30/2009 16:15" } }
+		"testNoKey" : "pmm 7/12/2015 17:02" } }

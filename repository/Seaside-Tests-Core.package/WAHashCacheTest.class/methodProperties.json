@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCache" : "pmm 7/12/2015 15:13",
+		"testExpireAbsolute" : "pmm 7/12/2015 15:13",
+		"testExpireRelative" : "pmm 7/12/2015 15:13",
+		"testRemoveAbsoluteOldest" : "pmm 7/12/2015 15:13",
+		"testRemoveRelativeOldest" : "pmm 7/12/2015 15:13",
+		"testSendUnregistered" : "pmm 7/12/2015 15:13",
+		"testSignalError" : "pmm 7/12/2015 15:13" } }

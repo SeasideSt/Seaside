@@ -4,10 +4,7 @@ testUrlFor
 	request := self requestWithMethod: 'GET'.
 	request setCookies: (Array with: (WARequestCookie key: '_s' value: 'sessionid')).
 	response := WABufferedResponse new.
-	documentHandler := (WADocumentHandler
-		document: 'body: {color: red}'
-		mimeType: WAMimeType textCss
-		fileName: nil).
+	documentHandler := WASession new.
 	
 	context := WARequestContext request: request response: response.
 	url := WACurrentRequestContext

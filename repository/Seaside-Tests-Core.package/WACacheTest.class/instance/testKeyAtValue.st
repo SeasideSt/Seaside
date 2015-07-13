@@ -1,5 +1,10 @@
-tests
+testing
 testKeyAtValue
-	key := cache store: 1.
-	self assert: (cache keyAtValue: 1) = key.
-	self assert: (cache keyAtValue: 2) isNil
+	1 to: 100 do: [ :i |
+		| absent key |
+		absent := false.
+		cache keyAtValue: i greaseString ifAbsent: [ absent := true ].
+		self assert: absent.
+		cache at: i put: i greaseString.
+		key := cache keyAtValue: i greaseString ifAbsent: [ self assert: false ].
+		self assert: key = i ]

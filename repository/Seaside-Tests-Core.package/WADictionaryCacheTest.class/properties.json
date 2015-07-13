@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WADictionaryCacheTest",
+	"pools" : [
+		 ],
+	"super" : "WACacheTest",
+	"type" : "normal" }

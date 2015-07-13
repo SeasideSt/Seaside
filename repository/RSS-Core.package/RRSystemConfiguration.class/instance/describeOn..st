@@ -1,6 +1,6 @@
 description
 describeOn: config
-	(config list: #rootComponentClass)
+	(config classBinding: #rootComponentClass)
 		label: 'Root Component';
 		options: [ self rootComponents ].
-	config at: #documentClass put: WAXmlDocument
+	config at: #documentClass putClass: WAXmlDocument

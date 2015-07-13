@@ -1,23 +1,44 @@
-tests
+testing
 testCopy
-	| one two copy |
-	one := cache store: 1.
-	two := cache store: 2.
-	
+	| copy absent |
+	cache at: 1 put: '1'.
+	cache at: 2 put: '2'.
 	copy := cache copy.
-	copy removeKey: one.
 	
-	self assert: (cache at: one) = 1.
-	self assert: (cache at: two) = 2.
-	self assert: (cache keyAtValue: 1) = one.
-	self assert: (cache keyAtValue: 2) = two.
-	self assert: (copy at: two) = 2.
-	self assert: (copy keyAtValue: 2) = two.
-	self assert: (copy keyAtValue: 1) isNil.
-	self assert: (copy at: one) isNil.
+	copy remove: '2'.
+	copy at: 1 put: '1a'.
+	copy at: 3 put: '3'.
 	
-	self deny: (cache instVarNamed: 'mutex') == (copy instVarNamed: 'mutex').
-	self deny: cache expiryPolicy == copy expiryPolicy.
-	self deny: cache missStrategy == copy missStrategy.
-	self deny: cache removalAction == copy removalAction.
-	self deny: cache reapingStrategy == copy reapingStrategy
+	"cache:
+		1 -> '1'
+		2 -> '2'
+	copy:
+		1 -> '1a'
+		3 -> '3'
+	"
+	
+	self assert: (cache at: 1 ifAbsent: [ self assert: false ]) = '1'.
+	self assert: (cache at: 2 ifAbsent: [ self assert: false ]) = '2'.
+	self assert: (cache keyAtValue: '1' ifAbsent: [ self assert: false ]) = 1.
+	self assert: (cache keyAtValue: '2' ifAbsent: [ self assert: false ]) = 2.
+	absent := false.
+	cache at: 3 ifAbsent: [ absent := true ].
+	self assert: absent.
+	absent := false.
+	cache keyAtValue: '1a' ifAbsent: [ absent := true ].
+	self assert: absent.
+	cache keyAtValue: '3' ifAbsent: [ absent := true ].
+	self assert: absent.
+	
+	self assert: (copy at: 1 ifAbsent: [ self assert: false ]) = '1a'.
+	self assert: (copy at: 3 ifAbsent: [ self assert: false ]) = '3'.
+	self assert: (copy keyAtValue: '1a' ifAbsent: [ self assert: false ]) = 1.
+	self assert: (copy keyAtValue: '3' ifAbsent: [ self assert: false ]) = 3.
+	absent := false.
+	copy at: 2 ifAbsent: [ absent := true ].
+	self assert: absent.
+	absent := false.
+	copy keyAtValue: '1' ifAbsent: [ absent := true ].
+	self assert: absent.
+	copy keyAtValue: '2' ifAbsent: [ absent := true ].
+	self assert: absent

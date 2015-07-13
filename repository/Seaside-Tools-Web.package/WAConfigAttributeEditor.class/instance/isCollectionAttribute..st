@@ -1,3 +1,3 @@
 private
 isCollectionAttribute: anAttribute
-	^ anAttribute isKindOf: WACollectionAttribute
+	^ anAttribute isCollectionAttribute

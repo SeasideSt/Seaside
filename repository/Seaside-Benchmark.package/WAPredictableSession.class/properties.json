@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 5/22/2011 11:32",
+	"instvars" : [
+		 ],
+	"name" : "WAPredictableSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

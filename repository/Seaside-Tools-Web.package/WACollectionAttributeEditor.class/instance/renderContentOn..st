@@ -40,7 +40,7 @@ renderContentOn: html
 											list: currentList;
 											disabled: self isWriteable not;
 											selected: selectionsCurrent;
-											labels: [ :each | each value greaseString , ' [' , each key greaseString , ']' ];
+											labels: [ :each | (self optionForValue: each value) greaseString, ' [', each key greaseString, ']' ];
 											size: listSize;
 											callback: [ :v | self selectionsCurrent: v ] ] ].
 						html tableData
