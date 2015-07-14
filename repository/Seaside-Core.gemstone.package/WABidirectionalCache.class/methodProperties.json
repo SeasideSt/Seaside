@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "pmm 7/14/2015 09:28",
+		"at:ifAbsent:" : "pmm 9/10/2013 11:36",
+		"at:put:" : "pmm 9/14/2013 10:53",
+		"clear" : "pmm 9/10/2013 11:39",
+		"do:" : "pmm 7/14/2015 09:26",
+		"errorAlreadyMapped" : "pmm 7/14/2015 08:08",
+		"includes:" : "pmm 7/14/2015 09:20",
+		"includesKey:" : "pmm 1/31/2014 15:56",
+		"initialize" : "pmm 9/14/2013 10:41",
+		"keyAtValue:ifAbsent:" : "pmm 9/10/2013 11:37",
+		"keys" : "pmm 7/14/2015 09:21",
+		"keysAndValuesDo:" : "pmm 9/10/2013 11:38",
+		"postCopy" : "pmm 9/14/2013 16:26",
+		"remove:" : "pmm 9/10/2013 11:42",
+		"removeKey:ifAbsent:" : "pmm 7/14/2015 09:23",
+		"size" : "pmm 7/12/2015 17:48",
+		"store:" : "pmm 9/10/2013 11:41",
+		"valuesCollect:" : "pmm 7/14/2015 09:14" } }

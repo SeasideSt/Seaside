@@ -1,4 +1,3 @@
 enumerating
-keysAndValuesDo: aBlock
-
-	objectsByKey keysAndValuesDo: aBlock
+keysAndValuesDo: aTwoArgumentBlock
+	self subclassResponsibility

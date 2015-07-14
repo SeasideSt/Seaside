@@ -1,6 +1,6 @@
 private
 writeLoadScriptsOn: aDocument
-	"Utitlity method to write the receivers load scripts onto aDocument."
+	"Utility method to write the receivers load scripts onto aDocument."
 
 	self loadScripts do: [ :each |
 		aDocument stream javascript: each.

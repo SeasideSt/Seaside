@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	self initializeFilters.
-	continuations := self createCache
+	continuations := self createContinuationCache

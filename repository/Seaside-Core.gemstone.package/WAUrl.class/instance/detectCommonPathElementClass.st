@@ -5,7 +5,7 @@ detectCommonPathElementClass
 	
 	If all the elements are of the same class we can avoid sending #contents to the wirte stream
 	because we can allocate a collection of the right size and type. This is important because
-	#contents does an additonal copy which shows up in benchmarks.
+	#contents does an additional copy which shows up in benchmarks.
 	If the lements are not of the same class we can not know the type of the target collection
 	(in a portable way) and have to use stream #contents."
 	| firstSpecies |

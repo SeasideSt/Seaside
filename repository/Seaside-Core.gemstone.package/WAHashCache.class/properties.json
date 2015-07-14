@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/13/2015 14:13",
+	"instvars" : [
+		"keyTable",
+		"size",
+		"byAccessStart",
+		"byAccessEnd",
+		"byCreationStart",
+		"byCreationEnd" ],
+	"name" : "WAHashCache",
+	"pools" : [
+		 ],
+	"super" : "WAExpiringCache",
+	"type" : "normal" }

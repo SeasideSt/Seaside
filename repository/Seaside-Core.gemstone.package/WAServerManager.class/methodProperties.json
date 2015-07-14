@@ -7,7 +7,7 @@
 		"unload" : "jf 9/30/2009 00:19" },
 	"instance" : {
 		"adaptors" : "jf 10/29/2008 17:28",
-		"canStart:" : "pmm 12/5/2010 13:19",
+		"canStart:" : "pmm 8/19/2014 09:32",
 		"canStop:" : "jf 10/30/2008 15:50",
 		"initialize" : "jf 10/29/2008 17:28",
 		"register:" : "jf 10/30/2008 16:14",

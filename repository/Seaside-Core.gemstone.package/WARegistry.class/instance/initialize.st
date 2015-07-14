@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	cache := WACache new
+	cache := self createCache

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"continuations",
 		"properties",
-		"cache" ],
+		"documentHandlers",
+		"key" ],
 	"name" : "WASession",
 	"pools" : [
 		 ],

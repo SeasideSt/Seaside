@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/13/2015 11:00",
+	"instvars" : [
+		 ],
+	"name" : "WACacheConfiguration",
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }

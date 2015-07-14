@@ -4,7 +4,7 @@ asFileAndFoldername: aSelector
 	pathSeparator := GRPlatform current pathSeparator.
 	filename := (self fileResourceOf: aSelector) filepath.
 	filename := filename replaceAll: $/ with: pathSeparator first.
-	(filename includes: $/) 
-		ifTrue: [ foldername := self name, pathSeparator, (filename copyUpToLast: pathSeparator first) ]
-		ifFalse: [ foldername := self name ].
+	foldername := (filename includes: $/)
+		ifTrue: [ self name , pathSeparator, (filename copyUpToLast: pathSeparator first) ]
+		ifFalse: [ self name ].
 	^ Array with: foldername with: (GRPlatform current localNameOf: filename)

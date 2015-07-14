@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/8/2013 17:59",
+	"instvars" : [
+		 ],
+	"name" : "WAMaximumNumberOfSessionsExceededError",
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

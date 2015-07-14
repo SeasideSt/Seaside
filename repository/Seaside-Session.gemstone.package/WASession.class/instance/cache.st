@@ -1,5 +1,4 @@
 accessing
 cache
-	cache isNil ifTrue: [
-		cache := self buildCache ].
-	^ cache
+	self greaseDeprecatedApi: 'WASession>>#cache' details: 'Use #documentHandlers instead'.
+	^ self documentHandlers

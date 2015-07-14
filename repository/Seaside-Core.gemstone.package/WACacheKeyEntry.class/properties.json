@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"keyHash",
+		"value",
+		"next",
+		"byAccessListEntry",
+		"byCreationListEntry" ],
+	"name" : "WACacheKeyEntry",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,5 +1,5 @@
 private
-privatePathParameterMapAt: anIndex ifPresentDo: aOneArgumentBloack ifAbsent: aZeroArgumentBlock
+privatePathParameterMapAt: anIndex ifPresentDo: aOneArgumentBlock ifAbsent: aZeroArgumentBlock
 	| parameters |
 	pathParameters isNil ifTrue: [
 		^ aZeroArgumentBlock value ].
@@ -7,4 +7,4 @@ privatePathParameterMapAt: anIndex ifPresentDo: aOneArgumentBloack ifAbsent: aZe
 		^ aZeroArgumentBlock value ].
 	parameters isNil ifTrue: [
 		^ aZeroArgumentBlock value ].
-	^ aOneArgumentBloack value: parameters
+	^ aOneArgumentBlock value: parameters

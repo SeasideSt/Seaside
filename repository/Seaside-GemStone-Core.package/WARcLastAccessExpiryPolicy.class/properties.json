@@ -10,5 +10,5 @@
 	"name" : "WARcLastAccessExpiryPolicy",
 	"pools" : [
 		 ],
-	"super" : "WACacheExpiryPolicy",
+	"super" : "Object",
 	"type" : "normal" }
