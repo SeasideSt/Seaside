@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"key:target:" : "jf 1/1/2009 18:05" },
+	"instance" : {
+		"at:ifPresent:" : "jf 1/1/2009 21:37",
+		"at:put:" : "jf 1/1/2009 21:37",
+		"attribute" : "jf 8/4/2008 14:38",
+		"cachedValues" : "jf 1/1/2009 21:37",
+		"findAttributeAndSelectAncestorsOf:" : "pmm 2/20/2011 19:43",
+		"initializeWithKey:" : "jf 3/13/2009 18:04",
+		"isAttributeFoundOn:" : "jf 1/1/2009 18:01",
+		"isAttributeInheritedOn:" : "jf 1/1/2009 18:01",
+		"isAttributeLocalOn:" : "jf 1/1/2009 18:00",
+		"key" : "jf 8/4/2008 18:29" } }

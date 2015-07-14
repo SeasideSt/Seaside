@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultConfiguration" : "jf 1/10/2009 15:12",
+		"initialize" : "jf 9/30/2009 00:19",
+		"isExpired:key:" : "lr 1/10/2009 15:17",
+		"postCopy" : "lr 11/11/2008 22:58",
+		"removed:key:" : "lr 7/25/2011 19:01",
+		"retrieved:key:" : "jf 2/6/2009 16:38",
+		"stored:key:" : "jf 2/6/2009 16:39",
+		"timeout" : "jf 1/10/2009 16:41" } }

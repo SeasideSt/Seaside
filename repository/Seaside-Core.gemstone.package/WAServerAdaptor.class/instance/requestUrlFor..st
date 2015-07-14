@@ -1,0 +1,3 @@
+converting-request
+requestUrlFor: aNativeRequest
+	self subclassResponsibility

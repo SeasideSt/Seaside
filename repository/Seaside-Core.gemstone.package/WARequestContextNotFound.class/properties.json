@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 9/11/2008 19:42",
+	"instvars" : [
+		 ],
+	"name" : "WARequestContextNotFound",
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

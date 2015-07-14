@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAVisitor",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

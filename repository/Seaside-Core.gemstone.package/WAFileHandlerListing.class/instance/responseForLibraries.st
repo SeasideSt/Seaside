@@ -1,0 +1,3 @@
+responding
+responseForLibraries
+	self subclassResponsibility

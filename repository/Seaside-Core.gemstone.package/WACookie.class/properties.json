@@ -1,0 +1,20 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/17/2008 20:31",
+	"instvars" : [
+		"expiry",
+		"secure",
+		"discard",
+		"comment",
+		"commentUrl",
+		"httpOnly",
+		"maxAge" ],
+	"name" : "WACookie",
+	"pools" : [
+		 ],
+	"super" : "WARequestCookie",
+	"type" : "normal" }

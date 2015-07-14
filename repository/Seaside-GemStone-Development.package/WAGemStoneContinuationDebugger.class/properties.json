@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Development",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 06/05/2015 15:44",
+	"instvars" : [
+		"errorDescription" ],
+	"name" : "WAGemStoneContinuationDebugger",
+	"pools" : [
+		 ],
+	"super" : "WAGemStoneWalkback",
+	"type" : "normal" }

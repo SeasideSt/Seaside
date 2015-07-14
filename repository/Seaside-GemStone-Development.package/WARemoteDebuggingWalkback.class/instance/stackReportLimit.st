@@ -1,0 +1,3 @@
+accessing
+stackReportLimit
+  ^ 300

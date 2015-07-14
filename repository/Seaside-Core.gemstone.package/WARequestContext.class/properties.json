@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Core-RequestHandling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:04",
+	"instvars" : [
+		"handlers",
+		"request",
+		"response",
+		"codec",
+		"consumer",
+		"properties" ],
+	"name" : "WARequestContext",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

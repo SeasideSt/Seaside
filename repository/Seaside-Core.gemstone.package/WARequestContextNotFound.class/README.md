@@ -1,0 +1,1 @@
+This exception is raised when trying to obtain the current request context when none is available.

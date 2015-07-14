@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"new" : "jf 9/30/2009 00:19",
+		"on:" : "jf 9/30/2009 00:27",
+		"on:codec:" : "jf 1/23/2009 14:38" },
+	"instance" : {
+		"close" : "obi 4/17/2010 19:32",
+		"destroy" : "lr 2/22/2010 07:59",
+		"initializeWithStream:codec:" : "lr 2/22/2010 07:59",
+		"nextPut:" : "jf 1/23/2009 12:40",
+		"nextPutAll:" : "jf 1/23/2009 12:40",
+		"open:" : "lr 2/22/2010 14:55",
+		"scriptGenerator:" : "pmm 4/17/2010 12:41",
+		"stream" : "lr 2/22/2010 14:52" } }

@@ -1,0 +1,3 @@
+configuration
+keySize
+	^ 16

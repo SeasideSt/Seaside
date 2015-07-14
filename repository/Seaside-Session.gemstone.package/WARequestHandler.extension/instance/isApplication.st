@@ -1,0 +1,3 @@
+*seaside-session
+isApplication
+	^ false

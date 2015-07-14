@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 15:57",
+	"instvars" : [
+		 ],
+	"name" : "WAResponseNotification",
+	"pools" : [
+		 ],
+	"super" : "WANotification",
+	"type" : "normal" }

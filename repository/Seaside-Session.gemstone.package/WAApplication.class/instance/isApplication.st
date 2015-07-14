@@ -1,0 +1,3 @@
+testing
+isApplication
+	^ true

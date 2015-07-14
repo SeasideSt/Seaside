@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"debug:request:object:" : "dkh 05/20/2008 08:31",
+		"error:request:continuation:" : "dkh 05/20/2008 08:31",
+		"error:request:object:" : "dkh 05/20/2008 08:31",
+		"fatal:request:object:" : "dkh 05/20/2008 08:31",
+		"info:request:object:" : "dkh 05/20/2008 08:31",
+		"trace:request:object:" : "dkh 05/20/2008 08:31",
+		"transcript:request:object:" : "DaleHenrichs 06/20/2010 10:25",
+		"warn:request:object:" : "dkh 05/20/2008 08:31" },
+	"instance" : {
+		"isResumable" : "DaleHenrichs 06/20/2010 16:03",
+		"request" : "dkh 05/20/2008 08:32",
+		"request:" : "dkh 05/20/2008 08:32",
+		"requestString" : "dkh 05/20/2008 12:09" } }

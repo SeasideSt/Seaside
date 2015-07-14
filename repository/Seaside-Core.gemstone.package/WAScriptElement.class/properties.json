@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document-Elements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/28/2008 06:46",
+	"instvars" : [
+		 ],
+	"name" : "WAScriptElement",
+	"pools" : [
+		 ],
+	"super" : "WAContentElement",
+	"type" : "normal" }

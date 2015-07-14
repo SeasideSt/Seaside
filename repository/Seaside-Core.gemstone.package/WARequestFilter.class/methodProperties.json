@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"copyTo:" : "lr 9/13/2008 15:08",
+		"handleFiltered:" : "jf 1/14/2009 09:45",
+		"handler" : "lr 8/31/2008 12:46",
+		"initialize" : "lr 8/31/2008 12:47",
+		"isExceptionFilter" : "jf 3/4/2009 10:44",
+		"next" : "lr 8/31/2008 12:46",
+		"postCopy" : "lr 9/13/2008 15:23",
+		"setNext:" : "lr 9/13/2008 14:55" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"configureHandlerFrom:to:mailhost:" : "dkh 11/24/2009 10:31" },
+	"instance" : {
+		"bodyFor:" : "dkh 11/11/2009 11:04",
+		"from" : "dkh 11/24/2009 10:24",
+		"handleDefault:" : "dkh 11/24/2009 10:45",
+		"responseFor:" : "JohanBrichau 02/16/2014 01:14",
+		"sendFailFor:" : "pmm 9/14/2008 14:48",
+		"subjectFor:" : "dkh 11/11/2009 11:02",
+		"to" : "dkh 11/24/2009 10:24" } }

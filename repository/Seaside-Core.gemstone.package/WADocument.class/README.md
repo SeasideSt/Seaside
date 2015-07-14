@@ -1,0 +1,1 @@
+A WADocument combines an output stream and an instance of root. The root is responsible to render header and footer if necessary.

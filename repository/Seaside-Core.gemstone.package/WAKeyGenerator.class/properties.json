@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Utilities",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generator",
+		"space" ],
+	"name" : "WAKeyGenerator",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+productionErrorMessage
+
+	^self class productionErrorMessage

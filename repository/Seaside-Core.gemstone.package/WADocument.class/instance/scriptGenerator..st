@@ -1,0 +1,3 @@
+accessing
+scriptGenerator: aScriptGenerator
+	"ignore"

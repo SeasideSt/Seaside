@@ -1,0 +1,3 @@
+private
+valueClass
+	self subclassResponsibility

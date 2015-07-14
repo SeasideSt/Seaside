@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "DaleHenrichs 07/06/2010 11:23" },
+	"instance" : {
+		"actions" : "DaleHenrichs 07/06/2010 11:23",
+		"children" : "DaleHenrichs 07/06/2010 11:23",
+		"chooseObject:named:" : "DaleHenrichs 07/06/2010 11:23",
+		"displayFullPrintStringFor:" : "DaleHenrichs 07/06/2010 11:28",
+		"doIt" : "DaleHenrichs 07/06/2010 11:28",
+		"evaluate" : "DaleHenrichs 07/06/2010 11:28",
+		"fieldsFor:" : "DaleHenrichs 07/06/2010 11:29",
+		"initialize" : "DaleHenrichs 07/06/2010 11:23",
+		"inspectIt" : "DaleHenrichs 07/06/2010 11:23",
+		"isPrimitiveType:" : "DaleHenrichs 07/06/2010 11:23",
+		"object" : "DaleHenrichs 07/06/2010 11:23",
+		"object:" : "DaleHenrichs 07/06/2010 11:23",
+		"renderContentOn:" : "DaleHenrichs 07/06/2010 11:23",
+		"renderEditAreaOn:" : "DaleHenrichs 07/06/2010 11:23",
+		"renderMembersOn:" : "DaleHenrichs 07/06/2010 11:23",
+		"renderRow:named:group:on:" : "DaleHenrichs 07/06/2010 11:29",
+		"style" : "DaleHenrichs 07/06/2010 11:23" } }

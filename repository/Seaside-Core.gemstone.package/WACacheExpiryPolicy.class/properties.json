@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 9/22/2008 17:36",
+	"instvars" : [
+		 ],
+	"name" : "WACacheExpiryPolicy",
+	"pools" : [
+		 ],
+	"super" : "WACachePlugin",
+	"type" : "normal" }

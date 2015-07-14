@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Backtracking",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 6/2/2008 09:24",
+	"instvars" : [
+		"objects" ],
+	"name" : "WASnapshot",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

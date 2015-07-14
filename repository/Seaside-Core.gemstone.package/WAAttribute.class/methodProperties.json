@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "jf 1/11/2009 19:41",
+		"beAdvanced" : "lr 1/2/2009 20:51",
+		"comment" : "lr 1/2/2009 20:43",
+		"comment:" : "jf 7/16/2008 16:46",
+		"default" : "lr 1/2/2009 20:44",
+		"default:" : "jf 7/18/2008 15:32",
+		"group" : "lr 1/2/2009 20:44",
+		"group:" : "jf 7/16/2008 16:46",
+		"initializeWithKey:" : "lr 1/2/2009 20:51",
+		"isAdvanced" : "lr 1/2/2009 21:17",
+		"label" : "lr 1/2/2009 20:44",
+		"label:" : "jf 7/18/2008 18:10",
+		"printOn:" : "jf 9/30/2009 01:10",
+		"stringForValue:" : "jf 9/30/2009 01:10",
+		"valueFromString:" : "lr 10/28/2007 14:42" } }

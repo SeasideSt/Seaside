@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"absolutePathFromRelative:" : "NickAger 3/18/2012 18:26",
+		"addFileAt:relativeToRootDirectory:" : "pmm 8/31/2012 17:04",
+		"addFileNamed:contents:" : "NickAger 3/19/2012 11:46",
+		"recursivelyAddAllFilesIn:" : "NickAger 3/18/2012 18:26",
+		"recursivelyAddAllFilesIn:relativeToRootDirectory:" : "NickAger 3/9/2012 12:13" },
+	"instance" : {
+		"asFileAndFoldername:" : "pmm 9/1/2012 15:18",
+		"asFilename:" : "NickAger 3/9/2012 00:47",
+		"deployFiles" : "pmm 9/14/2013 16:49",
+		"fileResourceOf:" : "NickAger 3/29/2012 10:27",
+		"fileSelectors" : "NickAger 3/9/2012 13:34",
+		"fileSizeOf:" : "NickAger 3/27/2012 17:46",
+		"handle:" : "NickAger 3/18/2012 15:11",
+		"isFileSelector:" : "NickAger 3/22/2012 20:22",
+		"mimetypeOf:" : "NickAger 3/9/2012 00:49" } }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialize" : "dkh 11/10/2009 14:20" },
+	"instance" : {
+		"displayFullPrintStringFor:" : "DaleHenrichs 06/20/2010 10:17",
+		"doIt" : "dkh 11/10/2009 14:20",
+		"evaluate" : "dkh 11/10/2009 14:23",
+		"fieldsFor:" : "dkh 11/10/2009 14:20",
+		"renderRow:named:group:on:" : "DaleHenrichs 06/20/2010 10:13" } }

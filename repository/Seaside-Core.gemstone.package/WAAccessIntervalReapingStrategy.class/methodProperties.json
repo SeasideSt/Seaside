@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultConfiguration" : "pmm 12/10/2010 06:48",
+		"initialize" : "pmm 12/10/2010 06:44",
+		"interval" : "pmm 12/10/2010 06:44",
+		"reap" : "pmm 12/10/2010 06:44",
+		"stored:key:" : "pmm 12/10/2010 06:44" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAError",
+	"pools" : [
+		 ],
+	"super" : "GRError",
+	"type" : "normal" }

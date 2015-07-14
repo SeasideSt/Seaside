@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 7/16/2011 14:52" },
+	"instance" : {
+		"addKey:toContext:" : "pmm 2/18/2012 13:43",
+		"addKey:toUrl:" : "pmm 2/18/2012 13:43",
+		"addPathParameterWithValue:to:" : "pmm 8/18/2011 21:42",
+		"addQueryFieldWithValue:to:" : "pmm 7/15/2011 21:32",
+		"keyField" : "pmm 7/15/2011 21:06",
+		"keyFromContext:" : "pmm 7/17/2011 12:06",
+		"noHandlerFoundForKey:in:context:" : "pmm 7/16/2011 16:59",
+		"pathParameterKeyFromContext:" : "pmm 7/16/2011 10:40",
+		"queryFieldKeyFromContext:" : "pmm 7/15/2011 20:13" } }

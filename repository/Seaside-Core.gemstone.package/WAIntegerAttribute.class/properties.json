@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAIntegerAttribute",
+	"pools" : [
+		 ],
+	"super" : "WANumberAttribute",
+	"type" : "normal" }

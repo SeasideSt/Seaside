@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-GemStone-Continuation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAPartialContinuationAlternatMarker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"fromContinuation:atLevel:" : "dkh 02/28/2008 15:13",
+		"fromLevel:" : "dkh 02/28/2008 15:13" },
+	"instance" : {
+		"asString" : "dkh 02/28/2008 15:15",
+		"continuation:level:" : "dkh 05/26/2015 15:39",
+		"fullPrintString" : "dkh 02/28/2008 15:14",
+		"greaseString" : "DaleHenrichs 06/04/2010 17:22",
+		"method" : "dkh 02/28/2008 15:15",
+		"receiver" : "dkh 02/28/2008 15:15",
+		"sender" : "dkh 02/28/2008 15:15",
+		"tempAt:" : "dkh 05/27/2015 10:10",
+		"tempNames" : "dkh 05/27/2015 10:10" } }

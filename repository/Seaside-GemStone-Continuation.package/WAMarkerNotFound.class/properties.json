@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Continuation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaleHenrichs 06/02/2010 12:37",
+	"instvars" : [
+		 ],
+	"name" : "WAMarkerNotFound",
+	"pools" : [
+		 ],
+	"super" : "GRError",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Adaptors-Swazoo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SwazooSeasideGemServer",
+	"pools" : [
+		 ],
+	"super" : "SeasideGemServer",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache",
+		"configuration" ],
+	"name" : "WACachePlugin",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

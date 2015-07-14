@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 7/10/2008 14:06",
+	"instvars" : [
+		 ],
+	"name" : "WAPasswordAttribute",
+	"pools" : [
+		 ],
+	"super" : "WAAttribute",
+	"type" : "normal" }

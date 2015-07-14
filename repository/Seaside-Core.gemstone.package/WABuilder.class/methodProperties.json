@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"on:" : "lr 7/25/2011 19:47" },
+	"instance" : {
+		"actionUrl" : "jf 2/15/2009 19:47",
+		"actionUrl:" : "jf 2/15/2009 19:47",
+		"closeDocument:" : "lr 2/22/2010 22:29",
+		"codec" : "pmm 8/24/2010 19:01",
+		"codec:" : "jf 1/23/2009 15:25",
+		"documentClass" : "jf 2/15/2009 19:45",
+		"documentClass:" : "jf 2/15/2009 19:45",
+		"fullDocument" : "lr 7/25/2011 19:58",
+		"fullDocument:" : "lr 10/28/2007 14:42",
+		"initialize" : "jf 8/30/2008 16:31",
+		"openDocument:context:" : "jf 1/31/2009 02:34",
+		"render:" : "pmm 11/5/2010 20:01",
+		"rendererClass" : "jf 10/19/2008 02:48",
+		"rendererClass:" : "jf 2/15/2009 19:44",
+		"resourceUrl" : "jf 2/21/2009 18:37",
+		"resourceUrl:" : "jf 2/21/2009 18:37",
+		"rootBlock" : "lr 2/22/2010 19:00",
+		"rootBlock:" : "pmm 8/12/2007 12:00",
+		"rootClass" : "lr 2/22/2010 19:00",
+		"rootClass:" : "jf 2/15/2009 19:42",
+		"scriptGeneratorClass" : "pmm 11/5/2010 20:10",
+		"scriptGeneratorClass:" : "pmm 11/5/2010 20:08" } }

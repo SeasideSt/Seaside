@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"createServerOfClass:withName:on:" : "PaulDeBruicker 04/15/2011 14:31" },
+	"instance" : {
+		"isRunning" : "PaulDeBruicker 04/15/2011 15:08",
+		"name" : "PaulDeBruicker 04/15/2011 14:05",
+		"name:" : "PaulDeBruicker 04/15/2011 12:55",
+		"portString" : "PaulDeBruicker 04/15/2011 14:59",
+		"ports" : "PaulDeBruicker 04/15/2011 14:06",
+		"ports:" : "PaulDeBruicker 04/15/2011 12:55",
+		"serverClass" : "PaulDeBruicker 04/15/2011 12:55",
+		"serverClass:" : "PaulDeBruicker 04/15/2011 12:55",
+		"start" : "PaulDeBruicker 04/15/2011 12:55",
+		"startOn:" : "PaulDeBruicker 04/15/2011 14:05",
+		"stop" : "PaulDeBruicker 04/15/2011 14:05" } }

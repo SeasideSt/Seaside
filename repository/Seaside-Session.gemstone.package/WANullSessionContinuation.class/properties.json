@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WANullSessionContinuation",
+	"pools" : [
+		 ],
+	"super" : "WASessionContinuation",
+	"type" : "normal" }

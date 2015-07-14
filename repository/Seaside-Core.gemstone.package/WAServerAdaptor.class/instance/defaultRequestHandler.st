@@ -1,0 +1,3 @@
+defaults
+defaultRequestHandler
+	^ WADispatcher default

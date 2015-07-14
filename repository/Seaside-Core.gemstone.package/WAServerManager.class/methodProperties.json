@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"default" : "dkh 12/23/2009 16:11",
+		"initialize" : "jf 9/30/2009 00:19",
+		"shutDown" : "yann.monclair 9/5/2009 18:03",
+		"startUp" : "yann.monclair 9/5/2009 18:03",
+		"unload" : "jf 9/30/2009 00:19" },
+	"instance" : {
+		"adaptors" : "jf 10/29/2008 17:28",
+		"canStart:" : "pmm 12/5/2010 13:19",
+		"canStop:" : "jf 10/30/2008 15:50",
+		"initialize" : "jf 10/29/2008 17:28",
+		"register:" : "jf 10/30/2008 16:14",
+		"restart:" : "jf 10/30/2008 13:51",
+		"restartAll" : "jf 10/29/2008 17:31",
+		"start:" : "jf 10/31/2008 09:23",
+		"startAll" : "jf 10/29/2008 17:31",
+		"stop:" : "jf 10/30/2008 15:52",
+		"stopAll" : "jf 10/29/2008 17:31",
+		"unregister:" : "jf 2/7/2009 20:20" } }

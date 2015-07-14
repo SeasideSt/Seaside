@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"frames" ],
+	"name" : "WAGemStoneWalkback",
+	"pools" : [
+		 ],
+	"super" : "WAWalkback",
+	"type" : "normal" }

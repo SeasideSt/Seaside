@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/20/2009 15:11",
+	"instvars" : [
+		 ],
+	"name" : "WAUnescapedDocument",
+	"pools" : [
+		 ],
+	"super" : "WAXmlDocument",
+	"type" : "normal" }

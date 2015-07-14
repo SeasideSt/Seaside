@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"encode:on:" : "jf 9/30/2009 01:04",
+		"initialize" : "pmm 12/26/2010 18:10",
+		"initializeTable" : "pmm 12/19/2013 13:04",
+		"maximumCharacterValue" : "pmm 2/18/2011 22:30",
+		"on:codec:" : "pmm 8/14/2011 22:34" },
+	"instance" : {
+		 } }

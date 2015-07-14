@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"closeTag:" : "lr 2/22/2010 08:11",
+		"destroy" : "lr 2/22/2010 15:32",
+		"initializeWithStream:codec:" : "pmm 8/14/2011 21:45",
+		"openTag:" : "lr 2/22/2010 08:11",
+		"openTag:attributes:" : "lr 2/22/2010 08:12",
+		"openTag:attributes:closed:" : "lr 2/22/2010 08:12",
+		"print:" : "jf 1/23/2009 13:40",
+		"urlEncoder" : "lr 2/22/2010 08:08",
+		"xmlEncoder" : "lr 2/22/2010 08:09" } }

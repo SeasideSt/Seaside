@@ -1,0 +1,3 @@
+testing
+hasError
+    ^ task hasError.

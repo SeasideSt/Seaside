@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callbackMarker" : "dkh 10/02/2009 11:23",
+		"callcc:" : "dkh 09/17/2009 12:36",
+		"mark:" : "dkh 09/17/2009 11:25",
+		"markDiscardingResultOf:" : "dkh 09/17/2009 14:55",
+		"testEnsure" : "dkh 09/16/2009 15:31",
+		"testGemStoneMarkerOnValue" : "DaleHenrichs 01/25/2011 13:17",
+		"testGemStoneNoMarkerOnValue" : "DaleHenrichs 01/25/2011 13:19",
+		"testMarkerOnValue" : "dkh 10/02/2009 10:19",
+		"testMarkerOnValueNoShouldntBlock" : "DaleHenrichs 01/25/2011 13:13",
+		"testNestedEvaluation" : "dkh 10/02/2009 11:03",
+		"testNoMarkerOnCall" : "dkh 09/17/2009 13:27",
+		"testNoMarkerOnValue" : "dkh 10/02/2009 10:20",
+		"testNoMarkerOnValueNoShouldntBlock" : "DaleHenrichs 01/25/2011 13:14",
+		"testReentrant" : "dkh 09/17/2009 13:27",
+		"testSimple" : "dkh 09/17/2009 13:26" } }

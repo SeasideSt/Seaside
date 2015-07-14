@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:to:" : "jf 1/1/2009 20:47",
+		"addAttribute:" : "jf 7/29/2008 16:57",
+		"addExpression:" : "jf 9/11/2008 11:24",
+		"at:addAll:" : "jf 7/31/2008 13:11",
+		"at:addAll:removeAll:" : "jf 9/11/2008 11:24",
+		"at:put:" : "jf 9/11/2008 11:24",
+		"attributes" : "jf 7/29/2008 17:02",
+		"boolean:" : "jf 7/29/2008 16:59",
+		"collection:" : "jf 7/29/2008 17:00",
+		"expressions" : "jf 9/11/2008 11:27",
+		"initialize" : "pmm 9/1/2012 16:15",
+		"integer:" : "jf 1/10/2009 14:23",
+		"list:" : "jf 7/29/2008 17:00",
+		"listOfClasses:" : "pmm 7/24/2011 13:32",
+		"number:" : "jf 7/29/2008 17:00",
+		"password:" : "jf 7/29/2008 17:00",
+		"string:" : "jf 7/29/2008 17:00",
+		"url:" : "jf 11/3/2009 00:17" } }

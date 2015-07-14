@@ -1,0 +1,3 @@
+development
+clearDefaultDispatcher
+	WADispatcher resetDefault

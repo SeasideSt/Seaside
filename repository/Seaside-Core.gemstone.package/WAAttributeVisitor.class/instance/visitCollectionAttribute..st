@@ -1,0 +1,3 @@
+visiting
+visitCollectionAttribute: anAttribute
+	self visitListAttribute: anAttribute

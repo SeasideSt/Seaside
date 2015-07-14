@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WANotifyRemovalAction",
+	"pools" : [
+		 ],
+	"super" : "WACacheRemovalAction",
+	"type" : "normal" }

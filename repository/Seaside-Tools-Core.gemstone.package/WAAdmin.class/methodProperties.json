@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"applicationDefaults" : "jf 3/16/2009 08:23",
+		"applicationExceptionHandlingDefaults" : "jf 3/16/2009 08:24",
+		"clearAll" : "pmm 9/1/2012 15:58",
+		"clearConfigurationCaches" : "jf 9/17/2008 20:58",
+		"clearDefaultDispatcher" : "jf 3/15/2009 18:22",
+		"clearSessions" : "jf 2/5/2010 15:56",
+		"configureApplicationDefaults:" : "jf 3/16/2009 08:25",
+		"configureApplicationExceptionHandlingDefaults:" : "jgf 3/17/2009 08:06",
+		"configureNewApplication:" : "jf 3/4/2009 10:59",
+		"defaultDispatcher" : "jf 10/26/2008 12:19",
+		"defaultServerManager" : "yann.monclair 9/5/2009 18:02",
+		"register:asApplicationAt:" : "jf 3/13/2012 12:34",
+		"register:asApplicationAt:in:" : "jf 3/13/2012 12:33",
+		"register:asApplicationAt:user:password:" : "jf 9/30/2009 00:19",
+		"register:at:" : "jf 10/26/2008 12:19",
+		"register:at:in:" : "jf 12/29/2009 14:06",
+		"serverAdaptors" : "jf 3/17/2009 15:13",
+		"unregister:" : "lr 1/20/2010 13:52",
+		"unregister:in:" : "TestRunner 1/20/2010 14:03" },
+	"instance" : {
+		 } }

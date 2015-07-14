@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"description" : "lr 11/16/2006 18:38" },
+	"instance" : {
+		"addLibrary:" : "lr 11/18/2007 15:24",
+		"contentType" : "pmm 5/26/2010 07:23",
+		"defaultConfiguration" : "jf 1/30/2009 17:25",
+		"handleDefault:" : "jf 9/24/2009 00:12",
+		"handleDefault:withKey:" : "pmm 7/16/2011 16:02",
+		"handleFiltered:" : "pmm 6/20/2011 21:01",
+		"handlePrefetch:" : "pmm 6/20/2011 21:13",
+		"initialContinuationClass" : "jf 8/24/2011 11:40",
+		"isApplication" : "lr 7/25/2011 19:57",
+		"isImplemented:" : "lr 1/12/2009 08:40",
+		"libraries" : "lr 2/10/2008 15:59",
+		"mimeType" : "pmm 4/6/2008 15:11",
+		"newSession" : "jf 9/24/2009 00:17",
+		"removeLibrary:" : "lr 11/18/2007 15:25",
+		"resourceBaseUrl" : "lr 2/12/2007 22:02",
+		"sessionAllowTermination" : "jf 1/30/2009 17:21",
+		"sessionClass" : "lr 10/28/2007 14:42",
+		"sessions" : "lr 7/25/2011 19:03",
+		"sessionsDo:" : "pmm 2/18/2012 12:54" } }

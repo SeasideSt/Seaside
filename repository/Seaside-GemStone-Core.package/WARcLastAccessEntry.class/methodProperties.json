@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"counter" : "dkh 12/28/2009 14:01",
+		"increment" : "dkh 12/28/2009 13:59",
+		"initialize" : "dkh 12/28/2009 14:11",
+		"isExpired:" : "dkh 12/28/2009 14:56",
+		"isExpired:updating:" : "dkh 12/28/2009 14:56",
+		"isExpiredUpdating:" : "dkh 12/28/2009 14:56",
+		"lastCount" : "dkh 12/28/2009 14:04",
+		"time" : "dkh 12/28/2009 14:04" } }

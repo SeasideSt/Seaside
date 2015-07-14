@@ -1,0 +1,3 @@
+protocol
+missed: aString
+	^ nil

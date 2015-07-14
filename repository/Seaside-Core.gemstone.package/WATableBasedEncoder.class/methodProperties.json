@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"maximumCharacterValue" : "lr 7/25/2011 19:48",
+		"new" : "jf 9/30/2009 00:19",
+		"on:" : "lr 3/26/2007 20:51",
+		"on:codec:" : "jf 1/23/2009 19:45",
+		"on:table:" : "jf 1/23/2009 19:44" },
+	"instance" : {
+		"initializeOn:table:" : "pmm 8/14/2011 13:17",
+		"nextPut:" : "pmm 8/14/2011 22:26",
+		"nextPutAll:" : "JohanBrichau 12/15/2013 08:11" } }

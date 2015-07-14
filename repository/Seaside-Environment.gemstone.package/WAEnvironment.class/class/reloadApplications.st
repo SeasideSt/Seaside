@@ -1,0 +1,5 @@
+registration
+reloadApplications
+	WAAdmin clearAll.
+	self registerDefaultRequestHandlers.
+	self registerDefaultComponents

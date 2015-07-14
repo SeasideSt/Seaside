@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-GemStone-ServiceTask",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"futureValue",
+		"task" ],
+	"name" : "WAGemStoneServerBackgroundTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2012 11:03",
+	"instvars" : [
+		"continuations",
+		"properties",
+		"cache" ],
+	"name" : "WASession",
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Tools-Core",
+	"classinstvars" : [
+		"configuredApplicationDefaults",
+		"configuredExceptionHandlingDefaults" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAAdmin",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

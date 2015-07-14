@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAGemStoneInspector",
+	"pools" : [
+		 ],
+	"super" : "WAInspector",
+	"type" : "normal" }

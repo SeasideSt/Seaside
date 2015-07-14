@@ -1,0 +1,23 @@
+{
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/6/2011 21:34",
+	"instvars" : [
+		"scheme",
+		"user",
+		"password",
+		"host",
+		"port",
+		"path",
+		"slash",
+		"queryFields",
+		"fragment",
+		"pathParameters" ],
+	"name" : "WAUrl",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+sharedCounterIndex
+
+	^1

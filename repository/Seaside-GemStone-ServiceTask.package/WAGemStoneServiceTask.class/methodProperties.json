@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"idHighWater" : "DaleHenrichs 08/25/2010 11:22",
+		"idIndex" : "DaleHenrichs 08/25/2010 11:22",
+		"inProcess" : "DaleHenrichs 08/25/2010 11:34",
+		"inProcessCollection" : "dkh 06/08/2014 14:33",
+		"incrementSharedCounterValue" : "DaleHenrichs 08/25/2010 11:22",
+		"initialize" : "NickAger 08/30/2010 20:44",
+		"newId" : "NickAger 08/30/2010 18:18",
+		"queue" : "DaleHenrichs 08/25/2010 11:22",
+		"reset" : "NickAger 08/30/2010 20:52",
+		"setSharedCounterValue:" : "DaleHenrichs 08/25/2010 13:13",
+		"sharedCounterIndex" : "DaleHenrichs 08/25/2010 11:22",
+		"sharedCounterValue" : "DaleHenrichs 08/25/2010 11:22",
+		"value:" : "NickAger 08/30/2010 20:45" },
+	"instance" : {
+		"addToQueue" : "NickAger 08/30/2010 20:37",
+		"exception" : "NickAger 08/29/2010 22:12",
+		"hasError" : "NickAger 08/30/2010 18:50",
+		"hasValue" : "NickAger 08/31/2010 12:46",
+		"id" : "NickAger 08/30/2010 18:30",
+		"id:" : "NickAger 08/30/2010 18:30",
+		"performSafely:" : "dkh 06/09/2014 20:29",
+		"printOn:" : "dkh 06/08/2014 15:03",
+		"processTask" : "NickAger 08/31/2010 12:45",
+		"value" : "NickAger 08/27/2010 17:13",
+		"value:" : "NickAger 08/27/2010 18:14" } }

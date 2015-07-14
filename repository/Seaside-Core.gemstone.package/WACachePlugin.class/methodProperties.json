@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"cache:" : "jf 10/5/2008 22:47" },
+	"instance" : {
+		"configuration" : "jf 1/10/2009 16:41",
+		"defaultConfiguration" : "jf 1/10/2009 14:36",
+		"initialize" : "jf 1/10/2009 14:41",
+		"removed:key:" : "jf 2/6/2009 16:57",
+		"retrieved:key:" : "jf 2/6/2009 16:37",
+		"setCache:" : "jf 1/10/2009 14:41",
+		"stored:key:" : "jf 2/6/2009 16:39" } }

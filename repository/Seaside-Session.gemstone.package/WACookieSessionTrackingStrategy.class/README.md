@@ -1,0 +1,1 @@
+I am the abstract base class for tracking strategies that use cookies to track sessions and query fields to track everything else.

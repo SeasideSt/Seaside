@@ -1,0 +1,3 @@
+operators
+not
+	self addToCondition: ' !'

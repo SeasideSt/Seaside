@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"count" ],
+	"name" : "WAAccessIntervalReapingStrategy",
+	"pools" : [
+		 ],
+	"super" : "WACacheReapingStrategy",
+	"type" : "normal" }

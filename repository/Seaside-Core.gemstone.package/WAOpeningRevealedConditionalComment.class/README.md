@@ -1,0 +1,1 @@
+Opens a WARevealedConditionalComment and encodes the condition.

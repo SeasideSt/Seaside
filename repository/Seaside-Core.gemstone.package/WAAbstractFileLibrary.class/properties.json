@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Core-Libraries",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		"MimeTypes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAAbstractFileLibrary",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+sessionIdFromContext: aRequestContext
+	 self subclassResponsibility
