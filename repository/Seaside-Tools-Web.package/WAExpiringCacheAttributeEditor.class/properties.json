@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handler",
+		"maximumSize",
+		"maximumAbsoluteAge",
+		"maximumRelativeAge",
+		"overflowAction",
+		"overflowActionLabels" ],
+	"name" : "WAExpiringCacheAttributeEditor",
+	"pools" : [
+		 ],
+	"super" : "WAAttributeEditor",
+	"type" : "normal" }

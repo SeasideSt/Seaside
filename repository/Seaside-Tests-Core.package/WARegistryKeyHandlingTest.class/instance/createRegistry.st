@@ -2,6 +2,6 @@ private
 createRegistry
 	^ WADispatcher new
 		register: (WARegistry new
-			cache: WADictionaryCache new;
+			cache: WABidirectionalCache new;
 			yourself)
 		at: self registryName

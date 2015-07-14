@@ -10,5 +10,5 @@
 	"name" : "WAHashCacheTest",
 	"pools" : [
 		 ],
-	"super" : "WACacheTest",
+	"super" : "WAExpiringCacheTest",
 	"type" : "normal" }

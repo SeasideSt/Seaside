@@ -6,9 +6,5 @@
 		"setUp" : "pmm 9/14/2013 10:56",
 		"testAtPut" : "pmm 1/25/2014 16:40",
 		"testAtPutOverwrite" : "pmm 1/25/2014 16:40",
-		"testCopy" : "pmm 1/25/2014 16:41",
-		"testKeyAtValue" : "pmm 1/25/2014 16:41",
 		"testKeysAndValuesDo" : "pmm 9/14/2013 10:35",
-		"testMultipleMappings" : "pmm 9/14/2013 10:35",
-		"testRemove" : "pmm 1/25/2014 16:41",
 		"testStore" : "pmm 1/31/2014 15:53" } }

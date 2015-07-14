@@ -4,7 +4,8 @@
 	"instance" : {
 		"initialize" : "lr 2/8/2009 12:39",
 		"renderCheckBoxOn:" : "lr 11/16/2008 00:16",
-		"renderContentOn:" : "lr 7/14/2010 10:25",
+		"renderContentOn:" : "JohanBrichau 6/17/2015 11:32",
+		"renderFileUploadOn:" : "JohanBrichau 7/13/2015 17:29",
 		"renderLabel:control:model:on:" : "lr 2/6/2009 20:37",
 		"renderMultiSelectListOn:" : "lr 2/8/2009 12:39",
 		"renderRadioButtonOn:" : "pmm 1/22/2012 16:32",

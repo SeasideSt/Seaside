@@ -21,8 +21,6 @@ at: aKey put: anObject overwrite: aBoolean
 			self addToAccessEnd: byAccessEntry.
 			self addToCreationEnd: byCreationEntry.
 			self insertKeyEntry: cacheEntry.
-			"update value table"
-			self mapValue: anObject to: aKey expectMapping: false.
 			size := size + 1 ]
 		ifFalse: [
 			"a mapping for this key already exists"
@@ -35,7 +33,9 @@ at: aKey put: anObject overwrite: aBoolean
 			self addToAccessEnd: byAccessListEntry.
 			self expunge: byCreationListEntry.
 			self addToCreationEnd: byCreationListEntry.
-			self updateMappingOf: aKey from: entry value to: anObject.
+			
+			"notify removal"
+			self cacheEntryRemoved: entry value.
 			
 			"update entry"
 			entry value: anObject ].

@@ -1,3 +1,0 @@
-running
-createCache
-	^ WADictionaryCache new

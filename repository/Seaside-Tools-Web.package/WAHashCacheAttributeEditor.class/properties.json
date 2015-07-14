@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAHashCacheAttributeEditor",
+	"pools" : [
+		 ],
+	"super" : "WAExpiringCacheAttributeEditor",
+	"type" : "normal" }

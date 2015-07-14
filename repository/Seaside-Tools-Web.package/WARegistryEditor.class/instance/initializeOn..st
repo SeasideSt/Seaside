@@ -1,8 +1,10 @@
 initialization
 initializeOn: aHandler
+	| cache |
 	super initializeOn: aHandler.
-	cacheEditor := WACacheAttributeEditor new
-		configuration: self handler cache underlyingCache;
+	cache := self handler cache.
+	cacheEditor := cache editorClass new
+		configuration: cache;
 		handler: handler;
 		group: #cache;
 		parent: self;

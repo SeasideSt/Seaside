@@ -11,7 +11,8 @@
 		"checkBox",
 		"radioButton",
 		"selectList",
-		"multiSelectList" ],
+		"multiSelectList",
+		"fileInput" ],
 	"name" : "JQFormFunctionalTest",
 	"pools" : [
 		 ],

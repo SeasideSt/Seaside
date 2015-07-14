@@ -6,5 +6,9 @@ renderCurrencyTableBodyOn: html
 			self exchangeRates do: [ :each |
 				html tableRow: [
 					html tableHeading: each first.
-					html tableData align: 'char'; character: $.;
+					"https://bugzilla.mozilla.org/show_bug.cgi?id=2212
+					https://bugzilla.mozilla.org/show_bug.cgi?id=915"
+					html tableData
+						align: 'char';
+						character: $.;
 						with: each second ] ] ]

@@ -1,3 +1,3 @@
 initialization
 createCache
-	^ WAMutualExclusionCache on: WADictionaryCache new
+	^ WAMutualExclusionCache on: WABidirectionalCache new

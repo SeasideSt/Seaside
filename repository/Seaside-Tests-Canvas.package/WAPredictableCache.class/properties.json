@@ -10,5 +10,5 @@
 	"name" : "WAPredictableCache",
 	"pools" : [
 		 ],
-	"super" : "WADictionaryCache",
+	"super" : "WABidirectionalCache",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	handlers := Dictionary new
+	handlers := WABidirectionalCache new

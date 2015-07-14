@@ -1,0 +1,3 @@
+public
+clear
+	dictionary removeAll

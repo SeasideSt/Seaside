@@ -4,15 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pmm 8/19/2014 09:46",
+	"commentStamp" : "pmm 7/13/2015 14:13",
 	"instvars" : [
 		"keyTable",
-		"valueTable",
 		"size",
-		"maximumSize",
-		"maximumRelativeAge",
-		"maximumAbsoluteAge",
-		"overflowAction",
 		"byAccessStart",
 		"byAccessEnd",
 		"byCreationStart",
@@ -20,5 +15,5 @@
 	"name" : "WAHashCache",
 	"pools" : [
 		 ],
-	"super" : "WACache",
+	"super" : "WAExpiringCache",
 	"type" : "normal" }

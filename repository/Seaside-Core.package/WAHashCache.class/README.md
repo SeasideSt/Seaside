@@ -13,10 +13,6 @@ Instance Variables:
 	keyTable 				<Array>
 	valueTable				<Array>
 	size					<Integer>
-	maximumSize			<Integer>
-	maximumRelativeAge	<Integer>
-	maximumAbsoluteAge	<Integer>
-	overflowAction			<Symbol>
 	byAccessStart			<WACacheListEntryNG>
 	byAccessEnd			<WACacheListEntryNG>
 	byCreationStart		<WACacheListEntryNG>

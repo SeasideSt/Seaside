@@ -1,10 +1,5 @@
 initialization
-initializeWithInitialSize: anSizeInteger maximumSize: aMaximumSizeInteger maximumAbsoluteAge: aMaximumAbsoluteAge maximumRelativeAge: aMaximumRelativeAge overflowAction: aOverflowActionSymbol
-	self initialize.
+initializeWithInitialSize: aSizeInteger maximumSize: aMaximumSizeInteger maximumAbsoluteAge: aMaximumAbsoluteAge maximumRelativeAge: aMaximumRelativeAge overflowAction: aOverflowActionSymbol
+	super initializeWithInitialSize: aSizeInteger maximumSize: aMaximumSizeInteger maximumAbsoluteAge: aMaximumAbsoluteAge maximumRelativeAge: aMaximumRelativeAge overflowAction: aOverflowActionSymbol.
 	size := 0.
-	keyTable := Array new: anSizeInteger.
-	valueTable := Array new: anSizeInteger.
-	maximumSize := aMaximumSizeInteger.
-	maximumAbsoluteAge := aMaximumAbsoluteAge.
-	maximumRelativeAge := aMaximumRelativeAge.
-	overflowAction := aOverflowActionSymbol
+	keyTable := Array new: aSizeInteger

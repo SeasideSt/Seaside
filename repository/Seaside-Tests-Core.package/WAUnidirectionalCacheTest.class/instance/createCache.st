@@ -1,0 +1,3 @@
+running
+createCache
+	^ WAUnidirectionalCache new

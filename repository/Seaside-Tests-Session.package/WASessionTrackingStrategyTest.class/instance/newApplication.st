@@ -1,5 +1,5 @@
 private
 newApplication
 	^ WAApplication new
-		cache: WADictionaryCache new;
+		cache: WAUnidirectionalCache new;
 		yourself

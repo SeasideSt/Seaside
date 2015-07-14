@@ -3,7 +3,7 @@ insertKeyEntry: aCacheEntry
 	| keyHash key index entry previous |
 	keyHash := aCacheEntry keyHash.
 	key := aCacheEntry key.
-	index := (keyHash \\ valueTable size) + 1.
+	index := (keyHash \\ keyTable size) + 1.
 	entry := keyTable at: index.
 	previous := nil.
 	[ entry isNil ] whileFalse: [
