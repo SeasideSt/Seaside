@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"forServer:" : "SvenVanCaekenberghe 1/5/2013 21:36",
+		"installInDefaultServer" : "SvenVanCaekenberghe 1/5/2013 21:33",
+		"installInServer:" : "SvenVanCaekenberghe 1/5/2013 21:33",
+		"installInServer:underPrefix:" : "SvenVanCaekenberghe 1/7/2013 12:47",
+		"with:" : "SvenVanCaekenberghe 9/30/2010 17:14" },
+	"instance" : {
+		"adaptor" : "SvenVanCaekenberghe 9/30/2010 17:13",
+		"adaptor:" : "SvenVanCaekenberghe 9/30/2010 17:12",
+		"handleRequest:" : "PaulDeBruicker 6/5/2012 21:52",
+		"handleRequest:gemServer:" : "dkh 01/15/2015 17:41",
+		"value:" : "SvenVanCaekenberghe 1/5/2013 21:09" } }
