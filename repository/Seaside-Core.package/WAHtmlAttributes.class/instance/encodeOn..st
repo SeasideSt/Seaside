@@ -4,7 +4,7 @@ encodeOn: aDocument
 
 	self keysAndValuesDo: [ :key :value |
 		value == false ifFalse: [
-			aDocument nextPut: $ ; nextPutAll: key; nextPutAll: '="'.
+			aDocument nextPut: Character space; nextPutAll: key; nextPutAll: '="'.
 			value == true
 				ifTrue: [ aDocument nextPutAll: key ]
 				ifFalse: [ aDocument print: value ].
