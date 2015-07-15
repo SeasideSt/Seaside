@@ -1,5 +1,5 @@
 initialization
 initializeOn: aCache
 	self initialize.
-	mutex := WAGemStoneMutex new.
+	mutex := WAMutex new.
 	cache := aCache

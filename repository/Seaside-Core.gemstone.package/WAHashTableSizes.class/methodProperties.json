@@ -2,14 +2,6 @@
 	"class" : {
 		"atLeast:" : "pmm 9/10/2013 15:46",
 		"initialize" : "MartinMcClure 1/17/2010 09:51",
-		"numValuesPerPower" : "pmm 9/10/2013 15:46",
-		"sizes" : "pmm 8/16/2014 16:33" },
+		"sizes" : "pmm 7/14/2015 19:27" },
 	"instance" : {
-		"candidateIsGoodPrime" : "MartinMcClure 1/17/2010 09:43",
-		"computeSizes" : "pmm 9/10/2013 15:47",
-		"firstCandidateForExp:" : "pmm 9/10/2013 15:47",
-		"goodPrimeForExp:" : "pmm 9/14/2013 16:53",
-		"initialize" : "pmm 8/16/2014 16:58",
-		"limitForExp:" : "pmm 9/14/2013 16:30",
-		"numValuesPerPower" : "pmm 9/10/2013 15:48",
-		"primeAlmostFactorsOf:" : "pmm 2/1/2014 12:23" } }
+		 } }

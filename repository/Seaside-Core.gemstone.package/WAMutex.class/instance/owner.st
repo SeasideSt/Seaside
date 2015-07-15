@@ -1,3 +1,3 @@
 accessing
 owner
-	^ owner
+	^ owner contents

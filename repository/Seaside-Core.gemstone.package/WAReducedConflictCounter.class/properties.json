@@ -4,14 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pmm 7/15/2015 07:41",
+	"commentStamp" : "pmm 7/14/2015 18:30",
 	"instvars" : [
-		"value",
-		"creationTime",
-		"accessTime",
-		"count",
-		"lastCount" ],
-	"name" : "WABulkReapingCacheEntry",
+		"count" ],
+	"name" : "WAReducedConflictCounter",
 	"pools" : [
 		 ],
 	"super" : "WAObject",
