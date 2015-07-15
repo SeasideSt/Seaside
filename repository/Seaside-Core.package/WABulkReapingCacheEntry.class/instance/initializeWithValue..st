@@ -5,4 +5,6 @@ initializeWithValue: anObject
 	value := anObject.
 	now := Time totalSeconds.
 	creationTime := now.
-	accessTime := now
+	accessTime := now.
+	count := GRPlatform current newReducedConflictCounter.
+	lastCount := 0

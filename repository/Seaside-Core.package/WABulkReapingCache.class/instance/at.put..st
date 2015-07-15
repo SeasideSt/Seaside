@@ -8,9 +8,5 @@ at: aKey put: anObject
 		ifAbsentPut: [ present := true. value ].
 	present ifTrue: [
 		^ anObject ].
-	dictionary
-		at: aKey
-		ifPresent: [ :entry |
-			self cacheEntryRemoved: entry value.
-			entry value: anObject ].
+	dictionary at: aKey put: value.
 	^ anObject

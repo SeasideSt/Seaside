@@ -2,9 +2,9 @@ mutual exclusion
 critical: aBlock
 	| process |
 	process := Processor activeProcess.
-	^ (owner == process)
+	^ (self owner == process)
 		ifTrue: [ aBlock value ]
 		ifFalse: [
 			semaphore critical: [
-				owner := process.
-				aBlock ensure: [ owner := nil ] ] ]
+				self owner: process.
+				aBlock ensure: [ self owner: nil ] ] ]
