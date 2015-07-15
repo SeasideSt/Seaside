@@ -35,11 +35,6 @@ OUTPUT_PATH="${PROJECT_HOME}/tests/travisCI.st"
 
 cat - >> $OUTPUT_PATH << EOF
  Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
- "Explicitly load latest Grease configuration, since we're loading the #bleeding edge"
-Metacello new
-    configuration: 'Grease';
-    repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-    load: 'Slime Tests'. "temporary bugfix to load slime because baseline does not seem to pull it in"
 
 "Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
 Metacello new
