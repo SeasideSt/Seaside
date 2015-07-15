@@ -34,31 +34,38 @@ REPOSITORY_LINE="  repository: '$REPOSITORY';"
 OUTPUT_PATH="${PROJECT_HOME}/tests/travisCI.st"
 
 cat - >> $OUTPUT_PATH << EOF
- Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
- "Explicitly load latest Grease configuration, since we're loading the #bleeding edge"
-Metacello new
-    configuration: 'Grease';
-    repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-    load: 'Slime Tests'. "temporary bugfix to load slime because baseline does not seem to pull it in"
+"Load and run tests to be performed by TravisCI"
+Transcript cr; show: 'travis---->travisCI.st'.
 
-"Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
-Metacello new
-    configuration: 'Seaside3';
-    repository: 'filetree://${TRAVIS_BUILD_DIR}/repository';
-    get.
- "Load the configuration or baseline"
- Metacello new
- $PROJECT_LINE
- $VERSION_LINE
- $REPOSITORY_LINE
-   load: #( ${LOADS} ).
-  "Run the tests"
-  Smalltalk at: #Author ifPresent:[Author fullName: 'Travis'].
-  ((Smalltalk includesKey: #Utilities) and:[Utilities respondsTo: #setAuthorInitials:]) ifTrue:[Utilities setAuthorInitials: 'TCI'].
+"Upgrade Grease and Metacello"
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGrease.
+
+GsDeployer deploy: [
+  "Load the configuration or baseline"
+  Metacello new
+    $PROJECT_LINE
+    $VERSION_LINE
+    $REPOSITORY_LINE
+    onLock: [:ex | ex honor];
+    load: #( ${LOADS} )
+].
+
+true ifTrue: [
+  "Run all tests in image"
+   TravisCISuiteHarness
+     value: TestCase suite
+     value: 'TravisCISuccess.txt'
+     value: 'TravisCIFailure.txt'.
+] ifFalse: [
+  "Run just the Seaside tests"
   TravisCIHarness
     value: #( '${FULL_CONFIG_NAME}' )
     value: 'TravisCISuccess.txt' 
-    value: 'TravisCIFailure.txt'.
+    value: 'TravisCIFailure.txt' ].
 EOF
 
 cat $OUTPUT_PATH
