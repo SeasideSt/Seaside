@@ -2,7 +2,7 @@ converting
 contextFor: aNativeRequest
 	"Answer a request context for aNativeRequest."
 
-	^ WARequestContext
+	^ WAGemStoneRequestContext
 		request: (self requestFor: aNativeRequest)
 		response: (self responseFor: aNativeRequest)
 		codec: self codec
