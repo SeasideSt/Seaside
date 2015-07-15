@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Adaptors-FastCGI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FastCGISeasideGemServer",
+	"pools" : [
+		 ],
+	"super" : "SeasideGemServer",
+	"type" : "normal" }

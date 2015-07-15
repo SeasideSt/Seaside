@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"decodeFields:using:into:" : "DaleHenrichs 06/18/2010 12:15",
+		"fieldsFromBody:" : "dkh 11/19/2009 09:11",
+		"fieldsFromURI:" : "dkh 09/30/2009 11:00",
+		"getFieldsOf:into:" : "DaleHenrichs 02/15/2011 17:07",
+		"isLogging" : "DaleHenrichs 02/16/2011 11:48",
+		"isUrlEncoded:" : "dkh 10/02/2009 16:37",
+		"multipartFormFieldsIn:do:" : "dkh 09/30/2009 11:00",
+		"parseFields:" : "DaleHenrichs 02/15/2011 17:05",
+		"percentDecode:" : "DaleHenrichs 02/16/2011 15:50",
+		"postFieldsOf:into:" : "dkh 09/30/2009 11:00",
+		"processMultipartFields:" : "DaleHenrichs 06/18/2010 12:13",
+		"requestAddressFor:" : "dkh 09/30/2009 11:00",
+		"requestBodyFor:" : "DaleHenrichs 07/19/2010 21:11",
+		"requestCookiesFor:" : "dkh 09/30/2009 11:00",
+		"requestFieldsFor:" : "DaleHenrichs 06/16/2010 15:38",
+		"requestFor:" : "DaleHenrichs 02/16/2011 11:08",
+		"requestHeadersFor:" : "DaleHenrichs 08/04/2010 15:35",
+		"requestMethodFor:" : "dkh 09/30/2009 11:00",
+		"requestUrlFor:" : "DaleHenrichs 02/15/2011 16:05",
+		"requestVersionFor:" : "dkh 09/30/2009 11:00",
+		"unwrapPart:" : "DaleHenrichs 02/15/2011 16:42" } }
