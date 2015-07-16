@@ -43,6 +43,7 @@
 		"testSerialize" : "pmm 7/15/2015 11:09",
 		"testSerializeArray" : "pmm 7/15/2015 11:09",
 		"testSerializeChildren" : "pmm 7/15/2015 11:09",
+		"testSerializeFileUpload" : "JohanBrichau 7/16/2015 14:38",
 		"testSerializeForm" : "pmm 7/15/2015 11:09",
 		"testSerializeThis" : "pmm 7/15/2015 11:09",
 		"testSerializeThisWithHidden" : "pmm 7/15/2015 11:08",

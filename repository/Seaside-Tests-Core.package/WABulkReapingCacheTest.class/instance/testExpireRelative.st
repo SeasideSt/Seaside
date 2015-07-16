@@ -12,6 +12,8 @@ testExpireRelative
 	1 should not be expired
 	2 should be expired"
 	| delay absent |
+	self workAroundPharo3Bug.
+	
 	cache := WABulkReapingCache
 		initialSize: 13
 		maximumSize: 10

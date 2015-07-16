@@ -4,14 +4,15 @@
 	"instance" : {
 		"initialize" : "lr 2/8/2009 12:39",
 		"renderCheckBoxOn:" : "lr 11/16/2008 00:16",
-		"renderContentOn:" : "JohanBrichau 6/17/2015 11:32",
+		"renderContentOn:" : "JohanBrichau 7/14/2015 09:50",
 		"renderFileUploadOn:" : "JohanBrichau 7/13/2015 17:29",
 		"renderLabel:control:model:on:" : "lr 2/6/2009 20:37",
+		"renderMultiFileUploadOn:" : "JohanBrichau 7/16/2015 14:27",
 		"renderMultiSelectListOn:" : "lr 2/8/2009 12:39",
 		"renderRadioButtonOn:" : "pmm 1/22/2012 16:32",
 		"renderSelectListOn:" : "lr 11/16/2008 00:16",
 		"renderTextAreaOn:" : "lr 11/16/2008 00:16",
 		"renderTextInputOn:" : "lr 7/14/2010 10:24",
-		"selectors" : "lr 2/6/2009 20:50",
+		"selectors" : "JohanBrichau 7/13/2015 22:40",
 		"style" : "lr 12/4/2009 22:54",
 		"title" : "lr 10/29/2008 08:16" } }

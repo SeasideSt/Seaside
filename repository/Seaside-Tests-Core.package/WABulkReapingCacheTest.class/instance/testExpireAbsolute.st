@@ -1,29 +1,30 @@
 testing
 testExpireAbsolute
 	"
-	max age: 4 sec
+	max age: 3 sec
 	
 	put 1
 	wait 2 sec
 	put 2
-	wait 4 sec
+	wait 2 sec
 	
 	1 should be expired
 	2 should not be expired"
-	| delay2 delay4 absent |
+	| delay absent |
+	self workAroundPharo3Bug.
+	
 	cache := WABulkReapingCache
 		initialSize: 13
 		maximumSize: 10
-		maximumAbsoluteAge: 4
+		maximumAbsoluteAge: 3
 		maximumRelativeAge: 0
 		overflowAction: WAHashCache signalError.
-	delay2 := Delay forSeconds: 2.
-	delay4 := Delay forSeconds: 4.
+	delay := Delay forSeconds: 2.
 		
 	cache at: 1 put: '1'.
-	delay2 wait.
+	delay wait.
 	cache at: 2 put: '2'.
-	delay4 wait.
+	delay wait.
 	self assert: cache reap = 1 description: 'should reap exactly one item'.
 	
 	"1 should be gone"

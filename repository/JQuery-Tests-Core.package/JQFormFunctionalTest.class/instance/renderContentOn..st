@@ -6,4 +6,5 @@ renderContentOn: html
 	self renderRadioButtonOn: html.
 	self renderSelectListOn: html.
 	self renderMultiSelectListOn: html.
-	self renderFileUploadOn: html
+	self renderFileUploadOn: html.
+	self renderMultiFileUploadOn: html
