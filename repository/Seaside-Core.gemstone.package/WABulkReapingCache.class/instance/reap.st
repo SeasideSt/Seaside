@@ -23,10 +23,11 @@ reap
 	
 	count := 0.
 	platform := GRPlatform current.
-	expiredEntries do:[:key |
+	expiredEntries do:[ :key |
 		dictionary removeKey: key.
 		count := count + 1.
-		(count \\ 100 == 0) ifTrue: [ platform doCommitTransaction ].
-		].
-	count ~~ 0 ifTrue: [ platform doCommitTransaction ].
+		(count \\ 100) isZero ifTrue: [
+			platform doCommitTransaction ] ].
+	count isZero ifTrue: [
+		platform doCommitTransaction ].
 	^ count
