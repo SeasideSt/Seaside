@@ -1,3 +1,3 @@
 private
 errorAlreadyMapped
-	self error: 'Alread mapped'
+	self error: 'Already mapped'

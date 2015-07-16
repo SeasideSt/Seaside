@@ -8,6 +8,8 @@ testSendUnregistered
 	
 	1 should be expired and have received #unregistered"
 	| delay value absent |
+	self workAroundPharo3Bug.
+	
 	cache := WABulkReapingCache
 		initialSize: 13
 		maximumSize: 10
