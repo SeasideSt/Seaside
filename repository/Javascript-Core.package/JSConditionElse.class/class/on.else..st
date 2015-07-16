@@ -1,6 +1,6 @@
-as yet unclassified
+instance creation
 on: statement else: elseStatement
 
-	^(super on: statement)
+	^ (super on: statement)
 		elseStatement: elseStatement;
 		yourself

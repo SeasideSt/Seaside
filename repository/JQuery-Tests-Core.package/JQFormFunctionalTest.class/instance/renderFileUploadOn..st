@@ -12,7 +12,7 @@ renderFileUploadOn: html
 											serializeFileUpload: (html jQuery id: id);
 											onSuccess: (((html jQuery id: id)	
 																	parents: 'fieldset';
-																	find: 'p') load html:[:h | h render: fileInput fileName, '(', fileInput size greaseString, ' bytes)' ]));
+																	find: 'p') load html: [ :h | h render: fileInput fileName, '(', fileInput size greaseString, ' bytes)' ]));
 				with: 'Upload!' ]
-		model: (fileInput ifNotNil:[fileInput fileName, '(', fileInput size greaseString, ' bytes)'])
+		model: (fileInput notNil ifTrue: [ fileInput fileName, '(', fileInput size greaseString, ' bytes)' ] ifFalse: [ nil ])
 		on: html

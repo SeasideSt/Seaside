@@ -25,4 +25,4 @@ testCopy
 	
 	self assert: (copy at: 1 ifAbsent: [ self assert: false ]) = '1a'.
 	self assert: (cache at: 2 ifAbsent: [ self assert: false ]) = '2'.
-	self assert: (copy at: 3 ifAbsent: [ self assert: false ]) = '3'.
+	self assert: (copy at: 3 ifAbsent: [ self assert: false ]) = '3'

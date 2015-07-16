@@ -11,4 +11,4 @@ testActions
 		equals: self function , '("ul").tabs("refresh")'.
 	self
 		assert: ((self jQuery: 'ul') tabs load: 5)
-		equals: self function , '("ul").tabs("load",5)'.
+		equals: self function , '("ul").tabs("load",5)'

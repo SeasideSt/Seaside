@@ -1,3 +1,3 @@
 initialization
 initializeFilters
-	self addFilter: WAMutualExclusionFilter new
+	self addFilter: (GRPlatform current createMutualExclusionFilter)
