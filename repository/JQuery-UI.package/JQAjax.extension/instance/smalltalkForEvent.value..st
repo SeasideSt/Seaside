@@ -6,6 +6,8 @@ smalltalkForEvent: anArraySpec value: aString
 	anArraySpec do: [ :spec |
 		(spec first = #number)
 			ifTrue: [ result at: spec last put: (stream upTo: $,) greaseInteger ].
+		(spec first = #string)
+				ifTrue: [ result at: spec last put: (stream upTo: $,) ].
 		(spec first = #passenger)
 			ifTrue: [ result at: spec last put: (self renderContext callbacks passengerAt: (stream upTo: $,)) ].
 		(spec first = #position)
