@@ -1,3 +1,7 @@
 testing
 testInitialCount
-	self assert: GRPlatform current newReducedConflictCounter value = 0
+	| counter |
+	counter := GRPlatform current newReducedConflictCounter.
+	self assert: counter value = 0.
+	counter increment.
+	self assert: counter value = 1

@@ -25,7 +25,7 @@ testExpireRelative
 	delay wait.	
 	cache at: 1 ifAbsent: [ self assert: false ].
 	delay wait.
-	cache reap.
+	self assert: cache reap = 1 description: 'should reap exactly one item'.
 	
 	"1 should still be there"
 	self assert: (cache at: 1 ifAbsent: [ self assert: false ]) = '1'.

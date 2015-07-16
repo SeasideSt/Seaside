@@ -2,6 +2,7 @@
 	"class" : {
 		"subStringsIn:splitBy:do:" : "pmm 2/25/2012 11:20" },
 	"instance" : {
+		"doCommitTransaction" : "JohanBrichau 7/16/2015 11:19",
 		"newReducedConflictCounter" : "pmm 7/14/2015 18:29",
 		"newTransientValueHolder" : "pmm 7/14/2015 18:29",
 		"seasideVersion" : "JohanBrichau 6/13/2014 22:00",

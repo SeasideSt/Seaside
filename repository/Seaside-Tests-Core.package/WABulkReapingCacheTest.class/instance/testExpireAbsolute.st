@@ -24,7 +24,7 @@ testExpireAbsolute
 	delay2 wait.
 	cache at: 2 put: '2'.
 	delay4 wait.
-	cache reap.
+	self assert: cache reap = 1 description: 'should reap exactly one item'.
 	
 	"1 should be gone"
 	absent := false.
