@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createMutualExclusionFilter" : "JohanBrichau 07/16/2015 07:11",
 		"createSessionCacheForApplication:" : "JohanBrichau 07/16/2015 03:16" } }

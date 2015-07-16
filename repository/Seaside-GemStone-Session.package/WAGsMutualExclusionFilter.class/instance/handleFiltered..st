@@ -1,5 +1,5 @@
-*seaside-gemstone-session
-handle: aRequestContext
+processing
+handleFiltered: aRequestContext
 	"acquire a lock on the receiver to prevent two separate gems from processing requests for the
 	 same session at the same time"
 	
@@ -9,4 +9,4 @@ handle: aRequestContext
 		ifTrue: [ 
 			"lock denied - presumably the request will be retried"
 			^WASessionLockNotAcquiredException signal: 'Session lock denied: ', result printString ].
-	^super handle: aRequestContext
+	^super handleFiltered: aRequestContext
