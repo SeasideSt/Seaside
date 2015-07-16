@@ -29,4 +29,4 @@ testSendUnregistered
 	cache at: 1 ifAbsent: [ absent := true ].
 	self assert: absent.
 	
-	self assert: value hasReceivedUnregistered. 
+	self assert: value hasReceivedUnregistered

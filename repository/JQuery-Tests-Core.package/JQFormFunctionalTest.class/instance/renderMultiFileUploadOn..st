@@ -2,7 +2,13 @@ rendering-elements
 renderMultiFileUploadOn: html
 
 	| modelBlock |
-	modelBlock := [ fileInputs ifNotNil:[ String streamContents:[:stream | fileInputs do:[:file | stream nextPutAll: file fileName, '(', file size greaseString, ' bytes)'] separatedBy: [stream nextPutAll: '--']]] ].
+	modelBlock := [ fileInputs notNil ifTrue: [
+			String streamContents:[ :stream |
+				fileInputs
+					do: [ :file | 
+						stream nextPutAll: file fileName, '(', file size greaseString, ' bytes)']
+					separatedBy: [ stream nextPutAll: '--'] ] ]
+			ifFalse: [ nil ] ].
 	
 	self
 		renderLabel: 'Multiple File-Upload'
@@ -16,7 +22,7 @@ renderMultiFileUploadOn: html
 											serializeFileUpload: (html jQuery id: id);
 											onSuccess: (((html jQuery id: id)	
 																	parents: 'fieldset';
-																	find: 'p') load html:[:h | h render: modelBlock value ]));
+																	find: 'p') load html: [ :h | h render: modelBlock value ]));
 				with: 'Upload!' ]
 		model: modelBlock value
 		on: html
