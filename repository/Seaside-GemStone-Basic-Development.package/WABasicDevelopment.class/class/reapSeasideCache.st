@@ -10,6 +10,6 @@ reapSeasideCache
 			ifTrue: [
 				expired := expired + (self reapHandlerCache: dp dispatchers: dps) ]
 			ifFalse: [ 
-				dp handlers valuesDo: [:ep |
+				dp handlers keysAndValuesDo: [:key :ep |
 					expired := expired + (self reapHandlerCache: ep dispatchers: dps) ]]].
 	^expired
