@@ -11,9 +11,9 @@ testIssue239
 	specialCharacters := #( $? $= $+ $& $# $/).
 	specialCharacters do: [:char |
 		stream nextPutAll: 'key'.
-		WAUrlEncoder encode: char on: stream.
+		WAGsUrlEncoder encode: char on: stream.
 		stream nextPutAll: '=a'.
-		WAUrlEncoder encode: char on: stream.
+		WAGsUrlEncoder encode: char on: stream.
 		stream nextPut: $c.
 		char ~= specialCharacters last ifTrue: [  stream nextPut: $& ]].
 	role params at: 'REQUEST_URI' put: stream contents.

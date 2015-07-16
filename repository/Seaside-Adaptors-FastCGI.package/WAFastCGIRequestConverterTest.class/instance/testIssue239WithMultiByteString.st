@@ -11,14 +11,14 @@ testIssue239WithMultiByteString
 	specialCharacters := #( $? $= $+ $& $# $/).
 	specialCharacters do: [:char |
 		stream nextPutAll: 'key'.
-		WAUrlEncoder encode: char on: stream.
+		WAGsUrlEncoder encode: char on: stream.
 		stream nextPutAll: '=a'.
-		WAUrlEncoder encode: char on: stream.
+		WAGsUrlEncoder encode: char on: stream.
 		stream nextPut: $c.
 		stream nextPut: $& ].
 	utf8String := #( 208 175 32 208 188 208 190 208 179 209 131 32 208 181 209 129 209 130 209 140 32 209 129 209 130 208 181 208 186 208 187 208 190 44 32 208 190 208 189 208 190 32 208 188 208 189 208 181 32 208 189 208 181 32 208 178 209 128 208 181 208 180 208 184 209 130 46) asByteArray asString.
 	urlStream := WriteStream on: String new.
-	urlEncoder := WAUrlEncoder on: urlStream.
+	urlEncoder := WAGsUrlEncoder on: urlStream.
 	urlEncoder nextPutAll: utf8String.
 	stream nextPutAll: 'key='; nextPutAll: urlStream contents.
 	role params at: 'REQUEST_URI' put: stream contents.
