@@ -20,7 +20,7 @@ testSendUnregistered
 	self deny: value hasReceivedUnregistered.
 	cache at: 1 put: value.
 	delay wait.
-	cache reap.
+	self assert: cache reap = 1 description: 'should reap exactly one item'.
 	
 	"1 should be gone"
 	absent := false.
