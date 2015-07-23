@@ -1,3 +1,3 @@
 accessing
 text
-	^ Text fromString: ''
+	^ Text fromString: self contents

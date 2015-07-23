@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 7/21/2015 16:27" },
+	"instance" : {
+		"expectedConfigurationFile" : "pmm 7/21/2015 16:29",
+		"handlerClass" : "pmm 7/21/2015 16:28",
+		"handlerName" : "pmm 7/21/2015 16:25",
+		"newHandler" : "pmm 7/21/2015 16:28",
+		"testSwaggerSpecificationFile" : "pmm 7/21/2015 16:29" } }

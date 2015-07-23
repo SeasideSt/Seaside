@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Swagger-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JohanBrichau 2/28/2015 09:38",
+	"instvars" : [
+		 ],
+	"name" : "WASwagger2RestfulHandler",
+	"pools" : [
+		 ],
+	"super" : "WARestfulHandler",
+	"type" : "normal" }

@@ -1,3 +1,0 @@
-swagger
-swaggerBasePath
-	^ '/config-api'

@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Swagger-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tags",
+		"responses" ],
+	"name" : "WASwaggerRouteBuilder",
+	"pools" : [
+		 ],
+	"super" : "WARouteBuilder",
+	"type" : "normal" }

@@ -4,12 +4,9 @@
 		"sizes" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pmm 2/1/2014 12:19",
+	"commentStamp" : "pmm 7/16/2015 16:28",
 	"instvars" : [
-		"candidate",
-		"goodPrimes",
-		"primesToAvoid",
-		"valuesNotToDivide" ],
+		 ],
 	"name" : "WAHashTableSizes",
 	"pools" : [
 		 ],
