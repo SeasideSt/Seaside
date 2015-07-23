@@ -33,16 +33,7 @@ baselinefilesystem: spec
 	].
 
 	spec for: #'gemstone' do: [
-		
-		spec 
-			project: 'GsCore' with: [
-				spec
-					className: 'ConfigurationOfGsCore';
-					versionString: #'stable'].
-		spec
 		spec
 			package: 'Seaside-Gemstone-FileSystem';
 			package: 'Seaside-FileSystem' with: [
-				spec 
-					requires: #('GsCore' );
-					includes: 'Seaside-Gemstone-FileSystem' ] ]
+				spec includes: 'Seaside-Gemstone-FileSystem' ] ]
