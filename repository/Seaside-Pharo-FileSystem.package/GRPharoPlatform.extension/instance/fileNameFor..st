@@ -1,3 +1,3 @@
-*seaside-filesystem
+*seaside-pharo-filesystem
 fileNameFor: aPathString
 	^ aPathString asFileReference fullName

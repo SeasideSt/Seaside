@@ -26,6 +26,12 @@ baselinefilesystem: spec
 			group: 'Tests' with: #('Filesystem Tests') 
 	].
 
+	spec for: #pharo do: [ 
+		spec
+			package: 'Seaside-Pharo-FileSystem';
+			package: 'Seaside-FileSystem' with: [ spec includes: 'Seaside-Pharo-FileSystem' ].
+	].
+
 	spec for: #'gemstone' do: [
 		
 		spec 
@@ -34,5 +40,9 @@ baselinefilesystem: spec
 					className: 'ConfigurationOfGsCore';
 					versionString: #'stable'].
 		spec
+		spec
+			package: 'Seaside-Gemstone-FileSystem';
 			package: 'Seaside-FileSystem' with: [
-				spec requires: #('GsCore' ) ] ]
+				spec 
+					requires: #('GsCore' );
+					includes: 'Seaside-Gemstone-FileSystem' ] ]

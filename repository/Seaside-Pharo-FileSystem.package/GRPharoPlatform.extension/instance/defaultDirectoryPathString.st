@@ -1,3 +1,3 @@
-*seaside-filesystem
+*seaside-pharo-filesystem
 defaultDirectoryPathString
 	^ FileSystem workingDirectory fullName
