@@ -4,7 +4,7 @@ graphFunctionalDependencies: functionalBool tests: testsBool
 
 	| packages analyzer |
 	packages := self allGRPackages
-		collect: [ :each | RPackage organizer packageNamed: each name ].
+		collect: [ :each | self packageWithName: each name ].
 	testsBool ifFalse: [
 		packages := packages reject: [ :each |
 			(each packageName indexOfSubCollection: '-Tests-' startingAt: 1) ~= 0 ] ].

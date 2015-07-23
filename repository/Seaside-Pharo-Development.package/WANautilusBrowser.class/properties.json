@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pmm 8/19/2014 10:34",
+	"commentStamp" : "pmm 7/16/2015 16:29",
 	"instvars" : [
 		"nautilus",
 		"selectedMessageCategory",
-		"dependent",
-		"selectedClass" ],
+		"dependent" ],
 	"name" : "WANautilusBrowser",
 	"pools" : [
 		 ],

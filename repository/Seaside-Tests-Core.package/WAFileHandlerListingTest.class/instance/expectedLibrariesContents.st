@@ -1,3 +1,3 @@
 testing
 expectedLibrariesContents
-	^ handler libraries anyOne name
+	^ handler libraries first name

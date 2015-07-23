@@ -1,4 +1,4 @@
 class initialization
 initializeDefaultValueHolder
-
-	default := GRPlatform current newTransientValueHolder
+	default isNil ifTrue: [ 
+		default := GRPlatform current newTransientValueHolder ]

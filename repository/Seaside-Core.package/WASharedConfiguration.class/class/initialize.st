@@ -1,3 +1,4 @@
 initialization
 initialize
-	instances := Set new
+	instances isNil ifTrue: [
+		instances := Set new ]

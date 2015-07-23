@@ -4,6 +4,7 @@
 	"instance" : {
 		"testCallSuperImplementation" : "jok 1/27/2010 11:19",
 		"testChangesStateWhileRendering" : "jok 1/27/2010 11:19",
+		"testCookieConversionRule" : "pmm 7/16/2015 17:07",
 		"testDoNotCombineMultiplePrimaryAjaxCallbacks" : "JohanBrichau 9/1/2012 16:17",
 		"testDoNotUseWhileRendering" : "jok 1/27/2010 11:20",
 		"testDoNotUseWithinCallback" : "jok 1/27/2010 11:20",

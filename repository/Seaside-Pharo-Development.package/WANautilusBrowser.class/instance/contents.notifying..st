@@ -5,7 +5,7 @@ contents: input notifying: aController
 			nautilus selectedClass organization comment: input.
 			true ]
 		ifFalse: [
-			selectedMessageCategory isNil
+			self selectedMessageName isNil
 				ifTrue: [
 					"compile a class"
 					nautilus selectedClass subclassDefinerClass
@@ -16,5 +16,5 @@ contents: input notifying: aController
 					"compile a method"
 					 (self selectedClass
 						compile: input
-						classified: selectedMessageCategory
+						classified: self protocolForSelectedMethod
 						notifying: aController) isSymbol ] ]

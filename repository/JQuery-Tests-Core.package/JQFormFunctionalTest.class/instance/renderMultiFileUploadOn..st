@@ -6,8 +6,8 @@ renderMultiFileUploadOn: html
 			String streamContents:[ :stream |
 				fileInputs
 					do: [ :file | 
-						stream nextPutAll: file fileName, '(', file size greaseString, ' bytes)']
-					separatedBy: [ stream nextPutAll: '--'] ] ]
+						stream nextPutAll: file fileName, '(', file size greaseString, ' bytes)' ]
+					separatedBy: [ stream nextPutAll: '--' ] ] ]
 			ifFalse: [ nil ] ].
 	
 	self
