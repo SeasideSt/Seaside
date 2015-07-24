@@ -30,11 +30,9 @@ baselinerest: spec
 			package: 'Seaside-Pharo20-REST-Core';
 			package: 'Seaside-REST-Core' with:[
 				spec includes: #('Seaside-Pharo20-REST-Core')];
-			package: 'Seaside-Pharo-Swagger-Core' with: [ 
-				spec requires: #('Seaside-Swagger-Core') ].
-			
-		spec 
-			group: 'Swagger' with: #('Seaside-Pharo-Swagger-Core')
+			package: 'Seaside-Pharo-Swagger-Core';
+			package: 'Seaside-Swagger-Core' with: [ 
+				spec includes: #('Seaside-Pharo-Swagger-Core') ]
 	].
 
 	spec for: #gemstone do:[

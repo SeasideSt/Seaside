@@ -20,3 +20,4 @@ baseline: spec
 	self baselineob: spec.
 	self baselinegettext: spec.
 	self baselinewelcome: spec.
+	self baselinesecurity: spec
