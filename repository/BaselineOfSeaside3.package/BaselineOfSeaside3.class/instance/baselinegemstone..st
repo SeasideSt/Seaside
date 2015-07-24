@@ -26,10 +26,7 @@ baselinegemstone: spec
         package: 'Seaside-Environment'
           with: [ spec includes: #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
         package: 'Seaside-Session'
-          with: [ 
-              spec
-                includes: #('Seaside-GemStone-Session');
-                file: 'Seaside-Session.gemstone' ];
+          with: [ spec includes: #('Seaside-GemStone-Session') ];
         package: 'Seaside-Tools-Web'
           with: [ spec includes: #('Seaside-GemStone-Tools-Web') ];
         package: 'Seaside-Tests-Core'

@@ -3,8 +3,8 @@ workspaceContents
 
 	^'"The default username/password for Seaside admin/seaside.
 
-For more info about using GLASS and Seaside check:
-http://code.google.com/p/glassdb/wiki/TableOfContents and https://github.com/glassdb/Seaside31"
+For more info about using GsDevKit and Seaside check:
+https://github.com/GsDevKit and https://github.com/SeasideSt/Seaside"
 
 "start FastCGI adaptor ... does not return. 
  Use #startGemServerOn: in standalone server gem"
