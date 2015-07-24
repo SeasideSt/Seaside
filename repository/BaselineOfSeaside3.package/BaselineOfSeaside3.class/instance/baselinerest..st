@@ -2,15 +2,20 @@ baselines
 baselinerest: spec
 
 	spec for: #'common' do: [	
-		spec blessing: #baseline.
 		spec 
 			package: 'Seaside-REST-Core' with: [
 				spec requires: #('Seaside-Core') ];
 			package: 'Seaside-Tests-REST-Core' with: [
-				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ].
+				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ];
+			package: 'Seaside-Swagger-Core' with: [ 
+				spec requires: #('Seaside-REST-Core') ];
+			package: 'Seaside-Tests-Swagger-Core' with: [ 
+				spec requires: #('Seaside-Tests-REST-Core') ].
 		spec 
-			group: 'REST' with: #('Seaside-REST-Core');
-			group: 'REST Tests' with: #('Seaside-Tests-REST-Core')
+			group: 'REST' with: #('Core' 'Seaside-REST-Core');
+			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
+			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core');
+			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core')
 	].
 
 	spec for: #(squeak 'pharo1.x') do:[
@@ -24,7 +29,12 @@ baselinerest: spec
 		spec
 			package: 'Seaside-Pharo20-REST-Core';
 			package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-Pharo20-REST-Core')]
+				spec includes: #('Seaside-Pharo20-REST-Core')];
+			package: 'Seaside-Pharo-Swagger-Core' with: [ 
+				spec requires: #('Seaside-Swagger-Core') ].
+			
+		spec 
+			group: 'Swagger' with: #('Seaside-Pharo-Swagger-Core')
 	].
 
 	spec for: #gemstone do:[

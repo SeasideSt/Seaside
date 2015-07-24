@@ -1,36 +1,38 @@
 baselines
 baselinegettext: spec
 
-	spec for: #'common' do: [	
-		spec repository: 'http://www.smalltalkhub.com/mc/Seaside/Seaside30Addons/main'.
-		
+	spec for: #pharo do:[
 		spec
 			project: 'Gettext-Project'
 			with: [	spec
-						loads: #('Core');
 						className: 'ConfigurationOfGettext';
+						versionString: #stable;
 						repository: 'http://www.smalltalkhub.com/mc/PharoExtras/Gettext/main' ].
 				
 		spec
-			package: 'Seaside-Gettext-Core' with: [ spec requires: #('Gettext-Project' 'Core') ];
-			package: 'Seaside-Gettext-Examples' with: [ spec requires: #('Seaside-Gettext-Core') ].
+			package: 'Seaside-Gettext-Core' with: [ spec requires: #('Gettext-Project' 'Seaside-Session') ];
+			package: 'Seaside-Gettext-Examples' with: [ spec requires: #('Seaside-Gettext-Core') ];
+			package: 'Seaside-Pharo-Gettext-Core';
+			package: 'Seaside-Gettext-Core' with:[ spec includes: 'Seaside-Pharo-Gettext-Core' ].
 		
 		spec
 			group: 'Gettext' with: #('Seaside-Gettext-Core');
-			group: 'Gettext-Examples' with: #('Gettext' 'Seaside-Gettext-Examples')		
-	
+			group: 'Gettext-Examples' with: #('Gettext' 'Seaside-Gettext-Examples');
+			group: 'CI' with: #('Gettext' 'Gettext-Examples').
 	].
 
-	spec for: #(#squeak 'pharo1.x') do:[
+	spec for: #(#'pharo1.x' #'pharo2.x' #'pharo3.x') do:[
 		spec
-			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Slime') ].
+			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Slime') ].
 			
 		spec 
-			group: 'GettextSlime' with: #('Seaside-Gettext-Slime')
+			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')
 	].
 
-	spec for: #pharo do: [ 
+	spec for: #(#'pharo4.x') do:[
 		spec
-			package: 'Seaside-Pharo-Gettext-Core';
-			package: 'Seaside-Gettext-Core' with:[spec includes: 'Seaside-Pharo-Gettext-Core'].
-	].
+			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo40-Slime') ].
+			
+		spec 
+			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')
+	]

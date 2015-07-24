@@ -22,24 +22,12 @@ baselineadaptors: spec
 						className: 'ConfigurationOfSwazoo2';
 						loads: #('Swazoo');
 						repository: 'http://smalltalkhub.com/mc/Swazoo/Swazoo/main' ].
-			spec
-				project: 'Zinc Project'
-				with: [ 
-					spec
-						versionString: #stable;
-						className: 'ConfigurationOfZincHTTPComponents';
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
 					
 			spec 
 				package: 'WebClient-Seaside' 
 				with: [ spec repository: 'http://ss3.gemtalksystems.com/ss/WebClient'  .
 					    spec requires: #('WebClient Project' 'Seaside-Core') ].
-			spec
-				package: 'Zinc-Seaside'
-				with: [ 
-					spec
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents';
-						requires: #('Zinc Project' 'Seaside-Core') ].
+				
 			spec
 				package: 'Seaside-Swazoo'
 					with: [ 
@@ -49,7 +37,6 @@ baselineadaptors: spec
 				package: 'Seaside-Adaptors-Swazoo' with: [ spec requires: #('Seaside-Core' 'Seaside-Swazoo') ].
 			spec
 				group: 'Swazoo' with: #('Seaside-Adaptors-Swazoo');
-				group: 'Zinc' with: #('Zinc-Seaside');
 				group: 'WebClient' with: #('WebClient-Seaside') ].
 
 	spec 
@@ -61,14 +48,27 @@ baselineadaptors: spec
 	spec
 		for: #pharo
 		do: [ 
-			spec project: 'Zinc Project' with: [ spec loads: #('Zinc-HTTP') ].
 			spec
-				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
-				package: 'KomHttpServerLight'
-					with: [ spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
+				project: 'Zinc Project'
+				with: [ 
+					spec
+						versionString: #stable;
+						loads: 'Zinc-HTTP';
+						className: 'ConfigurationOfZincHTTPComponents';
+						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
+			spec
+				package: 'Seaside-Adaptors-Comanche' 
+					with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
+				package: 'Zinc-Seaside'with: [ 
+					spec
+						repository: 'http://mc.stfx.eu/ZincHTTPComponents';
+						requires: #('Zinc Project' 'Seaside-Core') ];
+				package: 'KomHttpServerLight' with: [ 
+					spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ].
 			spec
 				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
+				group: 'Zinc' with: #('Zinc-Seaside');
 				group: 'Comanche' with: #('Seaside-Adaptors-Comanche') ].
 	spec
 		for: #'pharo1.x'
