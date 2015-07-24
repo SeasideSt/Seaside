@@ -10,7 +10,7 @@ baselinerest: spec
 			package: 'Seaside-Swagger-Core' with: [ 
 				spec requires: #('Seaside-REST-Core' 'Seaside-JSON-Core') ];
 			package: 'Seaside-Tests-Swagger-Core' with: [ 
-				spec requires: #('Seaside-Tests-REST-Core') ].
+				spec requires: #('Seaside-Tests-REST-Core' 'Seaside-Swagger-Core') ].
 		spec 
 			group: 'REST' with: #('Core' 'Seaside-REST-Core');
 			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
