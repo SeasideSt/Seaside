@@ -26,12 +26,12 @@ renderSideBarDivingInOn: html
 				with: 'JQuery UI'.
 			html text: ' integration.' ]. 
 		html listItem: [
-			html text: 'Seaside 3.1 '.
+			html text: 'Seaside 3.2 '.
 			html anchor
-				url: 'http://code.google.com/p/seaside/wiki/Seaside310Changelog';
+				url: 'https://github.com/SeasideSt/Seaside/wiki/Seaside320Changelog';
 				with: 'changes' ].	
 		html listItem: [
 			html text: 'Seaside '.
 			html anchor
-				url: 'http://code.google.com/p/seaside/wiki/SeasideAddOnLibraries';
+				url: 'https://github.com/SeasideSt/Seaside/wiki/Add-On-Libraries';
 				with: 'add-on libraries' ]	]
