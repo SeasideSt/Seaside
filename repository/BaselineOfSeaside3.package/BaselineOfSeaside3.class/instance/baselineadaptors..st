@@ -1,10 +1,35 @@
 baselines
 baselineadaptors: spec
+  spec
+    for: #'common'
+    do: [ 
+      spec
+        project: 'Swazoo2'
+        with: [ 
+          spec
+            versionString: #'stable';
+            className: 'ConfigurationOfSwazoo2';
+            loads: #('Swazoo');
+            repository: 'http://smalltalkhub.com/mc/Swazoo/Swazoo/main' ].
+      spec
+        package: 'Zinc-Seaside'
+        with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
+      spec
+        package: 'Seaside-Swazoo'
+          with: [ 
+              spec
+                requires: #('Grease' 'Swazoo2');
+                repository:
+                    'http://smalltalkhub.com/mc/Seaside/Seaside30LGPL/main' ];
+        package: 'Seaside-Adaptors-Swazoo'
+          with: [ spec requires: #('Seaside-Core' 'Seaside-Swazoo') ].
+      spec
+        group: 'Swazoo' with: #('Seaside-Adaptors-Swazoo');
+        group: 'Zinc' with: #('Zinc-Seaside') ].
+
 	spec
 		for: #squeakCommon
 		do: [ 
-			spec blessing: #baseline.
-			spec repository: 'http://smalltalkhub.com/mc/Seaside/Seaside31/main'.
 			spec
 				project: 'WebClient Project'
 				with: [ 
@@ -14,27 +39,11 @@ baselineadaptors: spec
 						loads: #('Core');
 						repository: 'http://ss3.gemtalksystems.com/ss/WebClient' ].
 			spec
-				project: 'Swazoo2'
-				with: [ 
-					spec
-						versionString: #stable;
-						className: 'ConfigurationOfSwazoo2';
-						loads: #('Swazoo');
-						repository: 'http://smalltalkhub.com/mc/Swazoo/Swazoo/main' ].
-			spec
 				package: 'WebClient-Seaside'
 				with: [ 
 					spec repository: 'http://ss3.gemtalksystems.com/ss/WebClient'.
 					spec requires: #('WebClient Project' 'Seaside-Core') ].
 			spec
-				package: 'Seaside-Swazoo'
-					with: [ 
-							spec
-								requires: #('Grease' 'Swazoo2');
-								repository: 'http://smalltalkhub.com/mc/Seaside/Seaside30LGPL/main' ];
-				package: 'Seaside-Adaptors-Swazoo' with: [ spec requires: #('Seaside-Core' 'Seaside-Swazoo') ].
-			spec
-				group: 'Swazoo' with: #('Seaside-Adaptors-Swazoo');
 				group: 'WebClient' with: #('WebClient-Seaside') ].
 			
 	spec
