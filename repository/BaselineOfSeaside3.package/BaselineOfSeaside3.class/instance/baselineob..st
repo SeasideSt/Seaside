@@ -53,7 +53,7 @@ baselineob: spec
                         loads: #('default');
                         repository: 'http://www.squeaksource.com/MetacelloRepository' ] ].
 
-	spec for: #'gemstone' do: [
+	"spec for: #'gemstone' do: [
 		spec blessing: #baseline.
 		spec
 			project: 'OB' with: [
@@ -70,4 +70,4 @@ baselineob: spec
 			package: 'Seaside-GemStone-Tools-OmniBrowser' with: [
 				spec requires: #('Seaside-Tools-OmniBrowser') ].
 		spec 
-			 group: 'OmniBrowser' with: #('Seaside-Tools-OmniBrowser') ]
+			 group: 'OmniBrowser' with: #('Seaside-Tools-OmniBrowser') ]"
