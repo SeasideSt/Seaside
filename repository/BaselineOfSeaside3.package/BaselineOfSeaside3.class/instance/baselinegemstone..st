@@ -5,19 +5,18 @@ baselinegemstone: spec
     do: [ 
       spec blessing: #'baseline'.
       spec
-        project: 'GsCore'
-        with: [ 
-          spec
-            className: 'ConfigurationOfGsCore';
-            versionString: #'stable';
-            repository:
-                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
+        baseline: 'GLASS1'
+          with: [ 
+              spec
+                loads: #('Base');
+                repository: 'github://glassdb/glass:master/repository' ];
+        yourself.
       spec
         package: 'Seaside-Core'
           with: [ 
               spec
                 includes: #('Seaside-GemStone-Core');
-                file: 'Seaside-Core.gemstone' ];
+		    requires: #('GLASS1') ];
         package: 'Seaside-Development'
           with: [ spec includes: #('Seaside-GemStone-Development') ];
         package: 'Seaside-Email'
@@ -25,16 +24,9 @@ baselinegemstone: spec
         package: 'Seaside-Flow'
           with: [ spec includes: #('Seaside-GemStone-Flow') ];
         package: 'Seaside-Environment'
-          with: [ 
-              spec
-                includes:
-                    #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production');
-                file: 'Seaside-Environment.gemstone' ];
+          with: [ spec includes: #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
         package: 'Seaside-Session'
-          with: [ 
-              spec
-                includes: #('Seaside-GemStone-Session');
-                file: 'Seaside-Session.gemstone' ];
+          with: [ spec includes: #('Seaside-GemStone-Session') ];
         package: 'Seaside-Tools-Web'
           with: [ spec includes: #('Seaside-GemStone-Tools-Web') ];
         package: 'Seaside-Tests-Core'
@@ -54,7 +46,7 @@ baselinegemstone: spec
           with: [ spec requires: #('Seaside-Core') ];
         package: 'Seaside-GemStone-Continuation';
         package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-Core' 'GsCore') ];
+          with: [ spec requires: #('Seaside-Core') ];
         package: 'Seaside-GemStone-Development'
           with: [ 
               spec
@@ -85,7 +77,7 @@ baselinegemstone: spec
         package: 'Seaside-Tests-GemStone-Functional'
           with: [ spec requires: #('Seaside-Tests-Functional') ].
       spec
-        group: 'CI' overrides: #('Tests' 'Development Tests');
+        group: 'CI' with: #('FastCGI' 'Zinc' 'Swazoo');
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');
         group: 'Production' with: #('Seaside-GemStone-Tools-Production') ].
   spec
@@ -100,9 +92,14 @@ baselinegemstone: spec
                 requires: #('Seaside-Core');
                 includes: #('Seaside-GemStone-Core') ];
         package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-GemStone240-Core') ] ].
+          with: [ spec requires: #('Seaside-GemStone240-Core') ];
+        package: 'Seaside-GemStone-Flow'
+          with: [ spec includes: #('Seaside-GemStone240-Flow') ];
+        package: 'Seaside-GemStone240-Flow'
+          with: [ spec requires: #('Seaside-GemStone-Flow') ];
+        yourself ].
   spec
-    for: #'gs3.x'
+    for: #(#'gs3.0.x' #'gs3.1.x')
     do: [ 
       spec
         package: 'Seaside-Core'
@@ -113,4 +110,17 @@ baselinegemstone: spec
                 requires: #('Seaside-Core');
                 includes: #('Seaside-GemStone-Core') ];
         package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-GemStone300-Core') ] ]
+          with: [ spec requires: #('Seaside-GemStone300-Core') ] ].
+  spec
+    for: #(#'gs3.2.x' #'gs3.3.x')
+    do: [ 
+      spec
+        package: 'Seaside-Core'
+          with: [ spec includes: #('Seaside-GemStone320-Core') ];
+        package: 'Seaside-GemStone320-Core'
+          with: [ 
+              spec
+                requires: #('Seaside-Core');
+                includes: #('Seaside-GemStone-Core') ];
+        package: 'Seaside-GemStone-Core'
+          with: [ spec requires: #('Seaside-GemStone320-Core') ] ]

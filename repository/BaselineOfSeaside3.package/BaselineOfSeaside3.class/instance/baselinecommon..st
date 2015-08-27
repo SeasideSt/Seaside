@@ -1,17 +1,34 @@
 baselines
 baselinecommon: spec
 
+	spec for: #'squeakCommon' do: [ 
+		spec 
+			configuration: 'Grease'
+			with: [
+				spec
+					versionString: #bleedingEdge;
+					className: 'ConfigurationOfGrease';
+					loads: #( 'Grease-Core');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
+			spec
+				project: 'Grease Core Tests' copyFrom: 'Grease' with: [
+					spec loads: #('Core Tests') ].
+	].
+
+	spec for: #'gemstone' do: [ 
+		spec
+			baseline: 'Grease'
+        	with: [ 
+				spec
+					loads: #('Grease-Core');
+					repository: 'github://GsDevKit/Grease:master/repository' ].
+		spec
+			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+				spec loads: #('Core Tests') ] 
+	].
+
 	spec for: #'common' do: [
 
-		spec project: 'Grease' with: [
-			spec
-				versionString: #bleedingEdge;
-				className: 'ConfigurationOfGrease';
-				loads: #( 'Grease-Core');
-				repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
-		spec
-			project: 'Grease Core Tests' copyFrom: 'Grease' with: [
-				spec loads: #('Core Tests') ].
 		spec
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
