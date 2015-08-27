@@ -3,7 +3,7 @@ baselinecommon: spec
 
 	spec for: #'squeakCommon' do: [ 
 		spec 
-			configuration: 'Grease'
+			project: 'Grease'
 			with: [
 				spec
 					versionString: #bleedingEdge;
@@ -16,7 +16,7 @@ baselinecommon: spec
 	].
 
 	spec for: #'gemstone' do: [ 
-		spec
+      spec
 			baseline: 'Grease'
         	with: [ 
 				spec
