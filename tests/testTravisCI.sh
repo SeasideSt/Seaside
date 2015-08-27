@@ -38,7 +38,7 @@ cat - >> $OUTPUT_PATH << EOF
 Transcript cr; show: 'travis---->travisCI.st'.
 
 "Pharo and Squeak tests"
-(Smalltalk includesKey: #GRPharoPlatform) ifTrue:[
+(Smalltalk includesKey: #GsFile) ifFalse:[
 "Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
 Metacello new
     configuration: 'Seaside3';
@@ -60,7 +60,7 @@ Metacello new
 ].
 
 "Gemstone tests"
-(Smalltalk includesKey: #GRGemStonePlatform) ifTrue:[
+(Smalltalk includesKey: #GsFile) ifTrue:[
 "Upgrade Grease and Metacello"
 Gofer new
   package: 'GsUpgrader-Core';
