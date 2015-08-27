@@ -2,7 +2,7 @@ baselines
 baselinejavascript: spec
 
 	spec for: #'common' do: [
-		spec blessing: #baseline.
+
 		spec 
 			package: 'Javascript-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' ) ];

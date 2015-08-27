@@ -3,22 +3,9 @@ baselinefilesystem: spec
 
 	spec for: #'squeakCommon' do: [
 		
-		spec project: 'SPort2' with: [
-			spec
-				versionString: '2.33';
-				className: 'ConfigurationOfSPort2';
-				loads: #('Sport');
-				repository: 'http://smalltalkhub.com/mc/Sport/Sport/main' ].
-		
 		spec 
-			package: 'Seaside-FileSystem' with: [
-				spec 
-					requires: #('Seaside-Core' 'SPort2');
-					repository: 'http://smalltalkhub.com/mc/Seaside/Seaside30LGPL/main' ];
-			package: 'Seaside-Tests-FileSystem' with: [
-				spec 
-					requires: #('Seaside-FileSystem');
-					repository: 'http://smalltalkhub.com/mc/Seaside/Seaside30LGPL/main' ].
+			package: 'Seaside-FileSystem' with: [ spec requires: #('Seaside-Core') ];
+			package: 'Seaside-Tests-FileSystem' with: [ spec requires: #('Seaside-FileSystem') ].
 				
 		spec
 			group: 'Filesystem' with: #('Seaside-FileSystem' );

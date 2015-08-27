@@ -2,8 +2,7 @@ baselines
 baselinecommon: spec
 
 	spec for: #'common' do: [
-		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/Seaside/Seaside31/main'.
+
 		spec project: 'Grease' with: [
 			spec
 				versionString: #bleedingEdge;
@@ -71,7 +70,8 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ].
 		spec 
-			group: 'default' with: #('Core');
+			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI');
+			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
 			group: 'CI' with: #('Tests' 'Development Tests');
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
 			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests');

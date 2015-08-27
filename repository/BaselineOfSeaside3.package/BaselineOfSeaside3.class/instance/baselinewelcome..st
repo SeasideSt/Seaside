@@ -2,7 +2,7 @@ baselines
 baselinewelcome: spec
 
 	spec for: #'common' do: [
-		spec blessing: #baseline.
+
 		spec 
 			package: 'Seaside-Welcome' with: [
 				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI') ];
