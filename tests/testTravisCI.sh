@@ -37,6 +37,30 @@ cat - >> $OUTPUT_PATH << EOF
 "Load and run tests to be performed by TravisCI"
 Transcript cr; show: 'travis---->travisCI.st'.
 
+"Pharo and Squeak tests"
+(Smalltalk includesKey: #GRPharoPlatform) ifTrue:[
+"Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
+Metacello new
+    configuration: 'Seaside3';
+    repository: 'filetree://${TRAVIS_BUILD_DIR}/repository';
+    get.
+ "Load the configuration or baseline"
+ Metacello new
+ $PROJECT_LINE
+ $VERSION_LINE
+ $REPOSITORY_LINE
+   load: #( ${LOADS} ).
+  "Run the tests"
+  Smalltalk at: #Author ifPresent:[Author fullName: 'Travis'].
+  ((Smalltalk includesKey: #Utilities) and:[Utilities respondsTo: #setAuthorInitials:]) ifTrue:[Utilities setAuthorInitials: 'TCI'].
+  TravisCIHarness
+    value: #( '${FULL_CONFIG_NAME}' )
+    value: 'TravisCISuccess.txt' 
+    value: 'TravisCIFailure.txt'.
+].
+
+"Gemstone tests"
+(Smalltalk includesKey: #GRGemStonePlatform) ifTrue:[
 "Upgrade Grease and Metacello"
 Gofer new
   package: 'GsUpgrader-Core';
@@ -66,6 +90,7 @@ true ifTrue: [
     value: #( '${FULL_CONFIG_NAME}' )
     value: 'TravisCISuccess.txt' 
     value: 'TravisCIFailure.txt' ].
+]
 EOF
 
 cat $OUTPUT_PATH
