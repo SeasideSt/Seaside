@@ -26,6 +26,6 @@ baselinesecurity: spec
 				spec includes: #('Seaside-Tests-Pharo-Security') ].
 			
 		spec
-			group: 'Security' with: #('Seaside-Security');
-			group: 'Tests' with: #('Seaside-Tests-Security') 
+			group: 'Security' with: #('Seaside-Security')
+			"group: 'Tests' with: #('Seaside-Tests-Security') "
 	]
