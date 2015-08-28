@@ -2,9 +2,9 @@
 	"class" : {
 		"isAbstract" : "pmm 7/21/2015 16:27" },
 	"instance" : {
-		"assert:equals:" : "pmm 7/24/2015 12:38",
+		"assert:equals:" : "JohanBrichau 8/28/2015 10:22",
 		"expectedConfigurationFile" : "pmm 7/21/2015 16:29",
 		"handlerClass" : "pmm 7/21/2015 16:28",
 		"handlerName" : "pmm 7/21/2015 16:25",
 		"newHandler" : "pmm 7/21/2015 16:28",
-		"testSwaggerSpecificationFile" : "pmm 7/24/2015 12:37" } }
+		"testSwaggerSpecificationFile" : "JohanBrichau 8/28/2015 10:07" } }
