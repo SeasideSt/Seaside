@@ -1,1 +1,0 @@
-I am the abstract base class for classes that that use some request attribute that is present on every request for tracking sessions. For document handlers query fields are used.

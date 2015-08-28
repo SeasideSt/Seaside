@@ -1,1 +1,0 @@
-Enforces a trailing slash on the wrapped request handler.

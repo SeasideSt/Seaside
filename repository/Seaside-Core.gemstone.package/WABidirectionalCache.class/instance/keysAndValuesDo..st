@@ -1,3 +1,0 @@
-enumerating
-keysAndValuesDo: aTwoArgumentBlock
-	byKey keysAndValuesDo: aTwoArgumentBlock

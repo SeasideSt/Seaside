@@ -1,1 +1,0 @@
-The response generator configures the response of the provided request context according to the called generation method. This class can be subclassed to provide custom response templates.

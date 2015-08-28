@@ -1,3 +1,0 @@
-accessing
-adaptors
-	^ adaptors copy

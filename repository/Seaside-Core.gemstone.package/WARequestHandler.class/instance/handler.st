@@ -1,3 +1,0 @@
-filters
-handler
-	^ self

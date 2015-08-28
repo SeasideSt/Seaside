@@ -1,3 +1,0 @@
-testing
-isShared
-	^ false

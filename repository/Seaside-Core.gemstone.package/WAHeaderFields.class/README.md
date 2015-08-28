@@ -1,1 +1,0 @@
-I am the headers dictionary of an HTTP request or response.
