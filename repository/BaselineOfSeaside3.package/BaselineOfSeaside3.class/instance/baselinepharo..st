@@ -139,4 +139,3 @@ baselinepharo: spec
 				spec includes: #('Seaside-Pharo-Tools-Spec') ];
 			package: 'Seaside-Pharo-Tools-Spec'  with: [
 				spec requires: #('Seaside-Tools-Core') ] ]
-
