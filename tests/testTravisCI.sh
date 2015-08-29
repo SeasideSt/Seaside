@@ -68,7 +68,7 @@ Gofer new
   load.
 (Smalltalk at: #GsUpgrader) upgradeGrease.
 
-GsDeployer deploy: [
+(Smalltalk at: #GsDeployer) deploy: [
   "Load the configuration or baseline"
   Metacello new
     $PROJECT_LINE
