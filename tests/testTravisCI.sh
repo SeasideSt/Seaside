@@ -38,7 +38,7 @@ cat - >> $OUTPUT_PATH << EOF
 Transcript cr; show: 'travis---->travisCI.st'.
 
 "Pharo and Squeak tests"
-(Smalltalk includesKey: #GsFile) ifFalse:[
+('${ST}' findString: 'GemStone' startingAt: 1) > 0 ifFalse:[
 "Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
 Metacello new
     configuration: 'Seaside3';
@@ -60,7 +60,7 @@ Metacello new
 ].
 
 "Gemstone tests"
-(Smalltalk includesKey: #GsFile) ifTrue:[
+('${ST}' findString: 'GemStone' startingAt: 1) > 0 ifTrue:[
 "Upgrade Grease and Metacello"
 Gofer new
   package: 'GsUpgrader-Core';
@@ -78,7 +78,7 @@ Gofer new
     load: #( ${LOADS} )
 ].
 
-false ifTrue: [
+true ifTrue: [
   "Run all tests in image"
    TravisCISuiteHarness
      value: TestCase suite
