@@ -10,15 +10,15 @@ baselinecommon: spec
 					className: 'ConfigurationOfGrease';
 					loads: #( 'Grease-Core');
 					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
-			spec
-				project: 'Grease Core Tests' copyFrom: 'Grease' with: [
-					spec loads: #('Core Tests') ].
+		spec
+			project: 'Grease Core Tests' copyFrom: 'Grease' with: [
+				spec loads: #('Core Tests') ].
 	].
 
 	spec for: #'gemstone' do: [ 
-      spec
+                spec
 			baseline: 'Grease'
-        	with: [ 
+        		with: [ 
 				spec
 					loads: #('Grease-Core');
 					repository: 'github://GsDevKit/Grease:master/repository' ].
@@ -28,9 +28,7 @@ baselinecommon: spec
 	].
 
 	spec for: #'common' do: [
-
 		spec
-			project: 'Grease';
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Component' with: [
