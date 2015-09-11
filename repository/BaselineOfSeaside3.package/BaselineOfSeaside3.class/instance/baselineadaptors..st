@@ -12,9 +12,6 @@ baselineadaptors: spec
             loads: #('Swazoo');
             repository: 'http://smalltalkhub.com/mc/Swazoo/Swazoo/main' ].
       spec
-        package: 'Zinc-Seaside'
-        with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
-      spec
         package: 'Seaside-Swazoo'
           with: [ 
               spec
@@ -25,7 +22,7 @@ baselineadaptors: spec
           with: [ spec requires: #('Seaside-Core' 'Seaside-Swazoo') ].
       spec
         group: 'Swazoo' with: #('Seaside-Adaptors-Swazoo');
-        group: 'Zinc' with: #('Zinc-Seaside') ].
+        yourself ].
 
 	spec
 		for: #squeakCommon
@@ -52,7 +49,10 @@ baselineadaptors: spec
 		
 	spec
 		for: #pharo
-		do: [ 
+		do: [
+                  spec
+                    package: 'Zinc-Seaside'
+                    with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
 			spec
 				project: 'Zinc Project'
 				with: [ 
@@ -83,6 +83,9 @@ baselineadaptors: spec
 	spec
 		for: #gemstone
 		do: [ 
+                  spec
+                    package: 'Zinc-Seaside'
+                    with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
 			spec
 				project: 'FastCGI Project'
 					with: [ 
@@ -120,4 +123,5 @@ baselineadaptors: spec
 			spec
 				group: 'FastCGI' with: #('Seaside-Adaptors-FastCGI');
 				group: 'Tests' with: #('Seaside-GemStone-GemServer-Tests');
+				group: 'Zinc' with: #('Zinc-Seaside');
 				yourself ]
