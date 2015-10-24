@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initialize" : "JohanBrichau 8/10/2014 16:38" },
+	"instance" : {
+		"addTodo:" : "JohanBrichau 8/15/2014 16:19",
+		"children" : "JohanBrichau 8/14/2014 19:20",
+		"initialize" : "JohanBrichau 8/14/2014 20:21",
+		"renderAddNewTodoOn:" : "JohanBrichau 8/17/2014 14:30",
+		"renderContentOn:" : "JohanBrichau 8/10/2014 16:31",
+		"renderFooterOn:" : "JohanBrichau 8/9/2014 16:39",
+		"renderTodosOn:" : "JohanBrichau 8/18/2014 00:17",
+		"todos" : "JohanBrichau 8/10/2014 16:24",
+		"updateRoot:" : "JohanBrichau 8/18/2014 09:48" } }

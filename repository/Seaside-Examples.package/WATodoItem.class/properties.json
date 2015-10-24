@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Examples-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"todos",
+		"description",
+		"done" ],
+	"name" : "WATodoItem",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

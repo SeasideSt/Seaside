@@ -16,4 +16,4 @@ renderValuesOn: html
 				title: 'Expires all sessions and does a full garbage collect.';
 				with: 'Clear' ]
 		on: html.
-	self renderLabel: 'Number of Classes' value: Smalltalk size on: html
+	self renderLabel: 'Number of Classes' value: Smalltalk allClasses size on: html

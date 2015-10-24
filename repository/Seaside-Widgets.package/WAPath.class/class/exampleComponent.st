@@ -1,5 +1,5 @@
 example
-example
+exampleComponent
 	^ self new
 		pushSegment: 123 name: 'xxx';
 		pushSegment: 456 name: 'yyy';

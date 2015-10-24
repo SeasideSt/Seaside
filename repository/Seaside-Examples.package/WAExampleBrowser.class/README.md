@@ -1,6 +1,6 @@
-I browse all the examples available in the system ie all the results of class methods beginning with #example... 
+I browse all the examples available in the system ie all the results of class methods beginning with #exampleComponent... 
 
-point your browser to localhost:xxx/examples/examplebrowse
+point your browser to localhost:xxx/examples/examplebrowser
 
 If you want to see these examples
 

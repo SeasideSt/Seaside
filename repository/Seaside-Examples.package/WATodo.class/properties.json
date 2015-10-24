@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Examples-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"todos" ],
+	"name" : "WATodo",
+	"pools" : [
+		 ],
+	"super" : "WAExampleComponent",
+	"type" : "normal" }

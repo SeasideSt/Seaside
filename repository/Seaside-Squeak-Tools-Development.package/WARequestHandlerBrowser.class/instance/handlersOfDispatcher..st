@@ -2,5 +2,9 @@ handlers
 handlersOfDispatcher: aWADispatcher
 
 	^ aWADispatcher isDispatcher
-		ifTrue: [aWADispatcher handlers]
+		ifTrue: [ | dict |
+			dict := Dictionary new.
+			aWADispatcher handlers keysAndValuesDo: [:key :value |
+				dict at: key put: value].
+			dict]
 		ifFalse: [#()]

@@ -1,3 +1,3 @@
 accessing
-example
+exampleComponent
 	^ self new

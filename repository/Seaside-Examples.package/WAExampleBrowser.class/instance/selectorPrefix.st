@@ -1,3 +1,3 @@
 helper
 selectorPrefix
-	^ 'example'
+	^ 'exampleComponent'

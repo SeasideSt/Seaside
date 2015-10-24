@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"canBeRoot" : "dc 12/28/2005 14:20",
-		"example" : "lr 7/25/2011 19:48" },
+		"exampleComponent" : "JohanBrichau 10/24/2015 16:32" },
 	"instance" : {
 		"canSelect:" : "lr 12/28/2006 22:37",
 		"canSelectBlock:" : "avi 10/23/2003 15:16",
