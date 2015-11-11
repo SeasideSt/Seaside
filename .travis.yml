@@ -11,8 +11,8 @@ notifications:
 
 env:
    - ST=GemStone-3.1.0.6    BASELINE=Seaside3 LOADS="'CI' 'Swazoo' 'Zinc' 'FastCGI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=GemStone-3.2.8.1    BASELINE=Seaside3 LOADS="'CI' 'Swazoo' 'Zinc' 'FastCGI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=GemStone-3.2.8.1    BASELINE=Seaside3 LOADS="'ALL'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=GemStone-3.2.10    BASELINE=Seaside3 LOADS="'CI' 'Swazoo' 'Zinc' 'FastCGI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+   - ST=GemStone-3.2.10    BASELINE=Seaside3 LOADS="'ALL'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
 
    - ST=Pharo-2.0           BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
    - ST=Pharo-3.0           BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
@@ -20,7 +20,7 @@ env:
 
    - ST=Squeak-4.4          BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
    - ST=Squeak-4.5          BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=Squeak-5.0          BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+#  - ST=Squeak-5.0          BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
 
 install:
    - export PROJECT_HOME="$(pwd)"
