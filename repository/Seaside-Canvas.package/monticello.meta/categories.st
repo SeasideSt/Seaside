@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Seaside-Canvas'!
-SystemOrganization addCategory: #'Seaside-Canvas-Tags'!
+SystemOrganization addCategory: 'Seaside-Canvas-Tags'!
