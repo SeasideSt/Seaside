@@ -1,0 +1,30 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside',
+      #directory : 'repository',
+      #load : [ 'CI' ],
+      #platforms : [ #pharo ]
+    },
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside',
+      #directory : 'repository',
+      #load : [ 'Tests' ],
+      #platforms : [ #squeak ]
+    },
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside',
+      #directory : 'repository',
+      #onWarningLog : true,
+      #load : [ 'CI' ],
+      #platforms : [ #gemstone ]
+    },
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside',
+      #directory : 'repository',
+      #onWarningLog : true,
+      #load : [ 'ALL' ],
+      #platforms : [ #gemstone ]
+    }
+  ]
+}
