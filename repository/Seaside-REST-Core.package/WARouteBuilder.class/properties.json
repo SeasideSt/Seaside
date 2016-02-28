@@ -10,7 +10,8 @@
 		"method",
 		"path",
 		"produces",
-		"consumes" ],
+		"consumes",
+		"variableQuery" ],
 	"name" : "WARouteBuilder",
 	"pools" : [
 		 ],

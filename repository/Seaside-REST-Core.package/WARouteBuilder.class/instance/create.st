@@ -2,4 +2,7 @@ private
 create
 	^ path isNil
 		ifTrue: [ self createSimpleRoute ]
-		ifFalse: [ self createComplexRoute ]
+		ifFalse: [ 
+			variableQuery
+				ifTrue: [ self createVariableQueryRoute ]
+				ifFalse: [ self createComplexRoute ] ]

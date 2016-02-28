@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanMaringolo 1/20/2016 16:41",
+	"instvars" : [
+		 ],
+	"name" : "WAVariableQueryRoute",
+	"pools" : [
+		 ],
+	"super" : "WAComplexRoute",
+	"type" : "normal" }

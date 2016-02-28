@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-ExternalFileUpload",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAExternalFileUploadTag",
+	"pools" : [
+		 ],
+	"super" : "WAFileUploadTag",
+	"type" : "normal" }

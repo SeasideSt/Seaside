@@ -1,0 +1,1 @@
+(name 'Seaside-Tests-REST-EstebanMaringolo.1' message 'Tests a new kind of WARoute named WAVariableQueryRoute that allows you to match requests only by path, and have 0...n numbers of query fields.' id '2abdb0c8-6f23-4512-a37d-be94d64fcf2c' date '20 January 2016' time '4:51:11.716348 pm' author 'EstebanMaringolo' ancestors () stepChildren ())

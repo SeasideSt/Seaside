@@ -7,7 +7,8 @@
 	"instance" : {
 		"argumentCount" : "lr 7/26/2011 14:07",
 		"buildPathMatchesFrom:arguments:" : "pmm 8/27/2011 11:51",
-		"initializeWithMethod:selector:url:arguments:produces:consumes:" : "pmm 9/1/2012 16:03",
+		"initializeQueryFieldParameters:arguments:" : "EstebanMaringolo 1/20/2016 15:03",
+		"initializeWithMethod:selector:url:arguments:produces:consumes:" : "EstebanMaringolo 1/20/2016 15:03",
 		"isOverlyComplex" : "pmm 3/22/2011 14:30",
 		"mapArgumentsWithElements:parameters:into:" : "lr 7/26/2011 14:07",
 		"matchesFlexibleNumberOfPathElements" : "pmm 3/22/2011 14:33",
