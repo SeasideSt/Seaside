@@ -10,7 +10,7 @@ tooltipScriptOn: html window: aWindow
 					(html prototype evaluator 
 						callback: [ :v |
 								| values |
-								values := v subStrings: ','.
+								values := v substrings: ','.
 								aWindow originX: values first y: (values at: 2) ; tooltipKey: (values at: 3) ]
 						value: (JSStream on: '[event.clientX,event.clientY,event.target.rel]');
 						callback: [ :script | aWindow openOn: script hidden: true ];

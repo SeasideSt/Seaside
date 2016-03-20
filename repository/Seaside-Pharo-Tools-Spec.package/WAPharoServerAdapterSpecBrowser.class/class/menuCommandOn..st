@@ -6,5 +6,5 @@ menuCommandOn: aBuilder
 		order: 0.21;
 		parent: #Tools;
 		label: 'Seaside Control Panel';
-		icon: (Smalltalk ui icons iconNamed: #seasideAdaptorRunningIcon);
+		icon: (Smalltalk ui icons seasideAdaptorRunningIcon);
 		action: [ WAPharoServerAdapterSpecBrowser open ]

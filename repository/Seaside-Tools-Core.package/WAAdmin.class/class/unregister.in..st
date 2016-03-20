@@ -3,7 +3,7 @@ unregister: aString in: aDispatcher
 	"Unregister the application aString in aDispatcher."
 
 	| path dispatcher |
-	path := aString subStrings: '/'.
+	path := aString substrings: '/'.
 	dispatcher := path
 		inject: aDispatcher
 		into: [ :result :each |
