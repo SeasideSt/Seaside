@@ -35,3 +35,4 @@ testPackagingValidity
 											(grease includes: pkg name)
 												ifTrue: [ self assert: (grp name beginsWithSubCollection: 'Grease') ]
 												ifFalse: [ self assert: false ] ] ] ] ] ] ]
+		ifAbsent: [ self assert: true ]
