@@ -1,7 +1,7 @@
 baselines
 baselinegettext: spec
 
-	spec for: #pharo do:[
+	spec for: #(#'pharo1.x' #'pharo2.x' #'pharo3.x' #'pharo4.x') do:[
 		spec
 			project: 'Gettext-Project'
 			with: [	spec
