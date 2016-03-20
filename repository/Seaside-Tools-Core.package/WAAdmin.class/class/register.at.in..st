@@ -1,7 +1,7 @@
 registration
 register: aRequestHandlerClass at: aString in: aDispatcher
 	| path dispatcher |
-	path := aString subStrings: '/'.
+	path := aString substrings: '/'.
 	dispatcher := path allButLast
 		inject: aDispatcher
 		into: [ :result :each |

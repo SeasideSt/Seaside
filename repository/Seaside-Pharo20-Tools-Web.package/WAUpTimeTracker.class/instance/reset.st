@@ -1,3 +1,3 @@
 accessing
 reset
-	imageBootTime := TimeStamp now
+	imageBootTime := DateAndTime now

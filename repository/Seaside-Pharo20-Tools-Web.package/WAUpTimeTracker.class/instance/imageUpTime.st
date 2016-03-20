@@ -1,3 +1,3 @@
 accessing
 imageUpTime
-	^ TimeStamp now - self imageBootTime
+	^ DateAndTime now - self imageBootTime
