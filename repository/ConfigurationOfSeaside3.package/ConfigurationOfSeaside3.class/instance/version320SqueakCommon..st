@@ -12,24 +12,24 @@ version320SqueakCommon: spec
 			project: 'WebClient Project' with: #'stable'.
 		"Common packages"
 		spec 
-			package: 'Seaside-Canvas' with: 'Seaside-Canvas-pmm.134';
+			package: 'Seaside-Canvas' with: 'Seaside-Canvas-JohanBrichau.135';
 			package: 'Seaside-Component' with: 'Seaside-Component-pmm.102';
-			package: 'Seaside-Core' with: 'Seaside-Core-pmm.866';
+			package: 'Seaside-Core' with: 'Seaside-Core-JohanBrichau.867';
 			package: 'Seaside-Development' with: 'Seaside-Development-pmm.166';
 			package: 'Seaside-Email' with: 'Seaside-Email-pmm.26';
-			package: 'Seaside-Environment' with: 'Seaside-Environment-pmm.84';
-			package: 'Seaside-Examples' with: 'Seaside-Examples-pmm.25';
+			package: 'Seaside-Environment' with: 'Seaside-Environment-JohanBrichau.85';
+			package: 'Seaside-Examples' with: 'Seaside-Examples-JohanBrichau.31';
 			package: 'Seaside-Flow' with: 'Seaside-Flow-pmm.25';
 			package: 'Seaside-InternetExplorer' with: 'Seaside-InternetExplorer-pmm.8';
 			package: 'Seaside-RenderLoop' with: 'Seaside-RenderLoop-pmm.99';
 			package: 'Seaside-Security' with: 'Seaside-Security-pmm.4';
 			package: 'Seaside-Session' with: 'Seaside-Session-pmm.184';
-			package: 'Seaside-Tools-Core' with: 'Seaside-Tools-Core-pmm.25';
+			package: 'Seaside-Tools-Core' with: 'Seaside-Tools-Core-JohanBrichau.26';
 			package: 'Seaside-Tools-Web' with: 'Seaside-Tools-Web-pmm.128';
-			package: 'Seaside-Widgets' with: 'Seaside-Widgets-StephanEggermont.35';
+			package: 'Seaside-Widgets' with: 'Seaside-Widgets-JohanBrichau.36';
 			package: 'Seaside-JSON-Core' with: 'Seaside-JSON-Core-pmm.35';
 			package: 'Javascript-Core' with: 'Javascript-Core-pmm.99';
-			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.138';
+			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.139';
 			package: 'JQuery-JSON' with: 'JQuery-JSON-JohanBrichau.3';
 			package: 'JQuery-UI' with: 'JQuery-UI-pmm.93';
 			package: 'Seaside-FileSystem' with: 'Seaside-FileSystem-JohanBrichau.30';
@@ -67,7 +67,7 @@ version320SqueakCommon: spec
 			package: 'Seaside-Tests-Environment' with: 'Seaside-Tests-Environment-pmm.30';
 			package: 'Seaside-Tests-Examples' with: 'Seaside-Tests-Examples-pmm.11';
 			package: 'Seaside-Tests-Flow' with: 'Seaside-Tests-Flow-pmm.37';
-			package: 'Seaside-Tests-Functional' with: 'Seaside-Tests-Functional-pmm.166';
+			package: 'Seaside-Tests-Functional' with: 'Seaside-Tests-Functional-JohanBrichau.168';
 			package: 'Seaside-Tests-InternetExplorer' with: 'Seaside-Tests-InternetExplorer-pmm.10';
 			package: 'Seaside-Tests-RenderLoop' with: 'Seaside-Tests-RenderLoop-JohanBrichau.14';
 			package: 'Seaside-Tests-Security' with: 'Seaside-Tests-Security-pmm.5';
@@ -82,11 +82,11 @@ version320SqueakCommon: spec
 			package: 'Seaside-Tests-Pharo-Security' with: 'Seaside-Tests-Pharo-Security-pmm.2';
 			package: 'Seaside-Tests-Pharo-JSON-Core' with: 'Seaside-Tests-Pharo-JSON-Core-pmm.1';
 			package: 'Javascript-Tests-Core' with: 'Javascript-Tests-Core-JohanBrichau.73';
-			package: 'JQuery-Tests-Core' with: 'JQuery-Tests-Core-pmm.147';
+			package: 'JQuery-Tests-Core' with: 'JQuery-Tests-Core-JohanBrichau.148';
 			package: 'JQuery-Tests-JSON' with: 'JQuery-Tests-JSON-pmm.3';
 			package: 'JQuery-Tests-UI' with: 'JQuery-Tests-UI-pmm.89';
 			package: 'Seaside-Tests-FileSystem' with: 'Seaside-Tests-FileSystem-JohanBrichau.16';
-			package: 'Seaside-Tests-JSON' with: 'Seaside-Tests-JSON-pmm.14';
+			package: 'Seaside-Tests-JSON' with: 'Seaside-Tests-JSON-JohanBrichau.15';
 			package: 'RSS-Tests-Core' with: 'RSS-Tests-Core-lr.30';
 			package: 'Seaside-Tests-REST-Core' with: 'Seaside-Tests-REST-Core-jok.33';
 			package: 'Comet-Tests-Core' with: 'Comet-Tests-Core-lr.11';

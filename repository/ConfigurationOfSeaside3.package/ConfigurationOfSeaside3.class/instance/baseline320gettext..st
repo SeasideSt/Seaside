@@ -1,7 +1,7 @@
 baselines-320
 baseline320gettext: spec
 
-	spec for: #pharo do:[
+	spec for: #(#'pharo1.x' #'pharo2.x' #'pharo3.x' #'pharo4.x') do:[
 			spec
 			project: 'Gettext-Project'
 			with: [	spec
@@ -30,7 +30,7 @@ baseline320gettext: spec
 			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')
 	].
 
-	spec for: #(#'pharo4.x' #'pharo5.x') do:[
+	spec for: #(#'pharo4.x') do:[
 		spec
 			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo40-Slime') ].
 			
