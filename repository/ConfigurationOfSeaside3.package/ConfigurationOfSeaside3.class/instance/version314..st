@@ -1,11 +1,12 @@
 versions-31
-version313: spec
-	<version: '3.1.3' imports: #('3.1.1-baseline' )>
+version314: spec
+	<version: '3.1.4' imports: #('3.1.2-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #stable.
+		spec blessing: #released.
 		spec author: 'JohanBrichau'.
-		spec timestamp: '9/6/2014 13:53'. ].
+		spec description: 'Pharo40 compatibility + corrected package inclusion for Slime in Squeak and Pharo2'.
+		spec timestamp: '4/18/2015 22:19' ].
 
 	spec for: #'squeakCommon' do: [
 		spec 
@@ -14,7 +15,10 @@ version313: spec
 			project: 'SPort2' with: '2.34';
 			project: 'Swazoo2' with: #'stable';
 			project: 'Zinc Project' with: #'stable';
-			project: 'Gettext-Project' with: #'stable'.
+			project: 'Gettext-Project' with: #'stable';
+			project: 'Grease Slime' with: #'release1.1';
+			project: 'Grease Slime Tests' with: #'release1.1'.
+
 		spec 
 			package: 'Seaside-Canvas' with: 'Seaside-Canvas-pmm.130';
 			package: 'Seaside-Component' with: 'Seaside-Component-pmm.102';
@@ -32,7 +36,7 @@ version313: spec
 			package: 'Seaside-Widgets' with: 'Seaside-Widgets-StephanEggermont.35';
 			package: 'Seaside-Tests-Canvas' with: 'Seaside-Tests-Canvas-pmm.64';
 			package: 'Seaside-Tests-Component' with: 'Seaside-Tests-Component-pmm.36';
-			package: 'Seaside-Tests-Core' with: 'Seaside-Tests-Core-pmm.278';
+			package: 'Seaside-Tests-Core' with: 'Seaside-Tests-Core-PaulDeBruicker.279';
 			package: 'Seaside-Tests-Development' with: 'Seaside-Tests-Development-pmm.45';
 			package: 'Seaside-Tests-Email' with: 'Seaside-Tests-Email-JohanBrichau.23';
 			package: 'Seaside-Tests-Environment' with: 'Seaside-Tests-Environment-pmm.30';
@@ -40,13 +44,13 @@ version313: spec
 			package: 'Seaside-Tests-Flow' with: 'Seaside-Tests-Flow-pmm.37';
 			package: 'Seaside-Tests-Functional' with: 'Seaside-Tests-Functional-pmm.162';
 			package: 'Seaside-Tests-InternetExplorer' with: 'Seaside-Tests-InternetExplorer-pmm.10';
-			package: 'Seaside-Tests-RenderLoop' with: 'Seaside-Tests-RenderLoop-lr.13';
+			package: 'Seaside-Tests-RenderLoop' with: 'Seaside-Tests-RenderLoop-JohanBrichau.14';
 			package: 'Seaside-Tests-Session' with: 'Seaside-Tests-Session-pmm.73';
 			package: 'Seaside-Tests-Tools-Web' with: 'Seaside-Tests-Tools-Web-pmm.23';
 			package: 'Seaside-Tests-UTF8' with: 'Seaside-Tests-UTF8-pmm.16';
 			package: 'Javascript-Core' with: 'Javascript-Core-pmm.97';
 			package: 'Javascript-Tests-Core' with: 'Javascript-Tests-Core-pmm.71';
-			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.132';
+			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.133';
 			package: 'JQuery-Tests-Core' with: 'JQuery-Tests-Core-JohanBrichau.141';
 			package: 'JQuery-JSON' with: 'JQuery-JSON-JohanBrichau.3';
 			package: 'JQuery-Tests-JSON' with: 'JQuery-Tests-JSON-JohanBrichau.2';
@@ -82,16 +86,16 @@ version313: spec
 		spec import: 'Seaside3'.
 		spec baseline: 'Seaside3' with: [
 				spec
-					repository: 'github://GsDevKit/Seaside31:v3.1.3-gs/repository' ]. ].
+					repository: 'github://GsDevKit/Seaside31:v3.1.4-gs/repository' ]. ].
 
 	spec for: #'squeakCommon' do: [
-		spec project: 'WebClient Project' with: '1.5'.
+		spec	
+			project: 'WebClient Project' with: '1.5'.
 		spec 
 			package: 'WebClient-Seaside' with: 'WebClient-Seaside-topa.11';
 			package: 'Seaside-Pharo-Canvas' with: 'Seaside-Pharo-Canvas-pmm.4';
 			package: 'Seaside-Tests-Pharo-Canvas' with: 'Seaside-Tests-Pharo-Canvas-pmm.1';
-			package: 'Seaside-Pharo-Continuation' with: 'Seaside-Pharo-Continuation-pmm.7';
-			package: 'Seaside-Pharo-Development' with: 'Seaside-Pharo-Development-pmm.85';
+			package: 'Seaside-Pharo-Development' with: 'Seaside-Pharo-Development-JohanBrichau.88';
 			package: 'Seaside-Pharo-Environment' with: 'Seaside-Pharo-Environment-lr.6';
 			package: 'Seaside-Pharo-Flow' with: 'Seaside-Pharo-Flow-lr.5';
 			package: 'Seaside-Tests-Pharo-Continuation' with: 'Seaside-Tests-Pharo-Continuation-pmm.9';
@@ -105,7 +109,10 @@ version313: spec
 
 	spec for: #(#'squeak' #'pharo1.x' ) do: [
 		spec project: 'OB' with: #'stable'.
-		spec 
+		spec
+			package: 'Seaside-Pharo-Continuation' with: 'Seaside-Pharo-Continuation-pmm.7';
+			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
+			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
 			package: 'Seaside-Pharo-Tools-Web' with: 'Seaside-Pharo-Tools-Web-pmm.49';
 			package: 'Seaside-Pharo-Core' with: 'Seaside-Pharo-Core-pmm.23';
 			package: 'Seaside-Tests-Pharo-Core' with: 'Seaside-Tests-Pharo-Core-JohanBrichau.31';
@@ -117,15 +124,16 @@ version313: spec
 
 	spec for: #'pharo1.x' do: [
 		spec 
-			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
-			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
 			package: 'Javascript-Pharo-Core' with: 'Javascript-Pharo-Core-JohanBrichau.12';
 			package: 'Javascript-Tests-Pharo-Core' with: 'Javascript-Tests-Pharo-Core-lr.1';
 			package: 'Seaside-Tests-Adaptors-Comanche' with: 'Seaside-Tests-Adaptors-Comanche-pmm.15';
 			package: 'Seaside-Pharo-Gettext-Core' with: 'Seaside-Pharo-Gettext-Core-pmm.2'. ].
 
 	spec for: #'pharo2.x' do: [
-		spec 
+		spec
+			package: 'Seaside-Pharo-Continuation' with: 'Seaside-Pharo-Continuation-pmm.7';
+			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
+			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
 			package: 'Seaside-Pharo20-Tools-Web' with: 'Seaside-Pharo20-Tools-Web-JohanBrichau.4';
 			package: 'Seaside-Pharo20-Core' with: 'Seaside-Pharo20-Core-pmm.5';
 			package: 'Seaside-Tests-Pharo20-Core' with: 'Seaside-Tests-Pharo20-Core-JohanBrichau.6';
@@ -137,7 +145,7 @@ version313: spec
 			package: 'Seaside-Pharo-Gettext-Core' with: 'Seaside-Pharo-Gettext-Core-pmm.2'. ].
 
 	spec for: #(#'pharo3.x' #'pharo4.x' ) do: [
-		spec 
+		spec
 			package: 'Seaside-Pharo20-Tools-Web' with: 'Seaside-Pharo20-Tools-Web-JohanBrichau.4';
 			package: 'Seaside-Pharo20-Core' with: 'Seaside-Pharo20-Core-pmm.5';
 			package: 'Seaside-Pharo-Email' with: 'Seaside-Pharo-Email-pmm.18';
@@ -148,15 +156,20 @@ version313: spec
 			package: 'Seaside-Pharo-Gettext-Core' with: 'Seaside-Pharo-Gettext-Core-JohanBrichau.3'. ].
 
 	spec for: #'pharo3.x' do: [
-		spec package: 'Seaside-Tests-Pharo20-Core' with: 'Seaside-Tests-Pharo20-Core-JohanBrichau.6'. ].
+		spec
+			package: 'Seaside-Pharo-Continuation' with: 'Seaside-Pharo-Continuation-pmm.7';
+			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
+			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
+			package: 'Seaside-Tests-Pharo20-Core' with: 'Seaside-Tests-Pharo20-Core-JohanBrichau.6'. ].
 
 	spec for: #'pharo4.x' do: [
-		spec package: 'Seaside-Tests-Pharo40-Core' with: 'Seaside-Tests-Pharo40-Core-StephanEggermont.2'. ].
+		spec
+			package: 'Seaside-Pharo40-Continuation' with: 'Seaside-Pharo40-Continuation-JohanBrichau.2';
+			package: 'Seaside-Pharo40-Slime' with: 'Seaside-Pharo40-Slime-JohanBrichau.3';
+			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
+			package: 'Seaside-Tests-Pharo40-Core' with: 'Seaside-Tests-Pharo40-Core-StephanEggermont.2'. ].
 
 	spec for: #'pharo' do: [
-		spec 
-			project: 'Grease Slime' with: #'release1.1';
-			project: 'Grease Slime Tests' with: #'release1.1'.
 		spec 
 			package: 'Seaside-Adaptors-Comanche' with: 'Seaside-Adaptors-Comanche-pmm.81';
 			package: 'Seaside-Tests-Adaptors-Comanche' with: 'Seaside-Tests-Adaptors-Comanche-pmm.15';

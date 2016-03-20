@@ -9,4 +9,5 @@ seaside304DoIts
 		each instance perform: #clearDescription ].
 	"Needed for GemStone ... not clear why yet...."
 	(Smalltalk at: #WAFileHandler) default: nil.
+	(Smalltalk at: #WASharedConfiguration) instVarNamed: 'instances' put: nil.
 	(Smalltalk at: #WASharedConfiguration) initialize.

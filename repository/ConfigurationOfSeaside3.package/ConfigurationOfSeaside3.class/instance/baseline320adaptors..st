@@ -1,5 +1,5 @@
-baselines-311-312
-baseline311adaptors: spec
+baselines-320
+baseline320adaptors: spec
 	spec
 		for: #squeakCommon
 		do: [ 
@@ -9,7 +9,7 @@ baseline311adaptors: spec
 				project: 'WebClient Project'
 				with: [ 
 					spec
-						versionString: '1.5';
+						versionString:  #stable;
 						className: 'ConfigurationOfWebClient';
 						loads: #('Core');
 						repository: 'http://ss3.gemtalksystems.com/ss/WebClient' ].		
@@ -23,7 +23,7 @@ baseline311adaptors: spec
 						repository: 'http://smalltalkhub.com/mc/Swazoo/Swazoo/main' ].
 					
 			spec 
-				package: 'WebClient-Seaside' 
+				package: 'WebClient-Seaside-Adaptor' 
 				with: [ spec repository: 'http://ss3.gemtalksystems.com/ss/WebClient'  .
 					    spec requires: #('WebClient Project' 'Seaside-Core') ].
 			spec
@@ -35,14 +35,20 @@ baseline311adaptors: spec
 				package: 'Seaside-Adaptors-Swazoo' with: [ spec requires: #('Seaside-Core' 'Seaside-Swazoo') ].
 			spec
 				group: 'Swazoo' with: #('Seaside-Adaptors-Swazoo');
-				group: 'WebClient' with: #('WebClient-Seaside') ].
-
-	spec 
-		for: #(#squeak #'pharo1.x') 
-		do: [ 
-			spec 
-				package: 'WebClient-Seaside' 
-				with: [ spec requires: #('OB' 'Seaside-Tools-OmniBrowser') ] ].
+				group: 'WebClient' with: #('WebClient-Seaside-Adaptor') ].
+	spec
+		for: #(#'squeak4.6.x' #'squeak5.x')
+		do: [
+			spec
+				package: 'Seaside-Squeak-Tools-Development'
+				with: [
+					spec
+						includes: #('WebClient-Seaside-Tools-Development') ];
+				package: 'WebClient-Seaside-Tools-Development' 
+				with: [
+					spec
+						repository: 'http://ss3.gemtalksystems.com/ss/WebClient';
+						requires: #('Seaside-Squeak-Tools-Development') ] ].
 	spec
 		for: #pharo
 		do: [

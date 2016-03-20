@@ -1,7 +1,7 @@
-baselines-311
+baselines-311-312
 baseline311rest: spec
 
-	spec for: #'common' do: [	
+	spec for: #'squeakCommon' do: [	
 		spec blessing: #baseline.
 		spec 
 			package: 'Seaside-REST-Core' with: [
@@ -20,7 +20,7 @@ baseline311rest: spec
 				spec includes: #('Seaside-Pharo-REST-Core')]
 	].
 
-	spec for: #('pharo2.x' 'pharo3.x' 'pharo4.x') do:[
+	spec for: #(#'pharo2.x' #'pharo3.x' #'pharo4.x' #'pharo5.x') do:[
 		spec
 			package: 'Seaside-Pharo20-REST-Core';
 			package: 'Seaside-REST-Core' with:[

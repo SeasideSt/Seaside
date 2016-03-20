@@ -1,11 +1,12 @@
-baselines-313
-baseline313: spec
+baselines-311-312
+baseline312: spec
   "This groups all baseline"
 
-  <version: '3.1.3-baseline'>
+  <version: '3.1.2-baseline'>
   self baseline311common: spec.
   self baseline311gemstone: spec.
-  self baseline311pharo: spec.
+  self baseline312pharo: spec.
+  self baseline312slime: spec.
   self baseline311filesystem: spec.
   self baseline311adaptors: spec.
   self baseline311comet: spec.
@@ -17,6 +18,5 @@ baseline313: spec
   self baseline311scriptaculous: spec.
   self baseline311json: spec.
   self baseline311ob: spec.
-  self baseline311gettext: spec.
-  self baseline311welcome: spec.
-  self baseline313security: spec
+  self baseline312gettext: spec.
+  self baseline311welcome: spec

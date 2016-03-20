@@ -1,5 +1,5 @@
 baselines-311-312
-baseline311gettext: spec
+baseline312gettext: spec
 
 	spec for: #'squeakCommon' do: [	
 		spec repository: 'http://www.smalltalkhub.com/mc/Seaside/Seaside30Addons/main'.
@@ -23,8 +23,20 @@ baseline311gettext: spec
 	spec for: #pharo do:[
 		spec
 			package: 'Seaside-Pharo-Gettext-Core';
-			package: 'Seaside-Gettext-Core' with:[spec includes: 'Seaside-Pharo-Gettext-Core'];
+			package: 'Seaside-Gettext-Core' with:[spec includes: 'Seaside-Pharo-Gettext-Core']
+	].
+
+	spec for: #(#'pharo1.x' #'pharo2.x' #'pharo3.x') do:[
+		spec
 			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Slime') ].
+			
+		spec 
+			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')
+	].
+
+	spec for: #(#'pharo4.x' #'pharo5.x') do:[
+		spec
+			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo40-Slime') ].
 			
 		spec 
 			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')

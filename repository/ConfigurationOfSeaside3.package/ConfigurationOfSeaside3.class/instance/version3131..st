@@ -1,6 +1,6 @@
 versions-31
-version313: spec
-	<version: '3.1.3' imports: #('3.1.1-baseline' )>
+version3131: spec
+	<version: '3.1.3.1' imports: #('3.1.1-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #stable.
@@ -82,7 +82,7 @@ version313: spec
 		spec import: 'Seaside3'.
 		spec baseline: 'Seaside3' with: [
 				spec
-					repository: 'github://GsDevKit/Seaside31:v3.1.3-gs/repository' ]. ].
+					repository: 'github://GsDevKit/Seaside31:v3.1.3.1-gs/repository' ]. ].
 
 	spec for: #'squeakCommon' do: [
 		spec project: 'WebClient Project' with: '1.5'.

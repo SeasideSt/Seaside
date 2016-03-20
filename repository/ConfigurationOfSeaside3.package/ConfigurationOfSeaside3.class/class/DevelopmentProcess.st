@@ -17,8 +17,6 @@ DevelopmentProcess
 RELEASE Process
 	- mark development version as release:
 		self releaseDevelopmentVersion: 'commit comment'
-	- copy configuration for general access for Squeak and Pharo:
-		self copyToSqueakSource.
-	- copy configuration for general access for GLASS (Dale is willing to test and release for GLASS):
-		self copyToGemSource.
+	- copy mcz files to github:
+		self copyMczFromSmalltalkhubToFileTree: '/path/to/filetree/repository'.
 "

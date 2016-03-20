@@ -1,8 +1,8 @@
-baselines-311
+baselines-311-312
 baseline311welcome: spec
 
 	spec for: #'squeakCommon' do: [
-		spec blessing: #baseline.
+
 		spec 
 			package: 'Seaside-Welcome' with: [
 				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI') ];

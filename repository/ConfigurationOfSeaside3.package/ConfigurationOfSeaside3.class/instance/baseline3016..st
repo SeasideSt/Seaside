@@ -1,6 +1,6 @@
 baselines-30
-baseline3010: spec
-	<version: '3.0.10-baseline' imports: #('3.0.10-baseline-commonBaseline')>
+baseline3016: spec
+	<version: '3.0.16-baseline' imports: #('3.0.16-baseline-commonBaseline')>
 	spec
 		for: #squeakCommon
 		do: [ 
@@ -28,18 +28,16 @@ baseline3010: spec
 				package: 'Comet-Pharo-Core' with: [ spec requires: #('Comet-Core') ];
 				package: 'Javascript-Pharo-Core' with: [ spec requires: #('Javascript-Core' 'Seaside-Pharo-Core') ];
 				package: 'Seaside-Pharo-Core' with: [ spec requires: #('Seaside-Core') ];
-				package: 'Seaside-Pharo-Continuation';
+
 				package: 'Seaside-Pharo-Development'
 					with: [ spec requires: #('Seaside-Development' 'Seaside-Pharo-Tools-Web' 'Seaside-Pharo-Flow') ];
 				package: 'Seaside-Pharo-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Pharo-Core') ];
 				package: 'Seaside-Pharo-Environment'
 					with: [ spec requires: #('Seaside-Environment' 'Seaside-Pharo-Core' 'Seaside-Pharo-Canvas') ];
-				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Pharo-Continuation') ];
 				package: 'Seaside-Pharo-Tools-OmniBrowser' with: [ spec requires: #('Seaside-Tools-OmniBrowser') ];
 				package: 'Seaside-Pharo-Tools-Web'
 					with: [ spec requires: #('Seaside-Tools-Web' 'Seaside-Pharo-Core' 'Seaside-Pharo-Canvas') ];
 				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('Seaside-Core' 'Kom') ];
-				package: 'Seaside-Slime' with: [ spec requires: #('Grease Slime') ];
 				package: 'Comet-Core'
 					with: [ 
 							spec
@@ -53,7 +51,6 @@ baseline3010: spec
 							spec requires: #('WebClient Project' 'Seaside-Core' 'OB') ];
 				package: 'Comet-Tests-Core' with: [ spec requires: #('Javascript-Tests-Core' 'Comet-Core') ];
 				package: 'Javascript-Tests-Pharo-Core' with: [ spec requires: #('Javascript-Pharo-Core' 'Javascript-Tests-Core') ];
-				package: 'Seaside-Tests-Pharo-Continuation' with: [ spec requires: #('Seaside-Pharo-Continuation') ];
 				package: 'Seaside-Tests-Pharo-Core' with: [ spec requires: #('Seaside-Pharo-Core' 'Seaside-Tests-Core') ];
 				package: 'Seaside-Tests-Pharo-Development'
 					with: [ spec requires: #('Seaside-Tests-Development' 'Seaside-Pharo-Development') ];
@@ -65,13 +62,9 @@ baseline3010: spec
 								requires:
 									#('Seaside-Tests-Functional' 'Seaside-Tests-Environment' 'Seaside-Pharo-Environment' 'Seaside-Tests-Pharo-Core') ];
 				package: 'Seaside-Tests-Adaptors-Comanche'
-					with: [ spec requires: #('Seaside-Adaptors-Comanche' 'Seaside-Tests-Pharo-Core') ];
-				package: 'Seaside-Tests-Slime'
-					with: [ spec requires: #('Seaside-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
+					with: [ spec requires: #('Seaside-Adaptors-Comanche' 'Seaside-Tests-Pharo-Core') ].
 			spec
 				group: 'Core' with: #('Comet-Core' 'Comet-Examples');
-				group: 'Development' with: #('Seaside-Slime');
-				group: 'Development Tests' with: #('Seaside-Tests-Slime');
 				group: 'Tests' with: #('Comet-Tests-Core');
 				group: 'OneClick'
 					with:
@@ -113,29 +106,59 @@ baseline3010: spec
 		do: [ 
 			spec
 				package: 'Seaside-Pharo-BlockContextCore';
-				package: 'Seaside-Pharo-Core' with: [ spec requires: #('Seaside-Core' 'Seaside-Pharo-BlockContextCore') ].
+				package: 'Seaside-Pharo-Continuation';
+				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Pharo-Continuation') ];
+				package: 'Seaside-Pharo-Core' with: [ spec requires: #('Seaside-Core' 'Seaside-Pharo-BlockContextCore') ];
+				package: 'Seaside-Slime' with: [ spec requires: #('Grease Slime') ];
+				package: 'Seaside-Tests-Pharo-Continuation' with: [ spec requires: #('Seaside-Pharo-Continuation') ];
+				package: 'Seaside-Tests-Slime'
+					with: [ spec requires: #('Seaside-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
 			spec
 				group: 'Tests' with: #('Comet-Tests-Core');
+				group: 'Development' with: #('Seaside-Slime');
+				group: 'Development Tests' with: #('Seaside-Tests-Slime');
 				group: 'OneClick' with: #('Seaside-Tools-OmniBrowser' 'Comet-Core' 'Comet-Examples') ].
 	spec
-		for: #'pharo2.x'
-		do: [ 
+		for: #(#'pharo2.x' #'pharo3.x')
+		do: [
+			spec
+				package: 'Seaside-Pharo-Continuation';
+				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Pharo-Continuation') ];
+				package: 'Seaside-Slime' with: [ spec requires: #('Grease Slime') ];
+				package: 'Seaside-Tests-Pharo-Continuation' with: [ spec requires: #('Seaside-Pharo-Continuation') ];
+				package: 'Seaside-Tests-Slime'
+					with: [ spec requires: #('Seaside-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
 			spec
 				removeProject: 'OB';
 				removeProject: 'Kom';
 				removeProject: 'Swazoo2'.
 			spec
+				group: 'Development' with: #('Seaside-Slime');
+				group: 'Development Tests' with: #('Seaside-Tests-Slime');
 				group: 'Core'
 				overrides:
 					#('Base' 'Development' 'RSS-Core' 'Javascript-Core' 'Prototype-Core' 'Scriptaculous-Core' 'JQuery-Core' 'JQuery-UI' 'Seaside-Email' 'Seaside-HTML5' 'Seaside-InternetExplorer' 'Seaside-Examples' 'RSS-Examples' 'Seaside-Tools-Web' 'Scriptaculous-Components' 'Seaside-Welcome' 'Seaside-FileSystem' 'Zinc-Seaside') ].
 	spec
-		for: #(#'pharo3.x' #'pharo4.x')
+		for: #(#'pharo4.x')
 		do: [ 
 			spec
 				removeProject: 'OB';
 				removeProject: 'Kom';
 				removeProject: 'Swazoo2'.
-			spec
+			spec 
+				package: 'Seaside-Pharo40-Continuation';
+				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Pharo40-Continuation') ];
+				package: 'Seaside-Pharo40-Slime' with: [ spec requires: #('Grease Slime') ];
+				package: 'Seaside-Tests-Slime'
+					with: [ spec requires: #('Seaside-Pharo40-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ];
+				package: 'Seaside-Pharo40-Legacy' with: [ spec requires: #('Grease Core') ];
+				package: 'Seaside-Core' with: [ spec includes: 'Seaside-Pharo40-Legacy'  ];
+				package: 'Seaside-Tests-Pharo-Continuation' with: [ spec requires: #('Seaside-Pharo40-Continuation') ];
+				package: 	'Seaside-Tests-Pharo-Core' with: [ spec file: 'Seaside-Tests-Pharo-Core.pharo40' ].
+			
+			spec	
+				group: 'Development' with: #('Seaside-Pharo40-Slime');
+				group: 'Development Tests' with: #('Seaside-Tests-Slime');
 				group: 'Core'
 				overrides:
 					#('Base' 'Development' 'RSS-Core' 'Javascript-Core' 'Prototype-Core' 'Scriptaculous-Core' 'JQuery-Core' 'JQuery-UI' 'Seaside-Email' 'Seaside-HTML5' 'Seaside-InternetExplorer' 'Seaside-Examples' 'RSS-Examples' 'Seaside-Tools-Web' 'Scriptaculous-Components' 'Seaside-Welcome' 'Seaside-FileSystem' 'Zinc-Seaside') ].

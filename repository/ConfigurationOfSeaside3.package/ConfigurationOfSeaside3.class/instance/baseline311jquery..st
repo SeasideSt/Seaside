@@ -1,4 +1,4 @@
-baselines-311
+baselines-311-312
 baseline311jquery: spec
 
 	spec for: #'squeakCommon' do: [

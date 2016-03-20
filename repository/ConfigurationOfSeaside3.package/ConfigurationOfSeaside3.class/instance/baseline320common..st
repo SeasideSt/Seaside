@@ -1,9 +1,9 @@
-baselines-311-312
-baseline311common: spec
+baselines-320
+baseline320common: spec
 
 	spec for: #'squeakCommon' do: [
-		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/Seaside/Seaside31/main'.
+		 spec blessing: #'baseline'.
+ 		spec repository: 'http://smalltalkhub.com/mc/Seaside/Seaside32/main'.
 		spec project: 'Grease' with: [
 			spec
 				versionString: #bleedingEdge;
@@ -82,11 +82,11 @@ baseline311common: spec
 			package: 'Seaside-Tests-Webdriver' with: [
 				spec requires: #('Seaside-Tests-Core' 'Parasol') ].
 		spec 
-			group: 'default' with: #('Core');
-			group: 'OneClick' with: #('Tests' 'Zinc' 'Development Tests');
-			group: 'CI' with: #('Tests' 'Zinc' 'Development Tests');
+			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI');
+			group: 'OneClick' with: #('Tests' 'Development');
+			group: 'CI' with: #('Tests' 'Development Tests');
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
-			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'Comet Tests'  'REST Tests');
+			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'Comet Tests'  'REST Tests' 'Swagger Tests');
 			group: 'Development' with: #('Core' 'Seaside-Development' );
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
 			group: 'Email' with: #('Seaside-Email');

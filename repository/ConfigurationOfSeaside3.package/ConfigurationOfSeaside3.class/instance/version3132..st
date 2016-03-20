@@ -1,11 +1,11 @@
 versions-31
-version313: spec
-	<version: '3.1.3' imports: #('3.1.1-baseline' )>
+version3132: spec
+	<version: '3.1.3.2' imports: #('3.1.1-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #stable.
-		spec author: 'JohanBrichau'.
-		spec timestamp: '9/6/2014 13:53'. ].
+		spec author: 'topa'.
+		spec timestamp:  '1/27/2015 21:21'. "printIt: [MetacelloPlatform current timestamp]"].
 
 	spec for: #'squeakCommon' do: [
 		spec 
@@ -14,7 +14,10 @@ version313: spec
 			project: 'SPort2' with: '2.34';
 			project: 'Swazoo2' with: #'stable';
 			project: 'Zinc Project' with: #'stable';
-			project: 'Gettext-Project' with: #'stable'.
+			project: 'Gettext-Project' with: #'stable';
+			project: 'Grease Slime' with: #'release1.1';
+			project: 'Grease Slime Tests' with: #'release1.1'.
+
 		spec 
 			package: 'Seaside-Canvas' with: 'Seaside-Canvas-pmm.130';
 			package: 'Seaside-Component' with: 'Seaside-Component-pmm.102';
@@ -82,7 +85,7 @@ version313: spec
 		spec import: 'Seaside3'.
 		spec baseline: 'Seaside3' with: [
 				spec
-					repository: 'github://GsDevKit/Seaside31:v3.1.3-gs/repository' ]. ].
+					repository: 'github://GsDevKit/Seaside31:v3.1.3.1-gs/repository' ]. ].
 
 	spec for: #'squeakCommon' do: [
 		spec project: 'WebClient Project' with: '1.5'.
@@ -106,6 +109,8 @@ version313: spec
 	spec for: #(#'squeak' #'pharo1.x' ) do: [
 		spec project: 'OB' with: #'stable'.
 		spec 
+			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
+			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
 			package: 'Seaside-Pharo-Tools-Web' with: 'Seaside-Pharo-Tools-Web-pmm.49';
 			package: 'Seaside-Pharo-Core' with: 'Seaside-Pharo-Core-pmm.23';
 			package: 'Seaside-Tests-Pharo-Core' with: 'Seaside-Tests-Pharo-Core-JohanBrichau.31';
@@ -117,8 +122,6 @@ version313: spec
 
 	spec for: #'pharo1.x' do: [
 		spec 
-			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.85';
-			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.44';
 			package: 'Javascript-Pharo-Core' with: 'Javascript-Pharo-Core-JohanBrichau.12';
 			package: 'Javascript-Tests-Pharo-Core' with: 'Javascript-Tests-Pharo-Core-lr.1';
 			package: 'Seaside-Tests-Adaptors-Comanche' with: 'Seaside-Tests-Adaptors-Comanche-pmm.15';
@@ -154,9 +157,6 @@ version313: spec
 		spec package: 'Seaside-Tests-Pharo40-Core' with: 'Seaside-Tests-Pharo40-Core-StephanEggermont.2'. ].
 
 	spec for: #'pharo' do: [
-		spec 
-			project: 'Grease Slime' with: #'release1.1';
-			project: 'Grease Slime Tests' with: #'release1.1'.
 		spec 
 			package: 'Seaside-Adaptors-Comanche' with: 'Seaside-Adaptors-Comanche-pmm.81';
 			package: 'Seaside-Tests-Adaptors-Comanche' with: 'Seaside-Tests-Adaptors-Comanche-pmm.15';
