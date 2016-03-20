@@ -5,7 +5,7 @@ baselinesqueak: spec
 
 		spec 
 			package: 'Seaside-Squeak-Compatibility';
-			package: 'Seaside-Core' with:[ spec includes: #('Saside-Squeak-Compatibility' ). ]
+			package: 'Seaside-Core' with:[ spec includes: #('Seaside-Squeak-Compatibility' ). ]
 		].
 	
 	"ToolBuilder based tools"
