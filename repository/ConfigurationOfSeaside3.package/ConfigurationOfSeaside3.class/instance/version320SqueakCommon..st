@@ -76,7 +76,7 @@ version320SqueakCommon: spec
 			package: 'Seaside-Tests-Tools-Web' with: 'Seaside-Tests-Tools-Web-pmm.25';
 			package: 'Seaside-Tests-UTF8' with: 'Seaside-Tests-UTF8-pmm.16';
 			package: 'Seaside-Tests-Pharo-Continuation' with: 'Seaside-Tests-Pharo-Continuation-pmm.9';
-			package: 'Seaside-Tests-Pharo-Development' with: 'Seaside-Tests-Pharo-Development-pmm.40';
+			package: 'Seaside-Tests-Pharo-Development' with: 'Seaside-Tests-Pharo-Development-JohanBrichau.41';
 			package: 'Seaside-Tests-Pharo-Email' with: 'Seaside-Tests-Pharo-Email-pmm.1';
 			package: 'Seaside-Tests-Pharo-Functional' with: 'Seaside-Tests-Pharo-Functional-pmm.15';
 			package: 'Seaside-Tests-Pharo-Security' with: 'Seaside-Tests-Pharo-Security-pmm.2';
