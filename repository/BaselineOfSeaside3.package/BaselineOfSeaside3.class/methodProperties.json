@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "JohanBrichau 7/24/2015 11:54",
+		"baseline:" : "JohanBrichau 3/20/2016 16:21",
 		"baselineadaptors:" : "JohanBrichau 8/27/2015 20:06",
 		"baselinecomet:" : "JohanBrichau 2/15/2014 11:48",
 		"baselinecommon:" : "JohanBrichau 8/27/2015 16:23",
@@ -20,4 +20,5 @@
 		"baselinescriptaculous:" : "JohanBrichau 2/15/2014 11:46",
 		"baselinesecurity:" : "JohanBrichau 8/27/2015 14:31",
 		"baselineslime:" : "JohanBrichau 3/20/2016 15:54",
+		"baselinesqueak:" : "JohanBrichau 3/20/2016 16:21",
 		"baselinewelcome:" : "JohanBrichau 8/27/2015 15:39" } }
