@@ -91,13 +91,6 @@ baselinepharo: spec
 				spec requires: #('Seaside-Email' 'Seaside-Pharo20-Core' ) ] ].
 
 	spec for: #(#'pharo3.x' #'pharo4.x' #'pharo5.x') do: [
-            spec
-			package: 'Seaside-Tools-Web' with: [
-				spec includes: #('Seaside-Pharo20-Tools-Web') ];
-			package: 'Seaside-Pharo-Development' with: [
-				spec requires: #('Seaside-Development' 'Seaside-Pharo20-Tools-Web' 'Seaside-Pharo-Flow') ];
-			package: 'Seaside-Pharo20-Tools-Web' with: [
-				spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ].
 		spec 
 			package: 'Seaside-Core' with: [
 				spec includes: #('Seaside-Pharo20-Core' ) ];
@@ -108,6 +101,12 @@ baselinepharo: spec
 		
 	spec for: #'pharo3.x' do: [
       spec
+			package: 'Seaside-Tools-Web' with: [
+				spec includes: #('Seaside-Pharo20-Tools-Web') ];
+			package: 'Seaside-Pharo-Development' with: [
+				spec requires: #('Seaside-Development' 'Seaside-Pharo20-Tools-Web' 'Seaside-Pharo-Flow') ];
+			package: 'Seaside-Pharo20-Tools-Web' with: [
+				spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ];
 			package: 'Seaside-Pharo-Continuation' with: [
 				spec requires: #('Seaside-Core') ];
 			package: 'Seaside-Pharo-Flow' with: [
@@ -121,6 +120,12 @@ baselinepharo: spec
 		
 	spec for: #(#'pharo4.x' #'pharo5.x') do: [
        spec
+			package: 'Seaside-Tools-Web' with: [
+				spec includes: #('Seaside-Pharo50-Tools-Web') ];
+			package: 'Seaside-Pharo-Development' with: [
+				spec requires: #('Seaside-Development' 'Seaside-Pharo50-Tools-Web' 'Seaside-Pharo-Flow') ];
+			package: 'Seaside-Pharo50-Tools-Web' with: [
+				spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ];
 			package: 'Seaside-Pharo40-Continuation' with: [
 				spec requires: #('Seaside-Core') ];
 			package: 'Seaside-Pharo-Flow' with: [

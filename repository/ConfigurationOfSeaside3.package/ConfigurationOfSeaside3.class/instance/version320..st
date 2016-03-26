@@ -6,7 +6,7 @@ version320: spec
 		spec
 			blessing: #development;
 			author: 'JohanBrichau';
-			timestamp: '3/16/2016 17:27'. ].
+			timestamp: '3/26/2016 15:06'. ].
 
 	"Split because of hitting literal limit"
 	self version320SqueakCommon: spec.
@@ -75,24 +75,25 @@ version320: spec
 
 	spec for: #(#'pharo3.x' #'pharo4.x' #'pharo5.x') do: [
 		spec 
-			package: 'Seaside-Pharo20-Tools-Web' with: 'Seaside-Pharo20-Tools-Web-JohanBrichau.6';
 			package: 'Seaside-Pharo20-Core' with: 'Seaside-Pharo20-Core-pmm.5';
-			package: 'Seaside-Pharo-Email' with: 'Seaside-Pharo-Email-pmm.18';
+			package: 'Seaside-Pharo-Email' with: 'Seaside-Pharo-Email-JohanBrichau.19';
 			package: 'Seaside-Pharo20-REST-Core' with: 'Seaside-Pharo20-REST-Core-pmm.3';
-			package: 'Seaside-Pharo-Tools-Spec' with: 'Seaside-Pharo-Tools-Spec-JohanBrichau.17';
+			package: 'Seaside-Pharo-Tools-Spec' with: 'Seaside-Pharo-Tools-Spec-JohanBrichau.18';
 			package: 'Javascript-Pharo20-Core' with: 'Javascript-Pharo20-Core-JohanBrichau.5';
 			package: 'Javascript-Tests-Pharo-Core' with: 'Javascript-Tests-Pharo-Core-lr.1';
 			package: 'Seaside-Pharo-Gettext-Core' with: 'Seaside-Pharo-Gettext-Core-JohanBrichau.6';
 			package: 'Seaside-Tests-Slime' with: 'Seaside-Tests-Slime-pmm.45'. ].
 
 	spec for: #'pharo3.x' do: [
-		spec 
+		spec
+			package: 'Seaside-Pharo20-Tools-Web' with: 'Seaside-Pharo20-Tools-Web-JohanBrichau.6';
 			package: 'Seaside-Pharo-Continuation' with: 'Seaside-Pharo-Continuation-pmm.7';
 			package: 'Seaside-Slime' with: 'Seaside-Slime-pmm.86';
 			package: 'Seaside-Tests-Pharo20-Core' with: 'Seaside-Tests-Pharo20-Core-JohanBrichau.6'. ].
 
 	spec for: #(#'pharo4.x' #'pharo5.x') do: [
-		spec 
+		spec
+			package: 'Seaside-Pharo50-Tools-Web' with: 'Seaside-Pharo50-Tools-Web-JohanBrichau.1';
 			package: 'Seaside-Pharo40-Continuation' with: 'Seaside-Pharo40-Continuation-JohanBrichau.2';
 			package: 'Seaside-Pharo40-Slime' with: 'Seaside-Pharo40-Slime-JohanBrichau.4';
 			package: 'Seaside-Tests-Pharo40-Core' with: 'Seaside-Tests-Pharo40-Core-JohanBrichau.3'. ].

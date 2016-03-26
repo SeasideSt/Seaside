@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"isAbstract" : "jf 2/5/2010 15:13" },
+	"instance" : {
+		"commandLineArgumentsFrom:" : "SvenVanCaekenberghe 8/28/2012 13:29",
+		"days" : "jf 9/30/2009 00:32",
+		"durationPrinter" : "jok 3/10/2009 08:42",
+		"image" : "pmm 8/28/2011 15:39",
+		"isRunningCog" : "MichaelDavies 8/27/2011 14:51",
+		"numberOfSessions" : "lr 7/25/2011 20:09",
+		"paddedHours" : "pmm 2/13/2011 10:53",
+		"paddedMinutes" : "pmm 2/13/2011 10:54",
+		"paddedSeconds" : "jf 9/30/2009 00:32",
+		"percent:" : "pmm 2/19/2012 11:49",
+		"printDuration:" : "lr 7/25/2011 20:09",
+		"printMemory:" : "jf 9/30/2009 00:32",
+		"printMilliSeconds:" : "pmm 6/26/2011 14:32",
+		"printMilliSeconds:dividedBy:" : "pmm 8/15/2010 02:04",
+		"renderCogValuesOn:" : "MichaelDavies 8/27/2011 11:36",
+		"renderContentOn:" : "MichaelDavies 8/27/2011 14:51",
+		"vmOptionsFrom:" : "SvenVanCaekenberghe 8/28/2012 13:29" } }

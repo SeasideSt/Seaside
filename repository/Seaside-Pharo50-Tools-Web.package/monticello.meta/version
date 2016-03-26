@@ -1,0 +1,1 @@
+(name 'Seaside-Pharo50-Tools-Web-JohanBrichau.1' message 'Split-off from Seaside-Pharo20-Tools-Web-JohanBrichau.6 to cope with incompatibilities in Pharo5 (and also backwards compatible with Pharo4)' id '04970473-b50d-4197-b2d9-86ffcdbfdec8' date '26 March 2016' time '3:05:48.919338 pm' author 'JohanBrichau' ancestors () stepChildren ())

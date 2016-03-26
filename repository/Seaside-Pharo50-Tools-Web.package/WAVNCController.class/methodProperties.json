@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"canBeRoot" : "lr 2/12/2007 21:53",
+		"description" : "lr 6/10/2007 20:26",
+		"initialize" : "jf 10/26/2008 17:34" },
+	"instance" : {
+		"currentDisplay" : "jf 9/30/2009 01:10",
+		"isServerRunning" : "lr 7/25/2011 20:13",
+		"renderContentOn:" : "pmm 8/14/2012 20:14",
+		"renderResumeOn:" : "lr 11/21/2006 00:01",
+		"renderStartOn:" : "jf 9/30/2009 01:04",
+		"renderStopOn:" : "lr 11/21/2006 00:01",
+		"renderSuspendOn:" : "lr 11/21/2006 00:01",
+		"resume" : "pmm 8/14/2012 20:14",
+		"serverClass" : "pmm 3/6/2007 21:51",
+		"serverInstance" : "pmm 3/6/2007 21:53",
+		"startOn:" : "pmm 3/6/2007 21:56",
+		"stop" : "pmm 3/6/2007 21:56",
+		"suspend" : "pmm 8/14/2012 20:15",
+		"uiProcess" : "pmm 8/14/2012 20:14" } }

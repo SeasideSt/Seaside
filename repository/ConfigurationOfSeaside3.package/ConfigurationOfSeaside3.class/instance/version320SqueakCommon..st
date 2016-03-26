@@ -24,17 +24,17 @@ version320SqueakCommon: spec
 			package: 'Seaside-RenderLoop' with: 'Seaside-RenderLoop-pmm.99';
 			package: 'Seaside-Security' with: 'Seaside-Security-pmm.4';
 			package: 'Seaside-Session' with: 'Seaside-Session-pmm.184';
-			package: 'Seaside-Tools-Core' with: 'Seaside-Tools-Core-JohanBrichau.26';
+			package: 'Seaside-Tools-Core' with: 'Seaside-Tools-Core-JohanBrichau.27';
 			package: 'Seaside-Tools-Web' with: 'Seaside-Tools-Web-pmm.128';
 			package: 'Seaside-Widgets' with: 'Seaside-Widgets-JohanBrichau.36';
 			package: 'Seaside-JSON-Core' with: 'Seaside-JSON-Core-pmm.35';
 			package: 'Javascript-Core' with: 'Javascript-Core-pmm.99';
 			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.139';
 			package: 'JQuery-JSON' with: 'JQuery-JSON-JohanBrichau.3';
-			package: 'JQuery-UI' with: 'JQuery-UI-pmm.93';
+			package: 'JQuery-UI' with: 'JQuery-UI-JohanBrichau.94';
 			package: 'Seaside-FileSystem' with: 'Seaside-FileSystem-JohanBrichau.30';
 			package: 'RSS-Core' with: 'RSS-Core-pmm.71';
-			package: 'Seaside-REST-Core' with: 'Seaside-REST-Core-pmm.58';
+			package: 'Seaside-REST-Core' with: 'Seaside-REST-Core-JohanBrichau.60';
 			package: 'Seaside-Swagger-Core' with: 'Seaside-Swagger-Core-JohanBrichau.7';
 			package: 'RSS-Examples' with: 'RSS-Examples-pmm.27';
 			package: 'Seaside-Swazoo' with: 'Seaside-Swazoo-pmm.20';
@@ -42,8 +42,8 @@ version320SqueakCommon: spec
 			package: 'Comet-Core' with: 'Comet-Core-pmm.55';
 			package: 'Comet-Examples' with: 'Comet-Examples-pmm.26';
 			package: 'Prototype-Core' with: 'Prototype-Core-pmm.29';
-			package: 'Scriptaculous-Core' with: 'Scriptaculous-Core-pmm.105';
-			package: 'Scriptaculous-Components' with: 'Scriptaculous-Components-pmm.114';
+			package: 'Scriptaculous-Core' with: 'Scriptaculous-Core-JohanBrichau.106';
+			package: 'Scriptaculous-Components' with: 'Scriptaculous-Components-JohanBrichau.115';
 			package: 'Seaside-Welcome' with: 'Seaside-Welcome-JohanBrichau.50';
 			package: 'WebClient-Seaside-Adaptor' with: 'WebClient-Seaside-Adaptor-topa.1';
 
@@ -76,7 +76,7 @@ version320SqueakCommon: spec
 			package: 'Seaside-Tests-Tools-Web' with: 'Seaside-Tests-Tools-Web-pmm.25';
 			package: 'Seaside-Tests-UTF8' with: 'Seaside-Tests-UTF8-pmm.16';
 			package: 'Seaside-Tests-Pharo-Continuation' with: 'Seaside-Tests-Pharo-Continuation-pmm.9';
-			package: 'Seaside-Tests-Pharo-Development' with: 'Seaside-Tests-Pharo-Development-JohanBrichau.41';
+			package: 'Seaside-Tests-Pharo-Development' with: 'Seaside-Tests-Pharo-Development-JohanBrichau.42';
 			package: 'Seaside-Tests-Pharo-Email' with: 'Seaside-Tests-Pharo-Email-pmm.1';
 			package: 'Seaside-Tests-Pharo-Functional' with: 'Seaside-Tests-Pharo-Functional-pmm.15';
 			package: 'Seaside-Tests-Pharo-Security' with: 'Seaside-Tests-Pharo-Security-pmm.2';
@@ -92,5 +92,5 @@ version320SqueakCommon: spec
 			package: 'Comet-Tests-Core' with: 'Comet-Tests-Core-lr.11';
 			package: 'Prototype-Tests-Core' with: 'Prototype-Tests-Core-pmm.18';
 			package: 'Scriptaculous-Tests-Core' with: 'Scriptaculous-Tests-Core-pmm.63';
-			package: 'Scriptaculous-Tests-Components' with: 'Scriptaculous-Tests-Components-pmm.43';
+			package: 'Scriptaculous-Tests-Components' with: 'Scriptaculous-Tests-Components-JohanBrichau.44';
 			package: 'Seaside-Tests-Welcome' with: 'Seaside-Tests-Welcome-lr.6' ].
