@@ -12,11 +12,12 @@ baselinegemstone: spec
                 repository: 'github://glassdb/glass:master/repository' ];
         yourself.
       spec
+		  package: 'Seaside-Squeak-Compatibility';
         package: 'Seaside-Core'
           with: [ 
               spec
                 includes: #('Seaside-GemStone-Core');
-		    requires: #('GLASS1') ];
+		    requires: #('GLASS1' 'Seaside-Squeak-Compatibility') ];
         package: 'Seaside-Development'
           with: [ spec includes: #('Seaside-GemStone-Development') ];
         package: 'Seaside-Email'
