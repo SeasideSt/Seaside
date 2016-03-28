@@ -83,9 +83,10 @@ baselineadaptors: spec
 	spec
 		for: #gemstone
 		do: [ 
-                  spec
-                    package: 'Zinc-Seaside'
-                    with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
+			spec
+            package: 'Zinc-Seaside'
+            with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
+
 			spec
 				project: 'FastCGI Project'
 					with: [ 
@@ -103,6 +104,7 @@ baselineadaptors: spec
 					with: [ 
 							spec
 								className: 'BaselineOfZincHTTPComponents';
+								loads: #('Core');
 								repository: 'github://GsDevKit/zinc:v2.4.3.?/repository' ];
 				yourself.
 			spec
