@@ -56,8 +56,4 @@ open: anException
                 inProduction: wb applicationDeployed ] ].
       ^ self ].
   action == #'debug'
-    ifTrue: [ 
-      | meth |
-      meth := self class lookupSelector: #'remoteBreakpointMethod'.
-      meth setBreakAtStepPoint: 1.
-      self remoteBreakpointMethod ]
+    ifTrue: [ self halt ]
