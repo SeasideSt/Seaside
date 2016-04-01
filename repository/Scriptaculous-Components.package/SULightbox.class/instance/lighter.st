@@ -1,3 +1,3 @@
 accessing-scripts
 lighter
-	^ 'updateLightbox();Event.observe(window,"resize",function(){updateLightbox();});'
+	^ JSStream on: 'updateLightbox();Event.observe(window,"resize",function(){updateLightbox();});'
