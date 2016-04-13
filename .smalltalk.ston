@@ -4,27 +4,13 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #platforms : [ #pharo ]
+      #platforms : [ #gemstone #pharo ]
     },
     SCIMetacelloLoadSpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'Tests' ],
       #platforms : [ #squeak ]
-    },
-    SCIMetacelloLoadSpec {
-      #baseline : 'Seaside3',
-      #directory : 'repository',
-      #onWarningLog : true,
-      #load : [ 'CI' ],
-      #platforms : [ #gemstone ]
-    },
-    SCIMetacelloLoadSpec {
-      #baseline : 'Seaside3',
-      #directory : 'repository',
-      #onWarningLog : true,
-      #load : [ 'ALL' ],
-      #platforms : [ #gemstone ]
     }
   ]
 }
