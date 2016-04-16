@@ -1,3 +1,3 @@
 accessing
-maximumSize: anInteger
-	maximumSize := anInteger
+maximumSize: aStringOrAnInteger
+	maximumSize := aStringOrAnInteger asUnsignedInteger

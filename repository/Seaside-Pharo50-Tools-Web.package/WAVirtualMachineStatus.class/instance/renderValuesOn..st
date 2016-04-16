@@ -2,7 +2,7 @@ rendering
 renderValuesOn: html
 	self renderLabel: 'VM Version' value: (self image vm getSystemAttribute: 1004) on: html.
 	self renderLabel: 'VM Type' value: ((self image vm parameterAt: 40) * 8) printString, 'bit' on: html.
-	self renderLabel: 'Endianness' value: EndianDetector endianness on: html.
+	self renderLabel: 'Endianness' value: (Smalltalk at: #EndianDetector ifAbsent:[self image]) endianness on: html.
 	
 	self renderLabel: 'Image Path' value: (self image vm getSystemAttribute: 1) on: html.
 	

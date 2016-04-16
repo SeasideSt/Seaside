@@ -12,7 +12,7 @@ renderValuesOn: html
 			html text:self numberOfSessions.
 			html space.
 			html anchor
-				callback: [ self clear ];
+				callback: [ self clear. self requestContext redirectTo: self application url ];
 				title: 'Expires all sessions and does a full garbage collect.';
 				with: 'Clear' ]
 		on: html.
