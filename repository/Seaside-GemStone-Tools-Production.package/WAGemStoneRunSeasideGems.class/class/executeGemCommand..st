@@ -7,7 +7,7 @@ executeGemCommand: command
     show: TimeStamp now printString;
     show: ')'.
   commandLine := (GsFile _expandEnvVariable: 'GEMSTONE' isClient: false)
-    , 'seaside/bin/runSeasideGems30 ' , command , ' ' , self default name , ' '
+    , '/seaside/bin/runSeasideGems30 ' , command , ' ' , self default name , ' '
     , self defaultPortString.
   Transcript
     cr;
