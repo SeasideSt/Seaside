@@ -13,4 +13,4 @@ Seaside also has good support for [CSS and Javascript](http://www.seaside.st/doc
 If you would like to contribute, please visit [Seaside's contributors page](http://seaside.st/community/contribute).
 
 ## Build Status
- - [![dev/3.2 branch (pharo/squeak):](https://travis-ci.org/SeasideSt/Seaside.svg?branch=dev%2F3.2)](https://travis-ci.org/SeasideSt/Seaside)  dev/3.2 (Pharo/Squeak)
+ - [![master branch:](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside) 
