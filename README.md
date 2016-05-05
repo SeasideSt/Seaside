@@ -16,32 +16,32 @@ Seaside also has good support for [CSS and Javascript](http://www.seaside.st/doc
 
 To install the latest stable version of Seaside in a [Pharo](http://www.pharo-project.org) image, execute the following code:
 
-   ```Smalltalk
-   Metacello new
-     configuration:'Seaside3';
-     repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-     version: #stable;
-     load
-   ```
+```Smalltalk
+Metacello new
+  configuration:'Seaside3';
+  repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+  version: #stable;
+  load
+```
 
 To install a particular version (e.g. 3.1.3):
 
-   ```Smalltalk
-   Metacello new
-     configuration:'Seaside3';
-     repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-     version: '3.1.3';
-     load
-   ```
+```Smalltalk
+Metacello new
+ configuration:'Seaside3';
+ repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+ version: '3.1.3';
+ load
+```
 
 Starting with version 3.2.0, you can also install Seaside directly from the Github repository:
 
-  ```Smalltalk
-  Metacello new
-    baseline:'Seaside3';
-    repository: 'github://SeasideSt/Seaside:master/repository';
-    load
-  ```
+```Smalltalk
+Metacello new
+ baseline:'Seaside3';
+ repository: 'github://SeasideSt/Seaside:master/repository';
+ load
+```
 	
 ### Install in Gemstone
 
