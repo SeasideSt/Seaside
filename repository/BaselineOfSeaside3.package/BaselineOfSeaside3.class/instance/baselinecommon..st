@@ -87,7 +87,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ].
 		spec 
-			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI');
+			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
 			group: 'CI' with: #('Tests' 'Development Tests');
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
