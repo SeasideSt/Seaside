@@ -1,3 +1,5 @@
+#The framework for developing sophisticated web applications in Smalltalk.
+
 [Seaside](http://www.seaside.st) provides a layered set of abstractions over HTTP and XHTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
   * [Programmatic XHTML generation](http://www.seaside.st/documentation/generating-html).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page.  Seaside has a rich API for generating XHTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
