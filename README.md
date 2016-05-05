@@ -22,7 +22,7 @@ To install the latest stable version of Seaside in a [Pharo](http://www.pharo-pr
     repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
     version: #stable;
     load
-	```
+```
 	
 ### Install in Gemstone
 
