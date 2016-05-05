@@ -23,6 +23,25 @@ To install the latest stable version of Seaside in a [Pharo](http://www.pharo-pr
     version: #stable;
     load
 ```
+
+To install a particular version (e.g. 3.1.3):
+
+  ```Smalltalk
+  Metacello new
+    configuration:'Seaside3';
+    repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+    version: '3.1.3';
+    load
+```
+
+Starting with version 3.2.0, you can also install Seaside directly from the Github repository:
+
+  ```Smalltalk
+  Metacello new
+    baseline:'Seaside3';
+    repository: 'github://SeasideSt/Seaside:master/repository';
+    load
+```
 	
 ### Install in Gemstone
 
@@ -47,7 +66,7 @@ To install the latest stable version of Seaside in a [Pharo](http://www.pharo-pr
       load ].
   ```
 
-  Install a particular version, e.g. 3.1.3 (see [Releases](https://github.com/SeasideSt/Seaside/releases) for a list of possible versions):
+  Install a particular version, e.g. 3.2.0 (see [Releases](https://github.com/SeasideSt/Seaside/releases) for a list of possible versions):
   ```Smalltalk
   GsDeployer deploy: [
     Metacello new
