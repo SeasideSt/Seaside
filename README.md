@@ -61,7 +61,7 @@ Metacello new
   GsDeployer deploy: [
     Metacello new
       baseline: 'Seaside3';
-      repository: 'github://SeasideSt/Seaside:master/repository';
+      repository: 'github://SeasideSt/Seaside:master/repository';
       onLock: [:ex | ex honor];
       load ].
   ```
