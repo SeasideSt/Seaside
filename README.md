@@ -83,3 +83,7 @@ If you would like to contribute, please visit the [Seaside's contributors page](
 
 ## Build Status
  - [![master branch:](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside) 
+
+## More
+
+Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) or [www.seaside.st](http://www.seaside.st) for more information. 
