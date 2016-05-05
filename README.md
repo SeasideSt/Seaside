@@ -10,7 +10,55 @@
 
 Seaside also has good support for [CSS and Javascript](http://www.seaside.st/documentation/css-and-js), excellent [web-based development tools](http://www.seaside.st/documentation/tools) and [debugging support](http://www.seaside.st/documentation/debugging), a rich [configuration and preferences](http://www.seaside.st/documentation/configuration-and-preferences) framework, and more.
 
-If you would like to contribute, please visit [Seaside's contributors page](http://seaside.st/community/contribute).
+## Installation
+
+### Install in Pharo
+
+To install the latest stable version of Seaside in a [Pharo](http://www.pharo-project.org) image, execute the following code:
+
+  ```Smalltalk
+  Metacello new
+    configuration:'Seaside3';
+    repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+    version: #stable;
+    load
+	```
+	
+### Install in Gemstone
+
+1. Upgrade to the latest version of Metacello and Grease using [GsUpgrader](https://github.com/GsDevKit/gsUpgrader#gsupgrader-):
+  ```Smalltalk
+  Gofer new
+    package: 'GsUpgrader-Core';
+    url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+    load.
+  (Smalltalk at: #GsUpgrader) upgradeGrease.
+  ```
+  
+2. Install Seaside 3.2:
+
+  Install the latest commit from the master branch:
+  ```Smalltalk
+  GsDeployer deploy: [
+    Metacello new
+      baseline: 'Seaside3';
+      repository: 'github://SeasideSt/Seaside:master/repository';
+      onLock: [:ex | ex honor];
+      load ].
+  ```
+
+  Install a particular version, e.g. 3.1.3 (see [Releases](https://github.com/SeasideSt/Seaside/releases) for a list of possible versions):
+  ```Smalltalk
+  GsDeployer deploy: [
+    Metacello new
+      baseline: 'Seaside3';
+      repository: 'github://SeasideSt/Seaside:v3.2.0/repository';
+      onLock: [:ex | ex honor];
+      load: #('Development' 'Examples' 'Zinc') ].
+  ```
+
+## Contributing
+If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/wiki/Contributing).
 
 ## Build Status
  - [![master branch:](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside) 
