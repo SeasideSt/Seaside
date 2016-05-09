@@ -77,6 +77,9 @@ Metacello new
       onLock: [:ex | ex honor];
       load: #('Development' 'Examples' 'Zinc') ].
   ```
+### Install in Squeak
+
+Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
 
 ## Contributing
 If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/wiki/Contributing).
