@@ -5,7 +5,7 @@ baselinewelcome: spec
 
 		spec 
 			package: 'Seaside-Welcome' with: [
-				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI') ];
+				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI' 'JQuery-Tests-Core' 'JQuery-Tests-UI') ];
 			package: 'Seaside-Tests-Welcome' with: [
 				spec requires: #('Seaside-Welcome' ) ].
 		spec 
