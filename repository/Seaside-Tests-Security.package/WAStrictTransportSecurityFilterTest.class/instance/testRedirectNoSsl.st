@@ -12,4 +12,4 @@ testRedirectNoSsl
 		do: [ :notification | ].
 		
 	self assert: response status = WAResponse statusFound.
-	self assert: ((response headerAt: 'Location') beginsWithSubCollection: 'https://')
+	self assert: ((response headerAt: 'Location') greaseString beginsWithSubCollection: 'https://')

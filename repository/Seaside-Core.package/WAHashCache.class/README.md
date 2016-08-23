@@ -9,10 +9,32 @@ The characteristics of WAHashCache are:
 - does not guard against hash collision attacks, you should not use user generated keys
 
 Instance Variables:
-	keyTable 				<Array>
-	valueTable				<Array>
+	keyTable 				<Array<WACacheKeyEntry>>
 	size					<Integer>
-	byAccessStart			<WACacheListEntryNG>
-	byAccessEnd			<WACacheListEntryNG>
-	byCreationStart		<WACacheListEntryNG>
-	byCreationEnd			<WACacheListEntryNG>
+	byAccessStart			<WACacheListEntry>
+	byAccessEnd			<WACacheListEntry>
+	byCreationStart		<WACacheListEntry>
+	byCreationEnd			<WACacheListEntry>
+
+keyTable:
+	Open hash table of  WACacheKeyEntry
+
+byAccessStart
+	Head of the linked list sorted by access time
+
+byAccessEnd	
+	Tail of the linked list sorted by access time
+
+byCreationStart
+	Head of the linked list sorted by creation time
+
+byCreationEnd
+	Tail of the linked list sorted by creation time
+
+
+The implementation is a combination of:
+- an open hash table, used for look ups by key 
+- a linked list of cache entries sorted by creation time, used for reaping by absolute age
+- a linked list of cache entries sorted by access time, used for reaping by relative age
+
+For every cache entry there is a nofr in the hash table and a node in both of the linked lists. It is possible to navigate from every node for a key to every other node of the same key. This is required for removing and updating entries.

@@ -1,4 +1,4 @@
 actions
 removeAdaptor: anAdaptor
-	anAdaptor isStopped ifTrue:[anAdaptor unregister].
+	anAdaptor isStopped ifTrue: [ anAdaptor unregister ].
 	self initializeAdaptors

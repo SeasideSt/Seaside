@@ -18,5 +18,7 @@
 		"getStats" : "lr 7/26/2011 11:50",
 		"getUuids:" : "lr 7/26/2011 11:50",
 		"getView:inDesign:inDatabase:" : "lr 7/26/2011 11:50",
+		"options" : "pmm 8/19/2016 12:17",
 		"queryDatabase:" : "lr 7/26/2011 11:50",
-		"replicate" : "lr 7/26/2011 11:50" } }
+		"replicate" : "lr 7/26/2011 11:50",
+		"updateDocument:inDatabase:" : "pmm 8/18/2016 12:51" } }

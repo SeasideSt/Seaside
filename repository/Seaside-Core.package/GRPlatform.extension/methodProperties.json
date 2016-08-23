@@ -1,11 +1,13 @@
 {
 	"class" : {
+		"subStringsIn:splitBy:" : "pmm 8/21/2016 16:43",
+		"subStringsIn:splitBy:collect:" : "pmm 8/21/2016 16:49",
 		"subStringsIn:splitBy:do:" : "pmm 2/25/2012 11:20" },
 	"instance" : {
 		"doCommitTransaction" : "JohanBrichau 7/16/2015 11:19",
 		"newReducedConflictCounter" : "pmm 7/14/2015 18:29",
 		"newTransientValueHolder" : "pmm 7/14/2015 18:29",
-		"seasideVersion" : "JohanBrichau 6/13/2014 22:00",
+		"seasideVersion" : "JohanBrichau 5/5/2016 12:55",
 		"sourceFileEncoding" : "pmm 8/2/2011 20:55",
 		"urlEncoderOn:" : "pmm 8/14/2011 17:54",
 		"urlEncoderOn:codec:" : "pmm 8/14/2011 21:44",

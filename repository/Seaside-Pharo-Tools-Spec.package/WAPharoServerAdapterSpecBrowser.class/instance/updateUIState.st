@@ -7,15 +7,14 @@ updateUIState
 	listModel updateList.
 	listModel changed: #iconForItem:at:.
 	
-	adaptor isNil
-			ifTrue: [
+	adaptor isNil ifTrue: [
 				textModel text: ''.
 				textModel behavior: nil ]
 	             ifFalse: [ 
 				adaptor canStart
 					ifTrue: [ self enableStartButton ].
 				adaptor canStop
-					ifTrue: [ self enableStopButton	 ].
+					ifTrue: [ self enableStopButton ].
 				self enableBrowseButton.
 				textModel text: (String streamContents: [ :stream |
 			stream 

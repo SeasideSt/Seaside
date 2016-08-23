@@ -1,3 +1,4 @@
 converting
-stringForValue: aClass 
-	^ aClass isNil ifFalse: [ aClass name greaseString ]
+stringForValue: anObject
+	^ anObject isNil ifFalse: [
+		anObject class name greaseString ]
