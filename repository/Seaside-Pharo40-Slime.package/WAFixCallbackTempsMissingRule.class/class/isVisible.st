@@ -2,4 +2,6 @@ testing
 isVisible
 	"Hide the test in closure images."
 
-	^ [ ] isKindOf: BlockContext
+	Smalltalk globals at: 'BlockContext' ifPresent: [ :blockContext |
+		[ ] isKindOf: blockContext ].
+	^ false
