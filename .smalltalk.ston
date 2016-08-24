@@ -13,5 +13,10 @@ SmalltalkCISpec {
       #load : [ 'CI' ],
       #platforms : [ #gemstone ]
     }
-  ]
+  ],
+  #testing : {
+      #exclude : {
+        #packages : [ 'Cryptography.*' ]
+      }
+  }
 }
