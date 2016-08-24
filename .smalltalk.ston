@@ -4,13 +4,7 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #platforms : [ #pharo ]
-    },
-    SCIMetacelloLoadSpec {
-      #baseline : 'Seaside3',
-      #directory : 'repository',
-      #load : [ 'Tests' ],
-      #platforms : [ #squeak ]
+      #platforms : [ #pharo, #squeak ]
     },
     SCIMetacelloLoadSpec {
       #baseline : 'Seaside3',
