@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Seaside-Email'!
-SystemOrganization addCategory: #'Seaside-Email-Configuration'!
+SystemOrganization addCategory: 'Seaside-Email-Configuration'!

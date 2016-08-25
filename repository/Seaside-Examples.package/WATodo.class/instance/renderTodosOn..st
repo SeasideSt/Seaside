@@ -3,7 +3,7 @@ renderTodosOn: html
 	| currentItem itemId | 
 	html section
 		id: 'main';
-		with:[
+		with: [
 			html checkbox
 				id: 'toggle-all'.
 			html  label 
@@ -19,7 +19,7 @@ renderTodosOn: html
 									on: 'click' 
 									selector: '.destroy' 
 									do: ((html jQuery ajax 
-													callback:[:passengers | passengers first remove]
+													callback: [ :passengers | passengers first remove ]
 													passengers: (((html jQuery expression: (JSStream on:'event.target')) closest: 'li'));
 													onComplete: (((html jQuery expression: (JSStream on:'event.target')) closest: 'li') remove)) asFunction: #(event)));
 				script: (html jQuery this
@@ -36,9 +36,9 @@ renderTodosOn: html
 										passengers: ((html jQuery expression: (JSStream on:'event.target')) closest:'li');
 										callback: [ :id | itemId := id ]
 										value: (JSStream on:'$(event.target).closest("li").get(0).id');
-										script: [ :s |  s << (((s jQuery id: itemId) find: 'label') html: currentItem description)];
+										script: [ :s |  s << (((s jQuery id: itemId) find: 'label') html: currentItem description) ];
 										onComplete: ((((html jQuery expression: (JSStream on: 'event.target')) closest:'li') find: '.edit') hide, (((html jQuery expression: (JSStream on: 'event.target')) closest:'li') find: 'label') show))
 								 asFunction: #(event)));
-				with:[self todos do:[:todoItem | todoItem renderOn: html]]].
+				with: [ self todos do: [ :todoItem | todoItem renderOn: html ] ] ]
 
 	

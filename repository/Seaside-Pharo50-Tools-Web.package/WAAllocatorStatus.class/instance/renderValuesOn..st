@@ -17,4 +17,4 @@ renderValuesOn: html
 	self renderLabel: 'Objects Pending Finalization' value: (parameters at: 39) on: html.
 	
 	self renderLabel: 'Root Table Size' value: (parameters at: 21) on: html.
-	self renderLabel: 'Root Table Overflows Since Startup' value: (parameters at: 22) on: html.
+	self renderLabel: 'Root Table Overflows Since Startup' value: (parameters at: 22) on: html

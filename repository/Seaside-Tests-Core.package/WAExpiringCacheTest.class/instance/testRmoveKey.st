@@ -9,4 +9,4 @@ testRmoveKey
 	self assert: cache size = 1.
 	
 	self assert: (cache at: 1 ifAbsent: [ nil ]) = '1'.
-	self assert: (cache at: 2 ifAbsent: [ #missing ]) = #missing.
+	self assert: (cache at: 2 ifAbsent: [ #missing ]) = #missing

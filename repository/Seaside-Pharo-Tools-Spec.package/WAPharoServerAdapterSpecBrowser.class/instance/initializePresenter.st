@@ -6,8 +6,8 @@ initializePresenter
 	textModel aboutToStyle: false.
 	
 	listModel 
-		whenSelectedItemChanged: [ :selection | adaptor := selection. self updateUIState];
-		whenListChanged: [ self updateUIState];
+		whenSelectedItemChanged: [ :selection | adaptor := selection. self updateUIState ];
+		whenListChanged: [ self updateUIState ];
 		displayBlock: [ :item | (item class name,' ',item statusString) asStringMorph ];
 		icons: [ :item | self iconForAdaptor: item ];
 		menu: [ :aMenu | self adaptorsMenu: aMenu ].

@@ -2,4 +2,4 @@
 seasideAdaptorRunningIcon 
 	^ icons
 			at: #'seasideAdaptorRunningIcon'
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self seasideAdaptorRunningIconContents readStream) ].
+			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self seasideAdaptorRunningIconContents readStream) ]

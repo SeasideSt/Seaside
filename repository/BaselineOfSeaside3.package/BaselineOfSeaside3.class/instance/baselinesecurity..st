@@ -11,7 +11,7 @@ baselinesecurity: spec
 			package: 'Seaside-Security' with: [
 				spec requires: #('Seaside-Core') ];
 			package: 'Seaside-Tests-Security' with: [
-				spec requires: #('Seaside-Security' ) ].
+				spec requires: #('Seaside-Security') ].
 		
 		spec 
 			package: 'Seaside-Pharo-Security';
@@ -26,6 +26,6 @@ baselinesecurity: spec
 				spec includes: #('Seaside-Tests-Pharo-Security') ].
 			
 		spec
-			group: 'Security' with: #('Seaside-Security')
-			"group: 'Tests' with: #('Seaside-Tests-Security') "
+			group: 'Security' with: #('Seaside-Security');
+			group: 'Tests' with: #('Seaside-Tests-Security')
 	]

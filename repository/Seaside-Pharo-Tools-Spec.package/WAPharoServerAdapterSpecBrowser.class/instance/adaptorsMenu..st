@@ -25,4 +25,4 @@ adaptorsMenu: aMenu
 			group addItem: [ :item |
 				item 
 					name: 'Clear sessions';
-					action: [ self clearSessions ] ] ].
+					action: [ self clearSessions ] ] ]

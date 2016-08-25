@@ -12,9 +12,9 @@ renderContentOn: html
 						value: done.
 					html label: description.
 					html button
-						class: 'destroy'.].
+						class: 'destroy' ].
 		html textInput
 			class: 'edit';
 			style: 'display:none';
-			callback:[:value | self description: value];
-			value: description]
+			callback: [ :value | self description: value ];
+			value: description ]

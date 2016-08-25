@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setHtmlBody: aBlock
 	"block should be in the form of a [:h | h render: 'hello world']"
 

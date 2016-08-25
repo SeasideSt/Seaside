@@ -5,4 +5,4 @@ renderContentOn: html
 		with: [
 			self renderAddNewTodoOn: html.
 			self renderTodosOn: html.
-			self renderFooterOn: html].
+			self renderFooterOn: html ]

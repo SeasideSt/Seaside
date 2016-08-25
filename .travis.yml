@@ -16,4 +16,5 @@ cache:
   directories:
     - $SMALLTALK_CI_CACHE
 smalltalk_config:
-  - .smalltalk-configuration.ston
+ - .smalltalk.ston
+ - .smalltalk-configuration.ston

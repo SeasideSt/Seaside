@@ -13,5 +13,5 @@ initializeWidgets
 	self focusOrder 
 		add: startButton;
 		add: stopButton;
-		add: browseButton.
+		add: browseButton
 	
