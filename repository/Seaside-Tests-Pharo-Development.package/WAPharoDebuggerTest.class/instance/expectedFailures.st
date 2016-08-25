@@ -10,7 +10,7 @@ expectedFailures
 			"only for Pharo"
 			^ #(testNamedTempAt) ].
 		((versionString beginsWith: 'Squeak')
-			and: [ systemVersion current date >= (Date year: 2016 month: 8 day: 23) ]) ifTrue: [
+			and: [ systemVersion current date < (Date year: 2016 month: 8 day: 23) ]) ifTrue: [
 			"only for old Squeak, was fixed in 5.1"
 			^ #(testNamedTempAt) ] ].
 	^ #()
