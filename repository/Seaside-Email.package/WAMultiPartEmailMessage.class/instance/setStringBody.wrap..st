@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setStringBody: aString wrap: aBoolean
 	self
 		addPart:

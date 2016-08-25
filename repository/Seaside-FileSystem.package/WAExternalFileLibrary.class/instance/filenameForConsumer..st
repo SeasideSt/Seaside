@@ -1,8 +1,11 @@
 private
 filenameForConsumer: aPathConsumer
 	"Answer the SpFilename pointing to the file for the given request."
-	| filename |
-	filename := self directory.
-	[ aPathConsumer atEnd ] whileFalse: [
-		filename := filename , GRPlatform current pathSeparator , aPathConsumer next ].
-	^filename
+	^ String streamContents: [ :stream |
+		| pathSeparator |
+		stream nextPutAll: self directory.
+		pathSeparator := GRPlatform current pathSeparator.
+		[ aPathConsumer atEnd ] whileFalse: [
+			stream
+				nextPutAll: pathSeparator;
+				nextPutAll: aPathConsumer next ] ]

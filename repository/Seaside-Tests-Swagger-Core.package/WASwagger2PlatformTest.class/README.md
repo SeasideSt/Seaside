@@ -1,0 +1,1 @@
+I test swagger methods on GRPlatform

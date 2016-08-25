@@ -3,4 +3,4 @@ cacheEntryRemoved: anObject
 	(anObject respondsTo: #unregistered) ifTrue: [
 		[ anObject unregistered ]
 			on: Error
-			do: [ "keep reaping process running" ] ]
+			do: [ :e | "keep reaping process running" ] ]

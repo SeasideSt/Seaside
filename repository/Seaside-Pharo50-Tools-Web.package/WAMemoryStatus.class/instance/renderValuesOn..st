@@ -26,4 +26,4 @@ renderValuesOn: html
 		renderLabel: 'Free'
 		value: (self printMemory: (memoryEnd - youngSpaceEnd))
 		value: (self percent: memoryEnd - youngSpaceEnd / memoryEnd)
-		on: html.
+		on: html

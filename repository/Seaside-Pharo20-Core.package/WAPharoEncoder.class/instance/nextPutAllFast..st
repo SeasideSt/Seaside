@@ -11,4 +11,4 @@ nextPutAllFast: aByteString
 		lastIndex := nextIndex + 1.
 		nextIndex := ByteString findFirstInString: aByteString inSet: table startingAt: lastIndex.
 		nextIndex = 0 ] whileFalse.
-	stream greaseNext: aByteString size - lastIndex + 1 putAll: aByteString startingAt: lastIndex.
+	stream greaseNext: aByteString size - lastIndex + 1 putAll: aByteString startingAt: lastIndex

@@ -4,7 +4,7 @@
 	"instance" : {
 		"at:ifAbsent:" : "pmm 7/14/2015 18:38",
 		"at:put:" : "pmm 7/15/2015 07:30",
-		"clear" : "pmm 7/13/2015 14:43",
+		"clear" : "pmm 8/25/2016 12:00",
 		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "JohanBrichau 7/15/2015 15:02",
 		"isExpired:" : "pmm 7/13/2015 16:59",
 		"isExpired:now:" : "pmm 7/13/2015 17:48",

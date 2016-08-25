@@ -1,12 +1,12 @@
 testing
 crossPlatformPathFromArray: pathArray finalSlash: finalSlash
-	| separator path|
-	separator := GRPlatform current pathSeparator.
 	
-	path := String new.
-	pathArray do: [:pathElement | 
-		path := path, separator, pathElement ].
-
-	finalSlash ifTrue: [ path:= path, separator]. 
-	
-	^ path
+	^ String streamContents: [ :stream |
+		| separator |
+		separator := GRPlatform current pathSeparator.
+		pathArray do: [ :pathElement | 
+			stream
+				nextPutAll: separator;
+				nextPutAll: pathElement ].
+		finalSlash ifTrue: [
+			stream nextPutAll: separator ] ]
