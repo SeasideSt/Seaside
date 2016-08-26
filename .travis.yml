@@ -17,19 +17,19 @@ matrix:
   include:
     - smalltalk: GemStone-3.3.1
       env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk-tugrik.ston
+      smalltalk_config: .smalltalk.ston
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
     - smalltalk: GemStone-3.2.15
       env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk-tugrik.ston
+      smalltalk_config: .smalltalk.ston
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
     - smalltalk: GemStone-3.1.0.6
       env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk-tugrik.ston
+      smalltalk_config: .smalltalk.ston
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
