@@ -4,5 +4,7 @@ process: aNativeRequest
 
 	| context |
 	context := self contextFor: aNativeRequest.
-	^ [ self handle: context; responseFrom: context ]
+	^ [ self handle: context.
+		"URL -> String conversion in #responseFrom: needs access to request context for codec"
+		context push: self requestHandler during: [ self responseFrom: context ] ]
 		ensure: [ context destroy ]

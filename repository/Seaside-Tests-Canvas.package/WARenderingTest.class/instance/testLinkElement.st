@@ -1,7 +1,7 @@
 tests
 testLinkElement
 	self
-		assert: [ :html |
+		assertRoot: [ :html |
 			html stylesheet
 				addAural;
 				addTeletype;

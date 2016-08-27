@@ -1,6 +1,6 @@
 tests
 testRevealedConditionalComment
-		self assert: [ :html |
+		self assertRoot: [ :html |
 			html revealedIf ie7; do: [
 				html script
 					defer;
