@@ -1,8 +1,6 @@
 writing
 rfc6265String
 	"Serializes the receiver according to RFC 6265.
-	Almost no browser support.
-	It can be used with HTTP header combining.
 	See class comment for a link to the spec."
 	^ String streamContents: [ :stream |
 		| useQuotes |

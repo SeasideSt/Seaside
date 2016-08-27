@@ -1,6 +1,6 @@
 tests
 testStyle
 		self
-			assert: [ :html |
+			assertRoot: [ :html |
 				html style: 'body{font-size:12px;}' ]
 			gives: '<title></title><style>body{font-size:12px;}</style>'

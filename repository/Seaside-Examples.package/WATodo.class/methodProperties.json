@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initialize" : "JohanBrichau 8/10/2014 16:38" },
+		"initialize" : "pmm 8/25/2016 18:05" },
 	"instance" : {
 		"addTodo:" : "JohanBrichau 8/15/2014 16:19",
 		"children" : "JohanBrichau 8/14/2014 19:20",

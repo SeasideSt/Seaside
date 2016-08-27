@@ -1,7 +1,7 @@
 tests
 testConditionalComment
 	self
-		assert: [ :html |
+		assertRoot: [ :html |
 			html if greaterThan; orEqual; ie55; do: [
 				html script
 					defer;
@@ -9,7 +9,7 @@ testConditionalComment
 		gives: '<title></title><!--[if gte IE 5.5]><script defer="defer" src="http://www.example.com/bugs.js"></script><![endif]-->'.
 		
 	self
-		assert: [ :html |
+		assertRoot: [ :html |
 			html if not; ie; do: [
 				html script
 					url: 'http://www.example.com/bugs.js' ] ]

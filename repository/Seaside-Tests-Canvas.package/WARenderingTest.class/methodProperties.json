@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:gives:" : "pmm 8/22/2014 18:05",
-		"testConditionalComment" : "pmm 11/25/2007 11:17",
-		"testContentType" : "jf 3/13/2009 18:22",
-		"testJavascript" : "pmm 8/23/2014 09:41",
-		"testLinkElement" : "pmm 12/4/2007 20:23",
-		"testLinkElementWithContent" : "pmm 8/23/2014 09:41",
-		"testRevealedConditionalComment" : "pmm 11/25/2007 22:01",
-		"testStyle" : "pmm 8/21/2016 14:45" } }
+		"assert:gives:" : "pmm 8/26/2016 09:00",
+		"assertRoot:gives:" : "pmm 8/26/2016 08:58",
+		"testConditionalComment" : "pmm 8/26/2016 09:01",
+		"testContentType" : "pmm 8/26/2016 08:58",
+		"testInteger" : "pmm 8/26/2016 09:01",
+		"testJavascript" : "pmm 8/26/2016 08:58",
+		"testLinkElement" : "pmm 8/26/2016 08:59",
+		"testLinkElementWithContent" : "pmm 8/26/2016 08:59",
+		"testRevealedConditionalComment" : "pmm 8/26/2016 08:59",
+		"testStyle" : "pmm 8/26/2016 08:59" } }
