@@ -95,5 +95,5 @@ baselinecommon: spec
 			group: 'Development' with: #('Core' 'Seaside-Development' );
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development' );
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' );
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples');
 			group: 'Base' with: #('Core')  ].

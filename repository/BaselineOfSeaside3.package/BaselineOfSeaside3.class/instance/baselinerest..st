@@ -4,7 +4,9 @@ baselinerest: spec
 	spec for: #'common' do: [	
 		spec 
 			package: 'Seaside-REST-Core' with: [
-				spec requires: #('Seaside-Core') ];
+				spec requires: #('Seaside-Core') ]; 
+			package: 'Seaside-REST-Examples' with: [
+				spec requires: #('Seaside-REST-Core' 'Seaside-Canvas' 'Seaside-RenderLoop') ];
 			package: 'Seaside-Tests-REST-Core' with: [
 				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ];
 			package: 'Seaside-Swagger-Core' with: [ 
