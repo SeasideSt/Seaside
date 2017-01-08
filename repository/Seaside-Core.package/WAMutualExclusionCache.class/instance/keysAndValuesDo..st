@@ -1,4 +1,4 @@
 enumerating
 keysAndValuesDo: aTwoArgumentBlock
 	^ mutex critical: [
-		cache keysAndValuesDo: aTwoArgumentBlock ]	
+		cache keysAndValuesDo: aTwoArgumentBlock ]

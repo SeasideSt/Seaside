@@ -24,4 +24,3 @@ encodePathParametersAt: anIndex on: aDocument
 											first := false ] ].
 							alreadyProcessed add: key ] ] ]
 		ifAbsent: [ "ignore" ]
-	

@@ -1,4 +1,4 @@
 accessing
 size
 	^ mutex critical: [
-		cache size ]	
+		cache size ]
