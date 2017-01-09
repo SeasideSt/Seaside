@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Adaptors-Zinc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 01/08/2017 16:41",
+	"instvars" : [
+		 ],
+	"name" : "WAGsZincStreamingServerAdaptor",
+	"pools" : [
+		 ],
+	"super" : "ZnZincStreamingServerAdaptor",
+	"type" : "normal" }
