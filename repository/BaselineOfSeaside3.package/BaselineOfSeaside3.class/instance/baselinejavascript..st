@@ -1,4 +1,5 @@
 baselines
+"protocol: baselines"
 baselinejavascript: spec
 
 	spec for: #'common' do: [
@@ -26,7 +27,7 @@ baselinejavascript: spec
 			package: 'Javascript-Tests-Core' with: [
 				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
-	spec for: #(#'pharo2.x' #'pharo3.x' #'pharo4.x' #'pharo5.x') do: [
+	spec for: #(#'pharo2.x' #'pharo3.x' #'pharo4.x' #'pharo5.x' #'pharo6.x') do: [
 		spec 
 			package: 'Javascript-Pharo20-Core' with: [
 				spec requires: #('Javascript-Core' 'Seaside-Pharo20-Core' ) ].
