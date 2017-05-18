@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"at:ifAbsent:" : "pmm 7/14/2015 18:38",
-		"at:put:" : "pmm 7/15/2015 07:30",
-		"clear" : "pmm 7/13/2015 14:43",
-		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "JohanBrichau 7/15/2015 15:02",
-		"isExpired:" : "pmm 7/13/2015 16:59",
-		"isExpired:now:" : "pmm 7/13/2015 17:48",
 		"keysAndValuesDo:" : "pmm 7/13/2015 14:29",
-		"postCopy" : "pmm 7/13/2015 17:05",
+		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "JohanBrichau 7/15/2015 15:02",
 		"reap" : "pmm 7/18/2015 09:42",
+		"isExpired:now:" : "pmm 7/13/2015 17:48",
 		"removeKey:" : "pmm 7/21/2015 10:42",
+		"at:put:" : "pmm 7/15/2015 07:30",
+		"postCopy" : "pmm 7/13/2015 17:05",
+		"isExpired:" : "pmm 7/13/2015 16:59",
+		"clear" : "pmm 7/13/2015 14:43",
 		"size" : "pmm 7/13/2015 14:27",
-		"store:" : "pmm 7/13/2015 15:09" } }
+		"store:" : "pmm 7/13/2015 15:09",
+		"at:ifAbsent:" : "pmm 7/14/2015 18:38"
+	},
+	"class" : { }
+}

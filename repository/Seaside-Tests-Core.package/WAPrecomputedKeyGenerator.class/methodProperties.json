@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"from:to:" : "pmm 1/31/2014 14:01",
-		"keys:" : "pmm 1/31/2014 13:59" },
 	"instance" : {
-		"initializeWithKeys:" : "pmm 1/31/2014 15:54",
-		"keyOfLength:" : "pmm 1/31/2014 13:56" } }
+		"keyOfLength:" : "pmm 1/31/2014 13:56",
+		"initializeWithKeys:" : "pmm 1/31/2014 15:54"
+	},
+	"class" : {
+		"keys:" : "pmm 1/31/2014 13:59",
+		"from:to:" : "pmm 1/31/2014 14:01"
+	}
+}

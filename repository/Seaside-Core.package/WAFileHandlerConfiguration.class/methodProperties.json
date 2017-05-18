@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"describeOn:" : "pmm 9/1/2012 16:20",
 		"listingClasses" : "jf 11/9/2008 18:14",
-		"parents" : "jf 11/9/2008 17:48" } }
+		"describeOn:" : "pmm 9/1/2012 16:20",
+		"parents" : "jf 11/9/2008 17:48"
+	},
+	"class" : { }
+}

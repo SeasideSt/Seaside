@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAMissingResponseError",
-	"pools" : [
-		 ],
 	"super" : "WAError",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAMissingResponseError",
+	"type" : "normal"
+}

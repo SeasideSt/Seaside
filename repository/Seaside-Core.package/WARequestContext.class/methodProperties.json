@@ -1,26 +1,29 @@
 {
+	"instance" : {
+		"newDocument" : "pmm 8/23/2014 14:50",
+		"consumer" : "pmm 8/31/2009 10:51",
+		"newCookie" : "pmm 9/8/2013 15:52",
+		"handler" : "jf 7/18/2009 22:36",
+		"request" : "jf 7/18/2009 22:26",
+		"registry" : "jf 7/18/2009 22:34",
+		"push:during:" : "NickAger 7/11/2011 21:57",
+		"respond:" : "jf 7/18/2009 22:26",
+		"handlers" : "jf 7/18/2009 22:37",
+		"charSet" : "pmm 8/19/2014 10:25",
+		"properties" : "jf 9/30/2009 00:26",
+		"dontDestroy" : "pmm 9/13/2013 16:47",
+		"codec" : "jf 7/18/2009 22:29",
+		"response" : "jf 7/18/2009 22:26",
+		"initializeWithRequest:response:codec:" : "pmm 8/31/2009 11:17",
+		"respond" : "jf 7/18/2009 22:25",
+		"shouldDestroy" : "pmm 9/13/2013 16:46",
+		"responseGenerator" : "jf 9/23/2009 22:07",
+		"destroy" : "pmm 8/19/2014 10:24",
+		"printOn:" : "pmm 6/26/2011 14:21"
+	},
 	"class" : {
 		"new" : "lr 1/21/2009 14:58",
-		"request:response:" : "pmm 10/17/2010 16:09",
-		"request:response:codec:" : "lr 1/12/2009 08:28" },
-	"instance" : {
-		"charSet" : "pmm 8/19/2014 10:25",
-		"codec" : "jf 7/18/2009 22:29",
-		"consumer" : "pmm 8/31/2009 10:51",
-		"destroy" : "pmm 8/19/2014 10:24",
-		"dontDestroy" : "pmm 9/13/2013 16:47",
-		"handler" : "jf 7/18/2009 22:36",
-		"handlers" : "jf 7/18/2009 22:37",
-		"initializeWithRequest:response:codec:" : "pmm 8/31/2009 11:17",
-		"newCookie" : "pmm 9/8/2013 15:52",
-		"newDocument" : "pmm 8/23/2014 14:50",
-		"printOn:" : "pmm 6/26/2011 14:21",
-		"properties" : "jf 9/30/2009 00:26",
-		"push:during:" : "NickAger 7/11/2011 21:57",
-		"registry" : "jf 7/18/2009 22:34",
-		"request" : "jf 7/18/2009 22:26",
-		"respond" : "jf 7/18/2009 22:25",
-		"respond:" : "jf 7/18/2009 22:26",
-		"response" : "jf 7/18/2009 22:26",
-		"responseGenerator" : "jf 9/23/2009 22:07",
-		"shouldDestroy" : "pmm 9/13/2013 16:46" } }
+		"request:response:codec:" : "lr 1/12/2009 08:28",
+		"request:response:" : "pmm 10/17/2010 16:09"
+	}
+}

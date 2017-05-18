@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAsFileAndFoldername" : "DiegoLont 8/31/2012 14:37",
-		"testAsFilename" : "DiegoLont 8/31/2012 14:34",
-		"testAsSelector" : "NickAger 3/9/2012 14:22",
-		"testCompileByteArray" : "pmm 9/2/2012 13:31",
 		"testCompileByteArrayAgain" : "pmm 9/2/2012 13:32",
-		"testCompileString" : "pmm 9/2/2012 13:31",
-		"testFilenames" : "pmm 9/1/2012 16:22",
-		"testImgglyphiconshalflingsPng" : "pmm 9/1/2012 16:23",
-		"testIsBinary" : "NickAger 3/9/2012 14:37",
 		"testMimeType" : "NickAger 3/9/2012 14:45",
+		"testAsSelector" : "NickAger 3/9/2012 14:22",
 		"testName" : "pmm 8/19/2014 10:13",
-		"testUrlOf" : "NickAger 3/9/2012 14:46" } }
+		"testUrlOf" : "NickAger 3/9/2012 14:46",
+		"testAsFilename" : "DiegoLont 8/31/2012 14:34",
+		"testAsFileAndFoldername" : "DiegoLont 8/31/2012 14:37",
+		"testFilenames" : "pmm 9/1/2012 16:22",
+		"testCompileByteArray" : "pmm 9/2/2012 13:31",
+		"testImgglyphiconshalflingsPng" : "pmm 9/1/2012 16:23",
+		"testCompileString" : "pmm 9/2/2012 13:31",
+		"testIsBinary" : "NickAger 3/9/2012 14:37"
+	},
+	"class" : { }
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"count" : "lr 1/17/2008 14:36",
-		"testUnique" : "lr 1/10/2009 15:41" } }
+		"testUnique" : "lr 1/10/2009 15:41"
+	},
+	"class" : { }
+}

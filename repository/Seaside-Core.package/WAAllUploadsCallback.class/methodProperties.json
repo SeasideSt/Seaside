@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"evaluateWithFieldValues:" : "pmm 4/22/2012 16:29" } }
+		"evaluateWithFieldValues:" : "pmm 4/22/2012 16:29"
+	},
+	"class" : { }
+}

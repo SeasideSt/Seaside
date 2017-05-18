@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"shouldInheritSelectors" : "lr 2/7/2009 22:34" },
 	"instance" : {
+		"testEncodedXmlUnicdeSmp" : "pmm 7/16/2015 13:09",
 		"assert:urlEncodedGives:" : "JohanBrichau 9/29/2013 13:10",
-		"assert:xmlEncodedGives:" : "JohanBrichau 9/29/2013 13:10",
+		"testEncodedXmlUnicde" : "pmm 7/16/2015 12:23",
 		"testEncodedUrl" : "pmm 8/14/2012 20:04",
 		"testEncodedXml" : "pmm 8/14/2012 20:04",
-		"testEncodedXmlUnicde" : "pmm 7/16/2015 12:23",
-		"testEncodedXmlUnicdeSmp" : "pmm 7/16/2015 13:09" } }
+		"assert:xmlEncodedGives:" : "JohanBrichau 9/29/2013 13:10"
+	},
+	"class" : {
+		"shouldInheritSelectors" : "lr 2/7/2009 22:34"
+	}
+}
