@@ -1,7 +1,10 @@
-master: [![Build Status: master](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside)
-
-development: [![Build Status: develop](https://travis-ci.org/SeasideSt/Seaside.svg?branch=develop)](https://travis-ci.org/SeasideSt/Seaside)
 # The framework for developing sophisticated web applications in Smalltalk.
+master
+
+[![Build Status: master](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside)
+
+development
+[![Build Status: develop](https://travis-ci.org/SeasideSt/Seaside.svg?branch=develop)](https://travis-ci.org/SeasideSt/Seaside)
 
 [Seaside](http://www.seaside.st) provides a layered set of abstractions over HTTP and XHTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
