@@ -6,30 +6,13 @@ smalltalk:
   - Pharo-4.0
   - Pharo-3.0
   - Squeak-5.1
-  - Squeak-5.0
-  - Squeak-4.6
-  - Squeak-4.5
+  - GemStone-3.3.4
+  - GemStone-3.2.16
+  - GemStone-3.1.0.6
+cache:
+  directories:
+    - $SMALLTALK_CI_CACHE
+
 smalltalk_config:
  - .smalltalk.ston
  - .smalltalk-configuration.ston
-
-matrix:
-  include:
-    - smalltalk: GemStone-3.3.1
-      env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk.ston
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.2.15
-      env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk.ston
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.1.0.6
-      env: GSCI_DEVKIT_BRANCH=seaside_sprint
-      smalltalk_config: .smalltalk.ston
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
