@@ -2,17 +2,15 @@ baselines
 baselinecommon: spec
 
 	spec for: #'squeakCommon' do: [ 
-		spec 
-			project: 'Grease'
-			with: [
+      spec
+			baseline: 'Grease'
+        	with: [ 
 				spec
-					versionString: #bleedingEdge;
-					className: 'ConfigurationOfGrease';
-					loads: #( 'Grease-Core');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
-			spec
-				project: 'Grease Core Tests' copyFrom: 'Grease' with: [
-					spec loads: #('Core Tests') ].
+					loads: #('Grease-Core');
+					repository: 'github://SeasideSt/Grease:master/repository' ].
+		spec
+			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+				spec loads: #('Core Tests') ] 
 	].
 
 	spec for: #'gemstone' do: [ 
