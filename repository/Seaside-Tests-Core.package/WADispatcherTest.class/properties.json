@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Core-RequestHandling",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WADispatcherTest",
-	"pools" : [
-		 ],
 	"super" : "WARequestHandlerTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Core-RequestHandling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WADispatcherTest",
+	"type" : "normal"
+}
