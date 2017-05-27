@@ -1,3 +1,14 @@
 accessing
 path: aString
-	self pathUnencoded: aString codec: nil
+	path := (aString isNil or: [
+		aString isEmpty or: [ 
+			aString = '/' ] ])
+				ifTrue: [ '/' ]
+				ifFalse: [
+					(aString first = $/
+						ifTrue: [ aString ]
+						ifFalse: [ '/', aString ]) trimRight: [ :character | character = $/ ] ].
+
+	self
+		pathUnencoded: path
+		codec: nil

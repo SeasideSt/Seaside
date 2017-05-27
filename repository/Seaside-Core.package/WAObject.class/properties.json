@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/18/2011 22:52",
-	"instvars" : [
-		 ],
-	"name" : "WAObject",
-	"pools" : [
-		 ],
 	"super" : "GRObject",
-	"type" : "normal" }
+	"category" : "Seaside-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAObject",
+	"type" : "normal"
+}
