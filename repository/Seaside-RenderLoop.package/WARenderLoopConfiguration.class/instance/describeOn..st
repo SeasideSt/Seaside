@@ -19,4 +19,9 @@ describeOn: config
 		comment: 'The decoration clases that should wrap the root component.';
 		options: [ self rootDecorationClasses ].
 	config
-		at: #initialContinuationClass putClass: WAInitialRenderLoopContinuation
+		at: #initialContinuationClass
+		putClass: WAInitialRenderLoopContinuation.
+	(config classBinding: #htmlRootClass)
+		comment: 'The class responsible for creating header and footer of the HTML document.';
+		options: [ self htmlRootClasses ];
+		default: WAHtmlRoot
