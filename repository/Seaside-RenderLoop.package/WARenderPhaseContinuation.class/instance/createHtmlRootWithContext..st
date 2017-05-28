@@ -1,3 +1,3 @@
 private
 createHtmlRootWithContext: aRenderContext
-	^ WAHtmlRoot context: aRenderContext
+	^ (self application preferenceAt: #htmlRootClass) value context: aRenderContext
