@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"encodeOn:" : "pmm 11/25/2007 21:55" } }
+		"encodeOn:" : "pmm 11/25/2007 21:55"
+	},
+	"class" : { }
+}

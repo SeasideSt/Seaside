@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Core-Rendering",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 2/13/2009 19:48",
-	"instvars" : [
-		 ],
-	"name" : "WAPainter",
-	"pools" : [
-		 ],
 	"super" : "WAObject",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Rendering",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAPainter",
+	"type" : "normal"
+}

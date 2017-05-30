@@ -1,16 +1,19 @@
 {
-	"class" : {
-		"key:value:" : "pmm 9/10/2013 09:08" },
 	"instance" : {
-		"byAccessListEntry" : "pmm 9/8/2013 18:33",
-		"byAccessListEntry:" : "pmm 9/10/2013 09:21",
+		"next" : "pmm 9/9/2013 11:07",
 		"byCreationListEntry" : "pmm 9/8/2013 18:33",
 		"byCreationListEntry:" : "pmm 9/10/2013 09:22",
-		"initializeWithKey:value:" : "pmm 9/10/2013 09:07",
-		"key" : "pmm 9/8/2013 18:28",
 		"keyHash" : "pmm 9/9/2013 11:51",
-		"next" : "pmm 9/9/2013 11:07",
-		"next:" : "pmm 9/9/2013 14:53",
-		"printOn:" : "pmm 9/14/2013 16:29",
 		"value" : "pmm 9/8/2013 18:28",
-		"value:" : "pmm 9/9/2013 15:22" } }
+		"initializeWithKey:value:" : "pmm 9/10/2013 09:07",
+		"byAccessListEntry:" : "pmm 9/10/2013 09:21",
+		"printOn:" : "pmm 9/14/2013 16:29",
+		"byAccessListEntry" : "pmm 9/8/2013 18:33",
+		"key" : "pmm 9/8/2013 18:28",
+		"value:" : "pmm 9/9/2013 15:22",
+		"next:" : "pmm 9/9/2013 14:53"
+	},
+	"class" : {
+		"key:value:" : "pmm 9/10/2013 09:08"
+	}
+}

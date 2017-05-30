@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"newHandler" : "jf 9/23/2009 23:58",
-		"requestContextFor:" : "jf 1/29/2009 21:04",
-		"requestWithMethod:" : "pmm 7/13/2015 09:38",
 		"testCopyRegistry" : "pmm 7/12/2015 18:35",
-		"testUrlFor" : "pmm 7/13/2015 09:57" } }
+		"requestWithMethod:" : "pmm 7/13/2015 09:38",
+		"testUrlFor" : "pmm 7/13/2015 09:57",
+		"requestContextFor:" : "jf 1/29/2009 21:04",
+		"newHandler" : "jf 9/23/2009 23:58"
+	},
+	"class" : { }
+}

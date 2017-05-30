@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"on:" : "pmm 8/14/2011 22:25" },
 	"instance" : {
+		"nextPutAll:" : "pmm 8/14/2011 13:16",
 		"initializeOn:" : "pmm 8/14/2011 13:16",
-		"nextPut:" : "pmm 8/14/2011 13:16",
-		"nextPutAll:" : "pmm 8/14/2011 13:16" } }
+		"nextPut:" : "pmm 8/14/2011 13:16"
+	},
+	"class" : {
+		"on:" : "pmm 8/14/2011 22:25"
+	}
+}

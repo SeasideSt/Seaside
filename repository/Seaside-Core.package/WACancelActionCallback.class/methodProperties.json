@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"priority" : "lr 12/28/2008 14:48" } }
+		"priority" : "lr 12/28/2008 14:48"
+	},
+	"class" : { }
+}

@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"isAbstract" : "pmm 7/12/2015 15:19" },
 	"instance" : {
+		"testKeysAndValuesDo" : "pmm 9/14/2013 10:35",
+		"testAtPut" : "pmm 1/25/2014 16:40",
+		"testStore" : "pmm 1/31/2014 15:53",
 		"createCache" : "pmm 9/14/2013 10:55",
 		"setUp" : "pmm 9/14/2013 10:56",
-		"testAtPut" : "pmm 1/25/2014 16:40",
-		"testAtPutOverwrite" : "pmm 1/25/2014 16:40",
-		"testKeysAndValuesDo" : "pmm 9/14/2013 10:35",
-		"testStore" : "pmm 1/31/2014 15:53" } }
+		"testAtPutOverwrite" : "pmm 1/25/2014 16:40"
+	},
+	"class" : {
+		"isAbstract" : "pmm 7/12/2015 15:19"
+	}
+}

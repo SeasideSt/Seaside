@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "",
+	"super" : "WAObject",
 	"category" : "Seaside-Core-Utilities",
 	"classinstvars" : [
-		"current" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"generator",
-		"space" ],
+		"space"
+	],
 	"name" : "WAKeyGenerator",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

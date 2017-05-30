@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 8/23/2011 12:09",
-	"instvars" : [
-		"action" ],
-	"name" : "WAPluggableActionContinuation",
-	"pools" : [
-		 ],
 	"super" : "WAActionPhaseContinuation",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action"
+	],
+	"name" : "WAPluggableActionContinuation",
+	"type" : "normal"
+}

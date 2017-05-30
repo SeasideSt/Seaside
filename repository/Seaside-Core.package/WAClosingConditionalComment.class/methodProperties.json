@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"encodeOn:" : "lr 3/27/2007 11:37" } }
+		"encodeOn:" : "lr 3/27/2007 11:37"
+	},
+	"class" : { }
+}

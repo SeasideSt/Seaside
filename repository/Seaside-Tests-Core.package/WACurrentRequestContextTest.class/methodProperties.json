@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testWithValue" : "jf 2/3/2009 14:52",
-		"testWithoutValue" : "jf 2/3/2009 14:53" } }
+		"testWithoutValue" : "jf 2/3/2009 14:53",
+		"testWithValue" : "jf 2/3/2009 14:52"
+	},
+	"class" : { }
+}
