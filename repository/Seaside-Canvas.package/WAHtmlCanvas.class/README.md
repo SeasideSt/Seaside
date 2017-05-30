@@ -1,1 +1,1 @@
-I'm a canvas fro building HTML.
+I'm a canvas for building HTML.
