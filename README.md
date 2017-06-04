@@ -1,4 +1,8 @@
-#The framework for developing sophisticated web applications in Smalltalk.
+# The framework for developing sophisticated web applications in Smalltalk.
+master [![Build Status: master](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside)
+
+development
+[![Build Status: develop](https://travis-ci.org/SeasideSt/Seaside.svg?branch=develop)](https://travis-ci.org/SeasideSt/Seaside)
 
 [Seaside](http://www.seaside.st) provides a layered set of abstractions over HTTP and XHTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
@@ -84,9 +88,6 @@ Make sure you have installed [Metacello](https://github.com/dalehenrich/metacell
 
 ## Contributing
 If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/wiki/Contributing).
-
-## Build Status
- - [![master branch:](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside) 
 
 ## More
 
