@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCache" : "pmm 7/14/2015 08:17",
-		"testCopy" : "pmm 7/16/2015 15:58" } }
+		"createCache" : "MaxLeske 5/28/2017 21:17:50",
+		"testCopy" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

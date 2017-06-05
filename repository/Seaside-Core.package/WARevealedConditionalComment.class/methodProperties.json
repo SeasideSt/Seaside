@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"closingConditionClass" : "lr 7/25/2011 19:58",
-		"openingConditionClass" : "lr 7/25/2011 19:58" } }
+		"closingConditionClass" : "MaxLeske 5/28/2017 21:17:50",
+		"openingConditionClass" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

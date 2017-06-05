@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"start:" : "jf 2/9/2009 16:27",
-		"visit:" : "jf 2/9/2009 16:27",
-		"visitAll:" : "jf 2/9/2009 16:27" } }
+		"visit:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitAll:" : "MaxLeske 5/28/2017 21:17:50",
+		"start:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

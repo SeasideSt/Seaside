@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"signalWithKey:" : "lr 1/11/2009 14:03" },
 	"instance" : {
-		"initializeWithKey:" : "lr 1/11/2009 13:35",
-		"key" : "lr 1/11/2009 14:11",
-		"seasidePossibleCauses" : "jf 2/20/2009 18:09" } }
+		"initializeWithKey:" : "MaxLeske 5/28/2017 21:17:50",
+		"key" : "MaxLeske 5/28/2017 21:17:50",
+		"seasidePossibleCauses" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"signalWithKey:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

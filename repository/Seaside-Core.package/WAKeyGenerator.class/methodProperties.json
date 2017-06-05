@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"current" : "lr 4/22/2009 19:59",
-		"current:" : "EstebanMaringolo 9/15/2016 23:33",
-		"initialize" : "pmm 1/10/2009 16:04" },
 	"instance" : {
-		"generator:" : "lr 1/10/2009 12:22",
-		"initialize" : "lr 1/23/2010 13:30",
-		"keyOfLength:" : "lr 1/23/2010 13:31",
-		"space:" : "lr 1/10/2009 12:05" } }
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"keyOfLength:" : "MaxLeske 5/28/2017 21:17:50",
+		"generator:" : "MaxLeske 5/28/2017 21:17:50",
+		"space:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"current" : "MaxLeske 5/28/2017 21:17:50",
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"current:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

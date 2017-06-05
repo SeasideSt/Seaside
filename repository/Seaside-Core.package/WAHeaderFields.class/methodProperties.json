@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"checkValue:" : "pmm 1/26/2011 07:44",
-		"errorKeyNotFound" : "lr 1/12/2009 21:39",
-		"privateAt:put:" : "pmm 2/12/2011 10:14" } }
+		"checkValue:" : "MaxLeske 5/28/2017 21:17:50",
+		"privateAt:put:" : "MaxLeske 5/28/2017 21:17:50",
+		"errorKeyNotFound" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

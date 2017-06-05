@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"new" : "pmm 8/26/2011 09:46",
-		"on:" : "lr 2/7/2009 13:34" },
 	"instance" : {
-		"binary" : "jf 9/30/2009 00:19",
-		"contents" : "lr 1/21/2009 18:28",
-		"destroy" : "lr 2/20/2009 14:40",
-		"initializeOn:" : "lr 9/4/2009 10:01",
-		"resetIfPossible" : "pmm 8/26/2011 09:30",
-		"stream" : "lr 1/22/2009 08:40",
-		"writeContentOn:" : "lr 1/21/2009 18:34",
-		"writeHeadersOn:" : "JohanBrichau 9/14/2013 11:51" } }
+		"resetIfPossible" : "MaxLeske 5/28/2017 21:17:50",
+		"contents" : "MaxLeske 5/28/2017 21:17:50",
+		"writeContentOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"stream" : "MaxLeske 5/28/2017 21:17:50",
+		"writeHeadersOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"destroy" : "MaxLeske 5/28/2017 21:17:50",
+		"binary" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"new" : "MaxLeske 5/28/2017 21:17:50",
+		"on:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

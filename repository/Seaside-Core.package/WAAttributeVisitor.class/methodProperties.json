@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"visitAttribute:" : "jf 1/11/2009 19:37",
-		"visitBooleanAttribute:" : "jf 1/11/2009 19:40",
-		"visitClassBindingAttribute:" : "pmm 8/23/2014 10:57",
-		"visitClassBindingCollectionAttribute:" : "pmm 8/23/2014 15:29",
-		"visitClassListAttribute:" : "pmm 7/24/2011 12:51",
-		"visitCollectionAttribute:" : "jf 1/11/2009 19:40",
-		"visitIntegerAttribute:" : "jf 1/11/2009 19:40",
-		"visitListAttribute:" : "jf 1/11/2009 19:40",
-		"visitNumberAttribute:" : "jf 1/11/2009 19:40",
-		"visitPasswordAttribute:" : "jf 1/11/2009 19:40",
-		"visitStringAttribute:" : "jf 1/11/2009 19:40",
-		"visitUrlAttribute:" : "jf 11/3/2009 00:12" } }
+		"visitNumberAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitBooleanAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitClassListAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitUrlAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitIntegerAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitClassBindingCollectionAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitCollectionAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitStringAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitListAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitPasswordAttribute:" : "MaxLeske 5/28/2017 21:17:50",
+		"visitClassBindingAttribute:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

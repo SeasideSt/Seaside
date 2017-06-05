@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"closeTag:" : "lr 2/22/2010 08:11",
-		"destroy" : "lr 2/22/2010 15:32",
-		"initializeWithStream:codec:" : "pmm 8/14/2011 21:45",
-		"openTag:" : "lr 2/22/2010 08:11",
-		"openTag:attributes:" : "lr 2/22/2010 08:12",
-		"openTag:attributes:closed:" : "lr 2/22/2010 08:12",
-		"print:" : "jf 1/23/2009 13:40",
-		"urlEncoder" : "lr 2/22/2010 08:08",
-		"xmlEncoder" : "lr 2/22/2010 08:09" } }
+		"closeTag:" : "MaxLeske 5/28/2017 21:17:50",
+		"openTag:attributes:closed:" : "MaxLeske 5/28/2017 21:17:50",
+		"xmlEncoder" : "MaxLeske 5/28/2017 21:17:50",
+		"urlEncoder" : "MaxLeske 5/28/2017 21:17:50",
+		"destroy" : "MaxLeske 5/28/2017 21:17:50",
+		"print:" : "MaxLeske 5/28/2017 21:17:50",
+		"openTag:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithStream:codec:" : "MaxLeske 5/28/2017 21:17:50",
+		"openTag:attributes:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

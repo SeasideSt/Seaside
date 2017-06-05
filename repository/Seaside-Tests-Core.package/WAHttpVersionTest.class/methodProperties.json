@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testComparison" : "pmm 9/1/2012 16:25",
-		"testCreation" : "jf 7/31/2009 10:03",
-		"testCreation10" : "jf 7/31/2009 10:04",
-		"testCreation11" : "jf 7/31/2009 10:04",
-		"testCreationWithNew" : "jf 7/31/2009 10:04",
-		"testEquality" : "pmm 9/1/2012 16:24",
-		"testGreaseString" : "jf 12/7/2009 21:30",
-		"testHash" : "pmm 1/22/2012 15:14",
-		"testStreamHeaderLineParsing" : "jf 9/2/2009 00:54",
-		"testStreamVersionNumberParsing" : "jf 7/31/2009 12:30",
-		"testStreamVersionStringParsing" : "jf 7/31/2009 12:29",
-		"testStringVersionNumberParsing" : "jf 7/31/2009 12:31",
-		"testStringVersionStringParsing" : "jf 7/31/2009 12:33",
-		"testTestingMethods" : "pmm 9/1/2012 16:25" } }
+		"testCreation10" : "MaxLeske 5/28/2017 21:17:50",
+		"testGreaseString" : "MaxLeske 5/28/2017 21:17:50",
+		"testStringVersionNumberParsing" : "MaxLeske 5/28/2017 21:17:50",
+		"testStreamVersionNumberParsing" : "MaxLeske 5/28/2017 21:17:50",
+		"testStringVersionStringParsing" : "MaxLeske 5/28/2017 21:17:50",
+		"testStreamVersionStringParsing" : "MaxLeske 5/28/2017 21:17:50",
+		"testCreationWithNew" : "MaxLeske 5/28/2017 21:17:50",
+		"testEquality" : "MaxLeske 5/28/2017 21:17:50",
+		"testHash" : "MaxLeske 5/28/2017 21:17:50",
+		"testStreamHeaderLineParsing" : "MaxLeske 5/28/2017 21:17:50",
+		"testCreation11" : "MaxLeske 5/28/2017 21:17:50",
+		"testCreation" : "MaxLeske 5/28/2017 21:17:50",
+		"testComparison" : "MaxLeske 5/28/2017 21:17:50",
+		"testTestingMethods" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

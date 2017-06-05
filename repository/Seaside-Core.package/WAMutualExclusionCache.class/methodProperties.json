@@ -1,17 +1,20 @@
 {
-	"class" : {
-		"on:" : "pmm 8/26/2012 12:08" },
 	"instance" : {
-		"at:ifAbsent:" : "pmm 9/8/2013 17:48",
-		"at:put:" : "pmm 9/8/2013 17:49",
-		"clear" : "pmm 9/8/2013 17:49",
-		"initializeOn:" : "pmm 9/1/2012 11:07",
-		"keyAtValue:ifAbsent:" : "pmm 9/8/2013 17:48",
-		"keySize" : "pmm 9/10/2013 12:07",
-		"keysAndValuesDo:" : "pmm 9/8/2013 17:48",
-		"postCopy" : "pmm 9/14/2013 16:26",
-		"remove:" : "pmm 9/8/2013 17:50",
-		"removeKey:" : "pmm 7/21/2015 10:37",
-		"size" : "pmm 7/12/2015 17:48",
-		"store:" : "pmm 8/26/2012 12:48",
-		"underlyingCache" : "pmm 7/12/2015 15:30" } }
+		"keysAndValuesDo:" : "MaxLeske 5/28/2017 21:17:50",
+		"keySize" : "MaxLeske 5/28/2017 21:17:50",
+		"underlyingCache" : "MaxLeske 5/28/2017 21:17:50",
+		"removeKey:" : "MaxLeske 5/28/2017 21:17:50",
+		"at:put:" : "MaxLeske 5/28/2017 21:17:50",
+		"remove:" : "MaxLeske 5/28/2017 21:17:50",
+		"postCopy" : "MaxLeske 5/28/2017 21:17:50",
+		"clear" : "MaxLeske 5/28/2017 21:17:50",
+		"size" : "MaxLeske 5/28/2017 21:17:50",
+		"store:" : "MaxLeske 5/28/2017 21:17:50",
+		"at:ifAbsent:" : "MaxLeske 5/28/2017 21:17:50",
+		"keyAtValue:ifAbsent:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"on:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

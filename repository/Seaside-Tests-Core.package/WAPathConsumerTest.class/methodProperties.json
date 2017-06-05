@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "pmm 8/31/2009 10:43",
-		"testAtEnd" : "pmm 8/31/2009 10:43",
-		"testNext" : "pmm 8/31/2009 10:45",
-		"testNextIfPresent" : "jf 9/1/2009 10:55",
-		"testPeek" : "pmm 8/31/2009 10:46",
-		"testPeekToEnd" : "pmm 10/23/2010 19:57",
-		"testTry" : "jf 9/29/2009 23:15",
-		"testUpToEnd" : "YM 5/22/2010 18:25" } }
+		"testNextIfPresent" : "MaxLeske 5/28/2017 21:17:50",
+		"testPeekToEnd" : "MaxLeske 5/28/2017 21:17:50",
+		"testUpToEnd" : "MaxLeske 5/28/2017 21:17:50",
+		"setUp" : "MaxLeske 5/28/2017 21:17:50",
+		"testAtEnd" : "MaxLeske 5/28/2017 21:17:50",
+		"testPeek" : "MaxLeske 5/28/2017 21:17:50",
+		"testTry" : "MaxLeske 5/28/2017 21:17:50",
+		"testNext" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

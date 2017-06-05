@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderOn:" : "mb 9/22/2006 12:17",
-		"seasideMimeDocument" : "lr 10/18/2008 15:53",
-		"seasideMimeDocumentType:" : "lr 7/25/2011 19:50" } }
+		"seasideMimeDocumentType:" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideMimeDocument" : "MaxLeske 5/28/2017 21:17:50",
+		"renderOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

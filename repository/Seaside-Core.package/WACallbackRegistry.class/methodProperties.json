@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"advanceKey" : "jf 10/7/2008 20:56",
-		"handle:" : "jf 2/15/2010 19:08",
-		"increaseKey" : "lr 12/28/2008 16:16",
-		"initialize" : "lr 12/28/2008 16:16",
-		"nextKey" : "jf 9/30/2009 01:10",
-		"store:" : "MAD 2/20/2009 12:05" } }
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"advanceKey" : "MaxLeske 5/28/2017 21:17:50",
+		"increaseKey" : "MaxLeske 5/28/2017 21:17:50",
+		"handle:" : "MaxLeske 5/28/2017 21:17:50",
+		"nextKey" : "MaxLeske 5/28/2017 21:17:50",
+		"store:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

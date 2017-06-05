@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"entry:" : "pmm 9/10/2013 09:16" },
 	"instance" : {
-		"cacheEntry" : "pmm 9/8/2013 18:27",
-		"expunge" : "pmm 9/9/2013 12:06",
-		"initializeTime" : "pmm 9/9/2013 12:08",
-		"initializeWithEntry:" : "pmm 9/10/2013 09:15",
-		"next" : "pmm 9/9/2013 09:28",
-		"next:" : "pmm 9/9/2013 09:28",
-		"previous" : "pmm 9/9/2013 09:28",
-		"previous:" : "pmm 9/9/2013 09:28",
-		"time" : "pmm 9/8/2013 18:17" } }
+		"previous" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeTime" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithEntry:" : "MaxLeske 5/28/2017 21:17:50",
+		"previous:" : "MaxLeske 5/28/2017 21:17:50",
+		"next" : "MaxLeske 5/28/2017 21:17:50",
+		"next:" : "MaxLeske 5/28/2017 21:17:50",
+		"expunge" : "MaxLeske 5/28/2017 21:17:50",
+		"time" : "MaxLeske 5/28/2017 21:17:50",
+		"cacheEntry" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"entry:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

@@ -1,26 +1,29 @@
 {
-	"class" : {
-		"new" : "lr 1/21/2009 14:58",
-		"request:response:" : "pmm 10/17/2010 16:09",
-		"request:response:codec:" : "lr 1/12/2009 08:28" },
 	"instance" : {
-		"charSet" : "pmm 8/19/2014 10:25",
-		"codec" : "jf 7/18/2009 22:29",
-		"consumer" : "pmm 8/31/2009 10:51",
-		"destroy" : "pmm 8/19/2014 10:24",
-		"dontDestroy" : "pmm 9/13/2013 16:47",
-		"handler" : "jf 7/18/2009 22:36",
-		"handlers" : "jf 7/18/2009 22:37",
-		"initializeWithRequest:response:codec:" : "pmm 8/31/2009 11:17",
-		"newCookie" : "pmm 9/8/2013 15:52",
-		"newDocument" : "pmm 8/23/2014 14:50",
-		"printOn:" : "pmm 6/26/2011 14:21",
-		"properties" : "jf 9/30/2009 00:26",
-		"push:during:" : "NickAger 7/11/2011 21:57",
-		"registry" : "jf 7/18/2009 22:34",
-		"request" : "jf 7/18/2009 22:26",
-		"respond" : "jf 7/18/2009 22:25",
-		"respond:" : "jf 7/18/2009 22:26",
-		"response" : "jf 7/18/2009 22:26",
-		"responseGenerator" : "jf 9/23/2009 22:07",
-		"shouldDestroy" : "pmm 9/13/2013 16:46" } }
+		"newDocument" : "MaxLeske 5/28/2017 21:17:50",
+		"consumer" : "MaxLeske 5/28/2017 21:17:50",
+		"newCookie" : "MaxLeske 5/28/2017 21:17:50",
+		"handler" : "MaxLeske 5/28/2017 21:17:50",
+		"request" : "MaxLeske 5/28/2017 21:17:50",
+		"registry" : "MaxLeske 5/28/2017 21:17:50",
+		"push:during:" : "MaxLeske 5/28/2017 21:17:50",
+		"respond:" : "MaxLeske 5/28/2017 21:17:50",
+		"handlers" : "MaxLeske 5/28/2017 21:17:50",
+		"charSet" : "MaxLeske 5/28/2017 21:17:50",
+		"properties" : "MaxLeske 5/28/2017 21:17:50",
+		"dontDestroy" : "MaxLeske 5/28/2017 21:17:50",
+		"codec" : "MaxLeske 5/28/2017 21:17:50",
+		"response" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithRequest:response:codec:" : "MaxLeske 5/28/2017 21:17:50",
+		"respond" : "MaxLeske 5/28/2017 21:17:50",
+		"shouldDestroy" : "MaxLeske 5/28/2017 21:17:50",
+		"responseGenerator" : "MaxLeske 5/28/2017 21:17:50",
+		"destroy" : "MaxLeske 5/28/2017 21:17:50",
+		"printOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"new" : "MaxLeske 5/28/2017 21:17:50",
+		"request:response:codec:" : "MaxLeske 5/28/2017 21:17:50",
+		"request:response:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

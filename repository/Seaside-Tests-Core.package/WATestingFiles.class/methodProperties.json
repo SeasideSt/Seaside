@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"defaultFileHandler" : "lr 7/25/2011 20:04",
-		"nonFileSelectors" : "pmm 2/21/2009 16:03",
-		"sampleJs" : "jf 10/6/2008 17:46",
-		"samplePng" : "pmm 2/12/2011 21:28",
-		"urlOf:" : "lr 7/25/2011 20:03" } }
+		"samplePng" : "MaxLeske 5/28/2017 21:17:50",
+		"urlOf:" : "MaxLeske 5/28/2017 21:17:50",
+		"defaultFileHandler" : "MaxLeske 5/28/2017 21:17:50",
+		"nonFileSelectors" : "MaxLeske 5/28/2017 21:17:50",
+		"sampleJs" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

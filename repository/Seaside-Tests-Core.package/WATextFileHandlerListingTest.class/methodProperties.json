@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"expectedMimeType" : "MAD 2/21/2009 13:47",
-		"handlerClass" : "MAD 2/21/2009 13:48" } }
+		"handlerClass" : "MaxLeske 5/28/2017 21:17:50",
+		"expectedMimeType" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

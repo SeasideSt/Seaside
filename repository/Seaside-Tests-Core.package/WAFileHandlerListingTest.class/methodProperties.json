@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"isAbstract" : "lr 7/25/2011 19:48" },
 	"instance" : {
-		"assertLibrariesResponse:" : "lr 7/25/2011 18:23",
-		"assertLibraryResponse:" : "lr 7/25/2011 18:23",
-		"expectedLibrariesContents" : "pmm 7/16/2015 16:08",
-		"expectedLibraryContents" : "MAD 2/21/2009 15:13",
-		"expectedMimeType" : "MAD 2/21/2009 13:42",
-		"expectedStatus" : "MAD 2/21/2009 14:34",
-		"handlerClass" : "MAD 2/21/2009 13:41",
-		"testFileLibraries" : "pmm 9/1/2012 16:21",
-		"testFileLibrary" : "pmm 9/1/2012 16:21" } }
+		"testFileLibrary" : "MaxLeske 5/28/2017 21:17:50",
+		"handlerClass" : "MaxLeske 5/28/2017 21:17:50",
+		"testFileLibraries" : "MaxLeske 5/28/2017 21:17:50",
+		"expectedMimeType" : "MaxLeske 5/28/2017 21:17:50",
+		"assertLibraryResponse:" : "MaxLeske 5/28/2017 21:17:50",
+		"assertLibrariesResponse:" : "MaxLeske 5/28/2017 21:17:50",
+		"expectedStatus" : "MaxLeske 5/28/2017 21:17:50",
+		"expectedLibraryContents" : "MaxLeske 5/28/2017 21:17:50",
+		"expectedLibrariesContents" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"isAbstract" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

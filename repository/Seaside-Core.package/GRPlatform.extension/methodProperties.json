@@ -1,12 +1,17 @@
 {
-	"class" : {
-		"subStringsIn:splitBy:do:" : "pmm 2/25/2012 11:20" },
 	"instance" : {
-		"doCommitTransaction" : "JohanBrichau 7/16/2015 11:19",
-		"newReducedConflictCounter" : "pmm 7/14/2015 18:29",
-		"newTransientValueHolder" : "pmm 7/14/2015 18:29",
-		"seasideVersion" : "JohanBrichau 9/16/2016 09:12",
-		"sourceFileEncoding" : "pmm 8/2/2011 20:55",
-		"urlEncoderOn:" : "pmm 8/14/2011 17:54",
-		"urlEncoderOn:codec:" : "pmm 8/14/2011 21:44",
-		"xmlEncoderOn:" : "pmm 8/14/2011 17:57" } }
+		"urlEncoderOn:codec:" : "MaxLeske 5/28/2017 21:17:50",
+		"sourceFileEncoding" : "MaxLeske 5/28/2017 21:17:50",
+		"xmlEncoderOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"urlEncoderOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"newReducedConflictCounter" : "MaxLeske 5/28/2017 21:17:50",
+		"doCommitTransaction" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideVersion" : "MaxLeske 5/28/2017 21:17:50",
+		"newTransientValueHolder" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"subStringsIn:splitBy:" : "MaxLeske 5/28/2017 21:17:50",
+		"subStringsIn:splitBy:collect:" : "MaxLeske 5/28/2017 21:17:50",
+		"subStringsIn:splitBy:do:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

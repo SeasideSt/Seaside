@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"shouldInheritSelectors" : "jf 12/30/2008 19:37" },
 	"instance" : {
-		"handlerClass" : "jf 12/29/2008 17:32",
-		"testError" : "jf 1/23/2009 16:11",
-		"testHandlesError" : "jf 1/1/2009 15:17",
-		"testHandlesWarning" : "jf 1/1/2009 15:17",
-		"testWarning" : "jf 1/23/2009 16:11" } }
+		"handlerClass" : "MaxLeske 5/28/2017 21:17:50",
+		"testHandlesWarning" : "MaxLeske 5/28/2017 21:17:50",
+		"testHandlesError" : "MaxLeske 5/28/2017 21:17:50",
+		"testError" : "MaxLeske 5/28/2017 21:17:50",
+		"testWarning" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"shouldInheritSelectors" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"accept:" : "jf 1/11/2009 19:42",
-		"default:" : "lr 11/11/2008 23:03",
-		"initializeWithKey:" : "lr 10/22/2008 09:37",
-		"isCollectionAttribute" : "pmm 8/23/2014 17:51" } }
+		"accept:" : "MaxLeske 5/28/2017 21:17:50",
+		"default:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithKey:" : "MaxLeske 5/28/2017 21:17:50",
+		"isCollectionAttribute" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

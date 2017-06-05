@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAsFileAndFoldername" : "DiegoLont 8/31/2012 14:37",
-		"testAsFilename" : "DiegoLont 8/31/2012 14:34",
-		"testAsSelector" : "NickAger 3/9/2012 14:22",
-		"testCompileByteArray" : "pmm 9/2/2012 13:31",
-		"testCompileByteArrayAgain" : "pmm 9/2/2012 13:32",
-		"testCompileString" : "pmm 9/2/2012 13:31",
-		"testFilenames" : "pmm 9/1/2012 16:22",
-		"testImgglyphiconshalflingsPng" : "pmm 9/1/2012 16:23",
-		"testIsBinary" : "NickAger 3/9/2012 14:37",
-		"testMimeType" : "NickAger 3/9/2012 14:45",
-		"testName" : "pmm 8/19/2014 10:13",
-		"testUrlOf" : "NickAger 3/9/2012 14:46" } }
+		"testCompileByteArrayAgain" : "MaxLeske 5/28/2017 21:17:50",
+		"testMimeType" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsSelector" : "MaxLeske 5/28/2017 21:17:50",
+		"testName" : "MaxLeske 5/28/2017 21:17:50",
+		"testUrlOf" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsFilename" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsFileAndFoldername" : "MaxLeske 5/28/2017 21:17:50",
+		"testFilenames" : "MaxLeske 5/28/2017 21:17:50",
+		"testCompileByteArray" : "MaxLeske 5/28/2017 21:17:50",
+		"testImgglyphiconshalflingsPng" : "MaxLeske 5/28/2017 21:17:50",
+		"testCompileString" : "MaxLeske 5/28/2017 21:17:50",
+		"testIsBinary" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

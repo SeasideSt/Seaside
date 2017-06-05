@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WARequestFieldsTest",
-	"pools" : [
-		 ],
 	"super" : "GROrderedMultiMapTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WARequestFieldsTest",
+	"type" : "normal"
+}

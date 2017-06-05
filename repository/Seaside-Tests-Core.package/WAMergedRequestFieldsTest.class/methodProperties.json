@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "jf 2/15/2010 17:26",
-		"testAllAt" : "pmm 9/1/2012 16:32",
-		"testAllAtIfAbsent" : "pmm 9/1/2012 16:32",
-		"testAssociationsDo" : "jf 2/15/2010 16:48",
-		"testAt" : "jf 2/15/2010 16:53",
-		"testAtIfAbsent" : "jf 2/15/2010 16:54",
-		"testAtIfPresent" : "jok 1/23/2014 21:33",
-		"testDo" : "jf 2/15/2010 16:48",
-		"testIncludesKey" : "pmm 9/1/2012 16:32",
-		"testIsEmpty" : "jf 2/15/2010 16:51",
-		"testKeyNotFound" : "jf 2/15/2010 17:07",
-		"testKeys" : "jf 2/15/2010 16:48",
-		"testKeysAndValuesDo" : "jf 2/15/2010 16:49",
-		"testKeysDo" : "jf 2/15/2010 16:49",
-		"testReadOnly" : "lr 2/22/2009 20:38",
-		"testSize" : "lr 2/22/2009 20:31",
-		"testValues" : "jf 2/15/2010 16:49" } }
+		"testAssociationsDo" : "MaxLeske 5/28/2017 21:17:50",
+		"testIsEmpty" : "MaxLeske 5/28/2017 21:17:50",
+		"testAt" : "MaxLeske 5/28/2017 21:17:50",
+		"testReadOnly" : "MaxLeske 5/28/2017 21:17:50",
+		"testIncludesKey" : "MaxLeske 5/28/2017 21:17:50",
+		"testValues" : "MaxLeske 5/28/2017 21:17:50",
+		"testKeysAndValuesDo" : "MaxLeske 5/28/2017 21:17:50",
+		"testAtIfPresent" : "MaxLeske 5/28/2017 21:17:50",
+		"testAllAt" : "MaxLeske 5/28/2017 21:17:50",
+		"testDo" : "MaxLeske 5/28/2017 21:17:50",
+		"testSize" : "MaxLeske 5/28/2017 21:17:50",
+		"testKeys" : "MaxLeske 5/28/2017 21:17:50",
+		"testKeysDo" : "MaxLeske 5/28/2017 21:17:50",
+		"testAtIfAbsent" : "MaxLeske 5/28/2017 21:17:50",
+		"testAllAtIfAbsent" : "MaxLeske 5/28/2017 21:17:50",
+		"testKeyNotFound" : "MaxLeske 5/28/2017 21:17:50",
+		"setUp" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

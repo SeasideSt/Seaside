@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"defaultAction" : "lr 1/10/2009 16:48",
-		"isResumable" : "jf 10/18/2008 08:28" } }
+		"isResumable" : "MaxLeske 5/28/2017 21:17:50",
+		"defaultAction" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

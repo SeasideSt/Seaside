@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"configurations" : "jf 7/31/2008 14:38",
-		"initialize" : "pmm 7/17/2015 10:25",
-		"named:" : "lr 8/22/2010 15:30",
-		"new" : "lr 1/9/2009 08:21",
-		"unregister:" : "lr 1/9/2009 08:30" },
 	"instance" : {
-		"initializeWithName:" : "jf 3/13/2009 18:18",
-		"isShared" : "lr 10/21/2008 15:49",
-		"name" : "jf 7/31/2008 14:15",
-		"unregister" : "lr 10/21/2008 15:55" } }
+		"initializeWithName:" : "MaxLeske 5/28/2017 21:17:50",
+		"name" : "MaxLeske 5/28/2017 21:17:50",
+		"unregister" : "MaxLeske 5/28/2017 21:17:50",
+		"isShared" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"configurations" : "MaxLeske 5/28/2017 21:17:50",
+		"new" : "MaxLeske 5/28/2017 21:17:50",
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"named:" : "MaxLeske 5/28/2017 21:17:50",
+		"unregister:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

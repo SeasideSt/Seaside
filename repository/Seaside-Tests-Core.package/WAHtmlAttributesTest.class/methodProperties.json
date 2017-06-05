@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:gives:" : "lr 2/4/2009 08:02",
-		"setUp" : "lr 7/12/2007 13:28",
-		"testAddClass" : "lr 10/28/2007 14:42",
-		"testAddStyle" : "lr 10/28/2007 14:42",
-		"testAt" : "lr 7/12/2007 13:29",
-		"testAtAppend" : "lr 10/28/2007 14:42",
-		"testAtPut" : "lr 10/28/2007 14:42",
-		"testCaseSensititve" : "lr 4/6/2007 21:18",
-		"testOrder" : "lr 10/28/2007 14:42",
-		"testRemoveKey" : "lr 7/12/2007 13:29" } }
+		"testAt" : "MaxLeske 5/28/2017 21:17:50",
+		"testAtAppend" : "MaxLeske 5/28/2017 21:17:50",
+		"testAddClass" : "MaxLeske 5/28/2017 21:17:50",
+		"testCaseSensititve" : "MaxLeske 5/28/2017 21:17:50",
+		"testAddStyle" : "MaxLeske 5/28/2017 21:17:50",
+		"testAtPut" : "MaxLeske 5/28/2017 21:17:50",
+		"testRemoveKey" : "MaxLeske 5/28/2017 21:17:50",
+		"testOrder" : "MaxLeske 5/28/2017 21:17:50",
+		"assert:gives:" : "MaxLeske 5/28/2017 21:17:50",
+		"setUp" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

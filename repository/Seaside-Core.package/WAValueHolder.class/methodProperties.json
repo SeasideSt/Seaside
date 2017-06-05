@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"with:" : "lr 9/5/2007 11:40" },
 	"instance" : {
-		"contents" : "lr 4/16/2007 00:11",
-		"contents:" : "lr 4/16/2007 00:11",
-		"printOn:" : "lr 4/20/2007 20:46" } }
+		"contents" : "MaxLeske 5/28/2017 21:17:50",
+		"contents:" : "MaxLeske 5/28/2017 21:17:50",
+		"printOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"with:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

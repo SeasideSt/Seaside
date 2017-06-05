@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"close" : "lr 8/31/2008 16:14",
-		"handleFiltered:" : "lr 2/20/2009 11:09",
-		"initialize" : "lr 8/31/2008 16:14",
-		"isClosed" : "lr 8/31/2008 16:14" } }
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"close" : "MaxLeske 5/28/2017 21:17:50",
+		"handleFiltered:" : "MaxLeske 5/28/2017 21:17:50",
+		"isClosed" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

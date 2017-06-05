@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"asCapitalizedPhrase" : "lr 7/25/2011 19:12",
-		"encodeOn:" : "lr 2/22/2010 08:08",
-		"renderOn:" : "lr 6/13/2006 16:06",
-		"seasideMimeDocument" : "lr 10/18/2008 15:50",
-		"seasideMimeDocumentType:" : "lr 7/25/2011 19:52",
-		"seasideMimeType" : "jf 9/22/2008 12:14",
-		"seasideUrl" : "jf 9/22/2008 12:29" } }
+		"seasideMimeDocument" : "MaxLeske 5/28/2017 21:17:50",
+		"encodeOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideUrl" : "MaxLeske 5/28/2017 21:17:50",
+		"asCapitalizedPhrase" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideMimeDocumentType:" : "MaxLeske 5/28/2017 21:17:50",
+		"renderOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideMimeType" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

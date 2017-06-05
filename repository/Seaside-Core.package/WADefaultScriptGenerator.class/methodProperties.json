@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"close:on:" : "lr 2/22/2010 17:54",
-		"open:on:" : "lr 2/22/2010 17:29" } }
+		"close:on:" : "MaxLeske 5/28/2017 21:17:50",
+		"open:on:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleFiltered:" : "lr 8/11/2009 11:10",
-		"redirectWithTrailingSlash:" : "lr 9/5/2009 10:55",
-		"shouldRedirect:" : "lr 8/11/2009 11:12" } }
+		"shouldRedirect:" : "MaxLeske 5/28/2017 21:17:50",
+		"handleFiltered:" : "MaxLeske 5/28/2017 21:17:50",
+		"redirectWithTrailingSlash:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}
