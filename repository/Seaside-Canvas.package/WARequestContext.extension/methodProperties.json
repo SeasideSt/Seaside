@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"closeThisPopup" : "JohanBrichau 9/12/2013 14:06",
-		"closeThisPopupAndReloadOpener" : "JohanBrichau 9/12/2013 14:07" } }
+		"closeThisPopupAndReloadOpener" : "JohanBrichau 9/12/2013 14:07",
+		"closeThisPopup" : "JohanBrichau 9/12/2013 14:06"
+	},
+	"class" : { }
+}

@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"describeOn:" : "pmm 7/12/2015 15:13" } }
+		"describeOn:" : "pmm 7/12/2015 15:13"
+	},
+	"class" : { }
+}

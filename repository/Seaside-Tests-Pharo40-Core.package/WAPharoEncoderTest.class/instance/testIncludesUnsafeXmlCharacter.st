@@ -8,4 +8,4 @@ testIncludesUnsafeXmlCharacter
 		self assert: (encoder includesUnsafeCharacter: (String with: each), 'a') ].
 	
 	"just make sure the method doesn't blow up on empty strings"
-	encoder includesUnsafeCharacter: ''.
+	encoder includesUnsafeCharacter: ''

@@ -74,7 +74,7 @@ version30016: spec
 		do: [ spec package: 'Seaside-Pharo-BlockContextCore' with: 'Seaside-Pharo-BlockContextCore-JohanBrichau.1' ].
 		
 	spec
-		for: #(#'pharo4.x')
+		for: #(#'pharo4.x' #'pharo5.x')
 		do: [ 
 			spec 
 				project: 'Zinc' with: #stable;

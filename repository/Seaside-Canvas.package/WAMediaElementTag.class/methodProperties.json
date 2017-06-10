@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"url:" : "as 2/8/2011 14:26",
 		"autoplay:" : "pmm 9/1/2012 16:30",
-		"controls:" : "pmm 9/1/2012 16:30",
 		"loop:" : "pmm 9/1/2012 16:30",
-		"preload:" : "pmm 9/1/2012 16:30",
-		"url:" : "as 2/8/2011 14:26" } }
+		"controls:" : "pmm 9/1/2012 16:30",
+		"preload:" : "pmm 9/1/2012 16:30"
+	},
+	"class" : { }
+}

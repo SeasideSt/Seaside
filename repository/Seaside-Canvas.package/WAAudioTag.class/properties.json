@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Canvas-Tags",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 3/28/2007 22:54",
-	"instvars" : [
-		 ],
-	"name" : "WAAudioTag",
-	"pools" : [
-		 ],
 	"super" : "WAMediaElementTag",
-	"type" : "normal" }
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAAudioTag",
+	"type" : "normal"
+}

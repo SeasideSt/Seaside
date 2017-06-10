@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"basicStop" : "PaulDeBruicker 1/14/2015 07:47",
 		"isRunning" : "lr 7/25/2011 20:12",
-		"isStarting" : "lr 7/25/2011 20:12",
-		"isStopped" : "lr 7/25/2011 20:12",
-		"isStopping" : "lr 7/25/2011 20:12",
-		"requestAddressFor:" : "pmm 2/13/2011 10:22",
+		"stopping" : "yann.monclair 9/5/2009 17:28",
+		"stopped" : "yann.monclair 9/5/2009 17:28",
 		"requestBodyFor:" : "pmm 2/13/2011 10:22",
-		"requestCookiesFor:" : "pmm 2/13/2011 10:22",
-		"requestFieldsFor:" : "pmm 2/13/2011 10:22",
-		"requestHeadersFor:" : "pmm 2/13/2011 10:22",
-		"requestMethodFor:" : "pmm 2/13/2011 10:22",
 		"requestVersionFor:" : "pmm 2/13/2011 10:22",
+		"requestHeadersFor:" : "pmm 2/13/2011 10:22",
 		"responseFrom:" : "pmm 2/13/2011 10:21",
+		"requestFieldsFor:" : "pmm 2/13/2011 10:22",
+		"requestCookiesFor:" : "pmm 2/13/2011 10:22",
 		"running" : "yann.monclair 9/5/2009 17:28",
 		"starting" : "yann.monclair 9/5/2009 17:28",
-		"stopped" : "yann.monclair 9/5/2009 17:28",
-		"stopping" : "yann.monclair 9/5/2009 17:28" } }
+		"isStopping" : "lr 7/25/2011 20:12",
+		"isStopped" : "lr 7/25/2011 20:12",
+		"requestMethodFor:" : "pmm 2/13/2011 10:22",
+		"requestAddressFor:" : "pmm 2/13/2011 10:22",
+		"basicStop" : "PaulDeBruicker 1/14/2015 07:47",
+		"isStarting" : "lr 7/25/2011 20:12"
+	},
+	"class" : { }
+}

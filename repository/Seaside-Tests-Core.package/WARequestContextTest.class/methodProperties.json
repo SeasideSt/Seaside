@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCodec" : "pmm 6/19/2011 17:29",
 		"createRequest" : "pmm 6/19/2011 17:29",
-		"createRequestContext" : "pmm 6/19/2011 17:30",
+		"createCodec" : "pmm 6/19/2011 17:29",
 		"createResponse" : "pmm 6/19/2011 17:29",
-		"testNewDocumentNotHandler" : "pmm 6/19/2011 17:34" } }
+		"createRequestContext" : "pmm 6/19/2011 17:30",
+		"testNewDocumentNotHandler" : "pmm 6/19/2011 17:34"
+	},
+	"class" : { }
+}

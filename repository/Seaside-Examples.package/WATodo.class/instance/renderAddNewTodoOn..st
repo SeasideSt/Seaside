@@ -1,9 +1,9 @@
 rendering
 renderAddNewTodoOn: html
-	|newTodo|
+	| newTodo |
 	html header
 		id: #header;
-		with:[
+		with: [
 			html heading
 				level: 1;
 				with: 'todos'.
@@ -11,13 +11,13 @@ renderAddNewTodoOn: html
 				id: #'new-todo';
 				autofocus;
 				attributeAt: 'autocomplete' put: 'off';
-				callback: [:value | newTodo := self addTodo: value];
+				callback: [ :value | newTodo := self addTodo: value ];
 				"onChange: (html jQuery ajax 
 								serializeThis;
 								onComplete: ((html jQuery ajax script: [:s | s << ((s jQuery id: 'todo-list') append: newTodo)]),
 											   ((html jQuery id: #'new-todo') value: '')));"
 				onChange: (html jQuery ajax 
 								serializeThis;
-								script: [:s | s << ((s jQuery id: 'todo-list') append: newTodo)];
+								script: [ :s | s << ((s jQuery id: 'todo-list') append: newTodo) ];
 								onComplete: ((html jQuery id: #'new-todo') value: ''));
-				placeholder: 'What needs to be done?']
+				placeholder: 'What needs to be done?' ]

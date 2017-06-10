@@ -1,10 +1,10 @@
 {
-	"category" : "JQuery-Tests-Core-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "JQFunctionalTest",
+	"category" : "JQuery-Tests-Core-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"textInput",
 		"textArea",
@@ -13,9 +13,8 @@
 		"selectList",
 		"multiSelectList",
 		"fileInput",
-		"fileInputs" ],
+		"fileInputs"
+	],
 	"name" : "JQFormFunctionalTest",
-	"pools" : [
-		 ],
-	"super" : "JQFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

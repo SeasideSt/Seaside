@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Pharo-Development-Core-Profiler",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WATool",
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"report",
 		"items",
-		"message" ],
+		"message"
+	],
 	"name" : "WAProfilerTool",
-	"pools" : [
-		 ],
-	"super" : "WATool",
-	"type" : "normal" }
+	"type" : "normal"
+}

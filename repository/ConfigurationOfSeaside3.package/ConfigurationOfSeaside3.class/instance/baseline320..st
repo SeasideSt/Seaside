@@ -21,5 +21,5 @@ baseline320: spec
   self baseline311json: spec.
   self baseline311ob: spec.
   self baseline320gettext: spec.
-  self baseline311welcome: spec.
+  self baseline320welcome: spec.
   self baseline320security: spec

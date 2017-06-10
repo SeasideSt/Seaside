@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/13/2015 14:14",
+	"super" : "WACache",
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"maximumSize",
 		"maximumRelativeAge",
 		"maximumAbsoluteAge",
-		"overflowAction" ],
+		"overflowAction"
+	],
 	"name" : "WAExpiringCache",
-	"pools" : [
-		 ],
-	"super" : "WACache",
-	"type" : "normal" }
+	"type" : "normal"
+}

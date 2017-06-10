@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Core-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WARenderNotification",
-	"pools" : [
-		 ],
 	"super" : "WANotification",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WARenderNotification",
+	"type" : "normal"
+}

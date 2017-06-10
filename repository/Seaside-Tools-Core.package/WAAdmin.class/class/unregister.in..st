@@ -2,12 +2,10 @@ registration
 unregister: aString in: aDispatcher
 	"Unregister the application aString in aDispatcher."
 
-	| path dispatcher |
-	path := aString substrings: '/'.
-	dispatcher := path
-		inject: aDispatcher
-		into: [ :result :each |
-			result handlers
+	| dispatcher |
+	dispatcher := aDispatcher.
+	GRPlatform subStringsIn: aString splitBy: $/ do: [ :each |
+		dispatcher := dispatcher handlers
 				at: each
 				ifAbsent: [ ^ nil ] ].
 	^ dispatcher parent

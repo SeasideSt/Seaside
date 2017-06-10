@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"editIntegerVMParameterAt:named:" : "pmm 12/26/2010 21:46",
+		"title" : "lr 7/25/2011 20:09",
+		"renderEditVMParameterAt:callback:on:" : "pmm 10/31/2008 20:48",
 		"editMemoryVMParameterAt:named:" : "lr 1/24/2009 21:12",
-		"label" : "jf 1/19/2009 12:28",
 		"priority" : "pmm 8/28/2011 16:08",
 		"renderEditIntegerParameterAt:named:on:" : "SvenVanCaekenberghe 8/28/2012 13:31",
+		"editIntegerVMParameterAt:named:" : "pmm 8/25/2016 11:44",
 		"renderEditMemoryParameterAt:named:on:" : "SvenVanCaekenberghe 8/28/2012 13:31",
-		"renderEditVMParameterAt:callback:on:" : "pmm 10/31/2008 20:48",
-		"renderValuesOn:" : "SvenVanCaekenberghe 8/28/2012 13:31",
-		"title" : "lr 7/25/2011 20:09" } }
+		"label" : "jf 1/19/2009 12:28",
+		"renderValuesOn:" : "pmm 8/25/2016 08:55"
+	},
+	"class" : { }
+}

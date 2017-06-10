@@ -5,4 +5,4 @@ testGreaseNextPutAllStartingAt
 		next: 13
 		startingAt: 4
 		encoder: self xmlEncoderClass
-		gives:  'quot;#seastar'.
+		gives:  'quot;#seastar'

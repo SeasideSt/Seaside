@@ -4,7 +4,7 @@ copyMczFromSmalltalkhubToFileTree: aDirectoryPathString
 | latest source destination goSource goDestination|
 "Copy all latests packages to a filetree repository (that can be committed to github)
 
-self copyMczFromSmalltalkhubToFileTree: '/Users/jbrichau/github/Seaside/repository/'"
+self copyMczFromSmalltalkhubToFileTree: '/Users/marschall/git/Seaside/repository'"
 
 source := (Smalltalk at: #MCSmalltalkhubRepository)
      owner: 'Seaside'

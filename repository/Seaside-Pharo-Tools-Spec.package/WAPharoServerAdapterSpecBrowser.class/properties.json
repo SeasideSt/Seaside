@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Pharo-Tools-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "ComposableModel",
+	"category" : "Seaside-Pharo-Tools-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"listModel",
 		"textModel",
 		"toolbarModel",
-		"adaptor" ],
+		"adaptor"
+	],
 	"name" : "WAPharoServerAdapterSpecBrowser",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"initialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "pmm 7/13/2015 15:11",
-		"newLikeOldCache" : "pmm 7/13/2015 15:12" },
 	"instance" : {
 		"cacheEntryRemoved:" : "pmm 7/17/2015 10:05",
-		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "pmm 7/13/2015 14:13",
+		"removeKey:" : "pmm 7/21/2015 10:35",
 		"keyAtValue:ifAbsent:" : "pmm 7/13/2015 14:27",
-		"remove:" : "pmm 7/13/2015 17:19",
-		"removeKey:" : "pmm 7/21/2015 10:35" } }
+		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "pmm 7/13/2015 14:13",
+		"remove:" : "pmm 7/13/2015 17:19"
+	},
+	"class" : {
+		"newLikeOldCache" : "pmm 7/13/2015 15:12",
+		"initialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "pmm 7/13/2015 15:11"
+	}
+}

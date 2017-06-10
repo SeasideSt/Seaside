@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"callback:forEvent:" : "lr 10/28/2009 11:03",
-		"callback:passengers:" : "JohanBrichau 3/20/2016 21:05",
-		"callbackAccordion:" : "lr 10/28/2009 10:56",
-		"callbackDraggable:" : "lr 10/28/2009 10:52",
-		"callbackDroppable:" : "lr 10/28/2009 10:52",
-		"callbackResizable:" : "lr 10/28/2009 10:54",
-		"callbackSlider:" : "lr 10/28/2009 10:57",
-		"callbackSortable:" : "lr 10/28/2009 10:55",
 		"callbackTabs:" : "lr 10/28/2009 10:55",
+		"callbackResizable:" : "lr 10/28/2009 10:54",
 		"javascriptForEvent:" : "pmm 7/15/2015 11:39",
-		"smalltalkForEvent:value:" : "pmm 7/15/2015 11:40" } }
+		"callbackSlider:" : "lr 10/28/2009 10:57",
+		"callback:forEvent:" : "lr 10/28/2009 11:03",
+		"callbackSortable:" : "lr 10/28/2009 10:55",
+		"smalltalkForEvent:value:" : "pmm 7/15/2015 11:40",
+		"callbackDroppable:" : "lr 10/28/2009 10:52",
+		"callback:passengers:" : "pmm 8/21/2016 16:49",
+		"callbackAccordion:" : "lr 10/28/2009 10:56",
+		"callbackDraggable:" : "lr 10/28/2009 10:52"
+	},
+	"class" : { }
+}

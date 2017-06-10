@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAAttributeExpression",
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"additions",
-		"removals" ],
+		"removals"
+	],
 	"name" : "WAAddRemoveExpression",
-	"pools" : [
-		 ],
-	"super" : "WAAttributeExpression",
-	"type" : "normal" }
+	"type" : "normal"
+}

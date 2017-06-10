@@ -1,9 +1,9 @@
 actions
 addAdaptor
-	|allAdaptors class port |
+	| allAdaptors class port |
 	allAdaptors := self adaptorClasses.
 	class := UIManager default
-		chooseFrom: (allAdaptors collect: [:e | e name])
+		chooseFrom: (allAdaptors collect: [ :each | each name ])
 		values: allAdaptors
 		lines: #()
 		title: 'Add Seaside Adaptor' translated.
@@ -13,4 +13,4 @@ addAdaptor
 			initialAnswer: class basicNew defaultPort greaseString.
 		(port isNil or: [ port isEmpty or: [ port isAllDigits not ] ]) ifFalse:[
 			adaptor := class port: port greaseInteger.
-			self initializeAdaptors]]
+			self initializeAdaptors ] ]

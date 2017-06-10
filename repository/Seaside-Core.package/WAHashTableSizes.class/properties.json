@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "pmm 7/16/2015 16:28",
+	"super" : "WAObject",
 	"category" : "Seaside-Core-Cache",
 	"classinstvars" : [
-		"sizes" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "pmm 7/16/2015 16:28",
-	"instvars" : [
-		 ],
+		"sizes"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "WAHashTableSizes",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

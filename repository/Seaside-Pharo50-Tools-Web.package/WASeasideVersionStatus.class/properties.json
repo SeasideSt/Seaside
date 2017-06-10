@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo50-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WASeasideVersionStatus",
-	"pools" : [
-		 ],
 	"super" : "WAPharoStatusItem",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo50-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASeasideVersionStatus",
+	"type" : "normal"
+}

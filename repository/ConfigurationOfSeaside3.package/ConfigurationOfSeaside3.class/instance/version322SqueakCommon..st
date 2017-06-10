@@ -1,0 +1,90 @@
+versions-32
+version322SqueakCommon: spec
+
+	spec for: #'squeakCommon' do: [
+		spec 
+			project: 'Grease' with: #'release1.2';
+			project: 'Grease Core Tests' with: #'release1.2';
+			project: 'Grease Slime' with: #'release1.2';
+			project: 'Grease Slime Tests' with: #'release1.2';
+			project: 'Swazoo2' with: #'stable';
+			project: 'WebClient Project' with: #'stable'.
+		spec 
+			package: 'Seaside-Canvas' with: 'Seaside-Canvas-pmm.137';
+			package: 'Seaside-Component' with: 'Seaside-Component-pmm.102';
+			package: 'Seaside-Core' with: 'Seaside-Core-JohanBrichau.872';
+			package: 'Seaside-Development' with: 'Seaside-Development-pmm.166';
+			package: 'Seaside-Email' with: 'Seaside-Email-pmm.27';
+			package: 'Seaside-Environment' with: 'Seaside-Environment-JohanBrichau.85';
+			package: 'Seaside-Examples' with: 'Seaside-Examples-pmm.35';
+			package: 'Seaside-Flow' with: 'Seaside-Flow-pmm.25';
+			package: 'Seaside-InternetExplorer' with: 'Seaside-InternetExplorer-pmm.8';
+			package: 'Seaside-RenderLoop' with: 'Seaside-RenderLoop-pmm.99';
+			package: 'Seaside-Security' with: 'Seaside-Security-EstebanMaringolo.5';
+			package: 'Seaside-Session' with: 'Seaside-Session-pmm.187';
+			package: 'Seaside-Tools-Core' with: 'Seaside-Tools-Core-pmm.30';
+			package: 'Seaside-Tools-Web' with: 'Seaside-Tools-Web-JohanBrichau.129';
+			package: 'Seaside-Widgets' with: 'Seaside-Widgets-JohanBrichau.36';
+			package: 'Seaside-JSON-Core' with: 'Seaside-JSON-Core-pmm.35';
+			package: 'Javascript-Core' with: 'Javascript-Core-pmm.99';
+			package: 'JQuery-Core' with: 'JQuery-Core-JohanBrichau.139';
+			package: 'JQuery-JSON' with: 'JQuery-JSON-JohanBrichau.3';
+			package: 'JQuery-UI' with: 'JQuery-UI-pmm.95';
+			package: 'Seaside-FileSystem' with: 'Seaside-FileSystem-JohanBrichau.30';
+			package: 'RSS-Core' with: 'RSS-Core-pmm.71';
+			package: 'Seaside-REST-Core' with: 'Seaside-REST-Core-pmm.65';
+			package: 'Seaside-Swagger-Core' with: 'Seaside-Swagger-Core-JohanBrichau.7';
+			package: 'RSS-Examples' with: 'RSS-Examples-pmm.27';
+			package: 'Seaside-Swazoo' with: 'Seaside-Swazoo-pmm.20';
+			package: 'Seaside-Adaptors-Swazoo' with: 'Seaside-Adaptors-Swazoo-pmm.45';
+			package: 'Comet-Core' with: 'Comet-Core-pmm.55';
+			package: 'Comet-Examples' with: 'Comet-Examples-pmm.26';
+			package: 'Prototype-Core' with: 'Prototype-Core-pmm.29';
+			package: 'Scriptaculous-Core' with: 'Scriptaculous-Core-pmm.107';
+			package: 'Scriptaculous-Components' with: 'Scriptaculous-Components-pmm.117';
+			package: 'Seaside-Welcome' with: 'Seaside-Welcome-JohanBrichau.50';
+			package: 'WebClient-Seaside-Adaptor' with: 'WebClient-Seaside-Adaptor-topa.1';
+			package: 'Seaside-Pharo-Canvas' with: 'Seaside-Pharo-Canvas-pmm.4';
+			package: 'Seaside-Pharo-Development' with: 'Seaside-Pharo-Development-TravisCI.96';
+			package: 'Seaside-Pharo-Environment' with: 'Seaside-Pharo-Environment-lr.6';
+			package: 'Seaside-Pharo-Flow' with: 'Seaside-Pharo-Flow-lr.5';
+			package: 'Seaside-Pharo-Security' with: 'Seaside-Pharo-Security-JohanBrichau.5';
+			package: 'Seaside-Pharo-JSON-Core' with: 'Seaside-Pharo-JSON-Core-JohanBrichau.5';
+			package: 'Seaside-Pharo-Swagger-Core' with: 'Seaside-Pharo-Swagger-Core-pmm.6';
+			package: 'Comet-Pharo-Core' with: 'Comet-Pharo-Core-lr.6';
+			package: 'Seaside-Tests-Canvas' with: 'Seaside-Tests-Canvas-pmm.69';
+			package: 'Seaside-Tests-Pharo-Canvas' with: 'Seaside-Tests-Pharo-Canvas-pmm.1';
+			package: 'Seaside-Tests-Component' with: 'Seaside-Tests-Component-pmm.36';
+			package: 'Seaside-Tests-Core' with: 'Seaside-Tests-Core-pmm.309';
+			package: 'Seaside-Tests-Development' with: 'Seaside-Tests-Development-pmm.45';
+			package: 'Seaside-Tests-Email' with: 'Seaside-Tests-Email-pmm.24';
+			package: 'Seaside-Tests-Environment' with: 'Seaside-Tests-Environment-pmm.30';
+			package: 'Seaside-Tests-Examples' with: 'Seaside-Tests-Examples-pmm.11';
+			package: 'Seaside-Tests-Flow' with: 'Seaside-Tests-Flow-pmm.37';
+			package: 'Seaside-Tests-Functional' with: 'Seaside-Tests-Functional-JohanBrichau.168';
+			package: 'Seaside-Tests-InternetExplorer' with: 'Seaside-Tests-InternetExplorer-pmm.10';
+			package: 'Seaside-Tests-RenderLoop' with: 'Seaside-Tests-RenderLoop-JohanBrichau.14';
+			package: 'Seaside-Tests-Security' with: 'Seaside-Tests-Security-pmm.5';
+			package: 'Seaside-Tests-Session' with: 'Seaside-Tests-Session-pmm.81';
+			package: 'Seaside-Tests-Swagger-Core' with: 'Seaside-Tests-Swagger-Core-pmm.10';
+			package: 'Seaside-Tests-Tools-Web' with: 'Seaside-Tests-Tools-Web-pmm.26';
+			package: 'Seaside-Tests-UTF8' with: 'Seaside-Tests-UTF8-pmm.16';
+			package: 'Seaside-Tests-Pharo-Continuation' with: 'Seaside-Tests-Pharo-Continuation-pmm.9';
+			package: 'Seaside-Tests-Pharo-Development' with: 'Seaside-Tests-Pharo-Development-TravisCI.45';
+			package: 'Seaside-Tests-Pharo-Email' with: 'Seaside-Tests-Pharo-Email-pmm.1';
+			package: 'Seaside-Tests-Pharo-Functional' with: 'Seaside-Tests-Pharo-Functional-pmm.15';
+			package: 'Seaside-Tests-Pharo-Security' with: 'Seaside-Tests-Pharo-Security-pmm.2';
+			package: 'Seaside-Tests-Pharo-JSON-Core' with: 'Seaside-Tests-Pharo-JSON-Core-pmm.1';
+			package: 'Javascript-Tests-Core' with: 'Javascript-Tests-Core-JohanBrichau.73';
+			package: 'JQuery-Tests-Core' with: 'JQuery-Tests-Core-pmm.149';
+			package: 'JQuery-Tests-JSON' with: 'JQuery-Tests-JSON-pmm.3';
+			package: 'JQuery-Tests-UI' with: 'JQuery-Tests-UI-pmm.89';
+			package: 'Seaside-Tests-FileSystem' with: 'Seaside-Tests-FileSystem-JohanBrichau.16';
+			package: 'Seaside-Tests-JSON' with: 'Seaside-Tests-JSON-JohanBrichau.15';
+			package: 'RSS-Tests-Core' with: 'RSS-Tests-Core-lr.30';
+			package: 'Seaside-Tests-REST-Core' with: 'Seaside-Tests-REST-Core-pmm.35';
+			package: 'Comet-Tests-Core' with: 'Comet-Tests-Core-lr.11';
+			package: 'Prototype-Tests-Core' with: 'Prototype-Tests-Core-pmm.18';
+			package: 'Scriptaculous-Tests-Core' with: 'Scriptaculous-Tests-Core-pmm.63';
+			package: 'Scriptaculous-Tests-Components' with: 'Scriptaculous-Tests-Components-JohanBrichau.44';
+			package: 'Seaside-Tests-Welcome' with: 'Seaside-Tests-Welcome-lr.6'. ].

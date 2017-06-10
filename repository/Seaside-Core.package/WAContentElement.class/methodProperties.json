@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"charset:" : "lr 10/20/2008 00:02",
-		"contents:" : "lr 3/27/2007 13:33",
-		"encodeChildrenOn:" : "pmm 8/22/2014 17:47",
-		"isClosed" : "lr 11/5/2007 17:20",
-		"resourceUrl:" : "jf 2/21/2009 18:30",
-		"type:" : "pmm 11/21/2007 20:48",
 		"typeOrNil" : "lr 3/27/2007 10:51",
-		"url:" : "lr 10/28/2007 14:42" } }
+		"contents:" : "lr 3/27/2007 13:33",
+		"url:" : "lr 10/28/2007 14:42",
+		"isClosed" : "lr 11/5/2007 17:20",
+		"type:" : "pmm 11/21/2007 20:48",
+		"encodeChildrenOn:" : "pmm 8/22/2014 17:47",
+		"resourceUrl:" : "jf 2/21/2009 18:30",
+		"charset:" : "lr 10/20/2008 00:02"
+	},
+	"class" : { }
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "JQuery-Tests-Core-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"logger" ],
-	"name" : "JQRequestFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "JQFunctionalTest",
-	"type" : "normal" }
+	"category" : "JQuery-Tests-Core-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"logger"
+	],
+	"name" : "JQRequestFunctionalTest",
+	"type" : "normal"
+}

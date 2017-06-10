@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"initialize" : "lr 2/8/2009 12:39",
 		"renderCheckBoxOn:" : "lr 11/16/2008 00:16",
-		"renderContentOn:" : "JohanBrichau 7/14/2015 09:50",
-		"renderFileUploadOn:" : "pmm 7/16/2015 15:56",
-		"renderLabel:control:model:on:" : "lr 2/6/2009 20:37",
-		"renderMultiFileUploadOn:" : "pmm 7/16/2015 16:25",
 		"renderMultiSelectListOn:" : "lr 2/8/2009 12:39",
-		"renderRadioButtonOn:" : "pmm 1/22/2012 16:32",
-		"renderSelectListOn:" : "lr 11/16/2008 00:16",
-		"renderTextAreaOn:" : "lr 11/16/2008 00:16",
-		"renderTextInputOn:" : "lr 7/14/2010 10:24",
-		"selectors" : "JohanBrichau 7/13/2015 22:40",
+		"renderMultiFileUploadOn:" : "pmm 8/25/2016 11:10",
 		"style" : "lr 12/4/2009 22:54",
-		"title" : "lr 10/29/2008 08:16" } }
+		"title" : "lr 10/29/2008 08:16",
+		"renderContentOn:" : "JohanBrichau 7/14/2015 09:50",
+		"renderTextInputOn:" : "lr 7/14/2010 10:24",
+		"renderSelectListOn:" : "lr 11/16/2008 00:16",
+		"initialize" : "lr 2/8/2009 12:39",
+		"renderFileUploadOn:" : "pmm 7/16/2015 15:56",
+		"renderRadioButtonOn:" : "pmm 1/22/2012 16:32",
+		"renderTextAreaOn:" : "lr 11/16/2008 00:16",
+		"renderLabel:control:model:on:" : "lr 2/6/2009 20:37",
+		"selectors" : "JohanBrichau 7/13/2015 22:40"
+	},
+	"class" : { }
+}

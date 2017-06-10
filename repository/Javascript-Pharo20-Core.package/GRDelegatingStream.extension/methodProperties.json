@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"javascript:" : "pmm 2/20/2009 22:04" } }
+		"javascript:" : "pmm 2/20/2009 22:04"
+	},
+	"class" : { }
+}

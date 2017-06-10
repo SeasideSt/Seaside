@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"defaultAction" : "lr 2/5/2009 08:54" } }
+		"defaultAction" : "lr 2/5/2009 08:54"
+	},
+	"class" : { }
+}

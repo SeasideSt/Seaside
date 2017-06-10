@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"newWithDescription:in:" : "JohanBrichau 8/14/2014 19:18" },
 	"instance" : {
+		"initializeWithDescription:in:" : "pmm 8/25/2016 10:23",
 		"description" : "JohanBrichau 8/10/2014 16:52",
 		"description:" : "JohanBrichau 8/10/2014 16:52",
-		"done" : "JohanBrichau 8/10/2014 16:52",
 		"done:" : "JohanBrichau 8/10/2014 16:52",
-		"initializeWithDescription:in:" : "JohanBrichau 8/14/2014 19:18",
-		"remove" : "JohanBrichau 8/14/2014 19:19",
-		"renderContentOn:" : "JohanBrichau 8/17/2014 15:10" } }
+		"renderContentOn:" : "pmm 8/25/2016 08:52",
+		"done" : "JohanBrichau 8/10/2014 16:52",
+		"remove" : "JohanBrichau 8/14/2014 19:19"
+	},
+	"class" : {
+		"newWithDescription:in:" : "JohanBrichau 8/14/2014 19:18"
+	}
+}

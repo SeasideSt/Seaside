@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"isAbstract" : "pmm 7/13/2015 14:05" },
 	"instance" : {
+		"testRmoveKey" : "pmm 7/21/2015 10:47",
 		"createCache" : "pmm 7/12/2015 15:13",
-		"testCopy" : "pmm 7/16/2015 15:58",
-		"testRmoveKey" : "pmm 7/21/2015 10:47" } }
+		"testCopy" : "pmm 7/16/2015 15:58"
+	},
+	"class" : {
+		"isAbstract" : "pmm 7/13/2015 14:05"
+	}
+}

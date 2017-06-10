@@ -8,4 +8,4 @@ setEncodingFor: anAdaptor
 		title: 'Select encoding' translated.
 	codec isNil
 		ifTrue: [ ^ self ].
-	anAdaptor codec: codec.
+	anAdaptor codec: codec

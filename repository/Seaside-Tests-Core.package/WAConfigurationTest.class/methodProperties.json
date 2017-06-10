@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"basicSystemConfiguration" : "jf 7/29/2008 18:12",
-		"testCircular" : "jf 7/24/2008 19:38",
-		"testCollectionInheritance" : "lr 10/22/2008 09:45",
-		"testDefaultNeverOverrides" : "jf 10/5/2008 14:51",
-		"testHasExpressionAt" : "pmm 9/1/2012 16:15",
-		"testLastAddedOverrides" : "pmm 8/19/2014 10:12",
 		"testLastAddedOverrides2" : "pmm 8/19/2014 10:12",
-		"testOverrides" : "jf 10/5/2008 14:50",
-		"testSearchContextsCaching" : "pmm 9/1/2012 16:15",
+		"testHasExpressionAt" : "pmm 9/1/2012 16:15",
+		"testCircular" : "jf 7/24/2008 19:38",
 		"testValueWithoutAttribute" : "jf 10/5/2008 14:48",
-		"testValueWithoutAttribute2" : "jf 10/5/2008 14:47",
+		"testLastAddedOverrides" : "pmm 8/19/2014 10:12",
+		"testSearchContextsCaching" : "pmm 9/1/2012 16:15",
 		"testValueWithoutAttributeWithIfAbsentBlock" : "DenisDefreyne 8/31/2012 14:17",
-		"testValueWithoutDefault" : "pmm 9/1/2012 16:15" } }
+		"testCollectionInheritance" : "lr 10/22/2008 09:45",
+		"testValueWithoutAttribute2" : "jf 10/5/2008 14:47",
+		"testDefaultNeverOverrides" : "jf 10/5/2008 14:51",
+		"testValueWithoutDefault" : "pmm 9/1/2012 16:15",
+		"testOverrides" : "jf 10/5/2008 14:50",
+		"basicSystemConfiguration" : "jf 7/29/2008 18:12"
+	},
+	"class" : { }
+}
