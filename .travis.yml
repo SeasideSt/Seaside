@@ -5,14 +5,10 @@ smalltalk:
   - Pharo-5.0
   - Pharo-4.0
   - Pharo-3.0
-  - Squeak-4.5
   - Squeak-5.1
   - GemStone-3.1.0.6
   - GemStone-3.2.12
   - GemStone-3.3.0
-matrix:
-  allow_failures:
-    - smalltalk: Pharo-6.0
 cache:
   directories:
     - $SMALLTALK_CI_CACHE
