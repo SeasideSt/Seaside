@@ -1,3 +1,6 @@
 *seaside-gemstone-filesystem
 fileNameFor: aPathString
-	^ (FileDirectory forFileName: aPathString) pathName
+  "aa
+"
+
+  ^ (FileDirectory on: aPathString) pathName
