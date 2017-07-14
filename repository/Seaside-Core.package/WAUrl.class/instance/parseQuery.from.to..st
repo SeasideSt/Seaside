@@ -9,7 +9,7 @@ parseQuery: aString from: queryStart to: queryEnd
 		parameterEnd := parameterEnd > 0
 			ifTrue: [ parameterEnd min: queryEnd ]
 			ifFalse: [ queryEnd ].
-		(nameEnd > 0 and: [ nameEnd < queryEnd ])
+		(nameEnd > 0 and: [ nameEnd < parameterEnd ])
 			ifTrue: [
 				self
 					addField: (self class decodePercentAndPlus: aString from: parameterStart to: nameEnd)
