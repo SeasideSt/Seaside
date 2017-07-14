@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"at:ifAbsent:" : "pmm 7/14/2015 18:38",
-		"at:put:" : "pmm 7/15/2015 07:30",
-		"clear" : "pmm 8/25/2016 12:00",
-		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "JohanBrichau 7/15/2015 15:02",
-		"isExpired:" : "pmm 7/13/2015 16:59",
-		"isExpired:now:" : "pmm 7/13/2015 17:48",
-		"keysAndValuesDo:" : "pmm 7/13/2015 14:29",
-		"postCopy" : "pmm 7/13/2015 17:05",
-		"reap" : "pmm 7/18/2015 09:42",
-		"removeKey:" : "pmm 7/21/2015 10:42",
-		"size" : "pmm 7/13/2015 14:27",
-		"store:" : "pmm 7/13/2015 15:09" } }
+		"keysAndValuesDo:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "MaxLeske 5/28/2017 21:17:50",
+		"reap" : "MaxLeske 5/28/2017 21:17:50",
+		"isExpired:now:" : "MaxLeske 5/28/2017 21:17:50",
+		"removeKey:" : "MaxLeske 5/28/2017 21:17:50",
+		"at:put:" : "MaxLeske 5/28/2017 21:17:50",
+		"postCopy" : "MaxLeske 5/28/2017 21:17:50",
+		"isExpired:" : "MaxLeske 5/28/2017 21:17:50",
+		"clear" : "MaxLeske 5/28/2017 21:17:50",
+		"size" : "MaxLeske 5/28/2017 21:17:50",
+		"store:" : "MaxLeske 5/28/2017 21:17:50",
+		"at:ifAbsent:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

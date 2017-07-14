@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"new" : "jf 9/30/2009 00:19",
-		"on:" : "jf 9/30/2009 00:27",
-		"on:codec:" : "jf 1/23/2009 14:38" },
 	"instance" : {
-		"close" : "obi 4/17/2010 19:32",
-		"destroy" : "lr 2/22/2010 07:59",
-		"initializeWithStream:codec:" : "lr 2/22/2010 07:59",
-		"nextPut:" : "jf 1/23/2009 12:40",
-		"nextPutAll:" : "jf 1/23/2009 12:40",
-		"open:" : "lr 2/22/2010 14:55",
-		"scriptGenerator:" : "pmm 4/17/2010 12:41",
-		"stream" : "lr 2/22/2010 14:52" } }
+		"nextPut:" : "MaxLeske 5/28/2017 21:17:50",
+		"nextPutAll:" : "MaxLeske 5/28/2017 21:17:50",
+		"close" : "MaxLeske 5/28/2017 21:17:50",
+		"stream" : "MaxLeske 5/28/2017 21:17:50",
+		"destroy" : "MaxLeske 5/28/2017 21:17:50",
+		"open:" : "MaxLeske 5/28/2017 21:17:50",
+		"scriptGenerator:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithStream:codec:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"new" : "MaxLeske 5/28/2017 21:17:50",
+		"on:codec:" : "MaxLeske 5/28/2017 21:17:50",
+		"on:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

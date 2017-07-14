@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleFiltered:" : "pmm 8/13/2010 13:58",
-		"isSession" : "pmm 8/13/2010 13:59",
-		"key:" : "pmm 7/12/2015 18:05" } }
+		"isSession" : "MaxLeske 5/28/2017 21:17:50",
+		"key:" : "MaxLeske 5/28/2017 21:17:50",
+		"handleFiltered:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

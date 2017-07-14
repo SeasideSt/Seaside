@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"block:" : "jf 7/14/2008 02:11",
-		"evaluateWithArgument:" : "pmm 1/10/2009 22:59",
-		"isEnabledFor:" : "MAD 2/11/2009 21:41",
-		"priority" : "lr 12/28/2008 14:48",
-		"signalRenderNotification" : "pmm 1/10/2009 13:45" } }
+		"isEnabledFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"block:" : "MaxLeske 5/28/2017 21:17:50",
+		"evaluateWithArgument:" : "MaxLeske 5/28/2017 21:17:50",
+		"priority" : "MaxLeske 5/28/2017 21:17:50",
+		"signalRenderNotification" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

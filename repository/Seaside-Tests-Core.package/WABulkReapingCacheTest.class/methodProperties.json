@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCache" : "pmm 7/13/2015 14:06",
-		"testExpireAbsolute" : "pmm 7/16/2015 14:11",
-		"testExpireRelative" : "pmm 7/16/2015 14:07",
-		"testInitialCount" : "pmm 7/16/2015 14:07",
-		"testSendUnregistered" : "pmm 7/16/2015 15:58",
-		"workAroundPharo3Bug" : "pmm 7/16/2015 14:08" } }
+		"testSendUnregistered" : "MaxLeske 5/28/2017 21:17:50",
+		"testExpireRelative" : "MaxLeske 5/28/2017 21:17:50",
+		"workAroundPharo3Bug" : "MaxLeske 5/28/2017 21:17:50",
+		"createCache" : "MaxLeske 5/28/2017 21:17:50",
+		"testExpireAbsolute" : "MaxLeske 5/28/2017 21:17:50",
+		"testInitialCount" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

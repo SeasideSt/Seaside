@@ -1,21 +1,24 @@
 {
-	"class" : {
-		"default" : "JohanBrichau 7/16/2015 14:59",
-		"initialize" : "JohanBrichau 7/16/2015 14:58",
-		"initializeDefaultValueHolder" : "pmm 7/17/2015 11:02",
-		"shutDown" : "yann.monclair 9/5/2009 18:03",
-		"startUp" : "yann.monclair 9/5/2009 18:03",
-		"unload" : "jf 9/30/2009 00:19" },
 	"instance" : {
-		"adaptors" : "jf 10/29/2008 17:28",
-		"canStart:" : "pmm 8/19/2014 09:32",
-		"canStop:" : "jf 10/30/2008 15:50",
-		"initialize" : "jf 10/29/2008 17:28",
-		"register:" : "jf 10/30/2008 16:14",
-		"restart:" : "jf 10/30/2008 13:51",
-		"restartAll" : "jf 10/29/2008 17:31",
-		"start:" : "jf 10/31/2008 09:23",
-		"startAll" : "jf 10/29/2008 17:31",
-		"stop:" : "jf 10/30/2008 15:52",
-		"stopAll" : "jf 10/29/2008 17:31",
-		"unregister:" : "jf 2/7/2009 20:20" } }
+		"restart:" : "MaxLeske 5/28/2017 21:17:50",
+		"restartAll" : "MaxLeske 5/28/2017 21:17:50",
+		"canStart:" : "MaxLeske 5/28/2017 21:17:50",
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"adaptors" : "MaxLeske 5/28/2017 21:17:50",
+		"stop:" : "MaxLeske 5/28/2017 21:17:50",
+		"start:" : "MaxLeske 5/28/2017 21:17:50",
+		"stopAll" : "MaxLeske 5/28/2017 21:17:50",
+		"canStop:" : "MaxLeske 5/28/2017 21:17:50",
+		"register:" : "MaxLeske 5/28/2017 21:17:50",
+		"startAll" : "MaxLeske 5/28/2017 21:17:50",
+		"unregister:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"shutDown" : "MaxLeske 5/28/2017 21:17:50",
+		"initialize" : "MaxLeske 5/28/2017 21:17:50",
+		"default" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeDefaultValueHolder" : "MaxLeske 5/28/2017 21:17:50",
+		"startUp" : "MaxLeske 5/28/2017 21:17:50",
+		"unload" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

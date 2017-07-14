@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Core-Callbacks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAMapCallback",
-	"pools" : [
-		 ],
 	"super" : "WAValueCallback",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Callbacks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAMapCallback",
+	"type" : "normal"
+}

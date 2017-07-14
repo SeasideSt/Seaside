@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"from:to:" : "pmm 1/31/2014 14:01",
-		"keys:" : "pmm 1/31/2014 13:59" },
 	"instance" : {
-		"initializeWithKeys:" : "pmm 1/31/2014 15:54",
-		"keyOfLength:" : "pmm 1/31/2014 13:56" } }
+		"keyOfLength:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithKeys:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"keys:" : "MaxLeske 5/28/2017 21:17:50",
+		"from:to:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

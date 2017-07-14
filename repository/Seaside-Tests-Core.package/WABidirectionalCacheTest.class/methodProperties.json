@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCache" : "pmm 7/14/2015 08:02",
-		"testCopy" : "pmm 7/13/2015 10:08",
-		"testKeyAtValue" : "pmm 7/13/2015 10:06",
-		"testMultipleMappings" : "pmm 7/14/2015 08:19",
-		"testRemove" : "pmm 7/13/2015 10:07",
-		"testValuesCollect" : "pmm 7/14/2015 09:15" } }
+		"testCopy" : "MaxLeske 5/28/2017 21:17:50",
+		"testValuesCollect" : "MaxLeske 5/28/2017 21:17:50",
+		"testKeyAtValue" : "MaxLeske 5/28/2017 21:17:50",
+		"createCache" : "MaxLeske 5/28/2017 21:17:50",
+		"testRemove" : "MaxLeske 5/28/2017 21:17:50",
+		"testMultipleMappings" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

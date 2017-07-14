@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"basicStop" : "PaulDeBruicker 1/14/2015 07:47",
-		"isRunning" : "lr 7/25/2011 20:12",
-		"isStarting" : "lr 7/25/2011 20:12",
-		"isStopped" : "lr 7/25/2011 20:12",
-		"isStopping" : "lr 7/25/2011 20:12",
-		"requestAddressFor:" : "pmm 2/13/2011 10:22",
-		"requestBodyFor:" : "pmm 2/13/2011 10:22",
-		"requestCookiesFor:" : "pmm 2/13/2011 10:22",
-		"requestFieldsFor:" : "pmm 2/13/2011 10:22",
-		"requestHeadersFor:" : "pmm 2/13/2011 10:22",
-		"requestMethodFor:" : "pmm 2/13/2011 10:22",
-		"requestVersionFor:" : "pmm 2/13/2011 10:22",
-		"responseFrom:" : "pmm 2/13/2011 10:21",
-		"running" : "yann.monclair 9/5/2009 17:28",
-		"starting" : "yann.monclair 9/5/2009 17:28",
-		"stopped" : "yann.monclair 9/5/2009 17:28",
-		"stopping" : "yann.monclair 9/5/2009 17:28" } }
+		"isRunning" : "MaxLeske 5/28/2017 21:17:50",
+		"stopping" : "MaxLeske 5/28/2017 21:17:50",
+		"stopped" : "MaxLeske 5/28/2017 21:17:50",
+		"requestBodyFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"requestVersionFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"requestHeadersFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"responseFrom:" : "MaxLeske 5/28/2017 21:17:50",
+		"requestFieldsFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"requestCookiesFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"running" : "MaxLeske 5/28/2017 21:17:50",
+		"starting" : "MaxLeske 5/28/2017 21:17:50",
+		"isStopping" : "MaxLeske 5/28/2017 21:17:50",
+		"isStopped" : "MaxLeske 5/28/2017 21:17:50",
+		"requestMethodFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"requestAddressFor:" : "MaxLeske 5/28/2017 21:17:50",
+		"basicStop" : "MaxLeske 5/28/2017 21:17:50",
+		"isStarting" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

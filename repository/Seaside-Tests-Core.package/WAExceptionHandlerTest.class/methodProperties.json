@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertHandles:" : "lr 7/25/2011 19:01",
-		"assertHandles:returnsSatisfying:" : "jf 1/1/2009 15:18",
-		"createHandler" : "jf 1/21/2009 11:16",
-		"createRequestContext" : "jf 7/31/2009 09:38",
-		"handlerClass" : "jf 12/30/2008 20:09",
-		"testCommaReturnsExceptionSet" : "jf 1/1/2009 15:18",
-		"testHandlerClassValidExceptionSelector" : "lr 7/25/2011 19:01",
-		"testHandlerInstanceValidExceptionSelector" : "lr 7/25/2011 19:01",
-		"testHandlesReturnsBool" : "pmm 2/16/2011 22:30",
-		"testInternalError" : "jok 1/26/2009 15:44",
-		"testInternalErrorWithMessage" : "jok 1/26/2009 15:44",
-		"testUnhandledException" : "pmm 1/10/2009 14:43",
-		"unhandledExceptionClass" : "jf 12/30/2008 20:09" } }
+		"handlerClass" : "MaxLeske 5/28/2017 21:17:50",
+		"createHandler" : "MaxLeske 5/28/2017 21:17:50",
+		"assertHandles:returnsSatisfying:" : "MaxLeske 5/28/2017 21:17:50",
+		"testCommaReturnsExceptionSet" : "MaxLeske 5/28/2017 21:17:50",
+		"createRequestContext" : "MaxLeske 5/28/2017 21:17:50",
+		"testHandlesReturnsBool" : "MaxLeske 5/28/2017 21:17:50",
+		"testInternalErrorWithMessage" : "MaxLeske 5/28/2017 21:17:50",
+		"testUnhandledException" : "MaxLeske 5/28/2017 21:17:50",
+		"testHandlerInstanceValidExceptionSelector" : "MaxLeske 5/28/2017 21:17:50",
+		"testInternalError" : "MaxLeske 5/28/2017 21:17:50",
+		"unhandledExceptionClass" : "MaxLeske 5/28/2017 21:17:50",
+		"testHandlerClassValidExceptionSelector" : "MaxLeske 5/28/2017 21:17:50",
+		"assertHandles:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

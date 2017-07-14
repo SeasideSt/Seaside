@@ -1,18 +1,17 @@
 {
-	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 1/1/2009 21:39",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"attribute",
 		"cachedValues",
 		"attributeHolders",
-		"attributeInheritors" ],
+		"attributeInheritors"
+	],
 	"name" : "WAAttributeSearchContext",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

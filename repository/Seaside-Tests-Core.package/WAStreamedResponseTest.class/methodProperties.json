@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertLines:" : "jok 3/22/2010 11:58",
-		"contents" : "lr 1/23/2009 11:16",
-		"response" : "lr 2/4/2009 08:02",
-		"testCanResetIfNoBody" : "pmm 8/25/2011 11:46",
-		"testCantReset" : "pmm 8/25/2011 13:55",
-		"testCookieAfterCommit" : "lr 1/22/2009 09:06",
-		"testFlushDelay" : "lr 1/23/2009 11:19",
-		"testFlushNextPutAll" : "lr 1/23/2009 11:19",
-		"testFlushStream" : "lr 1/23/2009 11:19",
-		"testHeaderAfterCommit" : "lr 1/22/2009 09:05",
-		"testIsCommitted" : "lr 1/17/2009 17:57",
-		"testStatusAfterCommit" : "lr 1/22/2009 09:06" } }
+		"testStatusAfterCommit" : "MaxLeske 5/28/2017 21:17:50",
+		"testCanResetIfNoBody" : "MaxLeske 5/28/2017 21:17:50",
+		"testIsCommitted" : "MaxLeske 5/28/2017 21:17:50",
+		"testFlushStream" : "MaxLeske 5/28/2017 21:17:50",
+		"testCantReset" : "MaxLeske 5/28/2017 21:17:50",
+		"testCookieAfterCommit" : "MaxLeske 5/28/2017 21:17:50",
+		"response" : "MaxLeske 5/28/2017 21:17:50",
+		"assertLines:" : "MaxLeske 5/28/2017 21:17:50",
+		"testFlushDelay" : "MaxLeske 5/28/2017 21:17:50",
+		"testFlushNextPutAll" : "MaxLeske 5/28/2017 21:17:50",
+		"testHeaderAfterCommit" : "MaxLeske 5/28/2017 21:17:50",
+		"contents" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

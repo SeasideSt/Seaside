@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"accept:" : "pmm 8/23/2014 10:58",
-		"default:" : "pmm 8/23/2014 11:51",
-		"stringForValue:" : "pmm 8/23/2014 10:57" } }
+		"accept:" : "MaxLeske 5/28/2017 21:17:50",
+		"default:" : "MaxLeske 5/28/2017 21:17:50",
+		"stringForValue:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

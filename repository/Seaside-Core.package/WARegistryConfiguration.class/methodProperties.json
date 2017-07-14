@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"describeOn:" : "pmm 7/16/2011 17:37",
-		"parents" : "jf 1/30/2009 10:57" } }
+		"describeOn:" : "MaxLeske 5/28/2017 21:17:50",
+		"parents" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

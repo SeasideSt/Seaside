@@ -1,3 +1,3 @@
-defaults
-defaultAction
+accessing
+default
 	^ self class defaultValue

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"key" ],
-	"name" : "WAConfigurationElement",
-	"pools" : [
-		 ],
 	"super" : "WAObject",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key"
+	],
+	"name" : "WAConfigurationElement",
+	"type" : "normal"
+}

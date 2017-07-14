@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contentType" : "avi 4/28/2004 11:13",
-		"contentType:" : "pmm 10/31/2010 13:57",
-		"contents:" : "mb 9/22/2006 12:37",
-		"contentsDecoded" : "lr 7/25/2011 20:02",
-		"contentsDecodedUsing:" : "pmm 11/14/2009 14:22",
-		"fileName" : "pmm 7/24/2007 22:03",
-		"fileName:" : "mb 9/22/2006 12:21",
-		"isWindowsPath" : "lr 7/25/2011 20:02",
-		"rawContents" : "pmm 11/14/2009 16:34",
-		"size" : "lr 7/25/2011 20:02" } }
+		"isWindowsPath" : "MaxLeske 5/28/2017 21:17:50",
+		"contents:" : "MaxLeske 5/28/2017 21:17:50",
+		"contentsDecoded" : "MaxLeske 5/28/2017 21:17:50",
+		"contentType" : "MaxLeske 5/28/2017 21:17:50",
+		"contentType:" : "MaxLeske 5/28/2017 21:17:50",
+		"rawContents" : "MaxLeske 5/28/2017 21:17:50",
+		"fileName:" : "MaxLeske 5/28/2017 21:17:50",
+		"size" : "MaxLeske 5/28/2017 21:17:50",
+		"fileName" : "MaxLeske 5/28/2017 21:17:50",
+		"contentsDecodedUsing:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

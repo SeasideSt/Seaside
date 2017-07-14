@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"new" : "jf 2/9/2009 16:20",
-		"root:" : "jf 2/9/2009 16:18" },
 	"instance" : {
-		"initializeWithRoot:" : "jf 2/9/2009 16:17",
-		"root" : "jf 10/22/2008 12:04",
-		"visitPainter:" : "jf 10/22/2008 15:51" } }
+		"visitPainter:" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeWithRoot:" : "MaxLeske 5/28/2017 21:17:50",
+		"root" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"new" : "MaxLeske 5/28/2017 21:17:50",
+		"root:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

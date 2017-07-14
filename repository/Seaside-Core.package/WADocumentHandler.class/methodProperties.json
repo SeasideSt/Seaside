@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"document:" : "jf 3/13/2009 18:06",
-		"document:mimeType:" : "lr 10/18/2008 17:05",
-		"document:mimeType:fileName:" : "lr 7/25/2011 19:00" },
 	"instance" : {
-		"=" : "lr 7/25/2011 19:00",
-		"document" : "ab 2/12/2003 13:41",
-		"handleFiltered:" : "lr 5/20/2009 20:11",
-		"hash" : "lr 10/18/2008 16:55",
-		"initializeOn:" : "jf 3/13/2009 18:06",
-		"postCopy" : "lr 10/18/2008 17:01" } }
+		"postCopy" : "MaxLeske 5/28/2017 21:17:50",
+		"=" : "MaxLeske 5/28/2017 21:17:50",
+		"handleFiltered:" : "MaxLeske 5/28/2017 21:17:50",
+		"hash" : "MaxLeske 5/28/2017 21:17:50",
+		"document" : "MaxLeske 5/28/2017 21:17:50",
+		"initializeOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"document:" : "MaxLeske 5/28/2017 21:17:50",
+		"document:mimeType:" : "MaxLeske 5/28/2017 21:17:50",
+		"document:mimeType:fileName:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

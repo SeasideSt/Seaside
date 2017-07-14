@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAsMIMEDocumentByteArray" : "lr 10/18/2008 16:45",
-		"testAsMIMEDocumentByteArrayColon" : "lr 10/18/2008 16:46",
-		"testAsMIMEDocumentString" : "lr 10/18/2008 16:46",
-		"testAsMIMEDocumentStringColon" : "lr 10/18/2008 16:46",
-		"testByteArraySeasideMimeDocumentType" : "pmm 6/19/2010 08:41",
-		"testStringSeasideMimeDocumentType" : "pmm 6/19/2010 08:39" } }
+		"testAsMIMEDocumentByteArrayColon" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsMIMEDocumentStringColon" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsMIMEDocumentByteArray" : "MaxLeske 5/28/2017 21:17:50",
+		"testAsMIMEDocumentString" : "MaxLeske 5/28/2017 21:17:50",
+		"testStringSeasideMimeDocumentType" : "MaxLeske 5/28/2017 21:17:50",
+		"testByteArraySeasideMimeDocumentType" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

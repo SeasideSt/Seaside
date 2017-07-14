@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"describeOn:" : "pmm 9/1/2012 16:06",
-		"exceptionHandlerClasses" : "jf 3/4/2009 10:15" } }
+		"exceptionHandlerClasses" : "MaxLeske 5/28/2017 21:17:50",
+		"describeOn:" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}

@@ -1,19 +1,22 @@
 {
-	"class" : {
-		"on:" : "lr 10/18/2008 17:09",
-		"on:mimeType:" : "lr 10/18/2008 16:21",
-		"on:mimeType:fileName:" : "jf 3/13/2009 18:14" },
 	"instance" : {
-		"=" : "pmm 11/4/2008 11:17",
-		"content" : "lr 10/18/2008 16:43",
-		"contentStream" : "lr 10/18/2008 16:47",
-		"contentType" : "lr 10/18/2008 16:43",
-		"contents" : "lr 10/18/2008 15:56",
-		"contents:" : "lr 10/18/2008 15:57",
-		"fileName" : "lr 10/18/2008 15:20",
-		"fileName:" : "lr 10/18/2008 15:57",
-		"hash" : "pmm 11/4/2008 11:17",
-		"initializeOn:mimeType:fileName:" : "jf 3/13/2009 18:14",
-		"mimeType" : "lr 10/18/2008 15:48",
-		"mimeType:" : "lr 10/18/2008 17:09",
-		"seasideMimeDocument" : "lr 10/18/2008 15:21" } }
+		"initializeOn:mimeType:fileName:" : "MaxLeske 5/28/2017 21:17:50",
+		"contentStream" : "MaxLeske 5/28/2017 21:17:50",
+		"contents:" : "MaxLeske 5/28/2017 21:17:50",
+		"mimeType" : "MaxLeske 5/28/2017 21:17:50",
+		"contentType" : "MaxLeske 5/28/2017 21:17:50",
+		"=" : "MaxLeske 5/28/2017 21:17:50",
+		"fileName:" : "MaxLeske 5/28/2017 21:17:50",
+		"mimeType:" : "MaxLeske 5/28/2017 21:17:50",
+		"fileName" : "MaxLeske 5/28/2017 21:17:50",
+		"hash" : "MaxLeske 5/28/2017 21:17:50",
+		"content" : "MaxLeske 5/28/2017 21:17:50",
+		"contents" : "MaxLeske 5/28/2017 21:17:50",
+		"seasideMimeDocument" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : {
+		"on:mimeType:fileName:" : "MaxLeske 5/28/2017 21:17:50",
+		"on:" : "MaxLeske 5/28/2017 21:17:50",
+		"on:mimeType:" : "MaxLeske 5/28/2017 21:17:50"
+	}
+}

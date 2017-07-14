@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testCountryName" : "pmm 3/16/2008 12:38",
-		"testIso3" : "jf 9/30/2009 01:10",
-		"testLanguage" : "pmm 5/8/2010 22:53",
-		"testLanguageName" : "pmm 3/16/2008 12:58",
-		"testLangugeAndCountry" : "jf 9/30/2009 01:10",
-		"testLangugeOnly" : "jf 9/30/2009 01:10",
-		"testWithoutCountry" : "pmm 9/1/2012 16:30" } }
+		"testLanguageName" : "MaxLeske 5/28/2017 21:17:50",
+		"testLangugeOnly" : "MaxLeske 5/28/2017 21:17:50",
+		"testLangugeAndCountry" : "MaxLeske 5/28/2017 21:17:50",
+		"testWithoutCountry" : "MaxLeske 5/28/2017 21:17:50",
+		"testIso3" : "MaxLeske 5/28/2017 21:17:50",
+		"testCountryName" : "MaxLeske 5/28/2017 21:17:50",
+		"testLanguage" : "MaxLeske 5/28/2017 21:17:50"
+	},
+	"class" : { }
+}
