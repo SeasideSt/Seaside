@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Core-Document",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/1/2014 13:42",
+	"super" : "WARoot",
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"docType",
 		"htmlAttrs",
@@ -13,9 +13,8 @@
 		"headElements",
 		"title",
 		"styles",
-		"scripts" ],
+		"scripts"
+	],
 	"name" : "WAHtmlRoot",
-	"pools" : [
-		 ],
-	"super" : "WARoot",
-	"type" : "normal" }
+	"type" : "normal"
+}

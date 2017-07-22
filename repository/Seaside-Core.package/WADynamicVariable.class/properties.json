@@ -1,14 +1,11 @@
 {
+	"commentStamp" : "JohanBrichau 7/22/2017 11:02",
+	"super" : "GRDynamicVariable",
 	"category" : "Seaside-Core-Utilities",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "pmm 4/17/2007 00:14",
-	"instvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "WADynamicVariable",
-	"pools" : [
-		 ],
-	"super" : "WANotification",
-	"type" : "normal" }
+	"type" : "normal"
+}
