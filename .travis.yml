@@ -1,8 +1,8 @@
 language: smalltalk
 sudo: false
 smalltalk:
-  - Pharo(64)-7.0
-  - Pharo(64)-6.0
+  - Pharo-7.0
+  - Pharo-6.0
   - Pharo-5.0
   - Pharo-4.0
   - Pharo-3.0
