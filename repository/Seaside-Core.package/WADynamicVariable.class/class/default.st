@@ -1,3 +1,0 @@
-defaults
-default
-	^ self defaultValue
