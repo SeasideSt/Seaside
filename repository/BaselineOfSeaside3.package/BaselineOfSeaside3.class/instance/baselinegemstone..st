@@ -12,12 +12,12 @@ baselinegemstone: spec
                 repository: 'github://glassdb/glass:master/repository' ];
         yourself.
       spec
-		  package: 'Seaside-Squeak-Compatibility';
+        package: 'Seaside-Squeak-Compatibility';
         package: 'Seaside-Core'
           with: [ 
               spec
                 includes: #('Seaside-GemStone-Core');
-		    requires: #('GLASS1' 'Seaside-Squeak-Compatibility') ];
+                requires: #('GLASS1' 'Seaside-Squeak-Compatibility') ];
         package: 'Seaside-Development'
           with: [ spec includes: #('Seaside-GemStone-Development') ];
         package: 'Seaside-Email'
@@ -25,7 +25,10 @@ baselinegemstone: spec
         package: 'Seaside-Flow'
           with: [ spec includes: #('Seaside-GemStone-Flow') ];
         package: 'Seaside-Environment'
-          with: [ spec includes: #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
+          with: [ 
+              spec
+                includes:
+                  #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
         package: 'Seaside-Session'
           with: [ spec includes: #('Seaside-GemStone-Session') ];
         package: 'Seaside-Tools-Web'
@@ -111,7 +114,7 @@ baselinegemstone: spec
         package: 'Seaside-GemStone-Core'
           with: [ spec requires: #('Seaside-GemStone300-Core') ] ].
   spec
-    for: #(#'gs3.2.x' #'gs3.3.x')
+    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
     do: [ 
       spec
         package: 'Seaside-Core'
