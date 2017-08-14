@@ -11,7 +11,8 @@
 		"testCompileByteArray" : "pmm 9/2/2012 13:31",
 		"testImgglyphiconshalflingsPng" : "pmm 9/1/2012 16:23",
 		"testCompileString" : "pmm 9/2/2012 13:31",
-		"testIsBinary" : "NickAger 3/9/2012 14:37"
+		"testIsBinary" : "NickAger 3/9/2012 14:37",
+		"testAsFileAndFoldernameWithSubfolders" : "GabrielOmarCotelli 8/14/2017 12:08"
 	},
 	"class" : { }
 }
