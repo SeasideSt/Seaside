@@ -4,5 +4,5 @@ testAsFileAndFoldernameWithSubfolders
 	library := WATestingMetadataFileLibrary default.
 	fileAndFolderName := library asFileAndFoldername: #jsbootstrapJs.
 	self
-		assert: fileAndFolderName first equals: ('<1s><2s><3s>' expandMacrosWith: library name with: GRPlatform current pathSeparator  with: 'js' );
+		assert: fileAndFolderName first equals: library name , GRPlatform current pathSeparator , 'js';
 		assert: fileAndFolderName last equals: 'bootstrap.js'
