@@ -3,8 +3,10 @@ asFileAndFoldername: aSelector
 	| foldername filename pathSeparator |
 	pathSeparator := GRPlatform current pathSeparator.
 	filename := (self fileResourceOf: aSelector) filepath.
-	filename := filename replaceAll: $/ with: pathSeparator first.
+	"File resources in metadata libraries are always specified using the UNIX path separator convention"
 	foldername := (filename includes: $/)
-		ifTrue: [ self name , pathSeparator, (filename copyUpToLast: pathSeparator first) ]
+		ifTrue: [ 
+			filename := filename copyReplaceAll: '/' with: pathSeparator.
+			self name , pathSeparator, (filename copyUpToLast: pathSeparator first) ]
 		ifFalse: [ self name ].
 	^ Array with: foldername with: (GRPlatform current localNameOf: filename)
