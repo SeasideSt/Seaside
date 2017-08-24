@@ -1,6 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
+      #useLatestMetacello : true,
       #configuration : 'Seaside3',
       #version : #bleedingEdge,
       #repository : 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main',
@@ -8,6 +9,7 @@ SmalltalkCISpec {
       #platforms : [ #pharo, #squeak ]
     },
     SCIMetacelloLoadSpec {
+      #useLatestMetacello : true,
       #configuration : 'Seaside3',
       #version : #bleedingEdge,
       #repository : 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main',
