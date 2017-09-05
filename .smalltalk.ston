@@ -1,6 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
+      #useLatestMetacello : true,
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
