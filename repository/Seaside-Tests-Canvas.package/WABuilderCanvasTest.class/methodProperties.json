@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"testBody" : "as 2/6/2011 22:03",
 		"testFullDocument" : "pmm 8/22/2014 17:50",
-		"testFullDocumentWithBlock" : "pmm 7/19/2015 13:51" } }
+		"testFullDocumentWithBlock" : "pmm 7/19/2015 13:51"
+	},
+	"class" : { }
+}

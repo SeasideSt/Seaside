@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"allValuesCallbackClass" : "pmm 4/22/2012 16:10",
+		"type" : "lr 7/25/2011 20:11",
 		"callback:" : "pmm 6/14/2009 13:38",
-		"type" : "lr 7/25/2011 20:11" } }
+		"allValuesCallbackClass" : "pmm 4/22/2012 16:10"
+	},
+	"class" : { }
+}

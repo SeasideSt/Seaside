@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Canvas-Tags",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/22/2007 22:25",
+	"super" : "WATagBrush",
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"rootBlock",
-		"url" ],
+		"url"
+	],
 	"name" : "WAIframeTag",
-	"pools" : [
-		 ],
-	"super" : "WATagBrush",
-	"type" : "normal" }
+	"type" : "normal"
+}

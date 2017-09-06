@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"altText:" : "lr 10/28/2007 14:42",
-		"height:" : "lr 10/28/2007 14:42",
-		"initialize" : "lr 6/20/2007 10:53",
-		"isClosed" : "lr 3/27/2007 11:06",
-		"resourceUrl:" : "jf 2/21/2009 18:29",
-		"setParent:canvas:" : "lr 3/24/2008 13:01",
-		"sourceSet:" : "pmm 8/17/2014 08:15",
 		"tag" : "ac 3/16/2005 12:00",
+		"initialize" : "lr 6/20/2007 10:53",
+		"resourceUrl:" : "jf 2/21/2009 18:29",
+		"height:" : "lr 10/28/2007 14:42",
+		"width:" : "lr 10/28/2007 14:42",
+		"isClosed" : "lr 3/27/2007 11:06",
+		"sourceSet:" : "pmm 8/17/2014 08:15",
 		"url:" : "lr 6/20/2007 10:53",
-		"width:" : "lr 10/28/2007 14:42" } }
+		"setParent:canvas:" : "lr 3/24/2008 13:01"
+	},
+	"class" : { }
+}

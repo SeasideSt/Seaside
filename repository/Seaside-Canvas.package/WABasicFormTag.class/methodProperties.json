@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"acceptCharset:" : "lr 3/24/2008 13:01",
-		"action:" : "lr 9/8/2009 12:50",
-		"defaultUrlCharset" : "MAD 8/30/2008 14:55",
-		"get" : "obi 2/11/2009 21:45",
-		"initialize" : "pmm 5/26/2010 07:25",
-		"method:" : "lr 3/24/2008 13:01",
-		"multipart" : "pmm 5/26/2010 07:19",
 		"multipart:" : "pmm 8/19/2014 10:28",
-		"name:" : "pmm 11/11/2008 22:58",
+		"tag" : "avi 6/17/2004 11:29",
 		"noAutocomplete" : "lr 3/24/2008 13:01",
+		"method:" : "lr 3/24/2008 13:01",
+		"defaultUrlCharset" : "MAD 8/30/2008 14:55",
+		"name:" : "pmm 11/11/2008 22:58",
+		"initialize" : "pmm 5/26/2010 07:25",
+		"multipart" : "pmm 5/26/2010 07:19",
+		"action:" : "lr 9/8/2009 12:50",
+		"get" : "obi 2/11/2009 21:45",
+		"acceptCharset:" : "lr 3/24/2008 13:01",
 		"post" : "pmm 5/9/2008 19:27",
-		"setParent:canvas:" : "pmm 8/30/2009 10:27",
-		"tag" : "avi 6/17/2004 11:29" } }
+		"setParent:canvas:" : "pmm 8/30/2009 10:27"
+	},
+	"class" : { }
+}

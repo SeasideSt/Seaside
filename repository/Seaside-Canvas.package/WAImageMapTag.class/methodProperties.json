@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"callback:" : "jf 2/15/2010 02:08" } }
+		"callback:" : "jf 2/15/2010 02:08"
+	},
+	"class" : { }
+}
