@@ -1,14 +1,11 @@
 {
-	"category" : "Javascript-Tests-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JSStreamTest",
-	"pools" : [
-		 ],
 	"super" : "JSObjectTest",
-	"type" : "normal" }
+	"category" : "Javascript-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSStreamTest",
+	"type" : "normal"
+}

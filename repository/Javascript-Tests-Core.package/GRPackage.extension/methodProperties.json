@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"javascriptTestsCore" : "lr 2/17/2010 15:11" },
-	"instance" : {
-		 } }
+		"javascriptTestsCore" : "lr 2/17/2010 15:11"
+	}
+}

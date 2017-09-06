@@ -1,14 +1,11 @@
 {
-	"category" : "Javascript-Core-Decorations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 12/31/2009 23:54",
-	"instvars" : [
-		 ],
-	"name" : "JSConcatenation",
-	"pools" : [
-		 ],
 	"super" : "JSStatement",
-	"type" : "normal" }
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSConcatenation",
+	"type" : "normal"
+}

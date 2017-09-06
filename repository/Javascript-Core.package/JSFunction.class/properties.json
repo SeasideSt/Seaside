@@ -1,15 +1,14 @@
 {
-	"category" : "Javascript-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 4/28/2008 09:40",
+	"super" : "JSScript",
+	"category" : "Javascript-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"return",
-		"arguments" ],
+		"arguments"
+	],
 	"name" : "JSFunction",
-	"pools" : [
-		 ],
-	"super" : "JSScript",
-	"type" : "normal" }
+	"type" : "normal"
+}

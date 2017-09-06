@@ -1,14 +1,11 @@
 {
-	"category" : "Javascript-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/1/2014 13:35",
-	"instvars" : [
-		 ],
-	"name" : "JSJson",
-	"pools" : [
-		 ],
 	"super" : "JSObject",
-	"type" : "normal" }
+	"category" : "Javascript-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJson",
+	"type" : "normal"
+}
