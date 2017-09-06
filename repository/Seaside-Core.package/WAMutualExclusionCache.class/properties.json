@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/9/2013 09:07",
+	"super" : "WACache",
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"mutex",
-		"cache" ],
+		"cache"
+	],
 	"name" : "WAMutualExclusionCache",
-	"pools" : [
-		 ],
-	"super" : "WACache",
-	"type" : "normal" }
+	"type" : "normal"
+}

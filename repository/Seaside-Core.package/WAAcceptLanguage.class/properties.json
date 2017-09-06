@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/18/2011 22:53",
-	"instvars" : [
-		 ],
-	"name" : "WAAcceptLanguage",
-	"pools" : [
-		 ],
 	"super" : "WAQualifiedValue",
-	"type" : "normal" }
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAAcceptLanguage",
+	"type" : "normal"
+}
