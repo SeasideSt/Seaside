@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"valueForField:" : "lr 7/25/2011 20:00" } }
+		"valueForField:" : "lr 7/25/2011 20:00"
+	},
+	"class" : { }
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/14/2015 18:30",
-	"instvars" : [
-		"count" ],
-	"name" : "WAReducedConflictCounter",
-	"pools" : [
-		 ],
 	"super" : "WAObject",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count"
+	],
+	"name" : "WAReducedConflictCounter",
+	"type" : "normal"
+}

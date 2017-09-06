@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Core-Libraries",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"filepath",
 		"mimeType",
 		"cacheDuration",
-		"contents" ],
+		"contents"
+	],
 	"name" : "WAFileLibraryResource",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

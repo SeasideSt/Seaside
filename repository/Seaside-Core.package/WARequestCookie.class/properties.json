@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/8/2013 16:18",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"path",
@@ -12,9 +12,8 @@
 		"domain",
 		"ports",
 		"value",
-		"version" ],
+		"version"
+	],
 	"name" : "WARequestCookie",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

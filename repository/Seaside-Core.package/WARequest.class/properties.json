@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 8/14/2011 10:45",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"method",
 		"uri",
@@ -14,9 +14,8 @@
 		"cookies",
 		"body",
 		"postFields",
-		"sslSessionId" ],
+		"sslSessionId"
+	],
 	"name" : "WARequest",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
