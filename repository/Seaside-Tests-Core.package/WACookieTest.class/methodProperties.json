@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testCombine" : "pmm 8/16/2014 14:01",
 		"testCopy" : "pmm 9/1/2012 16:17",
-		"testEquals" : "pmm 9/1/2012 16:17",
+		"testWriteOn" : "pmm 8/16/2014 14:19",
+		"testFromStringRfc2965" : "pmm 9/11/2013 12:24",
 		"testExpireInPast" : "pmm 4/5/2008 15:42",
 		"testExpirePrinting" : "pmm 8/16/2014 13:40",
 		"testFromStringOldNetscape" : "pmm 9/11/2013 12:22",
-		"testFromStringRfc2965" : "pmm 9/11/2013 12:24",
 		"testPathEncoding" : "pmm 9/11/2013 12:42",
-		"testWriteOn" : "pmm 8/16/2014 14:19" } }
+		"testEquals" : "pmm 9/1/2012 16:17",
+		"testCombine" : "pmm 8/16/2014 14:01"
+	},
+	"class" : { }
+}

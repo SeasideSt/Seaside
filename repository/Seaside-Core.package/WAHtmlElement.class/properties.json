@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Core-Document-Elements",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 1/28/2008 07:08",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-Document-Elements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"root",
 		"attributes",
-		"children" ],
+		"children"
+	],
 	"name" : "WAHtmlElement",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Core-Callbacks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"callbacks" ],
-	"name" : "WADispatchCallback",
-	"pools" : [
-		 ],
 	"super" : "WACallback",
-	"type" : "normal" }
+	"category" : "Seaside-Core-Callbacks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callbacks"
+	],
+	"name" : "WADispatchCallback",
+	"type" : "normal"
+}

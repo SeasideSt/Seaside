@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleFiltered:" : "jf 1/30/2009 15:59" } }
+		"handleFiltered:" : "jf 1/30/2009 15:59"
+	},
+	"class" : { }
+}

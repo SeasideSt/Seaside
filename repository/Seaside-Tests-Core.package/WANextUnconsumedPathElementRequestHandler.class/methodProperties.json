@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"nextUnconsumedPathElement" : "lr 7/25/2011 20:07",
 		"handle:" : "pmm 9/5/2009 12:16",
-		"handleFiltered:" : "jf 9/1/2009 00:53",
-		"nextUnconsumedPathElement" : "lr 7/25/2011 20:07" } }
+		"handleFiltered:" : "jf 9/1/2009 00:53"
+	},
+	"class" : { }
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"document" ],
-	"name" : "WACollectionMimeDocumentTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"document"
+	],
+	"name" : "WACollectionMimeDocumentTest",
+	"type" : "normal"
+}

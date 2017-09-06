@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"on:codec:" : "pmm 8/14/2011 22:32" },
 	"instance" : {
-		"nextPut:" : "pmm 8/14/2011 22:18",
-		"nextPutAll:" : "pmm 8/14/2011 22:20" } }
+		"nextPutAll:" : "pmm 8/14/2011 22:20",
+		"nextPut:" : "pmm 8/14/2011 22:18"
+	},
+	"class" : {
+		"on:codec:" : "pmm 8/14/2011 22:32"
+	}
+}

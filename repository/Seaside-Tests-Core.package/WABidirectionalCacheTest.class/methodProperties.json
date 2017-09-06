@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCache" : "pmm 7/14/2015 08:02",
 		"testCopy" : "pmm 7/13/2015 10:08",
+		"testValuesCollect" : "pmm 7/14/2015 09:15",
 		"testKeyAtValue" : "pmm 7/13/2015 10:06",
-		"testMultipleMappings" : "pmm 7/14/2015 08:19",
+		"createCache" : "pmm 7/14/2015 08:02",
 		"testRemove" : "pmm 7/13/2015 10:07",
-		"testValuesCollect" : "pmm 7/14/2015 09:15" } }
+		"testMultipleMappings" : "pmm 7/14/2015 08:19"
+	},
+	"class" : { }
+}

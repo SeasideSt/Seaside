@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"entry:" : "pmm 9/10/2013 09:16" },
 	"instance" : {
-		"cacheEntry" : "pmm 9/8/2013 18:27",
-		"expunge" : "pmm 9/9/2013 12:06",
+		"previous" : "pmm 9/9/2013 09:28",
 		"initializeTime" : "pmm 9/9/2013 12:08",
 		"initializeWithEntry:" : "pmm 9/10/2013 09:15",
+		"previous:" : "pmm 9/9/2013 09:28",
 		"next" : "pmm 9/9/2013 09:28",
 		"next:" : "pmm 9/9/2013 09:28",
-		"previous" : "pmm 9/9/2013 09:28",
-		"previous:" : "pmm 9/9/2013 09:28",
-		"time" : "pmm 9/8/2013 18:17" } }
+		"expunge" : "pmm 9/9/2013 12:06",
+		"time" : "pmm 9/8/2013 18:17",
+		"cacheEntry" : "pmm 9/8/2013 18:27"
+	},
+	"class" : {
+		"entry:" : "pmm 9/10/2013 09:16"
+	}
+}
