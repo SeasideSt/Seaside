@@ -1,15 +1,18 @@
 {
-	"class" : {
-		"description" : "NickAger 6/16/2010 02:22",
-		"initialize" : "pmm 8/23/2014 14:51" },
 	"instance" : {
+		"updateRoot:" : "pmm 8/22/2011 10:53",
+		"title" : "pmm 9/6/2017 10:39",
+		"renderSideBarJoinTheCommunityOn:" : "lr 9/12/2010 11:31",
+		"renderContentOn:" : "jf 6/23/2010 18:26",
 		"children" : "jf 6/16/2010 10:11",
 		"component" : "NickAger 6/16/2010 01:40",
-		"renderContentOn:" : "jf 6/23/2010 18:26",
 		"renderHeadingOn:" : "jf 6/16/2010 09:46",
 		"renderMainContentOn:" : "jf 6/16/2010 10:11",
-		"renderSideBarDivingInOn:" : "JohanBrichau 7/24/2015 17:14",
-		"renderSideBarJoinTheCommunityOn:" : "lr 9/12/2010 11:31",
 		"renderSideBarOn:" : "pmm 9/1/2012 15:22",
-		"title" : "pmm 7/12/2015 17:43",
-		"updateRoot:" : "pmm 8/22/2011 10:53" } }
+		"renderSideBarDivingInOn:" : "pmm 9/6/2017 11:04"
+	},
+	"class" : {
+		"initialize" : "pmm 8/23/2014 14:51",
+		"description" : "NickAger 6/16/2010 02:22"
+	}
+}

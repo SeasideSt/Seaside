@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Welcome",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAWelcomeComponentCreator",
-	"pools" : [
-		 ],
 	"super" : "WATask",
-	"type" : "normal" }
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWelcomeComponentCreator",
+	"type" : "normal"
+}
