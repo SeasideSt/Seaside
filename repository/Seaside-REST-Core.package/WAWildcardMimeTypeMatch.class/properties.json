@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-REST-Core-Route",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAWildcardMimeTypeMatch",
-	"pools" : [
-		 ],
 	"super" : "WAMimeTypeMatch",
-	"type" : "normal" }
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWildcardMimeTypeMatch",
+	"type" : "normal"
+}

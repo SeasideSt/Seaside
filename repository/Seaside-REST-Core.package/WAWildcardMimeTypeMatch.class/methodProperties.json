@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"matches:" : "lr 7/25/2011 10:55",
-		"printOn:" : "NickAger 8/13/2011 16:11",
 		"priority" : "lr 7/25/2011 10:55",
-		"priorityFor:" : "pmm 10/17/2010 14:15" } }
+		"priorityFor:" : "pmm 10/17/2010 14:15",
+		"printOn:" : "NickAger 8/13/2011 16:11"
+	},
+	"class" : { }
+}
