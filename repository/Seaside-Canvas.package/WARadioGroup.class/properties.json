@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Canvas",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 6/1/2008 00:47",
+	"super" : "WAObject",
+	"category" : "Seaside-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"canvas",
 		"key",
 		"values",
-		"selected" ],
+		"selected"
+	],
 	"name" : "WARadioGroup",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

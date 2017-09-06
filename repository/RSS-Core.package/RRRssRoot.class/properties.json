@@ -1,16 +1,15 @@
 {
-	"category" : "RSS-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAXmlRoot",
+	"category" : "RSS-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"rssAttributes",
 		"channelAttributes",
-		"styles" ],
+		"styles"
+	],
 	"name" : "RRRssRoot",
-	"pools" : [
-		 ],
-	"super" : "WAXmlRoot",
-	"type" : "normal" }
+	"type" : "normal"
+}
