@@ -1,3 +1,3 @@
-*javascript-pharo20-core
+*javascript-core
 javascript: anObject
 	anObject javascriptOn: self

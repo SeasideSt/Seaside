@@ -1,16 +1,17 @@
 {
+	"commentStamp" : "lr 4/28/2008 09:44",
+	"super" : "JSObject",
 	"category" : "Javascript-Core",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"Arguments",
 		"JavascriptCharacters",
-		"This" ],
-	"commentStamp" : "lr 4/28/2008 09:44",
+		"This"
+	],
 	"instvars" : [
-		"stream" ],
+		"stream"
+	],
 	"name" : "JSStream",
-	"pools" : [
-		 ],
-	"super" : "JSObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

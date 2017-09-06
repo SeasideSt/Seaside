@@ -1,16 +1,15 @@
 {
-	"category" : "Javascript-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 12/31/2009 23:50",
+	"super" : "WAObject",
+	"category" : "Javascript-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"decoration",
 		"renderContext",
-		"rendererClass" ],
+		"rendererClass"
+	],
 	"name" : "JSObject",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
