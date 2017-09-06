@@ -3,17 +3,17 @@ testWriteOn
 	| expiry cookie |
 	expiry := DateAndTime year: 2007 month: 11 day: 21 hour: 14 minute: 42 second: 48 offset: (Duration days: 0 hours: 2 minutes: 0 seconds: 0).
 	cookie := WACookie key: 'ikuser' value: '1234'.
-	self assert: cookie oldNetscapeString = 'ikuser=1234'.
-	self assert: cookie rfc2109String = 'ikuser="1234"; Version=1'.
-	self assert: cookie rfc2965String = 'ikuser="1234"; Version=1'.
-	self assert: cookie rfc6265String = 'ikuser=1234'.
+	self assert: cookie oldNetscapeString = 'ikuser=1234; path=/'.
+	self assert: cookie rfc2109String = 'ikuser="1234"; path="/"; Version=1'.
+	self assert: cookie rfc2965String = 'ikuser="1234"; path="/"; Version=1'.
+	self assert: cookie rfc6265String = 'ikuser=1234; path=/'.
 	
 	cookie expiry: expiry.
 	cookie maxAge: 3600.
-	self assert: cookie oldNetscapeString = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT'.
-	self assert: cookie rfc2109String = 'ikuser="1234"; Max-Age="3600"; Version=1'.
-	self assert: cookie rfc2965String = 'ikuser="1234"; Max-Age="3600"; Version=1'.
-	self assert: cookie rfc6265String = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; Max-Age=3600'.
+	self assert: cookie oldNetscapeString = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; path=/'.
+	self assert: cookie rfc2109String = 'ikuser="1234"; Max-Age="3600"; path="/"; Version=1'.
+	self assert: cookie rfc2965String = 'ikuser="1234"; Max-Age="3600"; path="/"; Version=1'.
+	self assert: cookie rfc6265String = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; Max-Age=3600; path=/'.
 	
 	cookie path: '/seaside/counter'.
 	self assert: cookie oldNetscapeString = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; path=/seaside/counter'.
