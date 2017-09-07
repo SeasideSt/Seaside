@@ -1,10 +1,30 @@
 {
 	"instance" : {
-		"url:" : "as 2/8/2011 14:26",
-		"autoplay:" : "pmm 9/1/2012 16:30",
-		"loop:" : "pmm 9/1/2012 16:30",
 		"controls:" : "pmm 9/1/2012 16:30",
-		"preload:" : "pmm 9/1/2012 16:30"
+		"loop:" : "pmm 9/1/2012 16:30",
+		"onCanPlay:" : "pmm 9/7/2017 17:03",
+		"onPlaying:" : "pmm 9/7/2017 17:04",
+		"onEnded:" : "pmm 9/7/2017 17:05",
+		"onWaiting:" : "pmm 9/7/2017 17:04",
+		"onSeeked:" : "pmm 9/7/2017 17:04",
+		"onSeeking:" : "pmm 9/7/2017 17:04",
+		"onVolumeChange:" : "pmm 9/7/2017 17:06",
+		"onEmptied:" : "pmm 9/7/2017 17:02",
+		"onRateChange:" : "pmm 9/7/2017 17:06",
+		"onLoadStart:" : "pmm 9/7/2017 17:01",
+		"onLoadedMetadata:" : "pmm 9/7/2017 17:03",
+		"onProgress:" : "pmm 9/7/2017 17:01",
+		"onDurationChange:" : "pmm 9/7/2017 17:05",
+		"autoplay:" : "pmm 9/1/2012 16:30",
+		"onTimeUpdate:" : "pmm 9/7/2017 17:05",
+		"preload:" : "pmm 9/1/2012 16:30",
+		"onPlay:" : "pmm 9/7/2017 17:05",
+		"onCanPlayThrough:" : "pmm 9/7/2017 17:03",
+		"onSuspend:" : "pmm 9/7/2017 17:01",
+		"onLoadedData:" : "pmm 9/7/2017 17:03",
+		"onStalled:" : "pmm 9/7/2017 17:02",
+		"onPause:" : "pmm 9/7/2017 17:06",
+		"url:" : "as 2/8/2011 14:26"
 	},
 	"class" : { }
 }
