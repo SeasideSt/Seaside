@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Core-Cache",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAExpiringCacheTest",
-	"pools" : [
-		 ],
 	"super" : "WACacheTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAExpiringCacheTest",
+	"type" : "normal"
+}

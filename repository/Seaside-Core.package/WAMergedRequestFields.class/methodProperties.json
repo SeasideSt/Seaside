@@ -1,0 +1,24 @@
+{
+	"instance" : {
+		"keysAndValuesDo:" : "lr 2/21/2009 12:47",
+		"do:" : "jf 12/29/2009 20:37",
+		"associationsDo:" : "lr 2/21/2009 12:48",
+		"includesKey:" : "lr 2/21/2009 12:58",
+		"isEmpty" : "lr 2/22/2009 18:19",
+		"errorKeyNotFound" : "lr 2/21/2009 12:59",
+		"at:" : "lr 2/21/2009 12:59",
+		"at:ifPresent:" : "lr 2/22/2009 18:19",
+		"size" : "lr 2/22/2009 18:18",
+		"keys" : "jf 2/15/2010 16:39",
+		"at:ifAbsent:" : "lr 2/21/2009 13:00",
+		"values" : "jf 2/15/2010 16:42",
+		"keysDo:" : "lr 2/21/2009 12:47",
+		"allAt:ifAbsent:" : "jf 2/15/2010 17:13",
+		"initializeOn:" : "lr 2/22/2009 18:20",
+		"allAt:" : "jf 2/15/2010 17:12"
+	},
+	"class" : {
+		"new" : "lr 2/21/2009 13:02",
+		"on:" : "lr 2/21/2009 13:01"
+	}
+}

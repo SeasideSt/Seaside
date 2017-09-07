@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertRoot:gives:" : "pmm 8/22/2014 18:05",
-		"builder" : "jf 2/21/2009 18:49",
 		"resourceBaseUrl" : "jf 2/21/2009 18:42",
 		"testAbsoluteFtpUrl" : "pmm 1/7/2008 19:14",
-		"testAbsoluteHttpUrl" : "pmm 1/7/2008 19:12",
-		"testAbsoluteHttpsUrl" : "pmm 1/7/2008 19:13",
 		"testFileNameWithHttp" : "jf 2/21/2009 18:50",
-		"testImageTag" : "jf 2/21/2009 18:50",
-		"testRootScript" : "jf 2/21/2009 18:51",
+		"testAbsoluteHttpsUrl" : "pmm 1/7/2008 19:13",
+		"builder" : "jf 2/21/2009 18:49",
 		"testScriptTag" : "pmm 8/23/2014 09:42",
-		"testSylesheet" : "jf 2/21/2009 18:51" } }
+		"testAbsoluteHttpUrl" : "pmm 1/7/2008 19:12",
+		"testImageTag" : "jf 2/21/2009 18:50",
+		"testSylesheet" : "jf 2/21/2009 18:51",
+		"assertRoot:gives:" : "pmm 8/22/2014 18:05",
+		"testRootScript" : "jf 2/21/2009 18:51"
+	},
+	"class" : { }
+}

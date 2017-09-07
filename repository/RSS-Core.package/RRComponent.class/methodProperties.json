@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"canBeRoot" : "pmm 12/19/2010 11:48" },
 	"instance" : {
 		"rendererClass" : "lr 7/25/2011 19:54",
-		"session" : "pmm 11/26/2007 22:48" } }
+		"session" : "pmm 11/26/2007 22:48"
+	},
+	"class" : {
+		"canBeRoot" : "pmm 12/19/2010 11:48"
+	}
+}

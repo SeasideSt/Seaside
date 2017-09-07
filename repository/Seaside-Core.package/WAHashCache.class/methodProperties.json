@@ -1,0 +1,35 @@
+{
+	"instance" : {
+		"removeKey:" : "pmm 9/10/2013 12:35",
+		"store:" : "pmm 2/1/2014 10:56",
+		"sweep:maximumAge:now:" : "pmm 9/11/2013 09:41",
+		"performOverflowAction" : "pmm 9/9/2013 12:01",
+		"sweepIncrementally" : "pmm 9/9/2013 12:01",
+		"keysAndValuesDo:" : "pmm 9/10/2013 12:21",
+		"removeCacheEntry:" : "pmm 7/21/2015 10:46",
+		"removeFromKeyTable:" : "pmm 9/10/2013 12:56",
+		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "pmm 7/13/2015 14:13",
+		"errorAlreadyMapped" : "pmm 2/1/2014 12:21",
+		"clear" : "pmm 7/13/2015 14:44",
+		"size" : "pmm 7/12/2015 17:49",
+		"loadFactor" : "pmm 9/9/2013 09:17",
+		"addToAccessEnd:" : "pmm 9/10/2013 17:22",
+		"growCheck" : "pmm 7/13/2015 10:01",
+		"insertKeyEntry:" : "pmm 7/13/2015 10:04",
+		"errorKeyNotFound" : "pmm 9/9/2013 15:14",
+		"addToCreationEnd:" : "pmm 9/10/2013 17:23",
+		"errorNotMapped" : "pmm 9/10/2013 11:53",
+		"at:put:overwrite:" : "pmm 7/13/2015 14:57",
+		"at:put:" : "pmm 2/1/2014 10:55",
+		"at:ifAbsent:" : "pmm 9/10/2013 12:33",
+		"expunge:" : "pmm 9/14/2013 16:30",
+		"findEntryOrNilWithKey:hash:index:" : "pmm 9/10/2013 12:20",
+		"copy" : "pmm 9/11/2013 10:42"
+	},
+	"class" : {
+		"removeAbsoluteOldest" : "pmm 9/8/2013 18:15",
+		"removeRelativeOldest" : "pmm 9/8/2013 18:15",
+		"signalError" : "pmm 9/8/2013 18:01",
+		"overflowActions" : "pmm 9/8/2013 18:16"
+	}
+}

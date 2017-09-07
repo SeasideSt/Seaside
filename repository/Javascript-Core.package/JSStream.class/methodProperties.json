@@ -1,26 +1,29 @@
 {
-	"class" : {
-		"argument:" : "lr 10/16/2008 21:49",
-		"argumentAt:" : "lr 10/16/2008 21:49",
-		"encodeArguments:on:" : "lr 2/12/2009 09:43",
-		"encodeCollection:on:" : "pmm 8/19/2014 10:07",
-		"encodeDictionary:on:" : "lr 2/12/2009 09:44",
-		"encodeKey:value:on:" : "lr 4/15/2010 20:21",
-		"encodeString:on:" : "pmm 5/7/2012 19:32",
-		"initialize" : "pmm 5/7/2012 19:24",
-		"initializeEncoding" : "pmm 5/7/2012 19:27",
-		"initializeSnippets" : "lr 10/14/2008 11:36",
-		"on:" : "lr 5/10/2006 20:36",
-		"this" : "lr 10/14/2008 11:45" },
 	"instance" : {
 		"argument:" : "lr 2/12/2009 09:56",
-		"arguments:" : "lr 2/12/2009 09:57",
-		"contents" : "lr 5/1/2006 17:06",
+		"json:" : "lr 2/2/2010 21:24",
 		"copy" : "lr 5/10/2006 20:36",
 		"initialize" : "lr 2/4/2009 08:02",
-		"javascript:" : "lr 5/1/2006 17:07",
-		"javascriptContentOn:" : "lr 12/24/2009 10:16",
-		"json:" : "lr 2/2/2010 21:24",
+		"arguments:" : "lr 2/12/2009 09:57",
 		"nextPut:" : "lr 5/1/2006 17:07",
 		"nextPutAll:" : "lr 5/1/2006 17:07",
-		"stream" : "lr 5/1/2006 17:06" } }
+		"javascriptContentOn:" : "lr 12/24/2009 10:16",
+		"contents" : "lr 5/1/2006 17:06",
+		"stream" : "lr 5/1/2006 17:06",
+		"javascript:" : "lr 5/1/2006 17:07"
+	},
+	"class" : {
+		"argument:" : "lr 10/16/2008 21:49",
+		"this" : "lr 10/14/2008 11:45",
+		"encodeString:on:" : "pmm 5/7/2012 19:32",
+		"initializeSnippets" : "lr 10/14/2008 11:36",
+		"encodeKey:value:on:" : "lr 4/15/2010 20:21",
+		"on:" : "lr 5/10/2006 20:36",
+		"initializeEncoding" : "pmm 5/7/2012 19:27",
+		"encodeDictionary:on:" : "lr 2/12/2009 09:44",
+		"initialize" : "pmm 5/7/2012 19:24",
+		"argumentAt:" : "lr 10/16/2008 21:49",
+		"encodeCollection:on:" : "pmm 8/19/2014 10:07",
+		"encodeArguments:on:" : "lr 2/12/2009 09:43"
+	}
+}

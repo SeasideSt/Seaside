@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"checkAuthorInitials" : "NickAger 11/6/2010 18:11",
-		"chooseComponentName" : "NickAger 6/15/2010 19:53",
-		"createComponent:" : "lr 7/25/2011 18:29",
 		"displayComponent:named:" : "jf 6/30/2010 23:50",
 		"go" : "NickAger 11/6/2010 18:11",
-		"sampleComponentRenderMethod" : "lr 9/12/2010 12:01" } }
+		"sampleComponentRenderMethod" : "lr 9/12/2010 12:01",
+		"chooseComponentName" : "NickAger 6/15/2010 19:53",
+		"checkAuthorInitials" : "pmm 9/6/2017 10:40",
+		"createComponent:" : "lr 7/25/2011 18:29"
+	},
+	"class" : { }
+}

@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"size" : "pmm 7/12/2015 17:47",
+		"keysAndValuesDo:" : "pmm 8/26/2012 12:04",
+		"at:ifAbsent:" : "pmm 8/26/2012 12:17",
+		"keySize" : "pmm 9/10/2013 12:06",
+		"keyAtValue:ifAbsent:" : "pmm 8/26/2012 12:19",
+		"store:" : "pmm 8/26/2012 12:49",
+		"clear" : "pmm 9/8/2013 17:50",
+		"at:put:" : "pmm 8/26/2012 12:15",
+		"remove:" : "pmm 8/26/2012 12:16"
+	},
+	"class" : { }
+}

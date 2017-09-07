@@ -1,14 +1,11 @@
 {
-	"category" : "RSS-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "RRXmlStyleSheet",
-	"pools" : [
-		 ],
 	"super" : "WAContentElement",
-	"type" : "normal" }
+	"category" : "RSS-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RRXmlStyleSheet",
+	"type" : "normal"
+}

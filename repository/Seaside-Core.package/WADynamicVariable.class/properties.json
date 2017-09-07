@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "JohanBrichau 7/22/2017 11:02",
-	"super" : "GRDynamicVariable",
+	"commentStamp" : "pmm 4/17/2007 00:14",
+	"super" : "WANotification",
 	"category" : "Seaside-Core-Utilities",
 	"classinstvars" : [ ],
 	"pools" : [ ],

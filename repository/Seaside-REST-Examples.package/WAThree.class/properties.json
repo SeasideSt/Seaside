@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "pmm 8/27/2016 17:38",
+	"super" : "WAComponent",
+	"category" : "Seaside-REST-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counter"
+	],
+	"name" : "WAThree",
+	"type" : "normal"
+}

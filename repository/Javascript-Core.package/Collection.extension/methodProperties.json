@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"javascriptOn:" : "lr 2/12/2009 09:43" } }
+		"javascriptOn:" : "lr 2/12/2009 09:43"
+	},
+	"class" : { }
+}

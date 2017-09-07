@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"urlEncoderOn:codec:" : "pmm 8/14/2011 21:44",
+		"sourceFileEncoding" : "pmm 8/2/2011 20:55",
+		"xmlEncoderOn:" : "pmm 8/14/2011 17:57",
+		"urlEncoderOn:" : "pmm 8/14/2011 17:54",
+		"newReducedConflictCounter" : "pmm 7/14/2015 18:29",
+		"doCommitTransaction" : "JohanBrichau 7/16/2015 11:19",
+		"seasideVersion" : "JohanBrichau 9/16/2016 09:12",
+		"newTransientValueHolder" : "pmm 7/14/2015 18:29"
+	},
+	"class" : {
+		"subStringsIn:splitBy:" : "pmm 5/25/2017 15:17:03",
+		"subStringsIn:splitBy:collect:" : "pmm 5/25/2017 15:17:03",
+		"subStringsIn:splitBy:do:" : "pmm 2/25/2012 11:20"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"tag" : "lr 3/27/2007 11:26",
+		"beRightToLeft" : "pmm 10/7/2006 18:20",
+		"charset:" : "pmm 2/8/2011 22:05",
+		"contentType:" : "pmm 11/21/2007 21:17",
+		"responseHeaderName:" : "pmm 10/7/2006 18:25",
+		"redirectAfter:to:" : "jf 9/30/2009 01:10",
+		"contentScriptType:" : "pmm 11/21/2007 21:17",
+		"name:" : "pmm 10/7/2006 18:17",
+		"beLeftToRight" : "pmm 10/7/2006 18:20",
+		"content:" : "pmm 10/7/2006 18:17",
+		"scheme:" : "pmm 10/7/2006 18:17",
+		"language:" : "pmm 10/7/2006 18:18",
+		"textDirection:" : "pmm 10/7/2006 18:19"
+	},
+	"class" : { }
+}

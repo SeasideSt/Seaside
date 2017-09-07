@@ -1,14 +1,11 @@
 {
-	"category" : "RSS-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/21/2009 12:43",
-	"instvars" : [
-		 ],
-	"name" : "RRSystemConfiguration",
-	"pools" : [
-		 ],
 	"super" : "WASystemConfiguration",
-	"type" : "normal" }
+	"category" : "RSS-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RRSystemConfiguration",
+	"type" : "normal"
+}

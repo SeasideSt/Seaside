@@ -1,0 +1,22 @@
+{
+	"instance" : {
+		"headerAt:append:" : "lr 1/16/2009 16:40",
+		"destroy" : "lr 2/20/2009 14:40",
+		"headerAt:put:" : "lr 1/16/2009 16:39",
+		"removeHeaderAt:" : "lr 1/16/2009 16:41",
+		"flush" : "lr 2/7/2009 16:11",
+		"status:message:" : "lr 1/16/2009 16:33",
+		"binary" : "dkh 9/4/2009 09:09",
+		"isCommitted" : "lr 1/13/2009 10:00",
+		"isStreamingResponse" : "pmm 2/19/2012 12:33",
+		"addCookie:" : "lr 1/17/2009 17:20",
+		"committedCheck" : "pmm 2/18/2011 22:39",
+		"writeContentOn:" : "lr 1/13/2009 10:00",
+		"initializeOn:" : "lr 9/4/2009 10:00",
+		"stream" : "lr 1/22/2009 08:41",
+		"resetIfPossible" : "pmm 8/25/2011 13:54"
+	},
+	"class" : {
+		"on:" : "lr 1/13/2009 08:15"
+	}
+}
