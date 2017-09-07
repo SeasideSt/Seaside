@@ -287,6 +287,8 @@ defaultMimeTypes
 		'rtf' 'text/rtf'
 		'rtx' 'text/richtext'
 		'rxn' 'chemical/x-mdl-rxnfile'
+		'sass' 'text/x-sass'
+		'scss' 'text/x-scss'
 		'sct' 'text/scriptlet'
 		'sd' 'chemical/x-mdl-sdfile'
 		'sd2' 'audio/x-sd2'
