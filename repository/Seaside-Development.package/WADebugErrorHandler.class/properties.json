@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 5/27/2007 21:47",
-	"instvars" : [
-		 ],
-	"name" : "WADebugErrorHandler",
-	"pools" : [
-		 ],
 	"super" : "WAErrorHandler",
-	"type" : "normal" }
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WADebugErrorHandler",
+	"type" : "normal"
+}

@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"deprecated:" : "lr 12/30/2008 15:41",
-		"handleFiltered:" : "pmm 2/16/2014 23:13",
 		"initialize" : "lr 9/25/2008 11:25",
-		"notifications" : "lr 9/25/2008 15:13",
-		"reset" : "lr 9/25/2008 15:12" } }
+		"handleFiltered:" : "pmm 2/16/2014 23:13",
+		"reset" : "lr 9/25/2008 15:12",
+		"notifications" : "lr 9/25/2008 15:13"
+	},
+	"class" : { }
+}
