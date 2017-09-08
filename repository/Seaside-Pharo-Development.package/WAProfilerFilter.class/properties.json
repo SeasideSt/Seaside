@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Pharo-Development-Core-Profiler",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"items" ],
-	"name" : "WAProfilerFilter",
-	"pools" : [
-		 ],
 	"super" : "WARequestFilter",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"items"
+	],
+	"name" : "WAProfilerFilter",
+	"type" : "normal"
+}

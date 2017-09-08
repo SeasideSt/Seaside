@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Pharo-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"class",
 		"count",
-		"size" ],
+		"size"
+	],
 	"name" : "WAMemoryItem",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
