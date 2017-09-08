@@ -1,8 +1,11 @@
 {
+	"instance" : {
+		"fieldsFor:" : "jf 3/3/2009 21:48",
+		"doIt" : "jf 3/3/2009 22:09",
+		"evaluate" : "JohanBrichau 2/16/2014 14:26"
+	},
 	"class" : {
 		"initialize" : "jf 3/3/2009 22:06",
-		"unload" : "jf 3/3/2009 22:06" },
-	"instance" : {
-		"doIt" : "jf 3/3/2009 22:09",
-		"evaluate" : "JohanBrichau 2/16/2014 14:26",
-		"fieldsFor:" : "jf 3/3/2009 21:48" } }
+		"unload" : "jf 3/3/2009 22:06"
+	}
+}
