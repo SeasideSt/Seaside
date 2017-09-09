@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"bgPng" : "JohanBrichau 8/10/2014 16:12",
-		"todoCss" : "JohanBrichau 8/9/2014 15:49" } }
+		"todoCss" : "JohanBrichau 8/9/2014 15:49",
+		"bgPng" : "JohanBrichau 8/10/2014 16:12"
+	},
+	"class" : { }
+}

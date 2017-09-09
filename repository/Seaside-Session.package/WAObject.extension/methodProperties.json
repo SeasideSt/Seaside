@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"application" : "lr 7/25/2011 19:53",
-		"session" : "pmm 8/19/2014 10:13" } }
+		"session" : "pmm 8/19/2014 10:13",
+		"application" : "lr 7/25/2011 19:53"
+	},
+	"class" : { }
+}

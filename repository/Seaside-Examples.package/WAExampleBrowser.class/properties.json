@@ -1,18 +1,17 @@
 {
-	"category" : "Seaside-Examples-Misc",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 8/25/2016 15:38",
+	"super" : "WAExampleComponent",
+	"category" : "Seaside-Examples-Misc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"class",
 		"selector",
 		"component",
 		"hasAnswer",
-		"answer" ],
+		"answer"
+	],
 	"name" : "WAExampleBrowser",
-	"pools" : [
-		 ],
-	"super" : "WAExampleComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

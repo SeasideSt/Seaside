@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Session",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WACookieIfSupportedSessionTrackingStrategyTest",
-	"pools" : [
-		 ],
 	"super" : "WACookieSessionTrackingStrategyTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACookieIfSupportedSessionTrackingStrategyTest",
+	"type" : "normal"
+}
