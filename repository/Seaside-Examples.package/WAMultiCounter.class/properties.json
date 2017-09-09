@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Examples-Misc",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/18/2011 23:01",
-	"instvars" : [
-		"counters" ],
-	"name" : "WAMultiCounter",
-	"pools" : [
-		 ],
 	"super" : "WAExampleComponent",
-	"type" : "normal" }
+	"category" : "Seaside-Examples-Misc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counters"
+	],
+	"name" : "WAMultiCounter",
+	"type" : "normal"
+}

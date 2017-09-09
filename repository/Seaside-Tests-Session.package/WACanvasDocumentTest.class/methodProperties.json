@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"createHandlers" : "pmm 2/18/2012 13:35",
-		"testAnchorAttributesDocument" : "pmm 7/12/2015 17:17" } }
+		"testAnchorAttributesDocument" : "pmm 7/12/2015 17:17"
+	},
+	"class" : { }
+}

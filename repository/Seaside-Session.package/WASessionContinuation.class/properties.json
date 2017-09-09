@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Session",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 6/2/2008 09:19",
-	"instvars" : [
-		"states" ],
-	"name" : "WASessionContinuation",
-	"pools" : [
-		 ],
 	"super" : "WARequestHandler",
-	"type" : "normal" }
+	"category" : "Seaside-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"states"
+	],
+	"name" : "WASessionContinuation",
+	"type" : "normal"
+}

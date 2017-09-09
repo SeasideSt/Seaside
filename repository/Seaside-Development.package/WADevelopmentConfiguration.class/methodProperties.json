@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"initialize" : "lr 9/5/2009 10:47" },
 	"instance" : {
 		"describeOn:" : "pmm 8/23/2014 16:02",
-		"parents" : "jf 1/30/2009 17:40" } }
+		"parents" : "jf 1/30/2009 17:40"
+	},
+	"class" : {
+		"initialize" : "lr 9/5/2009 10:47"
+	}
+}

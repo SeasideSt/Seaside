@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"newStrategy" : "pmm 8/27/2016 17:19",
+		"testAddKeyOfSessionToUrl" : "pmm 8/27/2016 17:21",
+		"testAddKeyOfSessionToUrlCookieAlreadyPresent" : "pmm 8/27/2016 17:19",
+		"testQueryFieldOverridesCookie" : "pmm 8/30/2016 10:02"
+	},
+	"class" : { }
+}

@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"register" : "pmm 5/22/2011 11:36" },
 	"instance" : {
-		"handleFiltered:" : "pmm 5/22/2011 11:36",
+		"updateRoot:" : "pmm 5/22/2011 11:36",
 		"pageContent" : "pmm 1/22/2012 16:14",
-		"renderContentOn:" : "pmm 9/2/2012 11:12",
-		"updateRoot:" : "pmm 5/22/2011 11:36" } }
+		"handleFiltered:" : "pmm 5/22/2011 11:36",
+		"renderContentOn:" : "pmm 9/2/2012 11:12"
+	},
+	"class" : {
+		"register" : "pmm 5/22/2011 11:36"
+	}
+}

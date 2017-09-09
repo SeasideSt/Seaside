@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAPainterVisitor",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"toolDecoration",
 		"renderContext",
-		"visitor" ],
+		"visitor"
+	],
 	"name" : "WAHaloVisitor",
-	"pools" : [
-		 ],
-	"super" : "WAPainterVisitor",
-	"type" : "normal" }
+	"type" : "normal"
+}

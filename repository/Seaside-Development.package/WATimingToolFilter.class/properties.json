@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Development-Filter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WARequestFilter",
+	"category" : "Seaside-Development-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"startTime",
-		"previousTiming" ],
+		"previousTiming"
+	],
 	"name" : "WATimingToolFilter",
-	"pools" : [
-		 ],
-	"super" : "WARequestFilter",
-	"type" : "normal" }
+	"type" : "normal"
+}

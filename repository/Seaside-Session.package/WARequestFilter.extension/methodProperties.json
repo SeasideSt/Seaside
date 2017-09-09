@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"updateStates:" : "lr 8/31/2008 14:45" } }
+		"updateStates:" : "lr 8/31/2008 14:45"
+	},
+	"class" : { }
+}

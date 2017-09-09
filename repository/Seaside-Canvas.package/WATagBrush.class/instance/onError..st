@@ -1,6 +1,6 @@
-convenience
+attributes-events
 onError: anObject
-	"The error event occurs when an image does not load properly or when an error occurs during script execution."
+	"Fired when unexpected errors occur (e.g. networking errors, script errors, decoding errors)."
 
 	self document scriptGenerator
 		event: 'error'

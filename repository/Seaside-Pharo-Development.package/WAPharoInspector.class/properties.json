@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 3/3/2009 22:39",
-	"instvars" : [
-		 ],
-	"name" : "WAPharoInspector",
-	"pools" : [
-		 ],
 	"super" : "WAInspector",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAPharoInspector",
+	"type" : "normal"
+}
