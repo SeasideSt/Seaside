@@ -1,15 +1,13 @@
 {
+	"commentStamp" : "",
+	"super" : "WAObject",
 	"category" : "Seaside-Environment",
 	"classinstvars" : [
-		"configuredApplicationDefaults",
-		"configuredExceptionHandlingDefaults" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"configuredApplicationDefaults"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "WAEnvironment",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

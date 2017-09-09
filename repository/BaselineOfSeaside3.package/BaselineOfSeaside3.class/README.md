@@ -51,7 +51,8 @@ The '... Tests' group include the test packages for the named group. Usually the
 The '... Examples' group include the examples packages for the named group
 
    - 'Core' is the absolute minimum set of packages that should be
-     loaded to get expected Seaside functionality
+     loaded to get expected traditional Seaside functionality with
+     components and session.
    - 'Development' adds in the Seaside development tools. It should be
      noted that it is not recommended that the Seaside development tools
      be loaded in a production image, because the tools are not considered
@@ -67,12 +68,12 @@ You must choose at least one adaptor (Seaside-Adaptors-Swazoo or Seaside-Adaptor
 theory the absolute minimum loadable unit for Seaside30 would be:
 
 	BaselineOfSeaside3  project 
-		load: #('Core' 'Kom').
+		load: #('Core' 'Zinc').
 
 Note that there are no pre-defined components registered in this case, 
 so even if you manually start WAKom:
 
-	WAKom startOn: 8080
+	ZnZincServerAdaptor startOn: 8080
 
 the only page you can hit is the files page:
 
@@ -91,8 +92,8 @@ but without the familiar development tools you might not have an
 enjoyable experience. You can add in the development tools with the 
 following expression:
 
-  (ConfigurationOfSeaside3 project version: '3.1.0')
-     load: #('Development').
+	BaselineOfSeaside3  project
+		load: #('Development').
 
 Only then will you see the familiar Dispatcher page when you hit:
 
