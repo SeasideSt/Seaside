@@ -6,7 +6,7 @@ testConditionalComment
 				html script
 					defer;
 					url: 'http://www.example.com/bugs.js' ] ]
-		gives: '<title></title><!--[if gte IE 5.5]><script defer="defer" src="http://www.example.com/bugs.js"></script><![endif]-->'.
+		gives: '<title></title><!--[if gte IE 5.5]><script defer src="http://www.example.com/bugs.js"></script><![endif]-->'.
 		
 	self
 		assertRoot: [ :html |

@@ -8,7 +8,7 @@ testAtPut
 		gives: ' tabindex="6"'.
 	self
 		assert: [ :attr | attr at: 'checked' put: true ]
-		gives: ' checked="checked"'.
+		gives: ' checked'.
 	self
 		assert: [ :attr | attr at: 'readonly' put: false ]
 		gives: ''.

@@ -5,4 +5,4 @@ testRevealedConditionalComment
 				html script
 					defer;
 					url: 'http://www.example.com/bugs.js' ] ]
-		gives: '<title></title><!--[if IE 7]><!--><script defer="defer" src="http://www.example.com/bugs.js"></script><!--<![endif]-->'
+		gives: '<title></title><!--[if IE 7]><!--><script defer src="http://www.example.com/bugs.js"></script><!--<![endif]-->'
