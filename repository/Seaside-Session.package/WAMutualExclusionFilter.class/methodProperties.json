@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleFiltered:" : "jf 2/5/2009 11:01",
 		"initialize" : "jf 2/5/2009 10:54",
-		"shouldTerminate:" : "jf 1/14/2009 13:34",
-		"terminate:" : "lr 5/20/2009 20:13" } }
+		"terminate:" : "lr 5/20/2009 20:13",
+		"handleFiltered:" : "jf 2/5/2009 11:01",
+		"shouldTerminate:" : "jf 1/14/2009 13:34"
+	},
+	"class" : { }
+}
