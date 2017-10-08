@@ -2,7 +2,9 @@
 	"commentStamp" : "jf 10/27/2008 22:44",
 	"super" : "WADebugErrorHandler",
 	"category" : "Seaside-Development-Core",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"configuredExceptionHandlingDefaults"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

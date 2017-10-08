@@ -1,10 +1,11 @@
 private
-attribute: aKey with: aValue 
+attribute: aKey with: aValue
 	aValue == false ifTrue: [ ^ self ].
 	html space.
 	html span
 		class: 'wa-attribute-key';
 		with: aKey.
+	aValue == true ifTrue: [ ^ self ].
 	self nextPut: $=.
 	html span
 		class: 'wa-attribute-value';
