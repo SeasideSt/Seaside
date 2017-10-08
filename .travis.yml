@@ -7,12 +7,8 @@ smalltalk:
   - Pharo-4.0
   - Squeak-5.1
   - GemStone-3.3.4
-  - GemStone-3.2.16
+  - GemStone-3.2.17
   - GemStone-3.1.0.6
 cache:
   directories:
     - $SMALLTALK_CI_CACHE
-
-smalltalk_config:
- - .smalltalk.ston
- - .smalltalk-configuration.ston
