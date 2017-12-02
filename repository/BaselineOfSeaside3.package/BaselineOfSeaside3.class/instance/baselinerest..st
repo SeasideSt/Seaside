@@ -30,7 +30,7 @@ baselinerest: spec
 				spec includes: #('Seaside-Pharo-Swagger-Core' 'Seaside-Squeak-Swagger-Core') ]
 	].
 
-	spec for: #('pharo2.x' 'pharo3.x' 'pharo4.x' 'pharo5.x' #'pharo6.x') do:[
+	spec for: #('pharo2.x' 'pharo3.x' 'pharo4.x' 'pharo5.x' #'pharo6.x' #'pharo7.x') do:[
 		spec
 			package: 'Seaside-Pharo20-REST-Core';
 			package: 'Seaside-REST-Core' with:[
