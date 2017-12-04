@@ -9,6 +9,6 @@
 		"callback",
 		"frequency"
 	],
-	"name" : "PTPeriodicalExecutor",
+	"name" : "PTPeriodicalExecuter",
 	"type" : "normal"
 }
