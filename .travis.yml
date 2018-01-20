@@ -32,7 +32,11 @@ matrix:
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.3.4
+    - smalltalk: GemStone-3.3.6
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.4.0
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
