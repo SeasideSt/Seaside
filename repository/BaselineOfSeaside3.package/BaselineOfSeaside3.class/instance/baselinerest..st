@@ -50,13 +50,22 @@ baselinerest: spec
 		spec
         	package: 'Seaside-GemStone-REST-Core' with: [ 
 			spec requires: #('Seaside-Core') ];
-		package: 'Seaside-REST-Core' with:[
+			package: 'Seaside-REST-Core' with:[
 				spec includes: #('Seaside-GemStone-REST-Core')]
+	].
+
+	spec for: #'2.4.x' do: [
+		spec
+			group: 'Swagger' with: #('REST');
+			group: 'Swagger Tests' with: #('Swagger')
 	].
 
 	spec for: #'gs3.x' do:[
 		spec
-		package: 'Seaside-GemStone-Swagger-Core';
-		package: 'Seaside-Swagger-Core' with: [ 
-				spec includes: #('Seaside-GemStone-Swagger-Core') ]
+			package: 'Seaside-GemStone-Swagger-Core';
+			package: 'Seaside-Swagger-Core' with: [ 
+				spec includes: #('Seaside-GemStone-Swagger-Core') ].
+		spec
+			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
+			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core')
 	].
