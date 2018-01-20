@@ -7,15 +7,21 @@ baselinerest: spec
 			package: 'Seaside-REST-Core' with: [
 				spec requires: #('Seaside-Core') ];
 			package: 'Seaside-Tests-REST-Core' with: [
-				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ];
+				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ].
+		spec 
+			group: 'REST' with: #('Core' 'Seaside-REST-Core');
+			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core')
+	].
+
+
+	spec for: #'squeakCommon' do: [
+		spec
 			package: 'Seaside-Swagger-Core' with: [ 
 				spec requires: #('Seaside-REST-Core' 'Seaside-JSON-Core' 'Seaside-Component') ];
 			package: 'Seaside-Tests-Swagger-Core' with: [ 
 				spec requires: #('Seaside-Tests-REST-Core' 'Seaside-Swagger-Core') ].
-		spec 
-			group: 'REST' with: #('Core' 'Seaside-REST-Core');
+		spec
 			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
-			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core');
 			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core')
 	].
 
@@ -45,7 +51,11 @@ baselinerest: spec
         	package: 'Seaside-GemStone-REST-Core' with: [ 
 			spec requires: #('Seaside-Core') ];
 		package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-GemStone-REST-Core')];
+				spec includes: #('Seaside-GemStone-REST-Core')]
+	].
+
+	spec for: #'gs3.x' do:[
+		spec
 		package: 'Seaside-GemStone-Swagger-Core';
 		package: 'Seaside-Swagger-Core' with: [ 
 				spec includes: #('Seaside-GemStone-Swagger-Core') ]
