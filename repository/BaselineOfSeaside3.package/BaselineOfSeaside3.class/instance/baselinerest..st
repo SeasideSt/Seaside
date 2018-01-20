@@ -53,7 +53,7 @@ baselinerest: spec
         package: 'Seaside-REST-Core'
           with: [ spec includes: #('Seaside-GemStone-REST-Core') ] ].
   spec
-    for: #'2.4.x'
+    for: #'gs2.4.x'
     do: [ 
       spec
         group: 'Swagger' with: #('REST');
