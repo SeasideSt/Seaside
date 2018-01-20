@@ -40,4 +40,14 @@ baselinewelcome: spec
 		spec
 			package: 'Seaside-GemStone-Welcome';
 			package: 'Seaside-Welcome' with: [
-				spec includes: #('Seaside-GemStone-Welcome' ) ] ]
+				spec includes: #('Seaside-GemStone-Welcome' ) ] ].
+  spec
+    for: #'gs2.4.x'
+    do: [
+		spec
+			removePackage: 'Seaside-Welcome';
+			removePackage: 'Seaside-GemStone-Welcome';
+			removePackage: 'Seaside-Tests-Welcome'.
+		spec
+			group: 'Welcome'  with: #();
+			group: 'Welcome-Tests'  with: #() ].

@@ -99,7 +99,13 @@ baselinegemstone: spec
           with: [ spec includes: #('Seaside-GemStone240-Flow') ];
         package: 'Seaside-GemStone240-Flow'
           with: [ spec requires: #('Seaside-GemStone-Flow') ];
-        yourself ].
+        yourself.
+		spec
+			removePackage: 'Seaside-Examples';
+			removePackage: 'Seaside-Tests-Examples'.
+		spec
+			group: 'Seaside-Examples';
+			group: 'Seaside-Tests-Examples'].
   spec
     for: #(#'gs3.0.x' #'gs3.1.x')
     do: [ 
