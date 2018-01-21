@@ -104,6 +104,7 @@ baselinegemstone: spec
         removePackage: 'Seaside-Examples';
         removePackage: 'Seaside-Tests-Examples'.
       spec
+        group: 'Seaside-Tests-Welcome' with: #();
         group: 'Seaside-Examples' with: #();
         group: 'Seaside-Tests-Examples' with: #() ].
   spec
