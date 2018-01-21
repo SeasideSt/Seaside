@@ -12,6 +12,7 @@ smalltalk:
 
 matrix:
   allow_failures:
+    - smalltalk: GemStone-2.4.8
     - smalltalk: Pharo-alpha
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
