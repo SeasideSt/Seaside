@@ -100,12 +100,12 @@ baselinegemstone: spec
         package: 'Seaside-GemStone240-Flow'
           with: [ spec requires: #('Seaside-GemStone-Flow') ];
         yourself.
-		spec
-			removePackage: 'Seaside-Examples';
-			removePackage: 'Seaside-Tests-Examples'.
-		spec
-			group: 'Seaside-Examples';
-			group: 'Seaside-Tests-Examples'].
+      spec
+        removePackage: 'Seaside-Examples';
+        removePackage: 'Seaside-Tests-Examples'.
+      spec
+        group: 'Seaside-Examples' with: #();
+        group: 'Seaside-Tests-Examples' with: #() ].
   spec
     for: #(#'gs3.0.x' #'gs3.1.x')
     do: [ 
