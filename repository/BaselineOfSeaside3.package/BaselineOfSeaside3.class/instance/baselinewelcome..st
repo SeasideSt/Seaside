@@ -1,7 +1,7 @@
 baselines
 baselinewelcome: spec
 
-	spec for: #(#'sqeakCommon' #'gs3.x') do: [
+	spec for: #(#'squeakCommon' #'gs3.x') do: [
 
 		spec 
 			package: 'Seaside-Welcome' with: [
