@@ -1,7 +1,7 @@
 baselines
 baselinewelcome: spec
 
-	spec for: #'common' do: [
+	spec for: #(#'sqeakCcommon' #'gs3.x') do: [
 
 		spec 
 			package: 'Seaside-Welcome' with: [
@@ -36,7 +36,7 @@ baselinewelcome: spec
 		spec
 			group: 'OneClick' with: #('Comet Examples' 'Seaside-Tools-OmniBrowser' 'Kom') ].
 		
-	spec for: #'gemstone' do: [
+	spec for: #'gs3.x' do: [
 		spec
 			package: 'Seaside-GemStone-Welcome';
 			package: 'Seaside-Welcome' with: [
@@ -44,10 +44,6 @@ baselinewelcome: spec
   spec
     for: #'gs2.4.x'
     do: [
-		spec
-			removePackage: 'Seaside-Welcome';
-			removePackage: 'Seaside-GemStone-Welcome';
-			removePackage: 'Seaside-Tests-Welcome'.
 		spec
 			group: 'Welcome'  with: #();
 			group: 'Welcome-Tests'  with: #() ].
