@@ -12,6 +12,7 @@ smalltalk:
 
 matrix:
   allow_failures:
+    - smalltalk: GemStone-2.4.8
     - smalltalk: Pharo-alpha
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
@@ -32,7 +33,11 @@ matrix:
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.3.4
+    - smalltalk: GemStone-3.3.6
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.4.0
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
