@@ -1,0 +1,188 @@
+TDScriptLeafNode{#name:'gemServer',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./gemServer -h\"
+  command
+    getOptsMixedLongShort:
+      {#(\'help\' $h #\'none\').
+      #(\'errorHandler\' nil #\'required\').
+      #(\'log\' nil #\'required\').
+      #(\'logTo\' nil #\'required\').
+      #(\'port\' nil #\'required\').
+      #(\'ports\' nil #\'required\').
+      #(\'register\' nil #\'required\').
+      #(\'restart\' nil #\'required\').
+      #(\'interactiveStart\' nil #\'required\').
+      #(\'start\' nil #\'required\').
+      #(\'stop\' nil #\'required\').
+      #(\'type\' nil #\'required\').
+      #(\'unregister\' nil #\'required\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | gemServer result |
+      result := #\'noop\'.
+      opts
+        at: \'unregister\'
+        ifPresent: [ :serverName | result := GemServer removeGemServerNamed: serverName ]
+        ifAbsent: [ 
+          opts
+            at: \'register\'
+            ifPresent: [ :serverName | 
+              gemServer := (GemServer gemServerNamed: serverName)
+                ifNil: [ 
+                  | gemServerClass |
+                  opts
+                    at: \'type\'
+                    ifPresent: [ :adaptor | 
+                      adaptor = \'zinc\'
+                        ifTrue: [ gemServerClass := Smalltalk at: #\'ZnSeasideNewGemServer\' ]
+                        ifFalse: [ 
+                          adaptor = \'fastcgi\'
+                            ifTrue: [ gemServerClass := Smalltalk at: #\'FastCGISeasideGemServer\' ]
+                            ifFalse: [ 
+                              adaptor = \'swazoo\'
+                                ifTrue: [ gemServerClass := Smalltalk at: #\'SwazooSeasideGemServer\' ]
+                                ifFalse: [ self error: \'unknown  adaptor type: \' , adaptor printString ] ] ] ]
+                    ifAbsent: [ gemServerClass := ZnSeasideGemServer ].
+                  gemServer := (gemServerClass register: serverName) yourself ].
+              opts
+                at: \'port\'
+                ifPresent: [ :portString | gemServer ports: {(portString asNumber)} ].
+              opts
+                at: \'ports\'
+                ifPresent: [ :portsExpression | gemServer ports: (topez evaluateString: portsExpression) ].
+              opts
+                at: \'log\'
+                ifPresent: [ :logString | 
+                  logString = \'all\'
+                    ifTrue: [ gemServer logFilter: nil ]
+                    ifFalse: [ gemServer logFilter: logString asSymbol ].
+                  opts
+                    at: \'logTo\'
+                    ifPresent: [ :logToString | 
+                      logToString = \'objectLog\'
+                        ifTrue: [ gemServer logToObjectLog ]
+                        ifFalse: [ 
+                          logToString = \'transcript\'
+                            ifTrue: [ gemServer logToTranscript ] ] ] ] ].
+          result := gemServer ].
+      opts
+        at: \'restart\'
+        ifPresent: [ :serverName | result := (GemServer gemServerNamed: serverName) restartGems ].
+      opts
+        at: \'start\'
+        ifPresent: [ :serverName | result := (GemServer gemServerNamed: serverName) startGems ].
+      opts
+        at: \'interactiveStart\'
+        ifPresent: [ :serverName | 
+          gemServer := GemServer gemServerNamed: serverName.
+          gemServer interactiveStartServiceOn: gemServer ports first\t\"does not return\" ].
+      opts
+        at: \'stop\'
+        ifPresent: [ :serverName | result := (GemServer gemServerNamed: serverName) stopGems ].
+      opts
+        at: \'errorHandler\'
+        ifPresent: [ :handler | 
+          | errorHandlerClasses errorHandlerClass dps |
+          errorHandlerClasses := Dictionary new
+            at: \'remoteHandler\' put: WARemoteDebuggingWalkbackErrorHandler;
+            at: \'productionHandler\' put: WAGemStoneProductionErrorHandler;
+            at: \'interactiveHandler\' put: WAInteractiveGemServerErrorHandler;
+            yourself.
+          errorHandlerClass := errorHandlerClasses at: handler.
+          WAAdmin applicationExceptionHandlingDefaults
+            at: #\'exceptionHandler\'
+            put: errorHandlerClass.
+          dps := OrderedCollection with: WADispatcher default.
+          [ dps isEmpty ]
+            whileFalse: [ 
+              | dp |
+              dp := dps removeFirst.
+              dp isApplication
+                ifTrue: [ 
+                  | exceptionFilter |
+                  exceptionFilter := dp filters
+                    detect: [ :each | each isExceptionFilter ]
+                    ifNone: [ nil ].
+                  exceptionFilter
+                    ifNotNil: [ 
+                      | attribute |
+                      attribute := exceptionFilter configuration
+                        attributeAt: #\'exceptionHandler\'.
+                      exceptionFilter configuration
+                        takeValue: errorHandlerClass
+                        forAttribute: attribute ] ]
+                ifFalse: [ 
+                  dp isDispatcher
+                    ifTrue: [ dps addAll: dp handlers ] ] ].
+          result := true ].
+      result ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  gemServer - gemServer sript utility template
+SYNOPSIS
+  gemServer [-h|--help]
+  gemserver --register=<gemServer-name> --type=[zinc|fastcgi|swazoo] \\
+            [--port=<server-port>] \\
+            [--logTo=transcript|objectLog] [--log=all|debug|error|info] \\
+  gemServer --unregister=<gemServer-name>
+  gemServer --interactiveStart=<gemServer-name>
+  gemServer --start=<gemServer-name>
+  gemServer --stop=<gemServer-name>
+  gemServer --restart=<gemServer-name>
+  gemServer --errorHandler=remoteHandler|productionHandler|interactiveHandler
+
+DESCRIPTION
+  The gemServer script is a wrapper for the gsApplicationTools framework[1].
+  For detailed information read \"Getting started with Gem Servers\"[2].
+
+  You create named gem servers that are associated with a particular Seaside 
+  Adaptor (Zinc, FastCGI, or Swazoo) and a particular server port or list of 
+  ports in the case of FastCGI:
+
+    ./gemServer --register=seaside --type=zinc --port=1750
+    ./gemServer --register=fastcgi --type=fastcgi --ports=`#(9001 9002 9003)`
+
+  Once a name gem server is defined, you can start, stop or restart the gem server
+  from the tODE command line:
+
+    ./gemServer --start=seaside
+    ./gemServer --stop=seaside
+    ./gemServer --restart=seaside
+
+  When you `start` a gem server, a topaz session is started to act as a Seaside web server
+  associated with each port that you\'\'ve defined. A maintenance vm is started as well.
+
+
+[1] https://github.com/GsDevKit/gsApplicationTools
+[2] https://github.com/GsDevKit/gsApplicationTools/blob/master/docs/gettingStarted.md#getting-started-with-gem-servers
+
+EXAMPLES
+  ./gemServer --help
+  ./gemServer -h
+  ./gemServer --register=seaside --type=zinc --port=1750 --log=all \\
+              --logTo=transcript
+  ./gemServer --register=seaside --type=zinc --port=1750 --log=error \\
+              --logTo=transcript
+  ./gemServer --register=seaside --type=zinc --port=1750 --log=error \\
+               --logTo=objectLog
+  ./gemServer --unregister=seaside
+  ./gemServer --errorHandler=productionHandler
+
+  ./gemServer --register=fastcgi --type=fastcgi --ports=`#(9001 9002 9003)` \\
+              --logTo=transcript
+
+  ./gemServer --errorHandler=interactiveHandler
+  ./gemServer --interactiveStart=seaside
+
+  ./gemServer --start=seaside
+  ./gemServer --stop=seaside
+  ./gemServer --restart=seaside
+
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2015-01-15T16:57:31.775855064392-08:00'],#modificationTime:DateAndTime['2018-01-19T16:57:31.00557994842529-08:00']}
