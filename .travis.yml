@@ -1,7 +1,7 @@
 language: smalltalk
 sudo: false
 smalltalk:
-  - Pharo-alpha
+  - Pharo-7.0
   - Pharo-6.1
   - Pharo-6.0
   - Pharo-5.0
@@ -13,7 +13,7 @@ smalltalk:
 matrix:
   allow_failures:
     - smalltalk: GemStone-2.4.8
-    - smalltalk: Pharo-alpha
+    - smalltalk: Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
       os: linux
