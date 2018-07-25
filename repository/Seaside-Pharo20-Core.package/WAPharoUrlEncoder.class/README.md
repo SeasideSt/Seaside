@@ -1,0 +1,1 @@
+Pharo specific URL encoder

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:20",
 	"super" : "WAEncoder",
 	"category" : "Seaside-Pharo20-Core-Document",
 	"classinstvars" : [

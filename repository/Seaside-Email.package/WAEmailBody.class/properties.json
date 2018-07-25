@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:02",
 	"super" : "WAObject",
-	"category" : "Seaside-Email",
+	"category" : "Seaside-Email-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

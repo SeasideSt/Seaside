@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:23",
 	"super" : "GRObject",
 	"category" : "Seaside-Pharo40-Continuation",
 	"classinstvars" : [ ],

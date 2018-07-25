@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:53",
+	"super" : "WAComponent",
 	"category" : "Seaside-Welcome",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"componentName",
-		"component" ],
+		"component"
+	],
 	"name" : "WAWelcomeComponentConfirmation",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

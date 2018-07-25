@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 2/18/2011 22:52",
 	"super" : "GRObject",
-	"category" : "Seaside-Core",
+	"category" : "Seaside-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

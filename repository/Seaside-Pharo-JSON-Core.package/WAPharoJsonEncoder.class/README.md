@@ -1,0 +1,1 @@
+A Pharo specific JSON encoder

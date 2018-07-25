@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/1/2014 13:39",
-	"instvars" : [
-		 ],
-	"name" : "WARenderLoopConfiguration",
-	"pools" : [
-		 ],
 	"super" : "WASystemConfiguration",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WARenderLoopConfiguration",
+	"type" : "normal"
+}

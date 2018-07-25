@@ -1,0 +1,1 @@
+Allows to create a custom welcome component

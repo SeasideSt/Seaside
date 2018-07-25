@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAFlushingRenderPhaseContinuation",
-	"pools" : [
-		 ],
 	"super" : "WARenderPhaseContinuation",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop-Continuations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFlushingRenderPhaseContinuation",
+	"type" : "normal"
+}

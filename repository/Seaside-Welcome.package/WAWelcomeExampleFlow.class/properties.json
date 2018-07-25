@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Welcome",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"taskExample" ],
-	"name" : "WAWelcomeExampleFlow",
-	"pools" : [
-		 ],
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:44",
 	"super" : "WAWelcomeExample",
-	"type" : "normal" }
+	"category" : "Seaside-Welcome",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"taskExample"
+	],
+	"name" : "WAWelcomeExampleFlow",
+	"type" : "normal"
+}

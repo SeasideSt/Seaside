@@ -1,0 +1,1 @@
+Prompt for the name to define the default entry point

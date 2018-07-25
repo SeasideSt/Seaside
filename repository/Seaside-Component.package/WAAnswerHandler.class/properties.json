@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Component",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"block" ],
-	"name" : "WAAnswerHandler",
-	"pools" : [
-		 ],
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:01",
 	"super" : "WADecoration",
-	"type" : "normal" }
+	"category" : "Seaside-Component-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "WAAnswerHandler",
+	"type" : "normal"
+}

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:32",
 	"super" : "GRError",
-	"category" : "Seaside-Tests-Core",
+	"category" : "Seaside-Tests-Core-Exceptions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

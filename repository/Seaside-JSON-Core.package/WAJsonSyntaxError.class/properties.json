@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-JSON-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/14/2013 15:49",
-	"instvars" : [
-		 ],
-	"name" : "WAJsonSyntaxError",
-	"pools" : [
-		 ],
 	"super" : "WAError",
-	"type" : "normal" }
+	"category" : "Seaside-JSON-Core-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAJsonSyntaxError",
+	"type" : "normal"
+}

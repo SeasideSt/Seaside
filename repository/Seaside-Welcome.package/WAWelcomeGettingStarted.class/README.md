@@ -1,0 +1,1 @@
+A getting started component

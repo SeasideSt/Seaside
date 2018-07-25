@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 8/19/2016 12:26",
 	"super" : "WATagCanvas",
-	"category" : "Seaside-Canvas",
+	"category" : "Seaside-Canvas-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

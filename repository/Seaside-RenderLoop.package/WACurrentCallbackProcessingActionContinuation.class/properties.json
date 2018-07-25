@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WACurrentCallbackProcessingActionContinuation",
-	"pools" : [
-		 ],
 	"super" : "WADynamicVariable",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACurrentCallbackProcessingActionContinuation",
+	"type" : "normal"
+}

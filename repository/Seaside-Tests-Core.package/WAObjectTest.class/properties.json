@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:31",
 	"super" : "TestCase",
-	"category" : "Seaside-Tests-Core",
+	"category" : "Seaside-Tests-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

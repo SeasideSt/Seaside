@@ -1,0 +1,1 @@
+An example with multiple independent counters

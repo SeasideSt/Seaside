@@ -10,3 +10,6 @@ SystemOrganization addCategory: 'Seaside-Tests-Core-Rendering'!
 SystemOrganization addCategory: 'Seaside-Tests-Core-RequestHandling'!
 SystemOrganization addCategory: 'Seaside-Tests-Core-Server'!
 SystemOrganization addCategory: 'Seaside-Tests-Core-Utilities'!
+andling'!
+SystemOrganization addCategory: #'Seaside-Tests-Core-Server'!
+SystemOrganization addCategory: #'Seaside-Tests-Core-Utilities'!

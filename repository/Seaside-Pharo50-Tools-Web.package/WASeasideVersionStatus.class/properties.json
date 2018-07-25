@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:25",
 	"super" : "WAPharoStatusItem",
 	"category" : "Seaside-Pharo50-Tools-Web",
 	"classinstvars" : [ ],

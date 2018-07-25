@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 7/3/2018 19:56",
 	"super" : "WACanvas",
-	"category" : "Seaside-Canvas",
+	"category" : "Seaside-Canvas-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

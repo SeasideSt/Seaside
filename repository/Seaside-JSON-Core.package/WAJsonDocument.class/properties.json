@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-JSON-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"jsonEncoder" ],
-	"name" : "WAJsonDocument",
-	"pools" : [
-		 ],
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:15",
 	"super" : "WADocument",
-	"type" : "normal" }
+	"category" : "Seaside-JSON-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"jsonEncoder"
+	],
+	"name" : "WAJsonDocument",
+	"type" : "normal"
+}

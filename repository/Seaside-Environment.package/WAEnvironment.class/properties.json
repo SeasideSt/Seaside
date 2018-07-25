@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Environment",
+	"commentStamp" : "TorstenBergmann 7/3/2018 20:08",
+	"super" : "WAObject",
+	"category" : "Seaside-Environment-Base",
 	"classinstvars" : [
 		"configuredApplicationDefaults",
-		"configuredExceptionHandlingDefaults" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"configuredExceptionHandlingDefaults"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "WAEnvironment",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

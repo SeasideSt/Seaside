@@ -1,0 +1,1 @@
+Utility to grab a screenshot over the web

@@ -1,0 +1,1 @@
+Specific decoration to handle the answer of a given block

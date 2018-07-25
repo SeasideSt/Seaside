@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-RenderLoop",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"jumpTo" ],
-	"name" : "WACallbackProcessingActionContinuation",
-	"pools" : [
-		 ],
 	"super" : "WAActionPhaseContinuation",
-	"type" : "normal" }
+	"category" : "Seaside-RenderLoop-Continuations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"jumpTo"
+	],
+	"name" : "WACallbackProcessingActionContinuation",
+	"type" : "normal"
+}
