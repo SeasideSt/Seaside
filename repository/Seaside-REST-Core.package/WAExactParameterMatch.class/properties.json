@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-REST-Core-Route",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"value" ],
-	"name" : "WAExactParameterMatch",
-	"pools" : [
-		 ],
 	"super" : "WAParameterMatch",
-	"type" : "normal" }
+	"category" : "Seaside-REST-Core-Route",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "WAExactParameterMatch",
+	"type" : "normal"
+}

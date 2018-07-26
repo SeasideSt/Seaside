@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-REST-Core-Handler",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"routes" ],
-	"name" : "WARestfulHandler",
-	"pools" : [
-		 ],
 	"super" : "WARequestHandler",
-	"type" : "normal" }
+	"category" : "Seaside-REST-Core-Handler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"routes"
+	],
+	"name" : "WARestfulHandler",
+	"type" : "normal"
+}

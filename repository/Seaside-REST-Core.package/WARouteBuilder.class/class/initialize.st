@@ -2,4 +2,4 @@ initialization
 initialize
 	configuration := IdentitySet new.
 	(Pragma allNamed: #configuration in: self)
-		do: [ :pragma | configuration add: pragma selector ]
+		do: [ :pragma | configuration add: pragma methodSelector ]
