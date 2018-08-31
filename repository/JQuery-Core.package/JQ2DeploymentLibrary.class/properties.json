@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-Core-Libraries",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JQ2DeploymentLibrary",
-	"pools" : [
-		 ],
 	"super" : "WAFileLibrary",
-	"type" : "normal" }
+	"category" : "JQuery-Core-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQ2DeploymentLibrary",
+	"type" : "normal"
+}

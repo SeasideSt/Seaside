@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-Core-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 12/6/2008 11:32",
-	"instvars" : [
-		 ],
-	"name" : "JQPost",
-	"pools" : [
-		 ],
 	"super" : "JQAjax",
-	"type" : "normal" }
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQPost",
+	"type" : "normal"
+}

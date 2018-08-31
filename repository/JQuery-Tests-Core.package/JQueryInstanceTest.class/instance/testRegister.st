@@ -37,6 +37,9 @@ testRegister
 		assert: ((self jQuery: 'a') onFocus: self mock)
 		equals: self function , '("a").focus(function(){mock})'.
 	self
+		assert: ((self jQuery: 'a') onInput: self mock)
+		equals: self function , '("a").on("input",function(){mock})'.
+	self
 		assert: ((self jQuery: 'a') onKeyDown: self mock)
 		equals: self function , '("a").keydown(function(){mock})'.
 	self
