@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Pharo-Development",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"message" ],
-	"name" : "WABrowserTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Pharo-Development",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "WABrowserTest",
+	"type" : "normal"
+}
