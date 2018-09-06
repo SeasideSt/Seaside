@@ -26,4 +26,6 @@ baselinefilesystem: spec
       spec
         package: 'Seaside-GemStone-FileSystem';
         package: 'Seaside-FileSystem'
-          with: [ spec includes: 'Seaside-GemStone-FileSystem' ] ]
+          with: [ spec includes: 'Seaside-GemStone-FileSystem' ].
+      spec
+        group: 'Filesystem' with: #('Seaside-FileSystem'). ]
