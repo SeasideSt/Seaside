@@ -83,7 +83,7 @@ Metacello new
 Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
 
 ## Contributing
-If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/wiki/Contributing).
+If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/blob/master/CONTRIBUTING.md).
 
 ## Build Status
  - [![master branch:](https://travis-ci.org/SeasideSt/Seaside.svg?branch=master)](https://travis-ci.org/SeasideSt/Seaside) 
