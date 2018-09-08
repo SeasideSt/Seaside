@@ -37,4 +37,6 @@ parsePath: aString absolute: absolute from: start to: end
 								p addLast: (self class decodePercent: aString from: elementStart to: elementEnd) ] ] ] ].
 		elementStart := elementEnd + 1.
 		[ elementStart < end and: [ (aString at: elementStart) = $/ ] ] whileTrue: [
-			elementStart := elementStart + 1 ] ]
+			elementStart := elementStart + 1 ] ].
+	
+	slash := (end - start) > 0 and: [ (aString at: end - 1) = $/  ]
