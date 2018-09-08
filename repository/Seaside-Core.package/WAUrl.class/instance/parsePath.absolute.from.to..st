@@ -39,4 +39,4 @@ parsePath: aString absolute: absolute from: start to: end
 		[ elementStart < end and: [ (aString at: elementStart) = $/ ] ] whileTrue: [
 			elementStart := elementStart + 1 ] ].
 	
-	slash := (end - start) > 0 and: [ (aString at: end - 1) = $/  ]
+	slash := (end - start) > 0 and: [ (aString at: end - 1) = $/ ]
