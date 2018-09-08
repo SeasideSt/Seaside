@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "",
+	"super" : "WAEncoder",
 	"category" : "Seaside-Pharo20-Core-Document",
 	"classinstvars" : [
-		"table" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"table"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"table",
-		"delegate" ],
+		"delegate"
+	],
 	"name" : "WAPharoEncoder",
-	"pools" : [
-		 ],
-	"super" : "WAEncoder",
-	"type" : "normal" }
+	"type" : "normal"
+}
