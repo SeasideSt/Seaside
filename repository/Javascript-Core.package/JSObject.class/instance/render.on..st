@@ -3,9 +3,11 @@ render: aRenderable on: aStream
 	"Render aRenderable on aStream."
 	
 	| document |
-	document := WAHtmlDocument
+	document := (WAHtmlDocument
 		on: aStream
-		codec: self requestContext codec.
+		codec: self requestContext codec)
+		scriptGenerator: self requestContext handler scriptGeneratorClass new;
+		yourself.
 	self renderContext document: document during: [
 		(self rendererClass context: self renderContext)
 			render: aRenderable; flush ].
