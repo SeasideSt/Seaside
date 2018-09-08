@@ -1,14 +1,13 @@
 {
-	"category" : "JQuery-Core-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"parameters" ],
-	"name" : "JQAnimate",
-	"pools" : [
-		 ],
 	"super" : "JQPlugin",
-	"type" : "normal" }
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parameters"
+	],
+	"name" : "JQAnimate",
+	"type" : "normal"
+}
