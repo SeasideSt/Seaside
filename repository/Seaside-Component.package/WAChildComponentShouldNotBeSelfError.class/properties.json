@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Component-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAChildComponentShouldNotBeSelfError",
-	"pools" : [
-		 ],
 	"super" : "WAError",
-	"type" : "normal" }
+	"category" : "Seaside-Component-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAChildComponentShouldNotBeSelfError",
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Component",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 11/3/2008 20:52",
-	"instvars" : [
-		"decoration" ],
-	"name" : "WAComponent",
-	"pools" : [
-		 ],
 	"super" : "WAPresenter",
-	"type" : "normal" }
+	"category" : "Seaside-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decoration"
+	],
+	"name" : "WAComponent",
+	"type" : "normal"
+}
