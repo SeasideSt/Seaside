@@ -1,4 +1,5 @@
 updating
 updateStates: aSnapshot
 	super updateStates: aSnapshot.
-	aSnapshot register: decoration
+	decoration isNil
+		ifFalse: [ aSnapshot register: decoration ]

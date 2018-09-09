@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Component-Visitors",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"snapshot" ],
-	"name" : "WAUpdateStatesVisitor",
-	"pools" : [
-		 ],
 	"super" : "WAPainterVisitor",
-	"type" : "normal" }
+	"category" : "Seaside-Component-Visitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"snapshot"
+	],
+	"name" : "WAUpdateStatesVisitor",
+	"type" : "normal"
+}
