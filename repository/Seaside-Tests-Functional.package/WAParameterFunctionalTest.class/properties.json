@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/18/2011 23:01",
+	"super" : "WAFunctionalTest",
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"wasExecuted",
-		"values" ],
+		"values"
+	],
 	"name" : "WAParameterFunctionalTest",
-	"pools" : [
-		 ],
-	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

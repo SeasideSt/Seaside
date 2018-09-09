@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderContentOn:" : "pmm 9/1/2012 15:23" } }
+		"renderContentOn:" : "pmm 9/1/2012 15:23"
+	},
+	"class" : { }
+}
