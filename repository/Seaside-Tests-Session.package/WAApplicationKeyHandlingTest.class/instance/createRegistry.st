@@ -1,7 +1,7 @@
 private
 createRegistry
 	^ WADispatcher new
-		register: (WAApplication new
+		register: (WARedirectingApplication new
 			sessionClass: WATestSession;
 			cache: WAUnidirectionalCache new;
 			yourself)

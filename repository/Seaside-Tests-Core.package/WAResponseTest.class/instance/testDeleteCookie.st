@@ -2,7 +2,7 @@ tests-cache
 testDeleteCookie
 	| cookie actual |
 	cookie := (WARequestCookie key: 'key' value: 'value')
-		pathUnencoded: '/highway/to/hell' codec: GRNullCodec new;
+		pathUnencoded: '/highway/to/hell' encoded: '/highway/to/hell';
 		domain: 'hotel'
 		yourself.
 	self response deleteCookie: cookie.
