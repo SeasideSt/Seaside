@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"seasidePossibleCauses" : "lr 7/25/2011 20:14" } }
+		"seasidePossibleCauses" : "lr 7/25/2011 20:14"
+	},
+	"class" : { }
+}

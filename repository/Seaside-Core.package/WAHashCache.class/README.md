@@ -37,4 +37,4 @@ The implementation is a combination of:
 - a linked list of cache entries sorted by creation time, used for reaping by absolute age
 - a linked list of cache entries sorted by access time, used for reaping by relative age
 
-For every cache entry there is a nofr in the hash table and a node in both of the linked lists. It is possible to navigate from every node for a key to every other node of the same key. This is required for removing and updating entries.
+For every cache entry there is a node in the hash table and a node in both of the linked lists. It is possible to navigate from every node for a key to every other node of the same key. This is required for removing and updating entries.

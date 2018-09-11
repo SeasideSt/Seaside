@@ -1,7 +1,7 @@
 private
 createRegistry
 	^ WADispatcher new
-		register: (WARegistry new
+		register: (WARedirectingRegistry new
 			cache: WABidirectionalCache new;
 			yourself)
 		at: self registryName
