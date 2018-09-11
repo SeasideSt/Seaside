@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"closeBrush" : "pmm 8/24/2011 12:10",
-		"openBrush" : "pmm 3/28/2014 07:57" } }
+		"openBrush" : "pmm 3/28/2014 07:57",
+		"closeBrush" : "pmm 8/24/2011 12:10"
+	},
+	"class" : { }
+}
