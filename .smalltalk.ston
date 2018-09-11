@@ -6,6 +6,7 @@ SmalltalkCISpec {
       #directory : 'repository',
       #load : [ 'CI' ],
       #useLatestMetacello : true,
+      #onConflictUseLoaded : true,
       #platforms : [ #pharo, #squeak ]
     },
     SCIMetacelloLoadSpec {

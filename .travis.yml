@@ -4,8 +4,14 @@ addons:
   apt:
     packages:
       - google-chrome-stable
+
+smalltalk_edge:
+   source: Yesplan/smalltalkCI
+   branch: metacello-extensions
+
 before_install:
   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
+
 before_script:
   - wget http://selenium-release.storage.googleapis.com/3.14/selenium-server-standalone-3.14.0.jar
   - wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
