@@ -1,12 +1,15 @@
 SmalltalkCISpec {
   #loading : [
+  SCICustomScript {
+    #path : 'lockSeaside.st',
+    #platforms : [ #pharo ]
+    },
     SCIMetacelloLoadSpec {
       #useLatestMetacello : true,
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
       #useLatestMetacello : true,
-      #onConflictUseLoaded : true,
       #platforms : [ #pharo, #squeak ]
     },
     SCIMetacelloLoadSpec {
