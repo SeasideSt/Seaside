@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GROrderedMultiMap",
+	"super" : "GROrderedMultiMap2",
 	"category" : "Seaside-Core-HTTP",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertContentType:accept:produces:" : "jok 1/23/2014 21:04",
-		"assertContentType:accept:routesTo:" : "jok 1/23/2014 21:06",
 		"testMultipleConentTypeRouting" : "pmm 9/1/2012 16:33",
-		"testProduceMimeType" : "pmm 9/1/2012 16:32",
+		"testSimpleConentTypeRouting" : "pmm 9/1/2012 16:33",
 		"testProduceNoMimeType" : "pmm 7/28/2011 21:26",
+		"testProduceMimeType" : "pmm 9/1/2012 16:32",
 		"testSimpleAcceptRouting" : "pmm 9/1/2012 16:33",
-		"testSimpleConentTypeRouting" : "pmm 9/1/2012 16:33" } }
+		"assertContentType:accept:routesTo:" : "pmm 9/11/2018 11:44",
+		"assertContentType:accept:produces:" : "pmm 9/11/2018 11:44"
+	},
+	"class" : { }
+}

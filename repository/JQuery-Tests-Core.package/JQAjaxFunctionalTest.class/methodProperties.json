@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderContentOn:" : "lr 12/5/2008 20:00",
+		"title" : "lr 12/4/2009 22:57",
 		"selectors" : "lr 10/29/2008 08:20",
-		"title" : "lr 12/4/2009 22:57" } }
+		"renderContentOn:" : "lr 12/5/2008 20:00"
+	},
+	"class" : { }
+}

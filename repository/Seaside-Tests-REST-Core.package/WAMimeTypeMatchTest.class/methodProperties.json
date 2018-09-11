@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testFromMimeType" : "pmm 10/17/2010 14:18" } }
+		"testFromMimeType" : "pmm 10/17/2010 14:18"
+	},
+	"class" : { }
+}

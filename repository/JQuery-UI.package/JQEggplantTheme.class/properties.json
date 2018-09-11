@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Libraries",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JQEggplantTheme",
-	"pools" : [
-		 ],
 	"super" : "JQBaseTheme",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQEggplantTheme",
+	"type" : "normal"
+}

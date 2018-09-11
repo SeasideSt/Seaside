@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Widgets",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 1/28/2010 14:26",
-	"instvars" : [
-		 ],
-	"name" : "JQAutocomplete",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQAutocomplete",
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Widgets",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 10/26/2008 20:17",
-	"instvars" : [
-		 ],
-	"name" : "JQDatepicker",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQDatepicker",
+	"type" : "normal"
+}

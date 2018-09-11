@@ -2,7 +2,7 @@ tests
 testDictionary
 	self
 		assert:
-			((GRSmallDictionary new)
+			((GRSmallDictionary2 new)
 				at: 'foo' put: 1;
 				at: 'bar' put: 2;
 				at: 'zork' put: 3;
@@ -10,7 +10,7 @@ testDictionary
 		equals: '{"foo": 1, "bar": 2, "zork": 3}'.
 	self
 		assert:
-			((GRSmallDictionary new)
+			((GRSmallDictionary2 new)
 				at: '' put: 'empty';
 				yourself)
 		equals: '{"": "empty"}'.

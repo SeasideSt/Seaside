@@ -12,7 +12,7 @@ search: aSearchBlock labels: aLabelsBlock callback: aCallbackBlock
 		value: (JSStream on: 'request.term');
 		text: [ :stream | 
 			stream json: ((aSearchBlock value: term contents) asArray collect: [ :object | 
-				GRSmallDictionary new
+				GRSmallDictionary2 new
 					at: 'label' put: (aLabelsBlock value: object);
 					at: 'index' put: (mapping at: object ifAbsentPut: [ mapping size + 1 ]);
 					yourself ]) ];
