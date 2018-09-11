@@ -1,9 +1,9 @@
 tests-custom
 testCustomDictionary
 	printer := [ :renderer | 
-		renderer render: (GRSmallDictionary new
+		renderer render: (GRSmallDictionary2 new
 			at: 'foo' put: 'bar';
-			at: 'zork' put: (GRSmallDictionary new
+			at: 'zork' put: (GRSmallDictionary2 new
 				at: 'foo' put: 'bar';
 				yourself);
 			yourself) ].

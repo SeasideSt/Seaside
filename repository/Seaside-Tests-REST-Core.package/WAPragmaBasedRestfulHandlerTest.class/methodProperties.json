@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "pmm 5/31/2010 20:32",
-		"testCreateRoutes" : "pmm 5/31/2010 20:32" } }
+		"testCreateRoutes" : "pmm 5/31/2010 20:32",
+		"setUp" : "pmm 5/31/2010 20:32"
+	},
+	"class" : { }
+}

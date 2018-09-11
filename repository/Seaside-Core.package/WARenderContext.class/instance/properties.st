@@ -1,4 +1,4 @@
 accessing
 properties
 	"Answer a property dictionary."
-	^ properties ifNil: [ properties := GRSmallDictionary new ]
+	^ properties ifNil: [ properties := GRSmallDictionary2 new ]

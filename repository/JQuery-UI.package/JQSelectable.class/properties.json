@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Interaction",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 10/21/2008 13:38",
-	"instvars" : [
-		 ],
-	"name" : "JQSelectable",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Interaction",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQSelectable",
+	"type" : "normal"
+}
