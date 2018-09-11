@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"jsonOn:" : "pmm 6/24/2012 11:49" } }
+		"jsonOn:" : "pmm 6/24/2012 11:49"
+	},
+	"class" : { }
+}
