@@ -15,7 +15,7 @@ SmalltalkCISpec {
       #load : [ 'Webdriver-Tests' ],
       #useLatestMetacello : true,
       #platforms : [ #pharo, #squeak, #gemstone ]
-    },
+    }
   ],
   #testing : {
       #exclude : {
