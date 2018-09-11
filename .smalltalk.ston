@@ -14,6 +14,7 @@ SmalltalkCISpec {
       #directory : 'repository',
       #load : [ 'Webdriver-Tests' ],
       #useLatestMetacello : true,
+      #onConflictUseLoaded : true,
       #platforms : [ #pharo, #squeak, #gemstone ]
     }
   ],
