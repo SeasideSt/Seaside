@@ -4,4 +4,4 @@ writeLoadScriptsOn: aDocument
 
 	self loadScripts do: [ :each |
 		aDocument stream javascript: each.
-		aDocument  nextPut: $; ]
+		aDocument nextPut: $; ]
