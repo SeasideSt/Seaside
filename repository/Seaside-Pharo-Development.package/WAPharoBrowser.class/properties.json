@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "pmm 9/12/2018 11:29",
+	"super" : "WAObject",
+	"category" : "Seaside-Pharo-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"showComment",
+		"showInstance",
+		"selectedPackage",
+		"selectedClass",
+		"selectedMessageCategory",
+		"dependent",
+		"selectedMethod"
+	],
+	"name" : "WAPharoBrowser",
+	"type" : "normal"
+}
