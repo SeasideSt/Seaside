@@ -83,30 +83,6 @@ baselinegemstone: spec
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');
         group: 'Production' with: #('Seaside-GemStone-Tools-Production') ].
   spec
-    for: #'gs2.4.x'
-    do: [ 
-      spec
-        package: 'Seaside-Core'
-          with: [ spec includes: #('Seaside-GemStone240-Core') ];
-        package: 'Seaside-GemStone240-Core'
-          with: [ 
-              spec
-                requires: #('Seaside-Core');
-                includes: #('Seaside-GemStone-Core') ];
-        package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-GemStone240-Core') ];
-        package: 'Seaside-GemStone-Flow'
-          with: [ spec includes: #('Seaside-GemStone240-Flow') ];
-        package: 'Seaside-GemStone240-Flow'
-          with: [ spec requires: #('Seaside-GemStone-Flow') ];
-        yourself.
-      spec
-        removePackage: 'Seaside-Examples';
-        removePackage: 'Seaside-Tests-Examples'.
-      spec
-        group: 'Seaside-Examples' with: #();
-        group: 'Seaside-Tests-Examples' with: #() ].
-  spec
     for: #(#'gs3.0.x' #'gs3.1.x')
     do: [ 
       spec
