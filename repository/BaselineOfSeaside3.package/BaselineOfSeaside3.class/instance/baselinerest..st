@@ -57,12 +57,6 @@ baselinerest: spec
 				spec includes: #('Seaside-GemStone-REST-Core')]
 	].
 
-	spec for: #'gs2.4.x' do: [
-		spec
-			group: 'Swagger' with: #('REST');
-			group: 'Swagger Tests' with: #('Swagger')
-	].
-
 	spec for: #'gs3.x' do:[
 		spec
 			package: 'Seaside-GemStone-Swagger-Core';

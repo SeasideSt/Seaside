@@ -11,14 +11,8 @@ baselinewelcome: spec
 		spec 
 			group: 'Welcome' with: #('Seaside-Welcome');
 			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome');
-			group: 'Welcome' with: #( 'Welcome Tests' ) ].		
-	
-  spec
-    for: #'gs2.4.x'
-    do: [
-		spec
-			group: 'Welcome Tests'  with: #() ].
-
+			group: 'Welcome' with: #( 'Welcome Tests' ) ].	
+			
 	spec for: #'squeak' do: [
 		spec 
 			package: 'Seaside-Welcome' with: [
