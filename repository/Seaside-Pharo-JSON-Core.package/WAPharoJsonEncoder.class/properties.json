@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo-JSON-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAPharoJsonEncoder",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:42",
 	"super" : "WAPharoEncoder",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo-JSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAPharoJsonEncoder",
+	"type" : "normal"
+}

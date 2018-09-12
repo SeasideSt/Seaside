@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"<=" : "PaulDeBruicker 10/25/2013 11:14",
-		"=" : "PaulDeBruicker 10/25/2013 11:09",
-		"contentString" : "PaulDeBruicker 11/6/2013 15:19",
-		"contentString:" : "PaulDeBruicker 11/6/2013 15:19",
-		"contentType" : "PaulDeBruicker 10/25/2013 11:15",
-		"greaseString" : "PaulDeBruicker 11/6/2013 15:19",
-		"hash" : "PaulDeBruicker 10/25/2013 11:09",
 		"isHtml" : "PaulDeBruicker 10/25/2013 11:57",
+		"greaseString" : "PaulDeBruicker 11/6/2013 15:19",
+		"contentString" : "PaulDeBruicker 11/6/2013 15:19",
+		"contentType" : "PaulDeBruicker 10/25/2013 11:15",
 		"isPlainText" : "PaulDeBruicker 10/25/2013 10:48",
-		"sortOrder" : "PaulDeBruicker 10/25/2013 11:15",
-		"writeOn:" : "PaulDeBruicker 11/6/2013 15:46" } }
+		"=" : "PaulDeBruicker 10/25/2013 11:09",
+		"contentString:" : "PaulDeBruicker 11/6/2013 15:19",
+		"writeOn:" : "PaulDeBruicker 11/6/2013 15:46",
+		"hash" : "PaulDeBruicker 10/25/2013 11:09",
+		"<=" : "PaulDeBruicker 10/25/2013 11:14",
+		"sortOrder" : "PaulDeBruicker 10/25/2013 11:15"
+	},
+	"class" : { }
+}

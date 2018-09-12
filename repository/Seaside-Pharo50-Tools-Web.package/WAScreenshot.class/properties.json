@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "pmm 9/12/2018 14:45",
+	"super" : "WAComponent",
 	"category" : "Seaside-Pharo50-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"button",
-		"zoom" ],
+		"zoom"
+	],
 	"name" : "WAScreenshot",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

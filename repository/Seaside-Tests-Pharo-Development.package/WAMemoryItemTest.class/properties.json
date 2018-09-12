@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Pharo-Development",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"item" ],
-	"name" : "WAMemoryItemTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Pharo-Development",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"item"
+	],
+	"name" : "WAMemoryItemTest",
+	"type" : "normal"
+}

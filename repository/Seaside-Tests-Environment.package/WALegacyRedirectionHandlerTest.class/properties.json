@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Environment",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"handler" ],
-	"name" : "WALegacyRedirectionHandlerTest",
-	"pools" : [
-		 ],
 	"super" : "WAContextTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Environment",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"handler"
+	],
+	"name" : "WALegacyRedirectionHandlerTest",
+	"type" : "normal"
+}

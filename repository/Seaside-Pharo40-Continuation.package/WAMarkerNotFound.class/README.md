@@ -1,0 +1,1 @@
+I signal when a marker was not found during capturing of partial continuation.

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "pmm 9/12/2018 11:29",
+	"commentStamp" : "pmm 9/12/2018 15:17",
 	"super" : "WAObject",
 	"category" : "Seaside-Pharo-Development-Core",
 	"classinstvars" : [ ],
@@ -14,6 +14,6 @@
 		"dependent",
 		"selectedMethod"
 	],
-	"name" : "WAPharoBrowser",
+	"name" : "WARPackageBasedBrowser",
 	"type" : "normal"
 }

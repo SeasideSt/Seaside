@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Environment",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAHtmlFileHandlerListingTest",
-	"pools" : [
-		 ],
 	"super" : "WAFileHandlerListingTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Environment",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAHtmlFileHandlerListingTest",
+	"type" : "normal"
+}

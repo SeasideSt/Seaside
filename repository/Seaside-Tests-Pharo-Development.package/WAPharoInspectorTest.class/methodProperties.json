@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testInspectorFields" : "jf 2/15/2010 01:06" } }
+		"testInspectorFields" : "jf 2/15/2010 01:06"
+	},
+	"class" : { }
+}

@@ -1,14 +1,15 @@
 {
-	"category" : "Seaside-Pharo50-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"Default" ],
 	"commentStamp" : "pmm 3/14/2011 08:06",
-	"instvars" : [
-		"imageBootTime" ],
-	"name" : "WAUpTimeTracker",
-	"pools" : [
-		 ],
 	"super" : "WAObject",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo50-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Default"
+	],
+	"instvars" : [
+		"imageBootTime"
+	],
+	"name" : "WAUpTimeTracker",
+	"type" : "normal"
+}
