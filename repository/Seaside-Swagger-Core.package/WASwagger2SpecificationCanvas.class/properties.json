@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Swagger-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/20/2015 15:42",
-	"instvars" : [
-		 ],
-	"name" : "WASwagger2SpecificationCanvas",
-	"pools" : [
-		 ],
 	"super" : "WAJsonCanvas",
-	"type" : "normal" }
+	"category" : "Seaside-Swagger-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASwagger2SpecificationCanvas",
+	"type" : "normal"
+}

@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"localSize" : "JohanBrichau 4/6/2015 14:17",
 		"localAt:" : "JohanBrichau 4/6/2015 14:16",
 		"localAt:put:" : "JohanBrichau 4/6/2015 14:17",
-		"localSize" : "JohanBrichau 4/6/2015 14:17",
-		"serialiseOn:" : "pmm 8/25/2016 10:44" } }
+		"serialiseOn:" : "pmm 8/25/2016 10:44"
+	},
+	"class" : { }
+}

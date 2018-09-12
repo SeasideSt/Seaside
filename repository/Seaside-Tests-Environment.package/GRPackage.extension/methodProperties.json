@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"seasideTestsEnvironment" : "lr 2/17/2010 15:13" },
-	"instance" : {
-		 } }
+		"seasideTestsEnvironment" : "lr 2/17/2010 15:13"
+	}
+}

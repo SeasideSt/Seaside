@@ -1,1 +1,0 @@
-A WAPharoBrowser is an implementation of Browser using RPackage and reflection.

@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo50-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WASpaceStatus",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:46",
 	"super" : "WAPharoStatusItem",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo50-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASpaceStatus",
+	"type" : "normal"
+}

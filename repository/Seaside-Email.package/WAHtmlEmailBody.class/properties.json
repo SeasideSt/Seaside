@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Email",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAHtmlEmailBody",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:38",
 	"super" : "WAEmailBody",
-	"type" : "normal" }
+	"category" : "Seaside-Email",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAHtmlEmailBody",
+	"type" : "normal"
+}
