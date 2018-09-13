@@ -9,6 +9,10 @@ smalltalk:
   - Squeak-trunk
   - Squeak-5.1
 
+aliases:
+  - &pharo4-has-latest-metacello
+    smalltalk_config: .pharo4.ston
+
 matrix:
   allow_failures:
     - smalltalk: Pharo-7.0
@@ -17,6 +21,8 @@ matrix:
       os: linux
   
   include:
+    - smalltalk: Pharo-4.0
+      <<: *pharo4-has-latest-metacello
     - smalltalk: Squeak-5.1
       os: osx
     - smalltalk: GemStone-3.1.0.6
