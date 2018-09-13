@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"report" ],
-	"name" : "WATableReportFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"report"
+	],
+	"name" : "WATableReportFunctionalTest",
+	"type" : "normal"
+}

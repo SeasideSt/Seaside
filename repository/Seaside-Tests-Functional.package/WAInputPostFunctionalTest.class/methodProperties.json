@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"children" : "lr 7/25/2011 20:06",
+		"renderRequestBodyOn:" : "pmm 9/6/2009 13:02",
 		"initialize" : "pmm 9/6/2009 12:57",
-		"readRequestBody" : "pmm 9/6/2009 13:16",
 		"renderContentOn:" : "pmm 9/6/2009 13:00",
+		"readRequestBody" : "pmm 9/6/2009 13:16",
 		"renderExplanationOn:" : "lr 2/22/2009 15:10",
-		"renderRequestBodyOn:" : "pmm 9/6/2009 13:02" } }
+		"children" : "lr 7/25/2011 20:06"
+	},
+	"class" : { }
+}

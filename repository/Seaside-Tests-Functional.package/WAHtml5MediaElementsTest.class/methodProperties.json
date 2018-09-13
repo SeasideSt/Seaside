@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"renderAudioOn:" : "pmm 9/1/2012 16:24",
-		"renderContentOn:" : "pmm 9/1/2012 16:24",
-		"renderVideoOn:" : "as 2/8/2011 15:04" } }
+		"renderVideoOn:" : "as 2/8/2011 15:04",
+		"renderContentOn:" : "pmm 9/1/2012 16:24"
+	},
+	"class" : { }
+}

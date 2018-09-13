@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"redirect" : "YM 5/22/2010 22:45",
 		"renderActionsOn:" : "pmm 8/16/2014 16:59",
-		"renderContentOn:" : "pmm 7/31/2007 07:17",
-		"renderStatsOn:" : "lr 12/2/2008 08:35" } }
+		"redirect" : "YM 5/22/2010 22:45",
+		"renderStatsOn:" : "lr 12/2/2008 08:35",
+		"renderContentOn:" : "pmm 7/31/2007 07:17"
+	},
+	"class" : { }
+}

@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"cloneHandler" : "jf 10/27/2008 11:24" } }
+		"cloneHandler" : "jf 10/27/2008 11:24"
+	},
+	"class" : { }
+}

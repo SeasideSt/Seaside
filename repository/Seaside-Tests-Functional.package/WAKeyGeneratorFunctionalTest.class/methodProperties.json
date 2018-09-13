@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderContentOn:" : "pmm 11/11/2008 23:08",
 		"renderExplanationOn:" : "pmm 11/11/2008 23:08",
 		"renderKeyGeneratorOn:" : "pmm 11/11/2008 23:06",
-		"renderKeyOn:" : "pmm 11/11/2008 23:05" } }
+		"renderKeyOn:" : "pmm 11/11/2008 23:05",
+		"renderContentOn:" : "pmm 11/11/2008 23:08"
+	},
+	"class" : { }
+}

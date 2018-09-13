@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderContentOn:" : "pmm 8/26/2016 07:26",
-		"renderExplanationOn:" : "obi 3/10/2009 20:15" } }
+		"renderExplanationOn:" : "obi 3/10/2009 20:15",
+		"renderContentOn:" : "pmm 8/26/2016 07:26"
+	},
+	"class" : { }
+}

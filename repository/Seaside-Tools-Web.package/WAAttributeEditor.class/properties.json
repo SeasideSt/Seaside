@@ -1,18 +1,19 @@
 {
+	"commentStamp" : "",
+	"super" : "WAComponent",
 	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"HelpTexts",
-		"PropertiesCache" ],
-	"commentStamp" : "",
+		"PropertiesCache"
+	],
 	"instvars" : [
 		"configuration",
 		"group",
 		"properties",
-		"parent" ],
+		"parent"
+	],
 	"name" : "WAAttributeEditor",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAAttributeVisitor",
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"configuration",
-		"canvas" ],
+		"canvas"
+	],
 	"name" : "WAUserConfigurationEditorVisitor",
-	"pools" : [
-		 ],
-	"super" : "WAAttributeVisitor",
-	"type" : "normal" }
+	"type" : "normal"
+}

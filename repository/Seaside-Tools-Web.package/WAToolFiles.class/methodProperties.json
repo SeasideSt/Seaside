@@ -1,23 +1,25 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"configPng" : "jf 3/4/2009 15:15",
-		"deprecatedPng" : "lr 3/9/2009 21:21",
-		"downPng" : "pmm 2/12/2011 21:27",
-		"faviconIco" : "pmm 2/12/2011 21:27",
+		"toolCss" : "pmm 9/13/2018 12:42",
 		"handlerCss" : "pmm 9/14/2011 19:17",
+		"profilerSvg" : "pmm 9/13/2018 12:44",
+		"upPng" : "pmm 2/12/2011 21:27",
+		"helpSvg" : "pmm 9/13/2018 12:43",
+		"deprecatedSvg" : "pmm 9/13/2018 12:43",
+		"faviconIco" : "pmm 2/12/2011 21:27",
+		"plusPng" : "pmm 2/12/2011 21:27",
+		"windowCss" : "lr 3/9/2009 21:28",
 		"handlerJs" : "lr 12/29/2008 11:51",
+		"minusPng" : "pmm 2/12/2011 21:27",
 		"helpPng" : "pmm 2/12/2011 21:27",
 		"logoPng" : "pmm 2/12/2011 21:27",
-		"memoryPng" : "lr 3/9/2009 21:21",
-		"minusPng" : "pmm 2/12/2011 21:27",
-		"plusPng" : "pmm 2/12/2011 21:27",
-		"profilerPng" : "lr 3/9/2009 21:21",
-		"savePng" : "pmm 2/12/2011 21:27",
 		"selectorsToInclude" : "lr 3/9/2009 21:28",
+		"savePng" : "pmm 2/12/2011 21:27",
 		"smallLogoPng" : "obi 10/2/2009 20:16",
-		"toolCss" : "pmm 8/30/2009 15:17",
-		"upPng" : "pmm 2/12/2011 21:27",
+		"memorySvg" : "pmm 9/13/2018 12:43",
+		"downPng" : "pmm 2/12/2011 21:27",
 		"updateRoot:" : "pmm 8/22/2011 15:41",
-		"windowCss" : "lr 3/9/2009 21:28" } }
+		"configSvg" : "pmm 9/13/2018 12:43"
+	},
+	"class" : { }
+}

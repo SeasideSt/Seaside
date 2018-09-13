@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"key" ],
-	"name" : "WAKeyGeneratorFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key"
+	],
+	"name" : "WAKeyGeneratorFunctionalTest",
+	"type" : "normal"
+}
