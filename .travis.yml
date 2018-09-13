@@ -15,7 +15,6 @@ aliases:
 
 matrix:
   allow_failures:
-    - smalltalk: Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
       os: linux
