@@ -1,10 +1,12 @@
 tests
 testAddAllFilesIn
-	| workingDirectory directoryName directory library |
-	directoryName := 'XXXUsedBySeasideTests'.
+	| workingDirectory directory library |
 	workingDirectory := FileSystem disk workingDirectory.
-	GRPlatform current ensureExistenceOfFolder: directoryName.
-	directory :=workingDirectory / directoryName.
+	workingDirectory = FileSystem root ifTrue: [
+		"on Pharo 7+ #workingDirectory answers the root if the vm was stared by double clicking or drag and drop"
+		workingDirectory := FileLocator imageDirectory ].
+	directory := workingDirectory / 'XXXUsedBySeasideTests'.
+	GRPlatform current ensureExistenceOfFolder: directory pathString.
 	[ [
 		(directory / '.Seaside_Store') ensureCreateFile .
 		(directory / 'foo') ensureCreateFile.
