@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"entities" : "lr 7/25/2011 19:58",
 		"exchangeRates" : "lr 7/25/2011 19:58",
-		"renderContentOn:" : "pmm 5/16/2007 17:11",
+		"style" : "lr 7/25/2011 19:58",
 		"renderCurrencyTableBodyOn:" : "pmm 7/14/2015 12:13",
-		"renderCurrencyTableHeadOn:" : "lr 7/25/2011 18:43",
-		"renderCurrencyTableOn:" : "lr 7/25/2011 18:43",
 		"renderEntityTableBodyOn:" : "pmm 1/22/2012 16:34",
+		"renderContentOn:" : "pmm 5/16/2007 17:11",
+		"renderCurrencyTableOn:" : "lr 7/25/2011 18:43",
 		"renderEntityTableColumnGroupsOn:" : "lr 10/28/2007 14:42",
+		"entities" : "lr 7/25/2011 19:58",
 		"renderEntityTableFootOn:" : "lr 7/25/2011 18:43",
 		"renderEntityTableHeadOn:" : "pmm 1/22/2012 16:38",
-		"renderEntityTableOn:" : "pmm 7/14/2015 11:50",
-		"style" : "lr 7/25/2011 19:58" } }
+		"renderCurrencyTableHeadOn:" : "lr 7/25/2011 18:43",
+		"renderEntityTableOn:" : "pmm 7/14/2015 11:50"
+	},
+	"class" : { }
+}

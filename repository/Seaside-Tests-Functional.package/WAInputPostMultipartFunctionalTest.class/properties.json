@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAFunctionalTest",
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"inputElements",
 		"hasBody",
-		"ran" ],
+		"ran"
+	],
 	"name" : "WAInputPostMultipartFunctionalTest",
-	"pools" : [
-		 ],
-	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}
