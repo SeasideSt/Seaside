@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Pharo40-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAGenericCodecTest",
-	"pools" : [
-		 ],
 	"super" : "WAContextTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Pharo40-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAGenericCodecTest",
+	"type" : "normal"
+}
