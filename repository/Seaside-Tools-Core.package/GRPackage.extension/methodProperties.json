@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"seasideToolsCore" : "jf 6/23/2010 17:15" },
-	"instance" : {
-		 } }
+		"seasideToolsCore" : "jf 6/23/2010 17:15"
+	}
+}
