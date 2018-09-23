@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "pmm 9/23/2018 11:16",
+	"super" : "WAScriptGenerator",
+	"category" : "Seaside-Core-Document",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WANullScriptGenerator",
+	"type" : "normal"
+}
