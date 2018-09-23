@@ -7,7 +7,7 @@ baselinerest: spec
 			package: 'Seaside-REST-Core' with: [
 				spec requires: #('Seaside-Core') ]; 
 			package: 'Seaside-REST-Examples' with: [
-				spec requires: #('Seaside-REST-Core' 'Seaside-Canvas' 'Seaside-RenderLoop' 'Seaside-Examples-Misc') ];
+				spec requires: #('Seaside-REST-Core' 'Seaside-Canvas' 'Seaside-RenderLoop' 'Seaside-Examples') ];
 			package: 'Seaside-Tests-REST-Core' with: [
 				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ].
 		spec 
