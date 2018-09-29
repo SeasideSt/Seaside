@@ -8,6 +8,7 @@ newCookie
 		pathUnencoded: baseUrl pathStringUnencoded
 		encoded: (baseUrl pathStringEncodedWith: self codec);
 		httpOnly: true;
+		sameSite: 'Strict';
 		yourself.
 	baseUrl host isNil ifFalse: [ cookie domain: baseUrl host ].
 	baseUrl scheme = 'https' ifTrue: [ cookie secure: true ].

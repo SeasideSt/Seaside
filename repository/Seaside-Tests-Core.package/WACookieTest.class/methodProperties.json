@@ -9,6 +9,7 @@
 		"testSettingNilPath" : "pmm 9/10/2018 15:09",
 		"testSettingPathWithoutLeadingSlash" : "pmm 9/10/2018 15:10",
 		"testEquals" : "pmm 9/1/2012 16:17",
+		"testWriteAttributes" : "pmm 9/29/2018 12:45",
 		"testExpireInPast" : "pmm 4/5/2008 15:42",
 		"testSettingEmptyPath" : "pmm 9/10/2018 15:09",
 		"testSettingPathWithTrailingSlash" : "pmm 9/10/2018 15:09",

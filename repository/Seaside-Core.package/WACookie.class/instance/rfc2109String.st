@@ -13,4 +13,5 @@ rfc2109String
 		self writeDomainQuoted: true on: stream.
 		self writeSecureOn: stream.
 		self writeHttpOnlyOn: stream.
+		self writeSameSiteOn: stream.
 		self writeVersionOn: stream ]
