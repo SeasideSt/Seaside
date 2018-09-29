@@ -12,4 +12,5 @@ rfc6265String
 		self writeDomainQuoted: useQuotes on: stream.
 		self writePathQuoted: useQuotes on: stream.
 		self writeSecureOn: stream.
-		self writeHttpOnlyOn: stream ]
+		self writeHttpOnlyOn: stream.
+		self writeSameSiteOn: stream ]

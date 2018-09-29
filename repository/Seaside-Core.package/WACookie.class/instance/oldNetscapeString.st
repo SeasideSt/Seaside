@@ -11,4 +11,5 @@ oldNetscapeString
 		self writePathQuoted: false on: stream.
 		self writeDomainQuoted: false on: stream.
 		self writeSecureOn: stream.
-		self writeHttpOnlyOn: stream ]
+		self writeHttpOnlyOn: stream.
+		self writeSameSiteOn: stream ]

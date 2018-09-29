@@ -12,6 +12,7 @@
 		"comment",
 		"commentUrl",
 		"httpOnly",
+		"sameSite",
 		"maxAge"
 	],
 	"name" : "WACookie",
