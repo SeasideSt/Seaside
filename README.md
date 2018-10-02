@@ -87,7 +87,7 @@ Metacello new
 Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
 
 ## Community
-We have a low traffic mailing list for questions ([sign up here](http://lists.squeakfoundation.org/cgi-bin/mailman/listinfo/seaside)) and a (Smalltalk dialect independant) channel on the [Pharo](https://pharo.org) Discord ([sign up here](http://discord.gg/Sj2rhxn).
+We have a low traffic mailing list for questions ([sign up here](http://lists.squeakfoundation.org/cgi-bin/mailman/listinfo/seaside)) and a (Smalltalk dialect independant) channel on the [Pharo](https://pharo.org) Discord ([sign up here](http://discord.gg/Sj2rhxn)).
 
 ## Contributing
 If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/blob/master/CONTRIBUTING.md).
