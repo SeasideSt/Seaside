@@ -20,8 +20,6 @@ matrix:
       os: linux
   
   include:
-    - smalltalk: Pharo-7.0
-      env: BUILD_NAME=Pharo-7.0
     - smalltalk: Squeak-5.1
       os: osx
       env: BUILD_NAME=Squeak-5.1
