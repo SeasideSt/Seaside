@@ -2,6 +2,7 @@ language: smalltalk
 sudo: false
 smalltalk:
   - Pharo-7.0
+    env: BUILD_NAME=Pharo-7.0
   - Pharo-6.1
   - Pharo-6.0
   - Pharo-5.0
@@ -14,7 +15,6 @@ matrix:
   allow_failures:
     - smalltalk: GemStone-2.4.8
     - smalltalk: Pharo-7.0
-      env: BUILD_NAME=Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
       os: linux
