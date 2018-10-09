@@ -47,8 +47,8 @@ matrix:
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
-     - smalltalk: GemStone-2.4.8
-       env: BUILD_NAME=GemStone-2.4.8
-       cache:
-         directories:
-           - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-2.4.8
+      env: BUILD_NAME=GemStone-2.4.8
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
