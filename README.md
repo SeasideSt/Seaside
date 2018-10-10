@@ -38,28 +38,16 @@ To install the latest stable version of Seaside in a [Pharo](http://www.pharo-pr
 
 ```Smalltalk
 Metacello new
-  configuration:'Seaside3';
-  repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-  version: #stable;
-  load
-```
-
-To install a particular version (e.g. 3.1.3):
-
-```Smalltalk
-Metacello new
- configuration:'Seaside3';
- repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
- version: '3.1.3';
+ baseline:'Seaside3';
+ repository: 'github://SeasideSt/Seaside:master/repository';
  load
 ```
-
-Starting with version 3.2.0, you can also install Seaside directly from the Github repository:
+To install a particular version (see [releases](https://github.com/SeasideSt/Seaside/releases), e.g. 3.2.1):
 
 ```Smalltalk
 Metacello new
  baseline:'Seaside3';
- repository: 'github://SeasideSt/Seaside:master/repository';
+ repository: 'github://SeasideSt/Seaside:v3.2.1/repository';
  load
 ```
 	
@@ -99,6 +87,28 @@ Metacello new
 ### Install in Squeak
 
 Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
+
+### Install older versions in Pharo or Squeak
+
+To install a version older than 3.1.3, you need to load Seaside from Smalltalkhub:
+
+```Smalltalk
+Metacello new
+  configuration:'Seaside3';
+  repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+  version: #stable;
+  load
+```
+
+To install a particular version (e.g. 3.1.0):
+
+```Smalltalk
+Metacello new
+ configuration:'Seaside3';
+ repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+ version: '3.1.0';
+ load
+```
 
 ## Community
 We have a low traffic mailing list for questions ([sign up here](http://lists.squeakfoundation.org/cgi-bin/mailman/listinfo/seaside)) and a (Smalltalk dialect independant) channel on the [Pharo](https://pharo.org) Discord ([sign up here](http://discord.gg/Sj2rhxn)).
