@@ -18,16 +18,20 @@ toolCss
 }
 
 .window-titlebar .wa-configuretoolplugin, .window-titlebar .wa-configuredispatcherplugin {
-	background: url(config.png) no-repeat;
+	background: url(config.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .window-titlebar .wa-deprecationtoolplugin {
-	background: url(deprecated.png) no-repeat;
+	background: url(deprecated.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .window-titlebar .wa-memorytoolplugin {
-	background: url(memory.png) no-repeat;
+	background: url(memory.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .window-titlebar .wa-profilertoolplugin {
-	background: url(profiler.png) no-repeat;
+	background: url(profiler.svg) no-repeat;
+	background-size: 16px 16px;
 }
 
 '

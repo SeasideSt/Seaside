@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"isFunctionalTest" : "pmm 9/14/2013 17:16" },
-	"instance" : {
-		 } }
+		"isFunctionalTest" : "pmm 9/14/2013 17:16"
+	}
+}

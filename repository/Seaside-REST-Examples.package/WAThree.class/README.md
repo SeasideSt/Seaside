@@ -1,0 +1,1 @@
+I am a component that needs a session.

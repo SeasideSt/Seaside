@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Session",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAApplicationKeyHandlingTest",
-	"pools" : [
-		 ],
 	"super" : "WARegistryKeyHandlingTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAApplicationKeyHandlingTest",
+	"type" : "normal"
+}

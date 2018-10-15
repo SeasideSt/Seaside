@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"jQueryJs" : "JohanBrichau 7/24/2015 08:51",
-		"selectorsToInclude" : "lr 10/18/2008 08:37" } }
+		"jQueryJs" : "JohanBrichau 10/4/2018 11:25",
+		"selectorsToInclude" : "lr 10/18/2008 08:37"
+	},
+	"class" : { }
+}

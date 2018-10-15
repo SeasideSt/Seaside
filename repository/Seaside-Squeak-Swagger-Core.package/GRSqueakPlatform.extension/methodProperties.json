@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"classCommentOf:" : "JB 8/28/2015 16:51",
-		"methodCommentOf:in:" : "JB 8/28/2015 16:48" } }
+		"methodCommentOf:in:" : "JB 8/28/2015 16:48",
+		"pragmaAt:in:" : "TravisCI 8/24/2016 14:09" } }

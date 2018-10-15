@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WADispatcherBrowser",
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"selection",
-		"editor" ],
+		"editor"
+	],
 	"name" : "WAConfigurationBrowser",
-	"pools" : [
-		 ],
-	"super" : "WADispatcherBrowser",
-	"type" : "normal" }
+	"type" : "normal"
+}

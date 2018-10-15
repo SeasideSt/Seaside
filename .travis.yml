@@ -1,9 +1,12 @@
 language: smalltalk
 sudo: false
 
+aliases:
+  - &pharo4-has-latest-metacello
+    smalltalk_config: .pharo4.ston
+
 matrix:
   allow_failures:
-    - smalltalk: Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
       os: linux
@@ -18,6 +21,8 @@ matrix:
       env: BUILD_NAME=Pharo-6.0
     - smalltalk: Pharo-5.0
       env: BUILD_NAME=Pharo-5.0
+    - smalltalk: Pharo-4.0
+      <<: *pharo4-has-latest-metacello
   
     - smalltalk: Squeak-trunk
       env: BUILD_NAME=Squeak-trunk

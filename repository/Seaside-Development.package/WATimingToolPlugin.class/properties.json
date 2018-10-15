@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Development-Plugins",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 5/27/2007 18:31",
-	"instvars" : [
-		"filter" ],
-	"name" : "WATimingToolPlugin",
-	"pools" : [
-		 ],
 	"super" : "WAToolPlugin",
-	"type" : "normal" }
+	"category" : "Seaside-Development-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter"
+	],
+	"name" : "WATimingToolPlugin",
+	"type" : "normal"
+}

@@ -1,23 +1,24 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"createCache" : "pmm 7/14/2015 10:39",
-		"handler" : "pmm 2/1/2014 14:22",
-		"handler:" : "pmm 2/2/2014 19:09",
-		"initialize" : "pmm 7/14/2015 10:40",
-		"maximumAbsoluteAge" : "pmm 2/1/2014 14:49",
-		"maximumAbsoluteAge:" : "JohanBrichau 4/4/2016 14:09",
-		"maximumRelativeAge" : "pmm 2/1/2014 14:50",
-		"maximumRelativeAge:" : "JohanBrichau 4/4/2016 14:09",
-		"maximumSize" : "pmm 2/1/2014 14:47",
 		"maximumSize:" : "JohanBrichau 4/4/2016 14:09",
-		"overflowAction" : "pmm 2/1/2014 14:50",
-		"overflowAction:" : "pmm 2/1/2014 14:50",
-		"renderCacheReplaceOn:" : "pmm 2/1/2014 14:40",
-		"renderMaximumAbsoluteAgeOn:" : "pmm 2/1/2014 16:06",
-		"renderMaximumRelativeAgeOn:" : "pmm 2/1/2014 16:07",
-		"renderMaximumSizeOn:" : "pmm 2/1/2014 15:49",
-		"renderOverflowActionOn:" : "pmm 7/12/2015 15:13",
 		"replaceCache" : "pmm 7/13/2015 12:01",
-		"storeConfigurationValues" : "pmm 7/13/2015 12:01" } }
+		"maximumSize" : "pmm 2/1/2014 14:47",
+		"initialize" : "pmm 7/14/2015 10:40",
+		"overflowAction:" : "pmm 2/1/2014 14:50",
+		"handler:" : "pmm 2/2/2014 19:09",
+		"maximumAbsoluteAge:" : "JohanBrichau 4/4/2016 14:09",
+		"renderMaximumAbsoluteAgeOn:" : "pmm 2/1/2014 16:06",
+		"handler" : "pmm 2/1/2014 14:22",
+		"overflowAction" : "pmm 2/1/2014 14:50",
+		"renderMaximumSizeOn:" : "pmm 2/1/2014 15:49",
+		"storeConfigurationValues" : "pmm 7/13/2015 12:01",
+		"renderOverflowActionOn:" : "pmm 7/12/2015 15:13",
+		"renderCacheReplaceOn:" : "pmm 2/1/2014 14:40",
+		"renderMaximumRelativeAgeOn:" : "pmm 2/1/2014 16:07",
+		"maximumAbsoluteAge" : "pmm 2/1/2014 14:49",
+		"maximumRelativeAge:" : "JohanBrichau 4/4/2016 14:09",
+		"createCache" : "pmm 7/14/2015 10:39",
+		"maximumRelativeAge" : "pmm 2/1/2014 14:50"
+	},
+	"class" : { }
+}

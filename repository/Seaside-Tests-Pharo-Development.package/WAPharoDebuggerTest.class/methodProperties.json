@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"expectedFailures" : "pmm 7/15/2015 16:56",
+		"expectedFailures" : "TravisCI 8/25/2016 16:35",
 		"signalInterestingError" : "pmm 9/17/2011 11:37",
-		"testNamedTempAt" : "pmm 9/1/2012 16:35" } }
+		"testNamedTempAt" : "pmm 8/25/2016 09:05"
+	},
+	"class" : { }
+}

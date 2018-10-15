@@ -50,31 +50,28 @@ baselineadaptors: spec
 	spec
 		for: #pharo
 		do: [
-                  spec
-                    package: 'Zinc-Seaside'
-                    with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
-			spec
-				project: 'Zinc Project'
-				with: [ 
-					spec
-						versionString: #stable;
-						loads: 'Zinc-HTTP';
-						className: 'ConfigurationOfZincHTTPComponents';
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
 			spec
 				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
-				package: 'Zinc-Seaside'
-					with: [ 
-							spec
-								repository: 'http://mc.stfx.eu/ZincHTTPComponents';
-								requires: #('Zinc Project' 'Seaside-Core') ];
 				package: 'KomHttpServerLight'
 					with: [ spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ].
 			spec
-				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
-				group: 'Zinc' with: #('Zinc-Seaside');
-				group: 'Comanche' with: #('Seaside-Adaptors-Comanche') ].
+				group: 'Kom' with: #('Seaside-Adaptors-Comanche') ].
+		
+	spec
+		for: #pharo
+		do: [
+			spec
+				package: 'Zinc-Seaside'
+				with: [ spec requires: #('Seaside-Core') ].
+			spec
+				package: 'Zinc-Seaside'
+					with: [ 
+							spec
+								repository: 'http://mc.stfx.eu/ZincHTTPComponents';
+								requires: #('Seaside-Core') ].
+			spec
+				group: 'Zinc' with: #('Zinc-Seaside') ].
 			
 	spec
 		for: #'pharo1.x'

@@ -1,3 +1,3 @@
 accessing
 title
-	^ 'Welcome to Seaside 3.2'
+	^ 'Welcome to Seaside 3.3'

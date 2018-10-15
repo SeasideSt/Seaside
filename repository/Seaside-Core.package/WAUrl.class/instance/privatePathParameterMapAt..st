@@ -7,4 +7,4 @@ privatePathParameterMapAt: anIndex
 		ifFalse: [
 			anIndex - pathParameters size - 1 timesRepeat: [
 				pathParameters add: nil ].
-			pathParameters add: GROrderedMultiMap new ]
+			pathParameters add: GROrderedMultiMap2 new ]

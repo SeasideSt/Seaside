@@ -1,5 +1,5 @@
 private
 newApplication
-	^ WAApplication new
+	^ WARedirectingApplication new
 		cache: WAUnidirectionalCache new;
 		yourself

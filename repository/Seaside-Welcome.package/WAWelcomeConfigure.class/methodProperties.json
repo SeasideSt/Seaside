@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"clearServerUrl" : "lr 6/13/2010 17:41",
-		"disableErrorWalkbacks" : "lr 6/13/2010 17:23",
-		"enableErrorWalkbacks" : "lr 6/13/2010 17:22",
 		"errorWalkbacksEnabled" : "lr 6/13/2010 17:22",
-		"renderButtonsOn:" : "obi 7/18/2010 16:53",
+		"serverUrl" : "lr 6/13/2010 17:41",
+		"renderWalkbacksOn:" : "jf 6/16/2010 10:31",
 		"renderContentOn:" : "lr 8/22/2010 15:25",
 		"renderDescriptionOn:" : "jf 6/23/2010 19:45",
-		"renderServerUrlOn:" : "jf 6/16/2010 10:44",
+		"clearServerUrl" : "lr 6/13/2010 17:41",
+		"disableErrorWalkbacks" : "lr 6/13/2010 17:23",
 		"renderToolsOn:" : "jf 6/16/2010 10:30",
-		"renderWalkbacksOn:" : "jf 6/16/2010 10:31",
-		"serverUrl" : "lr 6/13/2010 17:41" } }
+		"renderServerUrlOn:" : "jf 6/16/2010 10:44",
+		"enableErrorWalkbacks" : "lr 6/13/2010 17:22",
+		"renderButtonsOn:" : "obi 7/18/2010 16:53"
+	},
+	"class" : { }
+}

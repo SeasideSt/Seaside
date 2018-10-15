@@ -1,5 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testIsIpAddress" : "pmm 2/25/2011 07:28" } }
+		"testIsIpAddress" : "pmm 2/25/2011 07:28",
+		"testSeasideSmtpServer" : "pmm 9/7/2017 12:22"
+	},
+	"class" : { }
+}

@@ -1,18 +1,22 @@
 {
+	"instance" : {
+		"actionPhaseContinuationClass" : "pmm 8/23/2014 12:09",
+		"presenter" : "jf 2/20/2009 11:58",
+		"updateRoot:" : "pmm 8/16/2014 11:49",
+		"updateUrl:" : "lr 9/8/2009 12:50",
+		"updateStates:" : "jf 2/20/2009 11:59",
+		"withNotificationHandlerDo:" : "JohanBrichau 4/19/2015 08:35",
+		"scriptGeneratorClass" : "pmm 9/6/2017 11:23",
+		"isActionContinuation" : "jf 8/24/2011 12:07",
+		"toPresenterSendRoot:" : "pmm 8/30/2009 14:50",
+		"isRenderContinuation" : "jf 8/24/2011 12:07",
+		"createActionContinuation" : "pmm 8/23/2014 12:09",
+		"createRenderContinuation" : "pmm 8/23/2014 12:20",
+		"createActionContinuationWithContext:" : "pmm 8/23/2014 12:09"
+	},
 	"class" : {
 		"isActionContinuation" : "jf 8/24/2011 12:06",
 		"isRenderContinuation" : "jf 8/24/2011 12:06",
-		"isRenderLoopContinuation" : "jf 8/24/2011 12:06" },
-	"instance" : {
-		"actionPhaseContinuationClass" : "pmm 8/23/2014 12:09",
-		"createActionContinuation" : "pmm 8/23/2014 12:09",
-		"createActionContinuationWithContext:" : "pmm 8/23/2014 12:09",
-		"createRenderContinuation" : "pmm 8/23/2014 12:20",
-		"isActionContinuation" : "jf 8/24/2011 12:07",
-		"isRenderContinuation" : "jf 8/24/2011 12:07",
-		"presenter" : "jf 2/20/2009 11:58",
-		"toPresenterSendRoot:" : "pmm 8/30/2009 14:50",
-		"updateRoot:" : "pmm 8/16/2014 11:49",
-		"updateStates:" : "jf 2/20/2009 11:59",
-		"updateUrl:" : "lr 9/8/2009 12:50",
-		"withNotificationHandlerDo:" : "JohanBrichau 4/19/2015 08:35" } }
+		"isRenderLoopContinuation" : "jf 8/24/2011 12:06"
+	}
+}

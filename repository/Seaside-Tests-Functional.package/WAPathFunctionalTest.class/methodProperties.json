@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderContentOn:" : "jf 10/18/2008 22:40",
 		"string" : "jf 10/18/2008 22:38",
+		"updateUrl:" : "lr 7/25/2011 20:07",
 		"string:" : "jf 10/18/2008 22:38",
-		"updateUrl:" : "lr 7/25/2011 20:07" } }
+		"renderContentOn:" : "jf 10/18/2008 22:40"
+	},
+	"class" : { }
+}

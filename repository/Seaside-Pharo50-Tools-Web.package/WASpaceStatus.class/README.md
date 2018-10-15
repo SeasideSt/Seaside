@@ -1,0 +1,1 @@
+I provide a space usage per class.

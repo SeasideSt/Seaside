@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"configurationComponent" : "lr 7/25/2011 19:59" } }
+		"configurationComponent" : "lr 7/25/2011 19:59"
+	},
+	"class" : { }
+}

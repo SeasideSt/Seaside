@@ -12,6 +12,13 @@ renderCommands: anItem on: html
 		callback: [ message := anItem leavesBySends ];
 		with: 'Leaves (sends)'.
 	html text: ' '.
-	html anchor
-		callback: [ message := anItem stats ];
-		with: 'Stats'
+	anItem time > 0
+		ifTrue: [
+			html anchor
+				callback: [ message := anItem stats ];
+				with: 'GC Stats' ]
+		ifFalse: [
+			"avoid ZeroDivide
+			https://github.com/SeasideSt/Seaside/issues/968"
+			html text: 'GC Stats' ]
+ 	

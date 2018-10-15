@@ -1,3 +1,4 @@
 *seaside-development
 enableDevelopmentTools
-	self applicationDefaults addParent: WADevelopmentConfiguration instance
+	self applicationDefaults addParent: WADevelopmentConfiguration instance.
+	self clearConfigurationCaches

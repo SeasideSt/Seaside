@@ -6,12 +6,12 @@
 		"urlEncoderOn:" : "pmm 8/14/2011 17:54",
 		"newReducedConflictCounter" : "pmm 7/14/2015 18:29",
 		"doCommitTransaction" : "JohanBrichau 7/16/2015 11:19",
-		"seasideVersion" : "JohanBrichau 6/9/2017 19:07",
+		"seasideVersion" : "pmm 9/12/2018 14:48",
 		"newTransientValueHolder" : "pmm 7/14/2015 18:29"
 	},
 	"class" : {
-		"subStringsIn:splitBy:" : "pmm 8/21/2016 16:43",
-		"subStringsIn:splitBy:collect:" : "pmm 8/21/2016 16:49",
+		"subStringsIn:splitBy:" : "pmm 5/25/2017 15:17:03",
+		"subStringsIn:splitBy:collect:" : "pmm 5/25/2017 15:17:03",
 		"subStringsIn:splitBy:do:" : "pmm 2/25/2012 11:20"
 	}
 }

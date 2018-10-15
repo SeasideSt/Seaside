@@ -4,6 +4,6 @@ seasideSmtpServer
 	^ self seasideHandlerPreferenceAt: #smtpServer ifAbsent: [
 		| mailSenderClass |
 		mailSenderClass := (Smalltalk globals hasClassNamed: 'MailComposition')
-			ifTrue: [ Smalltalk globals hasClassNamed: 'MailComposition' ]
-			ifFalse: [ Smalltalk globals hasClassNamed: 'MailSender' ].
+			ifTrue: [ Smalltalk globals classNamed: 'MailComposition' ]
+			ifFalse: [ Smalltalk globals classNamed: 'MailSender' ].
 		mailSenderClass smtpServer ]

@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"fromString:" : "pmm 3/21/2011 20:43",
-		"fromString:index:arguments:" : "pmm 3/21/2011 20:43" },
 	"instance" : {
 		"argumentCount" : "pmm 3/21/2011 20:43",
-		"inititializeWith:" : "JohanBrichau 3/20/2016 21:04",
-		"mapArgumentsWithElements:into:usingOffset:" : "pmm 3/22/2011 10:07",
+		"inititializeWith:" : "pmm 8/21/2016 16:21",
+		"priority" : "pmm 3/21/2011 20:43",
 		"matches:" : "pmm 3/21/2011 20:44",
-		"priority" : "pmm 3/21/2011 20:43" } }
+		"mapArgumentsWithElements:into:usingOffset:" : "pmm 3/22/2011 10:07"
+	},
+	"class" : {
+		"fromString:index:arguments:" : "pmm 3/21/2011 20:43",
+		"fromString:" : "pmm 3/21/2011 20:43"
+	}
+}

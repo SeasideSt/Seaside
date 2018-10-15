@@ -8,5 +8,5 @@ addCookieWithValue: aString to: aRequestContext
 			value: aString;
 			discard: true;
 			comment: 'the Seaside Session Cookie';
-			commentUrl: 'http://www.seaside.st/documentation/sessionCookie';
+			commentUrl: 'https://github.com/SeasideSt/Seaside/wiki/Session-Cookie';
 			yourself)

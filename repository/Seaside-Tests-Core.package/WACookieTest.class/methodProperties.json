@@ -1,14 +1,21 @@
 {
 	"instance" : {
 		"testCopy" : "pmm 9/1/2012 16:17",
-		"testWriteOn" : "pmm 8/16/2014 14:19",
-		"testFromStringRfc2965" : "pmm 9/11/2013 12:24",
-		"testExpireInPast" : "pmm 4/5/2008 15:42",
-		"testExpirePrinting" : "pmm 8/16/2014 13:40",
+		"testWriteOn" : "pmm 9/10/2018 15:10",
 		"testFromStringOldNetscape" : "pmm 9/11/2013 12:22",
+		"testSettingRootPath" : "pmm 9/10/2018 15:10",
 		"testPathEncoding" : "pmm 9/11/2013 12:42",
+		"testExpirePrinting" : "pmm 9/10/2018 15:08",
+		"testSettingNilPath" : "pmm 9/10/2018 15:09",
+		"testSettingPathWithoutLeadingSlash" : "pmm 9/10/2018 15:10",
 		"testEquals" : "pmm 9/1/2012 16:17",
-		"testCombine" : "pmm 8/16/2014 14:01"
+		"testWriteAttributes" : "pmm 9/29/2018 12:45",
+		"testExpireInPast" : "pmm 4/5/2008 15:42",
+		"testSettingEmptyPath" : "pmm 9/10/2018 15:09",
+		"testSettingPathWithTrailingSlash" : "pmm 9/10/2018 15:09",
+		"testFromStringRfc2965" : "pmm 9/11/2013 12:24",
+		"testSettingRegularPath" : "pmm 9/10/2018 15:10",
+		"testCombine" : "pmm 9/10/2018 15:07"
 	},
 	"class" : { }
 }

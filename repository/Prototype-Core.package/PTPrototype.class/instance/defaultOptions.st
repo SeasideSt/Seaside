@@ -1,3 +1,3 @@
 private
 defaultOptions
-	^ GRSmallDictionary new
+	^ GRSmallDictionary2 new

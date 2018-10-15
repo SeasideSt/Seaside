@@ -8,4 +8,10 @@ testMethod
 	self assert: route method = 'POST'.
 	
 	route := WARoute copy: #copyDatabase:document:.
-	self assert: route method = 'COPY'
+	self assert: route method = 'COPY'.
+	
+	route := WARoute patch: #updateDatabase:document:.
+	self assert: route method = 'PATCH'.
+	
+	route := WARoute options: #options.
+	self assert: route method = 'OPTIONS'

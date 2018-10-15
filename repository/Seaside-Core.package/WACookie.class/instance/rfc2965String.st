@@ -16,5 +16,6 @@ rfc2965String
 		self writeDomainQuoted: true on: stream.
 		self writeSecureOn: stream.
 		self writeHttpOnlyOn: stream.
+		self writeSameSiteOn: stream.
 		self writeDiscardOn: stream.
 		self writeVersionOn: stream ]

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GROrderedMultiMapTest",
+	"super" : "GROrderedMultiMap2Test",
 	"category" : "Seaside-Tests-Core-HTTP",
 	"classinstvars" : [ ],
 	"pools" : [ ],

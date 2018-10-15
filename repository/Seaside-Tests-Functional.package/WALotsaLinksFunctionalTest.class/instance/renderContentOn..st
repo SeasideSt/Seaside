@@ -5,7 +5,7 @@ renderContentOn: html
 		1 to: 5000 do: [ :each | 
 			html listItem: [
 				html anchor
-					name: each greaseString;
+					name: each;
 					callback: [
 						self 
 							inform: each

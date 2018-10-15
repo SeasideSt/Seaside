@@ -41,7 +41,7 @@ baselinecommon: spec
 			package: 'Seaside-Environment' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Widgets' ). ];
 			package: 'Seaside-Examples' with: [
-				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' ). ];
+				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' 'Seaside-Development' 'JQuery-Core'). ];
 			package: 'Seaside-Flow' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' ). ];
 			package: 'Seaside-InternetExplorer' with: [
@@ -93,5 +93,5 @@ baselinecommon: spec
 			group: 'Development' with: #('Core' 'Seaside-Development' );
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development' );
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' );
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples');
 			group: 'Base' with: #('Core')  ].

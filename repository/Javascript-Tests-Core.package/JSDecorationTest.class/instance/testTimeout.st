@@ -2,5 +2,5 @@ tests
 testTimeout
 	| mock |
 	mock := self mock.
-	mock timeout: 123.
+	mock setTimeout: 123.
 	self assert: mock equals: 'setTimeout(function(){mock},123)'

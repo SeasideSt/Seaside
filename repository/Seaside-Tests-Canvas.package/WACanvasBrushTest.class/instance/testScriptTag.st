@@ -8,4 +8,4 @@ testScriptTag
 		gives: '<script type="text/javascript">true & false</script>'.
 	self
 		assert: [ :html | html script defer; with: 'alert("<foo>")' ]
-		gives: '<script defer="defer" type="text/javascript">alert("<foo>")</script>'
+		gives: '<script defer type="text/javascript">alert("<foo>")</script>'

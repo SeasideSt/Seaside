@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"crossPlatformPathFromArray:finalSlash:" : "JohanBrichau 9/27/2014 16:40",
+		"crossPlatformPathFromArray:finalSlash:" : "pmm 8/25/2016 08:55",
 		"requestWithUrl:" : "lr 8/2/2009 12:50",
 		"setUp" : "pmm 9/5/2009 15:55",
 		"testAsAbsoluteUrlRelativeTo" : "JohanBrichau 9/13/2013 10:30",
-		"testDefaultDirectoryPathString" : "JohanBrichau 11/8/2014 10:47",
-		"testFileNameFor" : "JohanBrichau 11/8/2014 10:55",
-		"testIsDirectory" : "JohanBrichau 11/8/2014 10:47",
-		"testMimetypeForRequest" : "pmm 10/18/2008 11:31",
-		"testPathForRequest" : "JohanBrichau 9/27/2014 20:22" } }
+		"testDefaultDirectoryPathString" : "pmm 8/25/2016 10:20",
+		"testFileNameFor" : "pmm 8/25/2016 11:54",
+		"testIsDirectory" : "pmm 8/25/2016 10:21",
+		"testMimetypeForRequest" : "pmm 8/25/2016 11:50",
+		"testPathForRequest" : "pmm 8/25/2016 10:21" } }

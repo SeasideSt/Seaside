@@ -5,13 +5,14 @@
 		"testAsSelector" : "NickAger 3/9/2012 14:22",
 		"testName" : "pmm 8/19/2014 10:13",
 		"testUrlOf" : "NickAger 3/9/2012 14:46",
-		"testAsFilename" : "DiegoLont 8/31/2012 14:34",
+		"testAsFilename" : "pmm 9/6/2017 15:19",
 		"testAsFileAndFoldername" : "DiegoLont 8/31/2012 14:37",
 		"testFilenames" : "pmm 9/1/2012 16:22",
 		"testCompileByteArray" : "pmm 9/2/2012 13:31",
 		"testImgglyphiconshalflingsPng" : "pmm 9/1/2012 16:23",
 		"testCompileString" : "pmm 9/2/2012 13:31",
-		"testIsBinary" : "NickAger 3/9/2012 14:37"
+		"testIsBinary" : "NickAger 3/9/2012 14:37",
+		"testAsFileAndFoldernameWithSubfolders" : "pmm 9/6/2017 15:19"
 	},
 	"class" : { }
 }

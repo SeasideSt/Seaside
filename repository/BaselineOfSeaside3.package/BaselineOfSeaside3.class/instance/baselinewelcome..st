@@ -5,20 +5,14 @@ baselinewelcome: spec
 
 		spec 
 			package: 'Seaside-Welcome' with: [
-				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI' 'JQuery-Tests-Core' 'JQuery-Tests-UI') ];
+				spec requires: #('Seaside-Environment' 'Seaside-Tools-Web' 'Seaside-Widgets' 'Seaside-Examples' 'Seaside-Development' 'Seaside-Flow' 'Seaside-Tests-Flow' 'JQuery-Core' 'JQuery-UI') ];
 			package: 'Seaside-Tests-Welcome' with: [
 				spec requires: #('Seaside-Welcome' ) ].
 		spec 
 			group: 'Welcome' with: #('Seaside-Welcome');
 			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome');
-			group: 'Welcome' with: #( 'Welcome Tests' ) ].		
-	
-  spec
-    for: #'gs2.4.x'
-    do: [
-		spec
-			group: 'Welcome Tests'  with: #() ].
-
+			group: 'Welcome' with: #( 'Welcome Tests' ) ].	
+			
 	spec for: #'squeak' do: [
 		spec 
 			package: 'Seaside-Welcome' with: [

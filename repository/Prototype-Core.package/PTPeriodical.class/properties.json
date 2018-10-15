@@ -1,14 +1,11 @@
 {
-	"category" : "Prototype-Core-Ajax",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 2/27/2007 20:37",
-	"instvars" : [
-		 ],
-	"name" : "PTPeriodical",
-	"pools" : [
-		 ],
 	"super" : "PTUpdater",
-	"type" : "normal" }
+	"category" : "Prototype-Core-Ajax",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PTPeriodical",
+	"type" : "normal"
+}

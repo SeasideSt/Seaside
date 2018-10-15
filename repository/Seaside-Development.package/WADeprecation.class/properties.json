@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WATool",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"table",
-		"filter" ],
+		"filter"
+	],
 	"name" : "WADeprecation",
-	"pools" : [
-		 ],
-	"super" : "WATool",
-	"type" : "normal" }
+	"type" : "normal"
+}

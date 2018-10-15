@@ -2,4 +2,4 @@ options
 from
 	^ self options 
 		at: 'from'
-		ifAbsentPut: [ GRSmallDictionary new ]
+		ifAbsentPut: [ GRSmallDictionary2 new ]

@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WADispatcherSubPage",
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"handler" ],
+		"handler"
+	],
 	"name" : "WADispatcherCopyPage",
-	"pools" : [
-		 ],
-	"super" : "WADispatcherSubPage",
-	"type" : "normal" }
+	"type" : "normal"
+}

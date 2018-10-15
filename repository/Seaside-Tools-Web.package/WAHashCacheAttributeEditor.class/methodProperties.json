@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"configuration:" : "pmm 7/14/2015 10:46",
 		"createCache" : "pmm 7/14/2015 10:38",
-		"renderConfigurationOn:" : "pmm 7/14/2015 10:40" } }
+		"configuration:" : "pmm 7/14/2015 10:46",
+		"renderConfigurationOn:" : "pmm 7/14/2015 10:40"
+	},
+	"class" : { }
+}

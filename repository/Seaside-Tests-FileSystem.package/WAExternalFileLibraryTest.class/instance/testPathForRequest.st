@@ -47,4 +47,4 @@ testPathForRequest
 	consumer := WAPathConsumer path: #('cleopatra.jpeg') asOrderedCollection.
 	"/home/philppe/files/cleopatra.jpeg"
 	resultPath := self crossPlatformPathFromArray: #('home' 'philppe' 'files' 'cleopatra.jpeg') finalSlash: false.
-	self assert: (fileSystem filenameForConsumer: consumer) = resultPath.
+	self assert: (fileSystem filenameForConsumer: consumer) = resultPath

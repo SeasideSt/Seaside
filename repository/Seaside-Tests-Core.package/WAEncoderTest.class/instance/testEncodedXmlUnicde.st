@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEncodedXmlUnicde
 	| lineSeparator paragraphSeparator snowMan string |
 	lineSeparator := Character codePoint: 16r2028.

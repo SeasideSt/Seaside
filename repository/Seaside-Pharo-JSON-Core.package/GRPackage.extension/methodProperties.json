@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"seasidePharoJsonCore" : "pmm 5/6/2012 15:59" },
-	"instance" : {
-		 } }
+		"seasidePharoJsonCore" : "pmm 5/6/2012 15:59"
+	}
+}

@@ -145,11 +145,3 @@ baselinepharo: spec
 				spec includes: #('Seaside-Pharo-Tools-Spec') ];
 			package: 'Seaside-Pharo-Tools-Spec'  with: [
 				spec requires: #('Seaside-Tools-Core') ] ].
-		
-	"ToolBuilder based tools"
-	spec for: #(#'squeak4.6.x' #'squeak5.x') do: [
-		spec
-			package: 'Seaside-Tools-Core' with: [
-				spec includes: #('Seaside-Squeak-Tools-Development') ];
-			package: 'Seaside-Squeak-Tools-Development'  with: [
-				spec requires: #('Seaside-Tools-Core') ] ].
