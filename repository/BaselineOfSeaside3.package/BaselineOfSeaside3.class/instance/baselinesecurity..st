@@ -2,7 +2,7 @@ baselines
 baselinesecurity: spec
 	spec
 		for: #pharo
-		do: [ spec package: 'Cryptography' with: [ spec repository: 'http://mc.smalltalkhub.com/mc/Cryptography/Cryptography/main' ].
+		do: [ spec package: 'Cryptography' with: [ spec repository: 'github://pharo-contributions/Cryptography:0.3.2/source' ].
 			spec
 				package: 'Seaside-Security'
 					with: [ spec
