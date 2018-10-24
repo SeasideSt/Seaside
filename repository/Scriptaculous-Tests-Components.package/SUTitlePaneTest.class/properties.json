@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Tests-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"component" ],
-	"name" : "SUTitlePaneTest",
-	"pools" : [
-		 ],
 	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"component"
+	],
+	"name" : "SUTitlePaneTest",
+	"type" : "normal"
+}

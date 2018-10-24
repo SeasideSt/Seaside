@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"effects" : "lr 3/28/2006 23:07",
-		"renderContentOn:" : "lr 12/22/2008 23:42" } }
+		"renderContentOn:" : "lr 12/22/2008 23:42",
+		"effects" : "lr 3/28/2006 23:07"
+	},
+	"class" : { }
+}

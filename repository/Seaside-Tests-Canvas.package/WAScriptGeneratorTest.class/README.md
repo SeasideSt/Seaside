@@ -1,0 +1,1 @@
+Abstract base class for all script generator tests.

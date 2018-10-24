@@ -1,14 +1,11 @@
 {
-	"category" : "Scriptaculous-Tests-Core-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SUUpdaterTest",
-	"pools" : [
-		 ],
 	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SUUpdaterTest",
+	"type" : "normal"
+}

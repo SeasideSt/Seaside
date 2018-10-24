@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"renderChildrenOn:" : "dkh 11/18/2009 15:02" } }
+		"renderChildrenOn:" : "dkh 11/18/2009 15:02"
+	},
+	"class" : { }
+}

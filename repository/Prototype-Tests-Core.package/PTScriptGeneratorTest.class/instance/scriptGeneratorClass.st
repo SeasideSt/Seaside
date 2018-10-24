@@ -1,0 +1,3 @@
+configuration
+scriptGeneratorClass
+	^ PTScriptGenerator

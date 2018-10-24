@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Tests-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"carousel" ],
-	"name" : "SUCarouselTest",
-	"pools" : [
-		 ],
 	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"carousel"
+	],
+	"name" : "SUCarouselTest",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAScriptGenerator",
+	"category" : "Prototype-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PTScriptGenerator",
+	"type" : "normal"
+}
