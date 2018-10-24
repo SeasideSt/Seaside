@@ -36,16 +36,16 @@ baselineadaptors: spec
 						loads: #('Core');
 						repository: 'http://ss3.gemtalksystems.com/ss/WebClient' ].
 			spec
-				package: 'WebClient-Seaside'
+				package: 'WebClient-Seaside-Adatpor'
 				with: [ 
 					spec repository: 'http://ss3.gemtalksystems.com/ss/WebClient'.
 					spec requires: #('WebClient Project' 'Seaside-Core') ].
 			spec
-				group: 'WebClient' with: #('WebClient-Seaside') ].
+				group: 'WebClient' with: #('WebClient-Seaside-Adatpor') ].
 			
 	spec
 		for: #(#squeak #'pharo1.x')
-		do: [ spec package: 'WebClient-Seaside' with: [ spec requires: #('OB' 'Seaside-Tools-OmniBrowser') ] ].
+		do: [ spec package: 'WebClient-Seaside-OB' with: [ spec requires: #('OB' 'Seaside-Tools-OmniBrowser') ] ].
 		
 	spec
 		for: #pharo
