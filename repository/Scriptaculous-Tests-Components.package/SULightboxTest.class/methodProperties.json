@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"style" : "lr 7/25/2011 19:54",
 		"inform:" : "RJT 5/8/2007 12:43",
-		"renderContentOn:" : "pmm 8/23/2014 12:02",
-		"style" : "lr 7/25/2011 19:54" } }
+		"renderContentOn:" : "pmm 8/23/2014 12:02"
+	},
+	"class" : { }
+}

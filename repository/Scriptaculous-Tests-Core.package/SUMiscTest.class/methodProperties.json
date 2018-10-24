@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"sound" : "jf 7/19/2009 14:58",
-		"testSound" : "lr 4/15/2010 20:22" } }
+		"testSound" : "lr 4/15/2010 20:22"
+	},
+	"class" : { }
+}

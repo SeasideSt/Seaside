@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"children" : "lr 11/29/2007 14:53",
 		"coreClass" : "lr 1/4/2008 14:02",
-		"initialize" : "lr 1/4/2008 12:34" } }
+		"initialize" : "lr 1/4/2008 12:34",
+		"children" : "lr 11/29/2007 14:53"
+	},
+	"class" : { }
+}

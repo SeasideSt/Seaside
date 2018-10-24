@@ -1,0 +1,3 @@
+configuration
+scriptGeneratorClass
+	self subclassResponsibility
