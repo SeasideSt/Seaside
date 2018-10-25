@@ -46,7 +46,8 @@ baselinegemstone: spec
           with: [ spec includes: #('Seaside-Tests-GemStone-Functional') ];
         package: 'Seaside-GemStone-Basic-Development'
           with: [ spec requires: #('Seaside-Core') ];
-        package: 'Seaside-GemStone-Continuation';
+        package: 'Seaside-GemStone-Continuation'
+		    with: [ spec requires: #('Seaside-Core' 'Seaside-Continuation') ];
         package: 'Seaside-GemStone-Core'
           with: [ spec requires: #('Seaside-Core') ];
         package: 'Seaside-GemStone-Development'

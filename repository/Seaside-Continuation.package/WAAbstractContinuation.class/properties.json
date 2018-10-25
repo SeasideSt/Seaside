@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Seaside-Continuation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAAbstractContinuation",
+	"type" : "normal"
+}
