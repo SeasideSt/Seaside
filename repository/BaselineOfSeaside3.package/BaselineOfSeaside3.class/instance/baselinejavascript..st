@@ -30,7 +30,7 @@ baselinejavascript: spec
 	spec for: #pharo do: [
 		spec 
 			package: 'Javascript-Pharo20-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Pharo20-Core' ) ].
+				spec requires: #('Javascript-Core' 'Seaside-Pharo-Core' ) ].
 		spec 
 			package: 'Javascript-Tests-Pharo-Core' with: [
 				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo20-Core' ) ].

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "pmm 9/12/2018 14:43",
+	"super" : "WAEncoder",
+	"category" : "Seaside-Pharo-Core-Document",
+	"classinstvars" : [
+		"table"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"table",
+		"delegate"
+	],
+	"name" : "WAPharoEncoder",
+	"type" : "normal"
+}
