@@ -80,7 +80,7 @@ baselinepharo: spec
 			package: 'Seaside-Pharo50-Tools-Web' with: [
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ];
 			package: 'Seaside-Pharo40-Continuation' with: [
-				spec requires: #('Seaside-Core') ];
+				spec requires: #('Seaside-Core' 'Seaside-Continuation') ];
 			package: 'Seaside-Pharo-Flow' with: [
 				spec requires: #('Seaside-Flow' 'Seaside-Pharo40-Continuation' ). ];
 			package: 'Seaside-Tests-Pharo-Continuation' with: [

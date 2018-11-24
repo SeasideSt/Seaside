@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "pmm 9/12/2018 14:45",
-	"super" : "GRObject",
+	"super" : "WAAbstractContinuation",
 	"category" : "Seaside-Pharo40-Continuation",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,0 +1,3 @@
+evaluating
+valueWithPossibleArguments: anArray
+	self subclassResponsibility
