@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "ZnSeasideServerAdaptorDelegate",
 	"category" : "Zinc-Seaside",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"staticDelegate",
-		"wwwRootDirectory"
-	],
+		"wwwRootDirectory" ],
 	"name" : "ZnSeasideStaticServerAdaptorDelegate",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ZnSeasideServerAdaptorDelegate",
+	"type" : "normal" }

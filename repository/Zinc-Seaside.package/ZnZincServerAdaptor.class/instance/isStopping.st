@@ -1,3 +1,3 @@
 testing
 isStopping
-	^ false 
+	^ false

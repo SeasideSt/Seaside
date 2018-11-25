@@ -4,4 +4,4 @@ forServer: znServer
 	adaptor := ZnZincServerAdaptor new.
 	adaptor unregister.
 	adaptor server: znServer.
-	^ self with: adaptor 
+	^ self with: adaptor

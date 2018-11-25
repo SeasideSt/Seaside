@@ -11,5 +11,4 @@ convertMultipart: entity
 					ifFalse: [ String new ] ] 
 			ifFalse: [ self convertMultipartFileField: each ] .
 		dictionary at: each fieldName add: value ].
-	^ dictionary 
-		
+	^ dictionary

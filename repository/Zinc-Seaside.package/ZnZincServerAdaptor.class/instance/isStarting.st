@@ -1,3 +1,3 @@
 testing
 isStarting
-	^ false 
+	^ false

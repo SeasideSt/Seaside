@@ -1,3 +1,3 @@
 accessing
 adaptor: aSeasideServerAdaptor
-	adaptor := aSeasideServerAdaptor 
+	adaptor := aSeasideServerAdaptor
