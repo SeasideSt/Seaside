@@ -88,7 +88,9 @@ baselinepharo: spec
 			package: 'Seaside-Tests-Core' with: [
 				spec includes: #('Seaside-Tests-Pharo40-Core' ) ];
 			package: 'Seaside-Tests-Pharo40-Core' with: [
-				spec requires: #('Seaside-Pharo-Core' 'Seaside-Tests-Core' ) ].
+				spec requires: #('Seaside-Pharo-Core' 'Seaside-Tests-Core' ).
+				
+		spec group: 'CI' with: #('Zinc') ].
 		
 	"Spec based tools"
 		spec
