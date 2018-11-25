@@ -81,10 +81,6 @@ baselineadaptors: spec
 		for: #gemstone
 		do: [ 
 			spec
-            package: 'Zinc-Seaside'
-            with: [ spec requires: #('Zinc Project' 'Seaside-Core') ].
-
-			spec
 				project: 'FastCGI Project'
 					with: [ 
 							spec
@@ -112,7 +108,10 @@ baselineadaptors: spec
 								requires:
 									#('Seaside-GemStone-GemServer-Core' 'Seaside-GemStone-Development' 'Seaside-GemStone-Adaptors-Swazoo' 'Seaside-GemStone-Adaptors-Zinc' 'Seaside-Adaptors-FastCGI') ];
 				package: 'Seaside-Adaptors-Swazoo' with: [ spec includes: #('Seaside-GemStone-Adaptors-Swazoo') ];
-				package: 'Zinc-Seaside' with: [ spec includes: #('Seaside-GemStone-Adaptors-Zinc') ];
+				package: 'Zinc-Seaside' with: [ 
+					spec 
+						requires: #('Zinc Project' 'Seaside-Core');
+						includes: #('Seaside-GemStone-Adaptors-Zinc') ];
 				package: 'Seaside-Adaptors-FastCGI'
 					with: [ spec requires: #('Seaside-Core' 'FastCGI Project' 'Seaside-GemStone-GemServer-Core') ];
 				package: 'Seaside-GemStone-Adaptors-Swazoo'
