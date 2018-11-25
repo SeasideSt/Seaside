@@ -14,8 +14,6 @@ matrix:
   include:
     - smalltalk: Pharo64-7.0
       env: BUILD_NAME=Pharo64-7.0
-    - smalltalk: Pharo64-6.1
-      env: BUILD_NAME=Pharo64-6.1
     - smalltalk: Pharo-6.1
       env: BUILD_NAME=Pharo-6.1
     - smalltalk: Pharo-5.0
