@@ -1,4 +1,4 @@
-*seaside-flow-filters
+*Seaside-Flow-filters
 authenticateWith: anAuthenticator during: aBlock
 	"Authenticate calls during the evaluation of aBlock."
 	

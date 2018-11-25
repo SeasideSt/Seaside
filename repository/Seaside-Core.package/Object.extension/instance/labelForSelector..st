@@ -1,3 +1,3 @@
-*seaside-core
+*Seaside-Core
 labelForSelector: aSymbol
 	^ aSymbol asCapitalizedPhrase

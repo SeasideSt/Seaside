@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 seasideVersion
 	"Answer the Seaside version"
 

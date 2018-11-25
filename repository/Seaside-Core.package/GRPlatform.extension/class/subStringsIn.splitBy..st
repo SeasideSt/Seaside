@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 subStringsIn: aString splitBy: aCharacter
 	| subStrings |
 	subStrings := OrderedCollection new: (aString count: [ :each | each = aCharacter ]) + 1.
