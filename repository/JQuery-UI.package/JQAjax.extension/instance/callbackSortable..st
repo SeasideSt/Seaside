@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackSortable: aBlock
 	"Trigger aBlock with the selectable event object."
 	

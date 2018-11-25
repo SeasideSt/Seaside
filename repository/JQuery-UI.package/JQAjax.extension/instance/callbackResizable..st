@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackResizable: aBlock
 	"Trigger aBlock with the resizeable event object."
 	

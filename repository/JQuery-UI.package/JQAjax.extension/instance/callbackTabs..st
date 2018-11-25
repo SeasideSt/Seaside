@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackTabs: aBlock
 	"Trigger aBlock with the tabs event object."
 	
