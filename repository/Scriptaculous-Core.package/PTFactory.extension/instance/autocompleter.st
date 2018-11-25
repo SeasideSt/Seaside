@@ -1,3 +1,3 @@
-*scriptaculous-core-controls
+*Scriptaculous-Core-controls
 autocompleter
 	^ self create: SUAutocompleter
