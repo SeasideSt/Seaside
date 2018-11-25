@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "StephanEggermont 3/11/2014 11:09",
-	"instvars" : [
-		 ],
-	"name" : "WACanvasWidget",
-	"pools" : [
-		 ],
 	"super" : "WAComponent",
-	"type" : "normal" }
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACanvasWidget",
+	"type" : "normal"
+}

@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "StephanEggermont 3/11/2014 11:09",
+	"super" : "WAObject",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"clickBlock",
 		"formatBlock",
@@ -12,9 +12,8 @@
 		"title",
 		"sortBlock",
 		"valueBlock",
-		"cssClass" ],
+		"cssClass"
+	],
 	"name" : "WAReportColumn",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

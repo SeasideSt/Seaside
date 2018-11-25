@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "jf 1/11/2009 19:15",
-	"instvars" : [
-		"components" ],
-	"name" : "WASimpleNavigation",
-	"pools" : [
-		 ],
 	"super" : "WANavigation",
-	"type" : "normal" }
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"components"
+	],
+	"name" : "WASimpleNavigation",
+	"type" : "normal"
+}

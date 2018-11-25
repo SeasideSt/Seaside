@@ -1,4 +1,4 @@
-*seaside-widgets-dialogs
+*Seaside-Widgets
 inform: aString	onAnswer: aBlock	
 	"Display a dialog with aString to the user until he clicks the ok button. Continue by evaluating aBlock."
 
