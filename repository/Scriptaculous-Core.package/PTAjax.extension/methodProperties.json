@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"triggerAutocompleter:" : "jf 7/19/2009 14:15",
-		"triggerSliderCallback:" : "lr 11/14/2008 22:41",
 		"triggerSortable:callback:" : "pmm 8/21/2016 16:49",
-		"triggerTree:callback:" : "pmm 8/21/2016 17:00" } }
+		"triggerAutocompleter:" : "jf 7/19/2009 14:15",
+		"triggerTree:callback:" : "pmm 8/21/2016 17:00",
+		"triggerSliderCallback:" : "lr 11/14/2008 22:41"
+	},
+	"class" : { }
+}

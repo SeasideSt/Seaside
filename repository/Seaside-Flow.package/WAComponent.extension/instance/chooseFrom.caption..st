@@ -1,4 +1,4 @@
-*seaside-flow-dialog
+*Seaside-Flow
 chooseFrom: aCollection caption: aString
 	"Choose an item from the given aCollection with caption aString. Answer the selected item."
 	

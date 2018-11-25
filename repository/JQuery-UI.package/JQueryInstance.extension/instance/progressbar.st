@@ -1,4 +1,4 @@
-*jquery-ui-widgets
+*JQuery-UI
 progressbar
 	"Make the selected elements progressbar."
 	

@@ -1,4 +1,4 @@
-*seaside-flow-dialog
+*Seaside-Flow
 chooseFrom: aCollection default: anObject
 	"Choose an item from the given aCollection and the default anObject. Answer the selected item."
 

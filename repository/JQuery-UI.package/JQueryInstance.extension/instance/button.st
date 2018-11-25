@@ -1,4 +1,4 @@
-*jquery-ui-widgets
+*JQuery-UI
 button
 	"Make the selected input elements buttons."
 	

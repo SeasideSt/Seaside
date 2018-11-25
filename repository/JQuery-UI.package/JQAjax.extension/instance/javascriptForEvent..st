@@ -1,4 +1,4 @@
-*jquery-ui-private
+*JQuery-UI
 javascriptForEvent: anArraySpec
 	| stream |
 	stream := JSStream new.

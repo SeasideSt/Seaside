@@ -1,4 +1,4 @@
-*jquery-ui-css
+*JQuery-UI
 outerHeight: anInteger
 	"Set the height for the elements in the set of matched elements, including padding and border."
 	

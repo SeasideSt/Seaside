@@ -1,4 +1,4 @@
-*jquery-ui-private
+*JQuery-UI
 smalltalkForEvent: anArraySpec value: aString
 	| stream result |
 	stream := aString readStream.
