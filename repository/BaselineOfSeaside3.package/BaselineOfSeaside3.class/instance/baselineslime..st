@@ -1,5 +1,4 @@
 baselines
-"protocol: baselines"
 baselineslime: spec
 
 	spec for: #'squeakCommon' do: [

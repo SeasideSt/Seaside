@@ -1,4 +1,4 @@
-*javascript-pharo20-core
+*Javascript-Pharo-Core
 javascriptOn: aStream
 	aStream nextPut: $"; nextPut: $#.
 	aStream nextPutAll: (((self red * 255) truncated printStringBase: 16)

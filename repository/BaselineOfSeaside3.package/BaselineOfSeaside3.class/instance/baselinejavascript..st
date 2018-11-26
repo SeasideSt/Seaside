@@ -1,5 +1,4 @@
 baselines
-"protocol: baselines"
 baselinejavascript: spec
 
 	spec for: #'common' do: [
@@ -29,16 +28,10 @@ baselinejavascript: spec
 		
 	spec for: #pharo do: [
 		spec 
-			package: 'Javascript-Pharo20-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Pharo-Core' ) ].
-		spec 
-			package: 'Javascript-Tests-Pharo-Core' with: [
-				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo20-Core' ) ].
-		spec 
-			package: 'Javascript-Core' with: [
-				spec includes: #('Javascript-Pharo20-Core' ) ];
-			package: 'Javascript-Tests-Core' with: [
-				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
+			package: 'Javascript-Pharo-Core' with: [ spec requires: #('Javascript-Core' 'Seaside-Pharo-Core' ) ];
+			package: 'Javascript-Tests-Pharo-Core' with: [ spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo-Core' ) ];
+			package: 'Javascript-Core' with: [ spec includes: #('Javascript-Pharo-Core' ) ];
+			package: 'Javascript-Tests-Core' with: [ spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
   spec
     for: #'gemstone'

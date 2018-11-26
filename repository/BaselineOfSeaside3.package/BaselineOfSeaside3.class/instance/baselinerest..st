@@ -1,5 +1,4 @@
 baselines
-"protocol: baselines"
 baselinerest: spec 
 
 	spec for: #'common' do: [	
