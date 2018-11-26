@@ -16,14 +16,14 @@ baselinejavascript: spec
 		
 	spec for: #squeak do: [
 		spec 
-			package: 'Javascript-Pharo-Core' with: [
+			package: 'Javascript-Squeak-Core' with: [
 				spec requires: #('Javascript-Core' 'Seaside-Squeak-Core' ) ].
 		spec 
 			package: 'Javascript-Tests-Pharo-Core' with: [
-				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo-Core' ) ].
+				spec requires: #('Javascript-Tests-Core' 'Javascript-Squeak-Core' ) ].
 		spec 
 			package: 'Javascript-Core' with: [
-				spec includes: #('Javascript-Pharo-Core' ) ];
+				spec includes: #('Javascript-Squeak-Core' ) ];
 			package: 'Javascript-Tests-Core' with: [
 				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
