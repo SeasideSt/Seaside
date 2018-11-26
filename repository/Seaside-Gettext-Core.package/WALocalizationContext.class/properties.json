@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"domain",
 		"translator",
-		"localeId" ],
+		"localeId"
+	],
 	"name" : "WALocalizationContext",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

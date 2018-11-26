@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WADynamicVariable",
+	"super" : "GetTextExporter",
 	"category" : "Seaside-Gettext-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WACurrentLocalizationContext",
+	"name" : "WAGetTextExporter",
 	"type" : "normal"
 }

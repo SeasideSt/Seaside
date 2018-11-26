@@ -11,8 +11,6 @@ baselinegettext: spec
 			spec
 				package: 'Seaside-Gettext-Core' with: [ spec requires: #('Gettext-Project' 'Seaside-Session') ];
 				package: 'Seaside-Gettext-Examples' with: [ spec requires: #('Seaside-Gettext-Core') ];
-				package: 'Seaside-Pharo-Gettext-Core';
-				package: 'Seaside-Gettext-Core' with: [ spec includes: 'Seaside-Pharo-Gettext-Core' ];
 				package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo40-Slime') ].
 
 			spec
