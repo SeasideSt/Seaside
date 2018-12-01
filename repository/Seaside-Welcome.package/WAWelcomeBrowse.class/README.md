@@ -1,1 +1,0 @@
-Initial welcome page allowing to browse the applications on the default / location

@@ -1,3 +1,0 @@
-accessing
-adaptor
-	^ adaptor

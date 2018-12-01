@@ -1,1 +1,0 @@
-I represent a memory snapshot of objects. Objects can be registered by sending the message #register:. All object snapshots are updated by sending #snapshot and restored by sending #restore. To have specific snpshot and restore actions for particular classes override #snapshotCopy and #restoreFromSnapshot: in your classes.

@@ -1,3 +1,0 @@
-options
-isSupportedOption: aString
-	^ true

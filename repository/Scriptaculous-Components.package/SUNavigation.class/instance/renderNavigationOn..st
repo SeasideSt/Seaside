@@ -1,3 +1,0 @@
-rendering
-renderNavigationOn: html
-	self subclassResponsibility

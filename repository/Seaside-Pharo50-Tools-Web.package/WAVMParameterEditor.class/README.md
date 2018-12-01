@@ -1,1 +1,0 @@
-A WAVMParameterEditor is an dialog that allows the user to edit a virtual machine parameter.

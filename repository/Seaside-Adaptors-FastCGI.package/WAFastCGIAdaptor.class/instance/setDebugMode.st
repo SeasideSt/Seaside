@@ -1,4 +1,0 @@
-mode
-setDebugMode
-
-	FSLog enableLog

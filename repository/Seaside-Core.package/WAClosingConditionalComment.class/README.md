@@ -1,1 +1,0 @@
-Closes a WAConditionalComment.

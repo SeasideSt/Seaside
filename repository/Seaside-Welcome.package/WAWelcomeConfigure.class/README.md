@@ -1,1 +1,0 @@
-Provide a basic configuration for common settings

@@ -1,3 +1,0 @@
-private
-isCollectionAttribute: anAttribute
-	^ anAttribute isCollectionAttribute

@@ -1,3 +1,0 @@
-public
-pathElementCount
-	^ pathElementCount

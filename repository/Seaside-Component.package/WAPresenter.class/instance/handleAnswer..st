@@ -1,3 +1,0 @@
-delegation
-handleAnswer: anObject
-	^ false

@@ -1,3 +1,0 @@
-initialization
-setSslSessionId: anSslSessionIdString
-	sslSessionId := anSslSessionIdString

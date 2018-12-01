@@ -1,1 +1,0 @@
-I am a fake implementation of RcCounter

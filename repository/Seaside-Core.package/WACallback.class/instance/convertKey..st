@@ -1,3 +1,0 @@
-converting
-convertKey: aString
-	^ aString

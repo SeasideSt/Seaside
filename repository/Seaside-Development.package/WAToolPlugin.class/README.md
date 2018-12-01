@@ -1,1 +1,0 @@
-Abstract root class for all development tool bar tools.

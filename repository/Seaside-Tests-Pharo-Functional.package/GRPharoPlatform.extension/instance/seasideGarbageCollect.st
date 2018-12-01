@@ -1,3 +1,0 @@
-*seaside-tests-pharo-functional
-seasideGarbageCollect
-	Smalltalk garbageCollect

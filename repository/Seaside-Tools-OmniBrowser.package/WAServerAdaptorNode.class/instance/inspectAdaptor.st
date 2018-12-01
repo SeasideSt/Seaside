@@ -1,3 +1,0 @@
-updating
-inspectAdaptor
-	adaptor inspect

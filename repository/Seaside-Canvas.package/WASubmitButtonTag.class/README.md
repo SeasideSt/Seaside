@@ -1,1 +1,0 @@
-The submit type creates a button. When a submit button is pressed it automatically submits the form.

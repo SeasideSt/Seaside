@@ -1,3 +1,0 @@
-accessing
-frameCount
-	^ frames size

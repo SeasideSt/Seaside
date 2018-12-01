@@ -1,1 +1,0 @@
-Defines a script, such as a JavaScript.

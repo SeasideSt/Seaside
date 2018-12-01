@@ -1,1 +1,0 @@
-I represent a sequence (or concatenation) of a decorated object and another object.

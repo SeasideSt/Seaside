@@ -1,3 +1,0 @@
-values
-determineValueWithContext: aContext configuration: aConfiguration
-	self subclassResponsibility

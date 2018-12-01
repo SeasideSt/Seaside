@@ -1,1 +1,0 @@
-Unit test for default handlers of the environment

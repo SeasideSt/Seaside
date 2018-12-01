@@ -1,3 +1,0 @@
-description
-continuationClasses
-	^ WAApplicationConfiguration instance continuationClasses

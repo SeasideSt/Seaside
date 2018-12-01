@@ -1,1 +1,0 @@
-Ask for the server url

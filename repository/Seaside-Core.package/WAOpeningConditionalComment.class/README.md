@@ -1,1 +1,0 @@
-Opens a WAConditionalComment and encodes the condition.

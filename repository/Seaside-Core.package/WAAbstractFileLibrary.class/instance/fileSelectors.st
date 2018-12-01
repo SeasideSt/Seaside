@@ -1,3 +1,0 @@
-private
-fileSelectors
-	self subclassResponsibility

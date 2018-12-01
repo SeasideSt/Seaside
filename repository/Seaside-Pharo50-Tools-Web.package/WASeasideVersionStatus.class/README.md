@@ -1,1 +1,0 @@
-Provide an overview on the seaside package version(s)

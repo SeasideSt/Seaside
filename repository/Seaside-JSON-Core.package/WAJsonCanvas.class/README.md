@@ -1,1 +1,0 @@
-A specific canvas to render JSON output

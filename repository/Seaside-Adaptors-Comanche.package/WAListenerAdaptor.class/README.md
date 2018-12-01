@@ -1,3 +1,0 @@
-I am a streaming server that directly writes the resulting data onto the socket. I use the request parsing of Comanche, otherwise I am a web server on my own.
-
-Note that the WAListenerAdaptor is not supposed to support redirects during the rendering phase, like it is done in WAAuthenticationFilter. It might work in the case the buffers of the socket stream haven't been flushed yet, but in most cases it doesn't. This is not a bug and will never be changed.

@@ -1,1 +1,0 @@
-I'm a RestfulHandler used in TestCases

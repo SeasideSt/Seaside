@@ -1,0 +1,1 @@
+Package { #name : #'Seaside-Tests-Pharo20-Core' }

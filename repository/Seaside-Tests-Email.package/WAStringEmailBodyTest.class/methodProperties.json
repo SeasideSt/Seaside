@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testBasics" : "PaulDeBruicker 12/6/2013 12:56",
-		"testCrLf" : "PaulDeBruicker 12/6/2013 12:53",
-		"testSplitIntoLines" : "pmm 9/1/2012 16:52",
-		"testWrapping" : "jf 9/30/2009 01:10" } }

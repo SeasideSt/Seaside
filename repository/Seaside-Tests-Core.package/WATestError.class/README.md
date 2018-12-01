@@ -1,1 +1,0 @@
-A test error used to test WAExceptionHandler

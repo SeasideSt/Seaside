@@ -1,3 +1,0 @@
-testing
-isStopped
-	^ service isNil

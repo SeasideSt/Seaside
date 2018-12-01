@@ -1,3 +1,0 @@
-updating
-startAll
-	manager startAll

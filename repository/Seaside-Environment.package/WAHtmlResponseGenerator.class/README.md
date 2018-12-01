@@ -1,1 +1,0 @@
-This subclass overrides certain generation methods to create prettier HTML responses, instead of plain text.

@@ -1,3 +1,0 @@
-running
-go
-	self subclassResponsibility

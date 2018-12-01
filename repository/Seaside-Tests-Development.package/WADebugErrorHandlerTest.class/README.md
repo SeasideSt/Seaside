@@ -1,3 +1,0 @@
-This isn't really a unit test of WADebugErrorHandler but rather a test that tries to replicate a simple version of the same error handling behaviour upon which the error handler depends. The error handler itself would be hard to test because it opens a debugger as its first action.
-
-This should at least help confirm that the assumptions that were in place when writing the handler on Squeak hold true on other platforms.

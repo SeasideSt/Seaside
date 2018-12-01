@@ -1,3 +1,0 @@
-writing
-openObject
-	stream nextPut: ${

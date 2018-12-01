@@ -1,1 +1,0 @@
-I execute different code snippets depending if the receiver is true (defined) or false (null).

@@ -1,3 +1,0 @@
-accessing
-nextKey
-	^ nextKey greaseString

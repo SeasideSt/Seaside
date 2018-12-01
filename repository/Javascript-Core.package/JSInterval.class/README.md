@@ -1,1 +1,0 @@
-I periodically execute the decorated object.

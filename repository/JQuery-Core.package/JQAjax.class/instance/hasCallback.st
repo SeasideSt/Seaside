@@ -1,3 +1,0 @@
-private
-hasCallback
-	^ callbackId notNil

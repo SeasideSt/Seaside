@@ -1,1 +1,0 @@
-I represent a sequence of JavaScript statements.

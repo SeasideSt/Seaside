@@ -1,1 +1,0 @@
-A WAJsonDocument adds the possibility to generate JSON

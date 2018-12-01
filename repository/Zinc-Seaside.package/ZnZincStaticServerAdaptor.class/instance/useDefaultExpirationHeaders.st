@@ -1,3 +1,0 @@
-accessing
-useDefaultExpirationHeaders
-	self server delegate staticDelegate mimeTypeExpirations: ZnStaticFileServerDelegate defaultMimeTypeExpirations

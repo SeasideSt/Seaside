@@ -1,1 +1,0 @@
-Takes an arbitrary number of CSS selectors (strings) and returns a document-order array of extended DOM elements that match any of them.

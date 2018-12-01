@@ -1,3 +1,0 @@
-testing
-hasValue
-    ^ task hasValue.

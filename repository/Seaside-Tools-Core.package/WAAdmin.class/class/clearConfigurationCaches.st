@@ -1,3 +1,0 @@
-development
-clearConfigurationCaches
-	WASystemConfiguration clearAllDescriptions

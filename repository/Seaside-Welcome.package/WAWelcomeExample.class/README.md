@@ -1,1 +1,0 @@
-Superclass for examples provided on the welcome pages

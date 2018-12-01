@@ -1,3 +1,0 @@
-private
-image
-	^ SmalltalkImage current

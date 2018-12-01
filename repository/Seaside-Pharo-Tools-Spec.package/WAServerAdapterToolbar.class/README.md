@@ -1,1 +1,0 @@
-Spec based toolbar for the Pharo server adapter

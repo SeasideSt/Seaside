@@ -1,3 +1,0 @@
-actions
-defaultAction
-	self decoratedComponent perform: self decoratedComponent defaultButton

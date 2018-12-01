@@ -1,1 +1,0 @@
-Web based prompt for the author name
