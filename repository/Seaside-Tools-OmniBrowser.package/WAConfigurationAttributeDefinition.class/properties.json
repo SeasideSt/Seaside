@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tools-OmniBrowser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OBDefinition",
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"attribute",
-		"configuration" ],
+		"configuration"
+	],
 	"name" : "WAConfigurationAttributeDefinition",
-	"pools" : [
-		 ],
-	"super" : "OBDefinition",
-	"type" : "normal" }
+	"type" : "normal"
+}

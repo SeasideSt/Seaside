@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tools-OmniBrowser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAServerAdaptorStatusFilter",
-	"pools" : [
-		 ],
 	"super" : "OBFilter",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAServerAdaptorStatusFilter",
+	"type" : "normal"
+}
