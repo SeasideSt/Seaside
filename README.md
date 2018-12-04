@@ -86,7 +86,7 @@ Metacello new
   
 ### Install in Squeak
 
-Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
+Make sure you have installed [Metacello](https://github.com/Metacello/metacello). From there on, follow the installation instructions for Seaside in Pharo.
 
 ### Install older versions in Pharo or Squeak
 

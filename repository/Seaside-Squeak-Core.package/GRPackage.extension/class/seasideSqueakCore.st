@@ -1,8 +1,8 @@
 *Seaside-Squeak-Core
-seasidePharoCore
+seasideSqueakCore
 	^ self new
-		name: 'Seaside-Pharo-Core';
+		name: 'Seaside-Squeak-Core';
 		addDependency: 'Seaside-Core';
-		addDependency: 'Grease-Pharo-Core';
+		addDependency: 'Grease-Squeak-Core';
 		url: #seasideUrl;
 		yourself
