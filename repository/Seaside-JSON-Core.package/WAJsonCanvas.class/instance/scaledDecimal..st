@@ -1,4 +1,4 @@
-*seaside-pharo-json-core
+double-disptach
 scaledDecimal: aScaledDecimal
 	| converter |
 	converter := GRSignPrinter new, (GRNumberPrinter new precision: aScaledDecimal scale).
