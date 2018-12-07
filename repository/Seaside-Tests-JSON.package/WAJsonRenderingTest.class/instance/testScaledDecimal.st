@@ -4,8 +4,8 @@ testScaledDecimal
        assert: [ :json |
            json array: [
                json 
-						value: 3.14s2;
-						value: -3 asScaledDecimal;
-						value: 0 asScaledDecimal;
-						value: 8 asScaledDecimal ] ]
+						value: (3.14 asScaledDecimal: 2);
+						value: (-3 asScaledDecimal: 0);
+						value: (0 asScaledDecimal: 0);
+						value: (8 asScaledDecimal: 0) ] ]
        gives: '[3.14, -3, 0, 8]'

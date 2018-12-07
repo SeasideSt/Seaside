@@ -1,3 +1,3 @@
-*seaside-pharo-json-core
+*Seaside-JSON-Core
 jsonOn: aRenderer
 	aRenderer scaledDecimal: self
