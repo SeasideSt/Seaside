@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"handleRequest:" : "EstebanMaringolo 1/20/2016 15:25",
-		"testFixedRouteWithVariableQuery" : "EstebanMaringolo 1/20/2016 15:44",
-		"testParameterRouteWithVariableQuery" : "EstebanMaringolo 1/20/2016 16:07",
-		"testRouteWithNoQUery" : "EstebanMaringolo 1/20/2016 16:38" } }
