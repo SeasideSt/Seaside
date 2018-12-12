@@ -64,12 +64,7 @@ baselineadaptors: spec
 			spec
 				package: 'Zinc-Seaside'
 				with: [ spec requires: #('Seaside-Core') ].
-			spec
-				package: 'Zinc-Seaside'
-					with: [ 
-							spec
-								repository: 'http://mc.stfx.eu/ZincHTTPComponents';
-								requires: #('Seaside-Core') ].
+				
 			spec
 				group: 'Zinc' with: #('Zinc-Seaside') ].
 			
