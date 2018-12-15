@@ -12,7 +12,7 @@ Pharo | Squeak | GemStone
 ### development
 Pharo | Squeak | GemStone/S
 ------------ | ------------- | ------------
-[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-trunk&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.4.0&label=3.4.0)](http://travis-ci.org/SeasideSt/Seaside)
+[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.2&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.4.0&label=3.4.2)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.1&label=5.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.3.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.3.6&label=3.3.6)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-6.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-6.0&label=6.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.2.17](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.2.17&label=3.2.17)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-5.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-5.0&label=5.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.1.0.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.1.0.6&label=3.1.0.6)](http://travis-ci.org/SeasideSt/Seaside)
@@ -33,7 +33,6 @@ Seaside also has good support for [CSS and Javascript](https://github.com/Seasid
 ## Installation
 
 ### Install in Pharo
-
 To install the latest stable version of Seaside in a [Pharo](http://www.pharo-project.org) image, execute the following code:
 
 ```Smalltalk
@@ -52,7 +51,6 @@ Metacello new
 ```
 	
 ### Install in Gemstone
-
 1. Upgrade to the latest version of Metacello and Grease using [GsUpgrader](https://github.com/GsDevKit/gsUpgrader#gsupgrader-):
   ```Smalltalk
   Gofer new
@@ -86,10 +84,17 @@ Metacello new
   
 ### Install in Squeak
 
-Make sure you have installed [Metacello](https://github.com/dalehenrich/metacello-work). From there on, follow the installation instructions for Seaside in Pharo.
+#### Squeak >= 5.2
+```Smalltalk
+Installer ensureRecentMetacello.
+```
+From there on, follow the installation instructions for Seaside in Pharo.
+
+#### Squeak < 5.2
+Make sure you have installed [Metacello](https://github.com/Metacello/metacello#squeak-older-than-squeak52). From there on, follow the installation instructions for Seaside in Pharo.
+
 
 ### Install older versions in Pharo or Squeak
-
 To install a version older than 3.1.3, you need to load Seaside from Smalltalkhub:
 
 ```Smalltalk
@@ -117,5 +122,4 @@ We have a low traffic mailing list for questions ([sign up here](http://lists.sq
 If you would like to contribute, please visit the [Seaside's contributors page](https://github.com/SeasideSt/Seaside/blob/master/CONTRIBUTING.md).
 
 ## More
-
 Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more information.
