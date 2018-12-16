@@ -1,4 +1,4 @@
-*Javascript-Pharo-Core
+*Javascript-Squeak-Core
 javascriptPharoCore
 	^ self new
 		name: 'Javascript-Pharo-Core';
