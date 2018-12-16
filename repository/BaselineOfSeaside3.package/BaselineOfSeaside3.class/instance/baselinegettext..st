@@ -31,7 +31,7 @@ baselinegettext: spec
 
 	spec for: #(#'pharo4.x') do:[
 		spec
-			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo40-Slime') ].
+			package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo-Slime') ].
 			
 		spec 
 			group: 'Gettext-Slime' with: #('Seaside-Gettext-Slime')
