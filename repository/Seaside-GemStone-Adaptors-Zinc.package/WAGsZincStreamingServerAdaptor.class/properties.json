@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ZnNewGemServer",
+	"super" : "ZnZincStreamingServerAdaptor",
 	"category" : "Seaside-GemStone-Adaptors-Zinc",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"maintenanceVm"
-	],
-	"name" : "ZnSeasideNewGemServer",
+	"instvars" : [ ],
+	"name" : "WAGsZincStreamingServerAdaptor",
 	"type" : "normal"
 }
