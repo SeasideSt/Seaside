@@ -42,7 +42,7 @@ baselineadaptors: spec
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ];
 				package: 'Zinc-Seaside'
 					with: [ spec
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents';
+						repository: 'github://svenvc/zinc:v3.0.1/repository';
 						requires: #('Seaside-Core') ].
 			spec
 				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
