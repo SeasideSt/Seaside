@@ -1,4 +1,0 @@
-misc.
-swaggerResourcesListHandlerName
-
-	^ 'resources'
