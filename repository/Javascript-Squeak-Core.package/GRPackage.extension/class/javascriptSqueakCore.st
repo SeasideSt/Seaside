@@ -1,8 +1,8 @@
 *Javascript-Squeak-Core
-javascriptPharoCore
+javascriptSqueakCore
 	^ self new
-		name: 'Javascript-Pharo-Core';
+		name: 'Javascript-Squeak-Core';
 		addDependency: 'Javascript-Core';
-		addDependency: 'Seaside-Pharo-Core';
+		addDependency: 'Seaside-Squeak-Core';
 		url: #seasideUrl;
 		yourself
