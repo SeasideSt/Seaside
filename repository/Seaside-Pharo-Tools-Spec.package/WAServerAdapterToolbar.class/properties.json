@@ -11,7 +11,9 @@
 		"browseButton",
 		"startAction",
 		"stopAction",
-		"browseAction"
+		"browseAction",
+		"openButton",
+		"openAction"
 	],
 	"name" : "WAServerAdapterToolbar",
 	"type" : "normal"

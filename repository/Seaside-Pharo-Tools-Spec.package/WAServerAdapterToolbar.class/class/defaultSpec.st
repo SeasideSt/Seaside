@@ -7,5 +7,6 @@ defaultSpec
 			row
 				add: #(model startButton);
 				add: #(model stopButton);
-				add: #(model browseButton) ];
+				add: #(model browseButton);
+				add: #(model openButton) ];
 		yourself
