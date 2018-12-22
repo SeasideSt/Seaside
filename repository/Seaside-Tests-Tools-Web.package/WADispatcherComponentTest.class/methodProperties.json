@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"createHandlers" : "lr 7/25/2011 19:53",
-		"setUp" : "pmm 8/23/2014 12:24",
-		"testNestedDispatcher" : "pmm 9/6/2009 12:14",
-		"testUnregister" : "pmm 3/16/2013 16:55" } }
