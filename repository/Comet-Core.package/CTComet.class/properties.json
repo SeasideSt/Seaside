@@ -1,15 +1,14 @@
 {
-	"category" : "Comet-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "JSObject",
+	"category" : "Comet-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"pusher",
-		"url" ],
+		"url"
+	],
 	"name" : "CTComet",
-	"pools" : [
-		 ],
-	"super" : "JSObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
