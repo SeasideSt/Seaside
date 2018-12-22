@@ -1,0 +1,1 @@
+A WAProcessStatus displays information about the Process instances in this image.

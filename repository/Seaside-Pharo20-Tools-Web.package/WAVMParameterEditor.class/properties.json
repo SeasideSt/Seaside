@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-Pharo20-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/4/2008 21:43",
+	"instvars" : [
+		"memoryInput",
+		"parameterIndex" ],
+	"name" : "WAVMParameterEditor",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

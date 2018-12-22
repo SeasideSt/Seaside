@@ -1,0 +1,1 @@
+A WAAllocatorStatus displays information about the memory allocator.
