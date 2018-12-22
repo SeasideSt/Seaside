@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAEncoderUnicodeTest",
-	"category" : "Seaside-Tests-Pharo40-Core",
+	"super" : "WAContextTest",
+	"category" : "Seaside-Tests-Pharo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAPharoEncoderTest",
+	"name" : "WAGenericCodecTest",
 	"type" : "normal"
 }

@@ -1,7 +1,7 @@
-*Seaside-Tests-Pharo40-Core
-seasideTestsPharo40Core
+*Seaside-Tests-Pharo-Core
+seasideTestsPharoCore
 	^ self new
-		name: 'Seaside-Tests-Pharo40-Core';
+		name: 'Seaside-Tests-Pharo-Core';
 		addDependency: 'Seaside-Pharo-Core';
 		addDependency: 'Seaside-Tests-Core';
 		url: #seasideUrl;

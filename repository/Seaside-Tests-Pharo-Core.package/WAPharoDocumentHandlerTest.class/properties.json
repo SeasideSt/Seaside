@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAContextTest",
-	"category" : "Seaside-Tests-Pharo40-Core",
+	"super" : "WAFormTestCase",
+	"category" : "Seaside-Tests-Pharo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAPharoFileLibraryTest",
+	"name" : "WAPharoDocumentHandlerTest",
 	"type" : "normal"
 }
