@@ -1,7 +1,7 @@
-*Seaside-Pharo40-Continuation
+*Seaside-Pharo-Continuation
 seasidePharoContinuation
 	^ self new
-		name: 'Seaside-Pharo40-Continuation';
+		name: 'Seaside-Pharo-Continuation';
 		description: 'Pharo implementation of full and partial first-class continuations.';
 		addDependency: 'Grease-Pharo-Core';
 		url: #seasideUrl;

@@ -1,3 +1,3 @@
-*seaside-pharo40-continuation
+*Seaside-Pharo-Continuation
 localAt: aNumber
 	^ self at: aNumber

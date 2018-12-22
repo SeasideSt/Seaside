@@ -1,4 +1,4 @@
-*seaside-pharo40-continuation
+*Seaside-Pharo-Continuation
 serialiseOn: aStream
 	aStream nextPut: self.
 	1 to: self class instSize do: [ :index |
