@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"scriptGeneratorClass" : "pmm 10/2/2018 08:13",
-		"assert:gives:" : "pmm 10/2/2018 08:15"
-	},
-	"class" : {
-		"isAbstract" : "pmm 10/2/2018 08:19"
-	}
-}
