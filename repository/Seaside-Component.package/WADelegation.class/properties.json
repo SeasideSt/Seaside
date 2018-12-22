@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/12/2018 14:37",
 	"super" : "WADecoration",
-	"category" : "Seaside-Component",
+	"category" : "Seaside-Component-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

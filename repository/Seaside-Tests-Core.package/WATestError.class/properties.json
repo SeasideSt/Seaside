@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/12/2018 14:48",
 	"super" : "GRError",
-	"category" : "Seaside-Tests-Core",
+	"category" : "Seaside-Tests-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

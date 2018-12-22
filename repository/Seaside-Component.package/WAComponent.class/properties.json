@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "jf 11/3/2008 20:52",
 	"super" : "WAPresenter",
-	"category" : "Seaside-Component",
+	"category" : "Seaside-Component-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
