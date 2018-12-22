@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAFunctionalTest",
-	"category" : "Seaside-Tests-Pharo-Functional",
+	"super" : "WAEncoderUnicodeTest",
+	"category" : "Seaside-Tests-Squeak-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAImageFunctionalTest",
+	"name" : "WAPharoEncoderTest",
 	"type" : "normal"
 }
