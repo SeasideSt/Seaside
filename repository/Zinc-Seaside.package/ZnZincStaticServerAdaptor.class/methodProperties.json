@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"startOn:andServeFilesFrom:" : " 11/25/2018 07:42:25" },
-	"instance" : {
-		"defaultDelegate" : " 11/25/2018 07:42:25",
-		"useCustomExpirationHeaders:" : " 11/25/2018 07:42:25",
-		"useDefaultExpirationHeaders" : " 11/25/2018 07:42:25" } }
