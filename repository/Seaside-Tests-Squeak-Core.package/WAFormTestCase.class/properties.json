@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAEncoderTest",
-	"category" : "Seaside-Tests-Pharo-Core",
+	"super" : "TestCase",
+	"category" : "Seaside-Tests-Squeak-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAEncoderLatin1Test",
+	"name" : "WAFormTestCase",
 	"type" : "normal"
 }

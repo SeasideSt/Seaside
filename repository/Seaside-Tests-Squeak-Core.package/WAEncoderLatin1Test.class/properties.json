@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAEncoderTest",
-	"category" : "Seaside-Tests-Pharo-Core",
+	"category" : "Seaside-Tests-Squeak-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

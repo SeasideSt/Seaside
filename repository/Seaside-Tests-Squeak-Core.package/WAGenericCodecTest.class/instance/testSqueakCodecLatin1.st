@@ -1,6 +1,6 @@
 tests
 testSqueakCodecLatin1
-	"tests the codec for 'lating-1' and #converter"
+	"tests the codec for 'latin-1' and #converter"
 	#('iso-8859-1' 'ISO-8859-1' 'latin-1' ) do: [ :each | 
 		| codec |
 		codec := GRCodec forEncoding: each.
