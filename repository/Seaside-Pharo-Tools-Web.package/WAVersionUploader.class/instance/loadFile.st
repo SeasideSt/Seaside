@@ -8,5 +8,5 @@ loadFile
 	reader ifNil: [
 		self inform: file fileName, ' is not in a known format' onAnswer: [ ].
 		^ self ].
-	version := reader versionFromStream: file rawContents readStream.
+	version := reader versionFromStream: file contents asByteArray readStream.
 	version load

@@ -1,0 +1,1 @@
+I am a utility to grab a screenshot over the web.

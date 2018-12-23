@@ -1,7 +1,7 @@
 rendering
 renderValuesOn: html
 	| parameters |
-	parameters := SmalltalkImage current getVMParameters.
+	parameters := SmalltalkImage current vm getParameters.
 	
 	self renderLabel: 'Allocation Count' value: (parameters at: 4) on: html.
 	self renderEditIntegerParameterAt: 5 named: 'Allocations Between GCs' on: html.

@@ -1,4 +1,4 @@
-*seaside-pharo-tools-web
+*Seaside-Pharo-Tools-Web
 seasidePharoToolsWeb
 	^ self new
 		name: 'Seaside-Pharo-Tools-Web';
