@@ -31,10 +31,6 @@ baselinewelcome: spec
 		spec
 			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'Zinc') ].
-
-	spec for: #'pharo1.x' do: [
-		spec
-			group: 'OneClick' with: #('Comet Examples' 'Seaside-Tools-OmniBrowser' 'Kom') ].
 		
 	spec for: #'gs3.x' do: [
 		spec
