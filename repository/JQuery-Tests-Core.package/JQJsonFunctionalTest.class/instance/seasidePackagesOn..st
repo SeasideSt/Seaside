@@ -1,10 +1,12 @@
 private
 seasidePackagesOn: json
-
+	| packages |
+	packages := SystemNavigation default allClasses
+		select: [ :class | class package packageName beginsWith: 'Seaside' ]
+		thenCollect: [ :class | class package ].
 	json array: [
-		GRPackage grPackages do:[ :grPackage |
+		packages do:[ :package |
 			json object: [ 
-				json key: 'name' value: grPackage name.
-				json key: 'dependencies' value: [  
-					json array: [ grPackage dependencies do: [ :dep |
-						json value: [ json string: dep name ] ] ] ] ] ] ]
+				json
+					key: 'name'
+					value: package packageName ] ] ]

@@ -1,3 +1,7 @@
 querying
 packages
-	^ packages ifNil: [ packages := GRPackage grPackages sorted: [ :a :b | a name < b name ] ]
+	^ packages ifNil: [
+		packages := (SystemNavigation default allClasses
+			select: [ :class | class package packageName beginsWith: 'Seaside' ]
+			thenCollect: [ :class | class package ]) asSet asArray sorted: [ :a :b |
+				a packageName < b packageName ] ]

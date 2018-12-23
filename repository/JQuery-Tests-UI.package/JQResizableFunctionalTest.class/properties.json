@@ -1,14 +1,13 @@
 {
-	"category" : "JQuery-Tests-UI-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"size" ],
-	"name" : "JQResizableFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "JQUiFunctionalTest",
-	"type" : "normal" }
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size"
+	],
+	"name" : "JQResizableFunctionalTest",
+	"type" : "normal"
+}

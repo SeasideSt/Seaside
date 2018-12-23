@@ -1,14 +1,13 @@
 {
-	"category" : "Comet-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"handlers" ],
-	"name" : "CTFilter",
-	"pools" : [
-		 ],
 	"super" : "WARequestFilter",
-	"type" : "normal" }
+	"category" : "Comet-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"handlers"
+	],
+	"name" : "CTFilter",
+	"type" : "normal"
+}
