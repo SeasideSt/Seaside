@@ -43,7 +43,9 @@ baselineadaptors: spec
 				package: 'Zinc-Seaside' with: [ spec requires: #('Seaside-Core') ].
 			spec
 				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
-				group: 'Zinc' with: #('Zinc-Seaside') ].
+				group: 'Zinc' with: #('Zinc-Seaside');
+				group: 'default' with: #('Zinc');
+				group: 'CI' with: #('Zinc') ].
 
 	spec
 		for: #gemstone

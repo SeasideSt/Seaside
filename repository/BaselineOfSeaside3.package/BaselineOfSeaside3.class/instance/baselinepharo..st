@@ -54,6 +54,4 @@ baselinepharo: spec
 			"Spec based tools"
 			spec
 				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo-Tools-Spec') ];
-				package: 'Seaside-Pharo-Tools-Spec' with: [ spec requires: #('Seaside-Tools-Core') ].
-
-			spec group: 'CI' with: #('Zinc') ]
+				package: 'Seaside-Pharo-Tools-Spec' with: [ spec requires: #('Seaside-Tools-Core') ] ]
