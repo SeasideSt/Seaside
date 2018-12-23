@@ -1,7 +1,7 @@
 baselines
 baselinewelcome: spec
 
-	spec for: #(#'squeakCommon' #'gs3.x') do: [
+	spec for: #common do: [
 
 		spec 
 			package: 'Seaside-Welcome' with: [
@@ -9,7 +9,7 @@ baselinewelcome: spec
 			package: 'Seaside-Tests-Welcome' with: [
 				spec requires: #('Seaside-Welcome' ) ].
 		spec 
-			group: 'Welcome' with: #('Seaside-Welcome');
+			group: 'Welcome' with: #('Seaside-Welcome' 'JQueryUI Tests');
 			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome') ].	
 			
 	spec for: #'squeak' do: [
