@@ -29,7 +29,7 @@ baselinewelcome: spec
 			package: 'Seaside-Pharo-Welcome' with: [
 				spec requires: #('Seaside-Welcome' ) ].
 		spec
-			group: 'default' with: #( 'Welcome' 'Seaside-Examples' 'Zinc' );
+			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'Zinc') ].
 
 	spec for: #'pharo1.x' do: [
