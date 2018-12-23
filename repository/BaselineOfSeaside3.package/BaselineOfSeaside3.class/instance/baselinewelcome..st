@@ -27,7 +27,7 @@ baselinewelcome: spec
 			package: 'Seaside-Welcome' with: [
 				spec includes: #('Seaside-Pharo-Welcome' ). ];
 			package: 'Seaside-Pharo-Welcome' with: [
-				spec requires: #('Seaside-Welcome' ) ].
+				spec requires: #('Seaside-Welcome' 'Zinc') ].
 		spec
 			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'Zinc') ].
