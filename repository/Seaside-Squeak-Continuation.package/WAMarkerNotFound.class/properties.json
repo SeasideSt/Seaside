@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "pmm 9/12/2018 14:44",
+	"commentStamp" : "",
 	"super" : "GRError",
-	"category" : "Seaside-Pharo-Continuation",
+	"category" : "Seaside-Squeak-Continuation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

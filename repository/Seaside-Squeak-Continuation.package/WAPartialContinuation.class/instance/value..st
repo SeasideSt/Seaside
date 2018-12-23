@@ -1,6 +1,6 @@
 evaluating
 value: anObject
-	"Evaluate the receiving partial continuation. Note that partial continuations can be evaluated without a marker, in this case they are just spliced at the end of the current stack and resume return back to the sender."
+	"Evaluate the receiving partial continuation. Note tha partial continuations can be evaluated without a marker, in this case they are just spliced at the end of the current stack and resume return back to the sender."
 
 	| marker |
 	marker := WAMarkerRequest signal.

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 2/1/2014 13:40",
-	"super" : "WAAbstractContinuation",
-	"category" : "Seaside-Pharo-Continuation",
+	"super" : "GRObject",
+	"category" : "Seaside-Squeak-Continuation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
