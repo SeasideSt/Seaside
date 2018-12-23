@@ -1,4 +1,3 @@
 initialization
 initialize
-	self register.
-	GRPlatform current startWelcomeSeasideAdaptor
+	self register

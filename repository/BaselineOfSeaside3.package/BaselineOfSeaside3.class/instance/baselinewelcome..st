@@ -10,8 +10,7 @@ baselinewelcome: spec
 				spec requires: #('Seaside-Welcome' ) ].
 		spec 
 			group: 'Welcome' with: #('Seaside-Welcome');
-			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome');
-			group: 'Welcome' with: #( 'Welcome Tests' ) ].	
+			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome') ].	
 			
 	spec for: #'squeak' do: [
 		spec 
@@ -27,7 +26,10 @@ baselinewelcome: spec
 			package: 'Seaside-Welcome' with: [
 				spec includes: #('Seaside-Pharo-Welcome' ). ];
 			package: 'Seaside-Pharo-Welcome' with: [
-				spec requires: #('Seaside-Welcome' 'Zinc') ].
+				spec 
+					requires: #('Seaside-Welcome' 'Zinc');
+					postLoadDoIt: #startWelcomeSeasideAdaptorInPharo. ].
+		
 		spec
 			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'Zinc') ].
