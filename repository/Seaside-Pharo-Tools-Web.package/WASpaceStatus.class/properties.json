@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "pmm 9/12/2018 14:46",
+	"super" : "WAPharoStatusItem",
+	"category" : "Seaside-Pharo-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASpaceStatus",
+	"type" : "normal"
+}
