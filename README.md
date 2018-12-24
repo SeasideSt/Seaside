@@ -1,8 +1,8 @@
 # The framework for developing sophisticated web applications in Smalltalk.
 
-Seaside provides a layered set of abstractions over HTTP and HTTP that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
+Seaside provides a layered set of abstractions over HTTP and HTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
-  * [Programmatic HTML generation](https://github.com/SeasideSt/Seaside/wiki/Generating-HTML).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page.  Seaside has a rich API for generating XHTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
+  * [Programmatic HTML generation](https://github.com/SeasideSt/Seaside/wiki/Generating-HTML).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page. Seaside has a rich API for generating HTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
 
   * [Callback-based request handling](https://github.com/SeasideSt/Seaside/wiki/Links%2C-Forms-and-Callbacks).  Why should you have to come up with a unique name for every link and form input on your page, only to extract them from the URL and request fields later?  Seaside automates this process by letting you associate blocks, not names, with inputs and links, so you can think about objects and methods instead of ids and strings.
 
