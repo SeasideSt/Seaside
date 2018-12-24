@@ -5,9 +5,18 @@ SmalltalkCISpec {
       #directory : 'repository',
       #load : [ 'CI' ],
       #onConflict : #useLoaded,
+      #useLatestMetacello : false,
+      #onWarningLog : true,
+      #platforms : [ #pharo ]
+    }
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside3',
+      #directory : 'repository',
+      #load : [ 'CI' ],
+      #onConflict : #useLoaded,
       #useLatestMetacello : true,
       #onWarningLog : true,
-      #platforms : [ #pharo, #squeak, #gemstone ]
+      #platforms : [ #squeak, #gemstone ]
     }
   ],
   #testing : {
