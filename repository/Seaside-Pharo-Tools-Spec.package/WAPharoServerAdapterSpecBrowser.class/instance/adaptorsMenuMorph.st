@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 adaptorsMenuMorph
 	| aMenu |
 	aMenu := MenuModel new.

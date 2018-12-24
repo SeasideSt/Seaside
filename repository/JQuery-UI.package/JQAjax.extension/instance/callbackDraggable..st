@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackDraggable: aBlock
 	"Trigger aBlock with the draggable event object."
 	

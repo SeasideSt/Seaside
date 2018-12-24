@@ -1,4 +1,4 @@
-*seaside-widgets-dialogs
+*Seaside-Widgets
 request: aString onAnswer: aBlock
 	"Display an input dialog with the question aRequestString. Passes the answer into aBlock."
 

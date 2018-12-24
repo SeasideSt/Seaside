@@ -54,11 +54,15 @@ Metacello image
   lock.
 
 "load Seaside from the checkout"
-Metacello new
+
+[ Metacello new
 	baseline: 'Seaside3';
 	repository: 'filetree:///home/user/git/Seaside/repository';
 	fetch;
-	load: 'CI'.
+	load: 'CI'
+]	on: MetacelloAllowLockedProjectChange
+	do: [ :e | e honor ]
+
 ```
 
 # Non-code contributions

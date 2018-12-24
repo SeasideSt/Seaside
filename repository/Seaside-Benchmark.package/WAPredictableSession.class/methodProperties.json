@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"createCache" : "pmm 5/22/2011 11:08"
-	},
-	"class" : {
-		"registerForBenchmarking:at:" : "pmm 8/23/2014 11:46",
-		"registerCounter" : "pmm 5/22/2011 11:58"
-	}
-}

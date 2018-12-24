@@ -1,0 +1,1 @@
+I am a  test error used to test WAExceptionHandler.

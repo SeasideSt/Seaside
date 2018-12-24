@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Email",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pmm 9/12/2018 14:38",
+	"super" : "WAEmailMessage",
+	"category" : "Seaside-Email-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"parts",
-		"boundary" ],
+		"boundary"
+	],
 	"name" : "WAMultiPartEmailMessage",
-	"pools" : [
-		 ],
-	"super" : "WAEmailMessage",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-*javascript-pharo-core
+*Javascript-Pharo-Core
 javascriptPharoCore
 	^ self new
 		name: 'Javascript-Pharo-Core';

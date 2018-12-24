@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 asCapitalizedPhrase
 	| read words currentWord capitalizedWord |
 	(self noneSatisfy: [ :ea | ea isLowercase ])

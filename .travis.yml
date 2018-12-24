@@ -1,63 +1,56 @@
 language: smalltalk
-sudo: required
-addons:
-  apt:
-    packages:
-      - google-chrome-stable
+sudo: false
 
-smalltalk_edge:
-   source: Yesplan/smalltalkCI
-   branch: metacello-extensions
-
-before_install:
-  - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
-
-before_script:
-  - wget http://selenium-release.storage.googleapis.com/3.14/selenium-server-standalone-3.14.0.jar
-  - wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
-  - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.14.0.jar -port 4444 > /tmp/seleniumlog.&"
-
-smalltalk:
-  - Pharo-7.0
-  - Pharo-6.1
-  - Pharo-6.0
-  - Pharo-5.0
-  - Pharo-4.0
-  - Squeak-trunk
-  - Squeak-5.1
+aliases:
+  - &pharo4-has-latest-metacello
+    smalltalk_config: .pharo4.ston
 
 matrix:
   allow_failures:
-    - smalltalk: GemStone-2.4.8
-    - smalltalk: Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
-      os: linux
+    - smalltalk: GemStone-2.4.8
   
   include:
+    - smalltalk: Pharo64-7.0
+      env: BUILD_NAME=Pharo64-7.0
+    - smalltalk: Pharo-6.1
+      env: BUILD_NAME=Pharo-6.1
+    - smalltalk: Pharo-5.0
+      env: BUILD_NAME=Pharo-5.0
+    - smalltalk: Pharo-4.0
+      env: BUILD_NAME=Pharo-4.0
+      <<: *pharo4-has-latest-metacello
+  
+    - smalltalk: Squeak-trunk
+      env: BUILD_NAME=Squeak-trunk
+    - smalltalk: Squeak-5.2
+      env: BUILD_NAME=Squeak-5.2
     - smalltalk: Squeak-5.1
-      os: osx
-    - smalltalk: GemStone-2.4.8
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.1.0.6
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.2.17
+      env: BUILD_NAME=Squeak-5.1
+    
+    - smalltalk: GemStone-3.4.2
+      env: BUILD_NAME=GemStone-3.4.2
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
     - smalltalk: GemStone-3.3.6
+      env: BUILD_NAME=GemStone-3.3.6
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.4.0
+    - smalltalk: GemStone-3.2.17
+      env: BUILD_NAME=GemStone-3.2.17
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.1.0.6
+      env: BUILD_NAME=GemStone-3.1.0.6
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-2.4.8
+      env: BUILD_NAME=GemStone-2.4.8
       cache:
         directories:
           - $SMALLTALK_CI_CACHE

@@ -1,4 +1,4 @@
 accessing
 setSharedCounterValue: anInteger
 
-	System _sharedCounter: self sharedCounterIndex setValue: anInteger.
+	System sharedCounter: self sharedCounterIndex setValue: anInteger.

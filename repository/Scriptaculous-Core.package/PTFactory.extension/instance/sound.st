@@ -1,3 +1,3 @@
-*scriptaculous-core-elements
+*Scriptaculous-Core
 sound
 	^ self create: SUSound

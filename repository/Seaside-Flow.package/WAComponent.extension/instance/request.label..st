@@ -1,4 +1,4 @@
-*seaside-flow-dialog
+*Seaside-Flow
 request: aRequestString label: aLabelString
 	"Display an input dialog with the question aRequestString and the button label aLabelString. Answer the string the user enters."
 	

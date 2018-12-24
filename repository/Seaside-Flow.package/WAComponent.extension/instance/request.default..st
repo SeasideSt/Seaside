@@ -1,4 +1,4 @@
-*seaside-flow-dialog
+*Seaside-Flow
 request: aRequestString default: aDefaultString
 	"Display an input dialog with the question aRequestString and the default string aDefaultString. Answer the string the user enters."
 	

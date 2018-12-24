@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 seasideMimeDocumentType: aMimeType
 	^ self seasideMimeDocument
 		mimeType: aMimeType;

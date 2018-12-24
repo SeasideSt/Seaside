@@ -1,3 +1,3 @@
-*seaside-pharo-core
+*Seaside-Pharo-Core
 seasideMimeDocumentType: aMimeType
 	^ self imageForm seasideMimeDocumentType: aMimeType

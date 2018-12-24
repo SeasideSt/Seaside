@@ -2,7 +2,7 @@ private
 assertContentType: aMimeTypeStringOrNil accept: anAcceptStringOrNil routesTo: aSymbol
 	| routes headers request context result |
 	routes := WAByMethodRoutes routes: (GRPlatform current createRoutesFor: WAMimeTypeStubHandler).
-	headers := GRSmallDictionary new.
+	headers := GRSmallDictionary2 new.
 	aMimeTypeStringOrNil isNil ifFalse: [
 		headers at: 'content-type' put: aMimeTypeStringOrNil ].
 	anAcceptStringOrNil isNil ifFalse: [

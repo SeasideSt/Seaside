@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Widgets",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 10/27/2008 21:46",
-	"instvars" : [
-		 ],
-	"name" : "JQProgressbar",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQProgressbar",
+	"type" : "normal"
+}

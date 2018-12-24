@@ -8,5 +8,5 @@ testAsMIMEDocumentMorph
 		extent: 12 @ 12;
 		yourself.
 	document := morph seasideMimeDocument.
-	self assert: document contentType = WAMimeType imageGif.
+	self assert: document contentType = WAMimeType imagePng.
 	self assert: (document content isKindOf: ByteArray)

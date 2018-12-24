@@ -1,3 +1,3 @@
-*seaside-pharo-core
+*Seaside-Pharo-Core
 xmlEncoderOn: aStream
 	^ WAPharoXmlEncoder on: aStream

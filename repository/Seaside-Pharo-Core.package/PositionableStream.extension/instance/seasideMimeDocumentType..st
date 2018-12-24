@@ -1,4 +1,4 @@
-*seaside-pharo-core
+*Seaside-Pharo-Core
 seasideMimeDocumentType: aMimetype
 	^ self seasideMimeDocument
 		mimeType: aMimetype;

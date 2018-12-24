@@ -1,15 +1,14 @@
 {
-	"category" : "Scriptaculous-Core-Controls",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PTPrototype",
+	"category" : "Scriptaculous-Core-Controls",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"handleId",
-		"trackId" ],
+		"trackId"
+	],
 	"name" : "SUSlider",
-	"pools" : [
-		 ],
-	"super" : "PTPrototype",
-	"type" : "normal" }
+	"type" : "normal"
+}

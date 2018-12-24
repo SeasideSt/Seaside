@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Utility",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JQPosition",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Utility",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQPosition",
+	"type" : "normal"
+}

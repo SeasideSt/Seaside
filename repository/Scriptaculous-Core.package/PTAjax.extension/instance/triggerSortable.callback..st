@@ -1,4 +1,4 @@
-*scriptaculous-core-triggers
+*Scriptaculous-Core
 triggerSortable: aString callback: aBlock
 	aBlock fixCallbackTemps.
 	self

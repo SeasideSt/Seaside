@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-JSON-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"first" ],
-	"name" : "WAJsonCanvas",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:39",
 	"super" : "WACanvas",
-	"type" : "normal" }
+	"category" : "Seaside-JSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"first"
+	],
+	"name" : "WAJsonCanvas",
+	"type" : "normal"
+}

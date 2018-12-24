@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "rew 2/14/2008 10:17",
+	"super" : "WACanvasWidget",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"actionsSelector",
-		"owner" ],
+		"owner"
+	],
 	"name" : "WANavigationBar",
-	"pools" : [
-		 ],
-	"super" : "WACanvasWidget",
-	"type" : "normal" }
+	"type" : "normal"
+}

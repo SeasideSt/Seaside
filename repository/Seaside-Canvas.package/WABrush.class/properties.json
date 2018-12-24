@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "lr 3/27/2007 11:18",
 	"super" : "WAObject",
-	"category" : "Seaside-Canvas",
+	"category" : "Seaside-Canvas-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

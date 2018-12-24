@@ -1,4 +1,4 @@
-*scriptaculous-core-triggers
+*Scriptaculous-Core
 triggerSliderCallback: aBlock
 	aBlock fixCallbackTemps.
 	self

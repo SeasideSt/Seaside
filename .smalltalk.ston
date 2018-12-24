@@ -5,17 +5,24 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #useLatestMetacello : true,
-      #platforms : [ #pharo, #squeak, #gemstone ]
+      #useLatestMetacello : false,
+      #platforms : [ #pharo ]
     },
     SCIMetacelloLoadSpec {
       #useLatestMetacello : true,
       #baseline : 'Seaside3',
       #directory : 'repository',
-      #load : [ 'Webdriver-Tests' ],
+      #load : [ 'CI' ],
       #useLatestMetacello : true,
-      #onConflictUseLoaded : true,
-      #platforms : [ #pharo, #squeak, #gemstone ]
+      #platforms : [ #squeak ]
+    },
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside3',
+      #directory : 'repository',
+      #onWarningLog : true,
+      #load : [ 'CI' ],
+      #useLatestMetacello : true,
+      #platforms : [ #gemstone ]
     }
   ],
   #testing : {

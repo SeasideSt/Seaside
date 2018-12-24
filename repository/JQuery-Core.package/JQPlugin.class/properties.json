@@ -1,15 +1,14 @@
 {
-	"category" : "JQuery-Core-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "JSObject",
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"owner",
-		"options" ],
+		"options"
+	],
 	"name" : "JQPlugin",
-	"pools" : [
-		 ],
-	"super" : "JSObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

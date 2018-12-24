@@ -1,7 +1,7 @@
 tests-attributes
 testProperties
 	self 
-		assert: ((self jQuery: 'img') properties: (GRSmallDictionary new
+		assert: ((self jQuery: 'img') properties: (GRSmallDictionary2 new
 				at: 'src'
 					put: '/images/hat.gif';
 				at: 'title'

@@ -1,3 +1,3 @@
-*scriptaculous-core-creational-dragging
+*Scriptaculous-Core
 droppable
 	^ self create: SUDroppable

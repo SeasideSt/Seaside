@@ -1,7 +1,7 @@
 rendering
 renderValuesOn: html
 	| oldSpaceEnd youngSpaceEnd memoryEnd parameters |
-	parameters := SmalltalkImage current getVMParameters.
+	parameters := SmalltalkImage current vm getParameters.
 	
 	oldSpaceEnd := parameters first.
 	youngSpaceEnd := parameters second.

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "lr 4/28/2008 09:40",
 	"super" : "JSScript",
-	"category" : "Javascript-Core",
+	"category" : "Javascript-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

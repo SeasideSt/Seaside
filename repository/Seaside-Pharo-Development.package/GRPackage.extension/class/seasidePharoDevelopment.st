@@ -1,4 +1,4 @@
-*seaside-pharo-development
+*Seaside-Pharo-Development
 seasidePharoDevelopment
 	^ self new
 		name: 'Seaside-Pharo-Development';

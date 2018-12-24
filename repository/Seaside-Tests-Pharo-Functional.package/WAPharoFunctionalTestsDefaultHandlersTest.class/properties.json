@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Pharo-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAPharoFunctionalTestsDefaultHandlersTest",
-	"pools" : [
-		 ],
 	"super" : "WAEnvironmentDefaultHandlersTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Pharo-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAPharoFunctionalTestsDefaultHandlersTest",
+	"type" : "normal"
+}

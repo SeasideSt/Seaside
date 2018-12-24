@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-UI-Widgets",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JQTabs",
-	"pools" : [
-		 ],
 	"super" : "JQWidget",
-	"type" : "normal" }
+	"category" : "JQuery-UI-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQTabs",
+	"type" : "normal"
+}

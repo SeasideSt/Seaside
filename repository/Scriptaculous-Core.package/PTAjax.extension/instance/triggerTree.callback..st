@@ -1,4 +1,4 @@
-*scriptaculous-core-triggers
+*Scriptaculous-Core
 triggerTree: aString callback: aBlock
 	aBlock fixCallbackTemps.
 	self

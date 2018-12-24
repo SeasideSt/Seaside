@@ -1,3 +1,3 @@
-*seaside-core-document
+*Seaside-Core
 isConcatenatedHtmlAttributeValue
 	^ false

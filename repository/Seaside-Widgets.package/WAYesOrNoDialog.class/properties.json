@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "rew 9/24/2007 20:25",
-	"instvars" : [
-		 ],
-	"name" : "WAYesOrNoDialog",
-	"pools" : [
-		 ],
 	"super" : "WAFormDialog",
-	"type" : "normal" }
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAYesOrNoDialog",
+	"type" : "normal"
+}

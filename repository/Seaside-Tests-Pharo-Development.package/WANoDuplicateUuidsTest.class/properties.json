@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Pharo-Development",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/23/2011 21:24",
-	"instvars" : [
-		 ],
-	"name" : "WANoDuplicateUuidsTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Pharo-Development",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WANoDuplicateUuidsTest",
+	"type" : "normal"
+}

@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"testWithValue" : "lr 3/29/2008 21:56",
-		"testWithoutValue" : "lr 3/29/2008 21:56",
-		"testWithNestedValue" : "lr 3/29/2008 21:56",
-		"testAnswer" : "lr 3/29/2008 22:05"
-	},
-	"class" : { }
-}

@@ -1,4 +1,4 @@
-*seaside-examples-misc
+*Seaside-Examples-misc
 headerForExampleBrowser
 	^ self name = self description
 		ifTrue: [ self name ]

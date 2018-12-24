@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "rew 9/24/2007 20:24",
+	"super" : "WACanvasWidget",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"label",
-		"value" ],
+		"value"
+	],
 	"name" : "WAInputDialog",
-	"pools" : [
-		 ],
-	"super" : "WACanvasWidget",
-	"type" : "normal" }
+	"type" : "normal"
+}

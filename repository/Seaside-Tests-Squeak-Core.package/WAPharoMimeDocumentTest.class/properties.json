@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAFormTestCase",
+	"category" : "Seaside-Tests-Squeak-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAPharoMimeDocumentTest",
+	"type" : "normal"
+}

@@ -4,5 +4,5 @@ convertMultipartFileField: part
 	(file := WAFile new)
 		fileName: part fileName;
 		contentType: part contentType printString;
-		contents: part contents.
+		contents: (part hasEntity ifTrue: [ part contents asByteArray ] ifFalse: [ #[] ]).
 	^ file

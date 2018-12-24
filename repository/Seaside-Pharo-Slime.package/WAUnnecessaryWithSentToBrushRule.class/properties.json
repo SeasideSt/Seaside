@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GRSlimeParseTreeLintRule",
+	"category" : "Seaside-Pharo-Slime",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAUnnecessaryWithSentToBrushRule",
+	"type" : "normal"
+}

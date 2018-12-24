@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WACallback",
-	"category" : "Javascript-Core",
+	"category" : "Javascript-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

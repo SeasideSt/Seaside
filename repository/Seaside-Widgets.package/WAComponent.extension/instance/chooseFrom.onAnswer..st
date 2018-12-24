@@ -1,4 +1,4 @@
-*seaside-widgets-dialogs
+*Seaside-Widgets
 chooseFrom: aCollection onAnswer: aBlock
 	"Choose an item from the given aCollection. Evaluate aBlock with the selected item."
 

@@ -1,3 +1,3 @@
-*seaside-core-document
+*Seaside-Core-document
 encodeOn: aDocument
 	self printOn: aDocument

@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"match" ],
-	"name" : "WAWildcardMimeTypeMatchTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"match"
+	],
+	"name" : "WAWildcardMimeTypeMatchTest",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-*seaside-pharo-development-core
+*Seaside-Pharo-Development
 traverseWithMemory: aMemory seen: anIdentitySet
 	aMemory accumulate: self.
 	anIdentitySet add: self.

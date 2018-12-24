@@ -1,3 +1,3 @@
-*scriptaculous-core-controls
+*Scriptaculous-Core
 inPlaceCollectionEditor
 	^ self create: SUInPlaceCollectionEditor

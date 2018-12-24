@@ -1,3 +1,3 @@
-*seaside-flow
+*Seaside-Flow
 visitTask: aTask
 	self visitComponent: aTask

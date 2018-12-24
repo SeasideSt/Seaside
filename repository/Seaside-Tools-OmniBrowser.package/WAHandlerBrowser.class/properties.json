@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tools-OmniBrowser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAHandlerBrowser",
-	"pools" : [
-		 ],
 	"super" : "OBBrowser",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-OmniBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAHandlerBrowser",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callback: aBlock passengers: aQuery
 	"Trigger the callback aBlock with the passengers of aQuery. Nodes that have no passenger are ignored."
 

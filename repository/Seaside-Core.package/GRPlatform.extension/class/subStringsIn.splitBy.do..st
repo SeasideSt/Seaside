@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 subStringsIn: aString splitBy: aCharacter do: aOneArgumentBlock
 	"#subStrings: can be slow on Pharo because it uses a lot of allocation so we avoid it
 	see issue Issue 609"
