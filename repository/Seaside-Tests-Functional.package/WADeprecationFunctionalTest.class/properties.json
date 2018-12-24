@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAFunctionalTest",
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WADeprecationFunctionalTest",
+	"type" : "normal"
+}

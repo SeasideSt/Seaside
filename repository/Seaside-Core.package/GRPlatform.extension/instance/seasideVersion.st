@@ -1,6 +1,6 @@
-*seaside-core
+*Seaside-Core
 seasideVersion
 	"Answer the Seaside version"
 
-	^ (GRVersion major: 3 minor: 2 revision: 2)
+	^ (GRVersion major: 3 minor: 3 revision: 0)
 		yourself

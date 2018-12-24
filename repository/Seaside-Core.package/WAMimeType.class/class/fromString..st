@@ -27,7 +27,7 @@ fromString: aString
 		^ self 
 			main: main
 			sub: sub ].
-	parameters := GRSmallDictionary new.
+	parameters := GRSmallDictionary2 new.
 	GRPlatform subStringsIn: (aString copyFrom: endOfSub + 1 to: aString size) splitBy: $; do: [ :each |
 		parameters 
 			at: (each copyUpTo: $=) trimBoth

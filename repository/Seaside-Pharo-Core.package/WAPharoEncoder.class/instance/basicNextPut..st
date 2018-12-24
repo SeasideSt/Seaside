@@ -1,3 +1,3 @@
-*seaside-pharo-core-document
+accessing
 basicNextPut: aCharacter
 	self nextPut: aCharacter

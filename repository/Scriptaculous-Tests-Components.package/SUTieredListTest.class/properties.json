@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Tests-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"tieredList" ],
-	"name" : "SUTieredListTest",
-	"pools" : [
-		 ],
 	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tieredList"
+	],
+	"name" : "SUTieredListTest",
+	"type" : "normal"
+}

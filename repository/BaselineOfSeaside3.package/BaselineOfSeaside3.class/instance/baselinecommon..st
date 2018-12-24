@@ -34,6 +34,8 @@ baselinecommon: spec
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Core' with: [
 				spec requires: #('Grease' ). ];
+			package: 'Seaside-Continuation' with: [
+				spec requires: #('Grease' ). ];
 			package: 'Seaside-Development' with: [
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Flow'). ];
 			package: 'Seaside-Email' with: [
@@ -41,7 +43,7 @@ baselinecommon: spec
 			package: 'Seaside-Environment' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Widgets' ). ];
 			package: 'Seaside-Examples' with: [
-				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' ). ];
+				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' 'Seaside-Development' 'JQuery-Core'). ];
 			package: 'Seaside-Flow' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' ). ];
 			package: 'Seaside-InternetExplorer' with: [
@@ -88,10 +90,10 @@ baselinecommon: spec
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
 			group: 'CI' with: #('Tests' 'Development Tests');
-			group: 'Core' with: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
+			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
 			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests');
 			group: 'Development' with: #('Core' 'Seaside-Development' );
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development' );
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' );
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples');
 			group: 'Base' with: #('Core')  ].

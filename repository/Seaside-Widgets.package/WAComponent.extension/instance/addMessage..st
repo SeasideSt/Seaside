@@ -1,4 +1,4 @@
-*seaside-widgets-decorations
+*Seaside-Widgets-decorations
 addMessage: aString
 	"Add a decoration that displays a level 3 heading with aString around the receiver. Answer the decoration, so don't forget #yourself."
 	

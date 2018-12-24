@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tools-OmniBrowser-Commands",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WACmdBrowseRequestHandler",
-	"pools" : [
-		 ],
 	"super" : "OBCommand",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-OmniBrowser-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACmdBrowseRequestHandler",
+	"type" : "normal"
+}

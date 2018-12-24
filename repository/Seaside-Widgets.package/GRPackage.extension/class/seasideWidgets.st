@@ -1,4 +1,4 @@
-*seaside-widgets
+*Seaside-Widgets
 seasideWidgets
 	^ self new
 		name: 'Seaside-Widgets';

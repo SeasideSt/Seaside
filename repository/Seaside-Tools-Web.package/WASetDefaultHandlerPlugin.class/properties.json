@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WASetDefaultHandlerPlugin",
-	"pools" : [
-		 ],
 	"super" : "WAConfigurationToolPlugin",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASetDefaultHandlerPlugin",
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "Scriptaculous-Tests-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "SUFunctionalTest",
+	"category" : "Scriptaculous-Tests-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"component",
-		"timeComponent" ],
+		"timeComponent"
+	],
 	"name" : "SUDatePickerTest",
-	"pools" : [
-		 ],
-	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

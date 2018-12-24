@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "pmm 9/12/2018 14:47",
 	"super" : "GRPlatformTest",
-	"category" : "Seaside-Tests-Core",
+	"category" : "Seaside-Tests-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

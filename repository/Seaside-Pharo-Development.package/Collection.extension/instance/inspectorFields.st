@@ -1,4 +1,4 @@
-*seaside-pharo-development-core
+*Seaside-Pharo-Development
 inspectorFields
 	| i |
 	i := 0.

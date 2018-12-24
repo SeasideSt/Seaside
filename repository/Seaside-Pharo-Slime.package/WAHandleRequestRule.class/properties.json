@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GRSlimeTransformationRule",
+	"category" : "Seaside-Pharo-Slime",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAHandleRequestRule",
+	"type" : "normal"
+}

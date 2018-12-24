@@ -1,1 +1,1 @@
-A WAPharoStatusItem is the abstract base class for other classes providing information about a specific aspect of this system.
+A WAImageStatusItem is the abstract base class for other classes providing information about a specific aspect of this system.

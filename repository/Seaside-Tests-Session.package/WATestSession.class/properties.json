@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Session",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WATestSession",
-	"pools" : [
-		 ],
 	"super" : "WASession",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WATestSession",
+	"type" : "normal"
+}

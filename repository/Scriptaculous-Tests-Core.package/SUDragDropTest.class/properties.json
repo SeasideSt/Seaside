@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Tests-Core-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"cart" ],
-	"name" : "SUDragDropTest",
-	"pools" : [
-		 ],
 	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cart"
+	],
+	"name" : "SUDragDropTest",
+	"type" : "normal"
+}

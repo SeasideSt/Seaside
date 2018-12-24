@@ -1,34 +1,36 @@
 language: smalltalk
 sudo: false
 
+aliases:
+  - &pharo4-has-latest-metacello
+    smalltalk_config: .pharo4.ston
+
 matrix:
   allow_failures:
-    - smalltalk: Pharo-7.0
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
-      os: linux
     - smalltalk: GemStone-2.4.8
   
   include:
-    - smalltalk: Pharo-7.0
-      env: BUILD_NAME=Pharo-7.0
+    - smalltalk: Pharo64-7.0
+      env: BUILD_NAME=Pharo64-7.0
     - smalltalk: Pharo-6.1
       env: BUILD_NAME=Pharo-6.1
-    - smalltalk: Pharo-6.0
-      env: BUILD_NAME=Pharo-6.0
     - smalltalk: Pharo-5.0
       env: BUILD_NAME=Pharo-5.0
+    - smalltalk: Pharo-4.0
+      env: BUILD_NAME=Pharo-4.0
+      <<: *pharo4-has-latest-metacello
   
     - smalltalk: Squeak-trunk
       env: BUILD_NAME=Squeak-trunk
+    - smalltalk: Squeak-5.2
+      env: BUILD_NAME=Squeak-5.2
     - smalltalk: Squeak-5.1
       env: BUILD_NAME=Squeak-5.1
-      os: osx
-    - smalltalk: Squeak-5.1
-      os: linux
     
-    - smalltalk: GemStone-3.4.0
-      env: BUILD_NAME=GemStone-3.4.0
+    - smalltalk: GemStone-3.4.2
+      env: BUILD_NAME=GemStone-3.4.2
       cache:
         directories:
           - $SMALLTALK_CI_CACHE

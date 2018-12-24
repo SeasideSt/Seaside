@@ -2,7 +2,7 @@ rendering
 renderFooterOn: html
 	| memoryEnd |
 	
-	memoryEnd := SmalltalkImage current vmParameterAt: 3.
+	memoryEnd := SmalltalkImage current vm parameterAt: 3.
 
 	html tableFoot
 		class: 'right';

@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "rew 1/23/2008 21:14",
+	"super" : "WACanvasWidget",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"root",
 		"selected",
@@ -12,9 +12,8 @@
 		"childrenBlock",
 		"labelBlock",
 		"canSelectBlock",
-		"selectBlock" ],
+		"selectBlock"
+	],
 	"name" : "WATree",
-	"pools" : [
-		 ],
-	"super" : "WACanvasWidget",
-	"type" : "normal" }
+	"type" : "normal"
+}

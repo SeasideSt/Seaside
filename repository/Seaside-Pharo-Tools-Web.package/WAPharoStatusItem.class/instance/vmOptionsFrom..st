@@ -3,7 +3,7 @@ vmOptionsFrom: aSmalltalkImage
 	| options |
 	options := ((-1 to: -1000 by: -1)
 		collect: [ :each |
-			aSmalltalkImage getSystemAttribute: each ])
+			aSmalltalkImage vm getSystemAttribute: each ])
 		select: [ :each | each notNil ].
 	^ String streamContents: [ :stream | 
 		options 

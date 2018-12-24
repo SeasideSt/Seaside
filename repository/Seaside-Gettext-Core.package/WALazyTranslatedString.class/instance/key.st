@@ -1,3 +1,3 @@
 initialization
 key
-	^key.
+	^ key

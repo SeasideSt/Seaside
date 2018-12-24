@@ -1,3 +1,3 @@
-*seaside-pharo-core-document
+accessing
 basicNextPutAll: anObject
 	self nextPutAll: anObject

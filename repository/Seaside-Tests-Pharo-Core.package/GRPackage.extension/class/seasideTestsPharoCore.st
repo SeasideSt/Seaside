@@ -1,4 +1,4 @@
-*seaside-tests-pharo-core
+*Seaside-Tests-Pharo-Core
 seasideTestsPharoCore
 	^ self new
 		name: 'Seaside-Tests-Pharo-Core';

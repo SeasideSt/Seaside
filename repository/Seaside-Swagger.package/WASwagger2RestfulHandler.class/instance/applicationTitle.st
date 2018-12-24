@@ -1,3 +1,0 @@
-stubs
-applicationTitle
-	^ 'Swagger'

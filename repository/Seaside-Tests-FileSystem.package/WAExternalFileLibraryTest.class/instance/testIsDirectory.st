@@ -1,3 +1,3 @@
 testing
 testIsDirectory
-	self assert: (GRPlatform current isDirectory: (GRPlatform current defaultDirectoryPathString)).
+	self assert: (GRPlatform current isDirectory: (GRPlatform current defaultDirectoryPathString))

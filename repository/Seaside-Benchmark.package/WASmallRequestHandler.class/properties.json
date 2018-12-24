@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Benchmark",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 8/19/2014 09:47",
-	"instvars" : [
-		"pageContent" ],
-	"name" : "WASmallRequestHandler",
-	"pools" : [
-		 ],
 	"super" : "WARequestHandler",
-	"type" : "normal" }
+	"category" : "Seaside-Benchmark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pageContent"
+	],
+	"name" : "WASmallRequestHandler",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+I am a spec based toolbar for the Pharo server adapter.

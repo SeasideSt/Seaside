@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"handler" ],
-	"name" : "WAFileAttributeEditor",
-	"pools" : [
-		 ],
 	"super" : "WAAttributeEditor",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"handler"
+	],
+	"name" : "WAFileAttributeEditor",
+	"type" : "normal"
+}

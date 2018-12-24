@@ -1,4 +1,4 @@
-*seaside-widgets-dialogs
+*Seaside-Widgets
 chooseFrom: aCollection default: anObject caption: aString onAnswer: aBlock
 	"Choose an item from the given aCollection, the default anObject and the caption aString. Evaluate aBlock with the selected item."
 	

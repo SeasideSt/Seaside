@@ -1,5 +1,5 @@
 accessing
 browserClass
-	^ Smalltalk at: ((Smalltalk hasClassNamed: #Nautilus)
-		ifTrue: [ #WANautilusBrowser ]
-		ifFalse: [ #Browser ])
+	^ Smalltalk at: ((Smalltalk hasClassNamed: #Browser)
+		ifTrue: [ #Browser ]
+		ifFalse: [ #WARPackageBasedBrowser ])

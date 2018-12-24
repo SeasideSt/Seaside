@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "pmm 10/2/2018 08:29",
+	"super" : "WAObject",
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "WAStubJsObject",
+	"type" : "normal"
+}

@@ -1,16 +1,17 @@
 {
-	"category" : "Seaside-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"Current" ],
 	"commentStamp" : "jf 3/3/2009 22:33",
+	"super" : "WATool",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current"
+	],
 	"instvars" : [
 		"path",
 		"selected",
-		"input" ],
+		"input"
+	],
 	"name" : "WAInspector",
-	"pools" : [
-		 ],
-	"super" : "WATool",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -25,7 +25,7 @@ fromString: aString
 								quality := Float readFrom: parameterValue readStream ]
 							ifFalse: [
 								parameters isNil ifTrue: [
-									parameters := GRSmallDictionary new ].
+									parameters := GRSmallDictionary2 new ].
 								parameters at: key put: parameterValue ] ].
 					(parameters isNil not and: [ value respondsTo: #parameters: ]) ifTrue: [
 						"only WAMimeType actually supports parameters"

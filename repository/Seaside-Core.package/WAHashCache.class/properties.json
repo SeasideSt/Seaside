@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "pmm 7/14/2015 14:34",
+	"commentStamp" : "pmm 9/9/2018 18:44",
 	"super" : "WAExpiringCache",
 	"category" : "Seaside-Core-Cache",
 	"classinstvars" : [ ],

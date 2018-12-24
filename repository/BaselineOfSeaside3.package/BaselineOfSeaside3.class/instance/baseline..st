@@ -5,8 +5,8 @@ baseline: spec
 	"This groups all baseline"
 	self baselinecommon: spec.
 	self baselinegemstone: spec.
-   self baselinepharo: spec.
-   self baselinesqueak: spec.
+	self baselinepharo: spec.
+	self baselinesqueak: spec.
 	self baselineslime: spec.
 	self baselinefilesystem: spec.
 	self baselineadaptors: spec.

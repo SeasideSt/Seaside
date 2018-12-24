@@ -1,4 +1,4 @@
-*seaside-pharo-development-core
+*Seaside-Pharo-Development-core
 inspectorFields
 	| members |
 	members := WriteStream on: Array new.

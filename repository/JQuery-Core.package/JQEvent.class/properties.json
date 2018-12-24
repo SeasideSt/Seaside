@@ -1,14 +1,13 @@
 {
-	"category" : "JQuery-Core-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"owner" ],
-	"name" : "JQEvent",
-	"pools" : [
-		 ],
 	"super" : "JSObject",
-	"type" : "normal" }
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"owner"
+	],
+	"name" : "JQEvent",
+	"type" : "normal"
+}

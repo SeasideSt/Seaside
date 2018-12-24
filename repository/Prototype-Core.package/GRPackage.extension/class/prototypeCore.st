@@ -1,4 +1,4 @@
-*prototype-core
+*Prototype-Core
 prototypeCore
 	^ self new
 		name: 'Prototype-Core';

@@ -5,7 +5,7 @@ createHandlers
 		cache: WAPredictableCache new;
 		yourself.
 	session := WASession new
-		cache: WAPredictableCache new;
+		documentHandlers: WAPredictableCache new;
 		yourself.
 	application register: session.
 	^ Array

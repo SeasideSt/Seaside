@@ -32,10 +32,13 @@ testRegister
 		equals: self function , '("a").dblclick(function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onError: self mock)
-		equals: self function , '("a").error(function(){mock})'.
+		equals: self function , '("a").on("error",function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onFocus: self mock)
 		equals: self function , '("a").focus(function(){mock})'.
+	self
+ 		assert: ((self jQuery: 'a') onInput: self mock)
+ 		equals: self function , '("a").on("input",function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onKeyDown: self mock)
 		equals: self function , '("a").keydown(function(){mock})'.
@@ -47,7 +50,7 @@ testRegister
 		equals: self function , '("a").keyup(function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onLoad: self mock)
-		equals: self function , '("a").load(function(){mock})'.
+		equals: self function , '("a").on("load",function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onMouseDown: self mock)
 		equals: self function , '("a").mousedown(function(){mock})'.
@@ -83,4 +86,4 @@ testRegister
 		equals: self function , '("a").submit(function(){mock})'.
 	self
 		assert: ((self jQuery: 'a') onUnload: self mock)
-		equals: self function , '("a").unload(function(){mock})'
+		equals: self function , '("a").on("unload",function(){mock})'

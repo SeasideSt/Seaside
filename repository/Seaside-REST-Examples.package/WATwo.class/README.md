@@ -1,0 +1,1 @@
+I am a painter (not a component) that needs no session because I don't send #callback:

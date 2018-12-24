@@ -1,9 +1,0 @@
-{
-	"instance" : { },
-	"class" : {
-		"initialize" : "pmm 8/14/2011 13:26",
-		"on:codec:" : "pmm 8/15/2011 08:23",
-		"delegateOn:" : "pmm 8/14/2011 17:51",
-		"initializeUrlTable" : "pmm 8/14/2011 17:49"
-	}
-}

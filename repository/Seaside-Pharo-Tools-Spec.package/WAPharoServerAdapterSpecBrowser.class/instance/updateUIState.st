@@ -2,9 +2,9 @@ private
 updateUIState
 
 	self disableAllButtons.
-	
 	"Update the list -- need to separately send the icon changed message or it does not get refreshed..."
 	listModel updateList.
+	listModel setSelectedItem: adaptor.
 	listModel changed: #iconForItem:at:.
 	
 	adaptor isNil ifTrue: [

@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/25/2007 20:24",
+	"super" : "WAFormDialog",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"options",
-		"selection" ],
+		"selection"
+	],
 	"name" : "WAChoiceDialog",
-	"pools" : [
-		 ],
-	"super" : "WAFormDialog",
-	"type" : "normal" }
+	"type" : "normal"
+}

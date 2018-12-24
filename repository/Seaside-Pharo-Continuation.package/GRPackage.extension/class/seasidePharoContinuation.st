@@ -1,4 +1,4 @@
-*seaside-pharo-continuation
+*Seaside-Pharo-Continuation
 seasidePharoContinuation
 	^ self new
 		name: 'Seaside-Pharo-Continuation';

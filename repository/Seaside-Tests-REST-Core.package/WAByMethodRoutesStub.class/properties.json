@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tests-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Tests-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"selector",
-		"arguments" ],
+		"arguments"
+	],
 	"name" : "WAByMethodRoutesStub",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

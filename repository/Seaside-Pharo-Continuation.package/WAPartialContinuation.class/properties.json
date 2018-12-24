@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "pmm 9/12/2018 14:45",
+	"super" : "WAAbstractContinuation",
 	"category" : "Seaside-Pharo-Continuation",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"values" ],
+		"values"
+	],
 	"name" : "WAPartialContinuation",
-	"pools" : [
-		 ],
-	"super" : "GRObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

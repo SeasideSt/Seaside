@@ -1,5 +1,5 @@
 public
 clear
-	dictionary valuesDo: [ :value |
+	dictionary do: [ :value |
 		self cacheEntryRemoved: value value ].
 	dictionary removeAll

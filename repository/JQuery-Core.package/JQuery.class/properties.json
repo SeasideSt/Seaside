@@ -1,14 +1,13 @@
 {
-	"category" : "JQuery-Core-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"FunctionName" ],
 	"commentStamp" : "lr 10/13/2008 23:48",
-	"instvars" : [
-		 ],
-	"name" : "JQuery",
-	"pools" : [
-		 ],
 	"super" : "JSObject",
-	"type" : "normal" }
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FunctionName"
+	],
+	"instvars" : [ ],
+	"name" : "JQuery",
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Widgets-Decorations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/14/2013 15:52",
-	"instvars" : [
-		 ],
-	"name" : "WAValidationNotification",
-	"pools" : [
-		 ],
 	"super" : "WANotification",
-	"type" : "normal" }
+	"category" : "Seaside-Widgets-Decorations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAValidationNotification",
+	"type" : "normal"
+}

@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"triggerAutocompleter:" : "jf 7/19/2009 14:15",
-		"triggerSliderCallback:" : "lr 11/14/2008 22:41",
-		"triggerSortable:callback:" : "JohanBrichau 3/20/2016 21:05",
-		"triggerTree:callback:" : "JohanBrichau 3/20/2016 21:05" } }

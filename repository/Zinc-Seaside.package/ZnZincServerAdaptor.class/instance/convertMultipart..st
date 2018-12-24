@@ -10,5 +10,5 @@ convertMultipart: entity
 					ifTrue: [ self codec url decode: each fieldValueString ]
 					ifFalse: [ String new ] ] 
 			ifFalse: [ self convertMultipartFileField: each ] .
-		dictionary at: each fieldName put: value ].
+		dictionary at: each fieldName add: value ].
 	^ dictionary

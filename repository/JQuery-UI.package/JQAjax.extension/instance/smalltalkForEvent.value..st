@@ -1,8 +1,8 @@
-*jquery-ui-private
+*JQuery-UI
 smalltalkForEvent: anArraySpec value: aString
 	| stream result |
 	stream := aString readStream.
-	result := GRSmallDictionary new.
+	result := GRSmallDictionary2 new.
 	anArraySpec do: [ :spec |
 		(spec first = #number)
 			ifTrue: [ result at: spec last put: (stream upTo: $,) greaseInteger ].
@@ -11,7 +11,7 @@ smalltalkForEvent: anArraySpec value: aString
 		(spec first = #passenger)
 			ifTrue: [ result at: spec last put: (self renderContext callbacks passengerAt: (stream upTo: $,)) ].
 		(spec first = #position)
-			ifTrue: [ result at: spec last put: (GRSmallDictionary new add: 'top' -> (stream upTo: $,) greaseInteger; add: 'left' -> (stream upTo: $,) greaseInteger; yourself) ].
+			ifTrue: [ result at: spec last put: (GRSmallDictionary2 new add: 'top' -> (stream upTo: $,) greaseInteger; add: 'left' -> (stream upTo: $,) greaseInteger; yourself) ].
 		(spec first = #size)
 			ifTrue: [ result at: spec last put: (stream upTo: $,) greaseInteger @ (stream upTo: $,) greaseInteger ] ].
 	^ result

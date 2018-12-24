@@ -1,7 +1,7 @@
 rendering
 renderValuesOn: html 
 	| incrementalGCs tenures parameters fullGCs fullGCTime incrementalGCTime |
-	parameters := SmalltalkImage current getVMParameters.
+	parameters := SmalltalkImage current vm getParameters.
 	fullGCs := parameters at: 7.
 	fullGCTime := parameters at: 8.
 	incrementalGCs := parameters at: 9.

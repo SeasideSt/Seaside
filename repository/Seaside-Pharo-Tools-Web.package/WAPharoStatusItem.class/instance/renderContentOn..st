@@ -8,5 +8,5 @@ renderContentOn: html
 			class: self tableBodyCssClass;
 			with: [ 
 				self renderValuesOn: html.
-				self isRunningCog  ifTrue: [
+				self isRunningCog ifTrue: [
 					self renderCogValuesOn: html ] ] ]

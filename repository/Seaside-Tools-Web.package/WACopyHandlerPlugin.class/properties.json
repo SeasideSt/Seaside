@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 5/28/2007 23:06",
-	"instvars" : [
-		 ],
-	"name" : "WACopyHandlerPlugin",
-	"pools" : [
-		 ],
 	"super" : "WAConfigurationToolPlugin",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACopyHandlerPlugin",
+	"type" : "normal"
+}

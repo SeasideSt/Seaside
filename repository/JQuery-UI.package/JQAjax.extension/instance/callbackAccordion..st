@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackAccordion: aBlock
 	"Trigger aBlock with the accordion event object."
 	

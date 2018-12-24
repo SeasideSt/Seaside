@@ -1,4 +1,4 @@
-*seaside-flow
+*Seaside-Flow
 seasideFlow
 	^ self new
 		name: 'Seaside-Flow';

@@ -1,3 +1,3 @@
-*seaside-pharo-development-core
+*Seaside-Pharo-Development
 inspectorFields
 	^ self associations

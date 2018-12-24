@@ -3,7 +3,7 @@ commandLineArgumentsFrom: aSmalltalkImage
 	| options |
 	options := ((3 to: 1000)
 		collect: [ :each |
-			aSmalltalkImage getSystemAttribute: each ])
+			aSmalltalkImage vm getSystemAttribute: each ])
 		select: [ :each | each notNil ].
 	^ String streamContents: [ :stream | 
 		options 

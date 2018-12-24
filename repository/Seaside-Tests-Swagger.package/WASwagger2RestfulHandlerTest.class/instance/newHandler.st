@@ -1,3 +1,0 @@
-private
-newHandler
-	^ WAConfigurationHandler new

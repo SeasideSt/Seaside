@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"configuration",
 		"groups",
 		"parent",
-		"dialog" ],
+		"dialog"
+	],
 	"name" : "WAUserConfigurationEditor",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
-*seaside-pharo-core-backtracking
+*Seaside-Pharo-Core
 snapshotCopy
 	^ self shallowCopy

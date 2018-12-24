@@ -1,3 +1,3 @@
-*seaside-pharo-core-document
+testing
 isBinary
 	^ false

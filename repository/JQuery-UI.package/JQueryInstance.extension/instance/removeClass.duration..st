@@ -1,4 +1,4 @@
-*jquery-ui-transitions
+*JQuery-UI
 removeClass: aString duration: aDurationOrString
 	"Removes the specified class from the set of matched elements with a optional transition."
 	

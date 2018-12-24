@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEncodedXmlUnicdeSmp
 	| emoji string |
 	emoji := Character codePoint: 16r1F64C.

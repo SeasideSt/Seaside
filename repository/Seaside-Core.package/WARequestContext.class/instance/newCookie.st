@@ -5,7 +5,8 @@ newCookie
 	| cookie baseUrl |
 	baseUrl := self handler url.
 	cookie := WACookie new
-		path: baseUrl pathStringUnencoded;
+		pathUnencoded: baseUrl pathStringUnencoded
+		encoded: (baseUrl pathStringEncodedWith: self codec);
 		httpOnly: true;
 		yourself.
 	baseUrl host isNil ifFalse: [ cookie domain: baseUrl host ].

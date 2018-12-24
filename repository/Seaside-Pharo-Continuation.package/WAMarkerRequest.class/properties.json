@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo-Continuation",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAMarkerRequest",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:44",
 	"super" : "GRNotification",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo-Continuation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAMarkerRequest",
+	"type" : "normal"
+}

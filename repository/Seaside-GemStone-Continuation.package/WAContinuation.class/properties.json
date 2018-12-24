@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaleHenrichs 06/02/2010 12:37",
+	"commentStamp" : "",
 	"instvars" : [
 		"values" ],
 	"name" : "WAContinuation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAAbstractContinuation",
 	"type" : "normal" }

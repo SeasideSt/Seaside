@@ -26,9 +26,9 @@ renderSideBarDivingInOn: html
 				with: 'JQuery UI'.
 			html text: ' integration.' ]. 
 		html listItem: [
-			html text: 'Seaside 3.2 '.
+			html text: 'Seaside 3.3 '.
 			html anchor
-				url: 'https://github.com/SeasideSt/Seaside/wiki/Seaside320Changelog';
+				url: 'https://github.com/SeasideSt/Seaside/wiki/Seaside330Changelog';
 				with: 'changes' ].	
 		html listItem: [
 			html text: 'Seaside '.

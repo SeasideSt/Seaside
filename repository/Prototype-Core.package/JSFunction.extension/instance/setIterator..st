@@ -1,4 +1,4 @@
-*prototype-core
+*Prototype-Core
 setIterator: aBlock 
 	| factory |
 	factory := (PTFactory 
