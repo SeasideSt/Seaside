@@ -27,10 +27,12 @@ baselineadaptors: spec
 						loads: #('Core');
 						repository: 'http://ss3.gemtalksystems.com/ss/WebClient' ].
 			spec
-				package: 'WebClient-Seaside-Adatpor'
-				with: [ spec repository: 'http://ss3.gemtalksystems.com/ss/WebClient'.
-					spec requires: #('WebClient Project' 'Seaside-Core') ].
-			spec group: 'WebClient' with: #('WebClient-Seaside-Adatpor') ].
+				package: 'WebClient-Seaside-Adaptor'
+				with: [ 
+					spec 
+						repository: 'http://ss3.gemtalksystems.com/ss/WebClient';
+					 	requires: #('WebClient Project' 'Seaside-Core') ].
+			spec group: 'WebClient' with: #('WebClient-Seaside-Adaptor') ].
 
 	spec for: #squeak do: [ spec package: 'WebClient-Seaside-OB' with: [ spec requires: #('OB' 'Seaside-Tools-OmniBrowser') ] ].
 
