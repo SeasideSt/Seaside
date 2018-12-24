@@ -1,7 +1,7 @@
 baselines
 baselinewelcome: spec
 
-	spec for: #(#'squeakCommon' #'gs3.x') do: [
+	spec for: #common do: [
 
 		spec 
 			package: 'Seaside-Welcome' with: [
@@ -9,17 +9,19 @@ baselinewelcome: spec
 			package: 'Seaside-Tests-Welcome' with: [
 				spec requires: #('Seaside-Welcome' ) ].
 		spec 
-			group: 'Welcome' with: #('Seaside-Welcome');
-			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome');
-			group: 'Welcome' with: #( 'Welcome Tests' ) ].	
+			group: 'Welcome' with: #('Seaside-Welcome' 'JQueryUI Tests');
+			group: 'Welcome Tests' with: #('Seaside-Tests-Welcome') ].	
 			
 	spec for: #'squeak' do: [
 		spec 
 			package: 'Seaside-Welcome' with: [
 				spec includes: #('Seaside-Squeak-Welcome' ). ];
 			package: 'Seaside-Squeak-Welcome' with: [
-				spec requires: #('Seaside-Welcome' ). ]. 
+				spec 
+					requires: #('Seaside-Welcome' 'WebClient');
+					postLoadDoIt: #startWelcomeSeasideAdaptorInSqueak ]. 
 		spec
+			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'WebClient') ].
 
 	spec for: #'pharo' do: [
@@ -27,14 +29,13 @@ baselinewelcome: spec
 			package: 'Seaside-Welcome' with: [
 				spec includes: #('Seaside-Pharo-Welcome' ). ];
 			package: 'Seaside-Pharo-Welcome' with: [
-				spec requires: #('Seaside-Welcome' ) ].
+				spec 
+					requires: #('Seaside-Welcome' 'Zinc');
+					postLoadDoIt: #startWelcomeSeasideAdaptorInPharo. ].
+		
 		spec
 			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'Zinc') ].
-
-	spec for: #'pharo1.x' do: [
-		spec
-			group: 'OneClick' with: #('Comet Examples' 'Seaside-Tools-OmniBrowser' 'Kom') ].
 		
 	spec for: #'gs3.x' do: [
 		spec
