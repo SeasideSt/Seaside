@@ -9,7 +9,6 @@ matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
-    - smalltalk: GemStone-2.4.8
   
   include:
     - smalltalk: Pharo64-7.0
@@ -46,11 +45,6 @@ matrix:
           - $SMALLTALK_CI_CACHE
     - smalltalk: GemStone-3.1.0.6
       env: BUILD_NAME=GemStone-3.1.0.6
-      cache:
-        directories:
-          - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-2.4.8
-      env: BUILD_NAME=GemStone-2.4.8
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
