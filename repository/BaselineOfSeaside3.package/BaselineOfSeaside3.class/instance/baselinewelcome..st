@@ -17,8 +17,11 @@ baselinewelcome: spec
 			package: 'Seaside-Welcome' with: [
 				spec includes: #('Seaside-Squeak-Welcome' ). ];
 			package: 'Seaside-Squeak-Welcome' with: [
-				spec requires: #('Seaside-Welcome' ). ]. 
+				spec 
+					requires: #('Seaside-Welcome' 'WebClient');
+					postLoadDoIt: #startWelcomeSeasideAdaptorInSqueak ]. 
 		spec
+			group: 'default' with: #( 'Welcome' 'Seaside-Examples');
 			group: 'OneClick' with: #('Development' 'Welcome' 'RSS-Examples' 'Seaside-Email' 'Seaside-Examples' 'Seaside-Tools-Web' 'WebClient') ].
 
 	spec for: #'pharo' do: [

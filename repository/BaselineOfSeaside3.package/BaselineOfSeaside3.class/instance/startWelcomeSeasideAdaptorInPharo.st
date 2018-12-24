@@ -1,5 +1,5 @@
 doits
 startWelcomeSeasideAdaptorInPharo
 	WAAdmin defaultServerManager adaptors
-		ifEmpty: [ (Smalltalk includesKey: #ZnZincServerAdaptor)
-				ifTrue: [ (Smalltalk at: #ZnZincServerAdaptor) startOn: 8080 ] ]
+		ifEmpty: [ (Smalltalk globals includesKey: #ZnZincServerAdaptor)
+				ifTrue: [ (Smalltalk globals at: #ZnZincServerAdaptor) startOn: 8080 ] ]
