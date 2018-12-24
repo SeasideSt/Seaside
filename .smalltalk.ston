@@ -8,7 +8,7 @@ SmalltalkCISpec {
       #useLatestMetacello : false,
       #onWarningLog : true,
       #platforms : [ #pharo ]
-    }
+    },
     SCIMetacelloLoadSpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
