@@ -4,9 +4,12 @@ renderUrlencodedOn: html
 	html heading level2;
 		with: 'Urlencoded'.
 	html heading level3;
+		id: #urlencodedheading;
 		with: self urlencoded.
 	self renderCharacterByCharacter: self urlencoded on: html.
-	html form: [
+	html form
+		id: #urlencodedform;
+		with: [
 		html div: [
 			html textInput
 				on: #urlencoded of: self.

@@ -4,10 +4,12 @@ renderGetOn: html
 	html heading level2;
 		with: 'GET'.
 	html heading level3;
+		id: #getheading;
 		with: self get.
 	self renderCharacterByCharacter: self get on: html.
 	html form
 		get;
+		id: #getform;
 		with: [
 			html div: [
 				html textInput
