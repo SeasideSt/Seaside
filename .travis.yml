@@ -19,6 +19,7 @@ matrix:
     - smalltalk: Pharo-5.0
       env: BUILD_NAME=Pharo-5.0
     - smalltalk: Pharo-4.0
+      env: BUILD_NAME=Pharo-4.0
       <<: *pharo4-has-latest-metacello
   
     - smalltalk: Squeak-trunk
