@@ -29,12 +29,12 @@ matrix:
       env: BUILD_NAME=Squeak-5.1
     
     - smalltalk: GemStone-3.4.2
-      env: BUILD_NAME=GemStone-3.4.2
+      env: BUILD_NAME=GemStone-3.4.3
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
     - smalltalk: GemStone-3.3.6
-      env: BUILD_NAME=GemStone-3.3.6
+      env: BUILD_NAME=GemStone-3.3.9
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
