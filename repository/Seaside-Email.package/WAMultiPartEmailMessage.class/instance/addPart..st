@@ -1,3 +1,3 @@
-as yet unclassified
+public
 addPart: aWAEmailBody
 	self parts add: aWAEmailBody

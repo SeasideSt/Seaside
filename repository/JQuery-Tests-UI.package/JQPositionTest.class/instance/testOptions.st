@@ -14,4 +14,4 @@ testOptions
 		equals: self function , '("div").position({"my":"top+10 center-20"})'.
 	self
 		assert: ((self jQuery: 'div') positioned of: '#id')
-		equals: self function , '("div").position({"of":"#id"})'.
+		equals: self function , '("div").position({"of":"#id"})'

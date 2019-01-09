@@ -1,3 +1,3 @@
 accessing
 stopButton
-	^stopButton
+	^ stopButton

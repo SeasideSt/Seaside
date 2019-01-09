@@ -2,4 +2,7 @@ private
 createMimeTypeMatch: aCollection
 	^ aCollection isEmpty
 		ifTrue: [ WAWildcardMimeTypeMatch new ]
-		ifFalse: [ WACompositeMimeTypeMatch matches: aCollection ]
+		ifFalse: [
+			aCollection size = 1
+				ifTrue: [ aCollection first ]
+				ifFalse: [ WACompositeMimeTypeMatch matches: aCollection ] ]

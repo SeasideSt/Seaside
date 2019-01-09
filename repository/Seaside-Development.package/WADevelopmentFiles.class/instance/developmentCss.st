@@ -67,13 +67,16 @@ body { margin-bottom: 25px !important; /*matches toolbar min-height + padding an
 	padding-right: 8px;
 }
 .wa-halo .wa-halo-header .wa-browserhaloplugin, .window .window-titlebar .wa-browserhaloplugin {
-	background: url(codebrowser.png) no-repeat;
+	background: url(codebrowser.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .wa-halo .wa-halo-header .wa-inspectorhaloplugin, .window .window-titlebar .wa-inspectorhaloplugin {
-	background: url(inspector.png) no-repeat;
+	background: url(inspector.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .wa-halo .wa-halo-header .wa-styleshaloplugin, .window .window-titlebar .wa-styleshaloplugin {
-	background: url(styleeditor.png) no-repeat;
+	background: url(styleeditor.svg) no-repeat;
+	background-size: 16px 16px;
 }
 .wa-halo .wa-halo-header .wa-browserhaloplugin a,
 .wa-halo .wa-halo-header .wa-inspectorhaloplugin a,

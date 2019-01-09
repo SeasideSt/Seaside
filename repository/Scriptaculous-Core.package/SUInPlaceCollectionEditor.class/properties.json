@@ -1,14 +1,11 @@
 {
-	"category" : "Scriptaculous-Core-Controls",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SUInPlaceCollectionEditor",
-	"pools" : [
-		 ],
 	"super" : "SUInPlaceEditor",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Core-Controls",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SUInPlaceCollectionEditor",
+	"type" : "normal"
+}

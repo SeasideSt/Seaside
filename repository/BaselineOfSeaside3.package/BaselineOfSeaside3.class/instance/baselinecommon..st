@@ -1,24 +1,40 @@
 baselines
 baselinecommon: spec
 
-	spec for: #'common' do: [
-		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/Seaside/Seaside31/main'.
-		spec project: 'Grease' with: [
-			spec
-				versionString: #bleedingEdge;
-				className: 'ConfigurationOfGrease';
-				loads: #( 'Grease-Core');
-				repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
+	spec for: #'squeakCommon' do: [ 
+      spec
+			baseline: 'Grease'
+        	with: [ 
+				spec
+					loads: #('Grease-Core');
+					repository: 'github://SeasideSt/Grease:master/repository' ].
 		spec
-			project: 'Grease Core Tests' copyFrom: 'Grease' with: [
-				spec loads: #('Core Tests') ].
+			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+				spec loads: #('Core Tests') ] 
+	].
+
+	spec for: #'gemstone' do: [ 
+      spec
+			baseline: 'Grease'
+        	with: [ 
+				spec
+					loads: #('Grease-Core');
+					repository: 'github://GsDevKit/Grease:master/repository' ].
+		spec
+			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+				spec loads: #('Core Tests') ] 
+	].
+
+	spec for: #'common' do: [
+
 		spec
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Component' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Core' with: [
+				spec requires: #('Grease' ). ];
+			package: 'Seaside-Continuation' with: [
 				spec requires: #('Grease' ). ];
 			package: 'Seaside-Development' with: [
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Flow'). ];
@@ -27,7 +43,7 @@ baselinecommon: spec
 			package: 'Seaside-Environment' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Widgets' ). ];
 			package: 'Seaside-Examples' with: [
-				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' ). ];
+				spec requires: #('Seaside-Component' 'Seaside-Canvas' 'Seaside-Tools-Core' 'Seaside-Development' 'JQuery-Core'). ];
 			package: 'Seaside-Flow' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' ). ];
 			package: 'Seaside-InternetExplorer' with: [
@@ -71,12 +87,13 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ].
 		spec 
-			group: 'default' with: #('Core');
-			group: 'CI' with: #('Tests' 'Zinc' 'Development Tests');
-			group: 'Core' with: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
-			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests');
+			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
+			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
+			group: 'CI' with: #('Tests' 'Development Tests');
+			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
+			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests');
 			group: 'Development' with: #('Core' 'Seaside-Development' );
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development' );
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' );
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples');
 			group: 'Base' with: #('Core')  ].

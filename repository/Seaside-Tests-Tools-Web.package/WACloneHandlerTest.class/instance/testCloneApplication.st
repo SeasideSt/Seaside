@@ -1,11 +1,11 @@
 tests
 testCloneApplication
 	| app handler key clone |
-	app := WADispatcher new register: WAApplication new at: 'app'.
+	app := WADispatcher new register: WARegistry new at: 'app'.
 	handler := WARequestHandler new.
 	key := app register: handler.
 	
 	clone := app cloneHandler.
 	
-	self assert: key = (app keyFor: handler).
-	self should: [ clone keyFor: handler ] raise: Error
+	self assert: (app cache at: key ifAbsent: [ nil ]) = handler.
+	self assert: (clone cache at: key ifAbsent: [ nil ]) isNil

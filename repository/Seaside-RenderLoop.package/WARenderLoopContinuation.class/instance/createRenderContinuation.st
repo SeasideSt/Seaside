@@ -2,4 +2,4 @@ private
 createRenderContinuation
 	"Answer a new render phase continuation."
 
-	^ (self application preferenceAt: #renderPhaseContinuationClass) new
+	^ (self application preferenceAt: #renderPhaseContinuationClass) value new

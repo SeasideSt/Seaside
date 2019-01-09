@@ -1,0 +1,4 @@
+mode
+setVerboseMode
+
+	FSLog enableLog

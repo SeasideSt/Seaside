@@ -1,0 +1,1 @@
+Use this class as an exceptionHandler when you want to snap off a continuation for all handled exceptions and then display a customizable web page.

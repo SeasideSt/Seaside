@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAListAttribute",
+	"category" : "Seaside-Core-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAClassBindingAttribute",
+	"type" : "normal"
+}

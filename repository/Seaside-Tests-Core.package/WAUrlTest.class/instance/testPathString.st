@@ -1,6 +1,6 @@
 tests-encoding
 testPathString
-	self assert: url pathString = '/'.
+	self assert: (url pathStringEncodedWith: GRNullCodec new) = '/'.
 
 	url path: #( 'foo' 'bar' ).
-	self assert: url pathString = '/foo/bar'
+	self assert: (url pathStringEncodedWith: GRNullCodec new) = '/foo/bar'

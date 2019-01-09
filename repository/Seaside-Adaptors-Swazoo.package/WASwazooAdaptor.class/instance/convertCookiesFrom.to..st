@@ -1,15 +1,12 @@
 private
 convertCookiesFrom: aWAResponse to: aSwazooResponse
-	| cookies setCookieField setCookie2Field |
+	| cookies setCookieField |
 	cookies := aWAResponse cookies.
 	cookies isEmpty ifTrue: [ ^ self ].
 	
 	setCookieField := WorkingHTTPSetCookieField new.
-	setCookie2Field := WorkingHTTPSetCookie2Field new.
 
 	cookies do: [ :each |
-		setCookieField addCookie: each oldNetscapeString.
-		setCookie2Field addCookie: each rfc2965String ].
+		setCookieField addCookie: each rfc6265String ].
 	
-	aSwazooResponse headers addField: setCookieField.
-	aSwazooResponse headers addField: setCookie2Field
+	aSwazooResponse headers addField: setCookieField

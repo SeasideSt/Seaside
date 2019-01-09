@@ -1,6 +1,6 @@
 filters
 filters
-	"Answer an ordered colleciton of all filters active in the receiver."
+	"Answer an ordered collection of all filters active in the receiver."
 	
 	| current result |
 	current := self filter.

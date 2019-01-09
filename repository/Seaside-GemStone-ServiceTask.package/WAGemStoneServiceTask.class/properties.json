@@ -1,0 +1,19 @@
+{
+	"category" : "Seaside-GemStone-ServiceTask",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"InProcess",
+		"Queue" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"taskBlock",
+		"taskValue",
+		"exception",
+		"id",
+		"hasValue" ],
+	"name" : "WAGemStoneServiceTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

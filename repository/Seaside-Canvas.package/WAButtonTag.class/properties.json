@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Canvas-Tags",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/28/2007 08:54",
+	"super" : "WAFormInputTag",
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"type",
-		"value" ],
+		"value"
+	],
 	"name" : "WAButtonTag",
-	"pools" : [
-		 ],
-	"super" : "WAFormInputTag",
-	"type" : "normal" }
+	"type" : "normal"
+}

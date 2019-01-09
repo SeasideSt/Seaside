@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Pharo-Development-Core-Plugins",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 5/27/2007 17:34",
-	"instvars" : [
-		 ],
-	"name" : "WABrowserHaloPlugin",
-	"pools" : [
-		 ],
 	"super" : "WAHaloPlugin",
-	"type" : "normal" }
+	"category" : "Seaside-Pharo-Development-Core-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WABrowserHaloPlugin",
+	"type" : "normal"
+}

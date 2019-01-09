@@ -1,3 +1,3 @@
-*seaside-pharo-core
+*Seaside-Pharo-Core
 urlEncoderOn: aStream
 	^ WAPharoUrlEncoder on: aStream

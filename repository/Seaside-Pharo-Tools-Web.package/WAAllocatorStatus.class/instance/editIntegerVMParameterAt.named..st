@@ -2,8 +2,8 @@ actions
 editIntegerVMParameterAt: anInteger named: aString 
 	self 
 		request: aString
-		default: (SmalltalkImage current vmParameterAt: anInteger)
+		default: (SmalltalkImage current vm parameterAt: anInteger)
 		onAnswer: [ :value | 
-			SmalltalkImage current 
-				vmParameterAt: anInteger
+			SmalltalkImage current vm
+				parameterAt: anInteger
 				put: value greaseInteger ]

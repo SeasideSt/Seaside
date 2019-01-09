@@ -1,3 +1,3 @@
-public
+removing
 remove: anObject
-	^ self remove: anObject ifAbsent: [ nil ]
+	self subclassResponsibility

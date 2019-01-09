@@ -1,3 +1,3 @@
-*seaside-core
+*Seaside-Core
 seasideUrl
 	^ WAUrl absolute: self

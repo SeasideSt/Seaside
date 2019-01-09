@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 effect
 	"This is the core dependency of the effects of jQuery UI."
 	

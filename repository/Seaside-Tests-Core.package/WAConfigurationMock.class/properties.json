@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tests-Core-Configuration",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WASystemConfiguration",
+	"category" : "Seaside-Tests-Core-Configuration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"describeBlock",
-		"parentsBlock" ],
+		"parentsBlock"
+	],
 	"name" : "WAConfigurationMock",
-	"pools" : [
-		 ],
-	"super" : "WASystemConfiguration",
-	"type" : "normal" }
+	"type" : "normal"
+}

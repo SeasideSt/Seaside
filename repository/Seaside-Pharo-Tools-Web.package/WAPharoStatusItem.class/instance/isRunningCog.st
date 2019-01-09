@@ -1,3 +1,3 @@
 private
 isRunningCog
-	^ (self image respondsTo: #isRunningCog) and: [ self image isRunningCog ]
+	^ (self vm respondsTo: #isRunningCog) and: [ self vm isRunningCog ]

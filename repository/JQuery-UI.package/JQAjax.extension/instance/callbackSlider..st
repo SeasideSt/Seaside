@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackSlider: aBlock
 	"Trigger aBlock with the slider event object."
 	

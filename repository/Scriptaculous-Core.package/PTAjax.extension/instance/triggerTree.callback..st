@@ -1,12 +1,12 @@
-*scriptaculous-core-triggers
+*Scriptaculous-Core
 triggerTree: aString callback: aBlock
 	aBlock fixCallbackTemps.
 	self
 		callback: [ :values |
 			aBlock value: (Array streamContents: [ :stream |
-				(values subStrings: ',') do: [ :token |
+				GRPlatform subStringsIn: values splitBy: $, do: [ :token |
 					| pair |
-					pair := (token subStrings: ':')
+					pair := GRPlatform subStringsIn: token splitBy: $:
 						collect: [ :each | self renderContext callbacks passengerAt: each ifAbsent: [ nil ] ].
 					pair size = 2
 						ifTrue: [ stream nextPut: pair first -> pair second ] ] ]) ]

@@ -1,7 +1,7 @@
 rendering
 renderEditMemoryParameterAt: anInteger named: aString on: html
 	| parameter |
-	parameter := SmalltalkImage current vmParameterAt: anInteger.
+	parameter := SmalltalkImage current vm parameterAt: anInteger.
 	self
 		renderLabel: aString
 		value: [

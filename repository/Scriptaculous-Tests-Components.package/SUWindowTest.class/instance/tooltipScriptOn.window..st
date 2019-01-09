@@ -10,12 +10,12 @@ tooltipScriptOn: html window: aWindow
 					(html prototype evaluator 
 						callback: [ :v |
 								| values |
-								values := v subStrings: ','.
+								values := v substrings: ','.
 								aWindow originX: values first y: (values at: 2) ; tooltipKey: (values at: 3) ]
 						value: (JSStream on: '[event.clientX,event.clientY,event.target.rel]');
 						callback: [ :script | aWindow openOn: script hidden: true ];
 						onComplete: ((JSStream on: 'event.target._showState') then: (html prototype element id: aWindow windowId; show)));
-						timeout: 2000)).
+						setTimeout: 2000)).
 				each element on: 'mouseout' do: 	((JSStream on: 'event.target._showState = false'),
 					((html prototype element id: aWindow windowId; visible) then:
 						(html prototype evaluator 

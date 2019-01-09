@@ -12,4 +12,4 @@ testStringSpecial
 			self
 				assert: (String with: (Character codePoint: codePoint))
 				"case doesn't matter"
-				equalsIgnoreCase: '"\u', ((codePoint printStringBase: 16) padded: #left to: 4 with: $0), '"'  ] ]
+				equalsIgnoreCase: '"\u', ((codePoint printStringBase: 16) padLeftTo: 4 with: $0), '"'  ] ]

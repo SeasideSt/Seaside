@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Email",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pmm 9/12/2018 14:38",
+	"super" : "WAObject",
+	"category" : "Seaside-Email-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"to",
 		"from",
@@ -13,9 +13,8 @@
 		"subject",
 		"headers",
 		"body",
-		"replyTo" ],
+		"replyTo"
+	],
 	"name" : "WAEmailMessage",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

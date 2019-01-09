@@ -6,7 +6,13 @@ authorCoverageFor: aCollectionOfPackages
 	| authors |
 	authors := Bag new.
 	aCollectionOfPackages do: [ :package |
-		(PackageInfo named: package name) methods
+		(Smalltalk
+			at: #RPackage ifPresent: [ :rPackage |
+				(rPackage organizer packageNamed: package name) methods ]
+			ifAbsent: [
+				Smalltalk
+					at: #PackageInfo ifPresent: [ :packageInfo |
+						(packageInfo named: package name) methods]])
 			do: [ :method | authors add: (method timeStamp copyUpTo: Character space) ] ].
 	^ authors sortedCounts 
 		collect: [ :each | each value -> ((100.0 / authors size * each key) roundTo: 0.1) ]

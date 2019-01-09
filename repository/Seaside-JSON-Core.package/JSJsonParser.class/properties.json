@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-JSON-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 9/14/2013 16:08",
-	"instvars" : [
-		 ],
-	"name" : "JSJsonParser",
-	"pools" : [
-		 ],
 	"super" : "WAJsonParser",
-	"type" : "normal" }
+	"category" : "Seaside-JSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJsonParser",
+	"type" : "normal"
+}

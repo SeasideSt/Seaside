@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-GemServer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FastCGISeasideGemServerTests",
+	"pools" : [
+		 ],
+	"super" : "SeasideGemServerTests",
+	"type" : "normal" }

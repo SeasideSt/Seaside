@@ -1,14 +1,11 @@
 {
-	"category" : "JQuery-Tests-Core-Unit",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "JQueryTest",
-	"pools" : [
-		 ],
 	"super" : "JSObjectTest",
-	"type" : "normal" }
+	"category" : "JQuery-Tests-Core-Unit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQueryTest",
+	"type" : "normal"
+}

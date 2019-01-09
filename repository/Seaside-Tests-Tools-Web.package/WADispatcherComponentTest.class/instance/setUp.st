@@ -9,6 +9,4 @@ setUp
 		at: 'counter'
 		in: childHandler.
 	normalApplication configuration addParent: WARenderLoopConfiguration instance.
-	normalApplication 
-		preferenceAt: #rootClass
-		put: WAConfigurationBrowser
+	normalApplication rootClass: WAConfigurationBrowser

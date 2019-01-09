@@ -1,5 +1,5 @@
-accessors
+private
 length
-	"The number of elements in the jQuery object."
+	"Return the number of DOM elements matched by the jQuery object."
 	
 	self access: 'length'

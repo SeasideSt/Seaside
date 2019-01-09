@@ -1,0 +1,3 @@
+initialization
+createCache
+	^ WAPredictableCache new

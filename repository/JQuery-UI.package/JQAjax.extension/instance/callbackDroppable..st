@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 callbackDroppable: aBlock
 	"Trigger aBlock with the droppable event object."
 	

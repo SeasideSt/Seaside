@@ -1,0 +1,4 @@
+formatting
+greaseString
+
+	^self fullPrintString

@@ -3,8 +3,8 @@ renamePackage: oldPackageName to: newPackageName
 	"self renamePackage: 'Seaside-Squeak-Development-Core' to: 'Seaside-Pharo-Development-Core'"
 	
 	| oldPackage newPackage oldWorkingCopy newWorkingCopy |
-	oldPackage := PackageInfo named: oldPackageName.
-	newPackage := PackageInfo named: newPackageName.
+	oldPackage := self packageWithName: oldPackageName.
+	newPackage := self packageWithName: newPackageName.
 	
 	" rename system categories "
 	oldPackage systemCategories do: [ :oldCategory |
@@ -26,5 +26,12 @@ renamePackage: oldPackageName to: newPackageName
 	
 	" test is all methos have been caught "
 	oldPackage methods isEmpty
-		ifTrue: [ oldWorkingCopy unload. PackageOrganizer default unregisterPackage: oldPackage ]
+		ifTrue: [ oldWorkingCopy unload.
+			Smalltalk
+				at: #RPackage ifPresent: [ :rPackage |
+					rPackage organizer unregisterPackage: oldPackage ]
+				ifAbsent: [
+					Smalltalk
+						at: #PackageOrganizer ifPresent: [ :packageOrganizer |
+							packageOrganizer default unregisterPackage: oldPackage ] ] ]
 		ifFalse: [ self error: 'Some code entities remain in the old package, please migrate manually.' ]

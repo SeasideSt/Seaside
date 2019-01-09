@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"selectedConfiguration" ],
-	"name" : "WAAncestryAttributeEditor",
-	"pools" : [
-		 ],
 	"super" : "WAAttributeEditor",
-	"type" : "normal" }
+	"category" : "Seaside-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedConfiguration"
+	],
+	"name" : "WAAncestryAttributeEditor",
+	"type" : "normal"
+}

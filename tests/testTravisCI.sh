@@ -34,13 +34,11 @@ REPOSITORY_LINE="  repository: '$REPOSITORY';"
 OUTPUT_PATH="${PROJECT_HOME}/tests/travisCI.st"
 
 cat - >> $OUTPUT_PATH << EOF
- Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
- "Explicitly load latest Grease configuration, since we're loading the #bleeding edge"
-Metacello new
-    configuration: 'Grease';
-    repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-    load: 'Slime Tests'. "temporary bugfix to load slime because baseline does not seem to pull it in"
+"Load and run tests to be performed by TravisCI"
+Transcript cr; show: 'travis---->travisCI.st'.
 
+"Pharo and Squeak tests"
+('${ST}' findString: 'GemStone' startingAt: 1) > 0 ifFalse:[
 "Load the ConfigurationOfSeaside3 as well to make the packageValidityTest work"
 Metacello new
     configuration: 'Seaside3';
@@ -53,12 +51,46 @@ Metacello new
  $REPOSITORY_LINE
    load: #( ${LOADS} ).
   "Run the tests"
-  Smalltalk at: #Author ifPresent:[Author fullName: 'Travis'].
-  ((Smalltalk includesKey: #Utilities) and:[Utilities respondsTo: #setAuthorInitials:]) ifTrue:[Utilities setAuthorInitials: 'TCI'].
+  Smalltalk at: #Author ifPresent:[(Smalltalk at: #Author) fullName: 'Travis'].
+  ((Smalltalk includesKey: #Utilities) and:[(Smalltalk at: #Utilities) respondsTo: #setAuthorInitials:]) ifTrue:[(Smalltalk at: #Utilities) setAuthorInitials: 'TCI'].
   TravisCIHarness
     value: #( '${FULL_CONFIG_NAME}' )
     value: 'TravisCISuccess.txt' 
     value: 'TravisCIFailure.txt'.
+].
+
+"Gemstone tests"
+('${ST}' findString: 'GemStone' startingAt: 1) > 0 ifTrue:[
+"Upgrade Grease and Metacello"
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGrease.
+
+(Smalltalk at: #GsDeployer) deploy: [
+  "Load the configuration or baseline"
+  Metacello new
+    $PROJECT_LINE
+    $VERSION_LINE
+    $REPOSITORY_LINE
+    onLock: [:ex | ex honor];
+    load: #( ${LOADS} )
+].
+
+true ifTrue: [
+  "Run all tests in image"
+   TravisCISuiteHarness
+     value: TestCase suite
+     value: 'TravisCISuccess.txt'
+     value: 'TravisCIFailure.txt'.
+] ifFalse: [
+  "Run just the Seaside tests"
+  TravisCIHarness
+    value: #( '${FULL_CONFIG_NAME}' )
+    value: 'TravisCISuccess.txt' 
+    value: 'TravisCIFailure.txt' ].
+]
 EOF
 
 cat $OUTPUT_PATH

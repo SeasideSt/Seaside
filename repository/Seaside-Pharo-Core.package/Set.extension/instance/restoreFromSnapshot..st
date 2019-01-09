@@ -1,3 +1,3 @@
-*seaside-pharo-core-backtracking
+*Seaside-Pharo-Core
 restoreFromSnapshot: anObject
 	super restoreFromSnapshot: anObject snapshotCopy

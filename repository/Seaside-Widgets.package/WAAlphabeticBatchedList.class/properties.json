@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Widgets-Components",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/1/2014 13:44",
+	"super" : "WACanvasWidget",
+	"category" : "Seaside-Widgets-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"items",
-		"currentPage" ],
+		"currentPage"
+	],
 	"name" : "WAAlphabeticBatchedList",
-	"pools" : [
-		 ],
-	"super" : "WACanvasWidget",
-	"type" : "normal" }
+	"type" : "normal"
+}

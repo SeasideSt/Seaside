@@ -11,5 +11,5 @@ testNoKey
 	response := self dispatch: context to: registry.
 	
 	self assertCookieAddition: response.
-	self assert: ((registry cache at: response cookies first value) isKindOf: WASession).
+	self assert: ((registry cache at: response cookies first value ifAbsent: [ nil ]) isKindOf: WASession).
 	self assertDefault: response

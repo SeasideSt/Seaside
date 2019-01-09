@@ -1,10 +1,10 @@
 {
-	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 11/17/2008 20:31",
+	"super" : "WARequestCookie",
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"expiry",
 		"secure",
@@ -12,9 +12,9 @@
 		"comment",
 		"commentUrl",
 		"httpOnly",
-		"maxAge" ],
+		"sameSite",
+		"maxAge"
+	],
 	"name" : "WACookie",
-	"pools" : [
-		 ],
-	"super" : "WARequestCookie",
-	"type" : "normal" }
+	"type" : "normal"
+}

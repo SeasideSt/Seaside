@@ -1,4 +1,4 @@
-*seaside-widgets-dialogs
+*Seaside-Widgets
 request: aRequestString label: aLabelString default: aDefaultString onAnswer: aBlock
 	"Display an input dialog with the question aRequestString, the button label aLabelString and the default string aDefaultString. Passes the answer into aBlock."
 	

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "pmm 2/1/2014 13:40",
+	"super" : "GRObject",
+	"category" : "Seaside-Squeak-Continuation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"values"
+	],
+	"name" : "WAContinuation",
+	"type" : "normal"
+}

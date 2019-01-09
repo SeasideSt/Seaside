@@ -1,6 +1,6 @@
 actions
 ok
-	SmalltalkImage current 
-		vmParameterAt: parameterIndex
+	SmalltalkImage current vm
+		parameterAt: parameterIndex
 		put: memoryInput bytes.
 	self answer

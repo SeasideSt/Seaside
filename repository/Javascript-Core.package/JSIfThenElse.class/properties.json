@@ -1,15 +1,14 @@
 {
-	"category" : "Javascript-Core-Decorations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "lr 4/28/2008 09:50",
+	"super" : "JSDecoration",
+	"category" : "Javascript-Core-Decorations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"trueStatement",
-		"falseStatement" ],
+		"falseStatement"
+	],
 	"name" : "JSIfThenElse",
-	"pools" : [
-		 ],
-	"super" : "JSDecoration",
-	"type" : "normal" }
+	"type" : "normal"
+}

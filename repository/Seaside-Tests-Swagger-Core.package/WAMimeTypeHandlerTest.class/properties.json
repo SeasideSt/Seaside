@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Swagger-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMimeTypeHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "WASwagger2RestfulHandlerTest",
+	"type" : "normal" }

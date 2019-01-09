@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Canvas",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WATagCanvas",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:36",
 	"super" : "WACanvas",
-	"type" : "normal" }
+	"category" : "Seaside-Canvas-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WATagCanvas",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+I render the HTML of the www.seaside.st home page. I'm useful for benchmarking the Seaside rendering code.

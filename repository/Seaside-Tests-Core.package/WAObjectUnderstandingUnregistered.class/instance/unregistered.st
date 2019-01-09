@@ -1,0 +1,3 @@
+registration
+unregistered
+	hasReceivedUnregistered := true

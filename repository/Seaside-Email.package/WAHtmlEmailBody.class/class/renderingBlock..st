@@ -1,3 +1,3 @@
-as yet unclassified
+instance-creation
 renderingBlock: anHtmlRenderingBlock
 	^ self new renderBlock: anHtmlRenderingBlock

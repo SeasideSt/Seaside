@@ -1,0 +1,3 @@
+accessing
+maximumRelativeAge: aStringOrAnInteger
+	maximumRelativeAge := aStringOrAnInteger asUnsignedInteger

@@ -2,7 +2,7 @@ baselines
 baselinejavascript: spec
 
 	spec for: #'common' do: [
-		spec blessing: #baseline.
+
 		spec 
 			package: 'Javascript-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' ) ];
@@ -13,44 +13,25 @@ baselinejavascript: spec
 			group: 'Javascript Tests' with: #('Javascript-Tests-Core' );
 			group: 'Tests' with: #( 'Javascript Tests' ) ].
 		
-	spec for: #(squeak #'pharo1.x') do: [
+	spec for: #squeak do: [
 		spec 
-			package: 'Javascript-Pharo-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Pharo-Core' ) ].
+			package: 'Javascript-Squeak-Core' with: [
+				spec requires: #('Javascript-Core' 'Seaside-Squeak-Core' ) ].
 		spec 
 			package: 'Javascript-Tests-Pharo-Core' with: [
-				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo-Core' ) ].
+				spec requires: #('Javascript-Tests-Core' 'Javascript-Squeak-Core' ) ].
 		spec 
 			package: 'Javascript-Core' with: [
-				spec includes: #('Javascript-Pharo-Core' ) ];
+				spec includes: #('Javascript-Squeak-Core' ) ];
 			package: 'Javascript-Tests-Core' with: [
 				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
-	spec for: #'pharo2.x' do: [
+	spec for: #pharo do: [
 		spec 
-			package: 'Javascript-Pharo20-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Pharo20-Core' ) ].
-		spec 
-			package: 'Javascript-Tests-Pharo-Core' with: [
-				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo20-Core' ) ].
-		spec 
-			package: 'Javascript-Core' with: [
-				spec includes: #('Javascript-Pharo20-Core' ) ];
-			package: 'Javascript-Tests-Core' with: [
-				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
-
-	spec for: #'pharo3.x' do: [
-		spec 
-			package: 'Javascript-Pharo20-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Pharo20-Core' ) ].
-		spec 
-			package: 'Javascript-Tests-Pharo-Core' with: [
-				spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo20-Core' ) ].
-		spec 
-			package: 'Javascript-Core' with: [
-				spec includes: #('Javascript-Pharo20-Core' ) ];
-			package: 'Javascript-Tests-Core' with: [
-				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
+			package: 'Javascript-Pharo-Core' with: [ spec requires: #('Javascript-Core' 'Seaside-Pharo-Core' ) ];
+			package: 'Javascript-Tests-Pharo-Core' with: [ spec requires: #('Javascript-Tests-Core' 'Javascript-Pharo-Core' ) ];
+			package: 'Javascript-Core' with: [ spec includes: #('Javascript-Pharo-Core' ) ];
+			package: 'Javascript-Tests-Core' with: [ spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
   spec
     for: #'gemstone'

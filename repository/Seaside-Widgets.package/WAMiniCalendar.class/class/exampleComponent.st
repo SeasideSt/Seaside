@@ -1,0 +1,3 @@
+accessing
+exampleComponent
+	^ self new

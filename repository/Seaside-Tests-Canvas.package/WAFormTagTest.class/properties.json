@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Canvas",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAFormTagTest",
-	"pools" : [
-		 ],
 	"super" : "WACanvasBrushTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFormTagTest",
+	"type" : "normal"
+}

@@ -99,7 +99,12 @@ renderContentOn: html
 			html tableRow: [
 				html tableHeading: [ html label: 'datalist' ].
 				html tableData: [ 
-					html datalist: [
-						html option: 'HTML'.
-						html option disabled: true; with: 'XHTML' ] ] ] ].
+					html textInput listId: #datalist.
+					html datalist id: #datalist; with: [
+						html option value: 'HTML 2'.
+						html option value: 'HTML 3.2'.
+						html option value: 'HTML 4.0'.
+						html option value: 'HTML 4.0.1'.
+						html option value: 'HTML 5'.
+						html option disabled: true; value: 'XHTML' ] ] ] ].
 		html submitButton ]

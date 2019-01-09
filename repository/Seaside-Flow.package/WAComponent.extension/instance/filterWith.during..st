@@ -1,4 +1,4 @@
-*seaside-flow-filters
+*Seaside-Flow
 filterWith: aFilter during: aBlock
 	| answer |
 	self session addFilter: aFilter.

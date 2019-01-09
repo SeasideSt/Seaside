@@ -1,0 +1,1 @@
+I exsit so that script generator classes can be tested without loading the Javascript package.

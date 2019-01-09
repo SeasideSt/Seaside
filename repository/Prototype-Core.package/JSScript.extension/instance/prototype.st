@@ -1,4 +1,4 @@
-*prototype-core
+*Prototype-Core
 prototype
 	"Answer a Prototype factory that automatically adds to the receiving script."
 	^ (PTFactory 

@@ -1,3 +1,5 @@
 mutual exclusion
 terminateOwner
-	owner isNil ifFalse: [ GRPlatform current terminateProcess: owner ]
+	| o |
+	o := self owner.
+	o isNil ifFalse: [ GRPlatform current terminateProcess: o ]

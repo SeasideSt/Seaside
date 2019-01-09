@@ -3,8 +3,8 @@ visitClassListAttribute: anAttribute
 	| options value selected |
 	options := anAttribute options asArray.
 	value := self configuration at: anAttribute key.
-	(value notNil and: [ (options includes: value) not ])
-		ifFalse: [ options := (Array with: value), (options) ].
+	(value notNil and: [ (options includes: value class) not ])
+		ifTrue: [ options := (Array with: value class), options ].
 	selected := value isNil ifTrue: [ nil ] ifFalse: [ value class ].
 	self html select
 		list: options;

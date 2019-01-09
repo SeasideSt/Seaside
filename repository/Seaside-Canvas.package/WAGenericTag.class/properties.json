@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Canvas",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 6/1/2008 00:40",
-	"instvars" : [
-		"tag" ],
-	"name" : "WAGenericTag",
-	"pools" : [
-		 ],
 	"super" : "WATagBrush",
-	"type" : "normal" }
+	"category" : "Seaside-Canvas-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tag"
+	],
+	"name" : "WAGenericTag",
+	"type" : "normal"
+}

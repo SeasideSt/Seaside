@@ -1,0 +1,14 @@
+{
+	"category" : "Zinc-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 9/30/2010 18:13",
+	"instvars" : [
+		"adaptor" ],
+	"name" : "ZnSeasideServerAdaptorDelegate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

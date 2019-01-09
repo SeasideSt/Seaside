@@ -1,3 +1,7 @@
 accessing
 path: aString
-	self pathUnencoded: aString codec: nil
+ 	path := self sanitizePath: aString.
+
+ 	self
+ 		pathUnencoded: path
+ 		codec: nil

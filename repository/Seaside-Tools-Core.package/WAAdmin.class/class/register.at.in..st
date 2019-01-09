@@ -1,11 +1,10 @@
 registration
 register: aRequestHandlerClass at: aString in: aDispatcher
-	| path dispatcher |
-	path := aString subStrings: '/'.
-	dispatcher := path allButLast
-		inject: aDispatcher
-		into: [ :result :each |
-			result handlers 
+	| dispatcher subStrings |
+	dispatcher := aDispatcher.
+	subStrings := GRPlatform subStringsIn: aString splitBy: $/.
+	subStrings allButLast do: [ :each |
+		dispatcher := dispatcher handlers 
 				at: each
-				ifAbsent: [ result register: WADispatcher new at: each ] ].
-	^ dispatcher register: aRequestHandlerClass new at: path last
+				ifAbsent: [ dispatcher register: WADispatcher new at: each ] ].
+	^ dispatcher register: aRequestHandlerClass new at: subStrings last

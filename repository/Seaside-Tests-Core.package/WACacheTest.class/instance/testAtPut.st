@@ -1,12 +1,11 @@
-tests
+testing
 testAtPut
-	"test cache is empty"
-	self assert: (cache at: 'key' ifAbsent: [ 0 ]) = 0.
-	self assert: (cache keyAtValue: 'value' ifAbsent: [ 0 ]) = 0.
-	
-	"put"
-	cache at: 'key' put: 'value'.
-	
-	"tests it's there"
-	self assert: (cache at: 'key' ifAbsent: [ 0 ]) = 'value'.
-	self assert: (cache keyAtValue: 'value' ifAbsent: [ 0 ]) = 'key'
+	1 to: 100 do: [ :i |
+		| absent mapped |
+		absent := false.
+		cache at: i ifAbsent: [ absent := true ].
+		self assert: absent.
+		mapped := cache at: i put: i greaseString.
+		self assert: mapped = i greaseString.
+		mapped := cache at: i ifAbsent: [ self assert: false ].
+		self assert: mapped = i greaseString ]

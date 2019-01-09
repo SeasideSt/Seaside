@@ -1,10 +1,10 @@
 {
+	"commentStamp" : "pmm 8/22/2014 09:42",
+	"super" : "WAObject",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "pmm 7/6/2011 21:34",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"scheme",
 		"user",
@@ -15,9 +15,8 @@
 		"slash",
 		"queryFields",
 		"fragment",
-		"pathParameters" ],
+		"pathParameters"
+	],
 	"name" : "WAUrl",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

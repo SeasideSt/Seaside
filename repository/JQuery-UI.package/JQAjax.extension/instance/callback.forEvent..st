@@ -1,4 +1,4 @@
-*jquery-ui-private
+*JQuery-UI-private
 callback: aBlock forEvent: anArraySpec
 	self 
 		callback: [ :value | aBlock value: (self smalltalkForEvent: anArraySpec value: value) ]

@@ -6,6 +6,8 @@ baseline: spec
 	self baselinecommon: spec.
 	self baselinegemstone: spec.
 	self baselinepharo: spec.
+	self baselinesqueak: spec.
+	self baselineslime: spec.
 	self baselinefilesystem: spec.
 	self baselineadaptors: spec.
 	self baselinecomet: spec.
@@ -19,3 +21,4 @@ baseline: spec
 	self baselineob: spec.
 	self baselinegettext: spec.
 	self baselinewelcome: spec.
+	self baselinesecurity: spec

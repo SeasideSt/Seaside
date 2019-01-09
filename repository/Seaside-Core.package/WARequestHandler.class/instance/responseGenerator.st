@@ -1,3 +1,3 @@
 configuration
 responseGenerator
-	^ self preferenceAt: #responseGenerator
+	^ (self preferenceAt: #responseGenerator) value

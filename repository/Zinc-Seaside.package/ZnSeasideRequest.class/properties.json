@@ -1,0 +1,15 @@
+{
+	"category" : "Zinc-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"nativeRequest",
+		"stream" ],
+	"name" : "ZnSeasideRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

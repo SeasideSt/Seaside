@@ -8,4 +8,4 @@ useCompileUseNewCompiler: aBoolean during: aBlock
 	aBlock value ]
 		ensure: [
 			GRPharoPlatform current useByteArrayLiterals ifTrue: [
-				Preferences setPreference: #compileUseNewCompiler toValue: oldValue ] ]
+				(Smalltalk at: #Preferences) setPreference: #compileUseNewCompiler toValue: oldValue ] ]

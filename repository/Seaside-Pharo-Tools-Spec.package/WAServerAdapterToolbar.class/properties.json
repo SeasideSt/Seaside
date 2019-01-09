@@ -1,19 +1,18 @@
 {
+	"commentStamp" : "pmm 9/12/2018 14:42",
+	"super" : "ComposableModel",
 	"category" : "Seaside-Pharo-Tools-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"startButton",
 		"stopButton",
 		"browseButton",
 		"startAction",
 		"stopAction",
-		"browseAction" ],
+		"browseAction"
+	],
 	"name" : "WAServerAdapterToolbar",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

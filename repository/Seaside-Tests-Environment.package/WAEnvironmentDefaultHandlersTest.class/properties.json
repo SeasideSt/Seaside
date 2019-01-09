@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Environment",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAEnvironmentDefaultHandlersTest",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:50",
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Environment",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAEnvironmentDefaultHandlersTest",
+	"type" : "normal"
+}

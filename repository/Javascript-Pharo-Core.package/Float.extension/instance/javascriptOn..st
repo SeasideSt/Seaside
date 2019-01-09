@@ -1,4 +1,4 @@
-*javascript-pharo-core
+*Javascript-Pharo-Core
 javascriptOn: aStream
 	self isNaN ifTrue: [
 		^ aStream nextPutAll: 'NaN' ].

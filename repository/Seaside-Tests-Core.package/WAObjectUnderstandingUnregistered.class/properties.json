@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hasReceivedUnregistered"
+	],
+	"name" : "WAObjectUnderstandingUnregistered",
+	"type" : "normal"
+}

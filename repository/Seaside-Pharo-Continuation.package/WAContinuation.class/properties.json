@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Pharo-Continuation",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 2/1/2014 13:40",
+	"super" : "WAAbstractContinuation",
+	"category" : "Seaside-Pharo-Continuation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"values" ],
+		"values"
+	],
 	"name" : "WAContinuation",
-	"pools" : [
-		 ],
-	"super" : "GRObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

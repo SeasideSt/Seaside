@@ -1,4 +1,4 @@
 private - testing
 hasSelectedAdaptor
 
-	^adaptor notNil
+	^ adaptor notNil

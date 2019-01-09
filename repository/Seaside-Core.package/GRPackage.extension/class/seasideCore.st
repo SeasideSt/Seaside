@@ -1,4 +1,4 @@
-*seaside-core
+*Seaside-Core
 seasideCore
 	^ self new
 		name: 'Seaside-Core';

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "pmm 7/20/2015 15:42",
+	"super" : "WAJsonCanvas",
+	"category" : "Seaside-Swagger-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASwagger2SpecificationCanvas",
+	"type" : "normal"
+}

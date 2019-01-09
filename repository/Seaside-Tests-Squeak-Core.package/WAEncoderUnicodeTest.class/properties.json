@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAEncoderTest",
+	"category" : "Seaside-Tests-Squeak-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAEncoderUnicodeTest",
+	"type" : "normal"
+}

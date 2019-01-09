@@ -1,4 +1,4 @@
-*jquery-ui
+*JQuery-UI
 jQueryUI
 	^ self new
 		name: 'JQuery-UI';

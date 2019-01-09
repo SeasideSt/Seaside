@@ -1,0 +1,14 @@
+{
+	"category" : "Zinc-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ZnZincStreamingServerAdaptor",
+	"pools" : [
+		 ],
+	"super" : "ZnZincServerAdaptor",
+	"type" : "normal" }

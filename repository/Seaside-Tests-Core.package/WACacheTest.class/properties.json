@@ -1,15 +1,13 @@
 {
-	"category" : "Seaside-Tests-Core-Cache",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Seaside-Tests-Core-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"cache",
-		"key" ],
+		"cache"
+	],
 	"name" : "WACacheTest",
-	"pools" : [
-		 ],
-	"super" : "WAContextTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

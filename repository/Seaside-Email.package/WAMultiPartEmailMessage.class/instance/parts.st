@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 parts
 	^ parts ifNil: [ parts := Set new ]

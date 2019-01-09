@@ -1,4 +1,4 @@
-*jquery-ui-widgets
+*JQuery-UI
 dialog
 	"Make the selected elements Dialog boxes."
 	

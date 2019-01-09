@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Swagger-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAAmbigousRouteHandler",
+	"pools" : [
+		 ],
+	"super" : "WASwagger2RestfulHandler",
+	"type" : "normal" }

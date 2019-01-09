@@ -1,15 +1,14 @@
 {
-	"category" : "Scriptaculous-Tests-Core-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "SUFunctionalTest",
+	"category" : "Scriptaculous-Tests-Core-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"left",
-		"right" ],
+		"right"
+	],
 	"name" : "SUSortableDoubleTest",
-	"pools" : [
-		 ],
-	"super" : "SUFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

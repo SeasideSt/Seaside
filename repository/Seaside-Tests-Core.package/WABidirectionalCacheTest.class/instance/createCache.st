@@ -1,0 +1,3 @@
+running
+createCache
+	^ WABidirectionalCache new

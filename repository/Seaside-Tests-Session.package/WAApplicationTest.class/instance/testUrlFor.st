@@ -1,19 +1,19 @@
 tests
 testUrlFor
-	| context request response documentHandler url |
+	| context request response session url |
+	handler class == WARegistry "only WARegistry supports tracking generic request handlers"
+		ifFalse: [ ^ self ].
 	request := self requestWithMethod: 'GET'.
 	request setCookies: (Array with: (WARequestCookie key: '_s' value: 'sessionid')).
 	response := WABufferedResponse new.
-	documentHandler := (WADocumentHandler
-		document: 'body: {color: red}'
-		mimeType: WAMimeType textCss
-		fileName: nil).
+	session := WASession new.
 	
 	context := WARequestContext request: request response: response.
 	url := WACurrentRequestContext
 		use: context
-		during: [ handler register: documentHandler;
-			urlFor: documentHandler ].
+		during: [
+			handler register: session.
+			session url ].
 	self assert: (url queryFields includesKey: '_s').
 	request url addField: '_s' value: (url queryFields at: '_s').
 		

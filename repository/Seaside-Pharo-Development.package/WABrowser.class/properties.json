@@ -1,16 +1,15 @@
 {
+	"commentStamp" : "pmm 9/12/2018 14:40",
+	"super" : "WATool",
 	"category" : "Seaside-Pharo-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"contents",
 		"model",
-		"message" ],
+		"message"
+	],
 	"name" : "WABrowser",
-	"pools" : [
-		 ],
-	"super" : "WATool",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
-configuration
+accessing
 keySize
 	^ 16

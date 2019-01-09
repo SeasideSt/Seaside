@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Session",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 7/24/2011 13:57",
+	"super" : "WASessionTrackingStrategy",
+	"category" : "Seaside-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"cookieStrategy",
-		"ipStrategy" ],
+		"ipStrategy"
+	],
 	"name" : "WACookieForBrowserIPForCrawlerTrackingStrategy",
-	"pools" : [
-		 ],
-	"super" : "WASessionTrackingStrategy",
-	"type" : "normal" }
+	"type" : "normal"
+}

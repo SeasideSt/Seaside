@@ -1,4 +1,6 @@
 ancestry
 parents
 	"Skip WARegistryConfiguration because we override #trackingStrategy. It doesn't work otherwise."
-	^ Array with: WARequestHandlingConfiguration instance
+	^ Array
+		with: WARequestHandlingConfiguration instance
+		with: WACacheConfiguration instance

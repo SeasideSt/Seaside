@@ -1,4 +1,4 @@
 actions
 stopAdaptor
-	adaptor ifNotNil:[ adaptor stop ].
+	adaptor ifNotNil: [ adaptor stop ].
 	self updateUIState

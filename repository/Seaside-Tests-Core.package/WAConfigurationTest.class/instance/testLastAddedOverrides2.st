@@ -2,7 +2,7 @@ tests
 testLastAddedOverrides2
 	"If a non-default value is inherited from more than one parent, the one from the last parent in the list should take precedence.
 	
-	These are the two graphs we are talking abou0 (X means no value specified):
+	These are the two graphs we are talking about (X means no value specified):
     top                mirror
     / \                  |   |
     |  2                 2   |

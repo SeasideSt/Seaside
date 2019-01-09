@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-Flow",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaleHenrichs 07/23/2010 10:29",
+	"instvars" : [
+		 ],
+	"name" : "WAGsInvalidCallbackContext",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

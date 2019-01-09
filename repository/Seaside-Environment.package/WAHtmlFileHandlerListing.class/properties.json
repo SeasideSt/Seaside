@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Environment",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAHtmlFileHandlerListing",
-	"pools" : [
-		 ],
+	"commentStamp" : "pmm 9/12/2018 14:39",
 	"super" : "WAFileHandlerListing",
-	"type" : "normal" }
+	"category" : "Seaside-Environment",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAHtmlFileHandlerListing",
+	"type" : "normal"
+}

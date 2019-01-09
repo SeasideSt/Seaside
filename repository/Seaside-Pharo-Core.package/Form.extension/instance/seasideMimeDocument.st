@@ -1,3 +1,3 @@
-*seaside-pharo-core
+*Seaside-Pharo-Core
 seasideMimeDocument
 	^ self seasideMimeDocumentType: self defaultMimeType

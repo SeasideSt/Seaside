@@ -1,5 +1,5 @@
 actions
 browseAdaptor
 
-	self owner adaptor ifNotNilDo: [ :adaptor |
+	self owner adaptor ifNotNil: [ :adaptor |
 		adaptor inspect ]

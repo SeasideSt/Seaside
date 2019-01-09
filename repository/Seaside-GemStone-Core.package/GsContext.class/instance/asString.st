@@ -1,0 +1,4 @@
+formatting
+asString
+
+	^self fullPrintString

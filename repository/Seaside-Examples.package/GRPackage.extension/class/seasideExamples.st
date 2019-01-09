@@ -1,4 +1,4 @@
-*seaside-examples
+*Seaside-Examples
 seasideExamples
 	^ self new
 		name: 'Seaside-Examples';
@@ -6,5 +6,7 @@ seasideExamples
 		addDependency: 'Seaside-Component';
 		addDependency: 'Seaside-Canvas';
 		addDependency: 'Seaside-Tools-Core'; "for WAAdmin"
+		addDependency: 'Seaside-Development'; "for WADebugErrorHandler"
+		addDependency: 'JQuery-Core';
 		url: #seasideUrl;
 		yourself

@@ -1,3 +1,3 @@
 testing
 expectedLibrariesContents
-	^ (handler libraries detect: [ :each | true ]) name
+	^ handler libraries first name

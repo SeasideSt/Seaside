@@ -9,15 +9,13 @@ ambigousExamples
 		
 		 "port"
 		 ( 'http://www.seaside.st:/' 'http://www.seaside.st/' )
-		 ( 'http://www.seaside.st:8x/' 'http://www.seaside.st/' )
-		 ( 'http://www.seaside.st:x8/' 'http://www.seaside.st/' )
 		
 		 "host"
 		 ( 'http://' '/' )
-		 ( 'http://@' 'http://%40/' )
+		 ( 'http://@' '/' )
 		
 		 "username, password"
-		 ( 'http://@www.seaside.st/' 'http://%40www.seaside.st/' )
+		 ( 'http://@www.seaside.st/' 'http://@www.seaside.st/' )
 		 ( 'http://:lukas@www.seaside.st/' 'http://:lukas@www.seaside.st/' )
 		 ( 'http://lukas:@www.seaside.st/' 'http://lukas:@www.seaside.st/' )
 		

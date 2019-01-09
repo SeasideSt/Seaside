@@ -1,0 +1,3 @@
+public
+incrementCount
+	count increment

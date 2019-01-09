@@ -1,20 +1,50 @@
-language: erlang
+language: smalltalk
+sudo: false
 
-env:
-   - ST=Pharo-2.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=Pharo-3.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-#   - ST=Pharo-4.0 BASELINE=Seaside3 LOADS="'CI'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=Squeak-4.4 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
-   - ST=Squeak-4.5 BASELINE=Seaside3 LOADS="'Tests'" REPOSITORY="filetree://${TRAVIS_BUILD_DIR}/repository"
+aliases:
+  - &pharo4-has-latest-metacello
+    smalltalk_config: .pharo4.ston
 
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
-   - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
-
-script: $PROJECT_HOME/tests/testTravisCI.sh -verbose
+matrix:
+  allow_failures:
+    - smalltalk: Squeak-trunk
+    - smalltalk: Squeak-5.1
+  
+  include:
+    - smalltalk: Pharo64-7.0
+      env: BUILD_NAME=Pharo64-7.0
+    - smalltalk: Pharo-6.1
+      env: BUILD_NAME=Pharo-6.1
+    - smalltalk: Pharo-5.0
+      env: BUILD_NAME=Pharo-5.0
+    - smalltalk: Pharo-4.0
+      env: BUILD_NAME=Pharo-4.0
+      <<: *pharo4-has-latest-metacello
+  
+    - smalltalk: Squeak-trunk
+      env: BUILD_NAME=Squeak-trunk
+    - smalltalk: Squeak-5.2
+      env: BUILD_NAME=Squeak-5.2
+    - smalltalk: Squeak-5.1
+      env: BUILD_NAME=Squeak-5.1
+    
+    - smalltalk: GemStone-3.4.2
+      env: BUILD_NAME=GemStone-3.4.2
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.3.6
+      env: BUILD_NAME=GemStone-3.3.6
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.2.17
+      env: BUILD_NAME=GemStone-3.2.17
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.1.0.6
+      env: BUILD_NAME=GemStone-3.1.0.6
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE

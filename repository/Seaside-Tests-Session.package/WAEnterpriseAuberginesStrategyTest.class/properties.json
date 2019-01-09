@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WACookieSessionTrackingStrategyTest",
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAEnterpriseAuberginesStrategyTest",
+	"type" : "normal"
+}

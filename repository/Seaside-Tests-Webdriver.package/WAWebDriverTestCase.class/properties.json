@@ -10,5 +10,5 @@
 	"name" : "WAWebDriverTestCase",
 	"pools" : [
 		 ],
-	"super" : "BPWebDriverTestCase",
+	"super" : "BPSeasideWebDriverTestCase",
 	"type" : "normal" }

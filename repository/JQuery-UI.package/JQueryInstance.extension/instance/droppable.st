@@ -1,4 +1,4 @@
-*jquery-ui-interactions
+*JQuery-UI
 droppable
 	"Creates new droppables on the nodeset supplied by the query."
 	

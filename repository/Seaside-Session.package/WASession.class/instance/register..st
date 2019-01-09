@@ -1,7 +1,7 @@
 parent/child
-register: aRequestHandler
-	| key |
-	key := self cache store: (aRequestHandler setParent: self; yourself).
+register: aDocumentHandler
+	| handlerKey |
+	handlerKey := self documentHandlers store: (aDocumentHandler setParent: self; yourself).
 	^ self basicUrl
-		addField: self documentHandlerFieldName value: key;
+		addField: self documentHandlerFieldName value: handlerKey;
 		yourself
