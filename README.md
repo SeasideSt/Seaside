@@ -121,6 +121,8 @@ If you would like to contribute, please visit the [Seaside's contributors page](
 Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more information.
 
 ## Status of automated builds
+See the travis dashboard: https://travis-ci.org/SeasideSt/Seaside/branches
+
 ### master
 Pharo | Squeak | GemStone/S
 ------------ | ------------- | ------------
