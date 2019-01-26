@@ -1,8 +1,8 @@
 # The framework for developing sophisticated web applications in Smalltalk.
 
-Seaside provides a layered set of abstractions over HTTP and HTTP that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
+Seaside provides a layered set of abstractions over HTTP and HTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by  different vendors. Seaside includes:
 
-  * [Programmatic HTML generation](https://github.com/SeasideSt/Seaside/wiki/Generating-HTML).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page.  Seaside has a rich API for generating XHTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
+  * [Programmatic HTML generation](https://github.com/SeasideSt/Seaside/wiki/Generating-HTML).  A lot of markup is boilerplate: the same patterns of lists, links, forms and tables show up on page after page. Seaside has a rich API for generating HTML that lets you abstract these patterns into convenient methods rather than pasting the same sequence of tags into templates every time.
 
   * [Callback-based request handling](https://github.com/SeasideSt/Seaside/wiki/Links%2C-Forms-and-Callbacks).  Why should you have to come up with a unique name for every link and form input on your page, only to extract them from the URL and request fields later?  Seaside automates this process by letting you associate blocks, not names, with inputs and links, so you can think about objects and methods instead of ids and strings.
 
@@ -112,6 +112,8 @@ Metacello new
 ```
 
 ## Community
+Check out the Add-on libraries and projects related to Seaside: https://github.com/SeasideSt/Seaside/wiki/Add-On-Libraries
+
 We have a low traffic mailing list for questions ([sign up here](http://lists.squeakfoundation.org/cgi-bin/mailman/listinfo/seaside)) and a (Smalltalk dialect independant) channel on the [Pharo](https://pharo.org) Discord ([sign up here](http://discord.gg/Sj2rhxn)).
 
 ## Contributing
@@ -121,20 +123,20 @@ If you would like to contribute, please visit the [Seaside's contributors page](
 Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more information.
 
 ## Status of automated builds
+See the travis dashboard: https://travis-ci.org/SeasideSt/Seaside/branches
+
 ### master
 Pharo | Squeak | GemStone/S
 ------------ | ------------- | ------------
-[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo64-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Squeak-5.2&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.4.2&label=3.4.2)](http://travis-ci.org/SeasideSt/Seaside)
-[![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Squeak-5.1&label=5.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.3.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.3.6&label=3.3.6)](http://travis-ci.org/SeasideSt/Seaside)
+[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo64-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Squeak-5.2&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.3](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.4.3&label=3.4.3)](http://travis-ci.org/SeasideSt/Seaside)
+[![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Squeak-5.1&label=5.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.3.9](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.3.9&label=3.3.9)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-5.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-5.0&label=5.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.2.17](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.2.17&label=3.2.17)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-4.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-4.0&label=4.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.1.0.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.1.0.6&label=3.1.0.6)](http://travis-ci.org/SeasideSt/Seaside)
-\- | - | [![Build status: GemStone-2.4.8](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-2.4.8&label=2.4.8)](http://travis-ci.org/SeasideSt/Seaside)
 
 ### development
 Pharo | Squeak | GemStone/S
 ------------ | ------------- | ------------
-[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo64-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.2&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.4.2&label=3.4.2)](http://travis-ci.org/SeasideSt/Seaside)
-[![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.1&label=5.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.3.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.3.6&label=3.3.6)](http://travis-ci.org/SeasideSt/Seaside)
+[![Build status: Pharo-7.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo64-7.0&label=7.0)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.2](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.2&label=5.2)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.4.3](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.4.3&label=3.4.3)](http://travis-ci.org/SeasideSt/Seaside)
+[![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: Squeak-5.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Squeak-5.1&label=5.1)](http://travis-ci.org/SeasideSt/Seaside) | [![Build status: GemStone-3.3.9](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.3.9&label=3.3.9)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-5.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-5.0&label=5.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.2.17](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.2.17&label=3.2.17)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-4.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=Pharo-4.0&label=4.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.1.0.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-3.1.0.6&label=3.1.0.6)](http://travis-ci.org/SeasideSt/Seaside)
-\- | - | [![Build status: GemStone-2.4.8](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=develop&env=BUILD_NAME=GemStone-2.4.8&label=2.4.8)](http://travis-ci.org/SeasideSt/Seaside)

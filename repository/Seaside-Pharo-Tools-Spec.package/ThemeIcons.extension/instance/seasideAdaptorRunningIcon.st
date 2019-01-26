@@ -2,4 +2,4 @@
 seasideAdaptorRunningIcon 
 	^ icons
 			at: #'seasideAdaptorRunningIcon'
-			ifAbsentPut:[ Form fromBinaryStream: (self seasideAdaptorRunningIconContents base64Decoded readStream) ]
+			ifAbsentPut:[ Form fromBinaryStream: (GRPlatform current base64Decode: self seasideAdaptorRunningIconContents) asByteArray readStream ]

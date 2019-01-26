@@ -61,12 +61,12 @@ baselineadaptors: spec
 				baseline: 'GsApplicationTools'
 					with: [ spec
 						loads: 'Core';
-						repository: 'github://GsDevKit/gsApplicationTools:v1.?/repository' ];
+						repository: 'github://GsDevKit/gsApplicationTools:master/repository' ];
 				baseline: 'Zinc Project'
 					with: [ spec
 						className: 'BaselineOfZincHTTPComponents';
 						loads: #('Core');
-						repository: 'github://GsDevKit/zinc:v2.4.3.?/repository' ].
+						repository: 'github://GsDevKit/zinc:gs_master/repository' ].
 			spec
 				package: 'Seaside-GemStone-GemServer-Core' with: [ spec requires: #('GsApplicationTools' 'Seaside-Core') ];
 				package: 'Seaside-GemStone-GemServer-Tests' with: [ spec requires: #('Seaside-GemStone-GemServer-Core' 'Seaside-GemStone-Development' 'Seaside-GemStone-Adaptors-Swazoo' 'Seaside-GemStone-Adaptors-Zinc' 'Seaside-Adaptors-FastCGI') ];
