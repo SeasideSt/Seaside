@@ -27,8 +27,8 @@ matrix:
     - smalltalk: Squeak-5.1
       os: linux
     
-    - smalltalk: GemStone-3.4.0
-      env: BUILD_NAME=GemStone-3.4.0
+    - smalltalk: GemStone-3.4.3
+      env: BUILD_NAME=GemStone-3.4.3
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
