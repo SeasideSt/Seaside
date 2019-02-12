@@ -33,6 +33,11 @@ baselinejavascript: spec
 			package: 'Javascript-Core' with: [ spec includes: #('Javascript-Pharo-Core' ) ];
 			package: 'Javascript-Tests-Core' with: [ spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
+	spec for: #pharo7 do: [		
+		spec 
+			package: 'Javascript-Pharo-Core' with: [ spec includes: #('Javascript-Pharo70-Extensions') ];
+			package: 'Javascript-Tests-Pharo-Core' with: [ spec includes: #('Javascript-Tests-Pharo70-Extensions') ] ].
+		
   spec
     for: #'gemstone'
     do: [ 
