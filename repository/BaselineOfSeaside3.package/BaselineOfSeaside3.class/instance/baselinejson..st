@@ -27,10 +27,12 @@ baselinejson: spec
 			package: 'Seaside-Tests-Pharo-JSON-Core' with: [
 				spec requires: #('Seaside-Tests-JSON') ] ].
 		
-	spec for: #pharo7 do: [		
-		spec 
-			package: 'Javascript-Pharo-JSON-Core' with: [ spec includes: #('Javascript-Pharo70-JSON-Extensions') ];
-			package: 'Seaside-Tests-Pharo-JSON-Core' with: [ spec includes:  #('Javascript-Tests-Pharo70-JSON-Extensions') ] ].
+	spec for: #'pharo7.x' do: [		
+		spec
+			package: 'Seaside-Pharo70-JSON-Extensions' with: [ spec requires: #('Seaside-JSON-Core') ];
+			package: 'Seaside-Pharo-JSON-Core' with: [ spec includes: #('Seaside-Pharo70-JSON-Extensions') ];
+			package: 'Seaside-Tests-Pharo70-JSON-Extensions'with: [ spec requires: #('Seaside-Tests-JSON') ];
+			package: 'Seaside-Tests-Pharo-JSON-Core' with: [ spec includes:  #('Seaside-Tests-Pharo70-JSON-Extensions') ] ].
 		
   spec
     for: #'gemstone'
