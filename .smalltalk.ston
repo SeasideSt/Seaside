@@ -30,6 +30,6 @@ SmalltalkCISpec {
         #packages : [ 'Cryptography.*' ]
       },
 			#include : {
-				#classes : [ #SentButNotImplementedTest, #UndefinedSymbolsTest ]
+				#classes : [ #SentButNotImplementedTest , #UndefinedSymbolsTest ]
 			}
 }
