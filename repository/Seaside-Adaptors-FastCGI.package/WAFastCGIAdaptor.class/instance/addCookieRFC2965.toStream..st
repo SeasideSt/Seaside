@@ -1,8 +1,5 @@
 private
 addCookieRFC2965: aWACookie toStream: aStream
+	"https://github.com/SeasideSt/Seaside/issues/1115"
 
-	aStream
-		nextPutAll: 'Set-Cookie: ';
-		nextPutAll: aWACookie rfc2965String;
-		nextPut: Character cr;
-		nextPut: Character lf.
+  self addCookieRFC6265: aWACookie toStream: aStream

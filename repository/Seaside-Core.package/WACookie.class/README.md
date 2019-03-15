@@ -12,7 +12,7 @@ Cookie spec
 http://tools.ietf.org/html/rfc2109
 
 Cookie 2 spec
-http://tools.ietf.org/html/rfc2965
+https://tools.ietf.org/html/rfc6265
 
 HttpOnly
 http://msdn2.microsoft.com/en-us/library/ms533046.aspx
