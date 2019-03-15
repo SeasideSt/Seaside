@@ -32,4 +32,5 @@ SmalltalkCISpec {
 			#include : {
 				#classes : [ #SentButNotImplementedTest , #UndefinedSymbolsTest ]
 			}
+	}
 }
