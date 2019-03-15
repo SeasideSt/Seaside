@@ -28,6 +28,8 @@ SmalltalkCISpec {
   #testing : {
       #exclude : {
         #packages : [ 'Cryptography.*' ]
-      }
-  }
+      },
+			#include : {
+				#classes : [ #SentButNotImplementedTest, #UndefinedSymbolsTest ]
+			}
 }
