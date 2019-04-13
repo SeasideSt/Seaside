@@ -112,6 +112,8 @@ Metacello new
 ```
 
 ## Community
+Check out the Add-on libraries and projects related to Seaside: https://github.com/SeasideSt/Seaside/wiki/Add-On-Libraries
+
 We have a low traffic mailing list for questions ([sign up here](http://lists.squeakfoundation.org/cgi-bin/mailman/listinfo/seaside)) and a (Smalltalk dialect independant) channel on the [Pharo](https://pharo.org) Discord ([sign up here](http://discord.gg/Sj2rhxn)).
 
 ## Contributing
@@ -121,6 +123,8 @@ If you would like to contribute, please visit the [Seaside's contributors page](
 Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more information.
 
 ## Status of automated builds
+See the travis dashboard: https://travis-ci.org/SeasideSt/Seaside/branches
+
 ### master
 Pharo | Squeak | GemStone/S
 ------------ | ------------- | ------------
