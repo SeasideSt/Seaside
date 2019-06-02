@@ -4,6 +4,6 @@ testInitialCount
 	self workAroundPharo3Bug.
 	
 	counter := GRPlatform current newReducedConflictCounter.
-	self assert: counter value = 0.
+	self assert: counter value equals: 0.
 	counter increment.
-	self assert: counter value = 1
+	self assert: counter value equals: 1

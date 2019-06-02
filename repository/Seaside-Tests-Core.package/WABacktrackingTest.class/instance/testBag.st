@@ -12,26 +12,26 @@ testBag
 	snapshot3 := original snapshotCopy.
 
 	original restoreFromSnapshot: snapshot1.
-	self assert: original size = 2.
+	self assert: original size equals: 2.
 	self assert: (original includes: 1).
 	self assert: (original includes: 2).
 	self deny: (original includes: 3).
 
 	original restoreFromSnapshot: snapshot2.
-	self assert: original size = 3.
+	self assert: original size equals: 3.
 	self assert: (original includes: 1).
 	self assert: (original includes: 2).
 	self assert: (original includes: 3).
 
 	original restoreFromSnapshot: snapshot3.
-	self assert: original size = 2.
+	self assert: original size equals: 2.
 	self deny: (original includes: 1).
 	self assert: (original includes: 2).
 	self assert: (original includes: 3).
 
 	original add: 4.
 	original restoreFromSnapshot: snapshot3.
-	self assert: original size = 2.
+	self assert: original size equals: 2.
 	self deny: (original includes: 1).
 	self assert: (original includes: 2).
 	self assert: (original includes: 3).
