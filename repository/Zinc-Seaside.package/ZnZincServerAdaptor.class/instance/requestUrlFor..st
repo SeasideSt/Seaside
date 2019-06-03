@@ -9,7 +9,9 @@ requestUrlFor: aZincRequest
 		fragment: zincUrl fragment.
 	zincUrl hasPath ifTrue: [ 
 		zincUrl pathSegments do: [ :each |
-			each = #/ ifFalse: [ seasideUrl addToPath: each ] ].
+			| pathSegmentAsString |
+			pathSegmentAsString := each greaseString.
+			pathSegmentAsString = '/' ifFalse: [ seasideUrl addToPath: pathSegmentAsString ] ].
 		seasideUrl slash: zincUrl isDirectoryPath ].
 	zincUrl queryDo: [ :key :value |
 		seasideUrl addField: key value: value ].
