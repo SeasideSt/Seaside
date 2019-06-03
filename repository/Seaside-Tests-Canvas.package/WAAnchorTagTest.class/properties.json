@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAAbstractCanvasBrushTest",
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAAnchorTagTest",
+	"type" : "normal"
+}
