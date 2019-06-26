@@ -11,7 +11,7 @@ requestUrlFor: aZincRequest
 		zincUrl isDirectoryPath
 			ifTrue: [ "last path segment is $/ or #/"
 					zincUrl pathSegments
-						allButLastDo: [ :each | seasideUrl addToPath: each ].
+						allButLast do: [ :each | seasideUrl addToPath: each ].
 					seasideUrl slash: true ]
 			ifFalse: [ seasideUrl addAllToPath: zincUrl pathSegments ] ].
 	zincUrl
