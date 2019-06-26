@@ -1,14 +1,13 @@
 {
-	"category" : "Zinc-Seaside",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"onWrite" ],
-	"name" : "ZnDeferredResponse",
-	"pools" : [
-		 ],
 	"super" : "ZnResponse",
-	"type" : "normal" }
+	"category" : "Zinc-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"onWrite"
+	],
+	"name" : "ZnDeferredResponse",
+	"type" : "normal"
+}
