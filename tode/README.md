@@ -2,7 +2,7 @@
 
 For more information about installing Seaside in GemStone see the [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home) document: [Getting Started with Seaside](https://github.com/GsDevKit/GsDevKit_home/blob/master/docs/gettingStartedWithSeaside.md).
 
-###/home/seaside/gemServer
+### /home/seaside/gemServer
 
 The `/home/seaside/gemServer` script allows you to **create**, **start**, **stop**, **restart** and **unregister** named gemServers that use the [gsApplicationTools framework](https://github.com/GsDevKit/gsApplicationTools/blob/master/docs/gettingStarted.md#getting-started-with-gem-servers) for controlling Seaside web server gems and the associated Maintenance VMs.
 
