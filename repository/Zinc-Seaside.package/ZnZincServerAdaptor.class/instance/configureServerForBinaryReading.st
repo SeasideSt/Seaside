@@ -2,4 +2,8 @@ initialize-release
 configureServerForBinaryReading
 	"Seaside wants to do its own text conversions"
 
-	server reader: [ :stream | ZnRequest readBinaryFrom: stream ]
+	server reader: (server streamUploads
+		ifTrue: [
+			[ :stream | ZnRequest readBinaryFrom: stream ] ]
+		ifFalse: [ 
+			[ :stream | ZnRequest readStreamingFrom: stream ] ])
