@@ -5,9 +5,11 @@ convertMultipartEntity: anEntity with: aMultiValueDictionary
 		value := part hasEntity
 			ifFalse: [ String new ]
 			ifTrue: [
-				part contentType isBinary
-					ifFalse: [ self codec url decode: part fieldValueString ]
-					ifTrue: [ self convertMultipartFileField: part ] ].
+				(part fileName isEmptyOrNil not or: [
+					part contentType notNil and: [
+						part contentType isBinary ] ])
+							ifFalse: [ self codec url decode: part fieldValueString ]
+							ifTrue: [ self convertMultipartFileField: part ] ].
 		aMultiValueDictionary
 			at: part fieldName
 			add: value ]

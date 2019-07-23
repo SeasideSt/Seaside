@@ -1,9 +1,22 @@
 private
 convertMultipartStreamingEntity: anEntity with: aMultiValueDictionary
-	ZnStreamingMultiPartFormDataEntity new
+	| entity |
+	entity := ZnStreamingMultiPartFormDataEntity new
 		readBinaryFrom: anEntity stream;
 		contentType: anEntity contentType;
-		partsAndValuesWithCodec: self codec url do: [ :mimePart :value |
+		yourself.
+	entity
+		partsDecodeWith: [ :znMimePart |
 			aMultiValueDictionary
-				at: mimePart fieldName
-				add: value ]
+				at: znMimePart fieldName
+				add: (self codec url decode: (znMimePart hasEntity
+					ifTrue: [ znMimePart fieldValueString ]
+					ifFalse: [ String new ])) ]
+		decodeFilesWith: [ :znMimePart :filePath |
+			aMultiValueDictionary
+				at: znMimePart fieldName
+				add: (WAExternalFile new
+					contentType: znMimePart contentType printString;
+					fileName: znMimePart fileName;
+					filePath: filePath;
+					yourself) ]
