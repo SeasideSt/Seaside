@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "mml 07/23/2019 09:57",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contentType",
+		"fileName",
+		"filePath"
+	],
+	"name" : "WAExternalFile",
+	"type" : "normal"
+}
