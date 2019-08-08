@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JohanBrichau 8/4/2019 07:29",
+	"super" : "WAAbstractProtectionFilter",
+	"category" : "Seaside-Core-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"browserSessionID"
+	],
+	"name" : "WASessionCookieProtectionFilter",
+	"type" : "normal"
+}

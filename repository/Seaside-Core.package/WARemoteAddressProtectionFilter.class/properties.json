@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "lr 8/11/2009 10:56",
-	"super" : "WARequestFilter",
+	"commentStamp" : "JohanBrichau 8/4/2019 07:26",
+	"super" : "WAAbstractProtectionFilter",
 	"category" : "Seaside-Core-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"remoteAddress"
 	],
-	"name" : "WAProtectionFilter",
+	"name" : "WARemoteAddressProtectionFilter",
 	"type" : "normal"
 }
