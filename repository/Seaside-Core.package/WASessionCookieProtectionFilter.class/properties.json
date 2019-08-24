@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "JohanBrichau 8/4/2019 07:29",
+	"commentStamp" : "JohanBrichau 8/24/2019 13:30",
 	"super" : "WAAbstractProtectionFilter",
 	"category" : "Seaside-Core-Filter",
 	"classinstvars" : [ ],

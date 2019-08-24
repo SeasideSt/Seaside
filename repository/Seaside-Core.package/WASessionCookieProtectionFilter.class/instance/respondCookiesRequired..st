@@ -7,7 +7,7 @@ respondCookiesRequired: aRequestContext
 			root
 				beHtml5;
 				title: 'Cookies Required' ];
-		render: [ :html | "html render: NPCookiesDisabledComponent new" ].
+		render: [ :html | self renderCookiesRequiredStatementOn: html ].
 	aRequestContext
 		respond: [ :response | 
 			response
