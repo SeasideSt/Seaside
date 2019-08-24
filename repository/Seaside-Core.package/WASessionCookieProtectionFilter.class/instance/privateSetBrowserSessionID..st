@@ -9,9 +9,8 @@ privateSetBrowserSessionID: aRequestContext
 				aRequestContext response
 					addCookie:
 						(aRequestContext newCookie
-							path: '/';
+							sameSite: 'Strict';
 							key: self class browserSessionIDCookieKey;
-							secure: false;
 							value: self browserSessionID);
 					redirectTo: (aRequestContext request url copy
 										addField: self application trackingStrategy keyField value: self session key;
