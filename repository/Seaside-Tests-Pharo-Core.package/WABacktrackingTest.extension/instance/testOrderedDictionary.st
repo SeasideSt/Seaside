@@ -1,5 +1,5 @@
-tests
-testDictionary
+*Seaside-Tests-Pharo-Core
+testOrderedDictionary
 	| original snapshot1 snapshot2 snapshot3 snapshot4 |
 
 	original := Dictionary new.
@@ -16,7 +16,7 @@ testDictionary
 	snapshot4 := original snapshotCopy.
 
 	original restoreFromSnapshot: snapshot1.
-	self assert: original size equals: 2.
+	self assert: original size = 2.
 	self assert: (original at: 1 ifAbsent: [ ]) equals: #a.
 	self assert: (original at: 2 ifAbsent: [ ]) equals: #b.
 	self assert: (original at: 3 ifAbsent: [ ]) isNil.

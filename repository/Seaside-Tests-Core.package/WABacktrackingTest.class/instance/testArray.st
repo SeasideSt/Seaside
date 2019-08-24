@@ -12,10 +12,10 @@ testArray
 	snapshot3 := original snapshotCopy.
 
 	original restoreFromSnapshot: snapshot1.
-	self assert: original = #( 1 2 3 ).
+	self assert: original equals: #( 1 2 3 ).
 
 	original restoreFromSnapshot: snapshot2.
-	self assert: original = #( a 2 3 ).
+	self assert: original equals: #( a 2 3 ).
 
 	original restoreFromSnapshot: snapshot3.
-	self assert: original = #( a b 3 )
+	self assert: original equals: #( a b 3 )
