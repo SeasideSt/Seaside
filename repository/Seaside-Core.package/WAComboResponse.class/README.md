@@ -4,12 +4,11 @@ renderContentOn: aCanvas
 	"Render the search page"
 
 	self renderSearchLabelOn: aCanvas.
-	aCanvas flush. "flush before starting search to give immediate feedback"
+	self requestContext request flush. "flush before starting search to give immediate feedback"
 
-	self searchResultsDo:[:aResult|
-		self renderSearchResultOn: aCanvas.
-		aCanvas flush. "flush after each search result"
-	].
+	self searchResultsDo: [ :result |
+		self renderSearchResult: result on: aCanvas.
+		self requestContext request flush "flush after each search result" ]
 
 After a response has been flushed once, header modifications are no longer possible and will raise a WAIllegalStateException.
 
