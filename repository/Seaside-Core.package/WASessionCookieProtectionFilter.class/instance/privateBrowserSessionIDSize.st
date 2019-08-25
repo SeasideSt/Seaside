@@ -1,4 +1,0 @@
-private
-privateBrowserSessionIDSize
-
-	^ 20
