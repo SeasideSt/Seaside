@@ -1,0 +1,4 @@
+constants
+browserSessionIDSize
+
+	^ 20
