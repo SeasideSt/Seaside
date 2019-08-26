@@ -1,4 +1,4 @@
 initialization
 initializeFilters
 	super initializeFilters.
-	self addFilter: WASessionCookieProtectionFilter new.
+	self addFilter: WASessionCookieProtectionFilter new

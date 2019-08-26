@@ -5,10 +5,7 @@ setBrowserSessionIDFor: aRequestContext
 	(aRequestContext request cookieAt: self browserSessionIDCookieKey)
 		ifNotNil: [ :cookie | browserSessionID := cookie value ]
 		ifNil: [
-				browserSessionID := (WAKeyGenerator current keyOfLength: self browserSessionIDSize).
+				browserSessionID := self newBrowserSessionID.
 				aRequestContext response
 					addCookie: (self createBrowserSessionIDCookieFor: aRequestContext);
-					redirectTo: (aRequestContext request url copy
-										addField: self application trackingStrategy keyField value: self session key;
-										addField: 'cookiecheck' value: nil; 
-										yourself) ]
+					redirectTo: (self cookieCheckUrlFor: aRequestContext) ]
