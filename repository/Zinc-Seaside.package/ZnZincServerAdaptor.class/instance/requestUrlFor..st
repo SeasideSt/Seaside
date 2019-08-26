@@ -2,7 +2,7 @@ converting
 requestUrlFor: aZincRequest
 	| zincUrl seasideUrl |
 	zincUrl := aZincRequest url.
-	(seasideUrl := WAUrl new)
+	seasideUrl := WAUrl new
 		scheme: zincUrl scheme greaseString;
 		host: zincUrl host;
 		port: zincUrl port;
@@ -11,9 +11,10 @@ requestUrlFor: aZincRequest
 		zincUrl isDirectoryPath
 			ifTrue: [ "last path segment is $/ or #/"
 					zincUrl pathSegments
-						allButLast do: [ :each | seasideUrl addToPath: each ].
+						"GemStone/S currently does not support #allButLastDo:"
+						allButLast do: [ :each | seasideUrl rawAddToPath: each ].
 					seasideUrl slash: true ]
-			ifFalse: [ seasideUrl addAllToPath: zincUrl pathSegments ] ].
+			ifFalse: [ seasideUrl rawAddAllToPath: zincUrl pathSegments ] ].
 	zincUrl
 		queryDo: [ :key :value | seasideUrl addField: key value: value ].
 	^ seasideUrl
