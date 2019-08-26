@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAControlPanelCommand",
+	"category" : "Seaside-Pharo-Tools-Spec2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAClearConfigurationCachesCommand",
+	"type" : "normal"
+}

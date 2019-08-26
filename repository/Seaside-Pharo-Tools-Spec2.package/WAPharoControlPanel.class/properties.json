@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"category" : "Seaside-Pharo-Tools-Spec2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"adaptors",
+		"actionBar",
+		"infos"
+	],
+	"name" : "WAPharoControlPanel",
+	"type" : "normal"
+}
