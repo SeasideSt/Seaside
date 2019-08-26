@@ -1,5 +1,6 @@
 instance creation
 external: anExternalStream
 	^ self
-		onBuffered: (GRPlatform current writeCharacterStreamOn: (String new: 4096))
-		external: anExternalStream
+		onStream: anExternalStream
+		bufferSize: 4096
+		codec: GRNullCodec new

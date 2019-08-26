@@ -4,4 +4,5 @@ destroy
 
 	super destroy.
 	bufferedStream := nil.
-	externalStream := nil
+	externalStream := nil.
+	codec := nil
