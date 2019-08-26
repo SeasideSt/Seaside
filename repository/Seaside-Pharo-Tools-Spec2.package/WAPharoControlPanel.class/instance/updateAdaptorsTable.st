@@ -1,4 +1,4 @@
-as yet unclassified
+update
 updateAdaptorsTable
 	adaptors
 		items: self currentAdaptors;

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "CyrilFerlicot 8/26/2019 12:08",
 	"super" : "WAControlPanelCommand",
 	"category" : "Seaside-Pharo-Tools-Spec2",
 	"classinstvars" : [ ],
