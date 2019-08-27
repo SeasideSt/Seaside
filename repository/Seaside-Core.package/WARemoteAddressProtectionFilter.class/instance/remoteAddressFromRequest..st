@@ -1,11 +1,6 @@
 private
 remoteAddressFromRequest: aRequest
-	remoteAddress ifNil: [
-		remoteAddress := aRequest
-			headerAt: 'x-forwarded-for'
-			ifAbsent: [
-				aRequest
-					headerAt: 'forwarded-for'
-					ifAbsent: [
-						aRequest remoteAddress ] ] ].
-	^ aRequest remoteAddress
+	| result |
+	result := aRequest forwarded ifNil:[ aRequest remoteAddress ].
+	remoteAddress ifNil:[ remoteAddress := result ].
+	^ result
