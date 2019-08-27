@@ -1,6 +1,6 @@
 private
 remoteAddressFromRequest: aRequest
 	| result |
-	result := aRequest forwarded ifNil:[ aRequest remoteAddress ].
+	result := aRequest forwardedFor ifNil:[ aRequest remoteAddress ].
 	remoteAddress ifNil:[ remoteAddress := result ].
 	^ result

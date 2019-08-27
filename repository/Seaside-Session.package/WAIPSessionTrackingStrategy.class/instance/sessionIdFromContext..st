@@ -1,3 +1,3 @@
 private
 sessionIdFromContext: aRequestContext
-	^ aRequestContext request forwarded ifNil:[ aRequestContext request remoteAddress ]
+	^ aRequestContext request forwardedFor ifNil:[ aRequestContext request remoteAddress ]
