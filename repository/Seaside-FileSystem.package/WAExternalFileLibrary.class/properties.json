@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-FileSystem",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAExternalFileLibrary",
-	"pools" : [
-		 ],
+	"commentStamp" : "JohanBrichau 8/27/2019 16:55",
 	"super" : "WARequestHandler",
-	"type" : "normal" }
+	"category" : "Seaside-FileSystem",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAExternalFileLibrary",
+	"type" : "normal"
+}

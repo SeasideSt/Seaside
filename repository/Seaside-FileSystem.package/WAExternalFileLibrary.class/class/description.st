@@ -1,3 +1,3 @@
 accessing
 description
-	^ 'File Directory'
+	^ 'External File Directory'
