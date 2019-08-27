@@ -8,7 +8,6 @@ aliases:
 matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
-    - smalltalk: Squeak-5.2
     - smalltalk: Squeak-5.1
   
   include:
