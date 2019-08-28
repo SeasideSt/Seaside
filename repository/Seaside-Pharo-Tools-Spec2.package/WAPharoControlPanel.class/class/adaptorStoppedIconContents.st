@@ -1,4 +1,4 @@
-*Seaside-Pharo-Tools-Spec2
+icons
 adaptorStoppedIconContents
 	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABt0lEQVR4XrVTTYtBURgemZp/
 ME3zF8zimpSshik2iCmlWIiFhBW5GOUrHyFEp+ZKFkJpkO2sp9nzA5Tt+AHW77zvqZGPoRk1
