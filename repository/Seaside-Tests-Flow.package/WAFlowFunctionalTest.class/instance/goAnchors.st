@@ -7,5 +7,5 @@ goAnchors
 		component addMessage: [ :html | 
 			html anchor
 				callback: [ component answer ];
-				with: each greaseString, ': ', self stackDepth greaseString ] fixCallbackTemps.
+				with: each greaseString, ': ', self stackDepth greaseString ].
 		self call: component ]

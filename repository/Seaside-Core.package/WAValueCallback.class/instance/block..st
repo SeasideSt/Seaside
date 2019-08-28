@@ -1,3 +1,3 @@
 accessing
 block: aOneArgBlock
-	block := aOneArgBlock fixCallbackTemps
+	block := aOneArgBlock
