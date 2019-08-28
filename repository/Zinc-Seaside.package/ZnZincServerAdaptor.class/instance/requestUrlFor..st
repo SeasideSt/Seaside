@@ -3,7 +3,7 @@ requestUrlFor: aZincRequest
 	| zincUrl seasideUrl |
 	zincUrl := aZincRequest url.
 	seasideUrl := WAUrl new
-		scheme: zincUrl scheme greaseString;
+		scheme: zincUrl schemeOrDefault greaseString;
 		host: zincUrl host;
 		port: zincUrl port;
 		fragment: zincUrl fragment.
