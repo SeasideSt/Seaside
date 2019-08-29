@@ -1,3 +1,3 @@
 accessing
 componentBlock: aBlock
-	componentBlock := aBlock fixCallbackTemps
+	componentBlock := aBlock

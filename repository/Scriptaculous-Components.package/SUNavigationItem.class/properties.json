@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Components-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"label" ],
-	"name" : "SUNavigationItem",
-	"pools" : [
-		 ],
 	"super" : "SURenderableItem",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "SUNavigationItem",
+	"type" : "normal"
+}

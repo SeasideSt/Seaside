@@ -1,6 +1,5 @@
 *Scriptaculous-Core
 triggerSortable: aString callback: aBlock
-	aBlock fixCallbackTemps.
 	self
 		callback: [ :value |
 			aBlock value: (GRPlatform subStringsIn: value splitBy: $,

@@ -1,15 +1,14 @@
 {
-	"category" : "Scriptaculous-Components-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "SUNavigation",
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"visible",
-		"maxVisible" ],
+		"maxVisible"
+	],
 	"name" : "SUAccordion",
-	"pools" : [
-		 ],
-	"super" : "SUNavigation",
-	"type" : "normal" }
+	"type" : "normal"
+}

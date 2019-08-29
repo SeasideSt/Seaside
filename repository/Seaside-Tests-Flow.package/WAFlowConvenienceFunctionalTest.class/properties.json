@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Flow-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"cheese" ],
-	"name" : "WAFlowConvenienceFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "WAFunctionalTaskTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Flow-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cheese"
+	],
+	"name" : "WAFlowConvenienceFunctionalTest",
+	"type" : "normal"
+}
