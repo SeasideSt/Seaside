@@ -1,7 +1,7 @@
 tests
 testIsBinary
 	| notBinary binary |
-	notBinary := #('text/plain' 'text/bar' 'application/javascript' 'application/xhml+xml' 'application/xml').
+	notBinary := #('text/plain' 'text/bar' 'application/javascript' 'application/xhml+xml' 'application/xml' 'image/svg+xml').
 	notBinary do: [ :each |
 		| mimeType |
 		mimeType := WAMimeType fromString: each.
