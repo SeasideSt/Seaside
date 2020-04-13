@@ -1,6 +1,7 @@
 private
 tempNamesAndValuesIn: aContext do: aTwoArgumentBlock
-	aContext tempScopedNames keysAndValuesDo: [ :index :each |
-		aTwoArgumentBlock
-			value: each
-			value: (aContext tempAt: index) ]
+	SystemVersion current major >= 9 ifTrue:[
+		aContext tempNames doWithIndex: [ :each :index |
+			aTwoArgumentBlock
+				value: each
+				value: (aContext namedTempAt: index) ] ]
