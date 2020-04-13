@@ -8,4 +8,11 @@ renderStackFrame: aContext on: html
 		self 
 			renderObject: aContext receiver
 			labelled: 'self'
-			on: html ]
+			on: html ].
+		self 
+			tempNamesAndValuesIn: aContext 
+			do: [ :name :value |
+				self 
+					renderObject: value
+					labelled: name
+					on: html ]

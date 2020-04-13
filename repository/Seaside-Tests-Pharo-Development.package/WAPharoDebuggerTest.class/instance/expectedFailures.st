@@ -7,8 +7,9 @@ expectedFailures
 		| versionString |
 		versionString := systemVersion current version.
 		(versionString beginsWith: 'Pharo') ifTrue: [
-			"only for Pharo"
-			^ #(testNamedTempAt) ].
+			"only for Pharo < 8"
+			systemVersion current major >= 8
+				ifFalse: [ ^ #(testNamedTempAt) ] ].
 		((versionString beginsWith: 'Squeak') and: [
 			"for old Squeak, was fixed in 5.1"
 			systemVersion current date < (Date year: 2016 month: 8 day: 23) or: [
