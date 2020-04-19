@@ -7,5 +7,5 @@ callback: aBlock
 	http://code.google.com/p/seaside/issues/detail?id=18"
 
 	value := false.
-	callback := aBlock fixCallbackTemps.
+	callback := aBlock.
 	super callback: [ value := true ]

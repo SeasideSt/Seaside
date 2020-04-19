@@ -1,4 +1,4 @@
 public
 addKey: aString toUrl: aUrl
-	^ (self strategyFor: WACurrentRequestContext value)
+	^ (self strategyFor: self requestContext)
 		addKey: aString toUrl: aUrl

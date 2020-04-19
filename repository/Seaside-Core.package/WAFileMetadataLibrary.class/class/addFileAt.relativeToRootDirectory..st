@@ -6,8 +6,8 @@ addFileAt: aPath relativeToRootDirectory: relativeRootDirectory
 	
 	(relativeFilepath first = pathSeparator first) 
 		ifTrue: [ relativeFilepath := relativeFilepath allButFirst ].
-		
-	relativeFilepath := relativeFilepath replaceAll: pathSeparator first with: $/. 
+
+	relativeFilepath := relativeFilepath copyReplaceAll: pathSeparator with: '/'. 
 
 	self addFileNamed: relativeFilepath
 		contents: (GRPlatform current 

@@ -1,0 +1,4 @@
+initialization
+initializeFilters
+	super initializeFilters.
+	self addFilter: WASessionCookieProtectionFilter new
