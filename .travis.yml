@@ -7,9 +7,9 @@ aliases:
 
 matrix:
   allow_failures:
-    - smalltalk: Squeak64-trunk
-    - smalltalk: Squeak64-5.1
-    - smalltalk: Squeak64-5.3
+    - smalltalk: Squeak32-trunk
+    - smalltalk: Squeak32-5.1
+    - smalltalk: Squeak32-5.3
   
   include:
     - smalltalk: Pharo64-8.0
@@ -24,13 +24,13 @@ matrix:
       env: BUILD_NAME=Pharo-4.0
       <<: *pharo4-has-latest-metacello
   
-    - smalltalk: Squeak64-trunk
+    - smalltalk: Squeak32-trunk
       env: BUILD_NAME=Squeak-trunk
-    - smalltalk: Squeak64-5.3
+    - smalltalk: Squeak32-5.3
       env: BUILD_NAME=Squeak-5.3
-    - smalltalk: Squeak64-5.2
+    - smalltalk: Squeak32-5.2
       env: BUILD_NAME=Squeak-5.2
-    - smalltalk: Squeak64-5.1
+    - smalltalk: Squeak32-5.1
       env: BUILD_NAME=Squeak-5.1
     
     - smalltalk: GemStone-3.5.0
