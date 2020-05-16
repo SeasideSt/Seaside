@@ -9,6 +9,7 @@ matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
+    - smalltalk: Squeak-5.3
   
   include:
     - smalltalk: Pharo64-8.0
@@ -25,6 +26,8 @@ matrix:
   
     - smalltalk: Squeak-trunk
       env: BUILD_NAME=Squeak-trunk
+    - smalltalk: Squeak-5.3
+      env: BUILD_NAME=Squeak-5.3
     - smalltalk: Squeak-5.2
       env: BUILD_NAME=Squeak-5.2
     - smalltalk: Squeak-5.1
