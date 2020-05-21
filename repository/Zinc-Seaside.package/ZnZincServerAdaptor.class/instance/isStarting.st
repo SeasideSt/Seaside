@@ -1,0 +1,3 @@
+testing
+isStarting
+	^ false

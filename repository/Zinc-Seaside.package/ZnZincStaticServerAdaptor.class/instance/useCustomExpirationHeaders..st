@@ -1,0 +1,3 @@
+accessing
+useCustomExpirationHeaders: aDictionaryOfMimeTypesAndHeaders
+	self server delegate staticDelegate mimeTypeExpirations: aDictionaryOfMimeTypesAndHeaders
