@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ZnResponse",
+	"category" : "Seaside-Zinc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"onWrite"
+	],
+	"name" : "ZnDeferredResponse",
+	"type" : "normal"
+}

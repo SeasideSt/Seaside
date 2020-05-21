@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "mml 07/26/2019 15:26",
+	"super" : "ZnRingBufferError",
+	"category" : "Seaside-Zinc-Pharo-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZnRingBufferIllegalUse",
+	"type" : "normal"
+}
