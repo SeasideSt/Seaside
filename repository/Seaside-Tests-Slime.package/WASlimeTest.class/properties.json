@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Slime",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WASlimeTest",
-	"pools" : [
-		 ],
 	"super" : "GRSlimeTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Slime",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASlimeTest",
+	"type" : "normal"
+}

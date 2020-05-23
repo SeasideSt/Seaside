@@ -1,3 +1,3 @@
 private
 uiProcess
-	^ UIManager default uiProcess
+	^ Project current uiProcess

@@ -1,10 +1,10 @@
 {
-	"category" : "Scriptaculous-Components-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "SUNavigation",
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"elementExtent",
 		"numVisible",
@@ -13,9 +13,8 @@
 		"navMargin",
 		"elementMargin",
 		"animationSpeed",
-		"created" ],
+		"created"
+	],
 	"name" : "SUCarousel",
-	"pools" : [
-		 ],
-	"super" : "SUNavigation",
-	"type" : "normal" }
+	"type" : "normal"
+}

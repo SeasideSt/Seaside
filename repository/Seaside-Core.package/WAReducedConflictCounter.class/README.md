@@ -1,1 +1,1 @@
-I am a fake implementation of RcCounter
+I am a fake implementation of RcCounter, which is a Gemstone Smalltalk class that provides a counter object with reduced transaction conflicts.

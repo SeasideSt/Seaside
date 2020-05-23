@@ -27,6 +27,8 @@ matrix:
     - smalltalk: Squeak-5.1
   
   include:
+    - smalltalk: Pharo64-8.0
+      env: BUILD_NAME=Pharo64-8.0
     - smalltalk: Pharo64-7.0
       env: BUILD_NAME=Pharo64-7.0
     - smalltalk: Pharo-6.1

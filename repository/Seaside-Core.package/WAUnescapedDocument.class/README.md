@@ -1,1 +1,1 @@
-A WAUnescapedDocument is does not do any escaping.
+A WAUnescapedDocument does not do any escaping.

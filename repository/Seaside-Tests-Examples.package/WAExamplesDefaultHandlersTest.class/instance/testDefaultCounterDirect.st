@@ -1,7 +1,7 @@
 tests
 testDefaultCounterDirect
 	| app |
-	app := self defaultDispatcher handlerAt: 'examples/counter'.
+	app := self defaultDispatcher handlerAtAll: #('examples' 'counter').
 	self assert: app class == WAApplication.
 	self assert: app isApplication.
 	self deny: app isDispatcher.

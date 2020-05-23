@@ -6,5 +6,5 @@ testHandleFileRequest
 	response := self responseAfter: [ handler handle: self requestContext ].
 	self assert: response status = 200.
 	self assert: response contentType main = 'application'.
-	self assert: response contentType sub = 'x-javascript'.
+	self assert: response contentType sub = 'javascript'.
 	self assert: response contents = WATestingFiles new sampleJs

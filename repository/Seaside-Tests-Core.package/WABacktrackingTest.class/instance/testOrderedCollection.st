@@ -6,9 +6,9 @@ testOrderedCollection
 	snapshot := original snapshotCopy.
 	
 	original restoreFromSnapshot: snapshot.
-	self assert: original asArray = #(1 2).
+	self assert: original asArray equals: #(1 2).
 	
 	original removeLast.
 	
 	original restoreFromSnapshot: snapshot.
-	self assert: original asArray = #(1 2)
+	self assert: original asArray equals: #(1 2)

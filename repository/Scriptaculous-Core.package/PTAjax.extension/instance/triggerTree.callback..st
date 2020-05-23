@@ -1,6 +1,5 @@
 *Scriptaculous-Core
 triggerTree: aString callback: aBlock
-	aBlock fixCallbackTemps.
 	self
 		callback: [ :values |
 			aBlock value: (Array streamContents: [ :stream |

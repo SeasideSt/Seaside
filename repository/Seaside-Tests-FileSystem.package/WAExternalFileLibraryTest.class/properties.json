@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-FileSystem",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"fileSystem" ],
-	"name" : "WAExternalFileLibraryTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-FileSystem",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileSystem"
+	],
+	"name" : "WAExternalFileLibraryTest",
+	"type" : "normal"
+}

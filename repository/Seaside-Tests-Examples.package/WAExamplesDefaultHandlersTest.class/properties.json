@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Examples",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAExamplesDefaultHandlersTest",
-	"pools" : [
-		 ],
 	"super" : "WAEnvironmentDefaultHandlersTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAExamplesDefaultHandlersTest",
+	"type" : "normal"
+}

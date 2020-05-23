@@ -1,14 +1,13 @@
 {
-	"category" : "Scriptaculous-Components-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"selected" ],
-	"name" : "SUTabPanel",
-	"pools" : [
-		 ],
 	"super" : "SUNavigation",
-	"type" : "normal" }
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selected"
+	],
+	"name" : "SUTabPanel",
+	"type" : "normal"
+}
