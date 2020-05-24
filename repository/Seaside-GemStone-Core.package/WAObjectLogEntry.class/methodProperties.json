@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"debug:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"error:request:continuation:" : "JohanBrichau 07/24/2015 01:47:27",
+		"error:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"fatal:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"info:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"trace:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"transcript:request:object:" : "JohanBrichau 07/24/2015 01:47:27",
+		"warn:request:object:" : "JohanBrichau 07/24/2015 01:47:27" },
+	"instance" : {
+		"isResumable" : "JohanBrichau 07/24/2015 01:47:27",
+		"request" : "JohanBrichau 07/24/2015 01:47:27",
+		"request:" : "JohanBrichau 07/24/2015 01:47:27",
+		"requestString" : "JohanBrichau 07/24/2015 01:47:27" } }
