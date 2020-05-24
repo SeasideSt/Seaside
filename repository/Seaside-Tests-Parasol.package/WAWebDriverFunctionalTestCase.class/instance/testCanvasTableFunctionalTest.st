@@ -11,7 +11,7 @@ testCanvasTableFunctionalTest
 		#('ampersand' '&amp;' '&#38;' '&#x26;' '&' '&' '&') .
 		#('less than sign' '&lt;' '&#60;' '&#x3C;' '<' '<' '<') .
 		#('greater than sign' '&gt;' '&#62;' '&#x3E;' '>' '>' '>') .
-		{ 'euro sign' . '&euro;' . '&#8364;' . '&#x20AC;' . (String with: Character euro) . (String with: Character euro) . (String with: Character euro) }
+		{ 'euro sign' . '&euro;' . '&#8364;' . '&#x20AC;' . (String with: (Character codePoint: 8364)) . (String with: (Character codePoint: 8364)) . (String with: (Character codePoint: 8364)) }
 	}.
 	
 	entitiesTable := (driver findElementsByTagName: 'table') detect:[:table | (table findElementByTagName: 'caption') getText = 'HTML 4.0 entities' ].
