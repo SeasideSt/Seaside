@@ -14,12 +14,12 @@ testCanvasTableFunctionalTest
 		{ 'euro sign' . '&euro;' . '&#8364;' . '&#x20AC;' . (String with: (Character codePoint: 8364)) . (String with: (Character codePoint: 8364)) . (String with: (Character codePoint: 8364)) }
 	}.
 	
-	entitiesTable := (driver findElementsByTagName: 'table') detect:[:table | (table findElementByTagName: 'caption') getText = 'HTML 4.0 entities' ].
+	entitiesTable := (driver findElementsByTagName: 'table') detect:[ :table | (table findElementByTagName: 'caption') getText = 'HTML 4.0 entities' ].
 	headers := entitiesTable findElementsByCSSSelector: 'thead tr'.
-	headers with: entityHeaders do:[:header :headerDef |
+	headers with: entityHeaders do:[ :header :headerDef |
 		self assert: ((header findElementsByTagName: 'th') collect: #getText) equals: headerDef ].
 	rows := entitiesTable findElementsByCSSSelector: 'tbody tr'.
-	rows with: entities do:[:row :entityDef |
+	rows with: entities do:[ :row :entityDef |
 		self assert: ((row findElementsByTagName: 'td') collect: #getText) equals: entityDef ].
 	
 	exchangeRates := #(
@@ -29,8 +29,8 @@ testCanvasTableFunctionalTest
 		('SEK' '19.32')
 	).
 	
-	currencyTable := (driver findElementsByTagName: 'table') detect:[:table | (table findElementByTagName: 'caption') getText = 'Currencies against Swiss Franc (CHF)' ].
+	currencyTable := (driver findElementsByTagName: 'table') detect:[ :table | (table findElementByTagName: 'caption') getText = 'Currencies against Swiss Franc (CHF)' ].
 	rows := currencyTable findElementsByCSSSelector: 'tbody tr'.
-	rows with: exchangeRates do:[:row :entityDef |
+	rows with: exchangeRates do:[ :row :entityDef |
 		self assert: ((row findElementByTagName: 'th') getText) equals: entityDef first.
-		self assert: ((row findElementByTagName: 'td') getText) equals: entityDef second.].
+		self assert: ((row findElementByTagName: 'td') getText) equals: entityDef second ]
