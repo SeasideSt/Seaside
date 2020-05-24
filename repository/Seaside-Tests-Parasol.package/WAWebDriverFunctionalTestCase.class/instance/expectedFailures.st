@@ -1,3 +1,3 @@
 running
 expectedFailures
-	^ #(testContextFunctionalTest testDelegationFunctionalTest testExceptionFunctionalTest testExpiryFunctionalTest testFilterFunctionalTest testFlowClosureFunctionalTest testFlowConvenienceFunctionalTest testFlowDelegationFunctionalTest testFlowErrorFunctionalTest)
+	^ #(testContextFunctionalTest testExceptionFunctionalTest testExpiryFunctionalTest testFilterFunctionalTest  testFlowErrorFunctionalTest)
