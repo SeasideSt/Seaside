@@ -16,7 +16,16 @@ SmalltalkCISpec {
       #onConflict : #useLoaded,
       #useLatestMetacello : true,
       #onWarningLog : true,
-      #platforms : [ #squeak, #gemstone ]
+      #platforms : [ #squeak ]
+    },
+    SCIMetacelloLoadSpec {
+      #baseline : 'Seaside3',
+      #directory : 'repository',
+      #onWarningLog : true,
+      #onConflict : #useLoaded,
+      #load : [ 'CI' ],
+      #useLatestMetacello : true,
+      #platforms : [ #gemstone ]
     }
   ],
   #testing : {
