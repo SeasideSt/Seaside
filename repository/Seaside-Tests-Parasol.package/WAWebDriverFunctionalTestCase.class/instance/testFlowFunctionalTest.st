@@ -13,5 +13,5 @@ testFlowFunctionalTest
 	(driver findElementByPartialLinkText: 'go buttons') click.
 	stackdepth := ((driver findElementByTagName: 'h3') getText) copyAfterLast: $:.
 	1 to: 5 do:[:i |
-		self assert: (((driver findElementByTagName: 'h3') getText) splitOn: $:) equals: { i asString . stackdepth } asOrderedCollection.
+		self assert: (((driver findElementByTagName: 'h3') getText)) equals: i asString ,':', stackdepth greaseString.
 		((driver findElementsByCSSSelector: 'input[type=submit]') detect:[:e | (e getAttribute: 'value') = 'Ok' ]) click ]
