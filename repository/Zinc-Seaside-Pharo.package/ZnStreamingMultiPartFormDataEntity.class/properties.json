@@ -4,7 +4,9 @@
 	"category" : "Zinc-Seaside-Pharo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"TemporaryFileDirectory"
+	],
 	"instvars" : [
 		"stream"
 	],
