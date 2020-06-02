@@ -4,9 +4,7 @@ isInTestDebuggingMode
 	"Note: Implemented using reflection, since otherwise we'd have to redefine TestCase>>debug and TestCase's instance variables."
 
 	| ctx |
-	ctx := (Smalltalk includesKey: #GsContext)
-		ifTrue:[ ((Smalltalk at: #GsContext) fromLevel: 1) sender sender ]
-		ifFalse: [ thisContext ].
+	ctx := GRPlatform current thisContext.
 	
 	50 timesRepeat: [
 		ctx ifNil: [ ^ false ].
