@@ -30,7 +30,7 @@ SmalltalkCISpec {
   ],
   #testing : {
       #exclude : {
-        #packages : [ 'Cryptography.*' ]
+        #packages : [ 'Cryptography.*' , 'Seaside-Tests-Parasol' ]
       },
 			#include : {
 				#classes : [ #SentButNotImplementedTest , #UndefinedSymbolsTest ]
