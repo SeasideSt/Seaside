@@ -6,6 +6,11 @@ testStartRestartStopServer
     ifTrue: [ 
       "don't run test if running with a static remote server"
       ^ self ].
+  Smalltalk
+    at: #'BPSeasideServerResource'
+    ifPresent: [ :cl | 
+      "These tests should run with the parasol seaside server resource off"
+      cl reset ].
   [ 
   | gemServer |
   gemServer := self gemServer.
