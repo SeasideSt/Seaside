@@ -1,12 +1,14 @@
 rendering
 renderDateTimeSelectorsOn: html
 	html heading level3; with: 'Dates and Times'.
-	html form: [
+	html form id: #dateTimeForm; with: [
 		html table: [
-			html tableRow: [
-				html tableData: 'From'; tableData: beginDAT ].
-			html tableRow: [
-				html tableData: 'To'; tableData: endDAT ] ].
+			html tableRow
+				class:'from';
+				with:[ html tableData: 'From'; tableData: beginDAT ].
+			html tableRow
+				class:'to';
+				with:[ html tableData: 'To'; tableData: endDAT ] ].
 		html div: [
 			html submitButton
 				callback: [ self computeDuration ];

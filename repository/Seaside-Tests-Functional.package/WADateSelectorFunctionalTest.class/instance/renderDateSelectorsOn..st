@@ -3,16 +3,20 @@ renderDateSelectorsOn: html
 	html heading
 		level3;
 		with: 'Dates'.
-	html form: [
+	html form id: #dateForm; with: [
 		html table: [
-			html tableRow: [
-				html
-					tableData: 'From';
-					tableData: beginDate ].
-			html tableRow: [
-				html
-					tableData: 'To';
-					tableData: endDate ] ].
+			html tableRow
+				class:'from';
+				with: [
+					html
+						tableData: 'From';
+						tableData: beginDate ].
+			html tableRow
+				class:'to';
+				with: [
+					html
+						tableData: 'To';
+						tableData: endDate ] ].
 		html div: [
 			html submitButton
 				callback: [
