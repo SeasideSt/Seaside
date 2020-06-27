@@ -11,7 +11,6 @@ value: anObject
     installPartialContinuation: partial
     atLevel: frameIndex
     value:
-      (Dictionary new
-        at: 'env' put: Processor activeProcess environment;
-        at: 'value' put: anObject;
-        yourself)
+      (WAGemStoneProcessEnvironmentWrapper
+        withEnvironment: Processor activeProcess environment
+        value: anObject)
