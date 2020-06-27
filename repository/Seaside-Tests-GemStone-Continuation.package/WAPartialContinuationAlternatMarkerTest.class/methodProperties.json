@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callbackMarker" : "DaleHenrichs 01/27/2011 14:16:21",
+		"callcc:" : "JohanBrichau 06/27/2020 02:42",
+		"markDiscardingResultOf:" : "DaleHenrichs 01/27/2011 14:16:21",
+		"privateCallcc:" : "JohanBrichau 06/27/2020 01:24",
+		"testSimple" : "DaleHenrichs 01/27/2011 14:16:21" } }
