@@ -24,7 +24,6 @@ SmalltalkCISpec {
       #onWarningLog : true,
       #onConflict : #useLoaded,
       #load : [ 'CI' ],
-      #useLatestMetacello : true,
       #platforms : [ #gemstone ]
     }
   ],
