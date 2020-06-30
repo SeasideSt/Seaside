@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFunctionalTest",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"tasks",
-		"selection"
-	],
+		"selection" ],
 	"name" : "WAManyTasksFunctionalTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

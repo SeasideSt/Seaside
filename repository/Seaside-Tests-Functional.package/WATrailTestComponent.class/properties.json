@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAComponent",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"count"
-	],
+		"count" ],
 	"name" : "WATrailTestComponent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

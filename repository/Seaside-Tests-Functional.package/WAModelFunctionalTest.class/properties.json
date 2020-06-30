@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFunctionalTest",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"state",
 		"user",
 		"pass",
-		"test"
-	],
+		"test" ],
 	"name" : "WAModelFunctionalTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

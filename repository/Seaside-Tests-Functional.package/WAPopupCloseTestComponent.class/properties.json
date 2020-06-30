@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAComponent",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAPopupCloseTestComponent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
