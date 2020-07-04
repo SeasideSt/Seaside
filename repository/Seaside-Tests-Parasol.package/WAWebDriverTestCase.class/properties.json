@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Parasol",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAWebDriverTestCase",
-	"pools" : [
-		 ],
 	"super" : "BPSeasideWebDriverTestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Parasol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWebDriverTestCase",
+	"type" : "normal"
+}
