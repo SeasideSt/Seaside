@@ -15,7 +15,7 @@ We mostly develop in Pharo and use [Iceberg](https://github.com/pharo-vcs/iceber
 
 Please take the time to add comments and tests and provide a description of the change and the reason for the change in each commit message. Once you have submitted your pull request, a core developer will review the submission and either provide feedback or integrate the change. Sometimes we decide not to integrate a change. When this happens, there is usually a good reason; please ask if you aren’t clear why your submission was not integrated.
 
-We have fairly detailed [coding conventions](Coding-Conventions) to help maintain portability. Please read through them to make the job of porting Seaside to other Smalltalk dialects not unnecessarily complex and to maintain a consistent coding style.
+We have fairly detailed [coding conventions](https://github.com/SeasideSt/Seaside/wiki/Coding-Conventions) to help maintain portability. Please read through them to make the job of porting Seaside to other Smalltalk dialects not unnecessarily complex and to maintain a consistent coding style.
 
 We have set-up automated [Travis-CI tests](https://travis-ci.org/SeasideSt/Seaside), which will be automatically executed when you submit the pull request. You can run them in your own fork before submitting the pull request, and you can even run them locally. See the [Smalltalk-CI](https://github.com/hpi-swa/smalltalkCI) project for all details.
 
