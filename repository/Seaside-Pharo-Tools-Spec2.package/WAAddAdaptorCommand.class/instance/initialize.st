@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	self
-		basicName: 'Add adaptor';
-		basicDescription: 'Allows one to create a new adaptor.'
+		name: 'Add adaptor';
+		description: 'Allows one to create a new adaptor.'

@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	self
-		basicName: 'Inspect';
-		basicDescription: 'Inspect the currently selected adaptor.'
+		name: 'Inspect';
+		description: 'Inspect the currently selected adaptor.'

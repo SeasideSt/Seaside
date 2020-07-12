@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	self
-		basicName: 'Start';
-		basicDescription: 'Start the selected adaptor'
+		name: 'Start';
+		description: 'Start the selected adaptor'
