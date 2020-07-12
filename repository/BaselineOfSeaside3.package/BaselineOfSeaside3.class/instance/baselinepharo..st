@@ -58,7 +58,7 @@ baselinepharo: spec
 				package: 'Seaside-Pharo-Tools-Spec' with: [ spec requires: #('Seaside-Tools-Core') ] ].
 
 	spec
-		for: (GRPlatform current pharoVersionsFrom: 8)
+		for: #(#'pharo8.x' #'pharo9.x')
 		do: [ spec
 				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo-Tools-Spec2') ];
 				package: 'Seaside-Pharo-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ]
