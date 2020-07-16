@@ -1,6 +1,7 @@
 world menu
 menuCommandOn: aBuilder
 	<worldMenu>
+	self registerIcons. 
 	(aBuilder item: #ServerAdapterBrowser)
 		order: 0.21;
 		parent: #Tools;
