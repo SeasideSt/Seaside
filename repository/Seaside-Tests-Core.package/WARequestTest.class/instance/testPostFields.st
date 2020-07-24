@@ -12,7 +12,6 @@ testPostFields
 	headers at: 'content-type' put: WAMimeType formUrlencoded greaseString.
 	request setHeaders: headers.
 	request setBody: 'baz=2&bar=3'.
-	self should: [ request bodyDecoded ] raise: WAIllegalStateException.
 	request setPostFields: (WARequestFields new at: 'baz' put: '2'; at: 'bar' put: '3'; yourself).
 	
 	self assert: request postFields size = 2.
