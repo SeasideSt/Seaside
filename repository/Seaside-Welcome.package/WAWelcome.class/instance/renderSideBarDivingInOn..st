@@ -26,10 +26,10 @@ renderSideBarDivingInOn: html
 				with: 'JQuery UI'.
 			html text: ' integration.' ]. 
 		html listItem: [
-			html text: 'Seaside ', GRPlatform current seasideVersion greaseString.
+			html text: 'Upgrading from a previous version? Read through the '.
 			html anchor
-				url: 'https://github.com/SeasideSt/Seaside/releases/tag/v',GRPlatform current seasideVersion greaseString;
-				with: ' changes' ].
+				url: 'https://github.com/SeasideSt/Seaside/releases/';
+				with: 'Seaside Releases Log' ].
 		GRPlatform current seasideVersion revision isZero ifFalse:[
 			| majorReleaseVersion |
 			majorReleaseVersion := GRPlatform current seasideVersion copy revision: 0; yourself.
