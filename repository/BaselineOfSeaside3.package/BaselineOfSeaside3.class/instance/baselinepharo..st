@@ -21,22 +21,6 @@ baselinepharo: spec
 				package: 'Seaside-Tests-Pharo-Canvas' with: [ spec requires: #('Seaside-Tests-Canvas') ] ].
 
 	spec
-		for: #squeak
-		do: [ spec
-				package: 'Seaside-Tools-Web' with: [ spec includes: #('Seaside-Squeak-Tools-Web') ];
-				package: 'Seaside-Pharo-Development' with: [ spec requires: #('Seaside-Development' 'Seaside-Squeak-Tools-Web' 'Seaside-Pharo-Flow') ];
-				package: 'Seaside-Squeak-Tools-Web' with: [ spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ];
-				package: 'Seaside-Squeak-Continuation' with: [ spec requires: #('Seaside-Core') ];
-				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Squeak-Continuation') ];
-				package: 'Seaside-Tests-Pharo-Continuation' with: [ spec requires: #('Seaside-Squeak-Continuation') ];
-				package: 'Seaside-Core' with: [ spec includes: #('Seaside-Squeak-Core') ];
-				package: 'Seaside-Squeak-Core' with: [ spec requires: #('Seaside-Core') ];
-				package: 'Seaside-Tests-Core' with: [ spec includes: #('Seaside-Tests-Squeak-Core') ];
-				package: 'Seaside-Tests-Squeak-Core' with: [ spec requires: #('Seaside-Squeak-Core' 'Seaside-Tests-Core') ];
-				package: 'Seaside-Tests-Pharo-Functional' with: [ spec requires: #('Seaside-Tests-Squeak-Core') ];
-				package: 'Seaside-Pharo-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Squeak-Core') ] ].
-
-	spec
 		for: #pharo
 		do: [ spec
 				package: 'Seaside-Core' with: [ spec includes: #('Seaside-Pharo-Core') ];
