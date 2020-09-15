@@ -1,4 +1,0 @@
-formatting
-asString
-
-	^self fullPrintString
