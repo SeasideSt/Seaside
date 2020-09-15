@@ -1,3 +1,3 @@
 accessing
 title
-	^ 'Welcome to Seaside 3.3'
+	^ 'Welcome to Seaside ', GRPlatform current seasideVersion greaseString

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"colors" : " 06/26/2020 12:53:00",
+		"referenceDict" : " 06/26/2020 12:53:00",
+		"scale" : " 06/26/2020 12:53:00" },
+	"instance" : {
+		"colorFor:" : " 06/26/2020 12:53:00",
+		"initialize" : " 06/26/2020 12:53:00",
+		"renderAnchorsOn:" : " 06/26/2020 12:53:00",
+		"renderBreakOn:" : " 06/26/2020 12:53:00",
+		"renderCallbackOn:" : " 06/26/2020 12:53:00",
+		"renderContentOn:" : " 06/26/2020 12:53:00",
+		"renderExplanationOn:" : " 06/26/2020 12:53:00",
+		"renderFormOn:" : " 06/26/2020 12:53:00",
+		"renderHtmlTextOn:" : " 06/26/2020 12:53:00",
+		"renderIdTestOn:" : " 06/26/2020 12:53:00",
+		"renderInline:factor:key:on:" : " 06/26/2020 12:53:00",
+		"renderInline:key:on:" : " 06/26/2020 12:53:00",
+		"renderLineBreaksOn:" : " 06/26/2020 12:53:00",
+		"renderNativeBreakOn:" : " 06/26/2020 12:53:00",
+		"renderScriptOn:" : " 06/26/2020 12:53:00",
+		"renderTableOn:" : " 06/26/2020 12:53:00",
+		"renderTextOn:" : " 06/26/2020 12:53:00",
+		"style" : " 06/26/2020 12:53:00" } }

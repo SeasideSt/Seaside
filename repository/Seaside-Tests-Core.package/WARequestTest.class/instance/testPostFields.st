@@ -2,6 +2,12 @@ tests
 testPostFields
 	| request headers |
 	request := WARequest method: 'POST' uri: '/foo?bar=1'.
+	self
+		deny: request isXmlHttpRequest;
+		assert: request headers class equals: WAHeaderFields;
+		assert: request remoteAddress isNil;
+		assert: request isPost;
+		assert: request sslSessionId isNil.
 	headers := Dictionary new.
 	headers at: 'content-type' put: WAMimeType formUrlencoded greaseString.
 	request setHeaders: headers.

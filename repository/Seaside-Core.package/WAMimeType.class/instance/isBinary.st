@@ -5,10 +5,9 @@ isBinary
 	self main = 'application'
 		ifTrue: [
 			"application/json is text"
-			self sub = 'json' ifTrue: [ ^ false ] ]
-		ifFalse: [ ^ true ].
+			self sub = 'json' ifTrue: [ ^ false ] ].
 	GRPlatform subStringsIn: self sub splitBy: $+ do: [ :each |
-		"application/x-javascript and application/xml are text"
-		(#('x-javascript' 'xml') includes: each)
+		"application/(x-)javascript and application/xml are text"
+		(#('x-javascript' 'javascript' 'xml') includes: each)
 			ifTrue: [ ^ false ] ].
 	^ true

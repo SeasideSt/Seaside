@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Flow-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAFlowErrorFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "WAExceptionFunctionalTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Flow-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFlowErrorFunctionalTest",
+	"type" : "normal"
+}

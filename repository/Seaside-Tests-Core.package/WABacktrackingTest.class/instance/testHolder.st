@@ -10,6 +10,6 @@ testHolder
 	original restoreFromSnapshot: snapshot1.
 	self assert: original contents isNil.
 	original restoreFromSnapshot: snapshot2.
-	self assert: original contents = 1.
+	self assert: original contents equals: 1.
 	original restoreFromSnapshot: snapshot3.
-	self assert: original contents = 2
+	self assert: original contents equals: 2

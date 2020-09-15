@@ -6,4 +6,4 @@ callback: aBlock
 	- SUEvaluator: aBlock expects one argument, which will be an instance of JSScript.
 	- SUUpdater: aBlock expects one argument, which will be a renderer."
 	
-	callback := aBlock fixCallbackTemps
+	callback := aBlock

@@ -14,4 +14,4 @@ testMimetypeForRequest
 	self assert: (fileSystem mimetypeForRequest: request) = 'application/octet-stream' seasideMimeType.
 	
 	request := self requestWithUrl: '/culture/pictures/cleopatra.js'.
-	self assert: (fileSystem mimetypeForRequest: request) = 'application/x-javascript' seasideMimeType
+	self assert: (fileSystem mimetypeForRequest: request) = 'application/javascript' seasideMimeType

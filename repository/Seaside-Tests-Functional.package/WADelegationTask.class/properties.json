@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WATask",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"component1",
-		"component2"
-	],
+		"component2" ],
 	"name" : "WADelegationTask",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WATask",
+	"type" : "normal" }

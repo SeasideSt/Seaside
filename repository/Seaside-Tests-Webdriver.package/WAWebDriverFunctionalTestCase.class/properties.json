@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Webdriver",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAWebDriverFunctionalTestCase",
-	"pools" : [
-		 ],
 	"super" : "WAWebDriverTestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Webdriver",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWebDriverFunctionalTestCase",
+	"type" : "normal"
+}

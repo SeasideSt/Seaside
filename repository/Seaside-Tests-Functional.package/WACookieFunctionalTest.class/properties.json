@@ -1,18 +1,19 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFunctionalTest",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"firstKey",
 		"firstValue",
 		"firstPath",
 		"secondKey",
 		"secondValue",
-		"secondPath"
-	],
+		"secondPath" ],
 	"name" : "WACookieFunctionalTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }

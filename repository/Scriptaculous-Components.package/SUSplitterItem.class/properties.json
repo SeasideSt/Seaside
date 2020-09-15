@@ -1,15 +1,14 @@
 {
-	"category" : "Scriptaculous-Components-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "SURenderableItem",
+	"category" : "Scriptaculous-Components-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"min",
-		"size" ],
+		"size"
+	],
 	"name" : "SUSplitterItem",
-	"pools" : [
-		 ],
-	"super" : "SURenderableItem",
-	"type" : "normal" }
+	"type" : "normal"
+}

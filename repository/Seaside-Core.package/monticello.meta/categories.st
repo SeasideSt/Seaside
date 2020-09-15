@@ -10,6 +10,7 @@ SystemOrganization addCategory: #'Seaside-Core-Exceptions'!
 SystemOrganization addCategory: #'Seaside-Core-Filter'!
 SystemOrganization addCategory: #'Seaside-Core-HTTP'!
 SystemOrganization addCategory: #'Seaside-Core-Libraries'!
+SystemOrganization addCategory: #'Seaside-Core-Manifest'!
 SystemOrganization addCategory: #'Seaside-Core-Rendering'!
 SystemOrganization addCategory: #'Seaside-Core-RequestHandling'!
 SystemOrganization addCategory: #'Seaside-Core-Server'!

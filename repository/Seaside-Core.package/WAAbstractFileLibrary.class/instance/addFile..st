@@ -7,12 +7,9 @@ addFile: aFile
 	aFile isNil ifTrue: [
 		"in case no file was selected for uploading"
 		^ self ].
-	contents := (aFile contentType isNil or: [ aFile contentType isBinary ])
+	contents := (aFile contentType isNil or: [ aFile contentType isBinary or: [ aFile contentType charSet isNil ] ])
 		ifTrue: [ aFile rawContents ]
-		ifFalse: [
-			GRPlatform current convertToSmalltalkNewlines: (aFile contentType charSet isNil
-				ifTrue: [ aFile rawContents ]
-				ifFalse: [ aFile contentsDecoded ]) ].
+		ifFalse: [ GRPlatform current convertToSmalltalkNewlines: aFile contentsDecoded ].
 	self class 
 		addFileNamed: aFile fileName
 		contents: contents

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "pmm 10/27/2019 21:28",
+	"super" : "WAMimeDocument",
+	"category" : "Seaside-Tests-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "WABlockMimeDocument",
+	"type" : "normal"
+}

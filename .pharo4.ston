@@ -5,6 +5,7 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
+      #onConflict : #useLoaded,
       #useLatestMetacello : true,
       #platforms : [ #pharo ]
     }

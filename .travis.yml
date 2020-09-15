@@ -1,5 +1,18 @@
 language: smalltalk
-sudo: false
+addons:
+  chrome: stable
+
+# before_install:
+#   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
+
+before_script:
+  - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
+  - wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  # - "export DISPLAY=:99.0"
+  # - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
+  - "java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.chrome.logfile=\"${TRAVIS_BUILD_DIR}/chromedriver.log\" -Dwebdriver.chrome.args=--verbose -jar ${TRAVIS_BUILD_DIR}/selenium-server-standalone-3.141.59.jar -port 4444 -log ${TRAVIS_BUILD_DIR}/seleniumlog.txt &"
+  - "sleep 3" #allow for all processes to start before testing
 
 aliases:
   - &pharo4-has-latest-metacello
@@ -9,8 +22,13 @@ matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
+    - smalltalk: Pharo64-9.0
   
   include:
+    - smalltalk: Pharo64-9.0
+      env: BUILD_NAME=Pharo64-9.0
+    - smalltalk: Pharo64-8.0
+      env: BUILD_NAME=Pharo64-8.0
     - smalltalk: Pharo64-7.0
       env: BUILD_NAME=Pharo64-7.0
     - smalltalk: Pharo-6.1
@@ -28,13 +46,18 @@ matrix:
     - smalltalk: Squeak-5.1
       env: BUILD_NAME=Squeak-5.1
     
-    - smalltalk: GemStone-3.4.2
-      env: BUILD_NAME=GemStone-3.4.2
+    - smalltalk: GemStone-3.5.2
+      env: BUILD_NAME=GemStone-3.5.2
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
-    - smalltalk: GemStone-3.3.6
-      env: BUILD_NAME=GemStone-3.3.6
+    - smalltalk: GemStone-3.4.5
+      env: BUILD_NAME=GemStone-3.4.5
+      cache:
+        directories:
+          - $SMALLTALK_CI_CACHE
+    - smalltalk: GemStone-3.3.9
+      env: BUILD_NAME=GemStone-3.3.9
       cache:
         directories:
           - $SMALLTALK_CI_CACHE

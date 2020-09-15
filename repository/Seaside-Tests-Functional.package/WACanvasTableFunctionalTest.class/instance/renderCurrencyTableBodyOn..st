@@ -1,14 +1,15 @@
 rendering
 renderCurrencyTableBodyOn: html
-	html tableBody 
-		title: 'Table body';
-		with: [
-			self exchangeRates do: [ :each |
-				html tableRow: [
-					html tableHeading: each first.
-					"https://bugzilla.mozilla.org/show_bug.cgi?id=2212
+  html tableBody
+    title: 'Table body';
+    with: [ 
+          self exchangeRates
+            do: [ :each | 
+              html
+                tableRow: [ 
+                  html tableHeading: each first.	"https://bugzilla.mozilla.org/show_bug.cgi?id=2212
 					https://bugzilla.mozilla.org/show_bug.cgi?id=915"
-					html tableData
-						align: 'char';
-						character: $.;
-						with: each second ] ] ]
+                  html tableData
+                    align: 'char';
+                    character: $.;
+                    with: (each second printShowingDecimalPlaces: 2) ] ] ]

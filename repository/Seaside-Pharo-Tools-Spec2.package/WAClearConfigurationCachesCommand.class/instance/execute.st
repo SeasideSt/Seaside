@@ -1,0 +1,3 @@
+hooks
+execute
+	WAAdmin clearConfigurationCaches
