@@ -80,7 +80,7 @@ baselinegemstone: spec
         package: 'Seaside-Tests-GemStone-Functional'
           with: [ spec requires: #('Seaside-Tests-Functional') ].
       spec
-        group: 'CI' with: #('FastCGI' 'Zinc' 'Swazoo');
+        group: 'CI' with: #('FastCGI' 'Zinc');
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');
         group: 'Production' with: #('Seaside-GemStone-Tools-Production') ].
   spec
@@ -96,6 +96,11 @@ baselinegemstone: spec
                 includes: #('Seaside-GemStone-Core') ];
         package: 'Seaside-GemStone-Core'
           with: [ spec requires: #('Seaside-GemStone300-Core') ] ].
+	spec
+		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
+		do: [
+      spec
+        group: 'CI' with: #('Swazoo') ].
   spec
     for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
     do: [ 
