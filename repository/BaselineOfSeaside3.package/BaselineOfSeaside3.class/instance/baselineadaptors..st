@@ -81,7 +81,7 @@ baselineadaptors: spec
 				group: 'Tests' with: #('Seaside-GemStone-GemServer-Tests');
 				group: 'Zinc' with: #('Zinc-Seaside') ].
 	spec
-		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
+		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' )
 		do: [
 			spec
 				package: 'Seaside-GemStone-GemServer-Tests' with: [ spec includes: #( 'Seaside-GemStone-GemServer-Swazoo-Tests') ];

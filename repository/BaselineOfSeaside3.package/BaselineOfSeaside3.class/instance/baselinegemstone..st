@@ -97,7 +97,7 @@ baselinegemstone: spec
         package: 'Seaside-GemStone-Core'
           with: [ spec requires: #('Seaside-GemStone300-Core') ] ].
 	spec
-		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
+		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x')
 		do: [
       spec
         group: 'CI' with: #('Swazoo') ].
