@@ -21,7 +21,7 @@ testDateSelectorFunctionalTest
 	self assert: ((driver findElementByTagName:'h3') getText includesSubstring: '300 day(s)').
 	(driver findElementByCSSSelector: 'input[type=submit]') click.
 	
-	fromTime := Time now.
+	fromTime := Time hour: 16 minute: 30 second: 10.
 	deltaTime := Time hour: 4 minute: 30 second: 10.
 	toTime := fromTime addTime: deltaTime.
 	
