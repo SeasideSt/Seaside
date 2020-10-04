@@ -9,8 +9,15 @@ baselinegemstone: spec
           with: [ 
               spec
                 loads: #('Base');
-                repository: 'github://glassdb/glass:master/repository' ];
-        yourself.
+                repository: 'github://glassdb/glass:master/repository' ].
+
+      spec
+			  baseline: 'Parasol'
+        	with: [ 
+            spec
+              loads: #('core');
+              repository: 'github://SeasideSt/Parasol:master/repository' ].
+
       spec
         package: 'Seaside-Squeak-Compatibility';
         package: 'Seaside-Core'
@@ -31,6 +38,11 @@ baselinegemstone: spec
                   #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
         package: 'Seaside-Session'
           with: [ spec includes: #('Seaside-GemStone-Session') ];
+        package: 'Seaside-Tests-Parasol'
+          with: [
+            spec
+              includes: #('Parasol-Seaside');
+              requires: #('Parasol-Seaside') ];
         package: 'Seaside-Tools-Web'
           with: [ spec includes: #('Seaside-GemStone-Tools-Web') ];
         package: 'Seaside-Tests-Core'
@@ -79,8 +91,15 @@ baselinegemstone: spec
           with: [ spec requires: #('Seaside-Tests-Flow') ];
         package: 'Seaside-Tests-GemStone-Functional'
           with: [ spec requires: #('Seaside-Tests-Functional') ].
-      spec
-        group: 'CI' with: #('FastCGI' 'Zinc');
+     spec
+			  project: 'Parasol-Seaside'
+					copyFrom: 'Parasol'
+        	with: [ 
+            spec
+              loads: #('Parasol-Seaside');
+              repository: 'github://SeasideSt/Parasol:master/repository' ].
+     spec
+        group: 'CI' with: #('Seaside-Tools-Core' 'FastCGI' 'Zinc');
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');
         group: 'Production' with: #('Seaside-GemStone-Tools-Production') ].
   spec
