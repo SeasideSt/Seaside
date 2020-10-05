@@ -16,7 +16,7 @@ baselinegemstone: spec
         	with: [ 
             spec
               loads: #('core');
-              repository: 'github://dalehenrich/Parasol:issue_43/repository' ].
+              repository: 'github://SeasideSt/Parasol:master/repository' ].
 
       spec
         package: 'Seaside-Squeak-Compatibility';
@@ -96,8 +96,7 @@ baselinegemstone: spec
 					copyFrom: 'Parasol'
         	with: [ 
             spec
-              loads: #('Parasol-Seaside');
-              repository: 'github://dalehenrich/Parasol:issue_43/repository' ].
+              loads: #('Parasol-Seaside') ].
      spec
         group: 'CI' with: #('Seaside-Tools-Core' 'FastCGI' 'Zinc');
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');

@@ -32,7 +32,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('default');
-					repository: 'github://dalehenrich/Parasol:issue_43/repository' ].
+					repository: 'github://SeasideSt/Parasol:master/repository' ].
 
 		spec
 			package: 'Seaside-Canvas' with: [
