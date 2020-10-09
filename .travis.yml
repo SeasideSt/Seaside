@@ -22,6 +22,7 @@ matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
+    - smalltalk: Squeak-5.2   ### see https://github.com/SeasideSt/Seaside/issues/1229
     - smalltalk: Pharo64-9.0
   
   include:
@@ -46,8 +47,8 @@ matrix:
     - smalltalk: Squeak-5.1
       env: BUILD_NAME=Squeak-5.1
     
-    - smalltalk: GemStone-3.5.3
-      env: BUILD_NAME=GemStone-3.5.3
+    - smalltalk: GemStone-3.5.4
+      env: BUILD_NAME=GemStone-3.5.4
       cache:
         directories:
           - $SMALLTALK_CI_CACHE
