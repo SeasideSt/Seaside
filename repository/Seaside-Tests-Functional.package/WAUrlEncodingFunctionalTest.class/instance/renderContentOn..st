@@ -7,15 +7,16 @@ renderContentOn: html
 		with: [
 			html div: [
 				html textInput
+					id: #input;
 					on: #input of: self.
 				html submitButton ] ].
 		
 	html definitionList: [
 		html definitionTerm: 'Input'.
-		html definitionData: self input.
+		html definitionData id: #inputresult; with: self input.
 		
 		html definitionTerm: 'Parameter'.
-		html definitionData: self parameter.
+		html definitionData id: #parameterresult; with: self parameter.
 		
 		html definitionTerm: 'Path'.
-		html definitionData: self path ]
+		html definitionData id: #pathresult; with: self path ]
