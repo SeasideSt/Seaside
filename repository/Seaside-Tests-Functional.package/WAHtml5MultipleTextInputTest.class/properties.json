@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"emails" ],
-	"name" : "WAHtml5MultipleTextInputTest",
-	"pools" : [
-		 ],
 	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"emails"
+	],
+	"name" : "WAHtml5MultipleTextInputTest",
+	"type" : "normal"
+}

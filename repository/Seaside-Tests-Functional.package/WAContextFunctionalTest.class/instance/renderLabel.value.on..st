@@ -1,5 +1,7 @@
 rendering
 renderLabel: aString value: anObject on: html
-	html tableRow: [
-		html tableHeading: aString.
-		html tableData: anObject ]
+	html tableRow
+		id: aString;
+		with: [ 
+			html tableHeading: aString.
+			html tableData: anObject ]

@@ -8,4 +8,4 @@ renderContentOn: html
 	html anchor
 		callback: [
 			self answer: true ];
-		with: 'Suceed validation'
+		with: 'Succeed validation'

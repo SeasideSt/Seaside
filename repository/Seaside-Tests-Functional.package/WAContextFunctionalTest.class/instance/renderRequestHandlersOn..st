@@ -1,6 +1,7 @@
 rendering
-renderRequestHandlersOn: html 
-	html tableRow: [
+renderRequestHandlersOn: html
+	html tableRow: [ 
 		html tableHeading: 'Request Handlers:'.
-		html tableData: [ 
-			html orderedList list: self requestContext handlers ] ]
+		html tableData
+			id: 'handlers';
+			with: [ html orderedList list: self requestContext handlers ] ]
