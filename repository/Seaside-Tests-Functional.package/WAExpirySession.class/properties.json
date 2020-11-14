@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WASession",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
 		"Created",
-		"Unregistered"
-	],
-	"instvars" : [ ],
+		"Unregistered" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAExpirySession",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }
