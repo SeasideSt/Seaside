@@ -20,8 +20,10 @@ jobs:
           sudo apt install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
-      - name: remove gsdevkitSysSetup file...
-        run: sudo rm -f /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/.gsdevkitSysSetup
+      - name: prereqs...
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get -y install libssl1.0.0:i386
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
