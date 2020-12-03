@@ -23,7 +23,7 @@ jobs:
       - name: prereqs...
         run: |
           sudo rm -f /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/.gsdevkitSysSetup
-          ls -al /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/
+          sudo ls -al /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/
           # sudo dpkg --add-architecture i386
           # sudo apt-get -y update
           # sudo apt-get -y install curl
