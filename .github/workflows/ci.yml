@@ -17,14 +17,9 @@ jobs:
       - name: Install Chrome
         run: |
           sudo apt install google-chrome-stable
-      # - uses: nanasess/setup-chromedriver@v1.0.1
-      # - name: Start Selenoid Server
-      #   uses: Xotabu4/selenoid-github-action@v1
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name Run tests
-        # env:
-        #   SELENIUM_HUB_HOST: 'localhost'
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 20
