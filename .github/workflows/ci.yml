@@ -23,6 +23,21 @@ jobs:
       - name: prereqs...
         run: |
           sudo dpkg --add-architecture i386
+          sudo apt-get -y update
+          sudo apt-get -y install curl
+          sudo apt-get -y install git
+          sudo apt-get -y install zip
+          sudo apt-get -y install unzip
+          sudo apt-get -y install libpam0g:i386
+          sudo apt-get -y install gcc-multilib libstdc++6:i386
+          sudo apt-get -y install gdb
+          sudo apt-get -y install libfreetype6:i386
+          sudo apt-get -y install pstack
+          sudo /bin/su -c "echo 'kernel.yama.ptrace_scope = 0' >>/etc/sysctl.d/10-ptrace.conf"
+          if [ "${x11client}" = "true" ] ; then
+            sudo apt-get -y install libgl1-mesa-glx:i386
+            sudo apt-get -y install libxcb-dri2-0:i386
+          fi
           sudo apt-get -y install libssl1.0.0:i386
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
