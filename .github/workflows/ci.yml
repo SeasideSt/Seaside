@@ -14,6 +14,10 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@1.1.0
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
+      - name: Install Chrome and Firefox
+        run: |
+          sudo apt install google-chrome-stable
+      - uses: nanasess/setup-chromedriver@v1.0.1
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
-        timeout-minutes: 15
+        timeout-minutes: 20
