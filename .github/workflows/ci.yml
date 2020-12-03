@@ -1,0 +1,19 @@
+name: "CI"
+on: [push, pull_request]
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: npm ci
+    - run: npm test
+
+  self-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: hpi-swa/setup-smalltalkCI@1.1.0
+      with:
+        smalltalk-version: 'Pharo64-stable'
+    - run: smalltalkci --help
