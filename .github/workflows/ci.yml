@@ -1,19 +1,19 @@
-name: "CI"
+name: smalltalkCI
+
 on: [push, pull_request]
 
 jobs:
-  npm:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        smalltalk: [ Squeak64-trunk, Pharo64-stable ]
+    name: ${{ matrix.smalltalk }}
     steps:
-    - uses: actions/checkout@v1
-    - run: npm ci
-    - run: npm test
-
-  self-test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - uses: hpi-swa/setup-smalltalkCI@1.1.0
-      with:
-        smalltalk-version: 'Pharo64-stable'
-    - run: smalltalkci --help
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@1.1.0
+        with:
+          smalltalk-version: ${{ matrix.smalltalk }}
+      - run: smalltalkci -s ${{ matrix.smalltalk }}
+        shell: bash
+        timeout-minutes: 15
