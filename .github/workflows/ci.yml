@@ -19,7 +19,7 @@ jobs:
           sudo apt install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
-      - name Run tests
+      - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 20
