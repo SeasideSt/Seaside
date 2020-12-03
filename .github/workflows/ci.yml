@@ -21,8 +21,7 @@ jobs:
       # - name: Start Selenoid Server
       #   uses: Xotabu4/selenoid-github-action@v1
       - name: Install selenium
-        run: npm install selenium-standalone
-        run: npx selenium-standalone install && npx selenium-standalone start &
+        run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name Run tests
         # env:
         #   SELENIUM_HUB_HOST: 'localhost'
