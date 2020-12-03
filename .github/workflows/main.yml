@@ -1,0 +1,2 @@
+- name: Setup smalltalkCI
+  uses: hpi-swa/setup-smalltalkCI@1.1.0
