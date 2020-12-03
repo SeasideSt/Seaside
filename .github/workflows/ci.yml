@@ -4,8 +4,9 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     strategy:
+      fail-fast: false
       matrix:
         smalltalk: [ Pharo64-stable, GemStone64-3.4.5 ]
     name: ${{ matrix.smalltalk }}
