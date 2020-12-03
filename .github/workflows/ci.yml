@@ -22,19 +22,22 @@ jobs:
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: prereqs...
         run: |
-          sudo dpkg --add-architecture i386
-          sudo apt-get -y update
-          sudo apt-get -y install curl
-          sudo apt-get -y install git
-          sudo apt-get -y install zip
-          sudo apt-get -y install unzip
-          sudo apt-get -y install libpam0g:i386
-          sudo apt-get -y install gcc-multilib libstdc++6:i386
-          sudo apt-get -y install gdb
-          sudo apt-get -y install libfreetype6:i386
-          sudo apt-get -y install pstack
-          sudo /bin/su -c "echo 'kernel.yama.ptrace_scope = 0' >>/etc/sysctl.d/10-ptrace.conf"
-          sudo apt-get -y install libssl1.0.0:i386
+          sudo rm -f /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/.gsdevkitSysSetup
+          ls -al /home/runner/.smalltalkCI/_builds/GsDevKit_home/bin/
+          # sudo dpkg --add-architecture i386
+          # sudo apt-get -y update
+          # sudo apt-get -y install curl
+          # sudo apt-get -y install git
+          # sudo apt-get -y install zip
+          # sudo apt-get -y install unzip
+          # sudo apt-get -y install libpam0g:i386
+          # sudo apt-get -y install gcc-multilib libstdc++6:i386
+          # sudo apt-get -y install gdb
+          # sudo apt-get -y install libfreetype6:i386
+          # sudo apt-get -y install pstack
+          # sudo /bin/su -c "echo 'kernel.yama.ptrace_scope = 0' >>/etc/sysctl.d/10-ptrace.conf"
+          # sudo apt-get -y install libssl1.0.0:i386
+          # sudo ln -f -s /usr/lib/i386-lin-gnu/libstdc++.so.6 /usr/lib/i386-linux-gnu/libstdc++.so
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
