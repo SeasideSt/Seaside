@@ -10,9 +10,14 @@ jobs:
       matrix:
         smalltalk: [ Pharo-5.0, Pharo-6.1, Pharo64-7.0, Pharo64-8.0, GemStone-3.1.0.6,  GemStone-3.2.17, GemStone-3.3.9, GemStone64-3.4.5,  GemStone-3.5.4 ]
         experimental: [ false ]
-        # include:
-        #   - smalltalk: [ Pharo64-9.0, Squeak-5.2, Squeak-5.1 ]
-        #     experimental: true
+        include:
+          - smalltalk: Pharo64-9.0
+            experimental: true
+          - smalltalk: Squeak-5.2
+            experimental: true
+          - smalltalk: Squeak-5.1
+            experimental: true
+    continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
       - uses: actions/checkout@v2
