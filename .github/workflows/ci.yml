@@ -20,25 +20,13 @@ jobs:
           sudo apt install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
-      - uses: actions/checkout@v2
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
+      # - uses: actions/checkout@v2
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
       - name: prereqs...
         run: |
-          sudo dpkg --add-architecture i386
-          sudo apt-get -y update
-          sudo apt-get -y install curl
-          sudo apt-get -y install git
-          sudo apt-get -y install zip
-          sudo apt-get -y install unzip
-          sudo apt-get -y install libpam0g:i386
-          sudo apt-get -y install gcc-multilib libstdc++6:i386
-          sudo apt-get -y install gdb
-          sudo apt-get -y install libfreetype6:i386
-          sudo apt-get -y install pstack
-          sudo /bin/su -c "echo 'kernel.yama.ptrace_scope = 0' >>/etc/sysctl.d/10-ptrace.conf"
-          sudo apt-get -y install libssl1.0.0:i386
-          sudo ln -f -s /usr/lib/i386-lin-gnu/libstdc++.so.6 /usr/lib/i386-linux-gnu/libstdc++.so
+          git clone https://github.com/GsDevKit/GsDevKit_home.git
+          ./GsDevKit_home/bin/utils/installOsPrereqs
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
