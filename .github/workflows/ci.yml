@@ -8,7 +8,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-8.0 , GemStone64-3.4.5  ]
+        smalltalk: [ Pharo-5.0, Pharo-6.1, Pharo64-7.0, Pharo64-8.0, GemStone-3.1.0.6,  GemStone-3.2.17, GemStone-3.3.9, GemStone64-3.4.5,  GemStone-3.5.4 ]
+        experimental: [ false ]
+        include:
+          - smalltalk: [ Pharo64-9.0, Squeak-5.2, Squeak-5.1 ]
+            experimental: true
     name: ${{ matrix.smalltalk }}
     steps:
       - uses: actions/checkout@v2
@@ -20,7 +24,7 @@ jobs:
           sudo apt install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
-      - name: prereqs...
+      - name: Fix missing OS prerequisites for GemStone builds
         run: |
           git clone https://github.com/GsDevKit/GsDevKit_home.git
           ./GsDevKit_home/bin/utils/installOsPrereqs
