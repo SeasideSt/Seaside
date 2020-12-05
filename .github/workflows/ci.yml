@@ -27,6 +27,7 @@ jobs:
         run: |
           git clone https://github.com/GsDevKit/GsDevKit_home.git
           ./GsDevKit_home/bin/utils/installOsPrereqs
+        continue-on-error: true
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
