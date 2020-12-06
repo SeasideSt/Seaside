@@ -1,5 +1,5 @@
 testing
-testWAUrlDecodingFunctionalTest
+testUrlDecodingFunctionalTest
 	
 	self selectTest: 'WAUrlDecodingFunctionalTest'.
 	

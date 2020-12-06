@@ -1,5 +1,5 @@
 testing
-testWATrailFunctionalTest
+testTrailFunctionalTest
 	| item3 currentItem |
 	self selectTest: 'WATrailFunctionalTest'.
 	

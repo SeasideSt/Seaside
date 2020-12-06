@@ -1,5 +1,5 @@
 testing
-testWAHtml5InputTest
+testHtml5InputTest
 
 	self selectTest: 'WAHtml5InputTest'.
 	

@@ -1,5 +1,5 @@
 testing
-testWAUrlEncodingFunctionalTest
+testUrlEncodingFunctionalTest
 	| checkAction |
 	self selectTest: 'WAUrlEncodingFunctionalTest'.
 	

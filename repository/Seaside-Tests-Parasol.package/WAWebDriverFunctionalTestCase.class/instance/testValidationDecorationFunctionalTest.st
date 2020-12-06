@@ -1,5 +1,5 @@
 testing
-testWAValidationDecorationFunctionalTest
+testValidationDecorationFunctionalTest
 
 	self selectTest: 'WAValidationDecorationFunctionalTest'.
 	

@@ -1,5 +1,5 @@
 testing
-testWATreeFunctionalTest
+testTreeFunctionalTest
 	
 	self selectTest: 'WATreeFunctionalTest'.
 	

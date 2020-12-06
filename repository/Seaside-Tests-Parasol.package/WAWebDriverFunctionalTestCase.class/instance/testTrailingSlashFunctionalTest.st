@@ -1,5 +1,5 @@
 testing
-testWATrailingSlashFunctionalTest
+testTrailingSlashFunctionalTest
 	
 	self selectTest: 'WATrailingSlashFunctionalTest'.
 	
