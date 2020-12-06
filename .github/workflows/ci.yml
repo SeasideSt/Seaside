@@ -1,0 +1,41 @@
+name: smalltalkCI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    strategy:
+      fail-fast: false
+      matrix:
+        smalltalk: [ Pharo64-8.0, Pharo64-7.0, Pharo-6.1, Pharo-5.0, GemStone64-3.5.4, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
+        experimental: [ false ]
+        include:
+          - smalltalk: Pharo64-9.0
+            experimental: true
+          - smalltalk: Squeak-5.2
+            experimental: true
+          - smalltalk: Squeak-5.1
+            experimental: true
+    continue-on-error: ${{ matrix.experimental }}
+    name: ${{ matrix.smalltalk }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-version: ${{ matrix.smalltalk }}
+      - name: Install Chrome
+        run: |
+          sudo apt install google-chrome-stable
+      - name: Install selenium
+        run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
+      - name: Fix missing OS prerequisites for GemStone builds
+        run: |
+          git clone https://github.com/GsDevKit/GsDevKit_home.git
+          ./GsDevKit_home/bin/utils/installOsPrereqs
+        continue-on-error: true
+        if: startsWith(matrix.smalltalk,'GemStone')
+      - name: Run tests
+        run: smalltalkci -s ${{ matrix.smalltalk }}
+        shell: bash
+        timeout-minutes: 20
