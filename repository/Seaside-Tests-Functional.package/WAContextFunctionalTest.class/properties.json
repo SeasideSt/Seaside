@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAContextFunctionalTest",
-	"pools" : [
-		 ],
 	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAContextFunctionalTest",
+	"type" : "normal"
+}

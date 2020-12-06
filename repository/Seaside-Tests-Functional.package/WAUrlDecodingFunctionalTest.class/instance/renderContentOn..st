@@ -1,9 +1,8 @@
 rendering
 renderContentOn: html
-	| url anchor |
+	| anchor |
 	self renderExplanationOn: html.
 
-	url := self requestContext request url.
 	anchor := html anchor.
 	anchor url rawAddToPath: self testPath.
 	anchor

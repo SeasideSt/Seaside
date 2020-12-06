@@ -3,9 +3,9 @@ testDateSelectorFunctionalTest
 
 	| fromDate toDate fromDateSelects toDateSelects fromTime toTime fromTimeSelects toTimeSelects deltaTime fromDateAndTime deltaDuration toDateAndTime fromDateAndTimeSelects toDateAndTimeSelects |
 	self selectTest: 'WADateSelectorFunctionalTest'.
-	
-	fromDate := Date today.
-	toDate := Date today addDays: 300.
+
+  fromDate := Date fromString: '11/5/2020'.
+  toDate := fromDate addDays: 300.
 	
 	fromDateSelects := (((driver findElementByID: #dateForm) findElementByClassName: 'from') findElementsByTagName: 'select').
 	(BPSelect on: (fromDateSelects at: 1)) selectByValue: fromDate monthIndex greaseString.

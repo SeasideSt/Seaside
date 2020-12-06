@@ -5,4 +5,4 @@ startValidation
 			value ifFalse: [
 				WAValidationNotification signal: 'Validation Failed!' ] ];
 		yourself).
-	self inform: 'Validation Suceeded!'
+	self inform: 'Validation Succeeded!'

@@ -1,6 +1,8 @@
 rendering
 renderTreeOn: html
 	html strong: 'Selected:'.
-	html render: selected.
+	html span
+		id:'selecteditem';
+		with: selected.
 	
 	html render: tree
