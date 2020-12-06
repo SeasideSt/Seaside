@@ -3,7 +3,7 @@ testTreeFunctionalTest
 	
 	self selectTest: 'WATreeFunctionalTest'.
 	
-	self deny: (driver findElementByID: 'selecteditem') getText equals: 'Collection'.
+	self deny: (driver findElementByID: 'selecteditem') getText = 'Collection'.
 	(driver findElementByPartialLinkText: 'Collection') click.
 	self assert: (driver findElementByID: 'selecteditem') getText equals: 'Collection'.
 
@@ -15,9 +15,9 @@ testTreeFunctionalTest
 	
 	((driver findElementByPartialLinkText: 'SequenceableCollection') findElementByXPath: '../../span[contains(@class, ''button'')]') click.
 	
-	self assert: ((driver findElementsByClassName: 'label') detect: [ :e | e getText = 'Interval' ] ifNone: [ nil ]) notNil.
+	self assert: ((driver findElementsByClassName: 'label') anySatisfy: [ :e | e getText = 'Interval' ]).
 	self should: [ (driver findElementByPartialLinkText: 'Interval') ] raise: BPNoSuchElementException.
 	
 	((driver findElementByPartialLinkText: 'SequenceableCollection') findElementByXPath: '../../span[contains(@class, ''button'')]') click.
-	self assert: ((driver findElementsByClassName: 'label') detect: [ :e | e getText = 'Interval' ] ifNone: [ nil ]) isNil
+	self assert: ((driver findElementsByClassName: 'label') noneSatisfy: [ :e | e getText = 'Interval' ])
 	
