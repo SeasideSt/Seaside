@@ -94,7 +94,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ];
 			package: 'Seaside-Tests-Parasol' with: [
-				spec requires: #('Parasol' 'Seaside-Tests-Functional' ) ].
+				spec requires: #('Parasol' 'Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
 		spec 
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
