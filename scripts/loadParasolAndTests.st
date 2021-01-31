@@ -6,5 +6,10 @@ Metacello new
  repository: 'github://SeasideSt/Parasol:master/repository';
  onConflictUseLoaded;
  load: #('default').
-"Commit if executing this on GemStone"
-(Smalltalk at: #System ifAbsent:[ nil ]) ifNotNil: [ :systemClass | systemClass commit ].
+Metacello image
+ baseline:'Seaside3';
+ load: #('Parasol-Tests').
+"Commit if executing this on GemStone, save the image on other platforms"
+(Smalltalk at: #System ifAbsent:[ nil ]) 
+    ifNil:[ Smalltalk snapshot: true andQuit: false ]
+    ifNotNil: [ :systemClass | systemClass commit ].
