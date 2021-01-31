@@ -7,4 +7,4 @@ Metacello new
  onConflictUseLoaded;
  load: #('default').
 "Commit if executing this on GemStone"
-(Smalltalk at: #System) ifNotNil: [ :systemClass | systemClass commit ].
+(Smalltalk at: #System ifAbsent:[ nil ]) ifNotNil: [ :systemClass | systemClass commit ].
