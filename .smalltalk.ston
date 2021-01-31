@@ -29,7 +29,7 @@ SmalltalkCISpec {
   ],
   #postLoading : [
     SCICustomScript {
-      #path : 'scripts/loadParasol.st',
+      #path : 'scripts/loadParasol.st'
     }
   ],
   #testing : {
