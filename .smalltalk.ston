@@ -30,6 +30,9 @@ SmalltalkCISpec {
   #postLoading : [
     SCICustomScript {
       #path : 'scripts/loadParasol.st'
+    },
+    SCICustomScript {
+      #path : 'scripts/loadParasolTestsForSeaside.st'
     }
   ],
   #testing : {
