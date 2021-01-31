@@ -26,14 +26,6 @@ baselinecommon: spec
 	].
 
 	spec for: #'common' do: [
-		
-      spec
-			baseline: 'Parasol'
-        	with: [ 
-				spec
-					loads: #('default');
-					repository: 'github://SeasideSt/Parasol:master/repository' ].
-
 		spec
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
@@ -94,7 +86,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ];
 			package: 'Seaside-Tests-Parasol' with: [
-				spec requires: #('Parasol' 'Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
+				spec requires: #('Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
 		spec 
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
