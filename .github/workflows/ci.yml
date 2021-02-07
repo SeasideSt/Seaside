@@ -13,7 +13,7 @@ jobs:
         include:
           - smalltalk: Pharo64-alpha
             experimental: true
-          - smalltalk: Squeak-5.3
+          - smalltalk: Squeak64-5.3
             experimental: true
           - smalltalk: Squeak-5.2
             experimental: true
