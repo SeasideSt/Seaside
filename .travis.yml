@@ -19,7 +19,6 @@ matrix:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
     - smalltalk: Squeak-5.2   ### see https://github.com/SeasideSt/Seaside/issues/1229
-    - smalltalk: Pharo64-9.0
   
   include:
     - smalltalk: Pharo64-9.0
