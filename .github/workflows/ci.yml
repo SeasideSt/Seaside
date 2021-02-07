@@ -13,6 +13,8 @@ jobs:
         include:
           - smalltalk: Pharo64-alpha
             experimental: true
+          - smalltalk: Squeak-5.3
+            experimental: true
           - smalltalk: Squeak-5.2
             experimental: true
           - smalltalk: Squeak-5.1
@@ -29,12 +31,6 @@ jobs:
           sudo apt install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
-      - name: Fix missing OS prerequisites for GemStone builds
-        run: |
-          git clone https://github.com/GsDevKit/GsDevKit_home.git
-          ./GsDevKit_home/bin/utils/installOsPrereqs
-        continue-on-error: true
-        if: startsWith(matrix.smalltalk,'GemStone')
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
