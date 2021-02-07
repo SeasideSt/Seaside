@@ -8,6 +8,7 @@ Metacello new
  load: #('default').
 Metacello image
  baseline:'Seaside3';
+ onConflictUseLoaded;
  load: #('Parasol-Tests').
 "Commit if executing this on GemStone, save the image on other platforms"
 (Smalltalk at: #System ifAbsent:[ nil ]) 
