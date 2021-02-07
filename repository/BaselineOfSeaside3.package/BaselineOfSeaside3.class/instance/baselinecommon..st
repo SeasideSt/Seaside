@@ -7,7 +7,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('Grease-Core');
-					repository: 'github://SeasideSt/Grease:v1.6.x/repository' ].
+					repository: 'github://SeasideSt/Grease:v1.7.x/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] 
@@ -26,14 +26,6 @@ baselinecommon: spec
 	].
 
 	spec for: #'common' do: [
-		
-      spec
-			baseline: 'Parasol'
-        	with: [ 
-				spec
-					loads: #('default');
-					repository: 'github://SeasideSt/Parasol:master/repository' ].
-
 		spec
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
@@ -94,11 +86,11 @@ baselinecommon: spec
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ];
 			package: 'Seaside-Tests-Parasol' with: [
-				spec requires: #('Parasol' 'Seaside-Tests-Functional' ) ].
+				spec requires: #('Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
 		spec 
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
-			group: 'CI' with: #('Tests' 'Development Tests' 'Parasol-Tests');
+			group: 'CI' with: #('Tests' 'Development Tests');
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
 			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests');
 			group: 'Parasol-Tests' with: #('Seaside-Tests-Parasol');

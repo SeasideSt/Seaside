@@ -38,14 +38,28 @@ baselinerest: spec
 				spec includes: #('Seaside-Pharo-Swagger-Core' 'Seaside-Squeak-Swagger-Core') ]
 	].
 
-	spec for: #pharo do:[
-		spec
-			package: 'Seaside-Pharo20-REST-Core';
-			package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-Pharo20-REST-Core')];
-			package: 'Seaside-Pharo-Swagger-Core';
-			package: 'Seaside-Swagger-Core' with: [ 
-				spec includes: #('Seaside-Pharo-Swagger-Core') ]
+	spec 
+		for: #(#'pharo4.x' #'pharo5.x' #'pharo6.x' #'pharo7.x' #'pharo8.x') 
+		do:[
+			spec
+				package: 'Seaside-Pharo20-REST-Core';
+				package: 'Seaside-REST-Core' with:[
+					spec includes: #('Seaside-Pharo20-REST-Core')];
+				package: 'Seaside-Pharo-Swagger-Core';
+				package: 'Seaside-Swagger-Core' with: [ 
+					spec includes: #('Seaside-Pharo-Swagger-Core') ]
+	].
+
+	spec 
+		for: #(#'pharo9.x') 
+		do:[
+			spec
+				package: 'Seaside-Pharo90-REST-Core';
+				package: 'Seaside-REST-Core' with:[
+					spec includes: #('Seaside-Pharo90-REST-Core')];
+				package: 'Seaside-Pharo-Swagger-Core';
+				package: 'Seaside-Swagger-Core' with: [ 
+					spec includes: #('Seaside-Pharo-Swagger-Core') ]
 	].
 
 	spec for: #gemstone do:[

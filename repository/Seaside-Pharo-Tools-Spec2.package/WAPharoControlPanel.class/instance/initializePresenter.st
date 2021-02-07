@@ -1,5 +1,8 @@
 initialization
 initializePresenter
-	adaptors transmitTo: infos transform: [ :adaptor | adaptor controlPanelInfos ].
+
+	adaptors 
+		transmitTo: infos 
+		transform: [ :adaptor | adaptor ifNil: [ '' ] ifNotNil: [ :a | a controlPanelInfos ] ].
 
 	self updateAdaptorsTable

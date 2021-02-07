@@ -14,16 +14,11 @@ before_script:
   - "java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.chrome.logfile=\"${TRAVIS_BUILD_DIR}/chromedriver.log\" -Dwebdriver.chrome.args=--verbose -jar ${TRAVIS_BUILD_DIR}/selenium-server-standalone-3.141.59.jar -port 4444 -log ${TRAVIS_BUILD_DIR}/seleniumlog.txt &"
   - "sleep 3" #allow for all processes to start before testing
 
-aliases:
-  - &pharo4-has-latest-metacello
-    smalltalk_config: .pharo4.ston
-
 matrix:
   allow_failures:
     - smalltalk: Squeak-trunk
     - smalltalk: Squeak-5.1
     - smalltalk: Squeak-5.2   ### see https://github.com/SeasideSt/Seaside/issues/1229
-    - smalltalk: Pharo64-9.0
   
   include:
     - smalltalk: Pharo64-9.0
@@ -34,11 +29,6 @@ matrix:
       env: BUILD_NAME=Pharo64-7.0
     - smalltalk: Pharo-6.1
       env: BUILD_NAME=Pharo-6.1
-    - smalltalk: Pharo-5.0
-      env: BUILD_NAME=Pharo-5.0
-    - smalltalk: Pharo-4.0
-      env: BUILD_NAME=Pharo-4.0
-      <<: *pharo4-has-latest-metacello
   
     - smalltalk: Squeak-trunk
       env: BUILD_NAME=Squeak-trunk

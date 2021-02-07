@@ -9,11 +9,11 @@ createRoutesFrom: aClass to: aSuperClass
 			(seen includes: selector) ifFalse: [
 				| pragmas |
 				pragmas := method pragmas
-					select: [ :pragma | configuration includes: pragma keyword ].
+					select: [ :pragma | configuration includes: (GRPlatform current selectorOfPragma: pragma) ].
 				pragmas isEmpty ifFalse: [
 					routes add: (pragmas
 						inject: (self on: method)
-						into: [ :builder :pragma | builder perform: pragma keyword withArguments: pragma arguments ])
+						into: [ :builder :pragma | builder perform: (GRPlatform current selectorOfPragma: pragma) withArguments: pragma arguments ])
 							create ].
 				seen add: selector ] ].
 		current = aSuperClass

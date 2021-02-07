@@ -27,6 +27,11 @@ SmalltalkCISpec {
       #platforms : [ #gemstone ]
     }
   ],
+  #postLoading : [
+    SCICustomScript {
+      #path : 'scripts/loadParasolAndTests.st'
+    }
+  ],
   #testing : {
       #exclude : {
         #packages : [ 'Cryptography.*' ]

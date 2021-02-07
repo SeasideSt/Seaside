@@ -7,7 +7,7 @@ sourceCallback: aOneArgumentBlock
 	http://code.google.com/p/glassdb/issues/detail?id=152"
 	term := WAValueHolder new.
 	self source: ((self jQuery getJson
-		text: [ :stream | stream json: (aOneArgumentBlock value: term contents) ];
+		json: [ :stream | stream value: (aOneArgumentBlock value: term contents) ];
 		callback: [ :value | term contents: value ] value: (JSStream on: 'request.term');
 		onSuccess: 'response(arguments[0])'; 
 		dataType: 'jsonp') asFunction: #('request' 'response'))
