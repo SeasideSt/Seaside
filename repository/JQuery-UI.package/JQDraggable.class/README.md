@@ -1,1 +1,0 @@
-Creates new draggables on the nodeset supplied by the query.

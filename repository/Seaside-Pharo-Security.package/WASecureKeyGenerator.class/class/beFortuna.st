@@ -1,3 +1,0 @@
-public
-beFortuna
-	generator := #fortuna

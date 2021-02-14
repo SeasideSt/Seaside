@@ -1,3 +1,0 @@
-private callbacks
-day
-	^ day

@@ -1,1 +1,0 @@
-I make a copy of an application.

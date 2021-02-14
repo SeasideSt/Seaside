@@ -1,3 +1,0 @@
-private
-spaceEntity
-	^ '&#160;'

@@ -1,1 +1,0 @@
-Insertion provides a cross-browser solution to the dynamic insertion of HTML snippets (or plain text, obviously). Comes in four flavors: After, Before, Bottom and Top, which behave just as expected.

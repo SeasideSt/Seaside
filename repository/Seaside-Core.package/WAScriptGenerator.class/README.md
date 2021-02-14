@@ -1,1 +1,0 @@
-I am responsible to render the loadscripts and make them run on page load. See subclasses for different strategies.

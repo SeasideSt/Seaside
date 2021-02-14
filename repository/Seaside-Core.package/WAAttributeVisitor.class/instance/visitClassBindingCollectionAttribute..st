@@ -1,3 +1,0 @@
-visiting
-visitClassBindingCollectionAttribute: anAttribute
-	self visitListAttribute: anAttribute

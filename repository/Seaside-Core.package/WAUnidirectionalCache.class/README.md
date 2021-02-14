@@ -1,1 +1,0 @@
-I support only key -> value mappings and never forget anything.

@@ -1,3 +1,0 @@
-private
-sessionId
-	^ self remoteAddress

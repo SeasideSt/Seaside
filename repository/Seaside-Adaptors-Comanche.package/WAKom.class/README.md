@@ -1,1 +1,0 @@
-Compatibility class to maintain WAKom interface from Seaside 2.8 and older.

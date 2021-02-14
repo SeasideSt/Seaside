@@ -1,3 +1,0 @@
-defaults
-defaultCodec
-	^ GRNullCodec new

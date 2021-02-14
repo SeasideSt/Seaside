@@ -1,3 +1,0 @@
-testing
-isStopping
-	self subclassResponsibility

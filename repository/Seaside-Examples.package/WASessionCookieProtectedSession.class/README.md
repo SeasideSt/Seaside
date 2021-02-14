@@ -1,1 +1,0 @@
-I am a session with a WASessionCookieProtectionFilter.

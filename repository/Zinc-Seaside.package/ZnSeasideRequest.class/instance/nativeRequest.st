@@ -1,3 +1,0 @@
-accessing
-nativeRequest
-	^ nativeRequest

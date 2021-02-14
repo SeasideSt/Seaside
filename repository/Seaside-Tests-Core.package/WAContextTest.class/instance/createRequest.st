@@ -1,3 +1,0 @@
-configuration
-createRequest
-	^ WARequest new

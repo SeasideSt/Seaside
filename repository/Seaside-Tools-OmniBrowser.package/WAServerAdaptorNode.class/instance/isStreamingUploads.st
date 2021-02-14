@@ -1,3 +1,0 @@
-testing
-isStreamingUploads
-	^ adaptor streamUploads

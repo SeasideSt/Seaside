@@ -1,5 +1,0 @@
-class initialization
-initialize
-	self configureApplicationDefaults.
-	self registerDefaultRequestHandlers.
-	self registerDefaultComponents

@@ -1,1 +1,0 @@
-I work as a container to delegate the rendering to another object.

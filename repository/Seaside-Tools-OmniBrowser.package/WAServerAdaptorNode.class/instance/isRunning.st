@@ -1,3 +1,0 @@
-testing
-isRunning
-	^ adaptor isRunning

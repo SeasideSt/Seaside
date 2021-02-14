@@ -1,3 +1,0 @@
-copying
-copyTo: aRequestHandler
-	^ aRequestHandler

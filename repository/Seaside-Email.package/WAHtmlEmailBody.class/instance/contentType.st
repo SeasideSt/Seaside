@@ -1,3 +1,0 @@
-accessing
-contentType
-	^ WAMimeType textHtml

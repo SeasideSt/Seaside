@@ -1,1 +1,0 @@
-A WAResponseNotification is signaled whenever the application server wants to return a response back to the client.

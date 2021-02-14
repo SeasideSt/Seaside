@@ -1,3 +1,0 @@
-scripts
-initOffsetScript
-	^ self subclassResponsibility

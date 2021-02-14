@@ -1,3 +1,0 @@
-testing
-isPlainText
-	^ false

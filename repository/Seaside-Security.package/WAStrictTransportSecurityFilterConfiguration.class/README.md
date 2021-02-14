@@ -1,1 +1,0 @@
-I am the configuration for WAStrictTransportSecurityFilter.

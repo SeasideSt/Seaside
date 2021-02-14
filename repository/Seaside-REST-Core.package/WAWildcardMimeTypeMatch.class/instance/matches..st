@@ -1,3 +1,0 @@
-testing
-matches: aMimeType
-	^ true

@@ -1,3 +1,0 @@
-testing
-matchesFlexibleNumberOfPathElements
-	^ self isOverlyComplex

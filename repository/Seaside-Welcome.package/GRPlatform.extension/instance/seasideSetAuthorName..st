@@ -1,3 +1,0 @@
-*seaside-welcome
-seasideSetAuthorName: anAuthorName
-	self subclassResponsibility

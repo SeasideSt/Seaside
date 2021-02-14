@@ -1,1 +1,0 @@
-A RRSystemConfiguration is the configuration of an RRRssHandler.

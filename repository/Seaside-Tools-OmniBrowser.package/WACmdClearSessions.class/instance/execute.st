@@ -1,3 +1,0 @@
-execution
-execute
-	WAAdmin clearSessions

@@ -1,1 +1,0 @@
-I represent the attributes of a (X)(HT)ML tag. Compared to my superclass I ignore requests to add a nil-values. I also don't throw an exception when accessing a key that doesn't exist, but instead return nil.
