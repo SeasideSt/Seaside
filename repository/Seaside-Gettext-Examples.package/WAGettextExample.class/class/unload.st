@@ -1,3 +1,3 @@
 class initialization
 unload
-	TextDomainManager unregisterDomain: 'gettext'
+	TextDomainManager unregisterDomain: 'seaside-gettext-example'

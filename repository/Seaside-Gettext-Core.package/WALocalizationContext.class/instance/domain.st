@@ -1,6 +1,6 @@
 accessing
 domain
-	domain isNil ifTrue: [
+	domain ifNil: [
 		"determine the domain name
 		1. try if it is configured on the application
 		2. use the application name
