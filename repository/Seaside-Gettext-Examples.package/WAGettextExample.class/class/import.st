@@ -1,5 +1,5 @@
 localization
 import
-	"NaturalLanguageTranslator translators valuesDo: [ :each |
-		each reloadMOFiles ]."
-	NaturalLanguageTranslator reset
+"	GetTextTranslator translators valuesDo: [ :each |
+		each refresh ]."
+	GetTextTranslator reset

@@ -3,7 +3,9 @@ register
 	| application |
 	application := WAAdmin 
 		register: self
-		asApplicationAt: 'gettext'.
-	application preferenceAt: #sessionClass put: WAGettextExampleSession.
+		asApplicationAt: 'examples/gettext'.
 	application configuration addParent: WAGetTextConfiguration instance.
-	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'.
+	application preferenceAt: #sessionClass put: WAGettextExampleSession.
+	application preferenceAt: #gettextDomain put: 'seaside-gettext-example'.
+
+	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'seaside-gettext-example'.
