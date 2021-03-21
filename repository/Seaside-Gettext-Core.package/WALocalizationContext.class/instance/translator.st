@@ -1,5 +1,5 @@
 accessing
 translator
-	translator isNil ifTrue: [
+	translator ifNil: [
 		translator := GetTextTranslator availableForLocaleID: self localeId ].
 	^ translator

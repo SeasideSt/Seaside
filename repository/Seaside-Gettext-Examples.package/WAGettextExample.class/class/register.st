@@ -8,4 +8,4 @@ register
 	application preferenceAt: #sessionClass put: WAGettextExampleSession.
 	application preferenceAt: #gettextDomain put: 'seaside-gettext-example'.
 
-	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'seaside-gettext-example'.
+	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'seaside-gettext-example'
