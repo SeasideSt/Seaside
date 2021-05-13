@@ -123,6 +123,8 @@ If you would like to contribute, please visit the [Seaside's contributors page](
 Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more information.
 
 ## Status of automated builds
+[![smalltalkCI](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml) See https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml
+
 See the travis dashboard: https://travis-ci.org/SeasideSt/Seaside/branches
 
 ### master
@@ -134,6 +136,8 @@ Pharo | Squeak | GemStone/S
 [![Build status: Pharo-6.1](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-6.1&label=6.1)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.3.9](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.3.9&label=3.3.9)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-5.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-5.0&label=5.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.2.17](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.2.17&label=3.2.17)](http://travis-ci.org/SeasideSt/Seaside)
 [![Build status: Pharo-4.0](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=Pharo-4.0&label=4.0)](http://travis-ci.org/SeasideSt/Seaside) | - | [![Build status: GemStone-3.1.0.6](http://badges.herokuapp.com/travis/SeasideSt/Seaside?branch=master&env=BUILD_NAME=GemStone-3.1.0.6&label=3.1.0.6)](http://travis-ci.org/SeasideSt/Seaside)
+
+
 
 
 ### development
