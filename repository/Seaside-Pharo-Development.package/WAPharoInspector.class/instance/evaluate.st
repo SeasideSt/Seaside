@@ -1,6 +1,7 @@
 actions
 evaluate
 	^ self object class compilerClass new
-		evaluate: input
-		in: thisContext
-		to: self object
+		source: input;
+		context: thisContext;
+		receiver: self object;
+		evaluate
