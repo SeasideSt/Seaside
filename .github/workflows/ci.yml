@@ -46,7 +46,7 @@ jobs:
           ref: ${{ github.event.workflow_dispatch.ref }}
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalk-version: ${{ matrix.smalltalk }}
+          smalltalk-image: ${{ matrix.smalltalk }}
       - name: Install Chrome
         run: |
           sudo apt install google-chrome-stable
