@@ -10,6 +10,8 @@ Metacello image
  baseline:'Seaside3';
  onConflictUseLoaded;
  load: #('Parasol-Tests').
+"Set the testcase timeout long enough for the webdriver tests"
+TestCase defaultTimeLimit: (Duration minutes: 5).
 "Commit if executing this on GemStone, save the image on other platforms"
 (Smalltalk at: #System ifAbsent:[ nil ]) 
     ifNil:[ Smalltalk snapshot: true andQuit: false ]
