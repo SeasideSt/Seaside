@@ -1,0 +1,1 @@
+I represent illegal use of ring buffer methods.

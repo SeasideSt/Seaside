@@ -42,10 +42,11 @@ baselineadaptors: spec
 				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
 				package: 'KomHttpServerLight' with: [ spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ];
-				package: 'Zinc-Seaside' with: [ spec requires: #('Seaside-Core') ].
+				package: 'Zinc-Seaside' with: [ spec requires: #('Seaside-Core') ];
+				package: 'Zinc-Seaside-Pharo' with: [ spec requires: #('Zinc-Seaside') ].
 			spec
 				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
-				group: 'Zinc' with: #('Zinc-Seaside');
+				group: 'Zinc' with: #('Zinc-Seaside' 'Zinc-Seaside-Pharo');
 				group: 'default' with: #('Zinc');
 				group: 'CI' with: #('Zinc') ].
 

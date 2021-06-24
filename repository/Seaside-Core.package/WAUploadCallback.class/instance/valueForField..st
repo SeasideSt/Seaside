@@ -1,3 +1,3 @@
 converting
 valueForField: anObject
-	^ (anObject isKindOf: WAFile) ifTrue: [ anObject ]
+	^ (anObject isKindOf: WAAbstractFile) ifTrue: [ anObject ]
