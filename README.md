@@ -16,7 +16,7 @@ Seaside also has good support for [CSS and Javascript](https://github.com/Seasid
 
 Seaside is composed of different parts, allowing you to only load the parts you need for your project. If you are new to Seaside, we advise you to load the default set of packages by simply following the load instructions below. If you want to load specific (or additional) parts of Seaside, check out the [list of groups and packages](https://github.com/SeasideSt/Seaside/wiki/Seaside-Load-Groups-and-Packages).
 
-We provide instructions to get started with Seaside in [Pharo](http://www.pharo-project.org), [Gemstone](https://gemtalksystems.com/products/gs64/) or [Squeak](http://www.squeak.org). See the appropriate instructions for your platform below.
+We provide instructions to get started with Seaside in [Pharo](http://www.pharo-project.org), [Gemstone](https://gemtalksystems.com/products/gs64/), [Squeak](http://www.squeak.org) or the [VAST Platform](https://www.instantiations.com/vast-platform/). See the appropriate instructions for your platform below.
 
 ### Instructions for Pharo
 
@@ -54,7 +54,7 @@ To install the latest stable version of Seaside in a [Gemstone](https://gemtalks
     load.
   (Smalltalk at: #GsUpgrader) upgradeGrease.
   ```
-  
+
 2. Install Seaside:
 
   Install the latest commit from the master branch:
@@ -76,7 +76,7 @@ To install the latest stable version of Seaside in a [Gemstone](https://gemtalks
       onLock: [:ex | ex honor];
       load: #('Development' 'Examples' 'Zinc') ].
   ```
-  
+
 ### Instructions for Squeak
 
 #### Squeak >= 5.2
@@ -110,6 +110,23 @@ Metacello new
  version: '3.1.0';
  load
 ```
+
+
+### Instructions for VAST Platform
+
+Seaside is an official vendor supported framework that can be installed using VAST's feature loading tool GUI. In addition, it can be installed programmatically as shown below.   
+
+#### Load Seaside
+To install the latest stable version of Seaside in a [VAST Platform](https://www.instantiations.com/vast-platform/) image, execute the following code:
+
+```Smalltalk
+(EmConfigurationMap editionsFor: 'z.ST: Server Smalltalk (SST) - Seaside')
+ first loadWithRequiredMaps
+```
+
+
+
+
 
 ## Community
 Check out the Add-on libraries and projects related to Seaside: https://github.com/SeasideSt/Seaside/wiki/Add-On-Libraries
