@@ -8,7 +8,10 @@ commit
 	self headerAt: 'Transfer-Encoding' put: 'chunked'.
 
 	committed := true.
-	self writeStatusOn: externalStream.
-	self writeHeadersOn: externalStream.
-	self writeCookiesOn: externalStream.
-	externalStream crlf; flush
+	self
+		writeStatusOn: externalStream;
+		writeHeadersOn: externalStream;
+		writeCookiesOn: externalStream.
+	externalStream
+		crlf;
+		flush
