@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WADecoration",
+	"category" : "Seaside-Tests-Canvas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tagName"
+	],
+	"name" : "WACanvasTestDecoration",
+	"type" : "normal"
+}
