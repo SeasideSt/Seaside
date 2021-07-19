@@ -1,15 +1,14 @@
 {
-	"category" : "JQuery-Tests-UI-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "JQAllFunctionalTests",
+	"category" : "JQuery-Tests-UI-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"themes",
-		"theme" ],
+		"theme"
+	],
 	"name" : "JQUiAllFunctionalTests",
-	"pools" : [
-		 ],
-	"super" : "JQAllFunctionalTests",
-	"type" : "normal" }
+	"type" : "normal"
+}
