@@ -7,7 +7,7 @@ baselinescriptaculous: spec
 			package: 'Prototype-Core' with: [
 				spec requires: #('Javascript-Core' ) ];
 			package: 'Prototype-Tests-Core' with: [
-				spec requires: #('Prototype-Core' 'Javascript-Tests-Core' 'Seaside-Tests-Functional') ];
+				spec requires: #('Prototype-Core' 'Javascript-Tests-Core' 'Seaside-Tests-Functional' 'Seaside-Test-Cavas' ) ];
 			package: 'Scriptaculous-Core' with: [
 				spec requires: #('Prototype-Core') ];
 			package: 'Scriptaculous-Tests-Core' with: [
