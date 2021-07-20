@@ -15,8 +15,8 @@ decodePercent: aString from: start to: end
 		output nextPut: (char = $%
 			ifTrue: [
 				| firstByte secondByte |
-				firstByte :=  input atEnd ifTrue: [ WAInvalidUrlSyntaxError signal: aString ] ifFalse: [ input next asUppercase digitValue ].
-				secondByte :=  input atEnd ifTrue: [ WAInvalidUrlSyntaxError signal: aString ] ifFalse: [ input next asUppercase digitValue ].
+				firstByte :=  self readHexFrom: input errorDetail: aString.
+				secondByte :=  self readHexFrom: input errorDetail: aString.
 				left := left - 3.
 				Character codePoint:firstByte * 16 + secondByte ]
 			ifFalse: [
