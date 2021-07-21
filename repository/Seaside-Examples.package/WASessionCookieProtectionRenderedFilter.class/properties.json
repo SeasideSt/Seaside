@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EstebanMaringolo 7/19/2021 17:09",
+	"super" : "WASessionCookieProtectionFilter",
+	"category" : "Seaside-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASessionCookieProtectionRenderedFilter",
+	"type" : "normal"
+}
