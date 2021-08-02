@@ -1,5 +1,5 @@
 configuration methods
-patch
+head
 	<configuration>
 	
-	self method: 'PATCH'
+	self method: 'HEAD'

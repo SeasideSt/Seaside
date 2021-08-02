@@ -14,4 +14,7 @@ testMethod
 	self assert: route method = 'PATCH'.
 	
 	route := WARoute options: #options.
-	self assert: route method = 'OPTIONS'
+	self assert: route method = 'OPTIONS'.
+	
+	route := WARoute head: #head.
+	self assert: route method = 'HEAD'

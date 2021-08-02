@@ -7,4 +7,7 @@ httpMethodNames
 		MOVE
 		POST
 		PUT
+		HEAD
+		OPTIONS
+		PATCH
 	)
