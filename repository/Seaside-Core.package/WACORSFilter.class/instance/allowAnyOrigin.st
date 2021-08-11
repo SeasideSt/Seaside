@@ -1,0 +1,6 @@
+origins
+allowAnyOrigin
+
+	self addAllowedOrigin: '*'
+
+	
