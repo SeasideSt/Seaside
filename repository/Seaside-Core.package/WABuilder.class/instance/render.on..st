@@ -7,6 +7,7 @@ render: anObject on: aStream
 	document := self documentClass on: aStream codec: self codec.
 	document scriptGenerator: self scriptGeneratorClass new.
 	context := WARenderContext new.
+	self rendererClass configureRenderContext: context.
 	context document: document.
 	context actionUrl: self actionUrl; resourceUrl: self resourceUrl.
 	renderer := self rendererClass context: context.
