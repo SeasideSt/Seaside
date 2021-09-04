@@ -33,6 +33,7 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+      #defaultTimeout : 20,
       #exclude : {
         #packages : [ 'Cryptography.*' ]
       },
