@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAComponent",
-	"category" : "Seaside-Tests-Canvas",
+	"category" : "Seaside-Tests-RenderLoop",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
