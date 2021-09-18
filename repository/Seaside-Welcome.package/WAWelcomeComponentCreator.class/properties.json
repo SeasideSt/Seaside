@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WATask",
-	"category" : "Seaside-Welcome",
+	"category" : "Seaside-Welcome-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

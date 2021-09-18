@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanMaringolo 7/19/2021 17:09",
 	"super" : "WASessionCookieProtectionFilter",
-	"category" : "Seaside-Examples",
+	"category" : "Seaside-Examples-Sessions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

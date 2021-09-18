@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WASessionContinuation",
-	"category" : "Seaside-Session",
+	"category" : "Seaside-Session-Continuations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

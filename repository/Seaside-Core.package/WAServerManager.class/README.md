@@ -1,0 +1,1 @@
+A server manager cares on the available Seaside server adopters
