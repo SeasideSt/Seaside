@@ -1,6 +1,7 @@
 accessing
 originTextToUrlTable
 
-	^ OrderedDictionary
-		  with: 'Same Origin' -> self sameOriginDataUrl
-		  with: 'Cross Origin' -> self crossOriginDataUrl
+	^ GRSmallDictionary2 new
+		  add: 'Same Origin' -> self sameOriginDataUrl;
+		  add: 'Cross Origin' -> self crossOriginDataUrl;
+		  yourself
