@@ -4,10 +4,12 @@ renderCORSFilterOriginsOn: html
 	html heading
 		level2;
 		with: 'Currently allowed Origins:'.
-	self corsFilter allowedOrigins
-		ifEmpty: [ html text: 'None' ]
-		ifNotEmpty: [ :origins | html unorderedList list: origins ].
-
+	html paragraph
+		id: 'allowed-origins';
+		with:[
+			self corsFilter allowedOrigins
+				ifEmpty: [ html text: 'None' ]
+				ifNotEmpty: [ :origins | html unorderedList list: origins ] ].
 
 	html form: [ 
 		html button
