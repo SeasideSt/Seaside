@@ -6,9 +6,7 @@ renderContentOn: html
 	(WACORSResourceExample corsAdaptor isNil or: [ 
 		 WACORSResourceExample corsAdaptor isRunning not ])
 		ifTrue: [ 
-			self renderAdaptorSetupOn: html	
-			
-		]
+			self renderAdaptorSetupOn: html ]
 		ifFalse: [ 
 			self corsFilter
 				ifNil: [ self renderResourceRegistrationOn: html ]

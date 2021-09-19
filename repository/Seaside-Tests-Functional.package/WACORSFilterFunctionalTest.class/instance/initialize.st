@@ -1,4 +1,0 @@
-private
-initialize 
-
-	super initialize.

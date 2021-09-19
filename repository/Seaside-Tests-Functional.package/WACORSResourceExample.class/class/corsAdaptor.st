@@ -1,4 +1,4 @@
 setup
 corsAdaptor
 
-	^corsAdaptor 
+	^ corsAdaptor 

@@ -1,4 +1,4 @@
 accessing
 allowedHeaders 
 
-	^allowedHeaders
+	^ allowedHeaders

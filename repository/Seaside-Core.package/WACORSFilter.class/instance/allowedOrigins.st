@@ -1,4 +1,4 @@
 accessing
 allowedOrigins 
 
-	^allowedOrigins ifNil: [ allowedOrigins := OrderedCollection new ]
+	^ allowedOrigins ifNil: [ allowedOrigins := OrderedCollection new ]

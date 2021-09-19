@@ -1,4 +1,4 @@
 accessing
 exposedHeaders 
 
-	^exposedHeaders
+	^ exposedHeaders

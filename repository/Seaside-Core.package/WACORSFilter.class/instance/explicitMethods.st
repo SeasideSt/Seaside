@@ -1,4 +1,4 @@
 methods
 explicitMethods
 
-	^#('GET' 'POST' 'HEAD')
+	^ #('GET' 'POST' 'HEAD')

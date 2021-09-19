@@ -8,4 +8,4 @@ handleFiltered: aRequestContext
 		ifFalse: [ 
 			(self isCORS: aRequestContext request) 
 				ifTrue: [ self handleCORSFiltered: aRequestContext ]
-				ifFalse: [ super handleFiltered: aRequestContext ]]
+				ifFalse: [ super handleFiltered: aRequestContext ] ]

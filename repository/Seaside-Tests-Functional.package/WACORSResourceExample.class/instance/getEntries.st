@@ -5,4 +5,4 @@ getEntries
 	<path: 'entries'>
 	<produces: 'application/json'>
 
-	^self sampleData asJson
+	^ self sampleData asJson

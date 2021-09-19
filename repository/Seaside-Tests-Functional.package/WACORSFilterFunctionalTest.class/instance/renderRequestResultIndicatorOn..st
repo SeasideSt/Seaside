@@ -2,5 +2,4 @@ rendering
 renderRequestResultIndicatorOn: html
 
 	html div
-		id: 'result';
-		with: [  ]
+		id: 'result'

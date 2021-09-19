@@ -1,7 +1,7 @@
 accessing-urls
 style 
 
-	^'#result { 
+	^ '#result { 
 		width: 200px;
 		height: 40px;
 		color: white;
