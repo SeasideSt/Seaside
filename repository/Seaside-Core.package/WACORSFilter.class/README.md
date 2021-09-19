@@ -1,0 +1,1 @@
+Implements a WARequestFilter that adds support to handle CORS requests.
