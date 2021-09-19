@@ -9,15 +9,10 @@ startAdaptors
 			self registerCorsAdaptor ]
 		ifNotEmpty: [ :adaptors | 
 			originAdaptor := adaptors
-				                 detect: [ :one | 
-				                 one port = self originAdaptorPort ]
-				                 ifFound: [ :adaptor | adaptor start ]
-				                 ifNone: [ 
-				                 (self concreteAdaptorClass port:
-					                  self originAdaptorPort) start ].
+				                 detect: [ :one | one port = self originAdaptorPort ]
+				                 ifNone: [ self concreteAdaptorClass port: self originAdaptorPort ].
+			originAdaptor start.
 			corsAdaptor := adaptors
 				               detect: [ :one | one port = self corsAdaptorPort ]
-				               ifFound: [ :adaptor | adaptor start ]
-				               ifNone: [ 
-				               (self concreteAdaptorClass port:
-					                self corsAdaptorPort) start ] ]
+				               ifNone: [ self concreteAdaptorClass port: self corsAdaptorPort ].
+			corsAdaptor start ]
