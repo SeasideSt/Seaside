@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/8/2017 18:37",
 	"super" : "WACookieIfSupportedSessionTrackingStrategy",
-	"category" : "Seaside-Session",
+	"category" : "Seaside-Session-Tracking",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

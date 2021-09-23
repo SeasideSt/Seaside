@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/10/2018 09:06",
 	"super" : "WARegistry",
-	"category" : "Seaside-Session",
+	"category" : "Seaside-Session-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

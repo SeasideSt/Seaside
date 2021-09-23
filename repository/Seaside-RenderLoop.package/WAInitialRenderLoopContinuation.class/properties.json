@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/14/2013 16:05",
 	"super" : "WAActionPhaseContinuation",
-	"category" : "Seaside-RenderLoop",
+	"category" : "Seaside-RenderLoop-Continuations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
