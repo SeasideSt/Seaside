@@ -1,5 +1,4 @@
 setup
 unregister
-
-	<script>
-	WAAdmin unregister: self resourceUrl
+  <script>
+  WAAdmin unregister: self resourceUrl

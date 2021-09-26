@@ -1,5 +1,6 @@
 setup
 registerCorsAdaptor
-
-	corsAdaptor := (self concreteAdaptorClass port: self corsAdaptorPort)
-		               start
+  | gemserver |
+  (Smalltalk at: #'GemServer')
+    ifNil: [ self registerCorsAdaptorRegular ]
+    ifNotNil: [ self registerCorsAdaptorInGemStone ]

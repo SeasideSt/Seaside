@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "WAComponent",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"textInput",
 		"textArea",
@@ -18,8 +18,9 @@
 		"radio",
 		"upload",
 		"hiddenInput",
-		"radioCustom"
-	],
+		"radioCustom" ],
 	"name" : "WAInputElementContainer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
