@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAFunctionalTest",
+	"category" : "Seaside-Tests-Functional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"letter",
-		"number" ],
+		"number"
+	],
 	"name" : "WACallbackSecurityFunctionalTest",
-	"pools" : [
-		 ],
-	"super" : "WAFunctionalTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

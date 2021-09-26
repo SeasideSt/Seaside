@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "",
+	"super" : "WARestfulHandler",
 	"category" : "Seaside-Tests-Functional",
 	"classinstvars" : [
 		"originAdaptor",
-		"corsAdaptor" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"corsAdaptor"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"sampleData" ],
+		"sampleData"
+	],
 	"name" : "WACORSResourceExample",
-	"pools" : [
-		 ],
-	"super" : "WARestfulHandler",
-	"type" : "normal" }
+	"type" : "normal"
+}
