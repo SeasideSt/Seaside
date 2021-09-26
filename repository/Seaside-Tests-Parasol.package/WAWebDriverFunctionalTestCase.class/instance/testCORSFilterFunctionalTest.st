@@ -43,4 +43,4 @@ testCORSFilterFunctionalTest
 			detect: [ :button | button getText = 'Cross Origin' ]) click.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.	
 		
-	] ensure: [ WACORSResourceExample unregister ]
+	] ensure: [ WACORSResourceExample unregister; unregisterCorsAdaptor ]

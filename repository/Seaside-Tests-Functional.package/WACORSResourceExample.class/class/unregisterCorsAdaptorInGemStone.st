@@ -1,4 +1,6 @@
 setup
 unregisterCorsAdaptorInGemStone
-  (GemServer gemServerNamed: 'CORS')
-    ifNotNil: [ :gemserver | gemserver stopGems ]
+
+	(Smalltalk at: #GemServer) ifNotNil: [ 
+		((Smalltalk at: #GemServer) gemServerNamed: 'CORS') 
+			ifNotNil: [ :gemserver | gemserver stopGems ] ]

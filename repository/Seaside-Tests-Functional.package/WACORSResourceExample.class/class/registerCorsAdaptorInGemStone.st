@@ -1,7 +1,7 @@
 setup
 registerCorsAdaptorInGemStone
   | gemserver |
-  gemserver := (GemServer gemServerNamed: 'CORS')
+  gemserver := ((Smalltalk at: #'GemServer') gemServerNamed: 'CORS')
     ifNil: [ 
       (Smalltalk at: #'ZnSeasideGemServer')
         register: 'CORS'

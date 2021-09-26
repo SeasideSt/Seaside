@@ -1,6 +1,5 @@
 setup
 unregisterCorsAdaptor
-  | gemserver |
-  (Smalltalk at: #'GemServer')
+  (Smalltalk at: #'GemServer' ifAbsent:[ nil ])
     ifNil: [ self unregisterCorsAdaptorRegular ]
     ifNotNil: [ self unregisterCorsAdaptorInGemStone ]
