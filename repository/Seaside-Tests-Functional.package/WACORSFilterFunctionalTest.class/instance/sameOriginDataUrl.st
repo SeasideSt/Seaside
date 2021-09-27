@@ -1,8 +1,8 @@
 accessing-urls
 sameOriginDataUrl
 
-	| parts host crossOrigin |
+	| parts host port |
 	parts := self requestContext request host findTokens: ':'.
 	host := parts first.
-	crossOrigin := parts last asInteger == WACORSResourceExample originAdaptorPort.
-	^ self buildDataUrlFor: host crossOrigin: crossOrigin not
+	port := parts last asInteger.
+	^ self buildDataUrlFor: host port: port
