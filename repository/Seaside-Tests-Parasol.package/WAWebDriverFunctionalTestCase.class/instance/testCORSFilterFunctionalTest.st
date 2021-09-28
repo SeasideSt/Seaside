@@ -1,7 +1,7 @@
 testing
 testCORSFilterFunctionalTest
 	[ 
-		WACORSResourceExample register; startAdaptors.
+		WACORSResourceExample register; registerCorsAdaptor.
 		
 		self selectTest: 'WACORSFilterFunctionalTest'.
 		

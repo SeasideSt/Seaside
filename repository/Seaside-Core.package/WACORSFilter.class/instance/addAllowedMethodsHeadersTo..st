@@ -1,7 +1,10 @@
 headers
 addAllowedMethodsHeadersTo: aResponse
 
-	self allowedMethods ifNotEmpty: [ :allowed |
+	self allowedMethods ifNotEmpty: [ :allowed | 
 		aResponse
 			headerAt: 'Access-Control-Allow-Methods'
-			put: (', ' join: allowed) ]
+			put: (String streamContents: [ :str | 
+					 allowed
+						 do: [ :allow | str nextPutAll: allow ]
+						 separatedBy: [ str nextPutAll: ', ' ] ]) ]
