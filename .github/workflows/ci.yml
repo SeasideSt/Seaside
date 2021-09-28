@@ -47,10 +47,10 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-      - name: Install Chrome
-        run: |
-          sudo apt-get update
-          sudo apt install google-chrome-stable
+      - uses: browser-actions/setup-chrome@latest
+        run: chrome --version
+        with:
+          chrome-version: stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
