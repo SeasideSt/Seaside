@@ -48,7 +48,7 @@ jobs:
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
       - uses: browser-actions/setup-chrome@latest
-        run: chrome --version
+      - run: chrome --version
         with:
           chrome-version: stable
       - name: Install selenium
