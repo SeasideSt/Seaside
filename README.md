@@ -29,12 +29,12 @@ Metacello new
  repository: 'github://SeasideSt/Seaside:master/repository';
  load
 ```
-To install a particular version (see [releases](https://github.com/SeasideSt/Seaside/releases), e.g. 3.2.1):
+To install a particular version (see [releases](https://github.com/SeasideSt/Seaside/releases), e.g. 3.4.5):
 
 ```Smalltalk
 Metacello new
  baseline:'Seaside3';
- repository: 'github://SeasideSt/Seaside:v3.2.1/repository';
+ repository: 'github://SeasideSt/Seaside:v3.4.5/repository';
  load
 ```
 #### Launch the Welcome page
