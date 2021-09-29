@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 2/1/2014 13:39",
 	"super" : "WASystemConfiguration",
-	"category" : "Seaside-RenderLoop",
+	"category" : "Seaside-RenderLoop-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

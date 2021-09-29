@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WARenderPhaseContinuation",
-	"category" : "Seaside-RenderLoop",
+	"category" : "Seaside-RenderLoop-Continuations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
