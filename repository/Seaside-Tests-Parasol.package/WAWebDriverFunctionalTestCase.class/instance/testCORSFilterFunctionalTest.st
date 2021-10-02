@@ -4,7 +4,7 @@ testCORSFilterFunctionalTest
 		WACORSResourceExample register; registerCorsAdaptor.
 		
 		self selectTest: 'WACORSFilterFunctionalTest'.
-		
+		(Delay forSeconds: 1) wait.
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') 
 			detect: [ :button | button getText = 'Same Origin' ]) click.
