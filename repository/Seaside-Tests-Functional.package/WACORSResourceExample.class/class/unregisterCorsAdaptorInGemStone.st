@@ -6,4 +6,5 @@ unregisterCorsAdaptorInGemStone
     ifTrue: [ 
       gemserver stopGems.
       gemserver ports: (gemserver ports copyWithout: self corsAdaptorPort).
-      gemserver startGems ]
+      gemserver startGems ].
+ (Smalltalk at: #System) commitTransaction 

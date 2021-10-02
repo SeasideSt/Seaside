@@ -5,4 +5,5 @@ registerCorsAdaptorInGemStone
   (gemserver ports includes: self corsAdaptorPort)
     ifFalse: [ 
       gemserver ports: gemserver ports , {(self corsAdaptorPort)}.
-      gemserver restartGems ]
+      gemserver restartGems ].
+	(Smalltalk at: #System) commitTransaction 

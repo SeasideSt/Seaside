@@ -4,7 +4,7 @@ testCORSFilterFunctionalTest
 		WACORSResourceExample register; registerCorsAdaptor.
 		
 		self selectTest: 'WACORSFilterFunctionalTest'.
-		(Delay forSeconds: 1) wait.
+
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') 
 			detect: [ :button | button getText = 'Same Origin' ]) click.
@@ -44,7 +44,7 @@ testCORSFilterFunctionalTest
 		
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') 
 			detect: [ :button | button getText = 'Same Origin' ]) click.
-	  (Delay forMilliseconds: 300) wait.
+  		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') 
 			detect: [ :button | button getText = 'Cross Origin' ]) click.
