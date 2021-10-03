@@ -4,6 +4,8 @@ testCORSFilterFunctionalTest
 		WACORSResourceExample register; registerCorsAdaptor.
 		
 		self selectTest: 'WACORSFilterFunctionalTest'.
+		
+		self should: [ driver findElementByPartialLinkText: 'Register CORS Resource' ] raise: BPNoSuchElementException.
 
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') 
