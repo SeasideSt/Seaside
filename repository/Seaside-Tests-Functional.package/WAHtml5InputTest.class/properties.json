@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFunctionalTest",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"required",
 		"autofocus",
@@ -21,8 +21,9 @@
 		"month",
 		"week",
 		"color",
-		"telephone"
-	],
+		"telephone" ],
 	"name" : "WAHtml5InputTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFunctionalTest",
+	"type" : "normal" }
