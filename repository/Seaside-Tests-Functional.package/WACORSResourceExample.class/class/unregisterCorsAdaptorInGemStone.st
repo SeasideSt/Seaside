@@ -7,4 +7,5 @@ unregisterCorsAdaptorInGemStone
       gemserver stopGems.
       gemserver ports: (gemserver ports copyWithout: self corsAdaptorPort).
       gemserver startGems ].
- (Smalltalk at: #System) commitTransaction 
+ (Smalltalk at: #System) commitTransaction.	
+ (Delay forSeconds: 3) wait.
