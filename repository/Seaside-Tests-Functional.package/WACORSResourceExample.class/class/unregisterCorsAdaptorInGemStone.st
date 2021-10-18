@@ -5,7 +5,13 @@ unregisterCorsAdaptorInGemStone
   (gemserver ports includes: self corsAdaptorPort)
     ifTrue: [ 
       gemserver stopGems.
+		(Delay forSeconds: 3) wait.
       gemserver ports: (gemserver ports copyWithout: self corsAdaptorPort).
-      gemserver startGems ].
- (Smalltalk at: #System) commitTransaction.	
- (Delay forSeconds: 3) wait.
+      gemserver startGems.
+      (gemserver waitForStartGems: 20)
+        ifFalse: [ 
+          Transcript
+            cr;
+            show: 'Failed to start gemserver'.
+          self assert: false ].
+      (Delay forSeconds: 3) wait ]
