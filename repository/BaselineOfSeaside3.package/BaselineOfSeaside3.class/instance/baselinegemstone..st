@@ -113,4 +113,17 @@ baselinegemstone: spec
                 requires: #('Seaside-Core');
                 includes: #('Seaside-GemStone-Core') ];
         package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-GemStone320-Core') ] ]
+          with: [ spec requires: #('Seaside-GemStone320-Core') ] ].
+  spec
+    for: #(#'gs3.7.x' #'gs3.8.x' #'gs3.9.x')
+    do: [ 
+      spec
+        package: 'Seaside-Core'
+          with: [ spec includes: #('Seaside-GemStone370-Core') ];
+        package: 'Seaside-GemStone370-Core'
+          with: [ 
+              spec
+                requires: #('Seaside-Core');
+                includes: #('Seaside-GemStone-Core') ];
+        package: 'Seaside-GemStone-Core'
+          with: [ spec requires: #('Seaside-GemStone370-Core') ] ]
