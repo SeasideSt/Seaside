@@ -1,12 +1,11 @@
 testing
 testTableReportFunctionalTest
-	| firstColumn |
+	| firstColumn classNames |
 	self selectTest: 'WATableReportFunctionalTest'.
 	
 	firstColumn := driver findElementsByCSSSelector: 'table>tbody>tr>td:first-child'.
-	self assert:
-			((firstColumn collect: [ :e | e getText ])
-				includesAll: (WAComponent allSubclasses collect: [ :c | c name greaseString ])).
+	classNames := (firstColumn collect: [ :e | e getText ]).
+	self assert: ((WAComponent allSubclasses collect: [ :c | c name greaseString ]) allSatisfy: [ :className | classNames includes: className ]).
 	
 	((driver findElementByCSSSelector: 'table>thead') findElementByPartialLinkText: 'Name') click.
 	
