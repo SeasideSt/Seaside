@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/12/2018 14:45",
 	"super" : "WAAbstractContinuation",
-	"category" : "Seaside-Pharo-Continuation",
+	"category" : "Seaside-Pharo-Continuation-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -11,5 +11,5 @@ renderContentOn: html
 		script: (html jQuery new draggable 
 						opacity: 0.75;
 						onStop: ((html jQuery id:  id) load 
-										callbackDraggable: [ :e | top := (e at: #position) at:#top. left := (e at: #position) at:#left ];
+										callbackDraggable: [ :e | top := (e at: #position) at: 'top'. left := (e at: #position) at: 'left' ];
 										html: [ :r | r text: 'top:',top greaseString,'px left:',left greaseString,'px' ] ))

@@ -74,7 +74,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-Flow' with: [
 				spec requires: #('Seaside-Flow' 'Seaside-Tests-Functional' ). ];
 			package: 'Seaside-Tests-Functional' with: [
-				spec requires: #('Seaside-Environment' 'Seaside-Tests-Core' 'Seaside-Widgets' ). ];
+				spec requires: #('Seaside-Environment' 'Seaside-Tests-Core' 'Seaside-Widgets' 'Seaside-REST-Core'). ];
 			package: 'Seaside-Tests-InternetExplorer' with: [
 				spec requires: #('Seaside-InternetExplorer' 'Seaside-Tests-Core' ). ];
 			package: 'Seaside-Tests-RenderLoop' with: [

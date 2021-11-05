@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "WAAbstractCanvasBrushTest",
-	"category" : "Seaside-Tests-Canvas",
+	"category" : "Seaside-Tests-Canvas-Brushes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 10/2/2018 08:12",
 	"super" : "WAContextTest",
-	"category" : "Seaside-Tests-Canvas",
+	"category" : "Seaside-Tests-Canvas-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

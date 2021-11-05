@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "lr 6/2/2008 09:19",
 	"super" : "WARequestHandler",
-	"category" : "Seaside-Session",
+	"category" : "Seaside-Session-Continuations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
