@@ -12,10 +12,10 @@ testTableReportFunctionalTest
 	firstColumn := driver findElementsByCSSSelector: 'table>tbody>tr>td:first-child'.
 	self assert:
 			(firstColumn collect: [ :e | e getText ]) asOrderedCollection 
-				equals: (WAComponent allSubclasses collect: [ :c | c name greaseString ]) asOrderedCollection sorted.
+				equals: (WAComponent allSubclasses collect: [ :c | c name greaseString ]) sorted asOrderedCollection.
 				
 	((driver findElementByCSSSelector: 'table>thead') findElementByPartialLinkText: 'Name') click.
 	firstColumn := driver findElementsByCSSSelector: 'table>tbody>tr>td:first-child'.
 	self assert:
 			(firstColumn collect: [ :e | e getText ]) asOrderedCollection 
-				equals: (WAComponent allSubclasses collect: [ :c | c name greaseString ]) asOrderedCollection sorted reversed.
+				equals: (WAComponent allSubclasses collect: [ :c | c name greaseString ]) sorted asOrderedCollection reversed .
