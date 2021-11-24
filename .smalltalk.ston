@@ -39,6 +39,10 @@ SmalltalkCISpec {
       },
 			#include : {
 				#classes : [ #SentButNotImplementedTest , #UndefinedSymbolsTest ]
-			}
+			},
+      #coverage : {
+        #packages : [ 'Seaside*','JQuery*','Javascript*' ],
+        #format: #lcov
+      }
 	}
 }
