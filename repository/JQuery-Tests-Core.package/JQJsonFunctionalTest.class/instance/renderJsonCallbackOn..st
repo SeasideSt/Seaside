@@ -7,4 +7,3 @@ renderJsonCallbackOn: html
 		(html jQuery getJson 
 				json: [ :json | self seasidePackagesOn: json ];
 				onSuccess: ((html jQuery id: 'textarea') value: (JSStream on: 'JSON.stringify(arguments[0])')) asFunction)
-							
