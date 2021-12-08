@@ -8,4 +8,4 @@ with: anObject
 	self options
 		do: [ :each | self perform: ('render', each asLowercase capitalized) asSymbol ]
 		separatedBy: [ canvas space ].
-	self addCallback 
+	self addCallback

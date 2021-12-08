@@ -17,6 +17,3 @@ testEquals
 	
 	second := WAMimeType fromString: 'text/xml'.
 	self deny: first = second
-	
-	
-	

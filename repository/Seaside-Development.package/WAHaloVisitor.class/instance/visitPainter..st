@@ -6,4 +6,3 @@ visitPainter: aPainter
 			halo := self toolDecoration haloFor: aPainter.
 			halo renderWithContext: self renderContext visitor: visitor ]
 		ifFalse: [ visitor visit: aPainter ]
-	

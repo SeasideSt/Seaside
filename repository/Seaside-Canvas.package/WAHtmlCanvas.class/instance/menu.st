@@ -1,3 +1,3 @@
 tags
 menu
-	^ self brush: WAMenuTag new	
+	^ self brush: WAMenuTag new

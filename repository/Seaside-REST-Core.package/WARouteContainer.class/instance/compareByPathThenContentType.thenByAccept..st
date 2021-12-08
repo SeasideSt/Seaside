@@ -10,4 +10,3 @@ compareByPathThenContentType: aMimeType thenByAccept: aSortedCollectionOfAccept
 				aMimeType isNil
 					ifTrue: [ self compare: a and: b byAccept: aSortedCollectionOfAccept ]
 					ifFalse: [ self compare: a and: b byContentType: aMimeType thenByAccept: aSortedCollectionOfAccept ] ] ]
-	

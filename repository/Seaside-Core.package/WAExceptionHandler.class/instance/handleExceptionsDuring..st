@@ -7,4 +7,4 @@ handleExceptionsDuring: aBlock
 				"If there's an error while handling the exception, fall
 				back on an internal error response."
 				on: Error
-				do: [ :error | self internalError: error ] ] 
+				do: [ :error | self internalError: error ] ]

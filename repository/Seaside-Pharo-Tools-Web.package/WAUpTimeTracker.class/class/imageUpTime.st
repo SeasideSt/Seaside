@@ -1,3 +1,3 @@
 accessing
 imageUpTime
-	^ self default imageUpTime 
+	^ self default imageUpTime

@@ -19,6 +19,3 @@ testRenderingDelegation
 	
 	root home.
 	self assertRenders: 'r'
-	
-	
-	

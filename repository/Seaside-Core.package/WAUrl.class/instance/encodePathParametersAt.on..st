@@ -11,4 +11,4 @@ encodePathParametersAt: anIndex on: aDocument
 					values
 						do: [ :value | aDocument urlEncoder nextPutAll: value greaseString ]
 						separatedBy: [ aDocument nextPut: $, ] ] ] ]
-		ifAbsent: [ "ignore" ] 
+		ifAbsent: [ "ignore" ]

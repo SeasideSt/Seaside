@@ -1,3 +1,3 @@
 rendering
 renderConfigurationOn: html
-	self subclassResponsibility 
+	self subclassResponsibility

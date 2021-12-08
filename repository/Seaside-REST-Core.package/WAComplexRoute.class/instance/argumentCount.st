@@ -6,4 +6,4 @@ argumentCount
 		count := count + each argumentCount ].
 	parameterMatches do: [ :each |
 		count := count + each argumentCount ].
-	^ count 
+	^ count

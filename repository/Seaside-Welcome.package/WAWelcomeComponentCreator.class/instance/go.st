@@ -13,4 +13,3 @@ go
 
 	    	self displayComponent: component named: componentName
 	] repeat
-	

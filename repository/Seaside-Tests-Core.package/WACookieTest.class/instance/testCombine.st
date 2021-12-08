@@ -11,4 +11,4 @@ testCombine
 		combine: (Array with: cookie1 with: cookie2)
 		using: [ :each | each rfc6265String ].
 
-	self assert: actual = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; path=/, JSESSIONID=8543783483494373483764; path=/' 
+	self assert: actual = 'ikuser=1234; expires=Wed, 21-Nov-2007 12:42:48 GMT; path=/, JSESSIONID=8543783483494373483764; path=/'
