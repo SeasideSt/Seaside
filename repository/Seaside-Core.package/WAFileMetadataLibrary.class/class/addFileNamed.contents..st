@@ -22,5 +22,3 @@ addFileNamed: filename contents: aByteArrayOrString
 	(self isBinary: filename)
 		ifTrue: [ self compileBinary: aByteArrayOrString selector: contentSelector ]
 		ifFalse: [ self compileText: aByteArrayOrString selector: contentSelector ]
-		
-	

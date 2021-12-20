@@ -1,3 +1,3 @@
 accessing
 parent: aComponent 
-	parent := aComponent 
+	parent := aComponent

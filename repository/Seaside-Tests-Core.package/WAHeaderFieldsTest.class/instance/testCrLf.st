@@ -29,4 +29,3 @@ testCrLf
 		should: [
 			collection at: 'key' put: testValue ]
 		raise: WAInvalidHeaderValueError
-	

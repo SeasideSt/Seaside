@@ -14,4 +14,3 @@ testUserinfo
 	self assert: url userinfo = 'foo:bar'.
 	self assert: url user = 'foo'.
 	self assert: url password = 'bar'
-	

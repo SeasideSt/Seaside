@@ -26,4 +26,3 @@ renderExampleOn: html
 	self renderInformCheeseCodeOn: html.
 	
 	html paragraph: 'As simple as that. And yes, the browser''s Back button still works.'
-		

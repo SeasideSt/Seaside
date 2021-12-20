@@ -1,4 +1,4 @@
 methods
 useExplicitMethods
 
-	self allowedMethods addAll: self explicitMethods 
+	self allowedMethods addAll: self explicitMethods

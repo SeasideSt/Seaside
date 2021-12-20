@@ -5,4 +5,3 @@ removeKey: aKey ifAbsent: aBlock
 	byKey removeKey: aKey.
 	byValue removeKey: value.
 	^ value
-	

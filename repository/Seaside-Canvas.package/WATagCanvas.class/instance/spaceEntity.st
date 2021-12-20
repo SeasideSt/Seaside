@@ -1,3 +1,3 @@
 private
 spaceEntity
-	self subclassResponsibility 
+	self subclassResponsibility

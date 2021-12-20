@@ -46,4 +46,3 @@ testMultiValuesCallback
 				yourself) ]
 		raise: WARenderNotification.
 	self assertLog: #('1a' '2a' )
-

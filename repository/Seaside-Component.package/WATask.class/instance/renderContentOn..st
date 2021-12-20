@@ -6,4 +6,4 @@ renderContentOn: html
 	In general, if this method is called, it means that the application has not been configured
 	properly to use Flow and the task was never executed."
 
-	WATaskNotDelegated signal: 'This task has no delegation.'	
+	WATaskNotDelegated signal: 'This task has no delegation.'

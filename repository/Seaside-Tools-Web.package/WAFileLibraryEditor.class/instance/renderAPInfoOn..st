@@ -52,5 +52,3 @@ renderAPInfoOn: html
 	html paragraph: [
 		html text: 'See also: '. html anchor url: 'http://book.seaside.st/book/in-action/serving-files'; with: 'serving files'. html text: ' in the '. 
 		html anchor url: 'http://book.seaside.st'; with: 'Seaside book' ]
-	
-	

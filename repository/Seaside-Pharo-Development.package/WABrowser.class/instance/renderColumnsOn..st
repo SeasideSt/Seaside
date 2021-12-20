@@ -21,4 +21,4 @@ renderColumnsOn: html
 						callback: [ :item |
 							self model
 								perform: (each, 'ListIndex:') asSymbol
-								with: (array indexOf: item) ] ] ] ] ] 
+								with: (array indexOf: item) ] ] ] ] ]

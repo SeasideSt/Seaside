@@ -1,19 +1,18 @@
 {
-	"category" : "Seaside-Tests-Component-Stubs",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WADecoration",
+	"category" : "Seaside-Tests-Component-Stubs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"initialRequestBlock",
 		"updateRootBlock",
 		"updateUrlBlock",
 		"updateStatesBlock",
 		"renderBlock",
-		"childrenBlock" ],
+		"childrenBlock"
+	],
 	"name" : "WADecorationStub",
-	"pools" : [
-		 ],
-	"super" : "WADecoration",
-	"type" : "normal" }
+	"type" : "normal"
+}

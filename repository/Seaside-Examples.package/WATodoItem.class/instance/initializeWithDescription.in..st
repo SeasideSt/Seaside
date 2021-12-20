@@ -4,4 +4,3 @@ initializeWithDescription: aString in: aCollection
 	self done: false.
 	self description: aString.
 	todos := aCollection
-	
