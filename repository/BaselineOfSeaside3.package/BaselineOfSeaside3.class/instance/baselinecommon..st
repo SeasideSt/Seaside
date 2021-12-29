@@ -31,7 +31,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					repository: 'github://SeasideSt/Parasol:master/repository';
-					load: 'default' ].
+					loads: 'default' ].
 		spec
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
