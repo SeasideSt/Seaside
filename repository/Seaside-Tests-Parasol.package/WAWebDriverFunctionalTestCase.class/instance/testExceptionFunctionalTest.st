@@ -22,7 +22,7 @@ testExceptionFunctionalTest
 	driver goBack.
 	
 	(driver findElementByLinkText: 'Raise zero divide') click.
-	self assert: (driver findElementByTagName: 'h1') getText equals: 'ZeroDivide'.
+	self assert: ((driver findElementByTagName: 'h1') getText includesSubstring: 'ZeroDivide').
 	self assert: (driver findElementByTagName: 'p') getText equals: 'Your request could not be completed. An exception occurred.'.
 	driver goBack.
 	
