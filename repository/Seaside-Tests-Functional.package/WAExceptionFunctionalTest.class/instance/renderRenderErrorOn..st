@@ -11,4 +11,4 @@ renderRenderErrorOn: html
 	html paragraph: 'This will trigger an error during the next render phase.'.
 	html anchor
 		callback: [ renderError := true ];
-		with: 'Raise error'
+		with: 'Raise error during rendering'

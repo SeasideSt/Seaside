@@ -7,4 +7,4 @@ renderPostErrorOn: html
 		with: [
 			html button
 				callback: [ self raiseError ];
-			with: 'Raise error' ]
+			with: 'Raise error in POST' ]
