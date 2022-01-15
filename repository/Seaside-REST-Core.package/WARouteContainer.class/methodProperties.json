@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"pathElementCount:" : " 1/14/2022 17:11:31",
+		"routes:" : " 1/14/2022 17:11:31" },
+	"instance" : {
+		"addRoute:" : " 1/14/2022 17:11:31",
+		"addRoutes:" : " 1/14/2022 17:11:31",
+		"compare:and:byAccept:" : " 1/14/2022 17:11:31",
+		"compare:and:byContentType:thenByAccept:" : " 1/14/2022 17:11:31",
+		"compare:and:using:" : " 1/14/2022 17:11:31",
+		"compareByPathThenContentType:thenByAccept:" : " 1/14/2022 17:11:31",
+		"initializeWith:" : " 1/14/2022 17:11:31",
+		"pathElementCount" : " 1/14/2022 17:11:31",
+		"routeForElements:parameters:contentType:accept:ifAbsent:" : " 1/14/2022 17:11:31",
+		"routes" : " 1/14/2022 17:11:31",
+		"sortByPathThenContentType:thenByAccept:" : " 1/14/2022 17:11:31" } }

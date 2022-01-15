@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"method:selector:" : " 1/14/2022 17:11:31",
+		"method:selector:produces:consumes:" : " 1/14/2022 17:11:31" },
+	"instance" : {
+		"argumentCount" : " 1/14/2022 17:11:31",
+		"initializeWithMethod:count:selector:produces:consumes:" : " 1/14/2022 17:11:31",
+		"mapArgumentsWithElements:parameters:into:" : " 1/14/2022 17:11:31",
+		"matchesFlexibleNumberOfPathElements" : " 1/14/2022 17:11:31",
+		"matchesParameters:" : " 1/14/2022 17:11:31",
+		"matchesPath:" : " 1/14/2022 17:11:31",
+		"pathElementCount" : " 1/14/2022 17:11:31",
+		"priority" : " 1/14/2022 17:11:31" } }

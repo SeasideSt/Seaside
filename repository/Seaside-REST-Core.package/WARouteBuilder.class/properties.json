@@ -1,19 +1,18 @@
 {
-	"commentStamp" : "pmm 7/28/2011 21:34",
-	"super" : "WAObject",
 	"category" : "Seaside-REST-Core-Route",
 	"classinstvars" : [
-		"configuration"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"configuration" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/28/2011 21:34",
 	"instvars" : [
 		"compiled",
 		"method",
 		"path",
 		"produces",
-		"consumes"
-	],
+		"consumes" ],
 	"name" : "WARouteBuilder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }
