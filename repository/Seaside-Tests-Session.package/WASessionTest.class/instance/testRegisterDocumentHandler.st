@@ -31,8 +31,8 @@ testRegisterDocumentHandler
 	[  handler handle: context ]
 		on: WAResponseNotification
 		do: [ :notification | ].
-	self assert: response status = WAResponse statusOk.
-	self assert: response contents = documentHandler document contents.
+	self assert: response status equals: WAResponse statusOk.
+	self assert: response contents equals: documentHandler document contents.
 	
 	"dispatch to a not existing handler"
 	url := url copy.
