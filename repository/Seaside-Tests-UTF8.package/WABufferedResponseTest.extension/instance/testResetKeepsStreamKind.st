@@ -1,9 +1,10 @@
 *seaside-tests-utf8
 testResetKeepsStreamKind
-	| resetPossible |
+	| resetPossible codec |
+	codec := GRCodec forEncoding: 'utf-8'.
 	response := WABufferedResponse
-		on: ((GRCodec forEncoding: 'utf-8')
-			encoderFor: (GRPlatform current writeCharacterStreamOn: String new)).
+		on: (codec
+			encoderFor: (GRPlatform current writeCharacterStreamOn: codec encodedStringClass new)).
 	resetPossible := self response
 		status: WAResponse statusNotFound;
 		attachmentWithFileName: 'upload.csv';
