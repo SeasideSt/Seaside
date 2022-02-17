@@ -21,4 +21,3 @@ renderValuesOn: html
 					self renderValue: each instanceCount on: html.
 					self renderValue: each spaceForInstances on: html.
 					self renderValue: (self percent: each spaceForInstances / totalSpaceForInstances) on: html  ] ] ] ]
-	

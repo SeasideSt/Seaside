@@ -3,6 +3,8 @@ renderCurrencyTableBodyOn: html
   html tableBody
     title: 'Table body';
     with: [ 
+			| numberPrinter |
+			numberPrinter := GRNumberPrinter new precision: 2.
           self exchangeRates
             do: [ :each | 
               html
@@ -12,4 +14,4 @@ renderCurrencyTableBodyOn: html
                   html tableData
                     align: 'char';
                     character: $.;
-                    with: (each second printShowingDecimalPlaces: 2) ] ] ]
+                    with: (numberPrinter print: each second) ] ] ]

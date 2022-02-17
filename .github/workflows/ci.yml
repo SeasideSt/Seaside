@@ -4,11 +4,11 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-18.04
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, Pharo-6.1, GemStone64-3.6.0, GemStone64-3.5.4, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
+        smalltalk: [ Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, Pharo-6.1, GemStone64-3.6.3, GemStone64-3.5.5, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
         experimental: [ false ]
         include:
           - smalltalk: Pharo64-alpha
@@ -22,16 +22,45 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H:%M:%S')"
+      - name: Log date
+        run: echo "${{ steps.date.outputs.date }}"
+      - name: Set default run status
+        run: echo "::set-output name=last_run_status::default" > last_run_status
+      - name: Restore last run status
+        id: last_run
+        uses: actions/cache@v2
+        with:
+          path: |
+            last_run_status
+          key: ${{ github.run_id }}-${{ matrix.smalltalk }}-${{ steps.date.outputs.date }}
+          restore-keys: |
+            ${{ github.run_id }}-${{ matrix.smalltalk }}-
+      - name: Set last run status
+        id: last_run_status
+        run: cat last_run_status
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.workflow_dispatch.ref }}
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalk-version: ${{ matrix.smalltalk }}
+          smalltalk-image: ${{ matrix.smalltalk }}
       - name: Install Chrome
         run: |
-          sudo apt install google-chrome-stable
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get -y install google-chrome-stable
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
+        id: test_run
+        if: steps.last_run_status.outputs.last_run_status != 'success'
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 20
+      - name: Save run status
+        if: steps.last_run_status.outputs.last_run_status != 'success'
+        run: echo "::set-output name=last_run_status::${{ steps.test_run.outcome }}" > last_run_status

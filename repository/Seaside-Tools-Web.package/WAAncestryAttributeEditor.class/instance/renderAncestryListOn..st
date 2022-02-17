@@ -39,5 +39,3 @@ renderAncestryListOn: html
 		onClick: 'return submitForm(this)';
 		callback: [ self openConfiguration: selectedConfiguration contents ];
 		with: 'Configure'
-	
- 

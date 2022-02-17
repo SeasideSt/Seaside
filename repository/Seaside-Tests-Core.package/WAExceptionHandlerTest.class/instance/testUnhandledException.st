@@ -7,4 +7,3 @@ testUnhandledException
 			do: [ :exception | "success" ^ self ].
 	
 	self assert: false
-	

@@ -10,4 +10,3 @@ testLinkElementWithContent
 			html stylesheet
 				add: 'E[foo$="bar"]'  ]
 		gives: '<title></title><style type="text/css">E[foo$="bar"]</style>'
-	

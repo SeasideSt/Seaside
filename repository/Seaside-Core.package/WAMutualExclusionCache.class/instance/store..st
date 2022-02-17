@@ -1,4 +1,4 @@
 putting
 store: anObject
 	^ mutex critical: [
-		cache store: anObject ]	
+		cache store: anObject ]

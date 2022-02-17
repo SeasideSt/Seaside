@@ -30,4 +30,3 @@ testActiveComponent
 	self assert: child2 activeComponent = child4.
 	self assert: child3 activeComponent = child4.
 	self assert: child4 activeComponent = child4
-	

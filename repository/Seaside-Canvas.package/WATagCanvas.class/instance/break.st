@@ -1,3 +1,3 @@
 private
 break
-	self subclassResponsibility 
+	self subclassResponsibility

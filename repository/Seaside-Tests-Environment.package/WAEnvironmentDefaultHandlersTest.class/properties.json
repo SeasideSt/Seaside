@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/12/2018 14:50",
 	"super" : "TestCase",
-	"category" : "Seaside-Tests-Environment",
+	"category" : "Seaside-Tests-Environment-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 8/14/2011 11:07",
 	"super" : "WASessionTrackingStrategy",
-	"category" : "Seaside-Session",
+	"category" : "Seaside-Session-Tracking",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

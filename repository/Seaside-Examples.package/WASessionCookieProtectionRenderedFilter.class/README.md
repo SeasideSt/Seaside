@@ -1,0 +1,1 @@
+I'm pretty much the same as my superclass, but when returning a forbidden response, the response is rendered using a WAHtmlCanvas.

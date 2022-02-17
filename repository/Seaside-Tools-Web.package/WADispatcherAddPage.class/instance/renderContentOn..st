@@ -23,4 +23,4 @@ renderContentOn: html
 				html space.
 				html submitButton
 					callback: [ self answer: nil ];
-					with: 'Cancel'  ]  
+					with: 'Cancel'  ]

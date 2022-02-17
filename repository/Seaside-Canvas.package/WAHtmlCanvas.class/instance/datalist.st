@@ -1,3 +1,3 @@
 tags
 datalist
-	^ self brush: WADatalistTag new	
+	^ self brush: WADatalistTag new

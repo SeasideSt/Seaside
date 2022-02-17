@@ -1,4 +1,4 @@
 public
 clear
 	^ mutex critical: [
-		cache clear ]	
+		cache clear ]

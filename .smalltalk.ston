@@ -27,12 +27,8 @@ SmalltalkCISpec {
       #platforms : [ #gemstone ]
     }
   ],
-  #postLoading : [
-    SCICustomScript {
-      #path : 'scripts/loadParasolAndTests.st'
-    }
-  ],
   #testing : {
+      #defaultTimeout : 30,
       #exclude : {
         #packages : [ 'Cryptography.*' ]
       },

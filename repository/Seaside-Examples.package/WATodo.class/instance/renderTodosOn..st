@@ -40,5 +40,3 @@ renderTodosOn: html
 										onComplete: ((((html jQuery expression: (JSStream on: 'event.target')) closest:'li') find: '.edit') hide, (((html jQuery expression: (JSStream on: 'event.target')) closest:'li') find: 'label') show))
 								 asFunction: #(event)));
 				with: [ self todos do: [ :todoItem | todoItem renderOn: html ] ] ]
-
-	

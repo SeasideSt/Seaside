@@ -4,7 +4,7 @@ testDateSelectorFunctionalTest
 	| fromDate toDate fromDateSelects toDateSelects fromTime toTime fromTimeSelects toTimeSelects deltaTime fromDateAndTime deltaDuration toDateAndTime fromDateAndTimeSelects toDateAndTimeSelects |
 	self selectTest: 'WADateSelectorFunctionalTest'.
 
-  fromDate := Date fromString: '11/5/2020'.
+  fromDate := Date fromString: '11/5/2022'.
   toDate := fromDate addDays: 300.
 	
 	fromDateSelects := (((driver findElementByID: #dateForm) findElementByClassName: 'from') findElementsByTagName: 'select').

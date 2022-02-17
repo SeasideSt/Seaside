@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAContextTest",
-	"category" : "Seaside-Tests-Environment",
+	"category" : "Seaside-Tests-Environment-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

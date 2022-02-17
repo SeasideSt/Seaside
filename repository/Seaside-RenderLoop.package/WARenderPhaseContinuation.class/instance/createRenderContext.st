@@ -7,4 +7,3 @@ createRenderContext
 	renderContext visitor: (WARenderingGuide client: renderContext visitor).
 	
 	^ renderContext
-		

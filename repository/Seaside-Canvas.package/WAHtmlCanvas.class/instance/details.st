@@ -1,3 +1,3 @@
 tags
 details
-	^ self brush: WADetailsTag new	
+	^ self brush: WADetailsTag new

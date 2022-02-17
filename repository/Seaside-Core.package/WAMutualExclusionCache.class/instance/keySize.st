@@ -1,4 +1,4 @@
 accessing
 keySize
 	^ mutex critical: [
-		cache keySize ]	
+		cache keySize ]

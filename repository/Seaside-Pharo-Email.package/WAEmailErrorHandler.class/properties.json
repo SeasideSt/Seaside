@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/14/2008 17:06",
 	"super" : "WAErrorHandler",
-	"category" : "Seaside-Pharo-Email",
+	"category" : "Seaside-Pharo-Email-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

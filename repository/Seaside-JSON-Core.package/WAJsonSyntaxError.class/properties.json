@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pmm 9/14/2013 15:49",
 	"super" : "WAError",
-	"category" : "Seaside-JSON-Core",
+	"category" : "Seaside-JSON-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

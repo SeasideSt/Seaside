@@ -21,4 +21,3 @@ renderCommands: anItem on: html
 			"avoid ZeroDivide
 			https://github.com/SeasideSt/Seaside/issues/968"
 			html text: 'GC Stats' ]
- 	

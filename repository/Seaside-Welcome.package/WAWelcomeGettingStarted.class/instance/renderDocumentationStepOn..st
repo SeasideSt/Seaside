@@ -17,4 +17,3 @@ renderDocumentationStepOn: html
 				url: 'http://www.swa.hpi.uni-potsdam.de/seaside/tutorial';
 				with: 'Seaside Tutorial'.
 			html text: ' has 12 chapters and introduces a sample application to explain the main features of Seaside.' ] ]
-
