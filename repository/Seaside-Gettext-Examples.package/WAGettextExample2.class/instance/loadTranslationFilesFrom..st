@@ -1,0 +1,3 @@
+actions
+loadTranslationFilesFrom: aPath
+	TextDomainManager
