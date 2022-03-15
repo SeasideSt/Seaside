@@ -1,0 +1,3 @@
+formatting
+stream
+	^ stream
