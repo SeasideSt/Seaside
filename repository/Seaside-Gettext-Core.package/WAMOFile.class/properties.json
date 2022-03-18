@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [
+		"Cr",
+		"Lf"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Cr",
+		"Lf"
+	],
+	"instvars" : [
+		"localeID",
+		"fileName",
+		"isLittleEndian",
+		"magic",
+		"revision",
+		"nStrings",
+		"originalTableOffset",
+		"translatedTableOffset",
+		"translatedStrings",
+		"translations"
+	],
+	"name" : "WAMOFile",
+	"type" : "normal"
+}
