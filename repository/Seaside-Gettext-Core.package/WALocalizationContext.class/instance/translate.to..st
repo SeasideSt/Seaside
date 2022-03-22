@@ -1,5 +1,5 @@
 translating
 translate: aString to: aLocale
-	^ (GetTextTranslator availableForLocaleID: aLocale asLocaleID)
+	^ (WAGetTextTranslator availableForLocaleID: aLocale asLocaleID)
 		translate: aString
-		inDomain: self domain
+		fromFiles: self languageFiles

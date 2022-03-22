@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SystemDefaultLocaleDirs",
+		"Translators",
+		"UserDefaultLocaleDirs"
+	],
+	"instvars" : [
+		"moFiles",
+		"id"
+	],
+	"name" : "WAGetTextTranslator",
+	"type" : "normal"
+}

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"domain",
+		"languageFiles",
 		"translator",
 		"localeId"
 	],
