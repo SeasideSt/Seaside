@@ -4,12 +4,11 @@
 	"category" : "Seaside-Gettext-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"Translators"
-	],
+	"classvars" : [ ],
 	"instvars" : [
-		"moFiles"
+		"original",
+		"translation"
 	],
-	"name" : "WAGetTextTranslator",
+	"name" : "GetTextTranslationResult",
 	"type" : "normal"
 }

@@ -12,7 +12,6 @@
 		"Lf"
 	],
 	"instvars" : [
-		"localeID",
 		"fileName",
 		"isLittleEndian",
 		"magic",
@@ -21,7 +20,8 @@
 		"originalTableOffset",
 		"translatedTableOffset",
 		"translatedStrings",
-		"translations"
+		"translations",
+		"localeString"
 	],
 	"name" : "WAMOFile",
 	"type" : "normal"

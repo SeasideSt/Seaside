@@ -1,10 +1,10 @@
 accessing
 firstSupportedLocaleWithFallback: aNiladicBlock
-	| availableLanguageLocaleIDs |
-	availableLanguageLocaleIDs := GetTextTranslator availableLanguageLocaleIDs.
+	| availableLanguageLocaleStrings |
+	availableLanguageLocaleStrings := translator supportedLocaleStrings.
 	self requestContext request acceptLanguage do: [ :each |
-		| locale |
-		locale := each value.
-		(availableLanguageLocaleIDs includes: locale asLocaleID)
-			ifTrue: [ ^ locale ] ].
+		| theLocale |
+		theLocale := each value.
+		(availableLanguageLocaleStrings includes: theLocale greaseString)
+			ifTrue: [ ^ theLocale ] ].
 	^ aNiladicBlock value

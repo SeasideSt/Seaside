@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAObject",
+	"super" : "GetTextTranslationResult",
 	"category" : "Seaside-Gettext-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"languageFiles",
-		"translator",
-		"locale"
-	],
-	"name" : "WALocalizationContext",
+	"instvars" : [ ],
+	"name" : "GetTextSucessfulTranslationResult",
 	"type" : "normal"
 }

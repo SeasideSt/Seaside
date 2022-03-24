@@ -1,3 +1,4 @@
 class initialization
 initialize
-	self register
+	self register.
+	self importTranslations
