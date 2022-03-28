@@ -1,0 +1,1 @@
+I am used in conjunction with WALocalizationContext in a WALocalizationContextFilter. I provide the current context as I am subclassed from WADynamicVariable, which isn't the case for WALocalizationContext.
