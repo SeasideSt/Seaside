@@ -1,8 +1,6 @@
 private
 addMOFileFromPath: path forName: anApplicationName
-	"Note: inspiration is moFileForDomain and loadMOFileForDomain"
-	"Returns the cached MOFile for the given file path (or nil).
-	If none is cached, it will try to load one (every time) and cache it on demand."
+	"This method is currently only used for instantiation with a web application."
 	| locale |
 	locale := WALocale fromString: path basename.
 	^ moFiles 
