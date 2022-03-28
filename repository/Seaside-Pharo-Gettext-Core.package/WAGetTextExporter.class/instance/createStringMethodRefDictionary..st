@@ -1,6 +1,5 @@
 exporting
 createStringMethodRefDictionary: methodRefStringAssociations
-	"comment stating purpose of instance-side method"
 	| literals |
 	literals := Dictionary new.
 	methodRefStringAssociations do: [ :assoc |
