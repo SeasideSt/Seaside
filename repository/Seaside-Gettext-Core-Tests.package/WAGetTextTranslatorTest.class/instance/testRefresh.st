@@ -1,18 +1,13 @@
 test
 testRefresh
-	| moBlob fs file translator |
-	moBlob := WAMOFileTest anMOBinary.
+	| fs file currentWorkingDirectory translator |
 	fs := FileSystem memory.
-	file := fs / 'en_nl.mo'.
-	translator := WAGetTextTranslator new.
+	file := self createMOFile: fs.
+	currentWorkingDirectory := (fs / '.') asFileReference.
 	
-	self deny: file exists equals: true.
-	file asFileReference binaryWriteStreamDo: [ :stream | stream nextPutAll: moBlob ].
-	self deny: file exists equals: false.
-	self deny: ((file binaryReadStream) contents size) equals: 0.
+	WAGetTextTranslator createTranslatorFor: (self appNameForTests) fromFiles: currentWorkingDirectory.
+	translator := WAGetTextTranslator translatorFor: (self appNameForTests).
 	
-	translator loadMOFiles: { file }.
-	self assert: translator moFiles size equals: 1.
-	
+	self deny: translator moFiles size equals: 0.
 	translator refresh.
 	self assert: translator moFiles size equals: 0.
