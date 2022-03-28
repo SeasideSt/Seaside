@@ -1,10 +1,14 @@
 accessing
 firstSupportedLocaleWithFallback: aNiladicBlock
-	| availableLanguageLocaleStrings |
+	| availableLanguageLocaleStrings acceptLanguages |
 	availableLanguageLocaleStrings := translator supportedLocaleStrings.
-	self requestContext request acceptLanguage do: [ :each |
-		| theLocale |
+	acceptLanguages := self requestContext request acceptLanguage.
+	acceptLanguages isNotNil ifTrue: [ 
+		acceptLanguages do: [ :each || theLocale |
 		theLocale := each value.
-		(availableLanguageLocaleStrings includes: theLocale greaseString)
-			ifTrue: [ ^ theLocale ] ].
+		"TODO: this should become a method perhaps. Maybe we want to ignore the country"
+		(availableLanguageLocaleStrings includes: theLocale greaseString) 
+			ifTrue: [ ^ theLocale ].
+		(availableLanguageLocaleStrings includes: (theLocale language),'-',(theLocale country asUppercase))
+			ifTrue: [ ^ theLocale ] ] ].
 	^ aNiladicBlock value
