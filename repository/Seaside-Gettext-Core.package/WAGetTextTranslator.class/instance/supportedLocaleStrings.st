@@ -1,0 +1,3 @@
+accessing
+supportedLocaleStrings
+	^ moFiles keys

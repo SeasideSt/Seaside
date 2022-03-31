@@ -1,5 +1,5 @@
 accessing
 translator
 	translator ifNil: [
-		translator := GetTextTranslator availableForLocaleID: self localeId ].
+		translator := WAGetTextTranslator translatorFor: self application gettextApplicationName ].
 	^ translator

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "MelvinRoest 3/25/2022 14:19",
+	"super" : "Object",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Translators"
+	],
+	"instvars" : [
+		"moFiles"
+	],
+	"name" : "WAGetTextTranslator",
+	"type" : "normal"
+}

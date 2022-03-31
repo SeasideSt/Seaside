@@ -1,5 +1,4 @@
 translating
 translate: aString
-	^ self translator
-		translate: aString
-		inDomain: self domain
+	^ self translator translate: aString usingLocale: self locale
+	

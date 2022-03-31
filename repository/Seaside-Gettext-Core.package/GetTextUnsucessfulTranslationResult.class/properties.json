@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GetTextTranslationResult",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GetTextUnsucessfulTranslationResult",
+	"type" : "normal"
+}
