@@ -50,5 +50,5 @@ baselinepharo: spec
 	spec
 		for: #(#'pharo10.x')
 		do: [ spec
-				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo10-Tools-Spec2') ];
-				package: 'Seaside-Pharo10-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ]
+				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo100-Tools-Spec2') ];
+				package: 'Seaside-Pharo100-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ]
