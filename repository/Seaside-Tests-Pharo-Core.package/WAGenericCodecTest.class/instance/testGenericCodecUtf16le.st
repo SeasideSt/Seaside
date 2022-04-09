@@ -2,12 +2,11 @@ tests
 testGenericCodecUtf16le
 	| codec bom |
 	codec := GRCodec forEncoding: 'utf-16'.
-	self assert: (codec isKindOf: GRPharoZnCodec).
 	bom := self asString: #(255 254).
 	self assert: codec name = 'utf-16'.
 	self assert: (#('utf-8' 'utf8') includes: codec url name).
-	self assert: ((codec url isKindOf: GRPharoZnCodec) or:[ codec url name = 'utf-8' ]).
-	codec url encodedStringClass == ByteArray
+	self assert: (codec url name = 'utf-8').
+	codec encodedStringClass == ByteArray
 		ifTrue: [ self assert: (codec encode: self latin1String) = self utf16ByteArray ]
 		ifFalse: [ self assert: (codec encode: self latin1String) = self utf16beString ].
 	codec url encodedStringClass == ByteArray
