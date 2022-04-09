@@ -14,8 +14,8 @@ testNamedTempAt
 				context := context sender ] ].
 	frames do: [ :each |
 		| tempNames |
-		"fails on Sqeuak"
+		"fails on Squeak"
 		self shouldnt: [ tempNames := each tempNames ] raise: Notification.
-		1 to: tempNames size do: [ :i |
+		tempNames do: [ :name |
 			"fails on Pharo"
-			self shouldnt: [ each namedTempAt: i ] raise: Error ] ]
+			self shouldnt: [ each tempNamed: name ] raise: Error ] ]
