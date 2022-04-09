@@ -1,8 +1,8 @@
 tests
 testGenericCodecAll
-	TextConverter allEncodingNames do: [ :name | 
-		(#('utf-8'), GRPharoLatin1Codec supportedEncodingNames includes: name) ifFalse: [
+	GRPharoZnCodec supportedEncodingNames do: [ :name | 
+		(GRPharoLatin1Codec supportedEncodingNames includes: name) ifFalse: [
 			| codec |
 			codec := GRCodec forEncoding: name.
 			self assert: codec name = name.
-			self assert: (codec isKindOf: GRPharoGenericCodec) ] ]
+			self assert: (codec isKindOf: GRPharoZnCodec) ] ]
