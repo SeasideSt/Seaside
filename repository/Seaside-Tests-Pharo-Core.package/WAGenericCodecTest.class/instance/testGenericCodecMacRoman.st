@@ -4,7 +4,6 @@ testGenericCodecMacRoman
 	codec := GRCodec forEncoding: 'mac-roman'.
 	self assert: codec name = 'mac-roman'.
 	self assert: (#('utf-8' 'utf8') includes: codec url name).
-	self assert: (#('utf-8' 'utf8') includes: codec url name).
 	codec encodedStringClass == ByteArray
 		ifTrue: [ self assert: (codec encode: self latin1String) = self macromanByteArray ]
 		ifFalse: [ self assert: (codec encode: self latin1String) = self macromanString ].
