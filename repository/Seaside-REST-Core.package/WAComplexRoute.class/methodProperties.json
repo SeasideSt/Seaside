@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"example" : " 4/18/2022 19:51:29",
+		"method:selector:pattern:" : " 4/18/2022 19:51:29",
+		"method:selector:pattern:arguments:produces:consumes:" : " 4/18/2022 19:51:29",
+		"method:selector:url:arguments:produces:consumes:" : " 4/18/2022 19:51:29" },
+	"instance" : {
+		"argumentCount" : " 4/18/2022 19:51:29",
+		"buildPathMatchesFrom:arguments:" : " 4/18/2022 19:51:29",
+		"initializeQueryFieldParameters:arguments:" : " 4/18/2022 19:51:29",
+		"initializeWithMethod:selector:url:arguments:produces:consumes:" : " 4/18/2022 19:51:29",
+		"isOverlyComplex" : " 4/18/2022 19:51:29",
+		"mapArgumentsWithElements:parameters:into:" : " 4/18/2022 19:51:29",
+		"matchesFlexibleNumberOfPathElements" : " 4/18/2022 19:51:29",
+		"matchesModeratelyComplex:" : " 4/18/2022 19:51:29",
+		"matchesOverlyComplex:" : " 4/18/2022 19:51:29",
+		"matchesParameters:" : " 4/18/2022 19:51:29",
+		"matchesPath:" : " 4/18/2022 19:51:29",
+		"pathElementCount" : " 4/18/2022 19:51:29",
+		"printOn:" : " 4/18/2022 19:51:29",
+		"priority" : " 4/18/2022 19:51:29" } }

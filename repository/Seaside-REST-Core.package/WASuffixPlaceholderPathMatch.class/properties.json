@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAPlaceholderPathMatch",
 	"category" : "Seaside-REST-Core-Route",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"suffix"
-	],
+		"suffix" ],
 	"name" : "WASuffixPlaceholderPathMatch",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAPlaceholderPathMatch",
+	"type" : "normal" }

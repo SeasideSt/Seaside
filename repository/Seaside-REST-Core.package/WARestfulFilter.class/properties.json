@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WARequestFilter",
 	"category" : "Seaside-REST-Core-Handler",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"routes"
-	],
+		"routes" ],
 	"name" : "WARestfulFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

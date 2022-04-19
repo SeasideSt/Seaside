@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"fromString:index:arguments:" : " 4/18/2022 19:51:29",
+		"source:target:prefix:" : " 4/18/2022 19:51:29" },
+	"instance" : {
+		"initializeWithSourceIndex:targetIndex:prefix:" : " 4/18/2022 19:51:29",
+		"mapArgumentsWithElements:into:usingOffset:" : " 4/18/2022 19:51:29",
+		"matches:" : " 4/18/2022 19:51:29",
+		"priority" : " 4/18/2022 19:51:29" } }

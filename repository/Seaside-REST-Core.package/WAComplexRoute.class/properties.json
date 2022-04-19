@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "WARoute",
 	"category" : "Seaside-REST-Core-Route",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"pathMatches",
 		"parameterMatches",
-		"isOverlyComplex"
-	],
+		"isOverlyComplex" ],
 	"name" : "WAComplexRoute",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARoute",
+	"type" : "normal" }
