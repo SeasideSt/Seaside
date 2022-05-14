@@ -2,8 +2,8 @@ private
 loadStringPointers: strm offset: tableOffset
 	"returns tupple {arrayOfOffsetToString  arrayOfLengthOfString}"
 	| offsetTable lenTable len offset tupple |
-	offsetTable := IntegerArray new: nStrings.
-	lenTable := IntegerArray new: nStrings.
+	offsetTable := Array new: nStrings.
+	lenTable := Array new: nStrings.
 
 	strm position: tableOffset.
 	1 to: nStrings do: [:index |
