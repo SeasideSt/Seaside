@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPSeasideWebDriverTestCase",
+	"category" : "Seaside-Tests-Gettext-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title"
+	],
+	"name" : "WAGettextExampleTestCase",
+	"type" : "normal"
+}
