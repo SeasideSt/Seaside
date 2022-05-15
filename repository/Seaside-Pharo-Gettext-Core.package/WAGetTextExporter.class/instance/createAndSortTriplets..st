@@ -6,7 +6,7 @@ triplets := translationLiterals associations
 				collect: [:assoc | 
 					msgid := assoc key.
 					sortedMethods := assoc value asArray sort.
-					category := (Smalltalk at: sortedMethods first theNonMetaClassName) category asString.
+					category := (Smalltalk at: sortedMethods first instanceSideParentName) category asString.
 					sortKey := category , ',' , sortedMethods first printString , ',' , msgid.
 					comment := (sortedMethods
 								collect: [:each | each actualClass asString , '>>' , each selector asString])
