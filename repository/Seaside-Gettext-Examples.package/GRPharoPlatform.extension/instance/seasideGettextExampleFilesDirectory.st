@@ -1,3 +1,3 @@
 *Seaside-Gettext-Examples
-seasideGettextExamples 
+seasideGettextExampleFilesDirectory
 	^ (FileLocator localDirectory / 'iceberg' / 'SeasideSt' / 'Seaside' / 'seaside-gettext-example' / 'locale') asFileReference
