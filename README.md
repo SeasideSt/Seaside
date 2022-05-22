@@ -84,7 +84,7 @@ To install the latest stable version of Seaside in a [Squeak](http://www.squeak.
 ```Smalltalk
 Installer ensureRecentMetacello.
 ```
-From there on, follow the [installation instructions for Seaside in Pharo](README.md#install-in-pharo).
+From there on, follow the [installation instructions for Seaside in Pharo](README.md#instructions-for-pharo).
 
 #### Squeak < 5.2
 Make sure you have installed [Metacello](https://github.com/Metacello/metacello#squeak-older-than-squeak52). From there on, follow the [installation instructions for Seaside in Pharo](README.md#install-in-pharo).
