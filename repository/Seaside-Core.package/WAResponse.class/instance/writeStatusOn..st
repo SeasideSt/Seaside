@@ -2,10 +2,10 @@ writing
 writeStatusOn: aStream 
 	aStream nextPutAll: self httpVersion.
 	aStream
-		nextPut: $ ;
+		space;
 		nextPutAll: self status greaseString.
 	self message isNil ifFalse:  [
 		aStream
-			nextPut: $ ;
+			space;
 			nextPutAll: self message ].
 	aStream crlf
