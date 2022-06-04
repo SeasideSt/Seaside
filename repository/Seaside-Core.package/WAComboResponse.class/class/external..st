@@ -3,4 +3,4 @@ external: anExternalStream
 	^ self
 		onStream: anExternalStream
 		bufferSize: 4096
-		codec: GRNullCodec new
+		codec: (GRCodec forEncoding: 'utf-8')

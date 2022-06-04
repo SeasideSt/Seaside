@@ -5,7 +5,7 @@ initializeOnStream: aStream bufferSize: anInteger codec: aGRCodec
 	| rawBufferedStream |
 	self initialize.
 	codec := aGRCodec.
-	rawBufferedStream := GRPlatform current writeCharacterStreamOn: (String new: anInteger).
+	rawBufferedStream := GRPlatform current writeCharacterStreamOn: (ByteArray new: anInteger).
 	bufferedStream := GRCountingStream on: (aGRCodec encoderFor: rawBufferedStream).
 	externalStream := GRBinaryConvertingStream on: aStream.
 	committed := false.

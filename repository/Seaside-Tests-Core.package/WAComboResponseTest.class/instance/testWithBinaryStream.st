@@ -4,7 +4,7 @@ testWithBinaryStream
 		response := WAComboResponse
 			onStream: binaryStream
 			bufferSize: 4096
-			codec: GRPharoUtf8Codec new.
+			codec: (GRCodec forEncoding: 'utf-8').
 			
 		response
 			nextPut: Character space;
