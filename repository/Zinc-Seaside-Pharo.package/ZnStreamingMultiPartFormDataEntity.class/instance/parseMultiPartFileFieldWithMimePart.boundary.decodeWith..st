@@ -4,11 +4,12 @@ parseMultiPartFileFieldWithMimePart: aMimePart boundary: aBoundary decodeWith: a
 	fullBoundary := String crlf asByteArray, aBoundary.
 	file := self class temporaryFileDirectory / UUID new asString.
 	GRPlatform current
-		binaryWriteStreamFor: file
+		writeFileStreamOn: file pathString
 		do: [ :writer |
-		self
-			parseMultiPartFieldWithoutLengthWithBoundary: fullBoundary
-			writeOn: writer ].
+			self
+				parseMultiPartFieldWithoutLengthWithBoundary: fullBoundary
+				writeOn: writer ]
+		binary: true.
 	
 	aBlock
 		value: aMimePart
