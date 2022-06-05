@@ -10,7 +10,8 @@
 		"committed",
 		"externalStream",
 		"closed",
-		"bufferedStream"
+		"bufferedStream",
+		"countingStream"
 	],
 	"name" : "WAComboResponse",
 	"type" : "normal"

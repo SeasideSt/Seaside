@@ -1,9 +1,9 @@
 tests
 testWithBinaryStream
-	(FileSystem memory / 'socket') binaryWriteStreamDo: [ :binaryStream |
+	ByteArray streamContents: [ :stream |
 		response := WAComboResponse
-			onStream: binaryStream
-			bufferSize: 4096
+			onStream: stream
+			bufferSize: 1024
 			codec: (GRCodec forEncoding: 'utf-8').
 			
 		response
