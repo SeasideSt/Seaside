@@ -1,6 +1,7 @@
 converting
 requestUrlFor: aZincRequest
 	| zincUrl seasideUrl |
+	
 	zincUrl := aZincRequest url.
 	seasideUrl := WAUrl new
 		scheme: zincUrl schemeOrDefault greaseString;
