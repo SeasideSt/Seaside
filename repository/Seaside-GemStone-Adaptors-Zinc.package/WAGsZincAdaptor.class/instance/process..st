@@ -1,7 +1,9 @@
 as yet unclassified
 process: aNativeRequest
-	
-	^GRPlatform current 
-		seasideProcessRequest: aNativeRequest 
-		adaptor: self
-		resultBlock: [:aRequest | super process: aRequest ]
+  aNativeRequest isSafeToStream
+    ifTrue: [ ^ self processStreamingRequest: aNativeRequest ]
+    ifFalse: [ 
+      ^ GRPlatform current
+        seasideProcessRequest: aNativeRequest
+        adaptor: self
+        resultBlock: [ :aRequest | self processBufferedRequest: aRequest ] ]

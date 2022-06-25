@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "ZnZincServerAdaptor",
 	"category" : "Seaside-GemStone-Adaptors-Zinc",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAGsZincAdaptor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ZnZincServerAdaptor",
+	"type" : "normal" }

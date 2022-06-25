@@ -1,3 +1,3 @@
 *Zinc-Seaside
 nativeRequest 
-	^self 
+	^self

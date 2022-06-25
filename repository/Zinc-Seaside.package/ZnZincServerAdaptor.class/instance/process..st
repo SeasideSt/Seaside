@@ -1,12 +1,5 @@
 processing
 process: aZnRequest
-
-	^ aZnRequest isSafeToStream
-		  ifTrue: [ 
-			  ZnDeferredResponse onWrite: [ :stream | 
-				  | request |
-				  request := ZnSeasideRequest
-					             nativeRequest: aZnRequest
-					             stream: stream.
-				  super process: request ] ]
-		  ifFalse: [ super process: aZnRequest ]
+  ^ aZnRequest isSafeToStream
+    ifTrue: [ self processStreamingRequest: aZnRequest ]
+    ifFalse: [ self processBufferedRequest: aZnRequest ]
