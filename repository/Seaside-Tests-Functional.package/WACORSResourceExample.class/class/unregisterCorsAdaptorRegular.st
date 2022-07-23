@@ -1,4 +1,4 @@
 setup
 unregisterCorsAdaptorRegular
-	corsAdaptor ifNotNil:[ corsAdaptor stop; unregister ].
-	corsAdaptor := nil
+	CorsAdaptor ifNotNil:[ CorsAdaptor stop; unregister ].
+	CorsAdaptor := nil

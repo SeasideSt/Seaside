@@ -2,12 +2,12 @@
 	"commentStamp" : "",
 	"super" : "WARestfulHandler",
 	"category" : "Seaside-Tests-Functional",
-	"classinstvars" : [
-		"originAdaptor",
-		"corsAdaptor"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"CorsAdaptor",
+		"OriginAdaptor"
+	],
 	"instvars" : [
 		"sampleData"
 	],
