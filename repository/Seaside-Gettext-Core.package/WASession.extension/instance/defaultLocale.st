@@ -2,4 +2,4 @@
 defaultLocale
 
 	^ WACurrentLocalizationContext value 
-		  firstSupportedLocaleWithFallback: [ self fallbackLocale ]
+		  firstSupportedLocaleWithFallback: [ WALocale fallbackLocale ]
