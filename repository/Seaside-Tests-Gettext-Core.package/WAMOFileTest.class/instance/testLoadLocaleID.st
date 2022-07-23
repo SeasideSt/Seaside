@@ -1,10 +1,7 @@
 test
 testLoadLocaleID
 	
-	| fs file anMOFile |
-	fs := FileSystem memory.
-	file := fs / 'nl_BE.mo'.
-	
+	| anMOFile |	
 	self deny: file exists equals: true.
 	file asFileReference binaryWriteStreamDo: [ :stream | stream nextPutAll: (self class anMOBinary) ].
 	self deny: file exists equals: false.
@@ -13,7 +10,9 @@ testLoadLocaleID
 	anMOFile := WAMOFile new load: file localeString: 'nl'.
 	self deny: anMOFile equals: nil.
 	self assert: anMOFile translatedStrings size equals: 4.
+	self assert: anMOFile translatedStrings allButFirst equals: #('Kies een locale hieronder' 'schriftgrootte' 'locale').
 	self assert: anMOFile translations size equals: 4.
+	self assert: anMOFile translations equals: ((Dictionary new) add: ('Select a locale below'->2); add: ('fontsize'->3); add: (''->1); add: ('locale'->4); yourself).
 	
 	
 	

@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"file"
+	],
 	"name" : "WAMOFileTest",
 	"type" : "normal"
 }
