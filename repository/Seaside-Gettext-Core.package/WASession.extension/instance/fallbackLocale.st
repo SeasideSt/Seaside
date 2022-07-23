@@ -1,4 +1,4 @@
 *seaside-gettext-core
 fallbackLocale
-	^ WALocale
-		language: 'en'
+
+	^ WALocale language: 'en'

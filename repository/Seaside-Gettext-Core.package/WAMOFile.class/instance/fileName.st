@@ -1,3 +1,3 @@
-public
+accessing
 fileName
-	^fileName
+	^ fileName

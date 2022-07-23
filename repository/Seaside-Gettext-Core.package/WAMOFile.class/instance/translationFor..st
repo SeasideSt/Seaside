@@ -1,7 +1,7 @@
 public
 translationFor: aString 
 
-	aString size = 0 ifTrue: [
+	aString isEmpty ifTrue: [
 		"Gettext header"
 		^ GetTextUnsucessfulTranslationResult original: aString translation: '' ]. 
 

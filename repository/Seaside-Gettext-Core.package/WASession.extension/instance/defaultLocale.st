@@ -1,4 +1,5 @@
 *seaside-gettext-core
 defaultLocale
-	^ WACurrentLocalizationContext value
-		firstSupportedLocaleWithFallback:  [ self fallbackLocale ]
+
+	^ WACurrentLocalizationContext value 
+		  firstSupportedLocaleWithFallback: [ self fallbackLocale ]

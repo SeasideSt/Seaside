@@ -1,3 +1,3 @@
-public
+private
 fileName: path
 	fileName := path

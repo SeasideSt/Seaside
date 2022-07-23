@@ -1,1 +1,2 @@
-I am used in conjunction with WALocalizationContext in a WALocalizationContextFilter. I provide the current context as I am subclassed from WADynamicVariable, which isn't the case for WALocalizationContext.
+I am used in conjunction with WALocalizationContext in a WALocalizationContextFilter.
+I am a dynamic variable (subclass of WADynamicVariable) that references the locale for the current request context.
