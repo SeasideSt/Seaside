@@ -8,4 +8,4 @@ seasideFilesDirectory
 		ifNone: [ nil ].
 	^ fileTreeRepository 
 		ifNil:[ Error signal: 'Could not find Seaside git repository to retrieve gettext sample files' ]
-		ifNotNil: [ fileTreeRepository description ]
+		ifNotNil: [ fileTreeRepository directory parent fullName ]
