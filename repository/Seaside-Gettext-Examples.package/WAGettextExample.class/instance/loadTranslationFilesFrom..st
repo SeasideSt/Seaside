@@ -1,5 +1,5 @@
 private
-loadTranslationFilesFrom: aPath
+loadTranslationFilesFrom: aPathString
 	WAGetTextTranslator
 		createTranslatorFor: 'seaside-gettext-example'
-		fromFiles: aPath asFileReference 
+		fromFilesIn: aPathString

@@ -1,4 +1,3 @@
-translators
+translators registry
 translatorFor: anApplicationName
-	^ Translators at: anApplicationName
-		
+	^ TranslatorRegistry at: anApplicationName ifAbsent: [ nil ]

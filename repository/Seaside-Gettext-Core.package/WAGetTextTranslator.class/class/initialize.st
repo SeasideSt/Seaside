@@ -1,3 +1,3 @@
-initialization
+class initialization
 initialize
-	Translators := Dictionary new
+	TranslatorRegistry := Dictionary new

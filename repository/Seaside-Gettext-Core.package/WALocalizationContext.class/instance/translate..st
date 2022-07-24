@@ -1,4 +1,6 @@
 translating
 translate: aString
-	^ self translator translate: aString usingLocale: self locale
+	^ self translator 
+		ifNil:[ aString ]
+		ifNotNil:[:t | t translate: aString usingLocale: self locale ]
 	

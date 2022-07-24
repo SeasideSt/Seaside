@@ -12,7 +12,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"language",
-		"country"
+		"country",
+		"localeId"
 	],
 	"name" : "WALocale",
 	"type" : "normal"

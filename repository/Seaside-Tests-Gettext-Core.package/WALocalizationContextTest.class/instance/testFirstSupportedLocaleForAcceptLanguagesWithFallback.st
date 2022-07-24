@@ -1,25 +1,18 @@
 test
 testFirstSupportedLocaleForAcceptLanguagesWithFallback
 
-	| aLocalizationContext acceptLanguages fs currentWorkingDirectory resultLocale |
-	fs := FileSystem memory.
-	self createMOFile: fs.
-	self createAnotherMOFile: fs.
-	currentWorkingDirectory := (fs / '.') asFileReference.
-	WAGetTextTranslator
-		createTranslatorFor: self appNameForTests
-		fromFiles: currentWorkingDirectory.
+	| aLocalizationContext acceptLanguages resultLocale |
 		
 	aLocalizationContext := WALocalizationContext new.
-	acceptLanguages := WAAcceptLanguage fromString: 'nl-be;q=1.0,fr;q=0.5'.
+	aLocalizationContext instVarNamed: 'translator' put: (WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName).
+	acceptLanguages := WAAcceptLanguage fromString: 'nl-BE;q=1.0,fr;q=0.5'.
 	
-	aLocalizationContext translatorForTestingWithApplicationName: self appNameForTests.
 	resultLocale := aLocalizationContext firstSupportedLocaleForAcceptLanguages: acceptLanguages withFallback: [ ].
-	self assert: resultLocale greaseString equals: 'nl-be'.
+	self assert: resultLocale localeId equals: 'nl-BE'.
 	
-	acceptLanguages := WAAcceptLanguage fromString: 'ch-de;q=1.0'.
+	acceptLanguages := WAAcceptLanguage fromString: 'ch-DE;q=1.0'.
 	resultLocale := aLocalizationContext firstSupportedLocaleForAcceptLanguages: acceptLanguages withFallback: [ ].
-	self assert: resultLocale greaseString equals: 'nil'. "Should be nil because there is no fallback"
+	self assert: resultLocale isNil.
 	
 	resultLocale := aLocalizationContext firstSupportedLocaleForAcceptLanguages: acceptLanguages withFallback: [ WALocale language: 'en' ].
-	self assert: resultLocale greaseString equals: 'en'.
+	self assert: resultLocale localeId equals: 'en'.

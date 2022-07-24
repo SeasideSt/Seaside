@@ -1,6 +1,5 @@
 private
 addMOFileFromPath: pathString forName: anApplicationName
-	"This method is currently only used for instantiation with a web application."
 	| locale fileName |
 	locale := WALocale fromString: (GRPlatform current localNameOf: pathString).
 	fileName := String streamContents:[ :str |
@@ -11,6 +10,6 @@ addMOFileFromPath: pathString forName: anApplicationName
 				nextPutAll: GRPlatform current pathSeparator;
 				nextPutAll: anApplicationName;
 				nextPutAll: '.mo' ].
-	^ moFiles 
-		at: locale greaseString
-		put: (WAMOFile new initializeFromFile: fileName localeString: locale greaseString)
+	^ moFilePerLocaleId 
+		at: locale localeId
+		put: (WAMOFile new initializeFromFile: fileName localeId: locale localeId)

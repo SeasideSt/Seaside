@@ -1,5 +1,5 @@
 initialization
-initializeFromFile: aFileName localeString: aLocaleString
+initializeFromFile: aFileName localeId: aLocaleString
 	"Entry point for loading translations. All of strings are loaded. Translation strings are converted to internal string format on load time.
 	Original string/index pairs are registerd to Dictionary on load time."
 	self initialize.

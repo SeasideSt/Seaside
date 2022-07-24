@@ -1,17 +1,16 @@
 accessing
 firstSupportedLocaleForAcceptLanguages: acceptLanguages withFallback: aNiladicBlock
 
-	| availableLanguageLocaleStrings |
-	availableLanguageLocaleStrings := translator supportedLocaleStrings.
+	| availableLanguageLocaleIds |
+	availableLanguageLocaleIds := self translator supportedLocaleIds.
 	acceptLanguages isNotNil ifTrue: [ 
 		acceptLanguages do: [ :each | 
 			| theLocale |
 			theLocale := each value.
 			"TODO: this should become a method perhaps. Maybe we want to ignore the country"
-			(availableLanguageLocaleStrings includes: theLocale greaseString) 
+			(availableLanguageLocaleIds includes: theLocale localeId) 
 				ifTrue: [ ^ theLocale ].
 			theLocale country isNotNil ifTrue: [ 
-				(availableLanguageLocaleStrings includes:
-					 theLocale language , '-' , theLocale country asUppercase) 
+				(availableLanguageLocaleIds includes: (theLocale language , '-' , theLocale country))
 					ifTrue: [ ^ theLocale ] ] ] ].
 	^ aNiladicBlock value

@@ -1,14 +1,14 @@
 test
 testTranslateUsingLocale
 
-	| fs file translator currentWorkingDirectory result |
-	fs := FileSystem memory.
-	file := self createMOFile: fs. "The WAMOFile should have nl-BE as locale"
-	currentWorkingDirectory := (fs / '.') asFileReference.
+	| translator |
+	WAGetTextTranslator createTranslatorFor: WAGettextExample getTextExampleApplicationName fromFilesIn: (GRPlatform current seasideGettextExampleFilesDirectory).
+	translator := WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName.
 	
-	WAGetTextTranslator createTranslatorFor: (self appNameForTests) fromFiles: currentWorkingDirectory.
-	translator := WAGetTextTranslator translatorFor: (self appNameForTests).
-	result := translator translate: 'fontsize' usingLocale: (WALocale fromString: 'nl-BE').
-	self assert: result equals: 'schriftgrootte'.
-	self assert: translator supportedLocaleStrings size equals: 1.
-	self assert: translator supportedLocaleStrings equals: #('nl-BE').
+	self assert: (translator translate: 'fontsize' usingLocale: (WALocale fromString: 'nl-BE')) equals: 'schriftgrootte'.
+	self assert: (translator translate: 'Select a locale below' usingLocale: (WALocale fromString: 'fr')) equals: 'Sélectionnez la locale ci-dessous'.
+	self assert: (translator translate: 'Select a locale below' usingLocale: (WALocale fromString: 'de-CH')) equals: 'Wählen Sie unten ein Gebietsschema aus'.
+	
+	WAGetTextTranslator removeTranslatorFor: WAGettextExample getTextExampleApplicationName
+	
+	

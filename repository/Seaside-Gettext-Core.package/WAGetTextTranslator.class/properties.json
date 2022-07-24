@@ -5,10 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"Translators"
+		"TranslatorRegistry"
 	],
 	"instvars" : [
-		"moFiles"
+		"moFilePerLocaleId"
 	],
 	"name" : "WAGetTextTranslator",
 	"type" : "normal"

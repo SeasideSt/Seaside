@@ -4,4 +4,4 @@ initialize
 	application := WAAdmin register: self asApplicationAt: 'examples/gettext'.
 	application configuration addParent: WAGetTextConfiguration instance.
 	application preferenceAt: #sessionClass put: WAGettextExampleSession.
-	application preferenceAt: #gettextApplicationName put: 'seaside-gettext-example'.
+	application preferenceAt: #gettextApplicationName put: self getTextExampleApplicationName.

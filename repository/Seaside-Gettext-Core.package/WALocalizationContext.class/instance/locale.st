@@ -1,8 +1,7 @@
 accessing
 locale
 
-	locale ifNil: [ 
+	^ locale ifNil: [ 
 		self session
-			ifNil: [ ^ self firstSupportedLocaleWithFallback: [ WALocale fallbackLocale ] ]
-			ifNotNil: [ locale := self session locale ] ].
-	^ locale
+			ifNil: [ self firstSupportedLocaleWithFallback: [ WALocale fallbackLocale ] ]
+			ifNotNil: [ locale := self session locale ] ]

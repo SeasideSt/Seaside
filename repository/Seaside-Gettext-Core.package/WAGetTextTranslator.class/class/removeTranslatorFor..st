@@ -1,4 +1,4 @@
-translators
+translators registry
 removeTranslatorFor: anApplicationName
-	^ Translators removeKey: anApplicationName
+	^ TranslatorRegistry removeKey: anApplicationName
 		

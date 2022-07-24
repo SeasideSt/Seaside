@@ -1,5 +1,5 @@
 initialization
-initializeFromStream: aStream localeString: aLocaleString
+initializeFromStream: aStream localeId: aLocaleString
 	self initialize.
 	localeString := aLocaleString.
 	self privateLoadStream: aStream

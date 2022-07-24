@@ -1,5 +1,5 @@
 test
-testLocale
+testTranslate
 
 	| aLocalizationContext aLocale session request requestContext handler headers acceptLang |
 
@@ -20,8 +20,7 @@ testLocale
 	WACurrentRequestContext use: requestContext during: [ 
 		WACurrentLocalizationContext use: aLocalizationContext during: [ 
 			requestContext push: handler during: [ 
-				aLocalizationContext translator.
-				self assert: aLocalizationContext locale localeId equals: 'en' ] ] ].
+				self assert: (aLocalizationContext translate: 'fontsize') equals: 'fontsize' ] ] ].
 
 	"Case: accept headers"
 	headers := Dictionary new.
@@ -31,11 +30,11 @@ testLocale
 	WACurrentRequestContext use: requestContext during: [ 
 		WACurrentLocalizationContext use: aLocalizationContext during: [ 
 			requestContext push: handler during: [ 
-				self assert: aLocalizationContext locale localeId equals: 'nl-BE' ] ] ].
-
+				self assert: (aLocalizationContext translate: 'fontsize') equals: 'schriftgrootte' ] ] ].
+	
 	"Case: session"
 	WACurrentRequestContext use: requestContext during: [ 
 		WACurrentLocalizationContext use: aLocalizationContext during: [ 
 			requestContext push: handler during: [ 
 				requestContext push: session during: [ 
-					self assert: aLocalizationContext locale localeId equals: 'fr' ] ] ] ]
+					self assert: (aLocalizationContext translate: 'fontsize') equals: 'taille de police' ] ] ] ]
