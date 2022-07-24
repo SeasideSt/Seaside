@@ -1,6 +1,6 @@
 private
 loadHeader: strm
-
+	| magic |
 	magic := strm uint32.
 	magic = 16rDE120495 
 		ifTrue: [ isLittleEndian := true ]

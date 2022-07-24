@@ -1,5 +1,5 @@
 test data
-anotherMOBinary
+moFileBinaryForLocaleFR
 	"This is for locale fr"
  ^ #[222 18 4 149 0 0 0 0 4 0 0 0 28 0 0 0 60 0 0 0 5 0 0 0 92 0 0 0 0 0 0 0 112 0
 0 0 21 0 0 0 113 0 0 0 8 0 0 0 135 0 0 0 6 0 0 0 144 0 0 0 138 1 0 0 151 0 0 0

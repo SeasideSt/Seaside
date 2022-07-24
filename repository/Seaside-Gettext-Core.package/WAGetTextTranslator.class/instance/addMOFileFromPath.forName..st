@@ -13,4 +13,4 @@ addMOFileFromPath: pathString forName: anApplicationName
 				nextPutAll: '.mo' ].
 	^ moFiles 
 		at: locale greaseString
-		put: (WAMOFile new load: fileName localeString: locale greaseString)
+		put: (WAMOFile new initializeFromFile: fileName localeString: locale greaseString)

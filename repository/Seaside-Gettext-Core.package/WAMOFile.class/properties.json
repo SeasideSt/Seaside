@@ -7,14 +7,10 @@
 		"Lf"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"Cr",
-		"Lf"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"fileName",
 		"isLittleEndian",
-		"magic",
 		"revision",
 		"nStrings",
 		"originalTableOffset",

@@ -2,8 +2,7 @@ public
 translationFor: aString 
 
 	aString isEmpty ifTrue: [
-		"Gettext header"
-		^ GetTextUnsucessfulTranslationResult original: aString translation: '' ]. 
+		^ GetTextUnsucessfulTranslationResult original: aString translation: '' ].
 
 	^ (self searchFor: aString) 
 		ifNotNil: [ :aTranslation | GetTextSucessfulTranslationResult original: aString translation: aTranslation ]
