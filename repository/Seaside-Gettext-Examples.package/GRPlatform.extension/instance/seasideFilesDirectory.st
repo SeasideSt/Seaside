@@ -1,0 +1,3 @@
+*Seaside-Gettext-Examples
+seasideFilesDirectory
+	self subclassResponsibility
