@@ -1,6 +1,6 @@
 *Seaside-Gettext-Examples
 seasideFilesDirectory
-	"| icebergRepo fileTreeRepository |
+	| icebergRepo fileTreeRepository |
 	icebergRepo := IceRepository registry detect:[ :repo | repo name = 'Seaside' ] ifNone: [ nil ].
 	icebergRepo ifNotNil:[ ^ icebergRepo location pathString ].
 	fileTreeRepository := MCRepositoryGroup default repositories
@@ -8,5 +8,4 @@ seasideFilesDirectory
 		ifNone: [ nil ].
 	^ fileTreeRepository 
 		ifNil:[ Error signal: 'Could not find Seaside git repository to retrieve gettext sample files' ]
-		ifNotNil: [ fileTreeRepository description ]"
-	^ '/home/runner/work/Seaside/Seaside/'
+		ifNotNil: [ fileTreeRepository description ]
