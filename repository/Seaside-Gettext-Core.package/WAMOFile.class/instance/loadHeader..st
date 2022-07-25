@@ -1,7 +1,7 @@
 private
 loadHeader: strm
 	| magic |
-	magic := strm uint32.
+	magic := GRPlatform current nextUInt32: strm.
 	magic = 16rDE120495 
 		ifTrue: [ isLittleEndian := true ]
 		ifFalse: [
