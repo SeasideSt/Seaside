@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "MelvinRoest 3/25/2022 14:19",
-	"super" : "Object",
 	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"TranslatorRegistry"
-	],
+		"TranslatorRegistry" ],
+	"commentStamp" : "MelvinRoest 3/25/2022 14:19",
 	"instvars" : [
-		"moFilePerLocaleId"
-	],
+		"moFilePerLocaleId" ],
 	"name" : "WAGetTextTranslator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

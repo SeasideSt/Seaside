@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JohanBrichau 7/23/2022 16:35",
-	"super" : "WADynamicVariable",
 	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JohanBrichau 7/23/2022 16:35",
+	"instvars" : [
+		 ],
 	"name" : "WACurrentLocalizationContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WADynamicVariable",
+	"type" : "normal" }

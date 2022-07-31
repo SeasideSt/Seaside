@@ -1,4 +1,4 @@
 accessing
 isSuccessful
 
-	self subclassResponsibility 
+	self subclassResponsibility

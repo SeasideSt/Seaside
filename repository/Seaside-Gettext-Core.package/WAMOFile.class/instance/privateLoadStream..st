@@ -9,4 +9,4 @@ privateLoadStream: aStream
 	translatedStrings := self loadStrings: aStream pointers: translatedTable.
 	translations := Dictionary new: nStrings.  
 	1 to: nStrings do: [ :index |
-		translations at: (originalStrings at: index) put: index ] 
+		translations at: (originalStrings at: index) put: index ]
