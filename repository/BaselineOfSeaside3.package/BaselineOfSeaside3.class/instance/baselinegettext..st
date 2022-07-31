@@ -37,5 +37,8 @@ baselinegettext: spec
     do: [ 
       spec
         package: 'Seaside-GemStone-Gettext-Core';
+        package: 'Seaside-GemStone-Gettext-Examples';
         package: 'Seaside-Gettext-Core'
-          with: [ spec includes: #('Seaside-GemStone-Gettext-Core') ] ]
+          with: [ spec includes: #('Seaside-GemStone-Gettext-Core') ];
+		  package: 'Seaside-Gettext-Examples'
+			with: [ spec includes: #('Seaside-GemStone-Gettext-Examples')] ]
