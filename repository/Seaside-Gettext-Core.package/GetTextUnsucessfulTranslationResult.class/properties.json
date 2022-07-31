@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "GetTextUnsucessfulTranslationResult",
-	"pools" : [
-		 ],
 	"super" : "GetTextTranslationResult",
-	"type" : "normal" }
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GetTextUnsucessfulTranslationResult",
+	"type" : "normal"
+}
