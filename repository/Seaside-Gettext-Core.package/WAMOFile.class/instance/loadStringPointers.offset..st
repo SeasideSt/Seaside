@@ -4,8 +4,7 @@ loadStringPointers: strm offset: tableOffset
 	| offsetTable lenTable len offset tupple |
 	offsetTable := Array new: nStrings.
 	lenTable := Array new: nStrings.
-
-	strm position: tableOffset.
+	GRPlatform current stream: strm position: tableOffset.
 	1 to: nStrings do: [ :index |
 		len := self nextInt32From: strm.
 		offset := self nextInt32From: strm.

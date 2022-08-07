@@ -11,8 +11,8 @@ loadStrings: strm pointers: tupple
     byteLength := lenTable at: index.
     endPos := start + byteLength.
     rawStr := (String new: byteLength) writeStream.
-    encodedStream position: start.
-    [ encodedStream position < endPos ]
+    GRPlatform current stream: encodedStream position: start.
+    [ (GRPlatform current positionOfStream: encodedStream) < endPos ]
       whileTrue: [ rawStr nextPut: encodedStream next ].
     strings at: index put: rawStr contents ].
   ^ strings
