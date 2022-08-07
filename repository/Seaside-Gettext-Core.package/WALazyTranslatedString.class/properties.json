@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAObject",
 	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"key"
-	],
+		"key" ],
 	"name" : "WALazyTranslatedString",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

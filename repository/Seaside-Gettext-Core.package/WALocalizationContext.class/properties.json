@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "MelvinRoest 3/25/2022 11:23",
-	"super" : "WAObject",
 	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MelvinRoest 3/25/2022 11:23",
 	"instvars" : [
 		"translator",
-		"locale"
-	],
+		"locale" ],
 	"name" : "WALocalizationContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }
