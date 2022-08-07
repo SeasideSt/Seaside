@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Gettext-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"file" ],
+	"name" : "WAMOFileTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

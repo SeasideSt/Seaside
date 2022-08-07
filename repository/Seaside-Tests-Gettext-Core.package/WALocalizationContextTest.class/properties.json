@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Gettext-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "WALocalizationContextTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

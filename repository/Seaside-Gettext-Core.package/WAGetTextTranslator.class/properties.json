@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TranslatorRegistry" ],
+	"commentStamp" : "MelvinRoest 3/25/2022 14:19",
+	"instvars" : [
+		"moFilePerLocaleId" ],
+	"name" : "WAGetTextTranslator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

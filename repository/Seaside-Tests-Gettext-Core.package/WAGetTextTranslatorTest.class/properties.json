@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Gettext-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "WAGetTextTranslatorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

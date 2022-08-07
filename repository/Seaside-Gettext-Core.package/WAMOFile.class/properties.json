@@ -1,0 +1,23 @@
+{
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [
+		"Cr",
+		"Lf" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JohanBrichau 7/23/2022 16:46",
+	"instvars" : [
+		"fileName",
+		"isLittleEndian",
+		"revision",
+		"nStrings",
+		"originalTableOffset",
+		"translatedTableOffset",
+		"translatedStrings",
+		"translations",
+		"localeString" ],
+	"name" : "WAMOFile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

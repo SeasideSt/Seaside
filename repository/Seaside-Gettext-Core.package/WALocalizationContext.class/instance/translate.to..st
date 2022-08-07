@@ -1,5 +1,5 @@
 translating
 translate: aString to: aLocale
-	^ (GetTextTranslator availableForLocaleID: aLocale asLocaleID)
-		translate: aString
-		inDomain: self domain
+	^ self translator 
+		ifNil:[ aString ]
+		ifNotNil:[ :t | t translate: aString usingLocale: aLocale ]

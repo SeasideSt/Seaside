@@ -1,0 +1,5 @@
+localization
+importTranslations
+	WAGetTextTranslator
+		createTranslatorFor: self getTextExampleApplicationName
+		fromFilesIn: GRPlatform current seasideGettextExampleFilesDirectory

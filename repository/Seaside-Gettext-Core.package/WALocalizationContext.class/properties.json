@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MelvinRoest 3/25/2022 11:23",
 	"instvars" : [
-		"domain",
 		"translator",
-		"localeId" ],
+		"locale" ],
 	"name" : "WALocalizationContext",
 	"pools" : [
 		 ],
