@@ -10,4 +10,3 @@ testTranslationFor
 	result := anMOFile translationFor: 'nonexisting string'.
 	self deny: result isSuccessful.
 	self assert: result translation equals: 'nonexisting string'.
-	

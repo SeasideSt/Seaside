@@ -11,8 +11,3 @@ testCreateAndRemoveTextTranslator
 	self assert: translator supportedLocaleIds asSet equals: { 'nl-BE' . 'fr' . 'de-CH' } asSet.
 	WAGetTextTranslator removeTranslatorFor: WAGettextExample getTextExampleApplicationName.
 	self assert: (WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName) isNil
-	
-	
-	
-	
-	
