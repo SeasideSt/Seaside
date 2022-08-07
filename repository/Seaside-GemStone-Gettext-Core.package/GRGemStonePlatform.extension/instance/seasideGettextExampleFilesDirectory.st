@@ -5,6 +5,10 @@ seasideGettextExampleFilesDirectory
   seasideGitCheckoutLocation := (System clientEnvironmentVariable: 'GS_HOME')
     ifNil: [ 
       "Hardcode location on Github CI"
-      '/home/runner/work/Seaside/Seaside/' ]
+      '/home/runner/work/Seaside/Seaside' ]
     ifNotNil: [ :string | string , '/shared/repos/Seaside/' ].
+  Transcript
+    show:
+      'GETTEXT LOCATION:' , seasideGitCheckoutLocation
+        , '/seaside-gettext-example/locale'.
   ^ seasideGitCheckoutLocation , '/seaside-gettext-example/locale'
