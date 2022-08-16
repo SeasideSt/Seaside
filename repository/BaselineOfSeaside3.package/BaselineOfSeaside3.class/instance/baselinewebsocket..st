@@ -9,7 +9,7 @@ baselinewebsocket: spec
 "			package: 'Seaside-WebSocket-Tests-Core' with: [
 				spec requires: #('Javascript-Tests-Core' 'Seaside-WebSocket-Core' ) ];"
 			package: 'Seaside-WebSocket-Zinc' with:[ 
-				spec requires: #('Zinc-Seaside') ];
+				spec requires: #('Zinc-Seaside' 'Zinc WebSockets') ];
 			package: 'Seaside-WebSocket-Examples' with: [
 				spec requires: #('JQuery-Core' 'Seaside-WebSocket-Core') ].
 			
