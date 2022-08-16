@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAWebSocketCreator",
-	"category" : "Seaside-WebSocket-Zinc",
+	"super" : "WARequestHandler",
+	"category" : "Seaside-WebSocket-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAZincWebSocketCreator",
+	"name" : "WAWebSocketRequestHandler",
 	"type" : "normal"
 }

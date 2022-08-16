@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WARequestHandler",
+	"super" : "WAWebSocketRequestHandler",
 	"category" : "Seaside-WebSocket-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
