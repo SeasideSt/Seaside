@@ -51,7 +51,8 @@ baselineadaptors: spec
 
 	spec
 		for: #gemstone
-		do: [ spec
+		do: [ 
+			spec
 				project: 'FastCGI Project'
 					with: [ spec
 						className: 'ConfigurationOfGsFastCGI';
