@@ -8,4 +8,4 @@ javascript: aBlock
 		          rendererClass: self rendererClass;
 		          yourself.
 	aBlock value: script.
-	self push: (String streamContents: [ :stream | stream javascript: script asJavascript ])
+	self push: (String streamContents: [ :stream | stream javascript: script ])

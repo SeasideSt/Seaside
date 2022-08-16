@@ -1,3 +1,3 @@
 accessing
 pusher
-	^ Pusher ifNil: [ Pusher := WAWebSocketPusher new ]
+	^ Pusher ifNil: [ Pusher := WAWebSocketJSPusher new ]
