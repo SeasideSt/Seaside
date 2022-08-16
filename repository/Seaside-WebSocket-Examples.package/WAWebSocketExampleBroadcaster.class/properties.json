@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestHandler",
+	"category" : "Seaside-WebSocket-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sockets",
+		"mutex"
+	],
+	"name" : "WAWebSocketExampleBroadcaster",
+	"type" : "normal"
+}
