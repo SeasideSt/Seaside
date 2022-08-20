@@ -16,7 +16,14 @@ handle: aRequestContext
 					contentType: (self mimetypeOf: selector) ] ]
 		ifFalse: [
 			aRequestContext respond: [ :response |
-				response
-					cacheFor: self cacheDuration;
-					document: (self documentOf: selector)
-					mimeType: (self mimetypeOf: selector) ] ]
+				| document entityTag |
+				document := self documentOf: selector.
+				entityTag := self entityTagFor: document.
+				aRequestContext request ifNoneMatch = entityTag
+					ifTrue: [ response notModified ]
+					ifFalse: [ 
+						response
+							cacheFor: self cacheDuration;
+							entityTag: entityTag;
+							document: document
+							mimeType: (self mimetypeOf: selector) ] ] ]
