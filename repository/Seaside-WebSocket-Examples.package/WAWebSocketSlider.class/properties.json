@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Seaside-WebSocket-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Pusher",
+		"Value"
+	],
+	"instvars" : [ ],
+	"name" : "WAWebSocketSlider",
+	"type" : "normal"
+}
