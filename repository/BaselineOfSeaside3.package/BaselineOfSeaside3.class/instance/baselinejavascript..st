@@ -7,11 +7,14 @@ baselinejavascript: spec
 			package: 'Javascript-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' ) ];
 			package: 'Javascript-Tests-Core' with: [
-				spec requires: #('Javascript-Core' 'Seaside-Tests-Core' ) ].
+				spec requires: #('Javascript-Core' 'Seaside-Tests-Core' ) ];
+			package: 'Seaside-Ajaxifier-Core' with: [
+				spec requires: #('Seaside-Core') ].
 		spec 
 			group: 'Javascript' with: #('Javascript-Core');
 			group: 'Javascript Tests' with: #('Javascript-Tests-Core' );
-			group: 'Tests' with: #( 'Javascript Tests' ) ].
+			group: 'Tests' with: #( 'Javascript Tests' );
+			group: 'Ajaxifier' with: #( 'Seaside-Ajaxifier-Core' ) ].
 		
 	spec for: #squeak do: [
 		spec 
