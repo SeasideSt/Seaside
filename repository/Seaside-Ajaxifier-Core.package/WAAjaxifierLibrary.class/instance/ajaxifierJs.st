@@ -4,7 +4,7 @@ ajaxifierJs
  * Copyright (c) 2008 Lukas Renggli, renggli@gmail.com
  * Copyright (c) 2022 Philippe Marschall, philippe.marschall@gmail.com
  */
-
+"use strict";
 window.addEventListener("DOMContentLoaded", (loadEvent) => {
 	
 	// variables
