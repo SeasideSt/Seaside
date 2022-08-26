@@ -4,9 +4,7 @@
 	"category" : "Seaside-Pharo-Development-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"IgnoredClasses"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"instances",
 		"table",
