@@ -4,9 +4,9 @@ testNonBmpCodePoints
 	self supportsEmoji ifFalse: [
 		^ self ].
 	
-	"duch flag as two surrogate pairs"
+	"dutch flag as two surrogate pairs"
 	parsed := self parse: '"\uD83C\uDDF3\uD83C\uDDF1"'.
 
 	self assert: parsed size = 2.
 	self assert: parsed first codePoint = 16r1F1F3. "Regional Indicator Symbol Letter N"
-	self assert: parsed second codePoint = 16r1F1F1 "Regional Indicator Symbol Letter l"
+	self assert: parsed second codePoint = 16r1F1F1 "Regional Indicator Symbol Letter L"
