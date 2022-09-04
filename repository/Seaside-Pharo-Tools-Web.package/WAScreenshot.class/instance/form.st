@@ -1,5 +1,5 @@
 accessing
 form
 	^ zoom
-		ifFalse: [ Display copy ]
+		ifFalse: [ UIManager default world imageForm ]
 		ifTrue: [ self topWindow imageForm ]
