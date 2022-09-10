@@ -1,7 +1,7 @@
 tests-invalid
 testSurrogatePairs
-	"Tests JSJsonParser, in particular the handling of \uXXXX\uXXXX sequences that
-	form surrogate pairs (see: https://tools.ietf.org/html/rfc7159#section-7)."
+	"Tests the handling of \uXXXX\uXXXX sequences that form surrogate pairs
+	(see: https://www.rfc-editor.org/rfc/rfc8259#section-7)."
 
 	self assert: (WAJsonParser parse: '"\uD800\uDC00"') equals: (String with: (Character codePoint: 16r10000)).
 	self assert: (WAJsonParser parse: '"\uD834\uDD1E"') equals: (String with: (Character codePoint: 16r1D11E)).
