@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", (loadEvent) => {
 						child.remove();
 					}
 				});
-				document.head.innerHTML = xhr.response.head;
+				document.head.innerHTML = xhr.response.head.innerHTML;
 				document.body = xhr.response.body;
 
 				if (modifyHistory) {
