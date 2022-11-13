@@ -1,11 +1,13 @@
 {
+	"commentStamp" : "JohanBrichau 7/23/2022 16:46",
+	"super" : "Object",
 	"category" : "Seaside-Gettext-Core",
 	"classinstvars" : [
 		"Cr",
-		"Lf" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JohanBrichau 7/23/2022 16:46",
+		"Lf"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"fileName",
 		"isLittleEndian",
@@ -15,9 +17,8 @@
 		"translatedTableOffset",
 		"translatedStrings",
 		"translations",
-		"localeString" ],
+		"localeId"
+	],
 	"name" : "WAMOFile",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

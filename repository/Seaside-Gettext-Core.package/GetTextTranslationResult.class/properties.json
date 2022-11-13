@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"original",
-		"translation" ],
+		"translation"
+	],
 	"name" : "GetTextTranslationResult",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

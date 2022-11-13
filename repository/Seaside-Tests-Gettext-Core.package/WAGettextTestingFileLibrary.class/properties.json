@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"commentStamp" : "JohanBrichau 11/13/2022 11:17",
+	"super" : "WAFileMetadataLibrary",
 	"category" : "Seaside-Tests-Gettext-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WALocalizationContextTest",
+	"name" : "WAGettextTestingFileLibrary",
 	"type" : "normal"
 }
