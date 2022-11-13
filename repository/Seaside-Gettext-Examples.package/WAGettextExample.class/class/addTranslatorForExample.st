@@ -6,7 +6,7 @@ addTranslatorForExample
 	moFiles := localeIds collect: [ :localeId | 
 		           | contents |
 		           contents := (WAGettextTestingFileLibrary new perform:
-											(WAGettextTestingFileLibrary asSelector: localeId , '.mo')) contents value.
+											(WAGettextTestingFileLibrary asSelector: localeId , '.mo')) contents.
 		           WAMOFile
 			           fromStream: contents readStream
 			           localeId: localeId ].
