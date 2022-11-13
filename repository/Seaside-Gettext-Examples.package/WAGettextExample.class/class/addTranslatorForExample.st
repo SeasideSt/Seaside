@@ -2,7 +2,7 @@ localization
 addTranslatorForExample
 
 	| localeIds moFiles |
-	localeIds := #( #nl_BE #fr #de_CH ) collect: [ :str | (WALocale fromString: str) localeId ].
+	localeIds := #( 'nl_BE' 'fr' 'de_CH' ) collect: [ :str | (WALocale fromString: str) localeId ].
 	moFiles := localeIds collect: [ :localeId | 
 		           | contents |
 		           contents := (WAGettextTestingFileLibrary new perform:
