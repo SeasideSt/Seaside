@@ -22,12 +22,7 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H:%M:%S')"
-      - name: Log date
-        run: echo "${{ steps.date.outputs.date }}"
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.workflow_dispatch.ref }}
       - uses: hpi-swa/setup-smalltalkCI@v1
