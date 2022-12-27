@@ -4,7 +4,7 @@ renderContentOn: html
 		#( bounce highlight pulsate shake size transfer ) do: [ :each | 
 			html anchor
 				onClick: (self
-					perform: each asMutator
+					perform: each greaseAsMutator
 					with: (html jQuery: '.box') effect);
 				with: each ] ].
 	self renderBoxOn: html

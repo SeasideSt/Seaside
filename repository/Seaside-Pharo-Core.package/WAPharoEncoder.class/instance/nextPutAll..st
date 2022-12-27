@@ -1,6 +1,6 @@
 accessing
 nextPutAll: aString
-	aString isByteString
+	(aString isString and: [ aString isByteString ])
 		ifTrue: [ self nextPutAllFast: aString ]
 		ifFalse: [
 			"slow fall back for WideStrings"
