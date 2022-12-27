@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"session",
+		"onMessage",
+		"onClose",
+		"onError"
+	],
 	"name" : "WAWebSocket",
 	"type" : "normal"
 }

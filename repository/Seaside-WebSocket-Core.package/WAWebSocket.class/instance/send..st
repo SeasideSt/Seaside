@@ -1,4 +1,4 @@
-sending
+callbacks
 send: aString
-	"Writes one frame worth of data."
+	"Write data to the socket"
 	self subclassResponsibility

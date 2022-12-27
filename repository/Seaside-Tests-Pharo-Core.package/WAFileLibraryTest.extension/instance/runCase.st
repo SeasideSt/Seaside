@@ -1,3 +1,3 @@
 *Seaside-Tests-Pharo-Core
 runCase
-	GRPlatform current doSilently:  [ super performTest ]
+	GRPlatform current doSilently:  [ super runCase ]

@@ -6,9 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"onMessage",
-		"onClose",
-		"onError",
 		"znWebSocket"
 	],
 	"name" : "WAZincWebSocket",

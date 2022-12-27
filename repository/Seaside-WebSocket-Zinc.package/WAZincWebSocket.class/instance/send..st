@@ -1,4 +1,6 @@
 instructions
 send: aString
-	znWebSocket isConnected ifTrue:[
-		znWebSocket sendMessage: aString ]
+	self isConnected ifFalse: [ ^ self ].
+	
+	self touchSession.
+	znWebSocket sendMessage: aString
