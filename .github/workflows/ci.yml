@@ -11,7 +11,7 @@ jobs:
         smalltalk: [ Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, Pharo-6.1, GemStone64-3.6.5, GemStone64-3.5.5, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
         experimental: [ false ]
         include:
-          - smalltalk: Pharo64-alpha
+          - smalltalk: Pharo64-11
             experimental: true
           - smalltalk: Squeak64-5.3
             experimental: true
@@ -23,8 +23,6 @@ jobs:
     name: ${{ matrix.smalltalk }}
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.workflow_dispatch.ref }}
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
