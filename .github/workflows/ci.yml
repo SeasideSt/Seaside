@@ -37,7 +37,8 @@ jobs:
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
-        id: test_run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 20
