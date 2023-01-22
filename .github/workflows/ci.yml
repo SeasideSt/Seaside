@@ -44,10 +44,6 @@ jobs:
         shell: bash
         timeout-minutes: 20
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v3
         with:
-          name: ${{ matrix.smalltalk }}
-          token: ${{ secrets.CODECOV_TOKEN }}
-      - name: Save run status
-        if: steps.last_run_status.outputs.last_run_status != 'success'
-        run: echo "::set-output name=last_run_status::${{ steps.test_run.outcome }}" > last_run_status
+          name: ${{matrix.smalltalk}}
