@@ -37,12 +37,10 @@ jobs:
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 20
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v1.1.1
         with:
-          name: ${{matrix.smalltalk}}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
