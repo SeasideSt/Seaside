@@ -39,8 +39,8 @@ jobs:
       - name: Run tests
         id: test_run
         run: smalltalkci -s ${{ matrix.smalltalk }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         timeout-minutes: 20
       - name: Upload coverage to Codecov
