@@ -48,4 +48,3 @@ testValuesCallback
 				yourself) ]
 		raise: WARenderNotification.
 	self assertLog: #( '2a' )
-

@@ -6,4 +6,4 @@ method: aString selector: aSymbol url: aUrl arguments: aCollectionOfStrings prod
 		url: aUrl
 		arguments: aCollectionOfStrings
 		produces: aProducesMimeTypeMatch
-		consumes: aConsumesMimeTypeMatch 
+		consumes: aConsumesMimeTypeMatch

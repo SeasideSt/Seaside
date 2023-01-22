@@ -7,4 +7,3 @@ doNotCache
 	"http://blog.55minutes.com/2011/10/how-to-defeat-the-browser-back-button-cache/"
 	"https://code.google.com/p/seaside/issues/detail?id=772"
 	self headerAt: 'Cache-Control' put: 'no-cache, max-age=0, must-revalidate, no-store' "HTTP 1.1"
-	

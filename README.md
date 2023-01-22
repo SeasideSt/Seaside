@@ -77,6 +77,19 @@ To install the latest stable version of Seaside in a [Gemstone](https://gemtalks
       load: #('Development' 'Examples' 'Zinc') ].
   ```
 
+### Instructions for VAST
+
+Seaside is an official vendor supported framework that can be installed using VAST's feature loading tool GUI. In addition, it can be installed programmatically as shown below. VAST fork is at https://github.com/instantiations/Seaside
+
+#### Load Seaside
+To install the latest stable version of Seaside in a [VAST Platform](https://www.instantiations.com/vast-platform/) image, execute the following code:
+
+```Smalltalk
+(EmConfigurationMap editionsFor: 'z.ST: Server Smalltalk (SST) - Seaside')
+ first loadWithRequiredMaps
+```
+
+
 ### Instructions for Squeak
 
 #### Squeak >= 5.2
@@ -84,7 +97,7 @@ To install the latest stable version of Seaside in a [Squeak](http://www.squeak.
 ```Smalltalk
 Installer ensureRecentMetacello.
 ```
-From there on, follow the [installation instructions for Seaside in Pharo](README.md#install-in-pharo).
+From there on, follow the [installation instructions for Seaside in Pharo](README.md#instructions-for-pharo).
 
 #### Squeak < 5.2
 Make sure you have installed [Metacello](https://github.com/Metacello/metacello#squeak-older-than-squeak52). From there on, follow the [installation instructions for Seaside in Pharo](README.md#install-in-pharo).
@@ -110,22 +123,6 @@ Metacello new
  version: '3.1.0';
  load
 ```
-
-
-### Instructions for VAST Platform
-
-Seaside is an official vendor supported framework that can be installed using VAST's feature loading tool GUI. In addition, it can be installed programmatically as shown below.   
-
-#### Load Seaside
-To install the latest stable version of Seaside in a [VAST Platform](https://www.instantiations.com/vast-platform/) image, execute the following code:
-
-```Smalltalk
-(EmConfigurationMap editionsFor: 'z.ST: Server Smalltalk (SST) - Seaside')
- first loadWithRequiredMaps
-```
-
-
-
 
 
 ## Community

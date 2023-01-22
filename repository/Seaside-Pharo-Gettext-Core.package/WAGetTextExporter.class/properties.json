@@ -1,14 +1,14 @@
 {
-	"category" : "Seaside-Pharo-Gettext-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Pharo-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		 ],
+		"exportFile",
+		"stream"
+	],
 	"name" : "WAGetTextExporter",
-	"pools" : [
-		 ],
-	"super" : "GetTextExporter",
-	"type" : "normal" }
+	"type" : "normal"
+}

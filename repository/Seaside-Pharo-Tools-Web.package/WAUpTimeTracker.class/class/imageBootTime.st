@@ -1,3 +1,3 @@
 accessing
 imageBootTime
-	^ self default imageBootTime 
+	^ self default imageBootTime

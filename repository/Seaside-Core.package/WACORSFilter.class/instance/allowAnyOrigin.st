@@ -2,5 +2,3 @@ origins
 allowAnyOrigin
 
 	self addAllowedOrigin: '*'
-
-	

@@ -1,4 +1,2 @@
 rendering
 renderFooterOn: html
-	
-	

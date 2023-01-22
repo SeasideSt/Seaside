@@ -1,16 +1,14 @@
 {
-	"category" : "Seaside-Gettext-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"domain",
-		"translator",
-		"localeId" ],
-	"name" : "WALocalizationContext",
-	"pools" : [
-		 ],
+	"commentStamp" : "MelvinRoest 3/25/2022 11:23",
 	"super" : "WAObject",
-	"type" : "normal" }
+	"category" : "Seaside-Gettext-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"translator",
+		"locale"
+	],
+	"name" : "WALocalizationContext",
+	"type" : "normal"
+}

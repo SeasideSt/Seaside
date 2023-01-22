@@ -12,4 +12,4 @@ initialize
 	application
 		preferenceAt: #sessionClass put: WAExpirySession;
 		addLibrary: JQDeploymentLibrary;
-		addLibrary: JQAjaxifierLibrary
+		addLibrary: WAAjaxifierLibrary

@@ -1,3 +1,3 @@
 hooks
 children 
-	^ Array with: self componentCreator 
+	^ Array with: self componentCreator

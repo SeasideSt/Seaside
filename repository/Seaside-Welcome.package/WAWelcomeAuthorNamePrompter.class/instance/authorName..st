@@ -1,3 +1,3 @@
 accessing
 authorName: anAuthorName
-	authorName := anAuthorName 
+	authorName := anAuthorName

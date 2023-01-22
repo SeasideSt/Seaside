@@ -30,4 +30,3 @@ testRemoveRelativeOldest
 	tenMissing := false.
 	cache at: 10 ifAbsent: [ tenMissing := true ].
 	self assert: tenMissing
-	

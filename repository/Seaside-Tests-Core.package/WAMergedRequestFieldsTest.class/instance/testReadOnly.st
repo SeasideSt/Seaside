@@ -9,4 +9,3 @@ testReadOnly
 	self
 		should: [ merged removeKey: 'foo' ]
 		raise: Error
-		

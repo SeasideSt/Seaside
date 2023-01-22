@@ -4,15 +4,15 @@ startAdaptors
 	<script>
 	WAServerManager default adaptors
 		ifEmpty: [ 
-			originAdaptor := (self concreteAdaptorClass port:
+			OriginAdaptor := (self concreteAdaptorClass port:
 				                  self originAdaptorPort) start.
 			self registerCorsAdaptor ]
 		ifNotEmpty: [ :adaptors | 
-			originAdaptor := adaptors
+			OriginAdaptor := adaptors
 				                 detect: [ :one | one port = self originAdaptorPort ]
 				                 ifNone: [ self concreteAdaptorClass port: self originAdaptorPort ].
-			originAdaptor start.
-			corsAdaptor := adaptors
+			OriginAdaptor start.
+			CorsAdaptor := adaptors
 				               detect: [ :one | one port = self corsAdaptorPort ]
 				               ifNone: [ self concreteAdaptorClass port: self corsAdaptorPort ].
-			corsAdaptor start ]
+			CorsAdaptor start ]

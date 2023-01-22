@@ -21,4 +21,3 @@ renderConfigurationOn: html
 								html anchor
 									callback: [ self removeFilter: each ];
 									with: 'Remove' ] ] ] ] ]
-	

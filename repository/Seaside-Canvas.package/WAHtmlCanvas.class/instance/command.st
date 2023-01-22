@@ -1,3 +1,3 @@
 tags
 command
-	^ self brush: WACommandTag new	
+	^ self brush: WACommandTag new

@@ -1,14 +1,11 @@
 {
+	"commentStamp" : "MelvinRoest 3/25/2022 12:38",
+	"super" : "WAExampleComponent",
 	"category" : "Seaside-Gettext-Examples",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "WAGettextExample",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

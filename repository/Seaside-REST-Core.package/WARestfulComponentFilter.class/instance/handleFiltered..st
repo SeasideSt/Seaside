@@ -7,4 +7,3 @@ handleFiltered: aRequestContext
 		ifFalse: [
 			"search for a route"
 			super handleFiltered: aRequestContext ]
-	

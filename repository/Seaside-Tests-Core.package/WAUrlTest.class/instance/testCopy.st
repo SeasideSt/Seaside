@@ -8,4 +8,3 @@ testCopy
 	url addField: 'zork'.
 	self assert: url printString = '/foo/bar/zork?foo=bar&zork'.
 	self assert: copy printString = '/foo/bar?foo=bar'
-	

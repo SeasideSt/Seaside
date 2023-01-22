@@ -29,9 +29,9 @@ baselinerest: spec
 
 	spec for: #(squeak) do:[
 		spec
-			package: 'Seaside-Pharo-REST-Core';
+			package: 'Seaside-Squeak-REST-Core';
 			package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-Pharo-REST-Core')];
+				spec includes: #('Seaside-Squeak-REST-Core')];
 			package: 'Seaside-Squeak-Swagger-Core';
 			package: 'Seaside-Pharo-Swagger-Core';
 			package: 'Seaside-Swagger-Core' with: [ 
@@ -51,7 +51,7 @@ baselinerest: spec
 	].
 
 	spec 
-		for: #(#'pharo9.x') 
+		for: #('pharo9.x' 'pharo10.x') 
 		do:[
 			spec
 				package: 'Seaside-Pharo90-REST-Core';

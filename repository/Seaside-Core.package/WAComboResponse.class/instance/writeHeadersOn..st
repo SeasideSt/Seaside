@@ -4,4 +4,4 @@ writeHeadersOn: aStream
 		self 
 		headerAt: 'Content-Length'
 		put: bufferedStream position ].
-	super writeHeadersOn: aStream 
+	super writeHeadersOn: aStream

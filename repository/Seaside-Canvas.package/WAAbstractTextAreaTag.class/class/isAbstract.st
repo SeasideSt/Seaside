@@ -1,4 +1,4 @@
 testing
 isAbstract 
 
-	^ self == WAAbstractTextAreaTag 
+	^ self == WAAbstractTextAreaTag

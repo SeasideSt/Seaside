@@ -1,3 +1,3 @@
 accessing
 editor: aComponent
-	editor := aComponent 
+	editor := aComponent

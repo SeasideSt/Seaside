@@ -1,20 +1,8 @@
 private
 compileText: aByteArrayOrString selector: aSymbol 
-	"Compiles aByteArrayOrString into a method named aSymbol that returns aByteArrayOrString as a string literal.
-	aSymbol
-		^ aByteArrayOrString"
+	"Compiles aByteArrayOrString into a method named aSymbol that returns aByteArrayOrString as a string literal."
 	| code |
-	code := String streamContents: [ :stream | 
-		stream
-			nextPutAll: aSymbol;
-			nextPut: Character cr.
-		stream
-			tab;
-			nextPutAll: '^ '''.
-		aByteArrayOrString greaseString do: [ :each | 
-			each = $' ifTrue: [ stream nextPut: $' ].
-			stream nextPut: each ].
-		stream nextPut: $' ].
+	code := GRPlatform current asMethodReturningString: aByteArrayOrString named: aSymbol.
 	GRPlatform current 
 		compile: code
 		into: self

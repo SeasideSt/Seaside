@@ -6,4 +6,3 @@ testTry
 	self assert: (consumer try: 'kentbeck').
 	self assert: consumer atEnd.
 	self deny: (consumer try: 'kentbeck')
-	
