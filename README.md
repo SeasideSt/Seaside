@@ -138,3 +138,5 @@ Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more info
 
 ## Status of automated builds
 [![smalltalkCI](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml) See https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml
+
+[![codecov](https://codecov.io/gh/SeasideSt/Seaside/branch/master/graph/badge.svg?token=GLPOkk0Wby)](https://codecov.io/gh/SeasideSt/Seaside)
