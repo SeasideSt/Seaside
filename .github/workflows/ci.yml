@@ -3,7 +3,7 @@ name: smalltalkCI
 on: [push, pull_request]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-18.04
     strategy:
       fail-fast: false
@@ -26,6 +26,7 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
+          smalltalkCI-source: 'jbrichau/smalltalkCI'
       # - name: Setup tmate session
       #   uses: mxschmitt/action-tmate@v3
       - name: Install Chrome
@@ -37,7 +38,12 @@ jobs:
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
-        id: test_run
         run: smalltalkci -s ${{ matrix.smalltalk }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         timeout-minutes: 20
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          name: ${{ matrix.smalltalk }}
