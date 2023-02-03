@@ -1,0 +1,3 @@
+*Zinc-Seaside
+isStreamingResponse
+  ^ false

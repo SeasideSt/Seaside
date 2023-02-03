@@ -1,18 +1,17 @@
 {
-	"commentStamp" : "pmm 2/18/2011 23:07",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"StatusMessages"
-	],
+		"StatusMessages" ],
+	"commentStamp" : "pmm 2/18/2011 23:07",
 	"instvars" : [
 		"headers",
 		"cookies",
 		"status",
-		"message"
-	],
+		"message" ],
 	"name" : "WAResponse",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }
