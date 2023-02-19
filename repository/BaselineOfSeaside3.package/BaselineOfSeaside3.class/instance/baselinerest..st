@@ -51,7 +51,7 @@ baselinerest: spec
 	].
 
 	spec 
-		for: #('pharo9.x' 'pharo10.x') 
+		for: #('pharo9.x' 'pharo10.x' 'pharo11.x') 
 		do:[
 			spec
 				package: 'Seaside-Pharo90-REST-Core';

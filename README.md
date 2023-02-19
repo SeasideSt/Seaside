@@ -92,6 +92,8 @@ To install the latest stable version of Seaside in a [VAST Platform](https://www
 
 ### Instructions for Squeak
 
+Seaside for Squeak mostly works but is unmaintained.
+If you want to help out keeping Seaside running on Squeak, please contact us via the channels mentioned in the Community section below.
 #### Squeak >= 5.2
 To install the latest stable version of Seaside in a [Squeak](http://www.squeak.org) image you need to first install [Metacello](https://github.com/Metacello/metacello):
 ```Smalltalk
