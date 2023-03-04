@@ -2,5 +2,5 @@ configuring
 setDefault: aWAServerManager
 	"Private - Sets aWAServerManager as the default instance of receiver."
 
-	self initializeDefaultValueHolder.
+	self ensureDefaultValueHolder.
 	Default contents: aWAServerManager.
