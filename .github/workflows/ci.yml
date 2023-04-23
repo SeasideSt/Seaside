@@ -24,7 +24,6 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-          smalltalkCI-source: 'jbrichau/smalltalkCI'
       # - name: Setup tmate session
       #   uses: mxschmitt/action-tmate@v3
       - name: Install Chrome
