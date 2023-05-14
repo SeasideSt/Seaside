@@ -10,7 +10,7 @@ html, body {
 	margin-top: 0px;
 	background: #fff url("background.jpg") repeat-y center top;
 }
-input.text {
+input[type=text] {
 	color: #2a2a2a;
 	font-size: 100%;
 	border: 1px solid #ccc;
@@ -175,7 +175,7 @@ pre.codeSample {
 	margin: 2em;
 }
 
-form.config input.checkbox { margin-right: 1em; }
+form.config input[type=checkbox] { margin-right: 1em; }
 form.config label { vertical-align: top; }
 .container .buttons { text-align: center; margin-top: 2em; }
 .container .buttons a { margin: 0 1em; }
