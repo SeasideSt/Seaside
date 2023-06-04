@@ -4,18 +4,19 @@ search: aSearchBlock labels: aLabelsBlock callback: aCallbackBlock
 	
 	| term mapping |
 	mapping := IdentityDictionary new.
-	"assigments to temps don't work in GS 2.4'
+	"Use a WAValueHolder because assigments to temps don't work in GemStone.
 	http://code.google.com/p/glassdb/issues/detail?id=221"
 	term := WAValueHolder new.
 	self source: ((self jQuery getJson
 		callback: [ :value | term contents: value ]
 		value: (JSStream on: 'request.term');
-		text: [ :stream | 
-			stream json: ((aSearchBlock value: term contents) asArray collect: [ :object | 
-				GRSmallDictionary2 new
-					at: 'label' put: (aLabelsBlock value: object);
-					at: 'index' put: (mapping at: object ifAbsentPut: [ mapping size + 1 ]);
-					yourself ]) ];
+		json: [ :json | 
+			json array: [
+				(aSearchBlock value: term contents) do: [ :object | 
+					json object: [ 
+						json 
+							key: 'label' value: (aLabelsBlock value: object);
+							key: 'index' value: (mapping at: object ifAbsentPut: [ mapping size + 1 ]) ] ] ] ];
 		onSuccess: 'response(arguments[0])'; 
 		dataType: 'jsonp') asFunction: #('request' 'response')).
 	self onSelect: ((self jQuery ajax
