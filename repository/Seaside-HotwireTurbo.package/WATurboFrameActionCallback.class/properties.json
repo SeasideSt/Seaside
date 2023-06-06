@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAActionCallback",
+	"category" : "Seaside-HotwireTurbo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WATurboFrameActionCallback",
+	"type" : "normal"
+}
