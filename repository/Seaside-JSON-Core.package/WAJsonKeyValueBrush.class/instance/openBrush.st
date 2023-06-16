@@ -1,5 +1,5 @@
 private
 openBrush
 	super openBrush.
-	key jsonOn: canvas.
+	key greaseString jsonOn: canvas.
 	self document stream nextPutAll: ': '

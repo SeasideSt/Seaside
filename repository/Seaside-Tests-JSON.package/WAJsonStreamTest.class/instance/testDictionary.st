@@ -19,7 +19,7 @@ testDictionary
 			((Dictionary new)
 				at: 1 put: 'not-a-string';
 				yourself)
-		equals: '{1: "not-a-string"}'.
+		equals: '{"1": "not-a-string"}'.
 	self
 		assert:
 			((Dictionary new)
@@ -31,4 +31,10 @@ testDictionary
 			((Dictionary new)
 				at: 'abc1' put: 'totally sexy';
 				yourself)
-		equals: '{"abc1": "totally sexy"}'
+		equals: '{"abc1": "totally sexy"}'.
+	self
+		assert:
+			((Dictionary new)
+				at: #(1 2) put: 'awkward';
+				yourself)
+		equals: '{"#(1 2)": "awkward"}'
