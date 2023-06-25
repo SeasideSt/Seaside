@@ -7,23 +7,23 @@ testDictionary
 				at: 'bar' put: 2;
 				at: 'zork' put: 3;
 				yourself)
-		equals: '{"foo": 1, "bar": 2, "zork": 3}'.
+		gives: '{"foo": 1, "bar": 2, "zork": 3}'.
 	self
 		assert:
 			((GRSmallDictionary2 new)
 				at: '' put: 'empty';
 				yourself)
-		equals: '{"": "empty"}'.
+		gives: '{"": "empty"}'.
 
 	self
 		assert:
 			((Dictionary new)
 				at: '1abc' put: 'not-an-id';
 				yourself)
-		equals: '{"1abc": "not-an-id"}'.
+		gives: '{"1abc": "not-an-id"}'.
 	self
 		assert:
 			((Dictionary new)
 				at: 'abc1' put: 'totally sexy';
 				yourself)
-		equals: '{"abc1": "totally sexy"}'
+		gives: '{"abc1": "totally sexy"}'

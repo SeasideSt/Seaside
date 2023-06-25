@@ -9,8 +9,7 @@ testDictionaryWithNonStringKeys
 				 at: #( 1 2 ) put: 'awkward';
 				 yourself) asJson ]
 		raise: Error
-		whoseDescriptionIncludes: 'Only Strings can be used as keys in JSON objects.'
-		description: 'Throw an error when serializing dictionaries with non-String keys'.
+		withExceptionDo: [ :e | self assert: e messageText equals: 'Only Strings can be used as keys in JSON objects.' ].
 		
 	self
 		should: [
@@ -18,5 +17,4 @@ testDictionaryWithNonStringKeys
 				at: 1 put: 'not-a-string';
 				yourself) asJson ]
 		raise: Error
-		whoseDescriptionIncludes: 'Only Strings can be used as keys in JSON objects.'
-		description: 'Throw an error when serializing dictionaries with non-String keys'
+		withExceptionDo: [ :e | self assert: e messageText equals: 'Only Strings can be used as keys in JSON objects.' ].

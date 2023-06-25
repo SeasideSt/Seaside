@@ -22,8 +22,6 @@ testObject
 							json key: 1 value: 1 ] ]
 					gives: '{"1": 1}' ]
 		raise: Error
-		whoseDescriptionIncludes: 'Only Strings can be used as keys in JSON objects.'
-		description: 'Throw an error when serializing dictionaries with non-String keys'
-	
+		withExceptionDo: [ :e | self assert: e messageText equals: 'Only Strings can be used as keys in JSON objects.' ].
 
 	
