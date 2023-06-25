@@ -12,7 +12,8 @@ testObject
 			json object: [
 				json key: '1' value: 1 ] ]
 		gives: '{"1": 1}'.
-		
+
+	WAJsonKeyValueBrush stringKeysOnly: true.
 	self
 		should: [
 				self
