@@ -1,4 +1,4 @@
-*Seaside-Pharo70-JSON-Extensions
+*Seaside-Pharo-JSON-Core
 jsonOn: aRenderer
 	aRenderer object: [
 		self keysAndValuesDo: [ :key :value |
