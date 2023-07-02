@@ -2,13 +2,11 @@ rendering
 renderContentOn: html
 	html heading: counter.
 	html anchor
-		navigation;
 	 	attributeAt: 'data-turbo-action' put: 'replace';
 		turbocallback: [ self increase ];
 		with: '++'.
 	html space.
 	html anchor
-		navigation;
 		attributeAt: 'data-turbo-action' put: 'replace';
 		turbocallback: [ self decrease ];
 		with: '--'.
