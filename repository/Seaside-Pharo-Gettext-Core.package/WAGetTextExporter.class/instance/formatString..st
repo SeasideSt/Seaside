@@ -1,4 +1,4 @@
-formatting
+private
 formatString: aString
 
 	| result replacements |
