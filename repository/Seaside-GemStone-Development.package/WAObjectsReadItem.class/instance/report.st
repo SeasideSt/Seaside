@@ -3,7 +3,7 @@ report
 
 	| objects |
 	
-	objects := (objectsRead groupedBy:[:e | e class ]) associations sorted:[:a :b | a value size >  b value size ].
+	objects := (objectsRead groupBy:[:e | e class ] having:[:e | true ]) associations sorted:[:a :b | a value size >  b value size ].
 	^ String streamContents:[:str |
 		objects do:[:assoc |
 			str 
