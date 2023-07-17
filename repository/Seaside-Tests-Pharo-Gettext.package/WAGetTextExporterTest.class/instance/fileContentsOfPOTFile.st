@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Pharo-SystemVersion: Pharo-11.0.0+build.694.sha.f07af32c1392d9105aae83eb63ac21de3f4c0bdc (64 Bit)\n"
+"X-Pharo-SystemVersion: ',SystemVersion current asString,'\n"
 
 
 #: WAGettextExample>>renderContentOn:
