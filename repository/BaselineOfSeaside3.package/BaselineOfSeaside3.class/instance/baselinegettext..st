@@ -18,7 +18,7 @@ baselinegettext: spec
           with: #('Seaside-Gettext' 'Seaside-Gettext-Examples');
         group: 'Tests' with: #('Seaside-Tests-Gettext-Core' 'Gettext-Examples') ].
   spec
-    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x')
+    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x')
     do: [ 
       spec
         package: 'Seaside-Pharo-Gettext-Core';
