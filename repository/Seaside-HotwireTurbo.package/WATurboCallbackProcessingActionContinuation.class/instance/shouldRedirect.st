@@ -1,4 +1,4 @@
 asserting
 shouldRedirect
 
-	^ false
+	^ self request isGet not
