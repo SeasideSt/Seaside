@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WADecoration",
+	"super" : "WAObject",
 	"category" : "Seaside-HotwireTurbo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id"
+		"canvas"
 	],
-	"name" : "WATurboFrame",
+	"name" : "WATurboStreamBuilder",
 	"type" : "normal"
 }

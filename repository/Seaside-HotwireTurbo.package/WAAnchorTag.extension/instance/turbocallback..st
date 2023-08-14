@@ -1,4 +1,5 @@
 *Seaside-HotwireTurbo
-turbocallback: aNiladicValuable 
-	aNiladicValuable argumentCount > 0 ifTrue: [ GRInvalidArgumentCount signal: 'Anchors expect a niladic callback.' ].
+turboCallback: aNiladicValuable 
+	aNiladicValuable argumentCount > 0 ifTrue: [ 
+		GRInvalidArgumentCount signal: 'Anchors expect a niladic callback.' ].
 	self url addField: (self storeCallback: (WATurboFrameActionCallback on: aNiladicValuable))
