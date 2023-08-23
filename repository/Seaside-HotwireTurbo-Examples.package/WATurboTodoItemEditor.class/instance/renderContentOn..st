@@ -8,4 +8,4 @@ renderContentOn: html
 			value: todoItem description.
 		html submitButton
 			style: 'display:none';
-			turboCallback: [ self halt. self answer ] ]
+			turboCallback: [ self answer ] ]
