@@ -1,20 +1,18 @@
 rendering
 renderContentOn: html
+	
 	html listItem
-		passenger: self;
-		with: [ 
-			html div
+		onDoubleClick: (html javascript callback: [ self call: (WATodoItemEditor on: self) ]);
+		with:[ 
+			html form
 				class: 'view';
 				with:[
 					html checkbox
 						class: 'toggle';
+						onChange: (html javascript: 'this.form.requestSubmit()');
 						callback: [ :value | self done: value ];
 						value: done.
 					html label: description.
 					html button
-						class: 'destroy' ].
-		html textInput
-			class: 'edit';
-			style: 'display:none';
-			callback: [ :value | self description: value ];
-			value: description ]
+						callback: [ self remove ];
+						class: 'destroy' ] ]
