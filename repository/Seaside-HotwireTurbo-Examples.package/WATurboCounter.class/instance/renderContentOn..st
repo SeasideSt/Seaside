@@ -1,17 +1,16 @@
 rendering
 renderContentOn: html
+
 	html heading: counter.
 	html anchor
-	 	attributeAt: 'data-turbo-action' put: 'replace';
-		turbocallback: [ self increase ];
+		turboCallback: [ self increase ];
 		with: '++'.
 	html space.
 	html anchor
-		attributeAt: 'data-turbo-action' put: 'replace';
-		turbocallback: [ self decrease ];
+		turboCallback: [ self decrease ];
 		with: '--'.
+	html space.
 	html anchor
 		url: 'javascript:{}';
 		onClick: ((html jQuery id: #foo) load html:[ :h | h anchor callback: [ ] ]);
 		with: 'bla'
-		

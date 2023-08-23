@@ -1,3 +1,4 @@
 hooks
 children
-	^ counters
+
+	^ counters, { totals }

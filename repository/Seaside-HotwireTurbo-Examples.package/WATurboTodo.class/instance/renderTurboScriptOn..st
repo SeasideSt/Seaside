@@ -1,4 +1,4 @@
-initialization
+rendering
 renderTurboScriptOn: html
 
 	html script 

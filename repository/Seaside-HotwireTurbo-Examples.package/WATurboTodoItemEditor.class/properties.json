@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"counters",
-		"totals"
+		"todoItem"
 	],
-	"name" : "WATurboMultiCounter",
+	"name" : "WATurboTodoItemEditor",
 	"type" : "normal"
 }

@@ -1,0 +1,11 @@
+rendering
+renderContentOn: html
+
+	html form: [
+		html textInput
+			class: 'edit';
+			callback: [ :value | todoItem description: value ];
+			value: todoItem description.
+		html submitButton
+			style: 'display:none';
+			turboCallback: [ self halt. self answer ] ]
