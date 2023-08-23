@@ -1,3 +1,3 @@
 visiting
 shouldVisitNextPresenterOf: aDecoration
-	^ (aDecoration isKindOf: WATurboFrame) not
+	^ aDecoration isTurboFrame not and: [ aDecoration isDelegation not ]

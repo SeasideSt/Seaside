@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WAAllPresenterGuide",
+	"super" : "WAVisiblePresenterGuide",
 	"category" : "Seaside-HotwireTurbo",
 	"classinstvars" : [ ],
 	"pools" : [ ],

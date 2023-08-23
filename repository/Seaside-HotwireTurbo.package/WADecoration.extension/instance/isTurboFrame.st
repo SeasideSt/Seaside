@@ -1,0 +1,4 @@
+*Seaside-HotwireTurbo
+isTurboFrame
+
+	^ false
