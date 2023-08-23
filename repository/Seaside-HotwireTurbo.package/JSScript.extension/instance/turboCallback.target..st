@@ -1,5 +1,5 @@
 *Seaside-HotwireTurbo
-turboCallback: aNiladicValuable frameId: frameId
+turboCallback: aNiladicValuable target: frameId
 
 	self add: 
 		(self turbo call: 'visit' withArguments: { 

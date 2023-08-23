@@ -3,7 +3,7 @@ renderContentOn: html
 
 	| id |
 	html listItem
-		onDoubleClick: (html javascript turboCallback: [ self turboCall: (WATurboTodoItemEditor on: self) ] frameId: self turboframeDecoration id);
+		onDoubleClick: (html javascript turboCallback: [ self turboCall: (WATurboTodoItemEditor on: self) ]);
 		id: (id := html nextId);
 		with: [ 
 		html div
@@ -21,4 +21,4 @@ renderContentOn: html
 				html form: [
 					html button
 						class: 'destroy';
-						turboStreamCallback: [ :ts | ts remove: self remove ] ] ] ]
+						turboStreamCallback: [ :ts | ts remove: self remove ] ] ] ] 

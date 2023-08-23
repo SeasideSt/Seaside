@@ -13,5 +13,5 @@ renderContentOn: html
 		html textInput
 			callback: [ :value | theValue := value ].
 		html submitButton
-			turboFrameTarget: 'id-total';
+			turboTarget: 'id-total';
 			turboCallback: [ self setCountersTo: theValue ] ]

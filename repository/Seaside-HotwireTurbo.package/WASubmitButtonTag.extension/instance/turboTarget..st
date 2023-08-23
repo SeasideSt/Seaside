@@ -1,4 +1,4 @@
 *Seaside-HotwireTurbo
-turboFrameTarget: aString
+turboTarget: aString
 
 	self dataAttributeAt: 'turbo-frame' put: aString
