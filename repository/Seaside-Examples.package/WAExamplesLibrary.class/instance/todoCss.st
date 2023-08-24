@@ -293,6 +293,31 @@ label[for=''toggle-all''] {
 	display: block;
 }
 
+#todo-list li .edit-link {
+	position: absolute;
+	top: 20px;
+	right: 60px;
+	bottom: 0;
+	margin: auto 0;
+	font-size: small;
+	color: #a88a8a;
+	display: none;
+}
+
+#todo-list li:hover .edit-link {
+	display: block;
+}
+
+#todo-list li .edit-link:hover {
+	text-shadow: 0 0 1px #000,
+				 0 0 10px rgba(199, 107, 107, 0.8);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 #todo-list li .edit {
 	display: none;
 }
