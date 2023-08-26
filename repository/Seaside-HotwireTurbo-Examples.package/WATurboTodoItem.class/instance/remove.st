@@ -1,4 +1,4 @@
 private
 remove
-	todos remove: self.
-	^ self turboframeDecoration id
+
+	todos remove: self

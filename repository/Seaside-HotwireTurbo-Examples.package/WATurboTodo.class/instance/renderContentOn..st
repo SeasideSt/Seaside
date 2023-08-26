@@ -6,4 +6,5 @@ renderContentOn: html
 		id: #todoapp;
 		with: [
 			self renderHeaderWithAddTodoOn: html.
-			self renderTodosOn: html ]
+			self renderTodosOn: html.
+			self renderFooterOn: html ]

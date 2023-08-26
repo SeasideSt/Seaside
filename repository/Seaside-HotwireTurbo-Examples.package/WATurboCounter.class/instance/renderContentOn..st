@@ -3,9 +3,9 @@ renderContentOn: html
 
 	html heading: counter.
 	html anchor
-		turboCallback: [ self increase ];
+		callback: [ self increase ];
 		with: '++'.
 	html space.
 	html anchor
-		turboCallback: [ self decrease ];
+		callback: [ self decrease ];
 		with: '--'

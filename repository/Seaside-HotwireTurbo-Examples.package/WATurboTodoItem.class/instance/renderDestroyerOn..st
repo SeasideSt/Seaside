@@ -4,4 +4,4 @@ renderDestroyerOn: html
 	html form: [ 
 		html button
 			class: 'destroy';
-			turboStreamCallback: [ :ts | ts remove: self remove ] ]
+			turboStreamCallback: [ :ts | self remove. ts removeComponent: self ] ]
