@@ -1,5 +1,6 @@
 private
 turboStreamAction: aName target: anId with: aRenderable
+
 	(canvas tag: 'turbo-stream')
 		attributeAt: 'action' put: aName;
 		attributeAt: 'target' put: anId;
