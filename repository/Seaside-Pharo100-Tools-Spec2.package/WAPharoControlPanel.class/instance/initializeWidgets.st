@@ -1,7 +1,9 @@
 initialization
 initializeWidgets
 	adaptors := self newTable.
-	actionBar := (self rootCommandsGroup / 'Toolbar') asToolbarPresenter.
+	actionBar := SpToolbarPresenterBuilder new
+		visit: (self rootCommandsGroup / 'Toolbar'); 
+		toolbarPresenter.
 	infos := self newText.
 	adaptors
 		addColumn:

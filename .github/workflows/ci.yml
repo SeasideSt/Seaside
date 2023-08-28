@@ -4,14 +4,14 @@ on: [push, pull_request]
 
 jobs:
   test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, Pharo-6.1, GemStone64-3.6.5, GemStone64-3.5.5, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
+        smalltalk: [ Pharo64-11, Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, GemStone64-3.6.5, GemStone64-3.5.7 ]
         experimental: [ false ]
         include:
-          - smalltalk: Pharo64-11
+          - smalltalk: Pharo64-12
             experimental: true
           - smalltalk: Squeak64-5.3
             experimental: true
@@ -26,7 +26,6 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-          smalltalkCI-source: 'jbrichau/smalltalkCI'
       # - name: Setup tmate session
       #   uses: mxschmitt/action-tmate@v3
       - name: Install Chrome

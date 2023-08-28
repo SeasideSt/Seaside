@@ -8,6 +8,6 @@ createStringMethodRefDictionary: methodRefStringAssociations
 		keywords := assoc value.
 		keywords do: [ :literal |
 			| references |
-			references := literals at: literal ifAbsentPut: [ OrderedCollection new ].
+			references := literals at: literal ifAbsentPut: [ Set new ].
 			references add: methodReference ] ].
-	^literals 
+	^ literals 
