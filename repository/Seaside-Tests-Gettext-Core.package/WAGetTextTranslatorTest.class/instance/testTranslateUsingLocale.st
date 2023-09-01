@@ -2,7 +2,7 @@ test
 testTranslateUsingLocale
 
 	| translator |
-	WAGetTextTranslator createTranslatorFor: WAGettextExample getTextExampleApplicationName fromFilesIn: (GRPlatform current seasideGettextExampleFilesDirectory).
+	WAGettextExample addTranslatorForExample.
 	translator := WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName.
 	
 	self assert: (translator translate: 'fontsize' usingLocale: (WALocale fromString: 'nl-BE')) equals: 'schriftgrootte'.

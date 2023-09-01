@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packages"
+		"packages",
+		"selectedPackageName"
 	],
 	"name" : "JQAutocompleteFunctionalTest",
 	"type" : "normal"

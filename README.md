@@ -77,8 +77,23 @@ To install the latest stable version of Seaside in a [Gemstone](https://gemtalks
       load: #('Development' 'Examples' 'Zinc') ].
   ```
 
+### Instructions for VAST
+
+Seaside is an official vendor supported framework that can be installed using VAST's feature loading tool GUI. In addition, it can be installed programmatically as shown below. VAST fork is at https://github.com/instantiations/Seaside
+
+#### Load Seaside
+To install the latest stable version of Seaside in a [VAST Platform](https://www.instantiations.com/vast-platform/) image, execute the following code:
+
+```Smalltalk
+(EmConfigurationMap editionsFor: 'z.ST: Server Smalltalk (SST) - Seaside')
+ first loadWithRequiredMaps
+```
+
+
 ### Instructions for Squeak
 
+Seaside for Squeak mostly works but is unmaintained.
+If you want to help out keeping Seaside running on Squeak, please contact us via the channels mentioned in the Community section below.
 #### Squeak >= 5.2
 To install the latest stable version of Seaside in a [Squeak](http://www.squeak.org) image you need to first install [Metacello](https://github.com/Metacello/metacello):
 ```Smalltalk
@@ -112,22 +127,6 @@ Metacello new
 ```
 
 
-### Instructions for VAST Platform
-
-Seaside is an official vendor supported framework that can be installed using VAST's feature loading tool GUI. In addition, it can be installed programmatically as shown below.   
-
-#### Load Seaside
-To install the latest stable version of Seaside in a [VAST Platform](https://www.instantiations.com/vast-platform/) image, execute the following code:
-
-```Smalltalk
-(EmConfigurationMap editionsFor: 'z.ST: Server Smalltalk (SST) - Seaside')
- first loadWithRequiredMaps
-```
-
-
-
-
-
 ## Community
 Check out the Add-on libraries and projects related to Seaside: https://github.com/SeasideSt/Seaside/wiki/Add-On-Libraries
 
@@ -141,3 +140,5 @@ Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more info
 
 ## Status of automated builds
 [![smalltalkCI](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml) See https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml
+
+[![codecov](https://codecov.io/gh/SeasideSt/Seaside/branch/master/graph/badge.svg?token=GLPOkk0Wby)](https://codecov.io/gh/SeasideSt/Seaside)

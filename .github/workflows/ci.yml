@@ -3,15 +3,15 @@ name: smalltalkCI
 on: [push, pull_request]
 
 jobs:
-  build:
-    runs-on: ubuntu-18.04
+  test:
+    runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, Pharo-6.1, GemStone64-3.6.5, GemStone64-3.5.5, GemStone64-3.4.5, GemStone64-3.3.9, GemStone64-3.2.17, GemStone64-3.1.0.6 ]
+        smalltalk: [ Pharo64-11, Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, GemStone64-3.6.5, GemStone64-3.5.7 ]
         experimental: [ false ]
         include:
-          - smalltalk: Pharo64-alpha
+          - smalltalk: Pharo64-12
             experimental: true
           - smalltalk: Squeak64-5.3
             experimental: true
@@ -22,14 +22,7 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H:%M:%S')"
-      - name: Log date
-        run: echo "${{ steps.date.outputs.date }}"
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.workflow_dispatch.ref }}
+      - uses: actions/checkout@v3
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
@@ -44,7 +37,12 @@ jobs:
       - name: Install selenium
         run: npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
       - name: Run tests
-        id: test_run
         run: smalltalkci -s ${{ matrix.smalltalk }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         timeout-minutes: 20
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          name: ${{ matrix.smalltalk }}

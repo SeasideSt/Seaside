@@ -1,0 +1,1 @@
+I ajaxify a web application by turning full page requests into background AJAX requests.

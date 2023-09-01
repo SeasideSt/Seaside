@@ -1,6 +1,6 @@
 class initialization
 initialize
-	self initializeDefaultValueHolder.
+	self ensureDefaultValueHolder.
 	GRPlatform current
 		addToStartUpList: self;
 		addToShutDownList: self

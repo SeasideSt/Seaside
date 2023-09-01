@@ -1,4 +1,4 @@
 tests-literals
 testStringBasic
-	self assert: 'abc' equals: '"abc"'.
-	self assert: '123' equals: '"123"'
+	self assert: 'abc' gives: '"abc"'.
+	self assert: '123' gives: '"123"'

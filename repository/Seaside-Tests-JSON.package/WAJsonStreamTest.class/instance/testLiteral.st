@@ -1,5 +1,5 @@
 tests-literals
 testLiteral
-	self assert: true equals: 'true'.
-	self assert: false equals: 'false'.
-	self assert: nil equals: 'null'
+	self assert: true gives: 'true'.
+	self assert: false gives: 'false'.
+	self assert: nil gives: 'null'

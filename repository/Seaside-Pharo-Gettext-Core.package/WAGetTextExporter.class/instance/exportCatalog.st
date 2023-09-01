@@ -1,8 +1,10 @@
 exporting
-exportCatalog 
-	"WAGetTextExporter new exportTemplate"
-	| translationLiterals | "translationLiterals is a dictionary of keyword ->#(MethodReference...)."
+exportCatalog
+
+	| translationLiterals |
 	translationLiterals := self gatherTranslations.
-	[stream := exportFile asFileReference ensureDelete; writeStream.
-	self exportLiteralsDict: translationLiterals]
-		ensure: [stream close]
+	[
+		stream := exportFile asFileReference ensureDelete; writeStream.
+		self exportHeader.
+		self exportLiteralsDict: translationLiterals 
+	] ensure: [ stream close ]

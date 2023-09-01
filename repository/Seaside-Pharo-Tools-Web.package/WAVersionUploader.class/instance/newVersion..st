@@ -1,10 +1,10 @@
 actions
 newVersion: aWorkingCopy
 	| version stream |
-	version := [ aWorkingCopy newVersion ]
+	version := [ aWorkingCopy newVersionIn: aWorkingCopy repositoryGroup ]
 		on: MCVersionNameAndMessageRequest
 		do: [ :request | request resume: (Array with: request suggestedName with: '') ].
-	stream := RWBinaryOrTextStream on: String new.
+	stream := GRPlatform current readWriteByteStream.
 	version fileOutOn: stream.
 	self requestContext respond: [ :response |
 		response

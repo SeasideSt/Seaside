@@ -6,7 +6,7 @@ testCreateAndRemoveTextTranslator
 	[ WAGetTextTranslator removeTranslatorFor: WAGettextExample getTextExampleApplicationName ] on: Error do:[:e | ].
 
 	self assert: (WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName) isNil.
-	WAGetTextTranslator createTranslatorFor: WAGettextExample getTextExampleApplicationName fromFilesIn: (GRPlatform current seasideGettextExampleFilesDirectory).
+	WAGettextExample addTranslatorForExample.
 	translator := WAGetTextTranslator translatorFor: WAGettextExample getTextExampleApplicationName.
 	self assert: translator supportedLocaleIds asSet equals: { 'nl-BE' . 'fr' . 'de-CH' } asSet.
 	WAGetTextTranslator removeTranslatorFor: WAGettextExample getTextExampleApplicationName.

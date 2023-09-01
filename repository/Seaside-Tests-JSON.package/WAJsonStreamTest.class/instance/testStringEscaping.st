@@ -1,5 +1,5 @@
 tests-literals
 testStringEscaping
-	self assert: '''' equals: '"''"'.
-	self assert: '"' equals: '"\""'.
-	self assert: '\' equals: '"\\"'
+	self assert: '''' gives: '"''"'.
+	self assert: '"' gives: '"\""'.
+	self assert: '\' gives: '"\\"'

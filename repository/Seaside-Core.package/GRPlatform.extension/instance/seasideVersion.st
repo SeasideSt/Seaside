@@ -2,5 +2,5 @@
 seasideVersion
 	"Answer the Seaside version"
 
-	^ (GRVersion major: 3 minor: 4 revision: 8)
+	^ (GRVersion major: 3 minor: 5 revision: 3)
 		yourself

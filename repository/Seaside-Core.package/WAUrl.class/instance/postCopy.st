@@ -1,6 +1,6 @@
 copying
 postCopy
 	super postCopy.
-	path := path copy.
-	queryFields := queryFields copy.
-	pathParameters := pathParameters copy
+	path := path ifNotNil: [ :p | p copy ].
+	queryFields := queryFields ifNotNil: [ :f | f copy ].
+	pathParameters := pathParameters ifNotNil: [ :p | p copy ]

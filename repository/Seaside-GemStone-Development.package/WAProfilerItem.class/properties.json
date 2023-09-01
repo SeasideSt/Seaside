@@ -1,0 +1,15 @@
+{
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"request",
+		"profmonitor" ],
+	"name" : "WAProfilerItem",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }
