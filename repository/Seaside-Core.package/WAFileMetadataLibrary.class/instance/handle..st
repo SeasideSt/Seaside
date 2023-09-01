@@ -22,7 +22,14 @@ handle: aRequestContext
 					contentType: fileResource mimeType ] ]
 		ifFalse: [
 			aRequestContext respond: [ :response |
-				response
-					cacheFor: fileResource cacheDuration;
-					document: fileResource contents value
-					mimeType: fileResource mimeType ] ]
+				| document entityTag |
+				document := fileResource contents value.
+				entityTag := self entityTagFor: document.
+				aRequestContext request ifNoneMatch = entityTag
+					ifTrue: [ response notModified ]
+					ifFalse: [ 
+						response
+							cacheFor: fileResource cacheDuration;
+							entityTag: (self entityTagFor: document);
+							document: document
+							mimeType: fileResource mimeType ] ] ]
