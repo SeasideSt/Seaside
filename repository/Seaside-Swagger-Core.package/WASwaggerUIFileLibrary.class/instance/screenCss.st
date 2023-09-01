@@ -777,7 +777,7 @@ screenCss
   display: inline-block;
   font-size: 0.9em;
 }
-.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.sandbox_header input.submit {
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.sandbox_header input[type=submit] {
   display: block;
   clear: none;
   float: left;
