@@ -9,6 +9,11 @@ testNastyEdgeCasesParsing
 		decodedWith: GRNullCodec new.
 	self assert: url path first = 'blue/red?and+green'.
 	
+	url := WAUrl absolute: '/blue?http://example.com/red'.
+	self assert: url path = (OrderedCollection with: 'blue').
+	self assert: url queryFields keys = #('http://example.com/red').
+	self assert: url queryFields values = #(nil).
+	
 	url := (WAUrl absolute: 'http://example.com/:@-._~!$&''()*+,=;:@-._~!$&''()*+,=:@-._~!$&''()*+,==?/?:@-._~!$''()*+,;=/?:@-._~!$''()*+,;==#/?:@-._~!$&''()*+,;=')
 		decodedWith: GRNullCodec new.
 	self assert: url path first = ':@-._~!$&''()*+,='.
