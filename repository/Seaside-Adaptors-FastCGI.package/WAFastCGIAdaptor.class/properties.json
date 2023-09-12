@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Adaptors-FastCGI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAFastCGIAdaptor",
-	"pools" : [
-		 ],
 	"super" : "WAFastCGIRequestConverter",
-	"type" : "normal" }
+	"category" : "Seaside-Adaptors-FastCGI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFastCGIAdaptor",
+	"type" : "normal"
+}
