@@ -1,4 +1,4 @@
-accessing-attributes
+attributes
 dataAttributeAt: aString put: aValue
 
-	self attributes at: 'data-',aString put: aValue
+	self attributeAt: 'data-',aString put: aValue
