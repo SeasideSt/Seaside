@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-GemStone-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAGsUrlEncoder",
-	"pools" : [
-		 ],
 	"super" : "WAUrlEncoder",
-	"type" : "normal" }
+	"category" : "Seaside-GemStone-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAGsUrlEncoder",
+	"type" : "normal"
+}

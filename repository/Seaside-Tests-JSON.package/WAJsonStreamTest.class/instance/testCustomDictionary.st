@@ -7,4 +7,4 @@ testCustomDictionary
 				at: 'foo' put: 'bar';
 				yourself);
 			yourself) ].
-	self assert: self equals: '{"foo": "bar", "zork": {"foo": "bar"}}'
+	self assert: self gives: '{"foo": "bar", "zork": {"foo": "bar"}}'

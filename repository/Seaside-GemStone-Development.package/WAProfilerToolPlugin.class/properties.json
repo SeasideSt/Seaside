@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAToolPlugin",
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter"
+	],
+	"name" : "WAProfilerToolPlugin",
+	"type" : "normal"
+}

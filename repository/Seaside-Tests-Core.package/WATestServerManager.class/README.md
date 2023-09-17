@@ -1,0 +1,1 @@
+I am a server manager used as an alternative of the WAServerManager, because some Smalltalk dialects have subclasses of WAServerManager.

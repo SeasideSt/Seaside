@@ -1,6 +1,5 @@
 tests - test data
 sortedTriplets
 
-	^ #(#('Seaside-Gettext-Examples,WAGettextExample>>#renderContentOn:,fontsize' 'Seaside-Gettext-Examples,WAGettextExample>>renderContentOn:,WAGettextExample>>renderContentOn:,WAGettextExample>>renderContentOn:,WAGettextExample>>renderContentOn:' 'fontsize')
-#('Seaside-Gettext-Examples,WAGettextExample>>#renderLocaleSelectionOn:,Select a locale below' 'Seaside-Gettext-Examples,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:' 'Select a locale below')
-#('Seaside-Gettext-Examples,WAGettextExample>>#renderLocaleSelectionOn:,locale' 'Seaside-Gettext-Examples,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:,WAGettextExample>>renderLocaleSelectionOn:' 'locale'))
+	^ #(
+	#('WAGettextExample>>#renderContentOn:,fontsize' 'WAGettextExample>>renderContentOn:' 'fontsize') 	#('WAGettextExample>>#renderLocaleSelectionOn:,Select a locale below' 'WAGettextExample>>renderLocaleSelectionOn:' 'Select a locale below') 	#('WAGettextExample>>#renderLocaleSelectionOn:,locale' 'WAGettextExample>>renderLocaleSelectionOn:' 'locale'))

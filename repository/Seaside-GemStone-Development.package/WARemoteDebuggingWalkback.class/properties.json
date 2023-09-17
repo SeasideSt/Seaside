@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-GemStone-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAGemStoneWalkback",
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"continuation",
-		"logEntry" ],
+		"logEntry"
+	],
 	"name" : "WARemoteDebuggingWalkback",
-	"pools" : [
-		 ],
-	"super" : "WAGemStoneWalkback",
-	"type" : "normal" }
+	"type" : "normal"
+}
