@@ -13,7 +13,7 @@ select.fix {
 input, textarea, select {
 	margin-right: 0.5em;
 }
-input.text, textarea {
+input[type=text], textarea {
 	width: 200px;
 }
 

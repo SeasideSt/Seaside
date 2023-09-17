@@ -16,7 +16,7 @@ initializeFromString: aString
 			to: (fragmentIndex = 0 ifTrue: [ stringSize + 1 ] ifFalse: [ fragmentIndex ]) ].
 	schemeIndex := aString indexOfSubCollection: '://'.
 	
-	(schemeIndex > 0 and: [ fragmentIndex = 0 or: [ schemeIndex < fragmentIndex ] ])
+	(schemeIndex > 0 and: [ (fragmentIndex = 0 or: [ schemeIndex < fragmentIndex ]) and: [ queryIndex = 0 or: [ schemeIndex < queryIndex ] ] ])
 		ifTrue: [
 			startWithPath := false.
 			self scheme: (aString copyFrom: 1 to: schemeIndex - 1).

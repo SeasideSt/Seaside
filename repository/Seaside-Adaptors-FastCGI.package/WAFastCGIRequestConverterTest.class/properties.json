@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Adaptors-FastCGI-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAFastCGIRequestConverterTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Adaptors-FastCGI-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFastCGIRequestConverterTest",
+	"type" : "normal"
+}

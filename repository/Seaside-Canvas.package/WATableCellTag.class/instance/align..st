@@ -7,5 +7,8 @@ align: aString
 - right: Right-flush data/Right-justify text.
 - justify: Double-justify text.
 - char: Align text around a specific character. If a user agent doesn't support character alignment, behavior in - the presence of this value is unspecified."
+	self
+		greaseDeprecatedApi: 'WATableCellTag>>align:'
+		details: 'Not supported in html5. https://www.w3docs.com/learn-html/html-td-tag.html'.	
 
 	self attributes at: 'align' put: aString

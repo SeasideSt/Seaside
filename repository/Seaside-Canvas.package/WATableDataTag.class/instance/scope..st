@@ -6,5 +6,7 @@ scope: aString
 - col: The current cell provides header information for the rest of the column that contains it.
 - rowgroup: The header cell provides header information for the rest of the row group that contains it.
 - colgroup: The header cell provides header information for the rest of the column group that contains it."
-
+	self
+		greaseDeprecatedApi: 'WATableDateTag>>scope:'
+		details: 'Not supported in html5. https://www.w3docs.com/learn-html/html-td-tag.html'.		
 	self attributes at: 'scope' put: aString
