@@ -60,9 +60,13 @@ baselinecommon: spec
 			package: 'Seaside-Tools-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Session' ). ];
 			package: 'Seaside-Tools-Web' with: [
-				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ). ];
+				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ) ];
 			package: 'Seaside-Widgets' with: [
-				spec requires: #('Seaside-Component' 'Seaside-Canvas' ). ];
+				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
+			package: 'Seaside-HotwireTurbo' with: [
+				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-Canvas') ];
+			package: 'Seaside-HotwireTurbo-Examples' with: [
+				spec requires: #('Seaside-HotwireTurbo') ];
 			package: 'Seaside-Tests-Canvas' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Canvas' ). ];
 			package: 'Seaside-Tests-Component' with: [
