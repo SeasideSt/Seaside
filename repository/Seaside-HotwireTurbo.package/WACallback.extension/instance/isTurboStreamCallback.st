@@ -1,0 +1,4 @@
+*Seaside-HotwireTurbo
+isTurboStreamCallback
+
+	^ false

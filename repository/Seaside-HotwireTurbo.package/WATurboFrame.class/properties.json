@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WADecoration",
+	"category" : "Seaside-HotwireTurbo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id"
+	],
+	"name" : "WATurboFrame",
+	"type" : "normal"
+}

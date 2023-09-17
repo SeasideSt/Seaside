@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Seaside-HotwireTurbo-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counters",
+		"totals"
+	],
+	"name" : "WATurboMultiCounter",
+	"type" : "normal"
+}

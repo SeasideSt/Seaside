@@ -1,16 +1,15 @@
 {
-	"category" : "Seaside-GemStone-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WATool",
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"report",
 		"items",
-		"message" ],
+		"message"
+	],
 	"name" : "WAProfilerTool",
-	"pools" : [
-		 ],
-	"super" : "WATool",
-	"type" : "normal" }
+	"type" : "normal"
+}

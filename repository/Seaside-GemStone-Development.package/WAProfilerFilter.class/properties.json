@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-GemStone-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"items" ],
-	"name" : "WAProfilerFilter",
-	"pools" : [
-		 ],
 	"super" : "WARequestFilter",
-	"type" : "normal" }
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"items"
+	],
+	"name" : "WAProfilerFilter",
+	"type" : "normal"
+}

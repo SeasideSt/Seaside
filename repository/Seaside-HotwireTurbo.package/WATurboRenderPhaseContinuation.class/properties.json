@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WARenderPhaseContinuation",
+	"category" : "Seaside-HotwireTurbo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"renderContext",
+		"turboStreamCallback"
+	],
+	"name" : "WATurboRenderPhaseContinuation",
+	"type" : "normal"
+}
