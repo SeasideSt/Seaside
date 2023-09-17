@@ -7,5 +7,5 @@ renderCheckBoxIn: id on: html
 			html checkbox
 				class: 'toggle';
 				callback: [ :value | self done: value ];
-				onChange: (html javascript: 'this.form.requestSubmit()');
+				onChange: (JSStream on: 'this.form.requestSubmit()');
 				value: done ]

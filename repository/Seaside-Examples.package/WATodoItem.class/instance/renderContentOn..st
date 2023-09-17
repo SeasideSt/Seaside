@@ -9,7 +9,7 @@ renderContentOn: html
 				with:[
 					html checkbox
 						class: 'toggle';
-						onChange: (html javascript: 'this.form.requestSubmit()');
+						onChange: (JSStream on: 'this.form.requestSubmit()');
 						callback: [ :value | self done: value ];
 						value: done.
 					html label: description.

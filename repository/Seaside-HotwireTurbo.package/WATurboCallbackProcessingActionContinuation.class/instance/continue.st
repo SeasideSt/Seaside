@@ -1,9 +1,10 @@
-actions
+processing
 continue
 
 	| renderContinuation |
 	(self requestContext request isTurboFrameRequest or: [ self requestContext request isTurboStreamRequest ])
-		ifTrue: [ 
+		ifTrue: [
+			"TODO: perhaps it's better to have a different rendercontinuation class for rendering a turboframe vs rendering a turbostream"
 			renderContinuation := self createTurboRenderContinuation.
 			self redirectToContinuation: renderContinuation.
 			^ self ]

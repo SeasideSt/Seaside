@@ -3,4 +3,4 @@ initialize
 	super initialize.
 	todos := OrderedCollection new.
 	1 to: 10 do: [ :index | 
-		self addTodo: 'Task ', index greaseString ]
+		self addTodo: ('Task {1}' format: { index greaseString }) ]
