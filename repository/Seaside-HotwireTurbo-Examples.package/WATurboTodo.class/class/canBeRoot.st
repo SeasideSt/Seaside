@@ -1,3 +1,3 @@
-initialization
+testing
 canBeRoot 
 	^ true

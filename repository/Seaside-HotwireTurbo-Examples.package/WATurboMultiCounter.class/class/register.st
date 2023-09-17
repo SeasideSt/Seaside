@@ -1,4 +1,4 @@
-testing
+initialization
 register
 
 	(WAAdmin register: self asApplicationAt: '/examples/turbo/multicounter')
