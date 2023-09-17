@@ -1,8 +1,9 @@
 public
-with: aString 
-	self attributes 
+with: aString
+
+	self attributes
 		at: 'type'
 		ifAbsentPut: [ 'text/javascript' ].
 	super with: [
-		aString isNil ifFalse: [
+		aString ifNotNil: [
 			self document nextPutAll: aString greaseString ] ]
