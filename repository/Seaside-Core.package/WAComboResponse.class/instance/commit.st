@@ -13,7 +13,7 @@ commit
 	"The external stream is usually byte based. Unfortunately, the
 	streams aren't compatible enough at the moment such that everything
 	could be written to the external stream directly (in particular, writing of
-	singel characters doesn't work). Luckily, the encoders already translate
+	single characters doesn't work). Luckily, the encoders already translate
 	characters to bytes, so we only need to wrap the stream with the appropariate
 	encoder. Header data is always ASCII encoded.
 	Because older versions of Seaside don't have a dedicated ASCII encoder we
