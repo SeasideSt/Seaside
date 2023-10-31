@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Squeak-Compatibility",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PackageManifest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
