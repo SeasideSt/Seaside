@@ -63,10 +63,10 @@ baselinecommon: spec
 				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ) ];
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
-			package: 'Seaside-HotwireTurbo' with: [
+			package: 'Seaside-HotwireTurbo-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-Canvas') ];
 			package: 'Seaside-HotwireTurbo-Examples' with: [
-				spec requires: #('Seaside-HotwireTurbo') ];
+				spec requires: #('Seaside-HotwireTurbo-Core') ];
 			package: 'Seaside-Tests-Canvas' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Canvas' ). ];
 			package: 'Seaside-Tests-Component' with: [
@@ -100,10 +100,10 @@ baselinecommon: spec
 		spec 
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
 			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
-			group: 'CI' with: #('Tests' 'Development Tests' 'Seaside-HotwireTurbo');
+			group: 'CI' with: #('Tests' 'Development Tests' 'Seaside-HotwireTurbo-Core');
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
 			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests' 'Seaside-Tests-Parasol');
-			group: 'Hotwired' with: #('Seaside-HotwireTurbo');
+			group: 'Hotwired' with: #('Seaside-HotwireTurbo-Core');
 			group: 'Development' with: #('Core' 'Seaside-Development');
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
 			group: 'Email' with: #('Seaside-Email');
