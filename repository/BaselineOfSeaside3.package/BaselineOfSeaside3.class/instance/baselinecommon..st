@@ -64,9 +64,9 @@ baselinecommon: spec
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
 			package: 'Seaside-HotwireTurbo-Core' with: [
-				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-Canvas') ];
+				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-Canvas' 'Seaside-RenderLoop' ) ];
 			package: 'Seaside-HotwireTurbo-Examples' with: [
-				spec requires: #('Seaside-HotwireTurbo-Core') ];
+				spec requires: #('Seaside-HotwireTurbo-Core' 'Seaside-Examples') ];
 			package: 'Seaside-Tests-Canvas' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Canvas' ). ];
 			package: 'Seaside-Tests-Component' with: [
