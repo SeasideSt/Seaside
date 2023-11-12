@@ -38,7 +38,16 @@ baselineadaptors: spec
 
 	spec
 		for: #pharo
-		do: [ spec
+		do: [ 
+			spec
+				baseline: 'Zinc WebSockets'
+				with: [ 
+					spec
+						className: 'BaselineOfZincHTTPComponents';
+						loads: #('WebSocket');
+						repository: 'github://svenvc/zinc:master/repository' ].
+			
+			spec
 				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
 				package: 'KomHttpServerLight' with: [ spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ];
@@ -51,7 +60,8 @@ baselineadaptors: spec
 
 	spec
 		for: #gemstone
-		do: [ spec
+		do: [ 
+			spec
 				project: 'FastCGI Project'
 					with: [ spec
 						className: 'ConfigurationOfGsFastCGI';
