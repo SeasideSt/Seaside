@@ -1,15 +1,17 @@
 {
-	"commentStamp" : "pmm 8/25/2019 11:14",
+	"commentStamp" : "ar 8/4/2010 20:31",
 	"super" : "WAResponse",
 	"category" : "Seaside-Core-HTTP",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bufferedStream",
-		"externalStream",
+		"codec",
 		"committed",
-		"closed"
+		"externalStream",
+		"closed",
+		"bufferedStream",
+		"countingStream"
 	],
 	"name" : "WAComboResponse",
 	"type" : "normal"
