@@ -1,0 +1,1 @@
+I am the optimized implementation of a ring buffer on Pharo

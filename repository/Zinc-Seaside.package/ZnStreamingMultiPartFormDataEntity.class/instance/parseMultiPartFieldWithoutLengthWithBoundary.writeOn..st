@@ -5,7 +5,7 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 	those bytes will belong to the next part"
 	bufferSize := aBoundary size.
 	rawBuffer := ByteArray new: bufferSize.
-	buffer := ZnRingBuffer on: rawBuffer.
+	buffer := GRPlatform current ringBufferClass on: rawBuffer.
 	boundaryMarker := aBoundary first.
 	
 	stream atEnd ifFalse: [

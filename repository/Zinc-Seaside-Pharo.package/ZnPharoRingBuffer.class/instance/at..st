@@ -1,5 +1,5 @@
 accessing
 at: anInteger
 	self checkBoundsFor: anInteger.
-
-	^ buffer atWrap: (anInteger + offset) \\ buffer size
+	
+	^ buffer atWrap: anInteger + offset

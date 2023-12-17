@@ -38,14 +38,18 @@ baselineadaptors: spec
 
 	spec
 		for: #pharo
-		do: [ spec
+		do: [
+			spec
 				package: 'Seaside-Adaptors-Comanche' with: [ spec requires: #('KomHttpServerLight' 'Seaside-Core') ];
 				package: 'KomHttpServerLight' with: [ spec repository: 'http://www.smalltalkhub.com/mc/Seaside/KomHttpServer/main' ];
 				package: 'Seaside-Tests-Adaptors-Comanche' with: [ spec requires: #('Seaside-Adaptors-Comanche') ];
-				package: 'Zinc-Seaside' with: [ spec requires: #('Seaside-Core') ].
+				package: 'Zinc-Seaside-Core' with: [ spec requires: #('Seaside-Core') ];
+				package: 'Zinc-Seaside-Pharo' with: [ spec requires: #('Zinc-Seaside-Core') ];
+				package: 'Zinc-Seaside-Tests' with: [ spec requires: #('Zinc-Seaside-Pharo') ].
 			spec
 				group: 'Kom' with: #('Seaside-Adaptors-Comanche');
-				group: 'Zinc' with: #('Zinc-Seaside');
+				group: 'Zinc' with: #('Zinc-Seaside-Pharo');
+				group: 'Tests' with: #('Zinc-Seaside-Tests');
 				group: 'default' with: #('Zinc');
 				group: 'CI' with: #('Zinc') ].
 
@@ -70,16 +74,17 @@ baselineadaptors: spec
 			spec
 				package: 'Seaside-GemStone-GemServer-Core' with: [ spec requires: #('GsApplicationTools' 'Seaside-Core') ];
 				package: 'Seaside-GemStone-GemServer-Tests' with: [ spec requires: #('Seaside-GemStone-GemServer-Core' 'Seaside-GemStone-Development' 'Seaside-GemStone-Adaptors-Zinc' 'Seaside-Adaptors-FastCGI') ];
-				package: 'Zinc-Seaside'
+				package: 'Zinc-Seaside-Core'
 					with: [ spec
 						requires: #('Zinc Project' 'Seaside-Core');
 						includes: #('Seaside-GemStone-Adaptors-Zinc') ];
 				package: 'Seaside-Adaptors-FastCGI' with: [ spec requires: #('Seaside-Core' 'FastCGI Project' 'Seaside-GemStone-GemServer-Core') ];
-				package: 'Seaside-GemStone-Adaptors-Zinc' with: [ spec requires: #('Zinc-Seaside' 'Seaside-GemStone-GemServer-Core') ].
+				package: 'Seaside-GemStone-Adaptors-Zinc' with: [ spec requires: #('Zinc-Seaside' 'Seaside-GemStone-GemServer-Core') ];
+				package: 'Zinc-Seaside-Tests' with: [ spec requires: #('Zinc-Seaside-Core') ].
 			spec
 				group: 'FastCGI' with: #('Seaside-Adaptors-FastCGI');
-				group: 'Tests' with: #('Seaside-GemStone-GemServer-Tests');
-				group: 'Zinc' with: #('Zinc-Seaside') ].
+				group: 'Tests' with: #('Seaside-GemStone-GemServer-Tests' 'Zinc-Seaside-Tests');
+				group: 'Zinc' with: #('Zinc-Seaside-Core') ].
 
 	spec
 		for:  #(#'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' )
