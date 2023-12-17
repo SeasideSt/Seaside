@@ -1,3 +1,4 @@
 testing
 exists
-	^ self fileReference exists
+
+	^ GRPlatform current fileExists: self fullyQualifiedFilePath
