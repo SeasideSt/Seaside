@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "mml 07/26/2019 15:24",
+	"super" : "Error",
+	"category" : "Zinc-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZnRingBufferError",
+	"type" : "normal"
+}
