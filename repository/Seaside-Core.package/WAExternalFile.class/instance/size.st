@@ -1,5 +1,5 @@
 accessing
 size
 	^ self exists
-		ifTrue: [ self fileReference size ]
+		ifTrue: [ GRPlatform current sizeOfFile: self fullyQualifiedFilePath ]
 		ifFalse: [ 0 ]

@@ -1,4 +1,4 @@
-converting
+converting-request
 requestUrlFor: aZincRequest
 	| zincUrl seasideUrl |
 	zincUrl := aZincRequest url.

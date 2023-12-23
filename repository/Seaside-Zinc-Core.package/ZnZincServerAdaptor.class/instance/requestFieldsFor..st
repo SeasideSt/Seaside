@@ -1,4 +1,4 @@
-converting
+converting-request
 requestFieldsFor: aZincRequest
 	| fields |
 	fields := WARequestFields new.

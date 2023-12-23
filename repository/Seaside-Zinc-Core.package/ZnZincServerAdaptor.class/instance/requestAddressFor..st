@@ -1,5 +1,5 @@
-converting
+converting-request
 requestAddressFor: aZincRequest
 	^ aZincRequest  headers
-		at: ZnConstants remoteAddressHeader 
+		at: ZnConstants remoteAddressHeader
 		ifAbsent: [ nil ]

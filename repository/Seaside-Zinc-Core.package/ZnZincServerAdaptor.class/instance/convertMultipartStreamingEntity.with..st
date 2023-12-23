@@ -16,8 +16,8 @@ convertMultipartStreamingEntity: anEntity with: aMultiValueDictionary
 			"Empty file + empty filename means that the file form
 			field did not contain a value (no file was selected)."
 			(znMimePart fileName isEmpty and: [
-				filePath asFileReference size isZero ])
-					ifTrue: [ filePath asFileReference ensureDelete ]
+				(GRPlatform current sizeOfFile: filePath) isZero ])
+					ifTrue: [ GRPlatform current deleteFile: filePath ]
 					ifFalse: [
 						aMultiValueDictionary
 							at: znMimePart fieldName
@@ -25,6 +25,6 @@ convertMultipartStreamingEntity: anEntity with: aMultiValueDictionary
 								contentType: znMimePart contentType printString;
 								fileName: (znMimePart fileName ifEmpty: [
 									"It is legal for the `filename` value to be empty"
-									filePath asFileReference basename ]);
+									GRPlatform current localNameOf: filePath ]);
 								filePath: filePath;
 								yourself) ] ]

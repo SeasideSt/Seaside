@@ -1,4 +1,4 @@
-converting
+converting-request
 requestCookiesFor: aZincRequest
 	| cookieString |
 	cookieString := aZincRequest headers

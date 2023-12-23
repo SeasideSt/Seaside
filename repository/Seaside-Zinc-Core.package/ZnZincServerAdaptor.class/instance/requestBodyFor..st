@@ -1,6 +1,6 @@
-converting
+converting-request
 requestBodyFor: aZincRequest
-	^ (aZincRequest method ~= #TRACE 
+	^ (aZincRequest method ~= #TRACE
 		and: [ aZincRequest hasEntity
 			and: [ aZincRequest entity isEmpty not
 				and: [ (aZincRequest entity contentType matches: ZnMimeType applicationFormUrlEncoded) not
