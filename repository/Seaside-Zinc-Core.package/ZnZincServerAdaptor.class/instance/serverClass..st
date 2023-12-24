@@ -1,4 +1,4 @@
-initialize-release
+initialization
 serverClass: znServerClass
 	"I initialize the actual ZnServer instance that I will be using, 
 	by instanciating znServerClass using my port"

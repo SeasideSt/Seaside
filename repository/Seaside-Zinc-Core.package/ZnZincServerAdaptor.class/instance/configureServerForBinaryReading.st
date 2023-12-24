@@ -1,4 +1,4 @@
-initialize-release
+initialization
 configureServerForBinaryReading
 	"Seaside wants to do its own text conversions"
 

@@ -1,4 +1,4 @@
-initialize-release
+initialization
 configureDelegate
 	"Set the main delegate of my server to the default one."
 	

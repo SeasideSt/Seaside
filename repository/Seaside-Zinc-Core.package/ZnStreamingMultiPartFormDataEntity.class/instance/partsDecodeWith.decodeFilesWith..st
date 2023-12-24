@@ -13,12 +13,11 @@ partsDecodeWith: aDecoderBlock decodeFilesWith: aFileDecoderBlock
 		part := ZnMimePart new
 			headers: (ZnHeaders readFrom: stream);
 			yourself.
-		"When a value is empty (see comment in #parseMultiPartFieldWithoutLengthWithBoundary:writeOn:)
-		and it is the last part then parsing headers will consumed the rest of the end boundary and the
-		stream will be at the end. In this case, the part will not have any headers"
+		"When a part is empty and it is the last part then parsing headers will have consumed 
+		the rest of the end boundary and the stream will be at the end. 
+		In this case, the part will not have any headers."
 		(part hasHeaders not or: [
-			"The final boundary may be read as a header when
-			the last part was not a file part"
+			"The final boundary may have been read as a header when the last part was not a file part"
 			part headers includesKey: endBoundary ]) ifFalse: [
 				(part fileName notNil or: [
 					part contentType notNil and: [
