@@ -3,7 +3,7 @@ convertMultipartEntity: anEntity with: aMultiValueDictionary
 	anEntity partsDo: [ :part |
 		| value |
 		value := part hasEntity
-			ifFalse: [ String new ]
+			ifFalse: [ '' ]
 			ifTrue: [
 				(part fileName isEmptyOrNil not or: [
 					part contentType notNil and: [
