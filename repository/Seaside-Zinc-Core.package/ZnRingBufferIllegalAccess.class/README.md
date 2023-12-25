@@ -1,0 +1,1 @@
+I represent any error that is due to the use out of bounds indices when accessing the ring buffer.

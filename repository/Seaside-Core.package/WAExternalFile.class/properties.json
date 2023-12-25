@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "pmm 5/31/2008 23:54",
+	"commentStamp" : "mml 07/23/2019 09:57",
 	"super" : "WAAbstractFile",
 	"category" : "Seaside-Core-HTTP",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contents"
+		"filePath"
 	],
-	"name" : "WAFile",
+	"name" : "WAExternalFile",
 	"type" : "normal"
 }

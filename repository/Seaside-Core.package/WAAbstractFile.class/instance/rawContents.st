@@ -1,0 +1,3 @@
+accessing
+rawContents
+	^ self subclassResponsibility
