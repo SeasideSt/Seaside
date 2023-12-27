@@ -4,9 +4,9 @@ testUnnecessaryWithSentToBrush
 	class := self 
 		defineClass: #WASlimeMockComponent
 		superclass: #WAComponent.
-	class
+	self
 		compile: 'renderContentOn: html html div with: 123'
-		classified: #(rendering).
+		in: class.
 	self
 		runRule: WAUnnecessaryWithSentToBrushRule
 		selectors: #(renderContentOn:)

@@ -4,18 +4,18 @@ testExtractCallbackCodeToMethod
 	class := self 
 		defineClass: #WASlimeMockComponent
 		superclass: #WAComponent.
-	class
+	self
 		compile: 'renderInvalidOn: html
 			html anchor 
 				callback: [ self foo. self bar ];
 				with: 1'
-		classified: #(rendering).
-	class
+		in: class.
+	self
 		compile: 'renderValidOn: html
 			html anchor 
 				callback: [ self foo ];
 				with: 1'
-		classified: #(rendering).
+		in: class.
 	self 
 		runRule: WAExtractCallbackCodeToMethodRule
 		selectors: #(renderInvalidOn:)

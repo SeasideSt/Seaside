@@ -4,9 +4,9 @@ testSendsRenderContentOn
 	class := self 
 		defineClass: #WASlimeMockComponent
 		superclass: #WAComponent.
-	class
+	self
 		compile: 'invalid self renderContentOn: nil'
-		classified: #(rendering).
+		in: class.
 	self 
 		runRule: WASendsRenderContentOnRule
 		selectors: #(invalid)

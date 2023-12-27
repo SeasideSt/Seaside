@@ -4,18 +4,18 @@ testSequencedAsynchronousCalls
 	class := self 
 		defineClass: #WASlimeMockComponent
 		superclass: #WAComponent.
-	class
+	self
 		compile: 'renderContent1On: html
 			html div
 				onClick: (html jQuery ajax callback: [  ]) , (html jQuery ajax serializeForm);
 				with: ''Click me'''
-		classified: #(rendering).
-	class
+		in: class.
+	self
 		compile: 'renderContent2On: html
 			html div
 				onClick: (html jQuery ajax serializeForm; callback: [  ]) , (html jQuery effect bounce);
 				with: ''Click me'''
-		classified: #(rendering).
+		in: class.
 	self 
 		runRule: WASequencedAsynchronousCallsRule
 		selectors: #(renderContent1On: renderContent2On:)
