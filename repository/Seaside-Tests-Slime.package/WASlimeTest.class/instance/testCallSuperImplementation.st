@@ -1,10 +1,8 @@
 tests-block
 testCallSuperImplementation
-	| object painter |
-	object := self
-		defineClass: #WASlimeMockObject
-		superclass: #WAObject.
-	self compile: 'postCopy self postCopy' in: object. 
+	| class painter |
+	class := self defineSubClassOf: #WAObject.
+	self compile: 'postCopy self postCopy' in: class. 
 	painter := self
 		defineClass: #WASlimeMockComponent
 		superclass: #WAPainter.

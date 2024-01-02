@@ -1,12 +1,10 @@
 tests-parsetree
 testUnnecessaryWithSentToBrush
 	| class |
-	class := self 
-		defineClass: #WASlimeMockComponent
-		superclass: #WAComponent.
-	class
+	class := self defineSubClassOf: #WAComponent.
+	self
 		compile: 'renderContentOn: html html div with: 123'
-		classified: #(rendering).
+		in: class.
 	self
 		runRule: WAUnnecessaryWithSentToBrushRule
 		selectors: #(renderContentOn:)
