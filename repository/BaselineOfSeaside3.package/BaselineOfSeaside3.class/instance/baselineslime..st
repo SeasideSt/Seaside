@@ -2,21 +2,11 @@ baselines
 baselineslime: spec
 
 	spec
-		for: #squeakCommon
+		for: #pharo
 		do: [ 
 			spec
 				project: 'Grease Slime' copyFrom: 'Grease' with: [ spec loads: #('Slime') ];
 				project: 'Grease Slime Tests' copyFrom: 'Grease' with: [ spec loads: #('Slime Tests') ] ].
-
-	spec
-		for: #squeak
-		do: [ 
-			spec
-				package: 'Seaside-Slime' with: [ spec requires: #('Grease Slime') ];
-				package: 'Seaside-Tests-Slime' with: [ spec requires: #('Seaside-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
-			spec
-				group: 'Development' with: #('Seaside-Slime');
-				group: 'Development Tests' with: #('Seaside-Tests-Slime') ].
 
 	spec
 		for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x')
@@ -33,7 +23,9 @@ baselineslime: spec
 		do: [ 
 			spec
 				package: 'Seaside-Pharo11-Slime' with: [ spec requires: #('Grease Slime') ];
+				package: 'Seaside-Gettext-Slime' with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo11-Slime') ];
 				package: 'Seaside-Tests-Slime' with: [ spec requires: #('Seaside-Pharo11-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
 			spec
+       		group: 'Gettext-Slime' with: #('Seaside-Gettext' 'Seaside-Gettext-Slime');
 				group: 'Development' with: #('Seaside-Pharo11-Slime');
 				group: 'Development Tests' with: #('Seaside-Tests-Slime') ]
