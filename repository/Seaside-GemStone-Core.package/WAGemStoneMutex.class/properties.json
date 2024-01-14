@@ -1,15 +1,14 @@
 {
-	"category" : "Seaside-GemStone-Core-Utilities",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-GemStone-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"semaphore",
-		"owner" ],
+		"owner"
+	],
 	"name" : "WAGemStoneMutex",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAExampleComponent",
+	"category" : "JQuery-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"todos"
+	],
+	"name" : "WATodoWithJQuery",
+	"type" : "normal"
+}

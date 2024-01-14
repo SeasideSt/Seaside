@@ -2,9 +2,7 @@ tests-parsetree
 testSendsRenderContentOn
 
 	| class |
-	class := self 
-		defineClass: #WASlimeMockComponent
-		superclass: #WAComponent.
+	class := self defineSubClassOf: #WAComponent.
 	self
 		compile: 'invalid self renderContentOn: nil'
 		in: class.

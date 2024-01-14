@@ -2,9 +2,7 @@ tests-parsetree
 testSequencedAsynchronousCalls
 
 	| class |
-	class := self 
-		defineClass: #WASlimeMockComponent
-		superclass: #WAComponent.
+	class := self defineSubClassOf: #WAComponent.
 	self
 		compile: 'renderContent1On: html
 			html div

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Seaside-HotwireTurbo-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"todos",
+		"description",
+		"done",
+		"editmode"
+	],
+	"name" : "WATurboTodoItem",
+	"type" : "normal"
+}

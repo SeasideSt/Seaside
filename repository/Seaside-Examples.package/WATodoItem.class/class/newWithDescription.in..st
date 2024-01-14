@@ -1,3 +1,3 @@
 instance creation
 newWithDescription: aString in: aCollection
-	^ self new initializeWithDescription: aString in: aCollection
+	^ self basicNew initializeWithDescription: aString in: aCollection

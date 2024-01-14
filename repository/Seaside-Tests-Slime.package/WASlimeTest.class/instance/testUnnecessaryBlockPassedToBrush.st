@@ -2,9 +2,7 @@ tests-parsetree
 testUnnecessaryBlockPassedToBrush
 
 	| class |
-	class := self 
-		defineClass: #WASlimeMockComponent
-		superclass: #WAComponent.
+	class := self defineSubClassOf: #WAComponent.
 	self
 		compile: 'renderContent01On: html html div: [ ]'
 		in: class.

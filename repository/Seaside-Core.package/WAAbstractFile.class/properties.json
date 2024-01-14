@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-Core-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contentType",
+		"fileName"
+	],
+	"name" : "WAAbstractFile",
+	"type" : "normal"
+}

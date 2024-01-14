@@ -1,18 +1,17 @@
 {
-	"category" : "Seaside-GemStone-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"request",
 		"objectsRead",
 		"size",
 		"start",
-		"end" ],
+		"end"
+	],
 	"name" : "WAObjectsReadItem",
-	"pools" : [
-		 ],
-	"super" : "WAObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

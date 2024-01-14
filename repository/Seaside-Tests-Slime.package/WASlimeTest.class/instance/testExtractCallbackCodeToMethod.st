@@ -2,9 +2,7 @@ tests-parsetree
 testExtractCallbackCodeToMethod
 
 	| class |
-	class := self 
-		defineClass: #WASlimeMockComponent
-		superclass: #WAComponent.
+	class := self defineSubClassOf: #WAComponent.
 	self
 		compile: 'renderInvalidOn: html
 			html anchor 

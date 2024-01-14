@@ -7,6 +7,7 @@ handle: aRequestContext
 		callbacks at: key ifPresent: [ :callback |
 			(callback isEnabledFor: aRequestContext)
 				ifTrue: [ set add: callback ] ] ].
+	"Process the callbacks in order of priority"
 	set sorted do: [ :callback |
 		callback evaluateWithFieldValues:
 			(fields allAt: callback key) ]
