@@ -25,5 +25,5 @@ baselineslime: spec
 				package: 'Seaside-Pharo11-Slime' with: [ spec requires: #('Grease Slime') ];
 				package: 'Seaside-Tests-Slime' with: [ spec requires: #('Seaside-Pharo11-Slime' 'Seaside-Tests-Component' 'Grease Slime Tests') ].
 			spec
-				group: 'Development' with: #('Seaside-Pharo11-Slime' 'Gettext-Slime');
+				group: 'Development' with: #('Seaside-Pharo11-Slime');
 				group: 'Development Tests' with: #('Seaside-Tests-Slime') ]
