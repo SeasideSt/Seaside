@@ -1,5 +1,6 @@
 tests-block
 testDoNotUseWithinCallback
+
 	| class |
 	class := self 
 		defineClass: #WASlimeMockComponent
@@ -9,5 +10,5 @@ testDoNotUseWithinCallback
 			callback: [ html document addLoadScript: nil ];
 			with: 123' in: class.
 	self 
-		runRule: WADoNotUseWithinCallbackRule
-		selectors: #(renderContentOn:)
+		assertRule: WADoNotUseWithinCallbackRule
+		matches: { class>>#renderContentOn: }

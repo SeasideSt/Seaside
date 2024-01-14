@@ -1,13 +1,14 @@
 tests-parsetree
 testUsesWrongRenderer
+
 	| class |
 	class := self 
 		defineClass: #WASlimeMockComponent
 		superclass: #WAComponent.
-	class
+	self
 		compile: 'renderContentOn: html
 			html updater callback: [ :r | html div ]'
-		classified: #(rendering).
+		in: class.
 	self 
-		runRule: WAUsesWrongRendererRule
-		selectors: #(renderContentOn:)
+		assertRule: WAUsesWrongRendererRule
+		matches: { class>>#renderContentOn: }
