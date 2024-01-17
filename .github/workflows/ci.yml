@@ -25,8 +25,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalkCI-source: 'jbrichau/smalltalkCI'
-          smalltalkCI-branch: 'fix-issue-623'
           smalltalk-image: ${{ matrix.smalltalk }}
       # - name: Setup tmate session
       #   uses: mxschmitt/action-tmate@v3
