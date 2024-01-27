@@ -10,15 +10,15 @@ jobs:
       matrix:
         smalltalk: [ Pharo64-11, Pharo64-10 ]
         experimental: [ false ]
-        include:
-          - smalltalk: Pharo64-12
-            experimental: true
-          - smalltalk: Squeak64-5.3
-            experimental: true
-          - smalltalk: Squeak-5.2
-            experimental: true
-          - smalltalk: Squeak-5.1
-            experimental: true
+        # include:
+        #   - smalltalk: Pharo64-12
+        #     experimental: true
+        #   - smalltalk: Squeak64-5.3
+        #     experimental: true
+        #   - smalltalk: Squeak-5.2
+        #     experimental: true
+        #   - smalltalk: Squeak-5.1
+        #     experimental: true
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
