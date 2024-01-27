@@ -22,8 +22,8 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: hpi-swa/setup-smalltalkCI@v1
+      - uses: actions/checkout@v4
+      - uses: hpi-swa/setup-smalltalkCI@v3
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
       # - name: Setup tmate session
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: Screenshots Test Failure ${{ matrix.smalltalk }}
+          name: Screenshots Test Failures ${{ matrix.smalltalk }}
           path: ${{ env.SMALLTALK_CI_BUILD }}/*.png
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
