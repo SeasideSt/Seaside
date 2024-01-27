@@ -1,5 +1,6 @@
 baselines
 baselinegettext: spec
+
   spec
     for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'gemstone')
     do: [ 
@@ -24,13 +25,9 @@ baselinegettext: spec
         package: 'Seaside-Pharo-Gettext-Core';
         package: 'Seaside-Gettext-Core'
           with: [ spec includes: 'Seaside-Pharo-Gettext-Core' ];
-        package: 'Seaside-Gettext-Slime'
-          with: [ spec requires: #('Seaside-Gettext-Core' 'Seaside-Pharo-Slime') ];
         package: 'Seaside-Tests-Pharo-Gettext'
           with: [ spec requires: 'Seaside-Pharo-Gettext-Core' ].
       spec
-        group: 'Gettext-Slime'
-          with: #('Seaside-Gettext' 'Seaside-Gettext-Slime');
         group: 'Tests' with: #('Seaside-Tests-Pharo-Gettext') ].
   spec
     for: #(#'gemstone')

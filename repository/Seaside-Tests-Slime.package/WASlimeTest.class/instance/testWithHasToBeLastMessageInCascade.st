@@ -1,5 +1,6 @@
 tests-parsetree
 testWithHasToBeLastMessageInCascade
+
 	| class |
 	class := self defineSubClassOf: #WAComponent.
 	self
@@ -16,5 +17,5 @@ testWithHasToBeLastMessageInCascade
 				class: ''bar'''
 		in: class.
 	self 
-		runRule: WAWithHasToBeLastMessageInCascadeRule
-		selectors: #(renderContent01On: renderContent02On:)
+		assertRule: WAWithHasToBeLastMessageInCascadeRule
+		matches: { class>>#renderContent01On: . class>>#renderContent02On: }

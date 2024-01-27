@@ -1,9 +1,10 @@
 tests-block
 testChangesStateWhileRendering
+
 	| class |
 	class := self defineSubClassOf: #WAComponent.
 	class addInstVarNamed: 'foo'.
 	self compile: 'renderContentOn: html html div: [ foo := nil ]' in: class.
 	self 
-		runRule: WAChangesStateWhileRenderingRule
-		selectors: #(renderContentOn:)
+		assertRule: WAChangesStateWhileRenderingRule
+		matches: { class>>#renderContentOn: }

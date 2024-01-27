@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GRSlimeTest",
+	"super" : "GRReSlimeTest",
 	"category" : "Seaside-Tests-Slime",
 	"classinstvars" : [ ],
 	"pools" : [ ],

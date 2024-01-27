@@ -1,5 +1,6 @@
 baselines
 baselinepharo: spec
+
 	spec
 		for: #squeakCommon
 		do: [ spec

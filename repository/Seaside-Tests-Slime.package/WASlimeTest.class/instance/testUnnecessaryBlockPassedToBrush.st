@@ -1,5 +1,6 @@
 tests-parsetree
 testUnnecessaryBlockPassedToBrush
+
 	| class |
 	class := self defineSubClassOf: #WAComponent.
 	self
@@ -21,5 +22,5 @@ testUnnecessaryBlockPassedToBrush
 		compile: 'renderContent06On: html html div class: #foo; with: [ html render: 6 ]'
 		in: class.
 	self
-		runRule: WAUnnecessaryBlockPassedToBrushRule
-		selectors: #(renderContent01On: renderContent02On: renderContent03On: renderContent04On: renderContent05On: renderContent06On:)
+		assertRule: WAUnnecessaryBlockPassedToBrushRule
+		matches: { class>>#renderContent01On: . class>>#renderContent02On: . class>>#renderContent03On: . class>>#renderContent04On: . class>>#renderContent05On: . class>>#renderContent06On: }

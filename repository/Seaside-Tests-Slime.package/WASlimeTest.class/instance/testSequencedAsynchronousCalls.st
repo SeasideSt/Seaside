@@ -1,5 +1,6 @@
 tests-parsetree
 testSequencedAsynchronousCalls
+
 	| class |
 	class := self defineSubClassOf: #WAComponent.
 	self
@@ -14,6 +15,12 @@ testSequencedAsynchronousCalls
 				onClick: (html jQuery ajax serializeForm; callback: [  ]) , (html jQuery effect bounce);
 				with: ''Click me'''
 		in: class.
+	self
+		compile: 'renderContent3On: html
+			html div
+				onClick: (html jQuery ajax serializeForm; callback: [  ]) / (html jQuery effect bounce);
+				with: ''Click me'''
+		in: class.
 	self 
-		runRule: WASequencedAsynchronousCallsRule
-		selectors: #(renderContent1On: renderContent2On:)
+		assertRule: WASequencedAsynchronousCallsRule
+		matches: { class>>#renderContent1On: . class>>#renderContent2On: }

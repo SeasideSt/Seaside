@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GRSlimeBlockLintRule",
+	"category" : "Seaside-Pharo110-Slime",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classesAndSelectors"
+	],
+	"name" : "WACallSuperImplementationRule",
+	"type" : "normal"
+}

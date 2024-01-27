@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-11, Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, GemStone64-3.7.0, GemStone64-3.6.5, GemStone64-3.5.7 ]
+        smalltalk: [ Pharo64-11, Pharo64-10, Pharo64-9.0, Pharo64-8.0, Pharo64-7.0, GemStone64-3.7.0, GemStone64-3.6.6, GemStone64-3.5.7 ]
         experimental: [ false ]
         include:
           - smalltalk: Pharo64-12

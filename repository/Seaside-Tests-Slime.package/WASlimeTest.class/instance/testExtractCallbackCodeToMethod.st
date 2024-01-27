@@ -1,5 +1,6 @@
 tests-parsetree
 testExtractCallbackCodeToMethod
+
 	| class |
 	class := self defineSubClassOf: #WAComponent.
 	self
@@ -15,5 +16,5 @@ testExtractCallbackCodeToMethod
 				with: 1'
 		in: class.
 	self 
-		runRule: WAExtractCallbackCodeToMethodRule
-		selectors: #(renderInvalidOn:)
+		assertRule: WAExtractCallbackCodeToMethodRule
+		matches: { class>>#renderInvalidOn: }
