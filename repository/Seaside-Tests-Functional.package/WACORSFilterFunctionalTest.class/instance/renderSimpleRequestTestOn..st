@@ -15,6 +15,6 @@ renderSimpleRequestTestOn: html
 					 		with: self successHandlerFunction
 					 		with: self errorHandlerFunction;
 							call: 'catch'
-							with: self errorHandlerFunction);
+							with: self catchErrorHandlerFunction);
 				with: text.
 			html space ] ]
