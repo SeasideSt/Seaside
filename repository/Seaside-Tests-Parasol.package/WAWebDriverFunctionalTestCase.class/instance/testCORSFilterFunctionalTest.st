@@ -2,22 +2,20 @@ testing
 testCORSFilterFunctionalTest
 	[ 
 		WACORSResourceExample register; registerCorsAdaptor.
-		
 		self selectTest: 'WACORSFilterFunctionalTest'.
-		
 		self should: [ driver findElementByPartialLinkText: 'Register CORS Resource' ] raise: BPNoSuchElementException.
 
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
-		Transcript show: 'clicked 1'.
-		(Delay forMilliseconds: 1000) wait.
+		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
 		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
+		(Delay forMilliseconds: 300) wait.
 		Transcript show: 'clicked 2'.
-		(Delay forMilliseconds: 1000) wait.
-		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.		
+		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.	
+		Transcript show: 'FOOBAR'.	
 
 		self clickRestart.		
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow other origin' ]) click.
