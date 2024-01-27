@@ -9,16 +9,19 @@ testCORSFilterFunctionalTest
 
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
+		Transcript show: 'clicked 1'.
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
 		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
+		Transcript show: 'clicked 2'.
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.		
 
 		self clickRestart.		
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow other origin' ]) click.
+		Transcript show: 'clicked 3'.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
