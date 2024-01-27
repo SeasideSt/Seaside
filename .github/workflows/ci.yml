@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: screenshots
-          path: *.png
+          path: '*.png'
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
