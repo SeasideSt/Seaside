@@ -37,7 +37,7 @@ testCORSFilterFunctionalTest
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') 
 			detect: [ :button | button getText = 'Cross Origin' ]) click.
 	  (Delay forMilliseconds: 1000) wait.
-		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.		
+		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error2'.		
 		
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow DELETE' ]) click.
 
