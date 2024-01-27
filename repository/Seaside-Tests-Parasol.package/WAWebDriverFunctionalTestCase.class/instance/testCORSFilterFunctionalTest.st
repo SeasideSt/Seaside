@@ -10,33 +10,29 @@ testCORSFilterFunctionalTest
 		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
-		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
 		(Delay forMilliseconds: 300) wait.
 		Transcript show: 'clicked 2'.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.	
 		Transcript show: 'FOOBAR'.	
 
-		self clickRestart.		
+		"Now test with cross-origin allowed"
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow other origin' ]) click.
-		Transcript show: 'clicked 3'.
+
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
-		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.	
 
-		self clickRestart.
 		"the following statement is to circumvent testing issue with the dev toolbar being over the delete buttons"
 		(driver findElementByID: 'result') moveToElement.
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
 	  	(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
-		self clickRestart.
 		"the following statement is to circumvent testing issue with the dev toolbar being over the delete buttons"
 		(driver findElementByID: 'result') moveToElement.	
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
@@ -45,7 +41,6 @@ testCORSFilterFunctionalTest
 		
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow DELETE' ]) click.
 
-		self clickRestart.
 		"the following statement is to circumvent testing issue with the dev toolbar being over the delete buttons"
 		(driver findElementByID: 'result') moveToElement.		
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') 
@@ -53,7 +48,6 @@ testCORSFilterFunctionalTest
 		(Delay forMilliseconds: 1000) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 
-		self clickRestart.
 		"the following statement is to circumvent testing issue with the dev toolbar being over the delete buttons"
 		(driver findElementByID: 'result') moveToElement.				
 		(((driver findElementByID: 'delete-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
