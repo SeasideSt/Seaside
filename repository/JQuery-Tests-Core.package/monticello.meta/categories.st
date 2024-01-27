@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'JQuery-Tests-Core'!
-SystemOrganization addCategory: #'JQuery-Tests-Core-Functional'!
-SystemOrganization addCategory: #'JQuery-Tests-Core-Unit'!
+self packageOrganizer ensurePackage: #'JQuery-Tests-Core' withTags: #(#Functional #Unit)!
