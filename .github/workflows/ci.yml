@@ -23,7 +23,7 @@ jobs:
     name: ${{ matrix.smalltalk }}
     steps:
       - uses: actions/checkout@v4
-      - uses: hpi-swa/setup-smalltalkCI@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
       # - name: Setup tmate session
