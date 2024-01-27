@@ -4,11 +4,9 @@ renderContentOn: html
   self runningOnGemStone
     ifTrue: [ 
       html
-        paragraph:
-          'Make sure the CORS adaptor is running manually since we cannot check it when running on GemStone.' ].
+        paragraph: 'Make sure the CORS adaptor is running manually since we cannot check it when running on GemStone.' ].
   (self runningOnGemStone not
-    and: [ 
-      WACORSResourceExample corsAdaptor isNil
+    and: [ WACORSResourceExample corsAdaptor isNil
         or: [ WACORSResourceExample corsAdaptor isRunning not ] ])
     ifTrue: [ self renderAdaptorSetupOn: html ]
     ifFalse: [ 
