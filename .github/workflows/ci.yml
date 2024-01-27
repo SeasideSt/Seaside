@@ -47,7 +47,7 @@ jobs:
         if: always()
         with:
           name: screenshots
-          path: ${{ env.SMALLTALK_CI_IMAGE }}/*.png
+          path: ${{ env.SMALLTALK_CI_BUILD }}/*.png
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
