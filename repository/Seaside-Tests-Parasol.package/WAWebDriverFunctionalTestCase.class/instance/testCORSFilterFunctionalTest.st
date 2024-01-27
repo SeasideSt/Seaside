@@ -12,18 +12,18 @@ testCORSFilterFunctionalTest
 		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
-"		self clickRestart."
+		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
 		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Error'.		
 
-"		self clickRestart.		"
+		self clickRestart.		
 		((driver findElementsByTagName: 'button') detect: [ :button | button getText = 'Allow other origin' ]) click.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) click.
   		(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.
 		
-"		self clickRestart.		"
+		self clickRestart.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Cross Origin' ]) click.
 	  	(Delay forMilliseconds: 300) wait.
 		self assert: ((driver findElementByID: 'result') findElementByTagName: 'p') getText equals: 'Success'.	
