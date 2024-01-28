@@ -13,8 +13,6 @@ renderSimpleRequestTestOn: html
 						((JSStream on: ('document.getElementById("result-contents").innerHTML = "Doing request..."; fetch(<1p>)' expandMacrosWith: url greaseString))
 					 		call: 'then'
 					 		with: self successHandlerFunction
-					 		with: self errorHandlerFunction;
-							call: 'catch'
-							with: self catchHandlerFunction);
+					 		with: self errorHandlerFunction);
 				with: text.
 			html space ] ]
