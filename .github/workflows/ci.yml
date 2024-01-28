@@ -22,7 +22,7 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
@@ -42,6 +42,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         timeout-minutes: 20
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Screenshots Test Failures ${{ matrix.smalltalk }}
+          path: ${{ env.SMALLTALK_CI_BUILD }}/*.png
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:

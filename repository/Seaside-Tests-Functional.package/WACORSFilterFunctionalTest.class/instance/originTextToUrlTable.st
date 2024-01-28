@@ -1,4 +1,4 @@
-accessing
+private
 originTextToUrlTable
 
 	^ GRSmallDictionary2 new
