@@ -2,7 +2,7 @@ hooks
 afterCheck: aNode mappings: dict
 
 	| class |
-	aNode methodNode compiledMethod isRenderingMethod ifFalse: [ ^ false ].
+	aNode methodNode method isRenderingMethod ifFalse: [ ^ false ].
 	class := Smalltalk classNamed: aNode receiver name.
 	class ifNil: [ ^ false ].
 	^ class isBehavior and: [
