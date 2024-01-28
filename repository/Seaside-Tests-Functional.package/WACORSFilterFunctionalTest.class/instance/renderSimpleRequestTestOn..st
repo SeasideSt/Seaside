@@ -10,7 +10,7 @@ renderSimpleRequestTestOn: html
 			self originTextToUrlTable keysAndValuesDo: [ :text :url | 
 				html button
 					onClick:
-						((JSStream on: ('fetch(<1p>)' expandMacrosWith: url asString))
+						((JSStream on: ('document.getElementById("result-contents").innerHTML = "Doing request..."; fetch(<1p>)' expandMacrosWith: url asString))
 					 		call: 'then'
 					 		with: self successHandlerFunction
 					 		with: self errorHandlerFunction);

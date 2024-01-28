@@ -1,4 +1,4 @@
-private 
+private
 initialize 
 
 	super initialize.
