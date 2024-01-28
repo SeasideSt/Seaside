@@ -10,7 +10,7 @@ renderMethodPreflightTestOn: html
 		with: [
 			self originTextToUrlTable keysAndValuesDo: [ :text :url | 
 				html button
-					onClick: ((JSStream on:('document.getElementById("result-contents").innerHTML = "Doing request..."; fetch(<1p>, {method: "DELETE"})' expandMacrosWith: url asString))
+					onClick: ((JSStream on:('document.getElementById("result-contents").innerHTML = "Doing request..."; fetch(<1p>, {method: "DELETE"})' expandMacrosWith: url greaseString))
 					 		call: 'then'
 					 		with: self successHandlerFunction
 					 		with: self errorHandlerFunction;
