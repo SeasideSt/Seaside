@@ -13,8 +13,6 @@ renderMethodPreflightTestOn: html
 					onClick: ((JSStream on:('fetch(<1p>, {method: "DELETE"})' expandMacrosWith: url asString))
 					 		call: 'then'
 					 		with: self successHandlerFunction
-					 		with: self errorHandlerFunction;
-							call: 'catch'
-							with: self catchErrorHandlerFunction);
+					 		with: self errorHandlerFunction);
 					with: text.
 				html space ] ]
