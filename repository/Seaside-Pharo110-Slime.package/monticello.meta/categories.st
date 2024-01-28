@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'Seaside-Pharo110-Slime' withTags: #()!
+SystemOrganization addCategory: #'Seaside-Pharo110-Slime'!
