@@ -4,7 +4,7 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #onConflict : #useLoaded,
+      #onConflict : #useIncoming,
       #useLatestMetacello : false,
       #onWarningLog : true,
       #platforms : [ #pharo ]
@@ -13,7 +13,7 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #onConflict : #useLoaded,
+      #onConflict : #useIncoming,
       #useLatestMetacello : true,
       #onWarningLog : true,
       #platforms : [ #squeak ]
@@ -22,7 +22,7 @@ SmalltalkCISpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
       #onWarningLog : true,
-      #onConflict : #useLoaded,
+      #onConflict : #useIncoming,
       #load : [ 'CI' ],
       #platforms : [ #gemstone ]
     }
