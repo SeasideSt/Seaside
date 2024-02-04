@@ -1,10 +1,10 @@
 private
 parseMultiPartFileFieldWithMimePart: aMimePart boundary: aBoundary decodeWith: aBlock
-	| fullBoundary file |
+	| fullBoundary filePathString |
 	fullBoundary := String crlf asByteArray, aBoundary.
-	file := GRPlatform current newTemporaryFileReference.
+	filePathString := GRPlatform current newTemporaryFile.
 	GRPlatform current
-		writeFileStreamOn: file pathString
+		writeFileStreamOn: filePathString
 		do: [ :writer |
 			self
 				parseMultiPartFieldWithoutLengthWithBoundary: fullBoundary
@@ -13,4 +13,4 @@ parseMultiPartFileFieldWithMimePart: aMimePart boundary: aBoundary decodeWith: a
 	
 	aBlock
 		value: aMimePart
-		value: file pathString
+		value: filePathString
