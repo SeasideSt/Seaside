@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Parasol'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Parasol' withTags: #()!
