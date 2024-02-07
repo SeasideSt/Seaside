@@ -1,5 +1,4 @@
 SmalltalkCISpec {
-  #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Seaside3',
