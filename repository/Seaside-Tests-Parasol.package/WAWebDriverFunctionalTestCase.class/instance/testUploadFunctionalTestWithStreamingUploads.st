@@ -2,8 +2,8 @@ testing
 testUploadFunctionalTestWithStreamingUploads
 
 	| originalStreamUploadsSetting |
-	originalStreamUploadsSetting := WAAdmin serverAdaptors first server streamUploads.
+	originalStreamUploadsSetting := self zincServer streamUploads.
 	[ 
-		WAAdmin serverAdaptors first server streamUploads: true.
+		self zincServer streamUploads: true.
 		self testUploadFunctionalTest
-	] ensure: [  WAAdmin serverAdaptors first server streamUploads: originalStreamUploadsSetting. ]
+	] ensure: [ self zincServer streamUploads: originalStreamUploadsSetting. ]
