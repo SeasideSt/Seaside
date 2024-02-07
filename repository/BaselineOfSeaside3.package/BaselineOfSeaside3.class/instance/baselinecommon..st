@@ -7,7 +7,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('Grease-Core');
-					repository: 'github://SeasideSt/Grease:temporaryfiles-gemstone/repository' ].
+					repository: 'github://SeasideSt/Grease:master/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] 
@@ -19,7 +19,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('Grease-Core');
-					repository: 'github://SeasideSt/Grease:temporaryfiles-gemstone/repository' ].
+					repository: 'github://GsDevKit/Grease:master/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] 
