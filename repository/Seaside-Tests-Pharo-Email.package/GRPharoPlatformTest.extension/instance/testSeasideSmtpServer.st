@@ -1,8 +1,9 @@
 *seaside-tests-pharo-email
 testSeasideSmtpServer
 
-	| seasideSmtpServer |
-	seasideSmtpServer := [ GRPlatform current seasideSmtpServer  ]
-		on: ProvideAnswerNotification
-		do: [ :e | e resume: '1.2.3.4' ].
+	| seasideSmtpServer oldSmtpServer |
+	oldSmtpServer := [ MailComposition smtpServer ] on: Error do: [ :e | 	"If the smtpServer was not set, an error is thrown. Set it back to nil afterwards." nil ].
+	MailComposition setSmtpServer: '1.2.3.4'.
+	[ seasideSmtpServer := GRPlatform current seasideSmtpServer ] 
+		ensure: [ MailComposition setSmtpServer: oldSmtpServer ].
 	self assert: seasideSmtpServer isString
