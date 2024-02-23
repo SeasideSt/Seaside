@@ -13,11 +13,9 @@ jobs:
         include:
           - smalltalk: Pharo64-12
             experimental: true
+          - smalltalk: Squeak64-6.0
+            experimental: true
           - smalltalk: Squeak64-5.3
-            experimental: true
-          - smalltalk: Squeak-5.2
-            experimental: true
-          - smalltalk: Squeak-5.1
             experimental: true
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
