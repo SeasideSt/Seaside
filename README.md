@@ -16,12 +16,12 @@ Seaside also has good support for [CSS and Javascript](https://github.com/Seasid
 
 Seaside is composed of different parts, allowing you to only load the parts you need for your project. If you are new to Seaside, we advise you to load the default set of packages by simply following the load instructions below. If you want to load specific (or additional) parts of Seaside, check out the [list of groups and packages](https://github.com/SeasideSt/Seaside/wiki/Seaside-Load-Groups-and-Packages).
 
-We provide instructions to get started with Seaside in [Pharo](http://www.pharo-project.org), [Gemstone](https://gemtalksystems.com/products/gs64/), [Squeak](http://www.squeak.org) or the [VAST Platform](https://www.instantiations.com/vast-platform/). See the appropriate instructions for your platform below.
+We provide instructions to get started with Seaside in [Pharo](https://pharo.org), [Gemstone](https://gemtalksystems.com/products/gs64/), [Squeak](http://www.squeak.org) or the [VAST Platform](https://www.instantiations.com/vast-platform/). See the appropriate instructions for your platform below.
 
 ### Instructions for Pharo
 
 #### Load Seaside
-To install the latest stable version of Seaside in a [Pharo](http://www.pharo-project.org) image, execute the following code:
+To install the latest stable version of Seaside in a [Pharo](https://pharo.org) image, execute the following code:
 
 ```Smalltalk
 Metacello new
