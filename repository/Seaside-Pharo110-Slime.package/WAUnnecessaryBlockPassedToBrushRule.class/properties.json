@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GRSlimeParseTreeLintRule",
+	"super" : "GRReSlimeParseTreeLintRule",
 	"category" : "Seaside-Pharo110-Slime",
 	"classinstvars" : [ ],
 	"pools" : [ ],
