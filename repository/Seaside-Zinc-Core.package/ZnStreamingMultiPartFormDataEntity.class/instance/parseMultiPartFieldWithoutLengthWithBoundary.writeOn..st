@@ -24,13 +24,10 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 						                  ifTrue: [ 2 ]
 						                  ifFalse: [ boundaryCandidateIndex ].
 					"Write all the bytes that we know are not part of a boundary"
-					1 to: candidateIndex - 1 do: [ :index |
-					writer nextPut: (buffer at: index) ].
+					1 to: candidateIndex - 1 do: [ :index | writer nextPut: (buffer at: index) ].
 					"Move the rest of the buffer to the beginning of the buffer"
 					buffer moveStartTo: candidateIndex.
-					"Fill the rest of the buffer.
-					Use rawBuffer here so we can use the primitive to replace the bytes in the
-					buffer directly"
+					"Fill the rest of the buffer. Use rawBuffer here so we can use the primitive to replace the bytes in the buffer directly"
 					rawBuffer := buffer copyFrom: 1 to: bufferSize.
 					stream
 						next: candidateIndex - 1
