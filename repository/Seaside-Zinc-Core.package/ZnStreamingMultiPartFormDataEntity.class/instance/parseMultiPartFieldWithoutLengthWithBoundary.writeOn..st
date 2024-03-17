@@ -33,8 +33,7 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 						startingAt: bufferSize - candidateIndex + 2.
 					buffer initializeWithCollection: rawBuffer.
 					"If the candidate was really the first token of the boundary then we now have loaded the full boundary into the buffer.
-								If not we have to check for the next boundary candidate as
-								we might have loaded the next boundary partially."
+					If not we have to check for the next boundary candidate as we might have loaded the next boundary partially."
 					buffer = aBoundary ] ]
 		ifNil: [
 			writer nextPutAll: buffer.
