@@ -38,7 +38,7 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 		ifNil: [
 			writer nextPutAll: buffer.
 			stream atEnd
-				ifFalse: [ 
+				ifFalse: [
 					"#next:into: answers a copy of the buffer if not enough bytes could be read.
 					Use rawBuffer here so we can use the primitive to replace the bytes in the buffer directly"
 					stream next: bufferSize into: rawBuffer.
