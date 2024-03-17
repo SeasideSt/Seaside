@@ -23,8 +23,7 @@ partsDecodeWith: aDecoderBlock decodeFilesWith: aFileDecoderBlock
 					part contentType notNil and: [
 						part contentType isBinary ] ])
 							ifFalse: [
-								((part contentDispositionValues includes: 'form-data') and: [
-									part contentLength isNil ])
+								((part contentDispositionValues includes: 'form-data') and: [ part contentLength isNil ])
 										ifTrue: [
 											self
 												parseMultiPartFieldWithoutLengthWithMimePart: part

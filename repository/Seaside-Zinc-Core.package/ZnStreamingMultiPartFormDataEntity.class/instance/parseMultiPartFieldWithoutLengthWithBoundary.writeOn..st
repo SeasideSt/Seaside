@@ -20,9 +20,7 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 				ifTrue: [ "Found a boundary. We're done" true ]
 				ifFalse: [
 					| candidateIndex |
-					candidateIndex := boundaryCandidateIndex = 1
-						                  ifTrue: [ 2 ]
-						                  ifFalse: [ boundaryCandidateIndex ].
+					candidateIndex := boundaryCandidateIndex = 1 ifTrue: [ 2 ] ifFalse: [ boundaryCandidateIndex ].
 					"Write all the bytes that we know are not part of a boundary"
 					1 to: candidateIndex - 1 do: [ :index | writer nextPut: (buffer at: index) ].
 					"Move the rest of the buffer to the beginning of the buffer"
@@ -34,16 +32,16 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 						into: rawBuffer
 						startingAt: bufferSize - candidateIndex + 2.
 					buffer initializeWithCollection: rawBuffer.
-					"If the candidate was really the first token of the boundary
-								then we now have loaded the full boundary into the buffer.
+					"If the candidate was really the first token of the boundary then we now have loaded the full boundary into the buffer.
 								If not we have to check for the next boundary candidate as
 								we might have loaded the next boundary partially."
 					buffer = aBoundary ] ]
 		ifNil: [
 			writer nextPutAll: buffer.
 			stream atEnd
-				ifFalse: [ "#next:into: answers a copy of the buffer if not enough bytes could be read""Use rawBuffer here so we can use the primitive to replace the bytes in the
-							buffer directly"
+				ifFalse: [ 
+					"#next:into: answers a copy of the buffer if not enough bytes could be read.
+					Use rawBuffer here so we can use the primitive to replace the bytes in the buffer directly"
 					stream next: bufferSize into: rawBuffer.
 					buffer moveStartTo: 1.
 					false ]
