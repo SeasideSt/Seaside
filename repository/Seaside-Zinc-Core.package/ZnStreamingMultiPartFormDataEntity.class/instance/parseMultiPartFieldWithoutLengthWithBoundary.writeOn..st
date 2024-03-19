@@ -36,7 +36,7 @@ parseMultiPartFieldWithoutLengthWithBoundary: aBoundary writeOn: writer
 					If not we have to check for the next boundary candidate as we might have loaded the next boundary partially."
 					buffer = aBoundary ] ]
 		ifNil: [
-			buffer writeAllOn: writer.
+			buffer nextPutAllOn: writer.
 			stream atEnd
 				ifFalse: [
 					"#next:into: answers a copy of the buffer if not enough bytes could be read.

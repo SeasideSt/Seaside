@@ -2,8 +2,7 @@ I am an implementation of a ring buffer, i.e. a buffer where the start index can
 
 I buffer a fixed amount of data and provide array like access to it.
 
-Users use me mostly like an array. My only interesting method is #moveStartTo:, which moves the start index of the
-buffer to the specified position. Example:
+Users use me mostly like an array. My only interesting method is #moveStartTo:, which moves the start index of the buffer to the specified position. Example:
 
 buffer
 	at: 1 put: 1;
