@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #BaselineOfSeaside3 withTags: #()!
+SystemOrganization addCategory: #BaselineOfSeaside3!
