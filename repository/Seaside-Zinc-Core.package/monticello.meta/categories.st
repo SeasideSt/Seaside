@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Zinc-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Zinc-Core' withTags: #()!
