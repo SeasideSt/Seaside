@@ -28,7 +28,8 @@ SmalltalkCISpec {
     }
   ],
   #preTesting : SCICustomScript {
-    #path : 'scripts/preTesting.st'
+    #path : 'scripts/preTestingPharo.st',
+    #platforms : [ #pharo ]
   },
   #testing : {
       #defaultTimeout : 30,
