@@ -27,6 +27,9 @@ SmalltalkCISpec {
       #platforms : [ #gemstone ]
     }
   ],
+  #preTesting : SCICustomScript {
+    #path : 'scripts/preTesting.st'
+  },
   #testing : {
       #defaultTimeout : 30,
       #exclude : {
