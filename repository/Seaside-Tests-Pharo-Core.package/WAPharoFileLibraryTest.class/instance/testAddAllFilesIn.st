@@ -11,12 +11,11 @@ testAddAllFilesIn
 		(directory / '.Seaside_Store') ensureCreateFile .
 		(directory / 'foo') ensureCreateFile.
 		GRPlatform current doSilently: [
-			library := WAFileLibrary
-				subclass: #XXXTestFileLibrary
-				instanceVariableNames: ''
-				classVariableNames: ''
-				poolDictionaries: ''
-				category: 'Uncategorized'.
+			library := WAFileLibrary classInstaller make: [ :builder |
+				builder
+					superclass: WAFileLibrary;
+					name: #XXXTestFileLibrary;
+					environment: WAFileLibrary environment ].
 		[ library addAllFilesIn: directory fullName.
 			self assert: library selectors size = 1 ] "reject .Seaside_Store"
 				ensure: [ library removeFromSystem ] ] ]
