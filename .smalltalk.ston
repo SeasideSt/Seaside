@@ -27,6 +27,10 @@ SmalltalkCISpec {
       #platforms : [ #gemstone ]
     }
   ],
+  #preTesting : SCICustomScript {
+    #path : 'scripts/preTestingPharo.st',
+    #platforms : [ #pharo ]
+  },
   #testing : {
       #defaultTimeout : 30,
       #exclude : {

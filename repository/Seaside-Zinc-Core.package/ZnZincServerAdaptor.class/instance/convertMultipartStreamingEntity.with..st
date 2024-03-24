@@ -9,9 +9,7 @@ convertMultipartStreamingEntity: anEntity with: aMultiValueDictionary
 		partsDecodeWith: [ :znMimePart |
 			aMultiValueDictionary
 				at: znMimePart fieldName
-				add: (self codec url decode: (znMimePart hasEntity
-					ifTrue: [ znMimePart fieldValueString ]
-					ifFalse: [ '' ])) ]
+				add: (self codec url decode: (znMimePart hasEntity ifTrue: [ znMimePart fieldValueString ] ifFalse: [ '' ])) ]
 		decodeFilesWith: [ :znMimePart :filePath |
 			"Empty file + empty filename means that the file form
 			field did not contain a value (no file was selected)."

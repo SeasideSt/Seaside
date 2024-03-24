@@ -1,6 +1,6 @@
 hooks
 afterCheck: aNode mappings: dict
 
-	aNode methodNode method isRenderingMethod ifFalse: [ ^ false ].
+	aNode methodNode compiledMethod isRenderingMethod ifFalse: [ ^ false ].
 	(WASlime isWithinCallback: aNode) ifTrue: [ ^ false ].
 	^ true

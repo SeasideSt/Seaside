@@ -2,7 +2,7 @@ hooks
 afterCheck: aNode mappings: dict
 
 	| owner |
-	aNode methodNode method isRenderingMethod ifFalse:[ ^ false ].
+	aNode methodNode compiledMethod isRenderingMethod ifFalse:[ ^ false ].
 	owner := aNode isCascaded
 		ifTrue: [ aNode parent parent ]
 		ifFalse: [ aNode parent ].
