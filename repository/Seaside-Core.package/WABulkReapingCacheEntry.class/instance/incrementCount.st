@@ -1,3 +1,0 @@
-public
-incrementCount
-	count increment

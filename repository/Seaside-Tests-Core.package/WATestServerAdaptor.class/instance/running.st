@@ -1,3 +1,0 @@
-initialization
-running
-	status := #running

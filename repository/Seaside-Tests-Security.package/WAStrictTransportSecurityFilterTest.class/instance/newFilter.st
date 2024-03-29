@@ -1,3 +1,0 @@
-private
-newFilter
-	^ WAStrictTransportSecurityFilter new

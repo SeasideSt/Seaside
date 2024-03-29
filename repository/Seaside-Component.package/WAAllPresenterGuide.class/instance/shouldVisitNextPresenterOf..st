@@ -1,3 +1,0 @@
-private
-shouldVisitNextPresenterOf: aDecoration
-	^ true

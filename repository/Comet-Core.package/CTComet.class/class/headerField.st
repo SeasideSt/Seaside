@@ -1,3 +1,0 @@
-configuration
-headerField
-	^ '_c'

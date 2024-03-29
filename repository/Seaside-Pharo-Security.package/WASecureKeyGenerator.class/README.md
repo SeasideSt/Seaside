@@ -1,3 +1,0 @@
-I generate cryptographically secure pseudorandom key. I delegate to a random number generator.
-
-It is important that I seed myself automatically on image start up. Otherwise if an image is saved and afterwards started twice all images generate the same random numbers. Also I must not use the system time for seeding as multiple images could be started at the same time. Currently seeding uses /dev/urandom and therefore is only available un Unix environments. If I can't successfully seed myself I install a key generator that always fails.

@@ -1,3 +1,0 @@
-*Seaside-Core
-seasideUrl
-	^ self

@@ -1,3 +1,0 @@
-writing
-writeContentAsStringOn: aStream
-	self subclassResponsibility

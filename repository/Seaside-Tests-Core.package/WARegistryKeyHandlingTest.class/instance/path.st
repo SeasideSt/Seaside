@@ -1,3 +1,0 @@
-private
-path
-	^ '/', self registryName

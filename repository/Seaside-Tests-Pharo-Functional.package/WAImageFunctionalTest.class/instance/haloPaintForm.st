@@ -1,7 +1,0 @@
-accessing
-haloPaintForm
-	^ self formClass
-		extent: 16 @ 16
-		depth: 1
-		fromArray: #(0 0 0 402653184 503316480 192937984 213909504 73400320 103809024 51904512 25690112 14155776 7340032 0 0 0)
-		offset: 0 @ 0

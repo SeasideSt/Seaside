@@ -1,3 +1,0 @@
-accessing-calculated
-allPages
-	^ 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'

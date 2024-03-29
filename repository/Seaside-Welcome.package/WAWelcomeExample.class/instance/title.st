@@ -1,3 +1,0 @@
-private
-title
-	self subclassResponsibility

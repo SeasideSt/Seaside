@@ -1,5 +1,0 @@
-commands
-cmdToggleStreamUploads
-	<command>
-	
-	^ WACmdToggleStreamUploads

@@ -1,3 +1,0 @@
-accessing
-fullList
-	^ attribute options

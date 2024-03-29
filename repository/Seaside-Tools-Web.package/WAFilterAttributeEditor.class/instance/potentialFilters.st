@@ -1,3 +1,0 @@
-accessing
-potentialFilters
-	^ WAConfiguredRequestFilter allSubclasses

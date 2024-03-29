@@ -1,3 +1,0 @@
-testing
-canClear
-	^ group ~~ #authentication

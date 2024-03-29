@@ -1,3 +1,0 @@
-accessing
-messageCategoryListIndex
-	^ self messageCategoryList indexOf: selectedMessageCategory

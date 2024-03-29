@@ -1,1 +1,0 @@
-A resource within a Seaside file library

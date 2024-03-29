@@ -1,4 +1,0 @@
-testing
-isEnabledFor: aRequestContext
-
-	^ false

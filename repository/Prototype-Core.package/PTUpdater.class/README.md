@@ -1,1 +1,0 @@
-Performs an AJAX request and updates a container's contents based on the response text.

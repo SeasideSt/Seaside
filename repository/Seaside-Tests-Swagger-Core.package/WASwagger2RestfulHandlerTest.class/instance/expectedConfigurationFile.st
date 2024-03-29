@@ -1,3 +1,0 @@
-private
-expectedConfigurationFile
-	self subclassResponsibility

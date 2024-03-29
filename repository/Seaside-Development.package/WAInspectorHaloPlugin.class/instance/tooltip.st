@@ -1,3 +1,0 @@
-accessing
-tooltip
-	^ 'Object Inspector'

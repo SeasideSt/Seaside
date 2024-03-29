@@ -1,4 +1,0 @@
-accessing
-rootHandlers
-
-	^ { self dispatcher }

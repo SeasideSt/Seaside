@@ -1,3 +1,0 @@
-accessing
-renderContext
-	^ owner renderContext

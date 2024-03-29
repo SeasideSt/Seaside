@@ -1,3 +1,0 @@
-examples
-exampleComponent
-	^ self new

@@ -1,3 +1,0 @@
-private
-newSession
-	^ WASession new

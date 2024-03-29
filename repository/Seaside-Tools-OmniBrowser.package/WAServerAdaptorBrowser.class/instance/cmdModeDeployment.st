@@ -1,5 +1,0 @@
-commands
-cmdModeDeployment
-	<command>
-	
-	^ WACmdModeDeployment

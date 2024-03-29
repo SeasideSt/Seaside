@@ -1,1 +1,0 @@
-I open a browser on the component class.

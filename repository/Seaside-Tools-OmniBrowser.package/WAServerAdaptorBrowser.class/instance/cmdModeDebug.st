@@ -1,5 +1,0 @@
-commands
-cmdModeDebug
-	<command>
-	
-	^ WACmdModeDebug

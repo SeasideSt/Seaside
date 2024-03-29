@@ -1,1 +1,0 @@
-A common superclass for all widgets that want to use WAHtmlCanvas as their renderer.

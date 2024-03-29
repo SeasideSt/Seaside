@@ -1,3 +1,0 @@
-private
-newStrategy
-	self subclassResponsibility

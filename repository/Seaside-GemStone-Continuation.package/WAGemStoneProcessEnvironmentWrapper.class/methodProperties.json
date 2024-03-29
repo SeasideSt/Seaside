@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"withEnvironment:value:" : "JohanBrichau 06/27/2020 04:04" },
-	"instance" : {
-		"environment:value:" : "JohanBrichau 06/27/2020 04:03",
-		"isProcessEnvironmentWrapper" : "JohanBrichau 06/27/2020 04:10",
-		"restoreEnvironmentAndReturnValue" : "JohanBrichau 06/27/2020 04:12" } }

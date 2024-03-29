@@ -1,3 +1,0 @@
-private
-defaultGeneratorString
-	^ 'Seaside-RSRSS'

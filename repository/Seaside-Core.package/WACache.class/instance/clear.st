@@ -1,3 +1,0 @@
-public
-clear
-	self subclassResponsibility

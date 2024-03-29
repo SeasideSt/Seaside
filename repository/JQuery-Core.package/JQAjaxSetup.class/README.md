@@ -1,1 +1,0 @@
-Setup global settings for AJAX requests.

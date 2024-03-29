@@ -1,3 +1,0 @@
-public
-title
-	^ title

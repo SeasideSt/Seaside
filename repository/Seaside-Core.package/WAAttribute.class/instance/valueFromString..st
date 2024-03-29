@@ -1,3 +1,0 @@
-converting
-valueFromString: aString
-	self subclassResponsibility

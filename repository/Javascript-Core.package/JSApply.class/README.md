@@ -1,1 +1,0 @@
-I apply a JavaScript function and provide arguments.

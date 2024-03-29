@@ -1,3 +1,0 @@
-converting-request
-requestFieldsFor: aNativeRequest
-	self subclassResponsibility

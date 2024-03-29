@@ -1,3 +1,0 @@
-actions
-register
-	method := 'register'

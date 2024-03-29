@@ -1,1 +1,0 @@
-A script generator that does not support any load scripts. This results in cleaner HTML and should result in slightly faster page loads.

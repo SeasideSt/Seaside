@@ -1,1 +1,0 @@
-http://code.google.com/p/seaside/issues/detail?id=71

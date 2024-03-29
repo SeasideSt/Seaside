@@ -1,3 +1,0 @@
-private
-openBrush
-	canvas writeIfNotFirst: ', '

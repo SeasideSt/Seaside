@@ -1,4 +1,0 @@
-origins
-allowAnyOrigin
-
-	self addAllowedOrigin: '*'

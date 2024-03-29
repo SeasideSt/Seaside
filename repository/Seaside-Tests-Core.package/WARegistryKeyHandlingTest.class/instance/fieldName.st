@@ -1,3 +1,0 @@
-private
-fieldName
-	^ '_s'

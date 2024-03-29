@@ -1,3 +1,0 @@
-accessing
-selectors
-	^ #(initialize renderContentOn:)

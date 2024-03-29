@@ -1,1 +1,0 @@
-WABooleanAttribute  represents a boolean attribute. It converts between text entered on the configuration page and boolean values.
