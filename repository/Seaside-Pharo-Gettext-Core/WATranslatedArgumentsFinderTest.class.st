@@ -5,7 +5,8 @@ Class {
 	#name : 'WATranslatedArgumentsFinderTest',
 	#superclass : 'TestCase',
 	#category : 'Seaside-Pharo-Gettext-Core-Tests',
-	#package : 'Seaside-Pharo-Gettext-Core-Tests'
+	#package : 'Seaside-Pharo-Gettext-Core',
+	#tag : 'Tests'
 }
 
 { #category : 'test' }
