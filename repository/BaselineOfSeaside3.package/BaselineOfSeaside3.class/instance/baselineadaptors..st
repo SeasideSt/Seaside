@@ -1,5 +1,6 @@
 baselines
 baselineadaptors: spec
+
 	spec
 		for: #( #squeakCommon #'gs3.0.x' #'gs3.1.x' #'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' )
 		do: [ spec
