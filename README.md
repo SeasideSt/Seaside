@@ -39,7 +39,14 @@ Metacello new
 ```
 #### Launch the Welcome page
 
-If you installed Seaside using the instructions above, the `Welcome` package was loaded and a default server adaptor was started on port 8080. Open a webbrowser on (http://localhost:8080) and you should see the Seaside Welcome page. Happy Seasiding!
+If you installed Seaside using the instructions above, the `Welcome` package was loaded and a default server adaptor was started on port 8080. Open a webbrowser on (http://localhost:8080) and you should see the Seaside Welcome page. 
+
+Also checkout the Seaside Control Panel, in the 'Library' menu of the Pharo top toolbar:
+
+<img width="623" alt="Screenshot 2024-04-20 at 14 02 54" src="https://github.com/SeasideSt/Seaside/assets/933094/79780512-e6f5-49b1-be93-b163eee13825">
+
+
+Happy Seasiding!
 
 ### Instructions for Gemstone
 
