@@ -6,7 +6,7 @@ body { margin-bottom: 25px !important; /*matches toolbar min-height + padding an
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 20;
+	z-index: 99999;
 	padding: 2px;
 	position: fixed;
 	text-align: left;
