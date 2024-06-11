@@ -5,4 +5,4 @@ afterCheck: aNode mappings: dict
 	aNode isWrite ifFalse: [ ^ false ].
 	(WASlime isWithinCallback: aNode) ifTrue:[ ^ false ].
 
-	^ true
+	^ aNode methodNode methodClass instVarNames includes: aNode name

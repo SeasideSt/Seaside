@@ -9,4 +9,12 @@ testUsesWrongRenderer
 		in: class.
 	self 
 		assertRule: WAUsesWrongRendererRule
-		matches: { class>>#renderContentOn: }
+		matches: { class>>#renderContentOn: }.
+		
+	self
+		compile: 'renderContentOn: html
+			html jQuery load html: [ :r | html div ]'
+		in: class.
+	self 
+		assertRule: WAUsesWrongRendererRule
+		matches: { class>>#renderContentOn: }.
