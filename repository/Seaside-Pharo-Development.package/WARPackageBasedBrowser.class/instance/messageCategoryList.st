@@ -4,7 +4,7 @@ messageCategoryList
 	| all categories unclassified |
 	all := #'-- all --'. "AllProtocol defaultName is fucked in Pharo 2.0"
 	self selectedClass ifNil: [ ^ Array with: all ].
-	categories := self selectedClass categories.
+	categories := self selectedClass organization categories.
 	(categories notEmpty and: [ categories first = all ]) ifFalse: [ "all is only in 3.0+"
 		categories := (Array with: all) , categories ].
 	unclassified := Protocol unclassified. "#unclassified only in 3.0+"
