@@ -1,0 +1,1 @@
+I am a render phase continuation that only renders a fragment of a web page, without a head or body.

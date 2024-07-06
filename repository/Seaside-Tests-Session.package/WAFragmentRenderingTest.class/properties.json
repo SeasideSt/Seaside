@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestHandlerTest",
+	"category" : "Seaside-Tests-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFragmentRenderingTest",
+	"type" : "normal"
+}
