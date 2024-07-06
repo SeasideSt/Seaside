@@ -1,5 +1,4 @@
 accessing
 systemCategoryList
-	^ (self packages
-		collect: [ :each | each packageName ])
-		sorted
+
+	^ (self packages collect: [ :each | (self packageNameOf: each) ]) sorted
