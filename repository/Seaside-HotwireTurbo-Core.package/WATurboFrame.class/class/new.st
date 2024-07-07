@@ -1,3 +1,3 @@
 instance creation
 new
-	^ self basicNew initializeWithId:  'id-', UUIDGenerator default next asString
+	^ self basicNew initializeWithId:  'id-', UUID new asString
