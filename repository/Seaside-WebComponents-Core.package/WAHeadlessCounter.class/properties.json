@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAHeadlessComponent",
+	"category" : "Seaside-WebComponents-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counter"
+	],
+	"name" : "WAHeadlessCounter",
+	"type" : "normal"
+}

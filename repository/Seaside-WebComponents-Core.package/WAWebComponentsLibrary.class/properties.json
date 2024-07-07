@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "xxx 7/7/2024 16:54",
+	"super" : "WAFileLibrary",
+	"category" : "Seaside-WebComponents-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWebComponentsLibrary",
+	"type" : "normal"
+}
