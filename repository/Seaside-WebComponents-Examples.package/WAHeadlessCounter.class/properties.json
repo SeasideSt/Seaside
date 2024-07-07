@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAHeadlessComponent",
-	"category" : "Seaside-WebComponents-Core",
+	"category" : "Seaside-WebComponents-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
