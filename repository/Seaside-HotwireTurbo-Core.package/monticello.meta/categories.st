@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-HotwireTurbo-Core'!
+self packageOrganizer ensurePackage: #'Seaside-HotwireTurbo-Core' withTags: #()!
