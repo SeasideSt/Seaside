@@ -2,7 +2,7 @@ scripts
 seasideWebComponentsJs
 	^ '"use strict";
 (function() {
-  class SeasideComponent extends HTMLElement {
+  class WaComponent extends HTMLElement {
     #shadowRoot;
     constructor() {
       super();
@@ -62,6 +62,6 @@ seasideWebComponentsJs
     }
   }
 
-  customElements.define("seaside-component", SeasideComponent);
+  customElements.define("wa-component", WaComponent);
 })();
 '

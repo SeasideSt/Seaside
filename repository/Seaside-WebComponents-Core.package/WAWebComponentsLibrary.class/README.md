@@ -14,7 +14,7 @@ To use this library
   </head>
   <body>
     <!-- -->
-    <seaside-component url="/examples/headless-counter">Loading...</seaside-component>
+    <wa-component url="/examples/headless-counter">Loading...</wa-component>
     <!-- -->
   </body>
 </html>
