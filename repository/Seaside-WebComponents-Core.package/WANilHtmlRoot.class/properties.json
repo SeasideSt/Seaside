@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "Anonymous 7/6/2024 13:07",
 	"super" : "WAObject",
-	"category" : "Seaside-Core-Document",
+	"category" : "Seaside-WebComponents-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

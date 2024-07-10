@@ -59,6 +59,10 @@ baselinecommon: spec
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Session' ). ];
 			package: 'Seaside-Tools-Web' with: [
 				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ) ];
+			package: 'Seaside-WebComponents-Core' with: [
+				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Component' 'Seaside-RenderLoop') ];
+			package: 'Seaside-WebComponents-Examples' with: [
+				spec requires: #('Seaside-WebComponents-Core') ];
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
 			package: 'Seaside-HotwireTurbo-Core' with: [
@@ -93,6 +97,8 @@ baselinecommon: spec
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ];
+			package: 'Seaside-Tests-WebComponents' with: [
+				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Tests-Core' 'Seaside-Session' 'Seaside-Examples'). ];
 			package: 'Seaside-Tests-Parasol' with: [
 				spec requires: #('Parasol' 'Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
 		spec
@@ -107,4 +113,4 @@ baselinecommon: spec
 			group: 'Development' with: #('Core' 'Seaside-Development');
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples' 'Seaside-HotwireTurbo-Examples') ].
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples' 'Seaside-HotwireTurbo-Examples' 'Seaside-WebComponents-Examples') ].

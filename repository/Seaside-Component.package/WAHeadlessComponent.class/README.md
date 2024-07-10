@@ -1,1 +1,0 @@
-I am a component that is used to render a web page without a head and a body.
