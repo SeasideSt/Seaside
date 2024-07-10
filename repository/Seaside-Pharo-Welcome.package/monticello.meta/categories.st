@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Welcome'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Welcome' withTags: #()!
