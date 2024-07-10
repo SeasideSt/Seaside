@@ -19,7 +19,7 @@ baselineslime: spec
 				group: 'Development Tests' with: #('Seaside-Tests-Slime') ].
 			
 	spec
-		for: #(#'pharo10.x' #'pharo11.x' #'pharo12.x')
+		for: #(#'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x')
 		do: [ 
 			spec
 				package: 'Seaside-Pharo110-Slime' with: [ spec requires: #('Grease Slime') ];
