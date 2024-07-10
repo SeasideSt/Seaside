@@ -62,7 +62,7 @@ baselinecommon: spec
 			package: 'Seaside-WebComponents-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Component' 'Seaside-RenderLoop') ];
 			package: 'Seaside-WebComponents-Examples' with: [
-				spec requires: #('Seaside-WebComponents-Core') ];
+				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Examples') ];
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
 			package: 'Seaside-HotwireTurbo-Core' with: [
