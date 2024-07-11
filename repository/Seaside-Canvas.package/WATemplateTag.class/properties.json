@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Anonymous 7/6/2024 14:40",
+	"super" : "WATagBrush",
+	"category" : "Seaside-Canvas-Tags",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WATemplateTag",
+	"type" : "normal"
+}
