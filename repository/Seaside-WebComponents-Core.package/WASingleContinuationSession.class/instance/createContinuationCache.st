@@ -1,0 +1,3 @@
+initialization
+createContinuationCache
+	^ WASingleElementCache new
