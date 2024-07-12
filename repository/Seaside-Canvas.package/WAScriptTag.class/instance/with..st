@@ -1,9 +1,13 @@
 public
-with: aString
+with: aStringOrJSObject
 
 	self attributes
 		at: 'type'
 		ifAbsentPut: [ 'text/javascript' ].
 	super with: [
-		aString ifNotNil: [
-			self document nextPutAll: aString greaseString ] ]
+		aStringOrJSObject ifNotNil: [
+			aStringOrJSObject isString
+				ifTrue: [
+					"we want to render a String directly and avoid escaping "" and '"
+					self document nextPutAll: aStringOrJSObject ]
+				ifFalse: [ self document stream javascript: aStringOrJSObject ] ] ]
