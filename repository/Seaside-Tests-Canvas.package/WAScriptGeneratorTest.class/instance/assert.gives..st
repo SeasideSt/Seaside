@@ -5,4 +5,4 @@ assert: aBlock gives: aString
 		fullDocument: true;
 		scriptGeneratorClass: self scriptGeneratorClass;
 		render: aBlock.
-	self assert: aString equals: html
+	self assert: aString = html
