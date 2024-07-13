@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'RSS-Core'!
-SystemOrganization addCategory: #'RSS-Core-Model'!
-SystemOrganization addCategory: #'RSS-Core-Tags'!
+self packageOrganizer ensurePackage: #'RSS-Core' withTags: #(#Model #Tags)!

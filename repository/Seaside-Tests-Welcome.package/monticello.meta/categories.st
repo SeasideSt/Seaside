@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Welcome'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Welcome' withTags: #()!

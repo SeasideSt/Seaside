@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Gettext-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Gettext-Core' withTags: #()!

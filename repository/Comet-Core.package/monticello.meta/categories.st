@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Comet-Core'!
+self packageOrganizer ensurePackage: #'Comet-Core' withTags: #()!

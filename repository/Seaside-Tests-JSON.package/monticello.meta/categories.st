@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-JSON'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-JSON' withTags: #()!
