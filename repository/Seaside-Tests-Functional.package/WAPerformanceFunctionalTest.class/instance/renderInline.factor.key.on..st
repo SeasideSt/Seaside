@@ -40,7 +40,9 @@ renderInline: aBlock factor: factor key: key on: html
 	html div
 		class: 'spi';
 		with: [
-			html big: spi greaseString , ' SPI'.
+			html span
+				style: 'font-size: 30px;';
+				with: spi greaseString , ' SPI'.
 			html span
 				class: 'iteration';
 				with: '(' , count greaseString , ' iterations)'.

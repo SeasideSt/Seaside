@@ -5,6 +5,6 @@ renderCurrencyTableOn: html
 		with: [
 			html tableCaption: 'Currencies against Swiss Franc (CHF)'.
 			html tableColumnGroup.
-			html tableColumnGroup width: '100px'; align: 'char'; character: $..
+			html tableColumnGroup.
 			self renderCurrencyTableHeadOn: html.
 			self renderCurrencyTableBodyOn: html ]

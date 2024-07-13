@@ -4,7 +4,7 @@ renderAnchorsOn: canvas
 		html unorderedList: [
 			html listItem: [
 					html anchor
-						name: 'name';
+						id: 'name';
 						callback: [ ];
 						with: 'Anchor' ] ] ]
 		factor: 1

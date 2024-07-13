@@ -20,7 +20,4 @@ testTableData
 		gives: '<td colspan="2" rowspan="3"></td>'.
 	self
 		assert: [ :html | html tableData headers: 'zork' ]
-		gives: '<td headers="zork"></td>'.
-	self
-		assert: [ :html | html tableData scope: 'colgroup' ]
-		gives: '<td scope="colgroup"></td>'
+		gives: '<td headers="zork"></td>'

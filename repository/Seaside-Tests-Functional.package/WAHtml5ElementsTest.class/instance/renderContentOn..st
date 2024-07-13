@@ -6,7 +6,6 @@ renderContentOn: html
 	self renderProgressOn: html.
 	self renderTimeOn: html.
 	self renderDetailsOn: html.
-	self renderMenuOn: html.
 	self renderHeadingGroupOn: html.
 	self renderBidirectionalOn: html.
 	self renderBidirectionalOverrideOn: html.
