@@ -3,7 +3,7 @@ renderEntityTableBodyOn: html
 	html tableBody: [
 		self entities do: [ :eachEntity |
 			html tableRow: [
-				html tableData scope: 'row';
+				html tableHeading scope: 'row';
 					with: eachEntity first.
 				eachEntity second do: [ :each |
 					html tableData: each ].
