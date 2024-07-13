@@ -5,10 +5,10 @@ renderContentOn: html
 
 	self renderExplanationOn: html.
 	html unorderedList: [
-		(1 to: 5000) do: [ :each | 
+		1 to: 5000 do: [ :each | 
 			html listItem: [
 				html anchor
-					name: each;
+					id: 'linkid-', each greaseString;
 					callback: [
 						self 
 							inform: each
