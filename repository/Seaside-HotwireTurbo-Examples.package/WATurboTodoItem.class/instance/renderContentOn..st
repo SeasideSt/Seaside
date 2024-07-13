@@ -4,7 +4,7 @@ renderContentOn: html
 	| id |
 	html listItem
 		id: (id := html nextId);
-		onDoubleClick: (html javascript turboCallback: [ self turboCall: (WATurboTodoItemEditor on: self) ]);
+		onDoubleClick: (html javascript turboCallback: [ self turboShow: (WATurboTodoItemEditor on: self) ]);
 		with: [ 
 			html div
 				class: 'view';

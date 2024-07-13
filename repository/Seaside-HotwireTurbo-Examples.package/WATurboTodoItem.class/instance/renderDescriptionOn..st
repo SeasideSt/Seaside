@@ -4,5 +4,5 @@ renderDescriptionOn: html
 	html label: description.
 	html anchor
 		class: 'edit-link';
-		callback: [ self turboCall: (WATurboTodoItemEditor on: self) ];
+		callback: [ self turboShow: (WATurboTodoItemEditor on: self) ];
 		with: 'edit'
