@@ -8,5 +8,6 @@ renderEntityTableBodyOn: html
 				eachEntity second do: [ :each |
 					html tableData: each ].
 				eachEntity second do: [ :each |
-					html tableData align: 'center';
+					html tableData
+						class: 'wacanvastabletest-aligncenter';
 						with: [ html html: each ] ] ] ] ]
