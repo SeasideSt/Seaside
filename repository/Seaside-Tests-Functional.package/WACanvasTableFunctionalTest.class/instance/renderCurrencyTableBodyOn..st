@@ -9,9 +9,5 @@ renderCurrencyTableBodyOn: html
             do: [ :each | 
               html
                 tableRow: [ 
-                  html tableHeading: each first.	"https://bugzilla.mozilla.org/show_bug.cgi?id=2212
-					https://bugzilla.mozilla.org/show_bug.cgi?id=915"
-                  html tableData
-                    align: 'char';
-                    character: $.;
-                    with: (numberPrinter print: each second) ] ] ]
+                  html tableHeading: each first.
+                  html tableData: (numberPrinter print: each second) ] ] ]

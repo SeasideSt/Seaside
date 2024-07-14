@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-GemStone-Development-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "dkh 10/14/2011 13:56",
-	"instvars" : [
-		"walkback" ],
-	"name" : "WARemoteDebuggingWalkbackErrorHandler",
-	"pools" : [
-		 ],
 	"super" : "WAGemStoneWalkbackErrorHandler",
-	"type" : "normal" }
+	"category" : "Seaside-GemStone-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"walkback"
+	],
+	"name" : "WARemoteDebuggingWalkbackErrorHandler",
+	"type" : "normal"
+}

@@ -1,5 +1,7 @@
 private
 openBrush
 	super openBrush.
-	key jsonOn: canvas.
+	self class stringKeysOnly
+		ifTrue: [ key jsonKeyOn: canvas ]
+		ifFalse: [ key jsonOn: canvas ].
 	self document stream nextPutAll: ': '

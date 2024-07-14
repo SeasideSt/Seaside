@@ -1,3 +1,3 @@
 tests
 testArray
-	self assert: #(1 2 3) equals: '[1, 2, 3]'
+	self assert: #(1 2 3) gives: '[1, 2, 3]'

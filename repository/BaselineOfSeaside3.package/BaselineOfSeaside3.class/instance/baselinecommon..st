@@ -7,11 +7,10 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('Grease-Core');
-					repository: 'github://SeasideSt/Grease:master/repository' ].
+					repository: 'github://SeasideSt/Grease:v1.18.x/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
-				spec loads: #('Core Tests') ] 
-	].
+				spec loads: #('Core Tests') ] ].
 
 	spec for: #'gemstone' do: [ 
       spec
@@ -22,8 +21,7 @@ baselinecommon: spec
 					repository: 'github://GsDevKit/Grease:master/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
-				spec loads: #('Core Tests') ] 
-	].
+				spec loads: #('Core Tests') ] ].
 
 	spec for: #'common' do: [
 		 spec
@@ -60,9 +58,17 @@ baselinecommon: spec
 			package: 'Seaside-Tools-Core' with: [
 				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Session' ). ];
 			package: 'Seaside-Tools-Web' with: [
-				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ). ];
+				spec requires: #('Seaside-Tools-Core' 'Seaside-RenderLoop' 'Seaside-Widgets' ) ];
+			package: 'Seaside-WebComponents-Core' with: [
+				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Component' 'Seaside-RenderLoop') ];
+			package: 'Seaside-WebComponents-Examples' with: [
+				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Examples') ];
 			package: 'Seaside-Widgets' with: [
-				spec requires: #('Seaside-Component' 'Seaside-Canvas' ). ];
+				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
+			package: 'Seaside-HotwireTurbo-Core' with: [
+				spec requires: #('Seaside-Core' 'Seaside-Component' 'Seaside-Canvas' 'Seaside-RenderLoop' ) ];
+			package: 'Seaside-HotwireTurbo-Examples' with: [
+				spec requires: #('Seaside-HotwireTurbo-Core' 'Seaside-Examples') ];
 			package: 'Seaside-Tests-Canvas' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Canvas' ). ];
 			package: 'Seaside-Tests-Component' with: [
@@ -91,16 +97,20 @@ baselinecommon: spec
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-UTF8' with: [
 				spec requires: #('Seaside-Tests-Core' ) ];
+			package: 'Seaside-Tests-WebComponents' with: [
+				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Tests-Core' 'Seaside-Session' 'Seaside-Examples'). ];
 			package: 'Seaside-Tests-Parasol' with: [
 				spec requires: #('Parasol' 'Seaside-Tests-Functional' 'Seaside-Tools-Core') ].
-		spec 
+		spec
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
-			group: 'OneClick' with: #('Tests' 'Development' 'Zinc');
-			group: 'CI' with: #('Tests' 'Development Tests');
+			group: 'Base' with: #('Core');
+			group: 'CI' with: #('Tests' 'Development Tests' 'Hotwired');
+			group: 'All' with: #('Tests' 'Development Tests');
+			
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
-			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests' 'Seaside-Tests-Parasol');
-			group: 'Development' with: #('Core' 'Seaside-Development' );
-			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development' );
+			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'Seaside-Tests-WebComponents' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests' 'Seaside-Tests-Parasol');
+			group: 'Hotwired' with: #('Seaside-HotwireTurbo-Core');
+			group: 'Development' with: #('Core' 'Seaside-Development');
+			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples');
-			group: 'Base' with: #('Core')  ].
+			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples' 'Seaside-HotwireTurbo-Examples' 'Seaside-WebComponents-Examples') ].

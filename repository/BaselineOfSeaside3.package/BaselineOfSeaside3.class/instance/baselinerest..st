@@ -31,7 +31,7 @@ baselinerest: spec
 		spec
 			package: 'Seaside-Squeak-REST-Core';
 			package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-Squeak-REST-Core')];
+				spec includes: #('Seaside-Squeak-REST-Core') ];
 			package: 'Seaside-Squeak-Swagger-Core';
 			package: 'Seaside-Pharo-Swagger-Core';
 			package: 'Seaside-Swagger-Core' with: [ 
@@ -44,19 +44,19 @@ baselinerest: spec
 			spec
 				package: 'Seaside-Pharo20-REST-Core';
 				package: 'Seaside-REST-Core' with:[
-					spec includes: #('Seaside-Pharo20-REST-Core')];
+					spec includes: #('Seaside-Pharo20-REST-Core') ];
 				package: 'Seaside-Pharo-Swagger-Core';
 				package: 'Seaside-Swagger-Core' with: [ 
 					spec includes: #('Seaside-Pharo-Swagger-Core') ]
 	].
 
 	spec 
-		for: #('pharo9.x' 'pharo10.x') 
+		for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x') 
 		do:[
 			spec
 				package: 'Seaside-Pharo90-REST-Core';
 				package: 'Seaside-REST-Core' with:[
-					spec includes: #('Seaside-Pharo90-REST-Core')];
+					spec includes: #('Seaside-Pharo90-REST-Core') ];
 				package: 'Seaside-Pharo-Swagger-Core';
 				package: 'Seaside-Swagger-Core' with: [ 
 					spec includes: #('Seaside-Pharo-Swagger-Core') ]
@@ -67,7 +67,7 @@ baselinerest: spec
         	package: 'Seaside-GemStone-REST-Core' with: [ 
 			spec requires: #('Seaside-Core') ];
 			package: 'Seaside-REST-Core' with:[
-				spec includes: #('Seaside-GemStone-REST-Core')]
+				spec includes: #('Seaside-GemStone-REST-Core') ]
 	].
 
 	spec for: #'gs3.x' do:[

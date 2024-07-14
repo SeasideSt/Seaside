@@ -1,8 +1,7 @@
 javascript
 successHandlerFunction
 
-	^ (JSStream on: 'console.log(arguments[0])') , (JSStream on:
-		   'document.getElementById("result").style.backgroundColor = "darkgreen"')
-	  , (JSStream on:
-			   'document.getElementById("result").innerHTML = "<p>Success</p>"') 
-		  asFunction: #( 'result' )
+	^ (JSStream on: 'document.getElementById("result").style.backgroundColor = "DarkGreen"'),
+		(JSStream on: 'document.getElementById("result").innerHTML = "<p>Success</p>"'),
+		(JSStream on: 'document.getElementById("result-contents").innerHTML = ""; response.text().then((text) => document.getElementById("result-contents").innerHTML += "<p>"+text+"</p>")')
+		  asFunction: #( 'response' )

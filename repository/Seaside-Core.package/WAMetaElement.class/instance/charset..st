@@ -5,5 +5,4 @@ charset: aString
 The charset attribute on the meta element has no effect in XML documents, and is only allowed in order to facilitate migration to and from XHTML.
 
 There must not be more than one meta element with a charset attribute per document."
-	
 	self attributes at: 'charset' put: aString

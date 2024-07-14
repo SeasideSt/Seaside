@@ -1,5 +1,6 @@
 tests-block
 testDoNotCombineMultiplePrimaryAjaxCallbacks
+
 	| class |
 	class := self 
 		defineClass: #WASlimeMockComponent
@@ -13,5 +14,5 @@ testDoNotCombineMultiplePrimaryAjaxCallbacks
 	self compile: 'scriptOn7: s s jQuery ajax callback:[ 2 ] passengers: 3; script: [ 1 ] ' in: class.
 	self compile: 'scriptOn8: s s jQuery ajax callback:[ 2 ] value: 3; script: [ 1 ]' in: class.
 	self 
-		runRule: WADoNotCombineMultiplePrimaryAjaxCallbacks
-		selectors: #(scriptOn: scriptOn2: scriptOn3: scriptOn4:)
+		assertRule: WADoNotCombineMultiplePrimaryAjaxCallbacks
+		matches: { class>>#scriptOn: . class>>#scriptOn2: . class>>#scriptOn3: . class>>#scriptOn4: }

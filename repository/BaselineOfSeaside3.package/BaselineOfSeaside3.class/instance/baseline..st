@@ -1,8 +1,8 @@
 baselines
 baseline: spec
-
+	"This groups all baselines"
 	<baseline>
-	"This groups all baseline"
+
 	self baselinecommon: spec.
 	self baselinegemstone: spec.
 	self baselinepharo: spec.

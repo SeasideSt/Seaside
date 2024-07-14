@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JohanBrichau 3/19/2024 07:31",
+	"super" : "Object",
+	"category" : "Seaside-Zinc-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer",
+		"offset"
+	],
+	"name" : "ZnRingBuffer",
+	"type" : "normal"
+}

@@ -1,5 +1,6 @@
 baselines
 baselineob: spec
+
 	spec
 		for: #squeak
 		do: [ spec

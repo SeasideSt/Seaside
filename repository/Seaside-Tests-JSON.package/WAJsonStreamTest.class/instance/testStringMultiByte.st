@@ -5,4 +5,4 @@ testStringMultiByte
 	http://code.google.com/p/glassdb/issues/detail?id=217"
 	| multibyteString |
 	multibyteString := String with: (Character codePoint: 8364).
-	self assert: multibyteString equals: '"', multibyteString, '"'
+	self assert: multibyteString gives: '"', multibyteString, '"'

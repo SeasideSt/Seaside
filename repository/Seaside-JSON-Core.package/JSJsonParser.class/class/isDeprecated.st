@@ -1,0 +1,3 @@
+testing
+isDeprecated
+	^ true

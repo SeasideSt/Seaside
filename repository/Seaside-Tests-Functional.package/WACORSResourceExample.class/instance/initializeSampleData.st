@@ -1,4 +1,4 @@
-private 
+private
 initializeSampleData
 
 	^ sampleData := ((1 to: 10) collect: [ :index | 

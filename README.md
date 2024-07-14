@@ -16,12 +16,12 @@ Seaside also has good support for [CSS and Javascript](https://github.com/Seasid
 
 Seaside is composed of different parts, allowing you to only load the parts you need for your project. If you are new to Seaside, we advise you to load the default set of packages by simply following the load instructions below. If you want to load specific (or additional) parts of Seaside, check out the [list of groups and packages](https://github.com/SeasideSt/Seaside/wiki/Seaside-Load-Groups-and-Packages).
 
-We provide instructions to get started with Seaside in [Pharo](http://www.pharo-project.org), [Gemstone](https://gemtalksystems.com/products/gs64/), [Squeak](http://www.squeak.org) or the [VAST Platform](https://www.instantiations.com/vast-platform/). See the appropriate instructions for your platform below.
+We provide instructions to get started with Seaside in [Pharo](https://pharo.org), [Gemstone](https://gemtalksystems.com/products/gs64/), [Squeak](http://www.squeak.org) or the [VAST Platform](https://www.instantiations.com/vast-platform/). See the appropriate instructions for your platform below.
 
 ### Instructions for Pharo
 
 #### Load Seaside
-To install the latest stable version of Seaside in a [Pharo](http://www.pharo-project.org) image, execute the following code:
+To install the latest stable version of Seaside in a [Pharo](https://pharo.org) image, execute the following code:
 
 ```Smalltalk
 Metacello new
@@ -39,7 +39,14 @@ Metacello new
 ```
 #### Launch the Welcome page
 
-If you installed Seaside using the instructions above, the `Welcome` package was loaded and a default server adaptor was started on port 8080. Open a webbrowser on (http://localhost:8080) and you should see the Seaside Welcome page. Happy Seasiding!
+If you installed Seaside using the instructions above, the `Welcome` package was loaded and a default server adaptor was started on port 8080. Open a webbrowser on (http://localhost:8080) and you should see the Seaside Welcome page. 
+
+Also checkout the Seaside Control Panel, in the 'Library' menu of the Pharo top toolbar:
+
+<img width="623" alt="Screenshot 2024-04-20 at 14 02 54" src="https://github.com/SeasideSt/Seaside/assets/933094/79780512-e6f5-49b1-be93-b163eee13825">
+
+
+Happy Seasiding!
 
 ### Instructions for Gemstone
 
@@ -92,6 +99,8 @@ To install the latest stable version of Seaside in a [VAST Platform](https://www
 
 ### Instructions for Squeak
 
+Seaside for Squeak mostly works but is unmaintained.
+If you want to help out keeping Seaside running on Squeak, please contact us via the channels mentioned in the Community section below.
 #### Squeak >= 5.2
 To install the latest stable version of Seaside in a [Squeak](http://www.squeak.org) image you need to first install [Metacello](https://github.com/Metacello/metacello):
 ```Smalltalk
@@ -138,3 +147,5 @@ Please check the [Wiki](https://github.com/SeasideSt/Seaside/wiki) for more info
 
 ## Status of automated builds
 [![smalltalkCI](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml) See https://github.com/SeasideSt/Seaside/actions/workflows/ci.yml
+
+[![codecov](https://codecov.io/gh/SeasideSt/Seaside/branch/master/graph/badge.svg?token=GLPOkk0Wby)](https://codecov.io/gh/SeasideSt/Seaside)

@@ -2,11 +2,11 @@
 	"commentStamp" : "TorstenBergmann 9/18/2021 23:06",
 	"super" : "WAObject",
 	"category" : "Seaside-Core-Server",
-	"classinstvars" : [
-		"default"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Default"
+	],
 	"instvars" : [
 		"adaptors"
 	],

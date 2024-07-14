@@ -1,5 +1,6 @@
 tests-transform
 testCookieConversionRule
+
 	| class |
 	class := self
 		defineClass: #WASlimeServerAdaptor

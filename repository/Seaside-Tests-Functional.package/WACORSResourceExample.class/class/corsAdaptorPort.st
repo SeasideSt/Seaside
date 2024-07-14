@@ -1,4 +1,4 @@
 accessing
 corsAdaptorPort
 
-	^ 8084
+	^ 8888

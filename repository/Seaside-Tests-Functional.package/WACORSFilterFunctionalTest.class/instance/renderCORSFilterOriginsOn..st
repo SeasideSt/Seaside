@@ -21,7 +21,7 @@ renderCORSFilterOriginsOn: html
 		html button
 			callback: [ 
 				self corsFilter
-					addAllowedOrigin: (self baseUrl asString allButLast) ];
+					addAllowedOrigin: (self baseUrl greaseString allButLast) ];
 			with: 'Allow other origin'.
 		html space.
 

@@ -20,4 +20,13 @@ renderExamplesStepOn: html
 				html anchor
 					callback: [ self show: WAWelcomeExampleFlow new ];
 					with: 'Task'.
-				html text: ', illustrating Seaside''s innovative approach to application control flow.' ] ]
+				html text: ', illustrating Seaside''s innovative approach to application control flow.' ].
+			html listItem: [ 
+				html anchor
+					callback: [ self show: WATodo new ];
+					with: 'Todo'.
+				html text: ', the Seaside implementation of the example on '.
+				html anchor 
+					url: 'https://todomvc.com/';
+					target: '_blank';
+					with: 'https://todomvc.com/' ] ]

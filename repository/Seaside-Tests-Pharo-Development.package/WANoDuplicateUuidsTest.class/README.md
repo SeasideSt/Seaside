@@ -1,1 +1,0 @@
-I ensure that there are no two versions with the same UUID. I'm a regression test for a bug in the Pharo/Squeak/Cog VM.

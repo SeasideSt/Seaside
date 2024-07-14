@@ -1,5 +1,6 @@
 tests-block
 testCallSuperImplementation
+
 	| object painter |
 	object := self
 		defineClass: #WASlimeMockObject
@@ -10,5 +11,5 @@ testCallSuperImplementation
 		superclass: #WAPainter.
 	self compile:  'updateRoot: aHtmlRoot self updateUrl: aHtmlRoot' in: painter.
 	self
-		runRule: WACallSuperImplementationRule
-		selectors: #(postCopy updateRoot:)
+		assertRule: WACallSuperImplementationRule
+		matches: { object>>#postCopy . painter>>#updateRoot: }

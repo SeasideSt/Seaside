@@ -17,7 +17,7 @@ Please take the time to add comments and tests and provide a description of the 
 
 We have fairly detailed [coding conventions](https://github.com/SeasideSt/Seaside/wiki/Coding-Conventions) to help maintain portability. Please read through them to make the job of porting Seaside to other Smalltalk dialects not unnecessarily complex and to maintain a consistent coding style.
 
-We have set-up automated [Travis-CI tests](https://travis-ci.org/SeasideSt/Seaside), which will be automatically executed when you submit the pull request. You can run them in your own fork before submitting the pull request, and you can even run them locally. See the [Smalltalk-CI](https://github.com/hpi-swa/smalltalkCI) project for all details.
+We have set-up GitHub actions for continuous integration testing, which will be automatically executed when you submit the pull request. You can run them in your own fork before submitting the pull request, and you can even run them locally. See the [Smalltalk-CI](https://github.com/hpi-swa/smalltalkCI) project for all details.
 
 All Seaside code is licensed under the MIT License and, by submitting code to the project, you are agreeing to provide your code under this license. Before submitting, please also ensure that you have the legal rights to license the code you are submitting; in many areas, your employer may own the rights to code you create even in your spare time.
 

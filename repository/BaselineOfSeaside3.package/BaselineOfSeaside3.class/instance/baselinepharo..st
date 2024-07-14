@@ -1,5 +1,6 @@
 baselines
 baselinepharo: spec
+
 	spec
 		for: #squeakCommon
 		do: [ spec
@@ -48,7 +49,7 @@ baselinepharo: spec
 				package: 'Seaside-Pharo-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ].
 			
 	spec
-		for: #(#'pharo10.x')
+		for: #(#'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x')
 		do: [ spec
 				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo100-Tools-Spec2') ];
 				package: 'Seaside-Pharo100-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ]

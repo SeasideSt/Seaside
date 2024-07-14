@@ -1,4 +1,4 @@
-private 
+private
 sampleData
 
 	sampleData ifNil: [ self initializeSampleData ].

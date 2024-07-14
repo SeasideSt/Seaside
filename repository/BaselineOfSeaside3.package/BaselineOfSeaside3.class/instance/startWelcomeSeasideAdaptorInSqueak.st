@@ -1,5 +1,6 @@
 doits
 startWelcomeSeasideAdaptorInSqueak
+
 	(Smalltalk globals at: #WAAdmin) defaultServerManager adaptors
 		ifEmpty: [ (Smalltalk globals includesKey: #WAWebServerAdaptor)
 				ifTrue: [ ((Smalltalk globals at: #WAWebServerAdaptor) port: 8080)

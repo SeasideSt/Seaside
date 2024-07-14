@@ -1,3 +1,3 @@
 tests-literals
 testCharacter
-	self assert: $a equals: '"a"'
+	self assert: $a gives: '"a"'

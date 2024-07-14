@@ -8,6 +8,8 @@ baselinejquery: spec
 				spec requires: #('Javascript-Core' ) ];
 			package: 'JQuery-Tests-Core' with: [
 				spec requires: #('JQuery-Core' 'Javascript-Tests-Core' 'Seaside-Development' 'Seaside-Tests-Functional' 'Seaside-Ajaxifier-Core') ];
+			package: 'JQuery-Examples' with: [ 
+				spec requires: #('JQuery-Core' 'Seaside-Component' 'Seaside-Examples') ];
 			package: 'JQuery-JSON' with: [
 				spec requires: #('JQuery-Core' 'Seaside-JSON-Core') ];
 			package: 'JQuery-Tests-JSON' with: [
@@ -16,4 +18,5 @@ baselinejquery: spec
 		spec 
 			group: 'JQuery' with: #('JQuery-Core' 'JQuery-JSON');
 			group: 'JQuery Tests' with: #('JQuery-Tests-Core' 'JQuery-Tests-JSON');
+			group: 'Examples' with: #('JQuery-Examples');
 			group: 'Tests' with: #( 'JQuery Tests' ) ]

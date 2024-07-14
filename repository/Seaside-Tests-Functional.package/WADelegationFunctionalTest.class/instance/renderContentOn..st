@@ -5,7 +5,7 @@ renderContentOn: html
 		html listItem: 'Click back-button'.
 		html listItem: 'Click button of Step 1'.
 		html listItem: 'Click button of Step 2' ].
-	html paragraph: 'Step 1 and Step 2 should have consistent number of visible presenters. Especially there should never be two WAAnswerDecorations.'.
+	html paragraph: 'Step 1 and Step 2 should have consistent number of visible presenters. Especially there should never be two WAAnswerHandler decorations.'.
 	
 	html heading level: 2; with: 'Application'.
 	html render: task.

@@ -4,4 +4,6 @@ renderRequestResultIndicatorOn: html
 		level2;
 		with: 'Result'.
 	html div
-		id: 'result'
+		id: 'result'.
+	html div
+		id: 'result-contents'

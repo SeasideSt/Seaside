@@ -1,5 +1,6 @@
 baselines
 baselinesecurity: spec
+
 	spec
 		for: #squeakCommon
 		do: [ spec
