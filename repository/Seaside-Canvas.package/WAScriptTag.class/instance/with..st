@@ -6,8 +6,9 @@ with: aStringOrJSObject
 		ifAbsentPut: [ 'text/javascript' ].
 	super with: [
 		aStringOrJSObject ifNotNil: [
-			aStringOrJSObject isString
+			aStringOrJSObject isJavascript
 				ifTrue: [
+					self document stream javascript: aStringOrJSObject ]
+				ifFalse: [
 					"we want to render a String directly and avoid escaping "" and '"
-					self document nextPutAll: aStringOrJSObject ]
-				ifFalse: [ self document stream javascript: aStringOrJSObject ] ] ]
+					self document nextPutAll: aStringOrJSObject greaseString ] ] ]
