@@ -18,4 +18,7 @@ style
 	padding: 3px;
 	border:1px solid black;
 }
+.wacanvastabletest-aligncenter { 
+	text-align: center;
+}
 '
