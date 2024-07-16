@@ -3,4 +3,4 @@ assert: aBlock gives: aString
 	| xml |
 	xml := WAXmlCanvas builder
 		render: aBlock.
-	self assert: aString = xml
+	self assert: aString equals: xml

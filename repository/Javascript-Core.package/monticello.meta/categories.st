@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Javascript-Core'!
-SystemOrganization addCategory: 'Javascript-Core-Decorations'!
+self packageOrganizer ensurePackage: #'Javascript-Core' withTags: #('Decorations')!

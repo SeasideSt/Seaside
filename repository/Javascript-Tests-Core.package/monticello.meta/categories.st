@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Javascript-Tests-Core'!
+self packageOrganizer ensurePackage: #'Javascript-Tests-Core' withTags: #()!
