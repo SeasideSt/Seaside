@@ -1,14 +1,11 @@
 {
-	"category" : "Comet-Tests-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "CTCometTest",
-	"pools" : [
-		 ],
 	"super" : "JSObjectTest",
-	"type" : "normal" }
+	"category" : "Comet-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CTCometTest",
+	"type" : "normal"
+}

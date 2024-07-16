@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tools-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Tools-Core' withTags: #()!

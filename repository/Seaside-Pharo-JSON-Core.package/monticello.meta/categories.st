@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-JSON-Core'!
-SystemOrganization addCategory: #'Seaside-Pharo-JSON-Core-Base'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-JSON-Core' withTags: #(#Base)!

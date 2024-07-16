@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Component-Stubs'!
-SystemOrganization addCategory: #'Seaside-Tests-Component-Tests'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Component' withTags: #(#Stubs #Tests)!

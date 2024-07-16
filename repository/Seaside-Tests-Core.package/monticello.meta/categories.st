@@ -1,12 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Core'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Backtracking'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Cache'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Callbacks'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Configuration'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Document'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-HTTP'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Libraries'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Rendering'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-RequestHandling'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Server'!
-SystemOrganization addCategory: #'Seaside-Tests-Core-Utilities'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Core' withTags: #('Backtracking' 'Cache' 'Callbacks' 'Configuration' 'Document' 'HTTP' 'Libraries' 'Rendering' 'RequestHandling' 'Server' 'Utilities')!

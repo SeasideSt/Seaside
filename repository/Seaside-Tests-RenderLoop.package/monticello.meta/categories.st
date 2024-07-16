@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-RenderLoop'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-RenderLoop' withTags: #()!

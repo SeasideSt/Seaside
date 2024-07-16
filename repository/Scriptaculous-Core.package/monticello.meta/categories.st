@@ -1,4 +1,1 @@
-SystemOrganization addCategory: #'Scriptaculous-Core'!
-SystemOrganization addCategory: #'Scriptaculous-Core-Controls'!
-SystemOrganization addCategory: #'Scriptaculous-Core-Dragging'!
-SystemOrganization addCategory: #'Scriptaculous-Core-Libraries'!
+self packageOrganizer ensurePackage: #'Scriptaculous-Core' withTags: #(#Controls #Dragging #Libraries)!

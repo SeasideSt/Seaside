@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Flow'!
-SystemOrganization addCategory: #'Seaside-Tests-Flow-Functional'!
-SystemOrganization addCategory: #'Seaside-Tests-Flow-Unit'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Flow' withTags: #(#Functional #Unit)!

@@ -2,7 +2,7 @@ accessing
 sortedWorkingCopies
 	| categories packageNames workingCopies |
 	categories := Dictionary new.
-	packageNames := GRPackage grPackages collect: [ :each | each name ].
+	packageNames := BaselineOfSeaside3 project version packages collect: [ :each | each name ].
 	workingCopies := ((MCWorkingCopy respondsTo: #allWorkingCopies)
 		ifTrue: [ MCWorkingCopy allWorkingCopies ]
 		ifFalse: [ MCWorkingCopy allManagers ])

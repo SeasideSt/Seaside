@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-FileSystem'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-FileSystem' withTags: #()!

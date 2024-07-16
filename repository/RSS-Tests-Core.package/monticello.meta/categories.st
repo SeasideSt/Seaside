@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'RSS-Tests-Core'!
+self packageOrganizer ensurePackage: #'RSS-Tests-Core' withTags: #()!

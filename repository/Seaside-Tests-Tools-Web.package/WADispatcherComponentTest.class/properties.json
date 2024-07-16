@@ -1,17 +1,16 @@
 {
-	"category" : "Seaside-Tests-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAContextTest",
+	"category" : "Seaside-Tests-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"configApplication",
 		"rootHandler",
 		"childHandler",
-		"normalApplication" ],
+		"normalApplication"
+	],
 	"name" : "WADispatcherComponentTest",
-	"pools" : [
-		 ],
-	"super" : "WAContextTest",
-	"type" : "normal" }
+	"type" : "normal"
+}
