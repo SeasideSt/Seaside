@@ -1,3 +1,4 @@
 testing
 isConnected
+
 	self subclassResponsibility

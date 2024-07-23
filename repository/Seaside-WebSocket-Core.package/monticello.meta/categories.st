@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-WebSocket-Core'!
+self packageOrganizer ensurePackage: #'Seaside-WebSocket-Core' withTags: #()!
