@@ -50,4 +50,8 @@ baselinejavascript: spec
         package: 'Javascript-Core'
           with: [ spec includes: #('Javascript-GemStone-Core') ];
         package: 'Javascript-GemStone-Core'
-          with: [ spec requires: #('Javascript-Core') ] ].
+          with: [ spec requires: #('Javascript-Core') ];
+        package: 'Javascript-Tests-GemStone-Core'
+          with: [ spec requires: #('Javascript-Tests-Core') ];
+        package: 'Javascript-Tests-Core'
+          with: [ spec includes: #('Javascript-Tests-GemStone-Core') ] ].
