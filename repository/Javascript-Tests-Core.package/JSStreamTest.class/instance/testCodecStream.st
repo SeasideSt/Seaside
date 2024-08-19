@@ -10,4 +10,4 @@ testCodecStream
 	actual := (GRCodec forEncoding: 'utf8') encodedStringClass streamContents: [ :stream |
 		((GRCodec forEncoding: 'utf8') encoderFor: stream)
 			javascript: 'OK' ].
-	self assert: actual = '"OK"'
+	self assert: actual asString = '"OK"'
