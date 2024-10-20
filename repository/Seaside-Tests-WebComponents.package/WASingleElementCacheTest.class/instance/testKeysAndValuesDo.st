@@ -10,4 +10,4 @@ testKeysAndValuesDo
 	cache keysAndValuesDo: [ :key :value |
 		readBack at: key put: value ].
 	
-	self assert: readBack = reference
+	self assert: readBack equals: reference

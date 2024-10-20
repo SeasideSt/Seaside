@@ -5,6 +5,6 @@ testStore
 	WAKeyGenerator
 		use: generator
 		during: [
-			self assert: (cache store: 'key1') = 1.
-			self assert: (cache store: 'key2') = 2.
-			self assert: (cache store: 'key3') = 3 ]
+			self assert: (cache store: 'key1') equals: 1.
+			self assert: (cache store: 'key2') equals: 2.
+			self assert: (cache store: 'key3') equals: 3 ]
