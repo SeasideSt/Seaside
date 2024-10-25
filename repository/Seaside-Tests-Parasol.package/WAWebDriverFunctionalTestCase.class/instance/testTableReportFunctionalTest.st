@@ -5,6 +5,9 @@ testTableReportFunctionalTest
 	
 	firstColumn := driver findElementsByCSSSelector: 'table>tbody>tr>td:first-child'.
 	classNames := (firstColumn collect: [ :e | e getText ]).
+	((WAComponent allSubclasses collect: [ :c | c name greaseString ]) 
+		reject: [ :className | classNames includes: className  ])
+			do: [ :className | Transcript show: className ].
 	self assert: ((WAComponent allSubclasses collect: [ :c | c name greaseString ]) allSatisfy: [ :className | classNames includes: className ]).
 	
 	((driver findElementByCSSSelector: 'table>thead') findElementByPartialLinkText: 'Name') click.
