@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "JSObject",
+	"category" : "Seaside-WebSocket-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pusher",
+		"url"
+	],
+	"name" : "JSWebSocket",
+	"type" : "normal"
+}
