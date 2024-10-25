@@ -1,0 +1,1 @@
+I am a cache that contains at most one element.
