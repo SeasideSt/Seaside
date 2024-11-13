@@ -2,7 +2,7 @@ baselines
 baselinegettext: spec
 
   spec
-    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'gemstone')
+    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x' #'gemstone')
     do: [ 
       spec
         package: 'Seaside-Gettext-Core'
@@ -18,8 +18,9 @@ baselinegettext: spec
         group: 'Gettext-Examples'
           with: #('Seaside-Gettext' 'Seaside-Gettext-Examples');
         group: 'Tests' with: #('Seaside-Tests-Gettext-Core' 'Gettext-Examples') ].
+
   spec
-    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x')
+    for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x')
     do: [ 
       spec
         package: 'Seaside-Pharo-Gettext-Core';
@@ -29,13 +30,11 @@ baselinegettext: spec
           with: [ spec requires: 'Seaside-Pharo-Gettext-Core' ].
       spec
         group: 'Tests' with: #('Seaside-Tests-Pharo-Gettext') ].
+
   spec
     for: #(#'gemstone')
     do: [ 
       spec
         package: 'Seaside-GemStone-Gettext-Core';
-        "package: 'Seaside-GemStone-Gettext-Examples';"
         package: 'Seaside-Gettext-Core'
-          with: [ spec includes: #('Seaside-GemStone-Gettext-Core') ]";
-		  package: 'Seaside-Gettext-Examples'
-			with: [ spec includes: #('Seaside-GemStone-Gettext-Examples') ]" ]
+          with: [ spec includes: #('Seaside-GemStone-Gettext-Core') ] ]

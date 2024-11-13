@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Scriptaculous-Tests-Core'!
-SystemOrganization addCategory: 'Scriptaculous-Tests-Core-Functional'!
-SystemOrganization addCategory: 'Scriptaculous-Tests-Core-Unit'!
+self packageOrganizer ensurePackage: #'Scriptaculous-Tests-Core' withTags: #(#Functional #Unit)!

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Flow'!
+self packageOrganizer ensurePackage: #'Seaside-Flow' withTags: #()!

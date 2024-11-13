@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Widgets'!
-SystemOrganization addCategory: #'Seaside-Widgets-Components'!
-SystemOrganization addCategory: #'Seaside-Widgets-Decorations'!
+self packageOrganizer ensurePackage: #'Seaside-Widgets' withTags: #(#Components #Decorations)!

@@ -16,7 +16,9 @@ contents
 							selectedMessageCategory isNil
 								ifTrue: [
 									"class definition"
-									self selectedClass definition ]
+									(self selectedClass respondsTo: #definitionString)
+										ifTrue: [ self selectedClass definitionString ]
+										ifFalse: [ self selectedClass definition ] ]
 								ifFalse: [
 									"method template"
 									self selectedClass sourceCodeTemplate ] ] ]

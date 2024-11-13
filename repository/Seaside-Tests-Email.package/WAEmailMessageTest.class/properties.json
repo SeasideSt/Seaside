@@ -1,14 +1,13 @@
 {
-	"category" : "Seaside-Tests-Email",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"message" ],
-	"name" : "WAEmailMessageTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Email",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "WAEmailMessageTest",
+	"type" : "normal"
+}

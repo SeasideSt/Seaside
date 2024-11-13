@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Gettext-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Gettext-Core' withTags: #()!

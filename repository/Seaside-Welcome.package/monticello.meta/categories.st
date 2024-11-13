@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Welcome'!
-SystemOrganization addCategory: #'Seaside-Welcome-Base'!
-SystemOrganization addCategory: #'Seaside-Welcome-Examples'!
+self packageOrganizer ensurePackage: #'Seaside-Welcome' withTags: #(#Base #Examples)!

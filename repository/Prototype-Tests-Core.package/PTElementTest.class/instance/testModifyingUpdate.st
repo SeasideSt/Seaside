@@ -5,4 +5,4 @@ testModifyingUpdate
 		equals: '$("foo").update("bar")'.
 	self
 		assert: (self element update: [ :r | r div: 'bar' ])
-		equals: '$(this).update("<div>bar<\/div>")'
+		equals: '$(this).update("<div>bar</div>")'

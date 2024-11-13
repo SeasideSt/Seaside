@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Email'!
-SystemOrganization addCategory: #'Seaside-Pharo-Email-Base'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Email' withTags: #(#Base)!

@@ -7,7 +7,9 @@ parentOfClass: aClass
 	| package tag |
 	
 	package := aClass package.
-	tag := package classTagForClass: aClass.
+	tag := (package respondsTo: #classTagForClass:)
+		ifTrue: [ package perform: #classTagForClass: with: aClass ]
+		ifFalse: [ package perform: #tagOf: with: aClass ].
 	
 	^ (((tag name = package name) and: [ package classTags size <= 1 ]) or: [ tag isNil ])
 		ifTrue: [ package ]

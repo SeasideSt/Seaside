@@ -28,7 +28,7 @@ testCanvasTableFunctionalTest
     with: entities
     do: [ :row :entityDef | 
       self
-        assert: ((row findElementsByTagName: 'td') collect: #'getText')
+        assert: ((row findElementsByCSSSelector: 'th,td') collect: #'getText')
         equals: entityDef ].
   exchangeRates := #(#('EUR' '1.70') #('USD' '1.30') #('DKK' '23.36') #('SEK' '19.32')).
   currencyTable := (driver findElementsByTagName: 'table')

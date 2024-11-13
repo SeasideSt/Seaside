@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WACacheTest",
+	"category" : "Seaside-Tests-WebComponents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASingleElementCacheTest",
+	"type" : "normal"
+}

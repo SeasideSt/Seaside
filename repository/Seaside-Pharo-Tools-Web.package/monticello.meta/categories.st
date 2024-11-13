@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Tools-Web'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Tools-Web' withTags: #()!

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Prototype-Tests-Core'!
+self packageOrganizer ensurePackage: #'Prototype-Tests-Core' withTags: #()!

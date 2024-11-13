@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "xxx 7/10/2024 09:27",
+	"super" : "WAHeadlessComponent",
+	"category" : "Seaside-WebComponents-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counter"
+	],
+	"name" : "WAHeadlessCounter",
+	"type" : "normal"
+}

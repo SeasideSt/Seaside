@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WACloneHandlerTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACloneHandlerTest",
+	"type" : "normal"
+}

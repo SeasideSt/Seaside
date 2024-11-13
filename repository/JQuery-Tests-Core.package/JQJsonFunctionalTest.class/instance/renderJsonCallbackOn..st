@@ -5,5 +5,5 @@ renderJsonCallbackOn: html
 	html textArea id: 'textarea'.
 	html document addLoadScript: 
 		(html jQuery getJson 
-				json: [ :json | self seasidePackagesOn: json ];
+				json: [ :json | self currenciesAndCountriesOn: json ];
 				onSuccess: ((html jQuery id: 'textarea') value: (JSStream on: 'JSON.stringify(arguments[0])')) asFunction)
