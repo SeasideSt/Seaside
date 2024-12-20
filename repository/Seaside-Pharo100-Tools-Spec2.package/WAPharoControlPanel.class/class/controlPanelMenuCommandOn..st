@@ -1,10 +1,10 @@
 world menu
-menuCommandOn: aBuilder
+controlPanelMenuCommandOn: aBuilder
 	<worldMenu>
-	self registerIcons. 
+
 	(aBuilder item: #ServerAdapterBrowser)
-		order: 0.21;
-		parent: #Tools;
+		order: 1;
+		parent: #Seaside;
 		label: 'Seaside Control Panel';
 		icon: (self iconNamed: #adaptorRunningIcon);
 		action: [ self open ]

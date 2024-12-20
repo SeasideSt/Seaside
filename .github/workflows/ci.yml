@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -13,7 +13,7 @@ jobs:
         include:
           - smalltalk: Pharo64-13
             experimental: true
-          - smalltalk: GToolkit64-release
+          - smalltalk: GToolkit64-release 
             experimental: true
           - smalltalk: Squeak64-6.0
             experimental: true
