@@ -17,8 +17,6 @@ jobs:
             experimental: true
           - smalltalk: Squeak64-6.0
             experimental: true
-          - smalltalk: Squeak64-5.3
-            experimental: true
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
     steps:
