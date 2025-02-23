@@ -1,6 +1,10 @@
 name: smalltalkCI
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "* * * * 1"
 
 jobs:
   test:
