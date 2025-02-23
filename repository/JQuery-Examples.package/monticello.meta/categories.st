@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'JQuery-Examples'!
+self packageOrganizer ensurePackage: #'JQuery-Examples' withTags: #()!
