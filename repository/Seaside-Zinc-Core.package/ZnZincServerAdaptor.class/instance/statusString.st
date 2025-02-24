@@ -1,4 +1,8 @@
 accessing
 statusString
-	^ 'zinc on port ', self port greaseString, 
-		( self isRunning ifTrue: [ ' [running]' ] ifFalse: [ ' [stopped]' ] )
+
+	^ 'Zinc on port {1} {2}' format: { 
+			  self port greaseString .
+			  (self isRunning
+				   ifTrue: [ ' [running]' ]
+				   ifFalse: [ ' [stopped]' ]) }
