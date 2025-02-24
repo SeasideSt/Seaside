@@ -8,6 +8,6 @@
 	"instvars" : [
 		"count"
 	],
-	"name" : "WAHotwireTurboCalledTestComponent",
+	"name" : "WAHotwireTurboEditableCounterTestComponent",
 	"type" : "normal"
 }
