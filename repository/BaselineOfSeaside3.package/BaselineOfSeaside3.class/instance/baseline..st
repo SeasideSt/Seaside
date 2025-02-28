@@ -11,6 +11,7 @@ baseline: spec
 	self baselinefilesystem: spec.
 	self baselineadaptors: spec.
 	self baselinecomet: spec.
+	self baselinewebsocket: spec.
 	self baselinejavascript: spec.
 	self baselinejquery: spec.
 	self baselinejqueryui: spec.
