@@ -63,8 +63,6 @@ baselinecommon: spec
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Component' 'Seaside-RenderLoop') ];
 			package: 'Seaside-WebComponents-Examples' with: [
 				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Examples') ];
-			package: 'Seaside-Microdown' with: [ 
-				spec requires: #('Seaside-Canvas' "TODO: requires microdown") ];
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
 			package: 'Seaside-HotwireTurbo-Core' with: [
@@ -95,8 +93,6 @@ baselinecommon: spec
 				spec requires: #('Seaside-RenderLoop' 'Seaside-Tests-Session' ). ];
 			package: 'Seaside-Tests-Session' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Session' 'Seaside-Tests-Canvas'). ];
-			package: 'Seaside-Tests-Microdown' with: [ 
-				spec requires: #('Seaside-Microdown') ];
 			package: 'Seaside-Tests-Tools-Web' with: [
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-UTF8' with: [

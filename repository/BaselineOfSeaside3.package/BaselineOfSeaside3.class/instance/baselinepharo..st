@@ -50,6 +50,9 @@ baselinepharo: spec
 			
 	spec
 		for: #(#'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x')
-		do: [ spec
+		do: [ 
+			spec 
+				package: 'Seaside-Microdown' with: [ spec requires: #('Seaside-Canvas' "TODO: requires microdown") ];
+				package: 'Seaside-Tests-Microdown' with: [ spec requires: #('Seaside-Microdown') ];
 				package: 'Seaside-Tools-Core' with: [ spec includes: #('Seaside-Pharo100-Tools-Spec2') ];
 				package: 'Seaside-Pharo100-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ] ]
