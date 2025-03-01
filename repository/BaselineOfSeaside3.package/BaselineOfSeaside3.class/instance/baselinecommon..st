@@ -63,6 +63,8 @@ baselinecommon: spec
 				spec requires: #('Seaside-Core' 'Seaside-Canvas' 'Seaside-Component' 'Seaside-RenderLoop') ];
 			package: 'Seaside-WebComponents-Examples' with: [
 				spec requires: #('Seaside-WebComponents-Core' 'Seaside-Examples') ];
+			package: 'Seaside-Microdown' with: [ 
+				spec requires: #('Seaside-Canvas' "TODO: requires microdown") ];
 			package: 'Seaside-Widgets' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Canvas' ) ];
 			package: 'Seaside-HotwireTurbo-Core' with: [
@@ -93,6 +95,8 @@ baselinecommon: spec
 				spec requires: #('Seaside-RenderLoop' 'Seaside-Tests-Session' ). ];
 			package: 'Seaside-Tests-Session' with: [
 				spec requires: #('Seaside-Tests-Core' 'Seaside-Session' 'Seaside-Tests-Canvas'). ];
+			package: 'Seaside-Tests-Microdown' with: [ 
+				spec requires: #('Seaside-Microdown') ];
 			package: 'Seaside-Tests-Tools-Web' with: [
 				spec requires: #('Seaside-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-UTF8' with: [
@@ -111,7 +115,7 @@ baselinecommon: spec
 			group: 'All' with: #('Tests' 'Development Tests');
 			
 			group: 'Core' with: #('Seaside-Core' 'Seaside-Continuation' 'Seaside-Canvas' 'Seaside-Session' 'Seaside-Component' 'Seaside-RenderLoop' 'Seaside-Tools-Core' 'Seaside-Flow' 'Seaside-Environment' 'Seaside-Widgets' );
-			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'Seaside-Tests-WebComponents' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests' 'Seaside-Tests-Parasol' 'Seaside-Tests-HotwireTurbo');
+			group: 'Tests' with: #('Core' 'Seaside-Tests-Core' 'Seaside-Tests-Canvas' 'Seaside-Tests-Session' 'Seaside-Tests-Component' 'Seaside-Tests-RenderLoop' 'Seaside-Tests-Environment' 'Seaside-Tests-Flow' 'Seaside-Tests-UTF8' 'Seaside-Tests-InternetExplorer' 'Seaside-Tests-Email' 'Seaside-Tests-Examples' 'Seaside-Tests-WebComponents' 'RSS Tests' 'Welcome Tests' 'REST Tests' 'Swagger Tests' 'Seaside-Tests-Parasol' 'Seaside-Tests-HotwireTurbo' 'Seaside-Tests-Microdown');
 			group: 'Hotwired' with: #('Seaside-HotwireTurbo-Core');
 			group: 'Development' with: #('Core' 'Seaside-Development');
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
