@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAAllFunctionalTests",
+	"category" : "Seaside-Tests-HotwireTurbo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAAllHotwiredFunctionalTests",
+	"type" : "normal"
+}
