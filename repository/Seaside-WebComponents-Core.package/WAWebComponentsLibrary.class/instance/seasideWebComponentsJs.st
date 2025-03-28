@@ -37,7 +37,7 @@ seasideWebComponentsJs
     #load(method, url, data) {
       const xhr = new XMLHttpRequest();
 
-      xhr.responseType = "text";  // we do not stirp anyhing, just use innerHtml
+      xhr.responseType = "text";  // we do not strip anyhing, just use innerHtml
       xhr.addEventListener("load", (event) => {
         if (xhr.status === 200) {
           this.#shadowRoot.innerHTML = xhr.response;
