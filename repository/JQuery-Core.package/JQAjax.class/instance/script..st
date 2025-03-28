@@ -8,4 +8,4 @@ script: aBlock
 			doNotCache; 
 			contentType: (WAMimeType textJavascript
 				charset: self requestContext handler charSet).
-		self script: aBlock on: response stream ]
+		self script: aBlock asTracedBlock on: response stream ]

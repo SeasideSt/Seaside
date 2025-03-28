@@ -8,4 +8,4 @@ text: aBlock
 			doNotCache;
 			contentType: (WAMimeType textPlain 
 				charset: self requestContext handler charSet).
-		aBlock value: response stream ]
+		aBlock asTracedBlock value: response stream ]

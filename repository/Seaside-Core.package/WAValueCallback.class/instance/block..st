@@ -1,3 +1,3 @@
 accessing
 block: aOneArgBlock
-	block := aOneArgBlock
+	block := aOneArgBlock asTracedBlock

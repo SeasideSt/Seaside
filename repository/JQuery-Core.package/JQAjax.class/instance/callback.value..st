@@ -6,5 +6,5 @@ Note: anObject should be a single literal Javascript object (String, Number, Boo
 
 	self enableCallbacks.
 	self addParameter: (self renderContext callbacks
-		store: (WAValueCallback on: aBlock)) 
+		store: (WAValueCallback on: aBlock asTracedBlock)) 
 			-> anObject

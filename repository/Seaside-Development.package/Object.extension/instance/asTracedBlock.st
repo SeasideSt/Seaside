@@ -1,0 +1,4 @@
+*Seaside-Development
+asTracedBlock
+
+	^ self

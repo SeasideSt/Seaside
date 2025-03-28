@@ -4,7 +4,7 @@ callback: aBlock passengers: aQuery
 
 	self
 		callback: [ :value | 
-			aBlock value: ((GRPlatform subStringsIn: value value splitBy: $,
+			aBlock asTracedBlock value: ((GRPlatform subStringsIn: value value splitBy: $,
 				collect: [ :each | self renderContext callbacks passengerAt: each ])
 				reject: [ :each | each isNil ]) ]
 		value: (JSStream on: JQuery functionName , '.map(' , aQuery greaseString , '.get(),function(each){return each.id}).join(",")')

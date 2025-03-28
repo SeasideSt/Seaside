@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'Seaside-Development' withTags: #(#Core #Filter #Plugins)!
+self packageOrganizer ensurePackage: #'Seaside-Development' withTags: #(#Base #Core #'Core-Profiler' #Filter #Plugins)!

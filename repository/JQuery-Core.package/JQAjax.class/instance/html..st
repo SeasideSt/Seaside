@@ -7,4 +7,4 @@ html: aRenderable
 		response
 			doNotCache;
 			contentType: self application contentType.
-		self render: aRenderable on: response stream ]
+		self render: aRenderable asTracedBlock on: response stream ]

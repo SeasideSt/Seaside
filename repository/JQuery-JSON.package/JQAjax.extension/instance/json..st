@@ -7,4 +7,4 @@ json: aRenderable
 		response
 			doNotCache;
 			contentType: WAMimeType applicationJson;
-			nextPutAll: (WAJsonCanvas builder render: aRenderable) ]
+			nextPutAll: (WAJsonCanvas builder render: aRenderable asTracedBlock) ]
