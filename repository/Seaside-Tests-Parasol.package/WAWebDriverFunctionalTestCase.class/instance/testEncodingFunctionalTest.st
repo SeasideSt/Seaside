@@ -14,5 +14,8 @@ testEncodingFunctionalTest
 					headingid := idpart , 'heading'.
 					((driver findElementByID: formid) findElementByCSSSelector: 'input[type=text]') sendKeys: sentence.
 					((driver findElementByID: formid) findElementByCSSSelector: 'input[type=submit]') click.
+							"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)"
+							"Discussion: https://groups.google.com/g/selenium-users/c/vfG6A6XVkA0/m/F351RKv5BAAJw"
+							(Delay forMilliseconds: 500) wait.
 					self assert: (driver findElementByID: headingid) getText equals: idpart , sentence ]
 				separatedBy: [ ((driver findElementsByCSSSelector: 'input[type=submit]') detect:[ :e | (e getAttribute: 'value') = 'Restart' ]) click ] ]

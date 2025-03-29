@@ -8,6 +8,9 @@ testDelegationFunctionalTest
   step1cVisiblePresenters := OrderedCollection new.	"1"
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 1'.
   (driver findElementByCSSSelector: 'input[type=submit][value=Ok]') click.
+		"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)"
+		"Discussion: https://groups.google.com/g/selenium-users/c/vfG6A6XVkA0/m/F351RKv5BAAJw"
+		(Delay forMilliseconds: 500) wait.
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 2'.
   self componentUnderTest
     visiblePresentersDo: [ :presenter | step1aVisiblePresenters add: presenter class name ].
@@ -26,6 +29,9 @@ testDelegationFunctionalTest
   self assert: step1aVisiblePresenters equals: step1bVisiblePresenters.	"3"
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 1'.
   (driver findElementByCSSSelector: 'input[type=submit][value=Ok]') click.
+		"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)"
+		"Discussion: https://groups.google.com/g/selenium-users/c/vfG6A6XVkA0/m/F351RKv5BAAJw"
+		(Delay forMilliseconds: 500) wait.
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 2'.
   self componentUnderTest
     visiblePresentersDo: [ :presenter | step2VisiblePresenters add: presenter class name ].
