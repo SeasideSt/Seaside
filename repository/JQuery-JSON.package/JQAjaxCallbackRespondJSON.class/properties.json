@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "JQuery-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ajax",
+		"renderable"
+	],
+	"name" : "JQAjaxCallbackRespondJSON",
+	"type" : "normal"
+}
