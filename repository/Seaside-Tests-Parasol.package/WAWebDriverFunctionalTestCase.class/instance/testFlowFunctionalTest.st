@@ -19,4 +19,5 @@ testFlowFunctionalTest
     (GRPlatform current class == (Smalltalk at: #GRGemStonePlatform ifAbsent:[ nil ]) and: [ i > 1 ])
       ifTrue: [ stackdepth := ' ' , (stackdepth asInteger + 1) greaseString ].
     ((driver findElementsByCSSSelector: 'input[type=submit]')
-      detect: [ :e | (e getAttribute: 'value') = 'Ok' ]) click ]
+      detect: [ :e | (e getAttribute: 'value') = 'Ok' ]) click.
+	self workaroundChromeDriver ]
