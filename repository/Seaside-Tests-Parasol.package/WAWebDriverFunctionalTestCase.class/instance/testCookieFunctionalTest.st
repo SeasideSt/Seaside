@@ -8,6 +8,7 @@ testCookieFunctionalTest
 	(firstRow findElementsByTagName: 'input') first sendKeys: 'seaside'.
 	(firstRow findElementsByTagName: 'input') second sendKeys: 'aubergine'.
 	(driver findElementByID: #addFirstCookie) click.
+	self workaroundChromeDriver.
 	
 	self assert: ((driver findElementsByTagName: 'tr') anySatisfy:[ :row | (row getText includesSubstring: 'seaside') & (row getText includesSubstring: 'aubergine') ]).
 	
@@ -18,9 +19,11 @@ testCookieFunctionalTest
 	(secondRow findElementsByTagName: 'input') first sendKeys: 'parasol'.
 	(secondRow findElementsByTagName: 'input') second sendKeys: 'sunscreen'.
 	(driver findElementByID: #addSecondCookie) click.
+	self workaroundChromeDriver.
 	
 	self assert: ((driver findElementsByTagName: 'tr') anySatisfy:[ :row | (row getText includesSubstring: 'parasol') & (row getText includesSubstring: 'sunscreen') ]).
 	self assert: ((driver findElementsByTagName: 'tr') anySatisfy:[ :row | (row getText includesSubstring: 'grease') & (row getText includesSubstring: 'monkey') ]).
 	
 	(((driver findElementsByTagName: 'tr') detect:[ :row | (row getText includesSubstring: 'grease') & (row getText includesSubstring: 'monkey') ]) findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 	self deny: ((driver findElementsByTagName: 'tr') anySatisfy:[ :row | (row getText includesSubstring: 'grease') & (row getText includesSubstring: 'monkey') ]).
