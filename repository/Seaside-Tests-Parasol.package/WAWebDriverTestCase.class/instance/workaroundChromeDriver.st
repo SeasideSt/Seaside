@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 workaroundChromeDriver
 	"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)
 	Discussion:

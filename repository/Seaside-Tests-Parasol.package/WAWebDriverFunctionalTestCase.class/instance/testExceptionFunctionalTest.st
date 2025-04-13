@@ -36,5 +36,6 @@ testExceptionFunctionalTest
 
 	self scrollWindowBy: 10@800 "need to scroll into view, especially when running headful".
 	(driver findElementByLinkText: 'Raise deprecated') click.
+	self workaroundChromeDriver.
 	self assert: (driver findElementByTagName: 'h3') getText equals: 'To be displayed'.
 	((driver findElementsByCSSSelector: 'input[type=submit]') detect: [ :i | (i getAttribute: 'value') = 'Ok' ]) click.
