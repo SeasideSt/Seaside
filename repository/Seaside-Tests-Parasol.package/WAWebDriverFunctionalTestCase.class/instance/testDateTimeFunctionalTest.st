@@ -30,8 +30,6 @@ testDateTimeFunctionalTest
 		sendKey: (BPKeys backSpace);
 		sendKeys: dateTime asTime seconds greaseString.
 	((driver findElementByID: #inputs) findElementByCSSSelector: 'input[type=submit]') click.
-		"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)"
-		"Discussion: https://groups.google.com/g/selenium-users/c/vfG6A6XVkA0/m/F351RKv5BAAJw"
-		(Delay forMilliseconds: 500) wait.
+	self workaroundChromeDriver.
 
 	self assert: ((driver findElementByID: #inputs) getText includesSubstring: 'Button action: ' , dateTime asDate greaseString , ' ' , dateTime asTime greaseString)

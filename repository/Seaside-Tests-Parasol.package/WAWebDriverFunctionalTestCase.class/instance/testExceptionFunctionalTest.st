@@ -12,9 +12,7 @@ testExceptionFunctionalTest
 	driver goBack.
 	
 	((driver findElementsByCSSSelector: 'button[type=submit]') detect: [ :i | i getText = 'Raise error in POST' ]) click.
-		"Webdriver suddenly stopped waiting for the page to navigate after submitting (March 2025)"
-		"Discussion: https://groups.google.com/g/selenium-users/c/vfG6A6XVkA0/m/F351RKv5BAAJw"
-		(Delay forMilliseconds: 500) wait.
+	self workaroundChromeDriver.
 	self assert: (driver findElementByTagName: 'h1') getText equals: 'WAError: Test Error'.
 	self assert: (driver findElementByTagName: 'p') getText equals: 'Your request could not be completed. An exception occurred.'.
 	driver goBack.
