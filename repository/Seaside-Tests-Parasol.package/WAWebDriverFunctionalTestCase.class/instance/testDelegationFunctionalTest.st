@@ -7,7 +7,8 @@ testDelegationFunctionalTest
   step2VisiblePresenters := OrderedCollection new.
   step1cVisiblePresenters := OrderedCollection new.	"1"
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 1'.
-	self workaroundChromeDriver.
+  (driver findElementByCSSSelector: 'input[type=submit][value=Ok]') click.
+  self workaroundChromeDriver.
   self assert: (driver findElementByTagName: 'h3') getText equals: 'Step 2'.
   self componentUnderTest
     visiblePresentersDo: [ :presenter | step1aVisiblePresenters add: presenter class name ].

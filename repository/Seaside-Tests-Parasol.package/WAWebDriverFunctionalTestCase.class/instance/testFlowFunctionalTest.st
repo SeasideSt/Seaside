@@ -3,16 +3,14 @@ testFlowFunctionalTest
   | stackdepth |
   self selectTest: 'WAFlowFunctionalTest'.
   (driver findElementByPartialLinkText: 'go anchors') click.
-  stackdepth := (driver findElementByPartialLinkText: '1:') getText
-    copyAfterLast: $:.
+  stackdepth := (driver findElementByPartialLinkText: '1:') getText copyAfterLast: $:.
   1 to: 5 do: [ :i | 
-    self
-      assert:
-        ((driver findElementByPartialLinkText: i greaseString , ':') getText
-          copyAfterLast: $:)
+    self 
+		assert: ((driver findElementByPartialLinkText: i greaseString , ':') getText copyAfterLast: $:)
       equals: stackdepth.
     (driver findElementByPartialLinkText: i greaseString , ':') click ].
   (driver findElementByPartialLinkText: 'go buttons') click.
+  self workaroundChromeDriver.
   stackdepth := (driver findElementByTagName: 'h3') getText copyAfterLast: $:.
   1 to: 5 do: [ :i | 
     self
