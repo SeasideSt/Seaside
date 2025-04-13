@@ -3,6 +3,7 @@ testCallbackFunctionalTest
 	self selectTest: 'WACallbackFunctionalTest'.
 	
 	(driver findElementByCSSSelector: 'input[type=text]') sendKey: BPKeys enter.
+	self workaroundChromeDriver.
 	self assert: (driver findElementByTagName: 'pre') getText equals: ('Text: Some Text', Character lf greaseString,'Default').
 	
 	((driver findElementsByCSSSelector: 'input[type=submit]') detect:[ :button | (button getAttribute: 'value') = 'Before' ]) click.
