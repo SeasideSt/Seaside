@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "WAHotwireTurboTestComponent",
+	"instvars" : [
+		"counter"
+	],
+	"name" : "WAHotwireTurboCounterTestComponent",
 	"type" : "normal"
 }
