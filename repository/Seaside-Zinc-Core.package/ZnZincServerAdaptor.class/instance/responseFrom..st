@@ -1,6 +1,9 @@
 converting
 responseFrom: aRequestContext
 	| partialHeaders cookies fullHeaders seasideResponse contents entity contentType |
+	"TODO: is websocket only... useful/needed to package in separate package?"
+	(aRequestContext properties at: #webSocket ifAbsent:[ nil ])
+		ifNotNil:[ ^ self websocketResponseFrom: aRequestContext ].
 	seasideResponse := aRequestContext response.
 	partialHeaders := seasideResponse headers.
 	cookies := seasideResponse cookies.
