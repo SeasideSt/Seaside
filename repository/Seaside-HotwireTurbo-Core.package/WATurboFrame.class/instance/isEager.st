@@ -1,0 +1,4 @@
+testing
+isEager
+
+	^ loading = 'eager'
