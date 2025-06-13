@@ -5,4 +5,4 @@ testModifyingReplace
 		equals: '$(this).replace("foo")'.
 	self
 		assert: (self element replace: [ :r | r div id: 'foo' ])
-		equals: '$(this).replace("<div id=\"foo\"><\/div>")'
+		equals: '$(this).replace("<div id=\"foo\"></div>")'

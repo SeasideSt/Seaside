@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Javascript-Pharo-Core'!
+self packageOrganizer ensurePackage: #'Javascript-Pharo-Core' withTags: #()!

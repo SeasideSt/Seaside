@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Core'!
-SystemOrganization addCategory: #'Seaside-Pharo-Core-Document'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Core' withTags: #(#Document)!

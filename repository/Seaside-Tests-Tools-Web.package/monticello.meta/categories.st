@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Tools-Web'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Tools-Web' withTags: #()!

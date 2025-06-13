@@ -3,6 +3,7 @@ testTableReportFunctionalTest
 	| firstColumn classNames |
 	self selectTest: 'WATableReportFunctionalTest'.
 	
+	(Delay forMilliseconds: 500) wait."Because it was failing on the CI for some older versions..."
 	firstColumn := driver findElementsByCSSSelector: 'table>tbody>tr>td:first-child'.
 	classNames := (firstColumn collect: [ :e | e getText ]).
 	self assert: ((WAComponent allSubclasses collect: [ :c | c name greaseString ]) allSatisfy: [ :className | classNames includes: className ]).

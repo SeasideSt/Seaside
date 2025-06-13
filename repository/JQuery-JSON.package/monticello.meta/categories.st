@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'JQuery-JSON'!
+self packageOrganizer ensurePackage: #'JQuery-JSON' withTags: #()!

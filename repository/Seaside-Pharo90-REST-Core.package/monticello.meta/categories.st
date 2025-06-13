@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo90-REST-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo90-REST-Core' withTags: #()!

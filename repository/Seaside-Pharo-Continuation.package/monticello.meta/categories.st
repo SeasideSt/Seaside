@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Pharo-Continuation'!
-SystemOrganization addCategory: #'Seaside-Pharo-Continuation-Base'!
-SystemOrganization addCategory: #'Seaside-Pharo-Continuation-Errors'!
+self packageOrganizer ensurePackage: #'Seaside-Pharo-Continuation' withTags: #(#Base #Errors)!

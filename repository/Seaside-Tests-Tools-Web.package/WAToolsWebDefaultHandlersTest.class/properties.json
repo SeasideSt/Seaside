@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Tools-Web",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "WAToolsWebDefaultHandlersTest",
-	"pools" : [
-		 ],
 	"super" : "WAEnvironmentDefaultHandlersTest",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Tools-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAToolsWebDefaultHandlersTest",
+	"type" : "normal"
+}

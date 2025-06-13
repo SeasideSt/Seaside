@@ -7,27 +7,26 @@ renderContentOn: html
 	html paragraph: [
 		html label
 			for: html nextId;
-			with: 'Type a Seaside package name (no callback):'.
+			with: 'Type a country name (no callback):'.
 		html break.
 		html textInput
 			id: html lastId;
-			script: (html jQuery this autocomplete sourceCallback: [ :term |
-						 self packageNamesFor: term ]) ].
+			script: (html jQuery this autocomplete sourceCallback: [ :term | self countryNamesFor: term ]) ].
 
 	html paragraph: [
 		html label
 			for: html nextId;
-			with: 'Type a Seaside package name (with callback):'.
+			with: 'Type a country name (with callback):'.
 		html break.
 		html textInput
 			id: html lastId;
 			script: (html jQuery this autocomplete
-					 search: [ :term | self packageNamesFor: term ]
-					 labels: [ :packagename | packagename ]
+					 search: [ :term | self countryNamesFor: term ]
+					 labels: [ :countryName | countryName ]
 					 callback: [ :val :s |
-						 selectedPackageName := val.
-						 s << (s jQuery id: showId) html: [ :r | self renderSelectedPackageNameOn: r ] ]).
+						 selectedCountryName := val.
+						 s << (s jQuery id: showId) html: [ :r | self renderSelectedCountryNameOn: r ] ]).
 		html break.
 		html div
 			id: showId;
-			with: [ self renderSelectedPackageNameOn: html ] ]
+			with: [ self renderSelectedCountryNameOn: html ] ]

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Pharo-Continuation'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Pharo-Continuation' withTags: #()!

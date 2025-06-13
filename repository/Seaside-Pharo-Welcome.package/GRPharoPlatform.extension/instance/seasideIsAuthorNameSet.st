@@ -1,3 +1,5 @@
 *seaside-pharo-welcome
 seasideIsAuthorNameSet
-	^ Author fullNamePerSe isEmptyOrNil not
+
+	SystemVersion current major >= 13 ifTrue:[ ^ true. "Author does not exist anymore" ].
+	^ (Smalltalk at: #Author) fullNamePerSe isEmptyOrNil not

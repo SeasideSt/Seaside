@@ -5,4 +5,4 @@ assert: aBlock gives: aString
 		fullDocument: false;
 		rootBlock: aBlock;
 		render: aBlock.
-	self assert: aString = html
+	self assert: aString equals: html

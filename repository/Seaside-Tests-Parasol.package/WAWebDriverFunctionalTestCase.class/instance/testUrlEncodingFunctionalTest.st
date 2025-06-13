@@ -6,6 +6,7 @@ testUrlEncodingFunctionalTest
 	checkAction := [ :text | 
 		(driver findElementByID: 'input') clear; sendKeys: text.
 		((driver findElementByID: 'input') findElementByXPath: '../input[@type="submit"]') click.
+		self workaroundChromeDriver.
 		self assert: (driver findElementByID: 'inputresult') getText equals: text.
 		self assert: (driver findElementByID: 'parameterresult') getText equals: text.
 		self assert: (driver findElementByID: 'pathresult') getText equals: text ].

@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Email'!
-SystemOrganization addCategory: 'Seaside-Email-Configuration'!
+self packageOrganizer ensurePackage: #'Seaside-Email' withTags: #('Configuration')!

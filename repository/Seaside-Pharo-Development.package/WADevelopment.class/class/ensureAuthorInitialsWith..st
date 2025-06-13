@@ -7,7 +7,8 @@ ensureAuthorInitialsWith: aOneArgumentBlock
 		ifTrue: [
 			"Special Pharo code path to avoid deprecation"
 			| author |
-			author := Smalltalk at: #Author.
+			SystemVersion current major >= 13 ifTrue:[ ^ self. "do nothing because Author does not exist anymore" ].
+			author := Smalltalk at: #Author ifAbsent: [ nil ].
 			author isNil
 				ifTrue: [ ^ self error: 'unsupported Pharo version' ].
 			author fullNamePerSe isEmptyOrNil

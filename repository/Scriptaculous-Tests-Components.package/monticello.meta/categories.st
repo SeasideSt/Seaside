@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Scriptaculous-Tests-Components'!
+self packageOrganizer ensurePackage: #'Scriptaculous-Tests-Components' withTags: #()!
