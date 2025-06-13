@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "Seaside-WebSocket-Core",
+	"classinstvars" : [
+		"process"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mutex",
+		"rendererClass",
+		"sockets",
+		"id"
+	],
+	"name" : "WAWebSocketPusher",
+	"type" : "normal"
+}
