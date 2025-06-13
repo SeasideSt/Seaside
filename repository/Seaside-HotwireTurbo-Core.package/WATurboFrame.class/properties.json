@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id"
+		"id",
+		"loading",
+		"source",
+		"refresh"
 	],
 	"name" : "WATurboFrame",
 	"type" : "normal"
