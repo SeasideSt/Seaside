@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "Anonymous 6/13/2025 16:04",
-	"super" : "WARequestHandler",
+	"commentStamp" : "",
+	"super" : "WAWebSocketPusher",
 	"category" : "Seaside-WebSocket-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAWebSocketRequestHandler",
+	"name" : "WAWebSocketTurboStreamPusher",
 	"type" : "normal"
 }

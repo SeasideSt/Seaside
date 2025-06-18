@@ -4,11 +4,10 @@
 	"category" : "Seaside-WebSocket-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"CounterModel",
-		"Pusher"
+	"classvars" : [ ],
+	"instvars" : [
+		"pusher"
 	],
-	"instvars" : [ ],
-	"name" : "WAWebSocketCounter",
+	"name" : "WAWebSocketTurboExample",
 	"type" : "normal"
 }

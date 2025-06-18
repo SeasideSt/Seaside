@@ -1,2 +1,0 @@
-protected
-websocketEventHandlerJavaScriptOn: aStream

@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"text"
-	],
+	"instvars" : [ ],
 	"name" : "WAHotwireTurboStreamsFunctionalTest",
 	"type" : "normal"
 }

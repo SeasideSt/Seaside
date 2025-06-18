@@ -10,7 +10,7 @@ var state = document.getElementById("status");
 if (window.WebSocket === undefined) {
   state.innerHTML = "(WebSockets not supported)";
 } else {
-    conn = new WebSocket("ws://localhost:8080/broadcast");
+    conn = new WebSocket("ws://localhost:8080/examples/websockets/broadcast");
     conn.onopen = function () {
       state.innerHTML = "WebSocket: Connected";
     };

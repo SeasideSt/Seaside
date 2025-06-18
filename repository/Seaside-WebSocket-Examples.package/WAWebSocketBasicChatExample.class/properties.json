@@ -4,11 +4,8 @@
 	"category" : "Seaside-WebSocket-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"Pusher",
-		"Value"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WAWebSocketSlider",
+	"name" : "WAWebSocketBasicChatExample",
 	"type" : "normal"
 }
