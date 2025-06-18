@@ -18,7 +18,7 @@ renderContentOn: html
 			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts prepend: #text with: input ] ]);
 			with: 'Prepend'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text ] ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text; with: input ] ] ]);
 			with: 'Replace'  ].
 	
 	html paragraph 

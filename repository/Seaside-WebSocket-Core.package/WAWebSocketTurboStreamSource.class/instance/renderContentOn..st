@@ -4,7 +4,7 @@ renderContentOn: html
 	| pusherId actionUrl |
 	pusherId := self filter registerPusher: self pusher context: self requestContext.
 	actionUrl := html context actionUrl
-		       withField: self class headerField
+		       withField: WAWebSocket headerField
 		       value: pusherId.
 
 	(html tag: 'turbo-stream-source')

@@ -1,3 +1,4 @@
 accessing
 addSocket: aWebSocket
-	mutex critical: [ sockets := sockets copyWith: aWebSocket ]
+
+	mutex critical: [ sockets add: aWebSocket ]

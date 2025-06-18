@@ -1,5 +1,5 @@
 printing
 defaultUrl
 	^ self renderContext actionUrl
-		addField: self class headerField
+		addField: WAWebSocket headerField
 		value: self pusher id

@@ -4,7 +4,7 @@ createWebSocketForContext: aRequestContext
 	webSocket := aRequestContext createWebSocket.
 	(pushers
 		at: (aRequestContext request fields
-			at: JSWebSocket headerField
+			at: WAWebSocket headerField
 			ifAbsent: [ ^ nil ]))
 		addSocket: webSocket.
 		
