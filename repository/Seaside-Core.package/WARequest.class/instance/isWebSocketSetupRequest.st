@@ -1,4 +1,4 @@
-*Seaside-WebSocket-Core
+testing
 isWebSocketSetupRequest
 	"Return true when request can be considered a valid WebSocket setup request"
 	

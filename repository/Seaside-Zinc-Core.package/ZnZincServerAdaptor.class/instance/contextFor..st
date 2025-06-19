@@ -1,4 +1,4 @@
-*Seaside-WebSocket-Zinc
+converting
 contextFor: aZnRequest
 	| context |
 	context := super contextFor: aZnRequest.
