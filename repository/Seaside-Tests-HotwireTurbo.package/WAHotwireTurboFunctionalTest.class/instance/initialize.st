@@ -2,5 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	comp1 := WAHotwireTurboTestComponent new addDecoration: WATurboFrame new; yourself.
-	comp2 := WAHotwireTurboTestComponent new addDecoration: WATurboFrame new; yourself.
+	comp1 := WAHotwireTurboCounterTestComponent new addDecoration: WATurboFrame new; yourself.
+	comp2 := WAHotwireTurboCounterTestComponent new addDecoration: WATurboFrame new; yourself.

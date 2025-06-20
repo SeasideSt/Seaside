@@ -1,6 +1,8 @@
 converting
 responseFrom: aRequestContext
 	| partialHeaders cookies fullHeaders seasideResponse contents entity contentType |
+	((aRequestContext request isWebSocketSetupRequest) and: [ aRequestContext webSocket notNil ])
+		ifTrue:[ ^ self websocketSetupResponseFrom: aRequestContext ].
 	seasideResponse := aRequestContext response.
 	partialHeaders := seasideResponse headers.
 	cookies := seasideResponse cookies.

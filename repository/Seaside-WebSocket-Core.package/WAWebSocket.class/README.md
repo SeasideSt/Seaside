@@ -1,0 +1,1 @@
+I am the abstract superclass for the platform-specific implementation of a server-side websocket.
