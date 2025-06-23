@@ -16,4 +16,4 @@ testEncodingFunctionalTest
 					((driver findElementByID: formid) findElementByCSSSelector: 'input[type=submit]') click.
 					self workaroundChromeDriver.
 					self assert: (driver findElementByID: headingid) getText equals: idpart , sentence ]
-				separatedBy: [ ((driver findElementsByCSSSelector: 'input[type=submit]') detect:[ :e | (e getAttribute: 'value') = 'Restart' ]) click ] ]
+				separatedBy: [ ((driver findElementsByCSSSelector: 'input[type=submit]') detect:[ :e | (e getAttribute: 'value') = 'Restart' ]) click. self workaroundChromeDriver. ] ]
