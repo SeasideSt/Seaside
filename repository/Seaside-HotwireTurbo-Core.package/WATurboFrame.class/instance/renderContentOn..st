@@ -2,7 +2,8 @@ rendering
 renderContentOn: html
 
 	| tag |
-	tag := (html tag: 'turbo-frame')
+	tag := html tag: 'turbo-frame'.
+	tag
 		id: self id;
 		dataAttributeAt: 'turbo-action' put: 'replace'.
 	refresh ifNotNil:[ tag attributeAt: 'refresh' put: refresh ].
