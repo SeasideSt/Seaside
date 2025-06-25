@@ -7,10 +7,11 @@ turboStream: aBlock
 			 | document |
 			 document := (WAHtmlDocument
 				              on: stream
-				              codec: self requestContext codec)
-				             scriptGenerator:  self requestContext handler scriptGeneratorClass new;
+				              codec: self codec)
+				             scriptGenerator: self scriptGeneratorClass new;
 				             yourself.
 			 renderContext := self renderContext.
+			 self rendererClass configureRenderContext: renderContext.
 			 renderContext document: document during: [
 				 aBlock value:
 					 (WATurboStreamBuilder newWithRenderContext: renderContext) ] ]).

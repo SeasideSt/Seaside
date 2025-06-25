@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAWebSocketTurboStreamPusher",
+	"category" : "Seaside-WebSocket-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAWebSocketTurboStreamPusherOutsideOfRequest",
+	"type" : "normal"
+}
