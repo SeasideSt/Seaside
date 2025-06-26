@@ -1,0 +1,4 @@
+accessing
+selectedMethodCategory
+
+	^ methodcategoriesPane selectedItem

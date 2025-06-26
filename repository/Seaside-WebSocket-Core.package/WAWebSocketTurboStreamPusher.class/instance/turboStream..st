@@ -13,6 +13,6 @@ turboStream: aBlock
 			 renderContext := self renderContext.
 			 self rendererClass configureRenderContext: renderContext.
 			 renderContext document: document during: [
-				 aBlock value:
-					 (WATurboStreamBuilder newWithRenderContext: renderContext) ] ]).
+				self withRenderingDynamicVariables: [
+				 aBlock value: (WATurboStreamBuilder newWithRenderContext: renderContext) ] ] ]).
 	self push: turboStreamElement

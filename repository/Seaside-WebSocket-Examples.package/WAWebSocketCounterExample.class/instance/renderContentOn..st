@@ -1,6 +1,9 @@
 rendering
 renderContentOn: html
 
+	html document 
+		addLoadScript: (html websocket pusher: self pusher).
+
 	html heading
 		id: #count;
 		with: self model count.
@@ -13,6 +16,3 @@ renderContentOn: html
 		html anchor
 			onClick: (html jQuery ajax callback: [ self increase ]);
 			with: 'inc' ].
-
-	html document 
-		addLoadScript: (html websocket pusher: self pusher)
