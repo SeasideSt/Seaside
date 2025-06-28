@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Anonymous 6/13/2025 15:39",
+	"super" : "WAObject",
+	"category" : "Seaside-WebSocket-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"session",
+		"onMessage",
+		"onClose",
+		"onError"
+	],
+	"name" : "WAWebSocket",
+	"type" : "normal"
+}

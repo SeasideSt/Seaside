@@ -1,0 +1,4 @@
+testing
+canBeRoot
+
+	^ true
