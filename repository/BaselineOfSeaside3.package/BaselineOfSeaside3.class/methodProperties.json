@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseline:" : " 6/28/2025 17:59:03",
+		"baselineadaptors:" : " 6/28/2025 17:59:03",
+		"baselinecomet:" : " 6/28/2025 17:59:03",
+		"baselinecommon:" : " 6/28/2025 17:59:03",
+		"baselinefilesystem:" : " 6/28/2025 17:59:03",
+		"baselinegemstone:" : " 6/28/2025 17:59:03",
+		"baselinegettext:" : " 6/28/2025 17:59:03",
+		"baselinejavascript:" : " 6/28/2025 17:59:03",
+		"baselinejquery:" : " 6/28/2025 17:59:03",
+		"baselinejqueryui:" : " 6/28/2025 17:59:03",
+		"baselinejson:" : " 6/28/2025 17:59:03",
+		"baselineob:" : " 6/28/2025 17:59:03",
+		"baselinepharo:" : "pmm 6/29/2025 15:35",
+		"baselinerest:" : "pmm 6/29/2025 17:08",
+		"baselinerss:" : " 6/28/2025 17:59:03",
+		"baselinescriptaculous:" : " 6/28/2025 17:59:03",
+		"baselinesecurity:" : " 6/28/2025 17:59:03",
+		"baselineslime:" : " 6/28/2025 17:59:03",
+		"baselinesqueak:" : "pmm 6/29/2025 15:47",
+		"baselinewebsocket:" : " 6/28/2025 17:59:03",
+		"baselinewelcome:" : " 6/28/2025 17:59:03",
+		"projectClass" : " 6/28/2025 17:59:03",
+		"startWelcomeSeasideAdaptorInPharo" : " 6/28/2025 17:59:03",
+		"startWelcomeSeasideAdaptorInSqueak" : " 6/28/2025 17:59:03" } }
