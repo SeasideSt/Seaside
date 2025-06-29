@@ -33,9 +33,8 @@ baselinerest: spec
 			package: 'Seaside-REST-Core' with:[
 				spec includes: #('Seaside-Squeak-REST-Core') ];
 			package: 'Seaside-Squeak-Swagger-Core';
-			package: 'Seaside-Pharo-Swagger-Core';
 			package: 'Seaside-Swagger-Core' with: [ 
-				spec includes: #('Seaside-Pharo-Swagger-Core' 'Seaside-Squeak-Swagger-Core') ]
+				spec includes: #('Seaside-Squeak-Swagger-Core') ]
 	].
 
 	spec 
