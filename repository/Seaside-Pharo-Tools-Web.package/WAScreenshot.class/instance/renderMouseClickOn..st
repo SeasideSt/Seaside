@@ -4,4 +4,10 @@ renderMouseClickOn: html
 		html map
 			title: 'Click here';
 			callback: [ :point | self click: point + self offset ];
-			with: [ html image form: self form ] ]
+			with: [
+				| form |
+				form := self form.
+				html image
+					width: (form width / self uiScaleFactor) greaseInteger;	
+					height: (form height / self uiScaleFactor) greaseInteger;
+					form: form ] ]
