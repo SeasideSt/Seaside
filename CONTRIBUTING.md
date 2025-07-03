@@ -7,9 +7,6 @@ Bugfixes and non-breaking features are always created on a separate feature bran
 # Code
 We recommend contributing to Seaside using [Github pull requests](https://help.github.com/articles/using-pull-requests/): fork the repository and submit a pull request with your changes. Core Seaside developers can create a branch in the main Seaside repository but we prefer a pull request is made for inclusion in the main branch as well.
 
-If you are contributing a bugfix or a new feature that is not breaking existing uses, then please pull against the master branch.
-If you are contributing breaking changes, then please pull against develop.
-
 We mostly develop in Pharo and use [Iceberg](https://github.com/pharo-vcs/iceberg) to commit the code to git. Dale Henrich's guide to [Getting started with Github](https://github.com/dalehenrich/metacello-work/blob/master/docs/GettingStartedWithGitHub.md) for Smalltalk development is still a good read if you are new to using Github for Smalltalk projects and especially if you are developing using other Smalltalk platforms.
 
 Please take the time to add comments and tests and provide a description of the change and the reason for the change in each commit message. Once you have submitted your pull request, a core developer will review the submission and either provide feedback or integrate the change. Sometimes we decide not to integrate a change. When this happens, there is usually a good reason; please ask if you aren’t clear why your submission was not integrated.
