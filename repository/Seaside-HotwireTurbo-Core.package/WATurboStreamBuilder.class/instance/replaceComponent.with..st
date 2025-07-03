@@ -1,4 +1,4 @@
 convenience
 replaceComponent: aComponent with: aRenderable
 
-	self replace: aComponent turboframeDecoration id with: aRenderable
+	self replaceComponent: aComponent morph: false with: aRenderable

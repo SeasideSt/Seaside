@@ -3,6 +3,7 @@ seasideWebComponentsJs
 	^ '"use strict";
 (function() {
   class WaComponent extends HTMLElement {
+    static ELEMENT_NAME = "wa-component";
     #shadowRoot;
     constructor() {
       super();
@@ -34,15 +35,32 @@ seasideWebComponentsJs
       });
     }
 
+    #publishXhrEvent(type, cause) {
+      this.#shadowRoot.dispatchEvent(new CustomEvent(WaComponent.ELEMENT_NAME + ".xhr", {
+          bubbles: true,
+          cancelable: false,
+          composed: true,
+          detail: {
+            type: type,
+            cause: cause
+          },
+       }));
+    }
+
     #load(method, url, data) {
       const xhr = new XMLHttpRequest();
 
       xhr.responseType = "text";  // we do not strip anyhing, just use innerHtml
-      xhr.addEventListener("load", (event) => {
-        if (xhr.status === 200) {
+      xhr.onload = (event) => {
+        const status = xhr.status;
+        if (status === 200) {
           this.#shadowRoot.innerHTML = xhr.response;
+        } else if (status >= 400 && status <= 599) {
+          this.#publishXhrEvent("status", event);
         }
-      });
+      };
+      xhr.onerror = (event) => { this.#publishXhrEvent("error", event); };
+      xhr.ontimeout = (event) => { this.#publishXhrEvent("timeout", event); };
 		
       xhr.open(method, url);
 
@@ -62,6 +80,6 @@ seasideWebComponentsJs
     }
   }
 
-  customElements.define("wa-component", WaComponent);
+  customElements.define(WaComponent.ELEMENT_NAME, WaComponent);
 })();
 '

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnWebSocketDelegate",
+	"category" : "Seaside-WebSocket-Zinc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZnSeasideWebSocketDelegate",
+	"type" : "normal"
+}

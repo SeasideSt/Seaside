@@ -15,6 +15,5 @@ processTurboFrameRendering: aResponse
 			renderContext 
 				visitor: ((WATurboFramePresenterGuide client: (WARenderVisitor context: renderContext)) id: turboframeId) 
 				during: [
-					self presenter renderWithContext: renderContext ]
-					"self presenter allPresentersDo: [ :p | ((p isKindOf: WATurboFrame) and: [ turboframeId = p id ]) ifTrue:[ self halt. p renderWithContext: renderContext ] ] ]" ].
+					self presenter renderWithContext: renderContext ] ].
 	document scriptGenerator closeOn: document

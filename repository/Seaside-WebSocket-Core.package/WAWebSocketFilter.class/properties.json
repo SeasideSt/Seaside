@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Anonymous 6/13/2025 16:06",
+	"super" : "WARequestFilter",
+	"category" : "Seaside-WebSocket-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pushers"
+	],
+	"name" : "WAWebSocketFilter",
+	"type" : "normal"
+}

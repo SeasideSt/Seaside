@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Seaside-WebSocket-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count"
+	],
+	"name" : "WACounterModel",
+	"type" : "normal"
+}

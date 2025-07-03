@@ -15,8 +15,7 @@ baselinegettext: spec
           with: [ spec requires: #('Seaside-Gettext-Examples') ].
       spec
         group: 'Seaside-Gettext' with: #('Seaside-Gettext-Core');
-        group: 'Gettext-Examples'
-          with: #('Seaside-Gettext' 'Seaside-Gettext-Examples');
+        group: 'Gettext-Examples' with: #('Seaside-Gettext' 'Seaside-Gettext-Examples');
         group: 'Tests' with: #('Seaside-Tests-Gettext-Core' 'Gettext-Examples') ].
 
   spec
