@@ -1,4 +1,5 @@
 event handling
 handleMethodChange: aMethodAnnounce
-
-	self presenter pushMethodChange: aMethodAnnounce to: pusher
+	
+	(aMethodAnnounce affectsMethod: self presenter selectedMethod) 
+		ifTrue:[ self presenter pushMethodChange: aMethodAnnounce to: pusher ]

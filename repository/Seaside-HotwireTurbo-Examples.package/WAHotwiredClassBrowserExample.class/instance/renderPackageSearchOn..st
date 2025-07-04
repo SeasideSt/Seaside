@@ -1,5 +1,6 @@
 rendering
 renderPackageSearchOn: html
+
 	html form
 		get;
 		turboTarget: packagesPane turboframeId;

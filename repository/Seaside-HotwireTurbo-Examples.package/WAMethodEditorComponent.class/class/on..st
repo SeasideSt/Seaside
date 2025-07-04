@@ -1,4 +1,4 @@
 instance creation
 on: aBlock
 
-	^ self new block: aBlock
+	^ self new methodRetrievalBlock: aBlock
