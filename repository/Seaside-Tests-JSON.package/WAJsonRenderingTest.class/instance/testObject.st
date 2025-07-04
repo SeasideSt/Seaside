@@ -13,7 +13,6 @@ testObject
 				json key: '1' value: 1 ] ]
 		gives: '{"1": 1}'.
 
-	WAJsonKeyValueBrush stringKeysOnly: true.
 	self
 		should: [
 				self
@@ -21,7 +20,13 @@ testObject
 						json object: [
 							json key: 1 value: 1 ] ]
 					gives: '{"1": 1}' ]
-		raise: Error
-		withExceptionDo: [ :e | self assert: e messageText equals: 'Only Strings can be used as keys in JSON objects.' ].
+		raise: WAJsonSyntaxError.
 
-	
+	[ 
+		WAJsonKeyValueBrush stringKeysOnly: false.
+		self
+			assert: [ :json |
+				json object: [
+					json key: 1 value: 1 ] ]
+			gives: '{1: 1}' 
+	] ensure: [  WAJsonKeyValueBrush stringKeysOnly: true ]
