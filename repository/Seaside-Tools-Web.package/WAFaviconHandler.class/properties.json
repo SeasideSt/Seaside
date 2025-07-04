@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "SabineManaa 6/30/2025 15:37",
-	"super" : "WAObject",
+	"super" : "WARequestHandler",
 	"category" : "Seaside-Tools-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],

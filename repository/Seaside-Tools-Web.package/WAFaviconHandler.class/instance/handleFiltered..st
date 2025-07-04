@@ -2,6 +2,6 @@ handling
 handleFiltered: aRequestContext
 
 	aRequestContext response
-		contentType: (WAMimeType main: 'image' sub: 'x-icon');
+		contentType: WAMimeType imageXIcon;
 		binary;
 		nextPutAll: WAToolFiles basicNew faviconIco
