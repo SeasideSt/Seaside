@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MicrodownVisitor",
+	"category" : "Seaside-Microdown",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"canvas"
+	],
+	"name" : "WAMicroDownRenderer",
+	"type" : "normal"
+}
