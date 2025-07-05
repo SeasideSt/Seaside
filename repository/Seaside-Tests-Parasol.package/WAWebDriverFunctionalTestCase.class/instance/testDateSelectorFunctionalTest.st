@@ -18,8 +18,10 @@ testDateSelectorFunctionalTest
 	(BPSelect on: (toDateSelects at: 3)) selectByVisibleText: toDate year greaseString.
 
 	(((driver findElementByID: #dateForm) findElementByXPath: './ancestor-or-self::form') findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 	self assert: ((driver findElementByTagName:'h3') getText includesSubstring: '300 day(s)').
 	(driver findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 	
 	fromTime := Time hour: 16 minute: 30 second: 10.
 	deltaTime := Time hour: 4 minute: 30 second: 10.
@@ -36,8 +38,10 @@ testDateSelectorFunctionalTest
 	(BPSelect on: (toTimeSelects at: 3)) selectByVisibleText: toTime seconds greaseString.
 	
 	(((driver findElementByID: #timeForm) findElementByXPath: './ancestor-or-self::form') findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 	self assert: ((driver findElementByTagName:'h3') getText includesSubstring: deltaTime asSeconds greaseString,' second(s)').
 	(driver findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 	
 	fromDateAndTime := DateAndTime now.
 	deltaDuration := Duration days: 10 hours: 4 minutes: 30 seconds: 10.

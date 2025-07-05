@@ -30,5 +30,6 @@ testDateTimeFunctionalTest
 		sendKey: (BPKeys backSpace);
 		sendKeys: dateTime asTime seconds greaseString.
 	((driver findElementByID: #inputs) findElementByCSSSelector: 'input[type=submit]') click.
+	self workaroundChromeDriver.
 
 	self assert: ((driver findElementByID: #inputs) getText includesSubstring: 'Button action: ' , dateTime asDate greaseString , ' ' , dateTime asTime greaseString)

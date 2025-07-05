@@ -33,3 +33,17 @@ You can opt in to ajaxification using
 ```language=HTML
 <seaside-component url="/examples/headless-counter" ajaxify="true">Loading...</seaside-component>
 ```
+
+# Error Handling
+
+If Ajax calls fails the library generates events of type "wa-component.xhr" to which the embedding page can listen. For example with code similar to this
+
+```language=JavaScript
+const components = document.getElementsByTagName("wa-component");
+for (const component of components) {
+	component.addEventListener("wa-component.xhr", (event) => {
+		console.error("wa-component xhr call failed %O", event) });
+};
+```
+
+The event handler has to be registered before the first AJAX call is made (the component is connected).

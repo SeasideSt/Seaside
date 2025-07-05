@@ -1,15 +1,11 @@
-Seaside development on git follows the [Github Flow branching model](https://guides.github.com/introduction/flow/). We have one main branch: [master](https://github.com/SeasideSt/Seaside/tree/master): the stable version of Seaside for all platforms.
+Seaside development on git follows the [Github Flow branching model](https://guides.github.com/introduction/flow/) but we have one main branch that contains the code for all supported Seaside platforms: [master](https://github.com/SeasideSt/Seaside/tree/master). Stable versions are tagged as [releases](https://github.com/SeasideSt/Seaside/releases).
 
-In addition to the main branch, there may be several feature branches containing work in progress and a [develop](https://github.com/SeasideSt/Seaside/tree/develop) branch where we work on breaking changes for the next major version.
+In addition to the main branch, there may be several feature branches containing work in progress and (possibly) a [develop](https://github.com/SeasideSt/Seaside/tree/develop) branch where we work on assembling breaking changes for the next major version.
 
-Bugfixes and non-breaking features are always created on a separate feature branch which is merged into both master and develop.
-Breaking changes are always done on a separate feature branch which is merged into develop.
+Bugfixes and non-breaking features are always created on a separate feature branch which is merged into both master and develop (when it exists). Breaking changes are always done on a separate feature branch which is merged into develop.
 
 # Code
 We recommend contributing to Seaside using [Github pull requests](https://help.github.com/articles/using-pull-requests/): fork the repository and submit a pull request with your changes. Core Seaside developers can create a branch in the main Seaside repository but we prefer a pull request is made for inclusion in the main branch as well.
-
-If you are contributing a bugfix or a new feature that is not breaking existing uses, then please pull against the master branch.
-If you are contributing breaking changes, then please pull against develop.
 
 We mostly develop in Pharo and use [Iceberg](https://github.com/pharo-vcs/iceberg) to commit the code to git. Dale Henrich's guide to [Getting started with Github](https://github.com/dalehenrich/metacello-work/blob/master/docs/GettingStartedWithGitHub.md) for Smalltalk development is still a good read if you are new to using Github for Smalltalk projects and especially if you are developing using other Smalltalk platforms.
 
@@ -36,8 +32,11 @@ You can see if there are any bugs marked ["BiteSize"](https://github.com/Seaside
 
 # Checkout
 
-You can follow the regular code loading descriptions for Pharo if you develop on Pharo: https://github.com/SeasideSt/Seaside#instructions-for-pharo
-Mind that you should load the 'CI' group for Seaside, which loads all tests like on the CI server.
+You can follow the regular code loading descriptions for Pharo if you develop on Pharo: https://github.com/SeasideSt/Seaside#instructions-for-pharo. Mind that you should load the 'CI' group for Seaside, which loads all tests like on the CI server.
+
+# Alternative checkout 
+
+**This method is no longer recommended**.
 
 Here is an alternative script if you are not using Iceberg and/or other local git checkouts:
 

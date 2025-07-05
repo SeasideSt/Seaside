@@ -1,0 +1,4 @@
+private
+unsubscribeToSystemAnnouncements
+
+	SystemAnnouncer uniqueInstance unsubscribe: self

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Seaside-HotwireTurbo-Examples-ClassBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"list",
+		"selected",
+		"elementsBlock",
+		"labelsBlock",
+		"onSelectBlock",
+		"cssClass",
+		"filterTerm"
+	],
+	"name" : "WAHotwiredClassBrowserNavigationPane",
+	"type" : "normal"
+}

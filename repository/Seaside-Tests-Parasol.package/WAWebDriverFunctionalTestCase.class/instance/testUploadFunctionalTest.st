@@ -13,6 +13,6 @@ testUploadFunctionalTest
 
 		(driver findElementByCSSSelector: 'input[type=file]') sendKeys: filePathString.
 		(driver findElementByCSSSelector: 'input[value=Load]') click.
-
+		self workaroundChromeDriver.
 		self assert: (driver findElementByCSSSelector: 'pre') getText equals: 'blabla'
 	] ensure: [ GRPlatform current deleteFile: filePathString ]

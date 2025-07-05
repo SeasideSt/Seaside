@@ -1,7 +1,7 @@
 initialization
 register
 
-	(WAAdmin register: self asApplicationAt: '/examples/turbo/todo')
+	(WAAdmin register: self asApplicationAt: '/examples/hotwired/todo')
 		exceptionHandler: WADebugErrorHandler;
 		addLibrary: WAExamplesLibrary;
 		preferenceAt: #actionPhaseContinuationClass put: WATurboCallbackProcessingActionContinuation;

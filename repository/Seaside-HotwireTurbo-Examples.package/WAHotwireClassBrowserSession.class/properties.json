@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "Seaside-HotwireTurbo-Examples-ClassBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pusher"
+	],
+	"name" : "WAHotwireClassBrowserSession",
+	"type" : "normal"
+}

@@ -1,3 +1,5 @@
 testing
 isServerRunning
-	^ self serverInstance isRunning
+	^ self serverInstance
+		 ifNil: [ false ]
+		 ifNotNil: [ :srv| srv isRunning ]

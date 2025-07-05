@@ -1,0 +1,4 @@
+testing
+isRegular
+
+	^ loading isNil
