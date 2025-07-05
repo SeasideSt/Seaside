@@ -1,7 +1,6 @@
 rendering
 renderContentOn: html
 
-	self renderCodeInputConfigurationOn: html.
 	html div
 		class: 'row';
 		with: [ 
@@ -33,5 +32,4 @@ renderContentOn: html
 			html div
 				class: 'col s12';
 				with: methodEditor ].
-	"self renderIdiomorphOn: html."
 	html render: (WAWebSocketTurboStreamSource new pusher: self session pusher).

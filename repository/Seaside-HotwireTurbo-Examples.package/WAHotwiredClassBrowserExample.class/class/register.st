@@ -1,8 +1,8 @@
 testing
 register
-
+	"test"
 	| app |
-	app := WAAdmin register: self asApplicationAt: 'developer'.
+	app := WAAdmin register: self asApplicationAt: '/examples/hotwired/classbrowser'.
 	app
 		preferenceAt: #actionPhaseContinuationClass put: WATurboCallbackProcessingActionContinuation;
 		preferenceAt: #renderPhaseContinuationClass put: WATurboRenderPhaseContinuation;
