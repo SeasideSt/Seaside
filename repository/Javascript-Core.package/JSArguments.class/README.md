@@ -1,0 +1,1 @@
+I am a collection of Javascript function arguments.

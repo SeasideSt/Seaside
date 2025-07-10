@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: self name
+javascriptContentOn: aRenderer
+	aRenderer document identifier: self name

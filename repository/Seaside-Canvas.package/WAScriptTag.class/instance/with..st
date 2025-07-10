@@ -8,7 +8,7 @@ with: aStringOrJSObject
 		aStringOrJSObject ifNotNil: [
 			aStringOrJSObject isJavascript
 				ifTrue: [
-					self document stream javascript: aStringOrJSObject ]
+					canvas renderJavascript: aStringOrJSObject ]
 				ifFalse: [
 					"we want to render a String directly and avoid escaping "" and '"
 					self document nextPutAll: aStringOrJSObject greaseString ] ] ]

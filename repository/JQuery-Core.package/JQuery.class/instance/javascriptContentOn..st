@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: FunctionName
+javascriptContentOn: aRenderer
+	aRenderer document identifier: FunctionName

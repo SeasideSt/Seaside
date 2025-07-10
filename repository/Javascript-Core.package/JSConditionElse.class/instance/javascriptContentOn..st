@@ -1,4 +1,4 @@
-accessing
+printing
 javascriptContentOn: aStream
 
 	super javascriptContentOn: aStream.
