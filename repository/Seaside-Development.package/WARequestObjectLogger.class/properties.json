@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAAbstractRequestLogger",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"log"
+	],
+	"name" : "WARequestObjectLogger",
+	"type" : "normal"
+}
