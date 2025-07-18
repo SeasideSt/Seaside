@@ -1,4 +1,4 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'var '.
-	super javascriptContentOn: aStream
+javascriptContentOn: aRenderer
+	aRenderer document keyword: 'var'.
+	super javascriptContentOn: aRenderer

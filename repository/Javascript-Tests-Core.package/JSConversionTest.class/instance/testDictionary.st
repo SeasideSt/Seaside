@@ -16,12 +16,14 @@ testDictionary
 					put: 'empty';
 				yourself)
 		equals: '{"":"empty"}'.
+	"Javascript allows number keys
+	https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer"
 	self 
 		assert: (Dictionary new
 				at: 1
 					put: 'not-a-string';
 				yourself)
-		equals: '{"1":"not-a-string"}'.
+		equals: '{1:"not-a-string"}'.
 	self 
 		assert: (Dictionary new
 				at: '1abc'

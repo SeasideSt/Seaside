@@ -1,0 +1,3 @@
+writing
+openObject
+	stream nextPut: ${

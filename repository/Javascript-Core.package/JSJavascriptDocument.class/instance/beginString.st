@@ -1,0 +1,3 @@
+writing
+beginString
+	stream nextPut: $"

@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream javascript: owner
+javascriptContentOn: aRenderer
+	aRenderer render: owner

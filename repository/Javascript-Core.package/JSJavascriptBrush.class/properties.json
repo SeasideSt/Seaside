@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WABrush",
+	"category" : "Javascript-Core-Brushes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJavascriptBrush",
+	"type" : "normal"
+}
