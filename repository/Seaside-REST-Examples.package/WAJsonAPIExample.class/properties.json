@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WARestfulHandler",
+	"category" : "Seaside-REST-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAJsonAPIExample",
+	"type" : "normal"
+}
