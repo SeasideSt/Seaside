@@ -8,6 +8,7 @@ encodeOn: aDocument
 				nextPut: Character space;
 				nextPutAll: key.
 			value == true ifFalse: [
-				aDocument nextPutAll: '="';
-				print: value;
-				nextPut: $" ] ] ]
+				aDocument 
+					nextPutAll: '="';
+					print: value;
+					nextPut: $" ] ] ]

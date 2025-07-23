@@ -11,4 +11,4 @@ getClasses
 					json object: [
 						json 
 							key: 'name' value: class name;
-							key: 'package' value: class package name ] ] ] ]
+							key: 'instvars' value: [ json array: [ class instVarNames do: [ :iv | json string: iv ] ] ] ] ] ] ]
