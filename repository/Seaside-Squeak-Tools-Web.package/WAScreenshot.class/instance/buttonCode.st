@@ -1,8 +1,8 @@
 accessing
 buttonCode
 	^ button = #red
-		ifTrue: [ 4 ]
+		ifTrue: [ MouseEvent redButton ]
 		ifFalse: [
 			button = #blue
-				ifTrue: [ 2 ]
-				ifFalse: [ 1 ] ]
+				ifTrue: [ MouseEvent blueButton ]
+				ifFalse: [ MouseEvent yellowButton ] ]

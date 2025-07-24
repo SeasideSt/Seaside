@@ -7,7 +7,7 @@ baselinecommon: spec
         	with: [ 
 				spec
 					loads: #('Grease-Core');
-					repository: 'github://SeasideSt/Grease:v1.18.x/repository' ].
+					repository: 'github://SeasideSt/Grease:v1.19.x/repository' ].
 		spec
 			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] ].

@@ -1,6 +1,5 @@
-actions
-click: aPoint
-	"see EventSensor >> #createMouseEvent"
+private
+clickVmEvent: aPoint
 	| event |
 	event := Array new: 8.
 	event at: 1 put: 1.
@@ -9,7 +8,6 @@ click: aPoint
 	event at: 4 put: aPoint y.
 	event at: 5 put: self buttonCode.
 	event at: 6 put: 0.
-	self handleEvent: event.
+	self handleVmEvent: event.
 	event at: 5 put: 0.
-	self handleEvent: event.
-	button := #red
+	self handleVmEvent: event
