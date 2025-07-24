@@ -11,9 +11,8 @@ baselinerest: spec
 				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ].
 		spec 
 			group: 'REST' with: #('Seaside-REST-Core');
-			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core')
-	].
-
+			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core');
+			group: 'Examples' with: #('Seaside-REST-Examples') ].
 
 	spec for: #'squeakCommon' do: [
 		spec
@@ -24,8 +23,7 @@ baselinerest: spec
 		spec 
 			group: 'REST' with: #('Seaside-REST-Core');
 			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
-			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core')
-	].
+			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core') ].
 
 	spec for: #(squeak) do:[
 		spec
