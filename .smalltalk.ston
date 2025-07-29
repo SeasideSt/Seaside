@@ -23,7 +23,7 @@ SmalltalkCISpec {
       #directory : 'repository',
       #onWarningLog : true,
       #onConflict : #useIncoming,
-      #load : [ 'CI' ],
+      #load : [ 'CI' , 'Examples' ],
       #platforms : [ #gemstone ]
     }
   ],

@@ -58,4 +58,5 @@ baselinepharo: spec
 				package: 'Seaside-Pharo100-Tools-Spec2' with: [ spec requires: #('Seaside-Tools-Core') ].
 				
 			spec
-				group: 'Tests' with: #('Seaside-Tests-Microdown') ]
+				group: 'Tests' with: #('Seaside-Tests-Microdown');
+				group: 'Examples' with: #('Seaside-HotwireTurbo-Examples') ]
