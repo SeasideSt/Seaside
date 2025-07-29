@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-REST-Examples'!
+self packageOrganizer ensurePackage: #'Seaside-REST-Examples' withTags: #()!
