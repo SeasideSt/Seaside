@@ -1,4 +1,4 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPut: $!.
-	super javascriptContentOn: aStream
+javascriptContentOn: aRenderer
+	aRenderer document negation.
+	super javascriptContentOn: aRenderer

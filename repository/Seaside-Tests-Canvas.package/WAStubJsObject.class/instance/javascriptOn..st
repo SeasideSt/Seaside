@@ -1,3 +1,3 @@
 writing
-javascriptOn: aStream
-	aStream nextPutAll: value
+javascriptOn: aRenderer
+	aRenderer javascript: value
