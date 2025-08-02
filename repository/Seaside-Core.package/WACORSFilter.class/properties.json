@@ -10,7 +10,8 @@
 		"allowedMethods",
 		"allowedHeaders",
 		"exposedHeaders",
-		"allowsCredentials"
+		"allowsCredentials",
+		"maxAge"
 	],
 	"name" : "WACORSFilter",
 	"type" : "normal"

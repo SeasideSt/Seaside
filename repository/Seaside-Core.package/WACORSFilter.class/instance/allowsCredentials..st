@@ -1,4 +1,4 @@
 accessing
-allowsCredentials: anObject
+allowsCredentials: aBoolean
 
-	allowsCredentials := anObject
+	allowsCredentials := aBoolean

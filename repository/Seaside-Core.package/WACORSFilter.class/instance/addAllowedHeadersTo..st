@@ -1,9 +1,9 @@
 handling
-addAllowedMethodsHeadersTo: aResponse
+addAllowedHeadersTo: aResponse
 
-	self allowedMethods ifNotEmpty: [ :allowed | 
+	self allowedHeaders ifNotEmpty: [ :allowed | 
 		aResponse
-			headerAt: 'Access-Control-Allow-Methods'
+			headerAt: 'Access-Control-Allow-Headers'
 			put: (String streamContents: [ :str | 
 					 allowed
 						 do: [ :allow | str nextPutAll: allow ]

@@ -1,4 +1,4 @@
-headers
+handling
 addAllowedOriginHeadersTo: aResponse
 
 	self allowedOrigins ifNotEmpty: [ :allowed | 
