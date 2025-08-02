@@ -1,0 +1,4 @@
+headers
+allowAllHeaders
+
+	self addAllowedHeader: '*'

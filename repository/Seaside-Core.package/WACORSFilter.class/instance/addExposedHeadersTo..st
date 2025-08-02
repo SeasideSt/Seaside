@@ -1,4 +1,4 @@
-headers
+handling
 addExposedHeadersTo: aResponse
 
 	self exposedHeaders ifNotEmpty: [ :exposed | 
