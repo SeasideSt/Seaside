@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAFileLibrary",
-	"category" : "Seaside-HotwireTurbo-Examples-ClassBrowser",
+	"category" : "Seaside-HotwireTurbo-ClassBrowserExample",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
