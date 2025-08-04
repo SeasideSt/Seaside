@@ -8,4 +8,5 @@ testCORSRequestOriginsHeader2
 	filter allowedOrigin: 'http://localhost:8080'.
 	response := self responseAfter: [ application handle: request ].
 	self assert: (response headers at: 'Access-Control-Allow-Origin') equals: 'http://localhost:8080'.
-	self assert: (response headers at: 'Vary') equals: 'Origin'
+	self assert: (response headers at: 'Vary') equals: 'Origin'.
+	self deny: filter allowsAnyOrigin

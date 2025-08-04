@@ -8,4 +8,5 @@ testCORSRequestOriginsHeader
 	filter allowAnyOrigin.
 	response := self responseAfter: [ application handle: request ].
 	self assert: (response headers at: 'Access-Control-Allow-Origin') equals: '*'.
-	self assert: (response headers at: 'Vary') equals: nil
+	self assert: (response headers at: 'Vary') equals: nil.
+	self assert: filter allowsAnyOrigin
