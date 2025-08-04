@@ -1,4 +1,4 @@
 accessing
-exposedHeaders: anObject
+exposedHeaders: aCollection
 
-	exposedHeaders := anObject
+	exposedHeaders := aCollection

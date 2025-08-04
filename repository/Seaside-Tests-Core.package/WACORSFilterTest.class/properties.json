@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAContextTest",
+	"category" : "Seaside-Tests-Core-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"application"
+	],
+	"name" : "WACORSFilterTest",
+	"type" : "normal"
+}

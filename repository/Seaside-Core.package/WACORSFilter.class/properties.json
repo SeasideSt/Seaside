@@ -6,11 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"allowedOrigins",
 		"allowedMethods",
 		"allowedHeaders",
 		"exposedHeaders",
-		"allowsCredentials"
+		"allowsCredentials",
+		"maxAge",
+		"allowedOrigin"
 	],
 	"name" : "WACORSFilter",
 	"type" : "normal"

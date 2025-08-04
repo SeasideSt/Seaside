@@ -1,4 +1,4 @@
 origins
 allowAnyOrigin
 
-	self addAllowedOrigin: '*'
+	self allowedOrigin: '*'

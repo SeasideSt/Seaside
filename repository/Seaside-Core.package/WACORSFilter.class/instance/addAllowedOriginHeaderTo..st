@@ -1,9 +1,7 @@
-headers
-addAllowedOriginHeadersTo: aResponse
+handling
+addAllowedOriginHeaderTo: aResponse
 
-	self allowedOrigins ifNotEmpty: [ :allowed | 
-		| allowedOrigin |
-		allowedOrigin := allowed first.
+	allowedOrigin ifNotNil: [
 		aResponse headerAt: 'Access-Control-Allow-Origin' put: allowedOrigin.
 		allowedOrigin = '*' ifFalse: [ 
 			aResponse headerAt: 'Vary' put: 'Origin' ] ]
