@@ -1,7 +1,7 @@
 handling
 addAllowsCredentialsHeaderTo: aResponse
 
-	allowsCredentials ifNotNil: [
+	(allowsCredentials notNil and: [ allowsCredentials ]) ifTrue: [
 		aResponse
 			headerAt: 'Access-Control-Allow-Credentials'
 			put: allowsCredentials greaseString ]

@@ -7,9 +7,9 @@ renderCORSFilterOriginsOn: html
 	html paragraph
 		id: 'allowed-origins';
 		with:[
-			self corsFilter allowedOrigins
-				ifEmpty: [ html text: 'None' ]
-				ifNotEmpty: [ :origins | html unorderedList list: origins ] ].
+			self corsFilter allowedOrigin
+				ifNil: [ html text: 'None' ]
+				ifNotNil: [ :origin | html text: origin ] ].
 
 	html form: [ 
 		html button
@@ -21,7 +21,7 @@ renderCORSFilterOriginsOn: html
 		html button
 			callback: [ 
 				self corsFilter
-					addAllowedOrigin: (self baseUrl greaseString allButLast) ];
+					allowedOrigin: (self baseUrl greaseString allButLast) ];
 			with: 'Allow other origin'.
 		html space.
 

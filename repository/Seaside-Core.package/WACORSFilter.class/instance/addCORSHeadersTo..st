@@ -1,7 +1,7 @@
 handling
 addCORSHeadersTo: response
 
-	self addAllowedOriginHeadersTo: response.
+	self addAllowedOriginHeaderTo: response.
 	self addAllowedMethodsHeadersTo: response.
 	self addExposedHeadersTo: response.
 	self addAllowedHeadersTo: response.
