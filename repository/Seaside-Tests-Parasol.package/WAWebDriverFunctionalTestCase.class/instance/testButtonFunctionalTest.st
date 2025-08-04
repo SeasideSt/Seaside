@@ -8,6 +8,7 @@ testButtonFunctionalTest
 	driver getKeyboard sendKeys: 'At the Seaside!'.
 	self assert: (driver findElementByTagName: 'td') getText equals: 'a text'.	
 	(driver findElementByCSSSelector: 'button[type=submit]') click.
+	self workaroundChromeDriver.
 	self assert: (driver findElementByTagName: 'td') getText equals: 'a textAt the Seaside!'.
 
 	"Push reset"
