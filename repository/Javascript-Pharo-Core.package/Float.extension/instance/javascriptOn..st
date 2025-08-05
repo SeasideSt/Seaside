@@ -1,7 +1,9 @@
 *Javascript-Pharo-Core
-javascriptOn: aStream
+javascriptOn: aRenderer
 	self isNaN ifTrue: [
-		^ aStream nextPutAll: 'NaN' ].
+		^ aRenderer document nan ].
 	self isInfinite ifTrue: [
-		^ aStream nextPutAll: (self positive ifTrue: [ 'Infinity' ] ifFalse: [ '-Infinity' ]) ].
-	super javascriptOn: aStream
+		^ self positive
+			ifTrue: [ aRenderer document infinity ]
+			ifFalse: [ aRenderer document negativeInfinity ] ].
+	super javascriptOn: aRenderer

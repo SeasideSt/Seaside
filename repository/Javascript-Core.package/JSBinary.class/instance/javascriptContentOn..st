@@ -1,6 +1,5 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	aStream
-		nextPutAll: self operator;
-		javascript: self statement
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	(aRenderer operator:  self operator)
+		with: self statement

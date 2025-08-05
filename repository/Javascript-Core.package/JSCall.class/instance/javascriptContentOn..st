@@ -1,8 +1,8 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	(self name isNil or: [ self name isEmpty ]) ifFalse:
-			[ aStream
-				nextPut: $.;
-				nextPutAll: self name ].
-	JSStream encodeArguments: self arguments on: aStream
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	self name isEmptyOrNil ifFalse: [
+		aRenderer document dotProperty: self name ].
+	aRenderer arguments: [ 
+		self argumentsDo: [ :each |
+			aRenderer argument: each ] ]

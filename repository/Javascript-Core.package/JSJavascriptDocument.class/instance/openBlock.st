@@ -1,0 +1,3 @@
+writing
+openBlock
+	stream nextPut: ${

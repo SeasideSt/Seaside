@@ -1,6 +1,4 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	aStream
-		nextPut: $.;
-		nextPutAll: self name
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	aRenderer document dotProperty: self name

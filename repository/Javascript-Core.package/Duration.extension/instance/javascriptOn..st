@@ -1,3 +1,3 @@
 *javascript-core
-javascriptOn: aStream
-	aStream javascript: self asMilliseconds
+javascriptOn: aRenderer
+	aRenderer render: self asMilliseconds

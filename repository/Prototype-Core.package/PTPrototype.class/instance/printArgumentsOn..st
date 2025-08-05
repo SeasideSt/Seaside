@@ -1,6 +1,8 @@
 printing
-printArgumentsOn: aStream
+printArgumentsOn: aRenderer
 	| arguments |
 	arguments := self defaultArguments
 		ifNil: [ ^ self ].
-	JSStream encodeArguments: arguments on: aStream
+	aRenderer arguments: [ 
+		arguments do: [ :each |
+			aRenderer argument: each ] ]

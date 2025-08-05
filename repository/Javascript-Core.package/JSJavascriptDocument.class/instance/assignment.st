@@ -1,0 +1,3 @@
+writing
+assignment
+	stream nextPut: $=

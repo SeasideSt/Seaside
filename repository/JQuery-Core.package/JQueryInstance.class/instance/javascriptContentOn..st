@@ -1,4 +1,6 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	JSStream encodeArguments: arguments on: aStream
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	aRenderer arguments: [
+		arguments do: [ :each |
+			aRenderer argument: each ] ]

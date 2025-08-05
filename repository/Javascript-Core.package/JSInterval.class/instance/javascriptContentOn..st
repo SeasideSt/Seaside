@@ -1,8 +1,8 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'setInterval(function(){'.
-	super javascriptContentOn: aStream.
-	aStream
-		nextPutAll: '},';
-		javascript: self duration;
-		nextPut: $)
+javascriptContentOn: aRenderer
+	(aRenderer function: 'setInterval')
+		with: [
+			aRenderer argument: [
+				aRenderer defineFunction: [
+					super javascriptContentOn: aRenderer ] ].
+			aRenderer argument: self duration ]

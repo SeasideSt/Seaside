@@ -1,3 +1,4 @@
 streaming
 nextPut: aCharacter
-	self stream nextPut: aCharacter
+	"quite inefficient, ideally rare"
+	self add: (JSCode on: aCharacter greaseString)
