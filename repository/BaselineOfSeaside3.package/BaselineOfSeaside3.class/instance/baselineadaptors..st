@@ -66,15 +66,14 @@ baselineadaptors: spec
 		for: #gemstone
 		do: [ 
 			spec
-				project: 'FastCGI Project'
+				baseline: 'FastCGI Project'
 					with: [ spec
-						className: 'ConfigurationOfGsFastCGI';
-						versionString: #stable;
-						loads: #('FastCGI');
-						repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
+						className: 'BaselineOfFastCGI';
+						loads: #('Core');
+						repository: 'github://GsDevKit/FastCGI:master/repository' ];
 				baseline: 'GsApplicationTools'
 					with: [ spec
-						loads: 'Core';
+						loads: #('Core');
 						repository: 'github://GsDevKit/gsApplicationTools:master/repository' ];
 				baseline: 'Zinc Project'
 					with: [ spec
