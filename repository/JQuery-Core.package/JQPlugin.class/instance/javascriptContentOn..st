@@ -1,7 +1,8 @@
 printing
-javascriptContentOn: aStream
-	aStream
-		javascript: self owner;
-		nextPut: $.;
-		nextPutAll: self method.
-	JSStream encodeArguments: self arguments on: aStream
+javascriptContentOn: aRenderer
+
+	aRenderer render: self owner.
+	aRenderer document dotProperty: self method.
+	aRenderer arguments: [
+		self argumentsDo: [ :each |
+			 aRenderer argument: each ] ]

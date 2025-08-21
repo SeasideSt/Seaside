@@ -1,3 +1,3 @@
 *javascript-core
-javascriptOn: aStream
-	self printOn: aStream
+javascriptOn: aRenderer
+	self printOn: aRenderer document stream

@@ -1,6 +1,5 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	aStream
-		nextPut: $;;
-		javascript: self statement
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	aRenderer document separator.
+	aRenderer render: self statement

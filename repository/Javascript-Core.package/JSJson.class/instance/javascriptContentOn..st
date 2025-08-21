@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'JSON'
+javascriptContentOn: aRenderer
+	aRenderer document identifier: 'JSON'

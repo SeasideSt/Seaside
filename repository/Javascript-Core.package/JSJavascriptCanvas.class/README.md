@@ -1,0 +1,1 @@
+I am a  specific canvas to render JSON output.

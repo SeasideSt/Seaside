@@ -1,3 +1,3 @@
 encoding
-encodeEmptyOn: aDocument
-	aDocument nextPutAll: '""'
+encodeEmptyOn: aRenderer
+	aRenderer string: ''

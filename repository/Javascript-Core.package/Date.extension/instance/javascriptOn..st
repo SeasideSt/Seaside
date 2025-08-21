@@ -1,7 +1,7 @@
 *javascript-core
-javascriptOn: aStream
-	aStream nextPutAll: 'new Date('.
-	#( year javascriptMonthIndex dayOfMonth )
-		do: [ :each | aStream javascript: (self perform: each) ]
-		separatedBy: [ aStream nextPut: $, ].
-	aStream nextPut: $)
+javascriptOn: aRenderer
+	(aRenderer new: 'Date')
+		with: [ 
+			aRenderer argument: self year.
+			aRenderer argument: self javascriptMonthIndex.
+			aRenderer argument: self dayOfMonth ]

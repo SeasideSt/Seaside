@@ -1,6 +1,5 @@
 printing
-javascriptContentOn: aStream
-	super javascriptContentOn: aStream.
-	aStream
-		nextPutAll: '=';
-		javascript: self object
+javascriptContentOn: aRenderer
+	super javascriptContentOn: aRenderer.
+	aRenderer assignment: [ 
+		aRenderer render: self object ]

@@ -1,0 +1,1 @@
+I am an encoder for JSON format.

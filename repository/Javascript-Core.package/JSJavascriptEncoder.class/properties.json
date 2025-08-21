@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WATableBasedEncoder",
+	"category" : "Javascript-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJavascriptEncoder",
+	"type" : "normal"
+}

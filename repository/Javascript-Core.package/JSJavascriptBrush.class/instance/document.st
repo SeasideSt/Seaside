@@ -1,0 +1,3 @@
+accessing
+document
+	^ canvas document
