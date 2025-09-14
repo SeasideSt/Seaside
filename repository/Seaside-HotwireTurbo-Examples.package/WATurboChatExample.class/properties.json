@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "WAComponent",
-	"category" : "Seaside-HotwireTurbo-Examples-ClassBrowser",
+	"category" : "Seaside-HotwireTurbo-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"methodRetrievalBlock"
+		"messages"
 	],
-	"name" : "WAMethodEditorComponent",
+	"name" : "WATurboChatExample",
 	"type" : "normal"
 }

@@ -1,6 +1,6 @@
-accessing
+actions
 saveMethodWith: sourceCode
 
 	| method |
-	method := block value.
+	method := methodRetrievalBlock value.
 	method methodClass compile: sourceCode withInternalLineEndings

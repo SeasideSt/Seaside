@@ -33,7 +33,7 @@ input[type=search] {
 }
 
 .code-navigation li a {
-  color: inherit;
+  color: black;
   text-decoration: inherit;
 }
 	

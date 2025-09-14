@@ -11,8 +11,8 @@ renderContentOn: html
 	html paragraph: [
 		html anchor
 			onClick: (html jQuery ajax callback: [ self decrease ]);
-			with: 'dec'.
+			with: '--'.
 		html space; space; space.
 		html anchor
 			onClick: (html jQuery ajax callback: [ self increase ]);
-			with: 'inc' ].
+			with: '++' ].

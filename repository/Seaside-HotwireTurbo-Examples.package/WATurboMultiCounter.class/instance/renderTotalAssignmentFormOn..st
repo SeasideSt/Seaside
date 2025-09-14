@@ -3,7 +3,10 @@ renderTotalAssignmentFormOn: html
 
 	| theValue |
 	html form
-		turboStreamCallback: [ :ts | ts replace: 'id-total' with: totals ];
+		turboAction: 'replace';
+		turboStreamCallback: [ :ts | 
+			ts replace: 'id-total' with: totals.
+			counters do: [ :c | ts replaceComponent: c with: c ] ];
 		with: [ 
 			html textInput 
 				callback: [ :value | theValue := value ].
