@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestFilter",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentLogItem",
+		"logger"
+	],
+	"name" : "WARequestLoggingFilter",
+	"type" : "normal"
+}

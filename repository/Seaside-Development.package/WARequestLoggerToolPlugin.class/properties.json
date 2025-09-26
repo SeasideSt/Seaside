@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAToolPlugin",
+	"category" : "Seaside-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter",
+		"logger"
+	],
+	"name" : "WARequestLoggerToolPlugin",
+	"type" : "normal"
+}

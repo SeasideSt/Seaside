@@ -1,0 +1,4 @@
+accessing
+fieldValues
+
+	^ fieldValues

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-Development-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lines",
+		"request",
+		"callbackCalls"
+	],
+	"name" : "WARequestLogItem",
+	"type" : "normal"
+}
