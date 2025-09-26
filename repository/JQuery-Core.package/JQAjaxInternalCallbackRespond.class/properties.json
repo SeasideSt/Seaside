@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WAObject",
+	"super" : "JQAjaxAbstractInternalCallback",
 	"category" : "JQuery-Core-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"block"
 	],
-	"name" : "JQAjaxCallbackRespond",
+	"name" : "JQAjaxInternalCallbackRespond",
 	"type" : "normal"
 }

@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WAObject",
+	"super" : "JQAjaxAbstractInternalCallback",
 	"category" : "JQuery-Core-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ajax",
 		"block"
 	],
-	"name" : "JQAjaxCallbackRespondScript",
+	"name" : "JQAjaxInternalCallbackRespondText",
 	"type" : "normal"
 }
