@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "JQAjaxCallbackRespondText",
+	"type" : "normal"
+}
