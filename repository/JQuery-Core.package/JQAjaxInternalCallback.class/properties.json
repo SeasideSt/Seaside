@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ajax",
 		"block"
 	],
-	"name" : "JQAjaxCallbackRespondScript",
+	"name" : "JQAjaxInternalCallback",
 	"type" : "normal"
 }

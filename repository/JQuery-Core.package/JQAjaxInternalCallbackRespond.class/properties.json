@@ -8,6 +8,6 @@
 	"instvars" : [
 		"block"
 	],
-	"name" : "JQAjaxCallback",
+	"name" : "JQAjaxInternalCallbackRespond",
 	"type" : "normal"
 }

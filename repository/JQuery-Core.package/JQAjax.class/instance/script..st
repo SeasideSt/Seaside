@@ -4,4 +4,4 @@ script: aBlock
 
 	self dataType: 'script'.
 	self enableCallbacks.
-	callback := JQAjaxCallbackRespondScript ajax: self block: aBlock
+	callback := JQAjaxInternalCallbackRespondScript ajax: self block: aBlock

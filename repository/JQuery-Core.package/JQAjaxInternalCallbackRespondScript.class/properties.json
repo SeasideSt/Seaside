@@ -7,8 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"ajax",
-		"renderable"
+		"block"
 	],
-	"name" : "JQAjaxCallbackRespondHTML",
+	"name" : "JQAjaxInternalCallbackRespondScript",
 	"type" : "normal"
 }
