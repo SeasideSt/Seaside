@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WACallback",
+	"category" : "JQuery-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ajax"
+	],
+	"name" : "JQAjaxCallback",
+	"type" : "normal"
+}
