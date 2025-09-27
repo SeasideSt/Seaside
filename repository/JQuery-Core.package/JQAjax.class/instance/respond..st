@@ -3,4 +3,4 @@ respond: aBlock
 	"Defines a response callback."
 
 	self enableCallbacks.
-	callback := JQAjaxInternalCallbackRespond block: aBlock
+	self replaceCallbackBy: (JQAjaxCallbackRespond block: aBlock)

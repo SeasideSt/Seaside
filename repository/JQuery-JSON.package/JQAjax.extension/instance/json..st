@@ -4,4 +4,4 @@ json: aRenderable
 
 	self dataType: 'json'.
 	self enableCallbacks.
-	callback := JQAjaxInternalCallbackRespondJSON renderable: aRenderable
+	self replaceCallbackBy: (JQAjaxCallbackRespondJSON renderable: aRenderable)

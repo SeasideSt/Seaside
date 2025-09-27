@@ -4,4 +4,4 @@ html: aRenderable
 
 	self dataType: 'html'.
 	self enableCallbacks.
-	callback := JQAjaxInternalCallbackRespondHTML ajax: self renderable: aRenderable
+	self replaceCallbackBy: (JQAjaxCallbackRespondHTML ajax: self renderable: aRenderable)

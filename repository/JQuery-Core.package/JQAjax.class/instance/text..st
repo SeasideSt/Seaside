@@ -4,4 +4,4 @@ text: aBlock
 
 	self dataType: 'text'.
 	self enableCallbacks.
-	callback := JQAjaxInternalCallbackRespondText block: aBlock
+	self replaceCallbackBy: (JQAjaxCallbackRespondText block: aBlock)

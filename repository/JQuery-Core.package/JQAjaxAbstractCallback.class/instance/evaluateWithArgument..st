@@ -1,6 +1,6 @@
 evaluation
 evaluateWithArgument: anObject
 
-	ajax processCallback.
+	self process.
 	self requestContext
 		respond: [ :response | response doNotCache ]
