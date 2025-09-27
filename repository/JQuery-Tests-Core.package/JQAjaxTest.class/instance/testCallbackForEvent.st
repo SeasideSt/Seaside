@@ -7,8 +7,8 @@ testCallbackForEvent
 			(position position)
 			(size originalSize)
 			(string contributor)))
-		equals: self function, '.ajax({"url":"http://www.seaside.st/","data":["_s=1","_k=a","1"',
-			',"2="+encodeURIComponent(',
+		equals: self function, '.ajax({"url":"http://www.seaside.st/","data":["_s=1","_k=a"',
+			',"1="+encodeURIComponent(',
 			'$(arguments[1].tab).attr("id")',
 				'+","+',
 			'arguments[1].index',

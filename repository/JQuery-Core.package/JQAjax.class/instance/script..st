@@ -3,5 +3,4 @@ script: aBlock
 	"Defines a script rendering callback."
 
 	self dataType: 'script'.
-	self enableCallbacks.
-	callback := JQAjaxInternalCallbackRespondScript ajax: self block: aBlock
+	self addCallback: (JQAjaxCallbackRespondScript ajax: self block: aBlock)

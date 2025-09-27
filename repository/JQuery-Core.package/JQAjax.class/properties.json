@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"callback",
-		"callbackId"
-	],
+	"instvars" : [ ],
 	"name" : "JQAjax",
 	"type" : "normal"
 }

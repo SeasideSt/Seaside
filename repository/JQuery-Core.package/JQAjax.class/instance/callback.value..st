@@ -4,7 +4,7 @@ callback: aBlock value: anObject
 
 Note: anObject should be a single literal Javascript object (String, Number, Boolean). The object is transfered from client to server as the print-string of the object and passed into the callback block as a Smalltalk String."
 
-	self enableCallbacks.
+	self setUrl.
 	self addParameter: (self renderContext callbacks
 		store: (WAValueCallback on: aBlock)) 
 			-> anObject

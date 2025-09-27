@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAObject",
-	"category" : "JQuery-Core-Objects",
+	"super" : "WACallback",
+	"category" : "JQuery-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "JQAjaxAbstractInternalCallback",
+	"name" : "JQAjaxAbstractCallback",
 	"type" : "normal"
 }
