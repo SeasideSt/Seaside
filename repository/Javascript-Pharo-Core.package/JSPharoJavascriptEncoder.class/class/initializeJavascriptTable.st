@@ -6,4 +6,5 @@ initializeJavascriptTable
 			at: index + 1
 			put: 1 ].
 	table at: $" greaseInteger + 1 put: 1.
-	table at: $\ greaseInteger + 1 put: 1
+	table at: $\ greaseInteger + 1 put: 1.
+	table at: $< greaseInteger + 1 put: 1.

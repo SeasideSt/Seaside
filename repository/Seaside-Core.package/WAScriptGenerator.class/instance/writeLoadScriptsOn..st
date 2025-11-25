@@ -6,5 +6,5 @@ writeLoadScriptsOn: aDocument
 	self loadScripts do: [ :each |
 		JSJavascriptCanvas builder
 			render: each
-			on: aDocument xmlEncoder.
+			on: aDocument stream.
 		aDocument nextPut: $; ]

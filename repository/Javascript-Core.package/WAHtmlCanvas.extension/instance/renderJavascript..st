@@ -4,4 +4,4 @@ renderJavascript: aJavascriptObject
 		actionUrl: self actionUrl;
 		resourceUrl: self context resourceUrl;
 		render: aJavascriptObject
-		on: self document xmlEncoder
+		on: self document stream
