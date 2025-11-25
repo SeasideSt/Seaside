@@ -1,4 +1,4 @@
 initialization
 initializeWithAll: aCollection
-	super initialize.
+	self initialize.
 	arguments := aCollection

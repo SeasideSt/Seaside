@@ -1,4 +1,4 @@
 initialization
 initializeWith: anObject
-	super initialize.
+	self initialize.
 	argument := anObject

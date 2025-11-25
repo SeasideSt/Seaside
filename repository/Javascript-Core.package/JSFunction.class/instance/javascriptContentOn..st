@@ -6,8 +6,8 @@ javascriptContentOn: aRenderer
 			statements isEmpty ifFalse: [
 				self return
 					ifTrue: [
-						statements allButLastDo: [ :each |
-							aRenderer render: each.
+						1 to: statements size - 1 do: [:index | 
+							aRenderer render: (statements at: index).
 							aRenderer document separator ].
 						aRenderer return: statements last ]
 					ifFalse: [
