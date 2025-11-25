@@ -1,9 +1,9 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPut: $(.
-	super javascriptContentOn: aStream.
-	aStream nextPut: $?.
-	aStream javascript: self trueStatement.
-	aStream nextPut: $:.
-	aStream javascript: self falseStatement.
-	aStream nextPut: $)
+javascriptContentOn: aRenderer
+	aRenderer document nextPut: $(.
+	super javascriptContentOn: aRenderer.
+	aRenderer document nextPut: $?.
+	aRenderer render: self trueStatement.
+	aRenderer document nextPut: $:.
+	aRenderer render: self falseStatement.
+	aRenderer document nextPut: $)

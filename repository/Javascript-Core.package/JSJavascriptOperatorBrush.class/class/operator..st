@@ -1,3 +1,3 @@
 instance creation
 operator: aString
-	^ self basicNew operator: aString
+	^ self basicNew initializeWithOperator: aString
