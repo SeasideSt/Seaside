@@ -1,3 +1,3 @@
 streaming
 nextPutAll: aString
-	self stream nextPutAll: aString
+	self add: (JSCode on: aString)

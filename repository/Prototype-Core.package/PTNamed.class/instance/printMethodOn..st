@@ -1,3 +1,3 @@
 printing
-printMethodOn: aStream
-	aStream nextPut: $.; nextPutAll: self method
+printMethodOn: aRenderer
+	aRenderer document dotProperty: self method

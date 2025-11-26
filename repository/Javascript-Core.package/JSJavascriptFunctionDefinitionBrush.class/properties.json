@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJavascriptBrush",
+	"category" : "Javascript-Core-Brushes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arguments"
+	],
+	"name" : "JSJavascriptFunctionDefinitionBrush",
+	"type" : "normal"
+}

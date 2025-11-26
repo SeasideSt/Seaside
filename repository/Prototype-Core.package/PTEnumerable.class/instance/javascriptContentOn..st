@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream javascript: self receiver
+javascriptContentOn: aRenderer
+	aRenderer render: self receiver

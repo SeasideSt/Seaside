@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WADocument",
+	"category" : "Javascript-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"javascripEncoder",
+		"urlEncoder"
+	],
+	"name" : "JSJavascriptDocument",
+	"type" : "normal"
+}
