@@ -3,10 +3,10 @@ asSelector: aFilename
 	| mainPart extension |
 	mainPart := (aFilename copyUpToLast: $.)
 		select: [ :each | each isAlphaNumeric ].
-	[ mainPart isEmpty not and: [ mainPart first isDigit ] ]
-		whileTrue: [ mainPart := mainPart allButFirst ].
-	
+			
 	mainPart isEmpty ifTrue: [ ^ nil ].
+	
+	mainPart first isDigit ifTrue: [mainPart := '_' , mainPart].
 		
 	extension := ((aFilename copyAfterLast: $.)
 		select: [ :each | each isAlphaNumeric ]) asLowercase capitalized.
