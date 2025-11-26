@@ -4,7 +4,7 @@ formatText: aString with: collection
 	stream := aString readStream.
 	previousText := WriteStream on: String new.
 	[ stream atEnd ] whileFalse: [ | currentChar | 
-			(currentChar := stream next) == ${
+			(currentChar := stream next) = ${
 				ifTrue: [ 
 					| expression index | 
 					expression := stream upTo: $}.
@@ -13,7 +13,7 @@ formatText: aString with: collection
 					previousText := WriteStream on: String new.
 					self render: (collection at: index) ]
 				ifFalse: [
-					currentChar == $\
+					currentChar = $\
 						ifTrue: [ stream atEnd ifFalse: [ previousText nextPut: stream next ] ]
 						ifFalse: [ previousText nextPut: currentChar ] ] ].
 	self text: previousText contents.
