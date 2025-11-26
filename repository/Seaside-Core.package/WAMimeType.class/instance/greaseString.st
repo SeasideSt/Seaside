@@ -19,5 +19,4 @@ greaseString
 				nextPutAll: key;
 				nextPut: $=;
 				nextPutAll: value ] ].
-	"no need for #contents because we allocated with the correct size"
-	^ string
+	^ stream contents
