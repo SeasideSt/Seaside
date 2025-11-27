@@ -9,4 +9,4 @@ testAsSelector
 	self assert: (WAFileLibrary asSelector: 'main') = #main.
 	self assert: (WAFileLibrary asSelector: 'main.') = #main.
 	self assert: (WAFileLibrary asSelector: ').find(') isNil.
-	self assert: (WAFileLibrary asSelector: '),10)') isNil
+	self assert: (WAFileLibrary asSelector: '),10)') = #_10
