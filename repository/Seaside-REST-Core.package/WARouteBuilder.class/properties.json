@@ -12,7 +12,8 @@
 		"method",
 		"path",
 		"produces",
-		"consumes"
+		"consumes",
+		"optionalQueryParameters"
 	],
 	"name" : "WARouteBuilder",
 	"type" : "normal"
