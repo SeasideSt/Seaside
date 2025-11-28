@@ -1,3 +1,4 @@
 streaming
 json: anObject
-	self stream json: anObject
+
+	self nextPutAll: anObject asJson
