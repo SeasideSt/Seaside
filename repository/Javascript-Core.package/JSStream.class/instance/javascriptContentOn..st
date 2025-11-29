@@ -1,3 +1,5 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: self contents
+javascriptContentOn: aRenderer
+
+	fragments do: [ :each |
+		aRenderer render: each ]

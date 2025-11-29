@@ -1,6 +1,6 @@
 private
 defaultCallback
- 	| stream |
- 	stream := JSStream new.
- 	self owner javascriptContentOn: stream.
- 	^ stream asFunction
+	| js |
+	js := JSJavascriptCanvas builder render: [ :javascript |
+ 		self owner javascriptContentOn: javascript ].
+ 	^ (JSStream on: js) asFunction

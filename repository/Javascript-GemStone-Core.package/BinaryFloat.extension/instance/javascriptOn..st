@@ -1,4 +1,11 @@
 *javascript-gemstone-core
-javascriptOn: aStream
+javascriptOn: aRenderer
 
-	self printOn: aStream base: 10
+	self isNaN ifTrue: [
+		^ aRenderer document nan ].
+	self isInfinite ifTrue: [
+		^ self positive
+			ifTrue: [ aRenderer document infinity ]
+			ifFalse: [ aRenderer document negativeInfinity ] ].
+
+	self printOn: aRenderer document stream base: 10

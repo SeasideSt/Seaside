@@ -1,3 +1,5 @@
 *javascript-core
-javascriptOn: aStream
-	JSStream encodeDictionary: self on: aStream
+javascriptOn: aRenderer
+	aRenderer object: [
+		self keysAndValuesDo: [ :key :value |
+			 aRenderer key: key value: value ] ]

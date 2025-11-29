@@ -1,0 +1,3 @@
+writing
+closeObject
+	stream nextPut: $}

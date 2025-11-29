@@ -1,3 +1,5 @@
 *javascript-core
 javascript: anObject
-	anObject javascriptOn: self
+	JSJavascriptCanvas builder
+		render: anObject
+		on: self

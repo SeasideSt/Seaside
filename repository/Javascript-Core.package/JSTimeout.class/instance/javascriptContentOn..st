@@ -1,8 +1,8 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'setTimeout(function(){'.
-	super javascriptContentOn: aStream.
-	aStream
-		nextPutAll: '},';
-		javascript: self duration;
-		nextPut: $)
+javascriptContentOn: aRenderer
+	(aRenderer function: 'setTimeout')
+		with: [
+			aRenderer argument: [
+				aRenderer defineFunction: [
+					super javascriptContentOn: aRenderer ] ].
+			aRenderer argument: self duration ]
