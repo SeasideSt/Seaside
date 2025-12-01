@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-GemStone320-Core-Notifications'!
+self packageOrganizer ensurePackage: #'Seaside-GemStone320-Core' withTags: #()!

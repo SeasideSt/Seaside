@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Seaside-GemStone-Development'!
-SystemOrganization addCategory: #'Seaside-GemStone-Development-Core'!
-SystemOrganization addCategory: #'Seaside-GemStone-Development-Filter'!
+self packageOrganizer ensurePackage: #'Seaside-GemStone-Development' withTags: #('Core' 'Filter')!
