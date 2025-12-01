@@ -1,4 +1,0 @@
-origins
-denyAllOrigins
-
-	allowedOrigin := nil

@@ -1,3 +1,0 @@
-defaults
-defaultFrequency
-	^ 1

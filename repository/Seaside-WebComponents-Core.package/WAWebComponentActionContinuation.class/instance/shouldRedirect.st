@@ -1,3 +1,0 @@
-private
-shouldRedirect
-	^ false

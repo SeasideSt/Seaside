@@ -1,3 +1,0 @@
-private
-moFilePerLocaleId
-	^ moFilePerLocaleId

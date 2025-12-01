@@ -1,3 +1,0 @@
-configuration
-createResponse
-	^ WABufferedResponse new

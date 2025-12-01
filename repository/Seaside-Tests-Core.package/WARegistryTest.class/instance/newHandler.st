@@ -1,3 +1,0 @@
-private
-newHandler
-	^ WARegistry new

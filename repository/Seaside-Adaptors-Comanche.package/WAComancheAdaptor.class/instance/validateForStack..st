@@ -1,2 +1,0 @@
-adapting
-validateForStack: anArray

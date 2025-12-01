@@ -1,3 +1,0 @@
-private
-newStrategy
-	^ WACookieForBrowserIPForCrawlerTrackingStrategy new

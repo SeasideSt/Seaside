@@ -1,3 +1,0 @@
-accessing
-description
-	^ 'Legacy redirection'

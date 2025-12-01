@@ -1,3 +1,0 @@
-operators
-not
-	self addToCondition: ' !'

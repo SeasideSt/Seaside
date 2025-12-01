@@ -1,3 +1,0 @@
-initialization
-resetDefault
-	default := nil

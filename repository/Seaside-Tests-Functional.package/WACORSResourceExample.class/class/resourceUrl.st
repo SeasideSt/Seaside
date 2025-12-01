@@ -1,4 +1,0 @@
-setup
-resourceUrl
-
-	^ 'tests/corsData'

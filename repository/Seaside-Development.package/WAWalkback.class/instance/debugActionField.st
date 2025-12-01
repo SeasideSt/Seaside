@@ -1,3 +1,0 @@
-private
-debugActionField
-	^ '_debugAction'

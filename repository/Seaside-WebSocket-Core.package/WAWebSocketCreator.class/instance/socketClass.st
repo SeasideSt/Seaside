@@ -1,3 +1,0 @@
-instance creation
-socketClass
-	self subclassResponsibility

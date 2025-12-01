@@ -1,4 +1,0 @@
-testing
-isEager
-
-	^ loading = 'eager'

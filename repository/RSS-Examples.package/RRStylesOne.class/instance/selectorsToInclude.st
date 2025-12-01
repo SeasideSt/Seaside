@@ -1,5 +1,0 @@
-accessing
-selectorsToInclude
-	^ #(
-		styleCss
-	)

@@ -1,1 +1,0 @@
-This class makes attribute searching more efficient by traversing the ancestry once and caching which Configurations hold the attribute. It is then passed through search functions which cache values for the attribute.

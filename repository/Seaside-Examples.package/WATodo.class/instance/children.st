@@ -1,3 +1,0 @@
-hooks
-children
-	^ self todos

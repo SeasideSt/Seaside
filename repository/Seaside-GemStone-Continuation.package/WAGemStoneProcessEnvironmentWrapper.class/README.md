@@ -1,1 +1,0 @@
-I am a helper to implement a workaround to pass the environment of the GsProcess where a partial continuation is restored, such that GRDynamicVariable works as expected in the presence of partial continuations. See https://github.com/SeasideSt/Seaside/issues/1198

@@ -1,1 +1,0 @@
-I create new instances of WebSocket. I abstract away the server specific ways to create new WebSockets.

@@ -1,1 +1,0 @@
-Common superclass for all visitors (visitor pattern)

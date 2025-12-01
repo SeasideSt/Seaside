@@ -1,3 +1,0 @@
-control
-new
-	^self shouldNotImplement

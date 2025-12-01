@@ -1,3 +1,0 @@
-private
-newFilter
-	^ WANoSniffFilter new

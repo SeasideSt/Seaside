@@ -1,3 +1,0 @@
-public
-name
-	^ 'Server Manager'

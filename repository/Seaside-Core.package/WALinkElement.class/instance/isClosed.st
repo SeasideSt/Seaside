@@ -1,3 +1,0 @@
-testing
-isClosed
-	^ children isEmptyOrNil

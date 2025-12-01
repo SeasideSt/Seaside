@@ -1,3 +1,0 @@
-testing
-canRemove
-	^ adaptor isStopped

@@ -1,4 +1,0 @@
-attributes
-loadLazy
-
-	loading := 'lazy'

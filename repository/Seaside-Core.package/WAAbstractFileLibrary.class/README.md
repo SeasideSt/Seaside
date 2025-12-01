@@ -1,1 +1,0 @@
-Abstract superclass for Seaside file libraries

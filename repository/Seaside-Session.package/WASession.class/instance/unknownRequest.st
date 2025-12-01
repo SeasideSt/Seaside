@@ -1,3 +1,0 @@
-handling
-unknownRequest
-	^ self start

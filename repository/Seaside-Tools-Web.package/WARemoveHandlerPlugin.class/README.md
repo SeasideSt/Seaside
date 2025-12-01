@@ -1,1 +1,0 @@
-I remove an application.

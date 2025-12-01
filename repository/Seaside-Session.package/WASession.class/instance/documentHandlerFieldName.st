@@ -1,3 +1,0 @@
-private
-documentHandlerFieldName
-	^ '_d'

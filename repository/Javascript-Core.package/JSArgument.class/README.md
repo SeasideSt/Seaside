@@ -1,1 +1,0 @@
-I am a special case of JSArguments with only a singular argument. I am a performance optimization to avoid an array allocation.

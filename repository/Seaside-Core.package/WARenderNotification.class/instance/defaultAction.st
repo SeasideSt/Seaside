@@ -1,3 +1,0 @@
-public
-defaultAction
-	^ WAUnhandledNotificationError signalWithNotification: self

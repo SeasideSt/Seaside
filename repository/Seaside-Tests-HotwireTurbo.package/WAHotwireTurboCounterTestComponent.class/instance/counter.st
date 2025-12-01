@@ -1,4 +1,0 @@
-accessing
-counter
-
-	^ counter

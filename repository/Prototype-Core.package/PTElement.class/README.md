@@ -1,1 +1,0 @@
-The Element object sports a flurry of powerful DOM methods which you can access either as methods of Element (but that's rather old-fashioned now) or directly as methods of an extended element (thanks to Element.extend for that added bit of syntactic sugar).

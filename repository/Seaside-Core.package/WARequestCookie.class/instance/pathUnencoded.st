@@ -1,3 +1,0 @@
-accessing
-pathUnencoded
-	^ self path

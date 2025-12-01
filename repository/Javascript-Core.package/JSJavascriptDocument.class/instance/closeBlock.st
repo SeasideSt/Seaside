@@ -1,3 +1,0 @@
-writing
-closeBlock
-	stream nextPut: $}

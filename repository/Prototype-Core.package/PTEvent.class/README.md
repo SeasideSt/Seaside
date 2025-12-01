@@ -1,2 +1,0 @@
-Event management is one of the really sore spots of cross-browser scripting.
-True, the prominent issue is: everybody does it the W3C way, and MSIE does it another way altogether. But there are quite a few subtler, sneakier issues here and there waiting to bite your ankle, such as the keypress/keydown issue with KHTML-based browsers (Konqueror and Safari). Also, MSIE has a tendency to leak memory when it comes to discarding event handlers.

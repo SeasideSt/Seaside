@@ -1,1 +1,0 @@
-WAAllValuesCallback is a special WAValueCallback that whos value is a sequenceable collection of values.

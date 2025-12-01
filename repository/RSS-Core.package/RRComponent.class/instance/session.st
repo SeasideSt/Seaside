@@ -1,3 +1,0 @@
-accessing
-session
-	self shouldNotImplement

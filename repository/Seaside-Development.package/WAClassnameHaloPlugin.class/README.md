@@ -1,1 +1,0 @@
-I display the class name of the component class.

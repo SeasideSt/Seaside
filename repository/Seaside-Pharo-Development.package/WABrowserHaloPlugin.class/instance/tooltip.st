@@ -1,3 +1,0 @@
-accessing
-tooltip
-	^ 'Class Browser'

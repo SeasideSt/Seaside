@@ -1,3 +1,0 @@
-evaluating
-valueWithArguments: anArray
-	self subclassResponsibility

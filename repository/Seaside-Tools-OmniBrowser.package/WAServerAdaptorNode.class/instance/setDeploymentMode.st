@@ -1,3 +1,0 @@
-updating
-setDeploymentMode
-	adaptor setDeploymentMode

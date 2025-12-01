@@ -1,3 +1,0 @@
-mode
-setVerboseMode
-	service setVerboseMode

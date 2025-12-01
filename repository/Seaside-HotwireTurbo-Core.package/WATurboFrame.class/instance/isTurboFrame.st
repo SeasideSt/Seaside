@@ -1,4 +1,0 @@
-testing
-isTurboFrame
-
-	^ true
