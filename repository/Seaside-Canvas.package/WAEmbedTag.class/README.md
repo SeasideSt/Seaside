@@ -1,1 +1,0 @@
-The <embed> tag defines a container for an external application or interactive content (a plug-in).

@@ -1,4 +1,0 @@
-attributes
-loadEager
-
-	loading := 'eager'

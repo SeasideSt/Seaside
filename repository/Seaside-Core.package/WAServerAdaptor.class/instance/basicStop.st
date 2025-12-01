@@ -1,3 +1,0 @@
-private
-basicStop
-	self subclassResponsibility

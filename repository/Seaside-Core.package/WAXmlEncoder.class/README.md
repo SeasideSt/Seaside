@@ -1,1 +1,0 @@
-I encode XHTML text.

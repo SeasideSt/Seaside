@@ -1,3 +1,0 @@
-accessing
-elementWidth
-	^ elementExtent x

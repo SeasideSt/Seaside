@@ -1,3 +1,0 @@
-accessing
-withoutSeconds
-	withSeconds := false

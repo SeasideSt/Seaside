@@ -1,3 +1,0 @@
-accessing
-secondPath
-	^ secondPath

@@ -1,1 +1,0 @@
-I contain unit test for default handlers of the environment.

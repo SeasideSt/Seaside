@@ -1,3 +1,0 @@
-private
-valueForOption: anObject
-	^ anObject

@@ -1,3 +1,0 @@
-responding
-responseForLibraries
-	self subclassResponsibility

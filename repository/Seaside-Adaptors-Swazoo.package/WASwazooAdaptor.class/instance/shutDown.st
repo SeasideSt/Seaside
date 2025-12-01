@@ -1,3 +1,0 @@
-private
-shutDown
-	SwazooServer stop

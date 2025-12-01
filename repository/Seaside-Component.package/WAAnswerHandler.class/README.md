@@ -1,1 +1,0 @@
-I am the specific decoration to handle the answer of a given block.

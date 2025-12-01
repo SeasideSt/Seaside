@@ -1,1 +1,0 @@
-An expandable/collapsible content pane. Applicable when content must be displayed within limited space.

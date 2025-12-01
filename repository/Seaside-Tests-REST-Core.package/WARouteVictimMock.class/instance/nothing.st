@@ -1,3 +1,0 @@
-accessing
-nothing
-	^ Array new

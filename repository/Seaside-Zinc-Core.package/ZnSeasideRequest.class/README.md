@@ -1,1 +1,0 @@
-I group a ZnRequest together with its stream, purely for convenience.

@@ -1,1 +1,0 @@
-This configuration class holds attributes needed by classes in the Request Handling layer.

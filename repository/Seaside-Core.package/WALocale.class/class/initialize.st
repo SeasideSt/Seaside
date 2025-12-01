@@ -1,4 +1,0 @@
-class initialization
-initialize
-	self initializeLangaugeList.
-	self initializeCountryList

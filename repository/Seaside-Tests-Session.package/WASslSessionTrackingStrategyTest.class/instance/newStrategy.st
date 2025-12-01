@@ -1,3 +1,0 @@
-private
-newStrategy
-	^ WASslSessionTrackingStrategy new

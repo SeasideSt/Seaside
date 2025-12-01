@@ -1,1 +1,0 @@
-I'm an usuccessful translation result. As translation, I provide the origianl string.

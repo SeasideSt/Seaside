@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-GemStone-Development' withTags: #('Core' 'Filter')!

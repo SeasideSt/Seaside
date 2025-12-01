@@ -1,1 +1,0 @@
-A WAEmailErrorHandler is an error handler that sends out email messages with the stack strace. This is an abstract class that has to be subclassed. Subclasses must override #to and #from that return an instance of WAEmailAddress. It's also recommened to override #handleDefault: to generate a custom HTML response.

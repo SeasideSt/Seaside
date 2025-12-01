@@ -1,3 +1,0 @@
-accessing
-notifications
-	^ notifications

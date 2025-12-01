@@ -1,3 +1,0 @@
-accessing
-beComponent
-	dialog := false

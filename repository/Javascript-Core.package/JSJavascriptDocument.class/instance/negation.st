@@ -1,3 +1,0 @@
-writing
-negation
-	stream nextPut: $!

@@ -1,3 +1,0 @@
-private
-runGeneratorTest
-	WAKeyGeneratorTest new testUnique

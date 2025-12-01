@@ -1,3 +1,0 @@
-running
-setUp
-	self cleanEnvironment

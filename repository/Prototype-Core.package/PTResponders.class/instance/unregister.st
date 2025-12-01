@@ -1,3 +1,0 @@
-actions
-unregister
-	method := 'unregister'

@@ -1,1 +1,0 @@
-I track sessions using cookies and everything else using query fields. This works fine as long as the client accepts cookies. This breaks for web crawlers (they don't accept cookies).

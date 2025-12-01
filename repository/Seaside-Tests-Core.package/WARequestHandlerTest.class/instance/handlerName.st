@@ -1,3 +1,0 @@
-private
-handlerName
-	^ 'foo'

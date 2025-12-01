@@ -1,4 +1,0 @@
-accessing
-translation 
-
-	^ self original

@@ -1,1 +1,0 @@
-I join a collection of JavaScript statements with the given string.

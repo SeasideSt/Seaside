@@ -1,3 +1,0 @@
-accessing
-pathElementCount
-	^ pathMatches size

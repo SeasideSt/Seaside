@@ -1,1 +1,0 @@
-The style element allows style information to be embedded in documents.

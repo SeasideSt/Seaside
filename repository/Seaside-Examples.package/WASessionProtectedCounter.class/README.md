@@ -1,1 +1,0 @@
-A counter that is protected by WASessionCookieProtectionFilter.

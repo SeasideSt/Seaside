@@ -1,3 +1,0 @@
-private
-newHandler
-	^ WARequestHandler new

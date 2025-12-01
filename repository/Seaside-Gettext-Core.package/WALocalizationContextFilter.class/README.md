@@ -1,1 +1,0 @@
-I simply implemented a handleFiltered method that gets used in the WAGettextExampleSession where the filter is initialized.

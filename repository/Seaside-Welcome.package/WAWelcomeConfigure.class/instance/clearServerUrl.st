@@ -1,3 +1,0 @@
-private
-clearServerUrl
-	WAWelcomeUrlDialog clearServerUrl

@@ -1,3 +1,0 @@
-actions
-deployFiles
-	self subclassResponsibility

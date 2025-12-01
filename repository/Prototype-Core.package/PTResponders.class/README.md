@@ -1,1 +1,0 @@
-A repository of global listeners notified about every step of Prototype-based AJAX requests.

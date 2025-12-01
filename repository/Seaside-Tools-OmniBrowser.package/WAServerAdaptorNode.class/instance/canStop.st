@@ -1,3 +1,0 @@
-testing
-canStop
-	^ adaptor canStop

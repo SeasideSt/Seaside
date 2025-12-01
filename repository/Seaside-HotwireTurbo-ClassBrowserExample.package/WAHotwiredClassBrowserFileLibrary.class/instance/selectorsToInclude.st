@@ -1,4 +1,0 @@
-accessing
-selectorsToInclude
-
-	^ #(materializeminCss wdclassbrowserCss codeinputminCss defaultminCss materializeminJs codeinputminJs highlightminJs smalltalkminJs)

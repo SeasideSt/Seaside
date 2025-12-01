@@ -1,3 +1,0 @@
-private
-closeBrush
-	self subclassResponsibility

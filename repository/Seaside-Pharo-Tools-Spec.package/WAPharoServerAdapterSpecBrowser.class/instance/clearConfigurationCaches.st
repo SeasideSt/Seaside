@@ -1,3 +1,0 @@
-actions
-clearConfigurationCaches
-	WAAdmin clearConfigurationCaches

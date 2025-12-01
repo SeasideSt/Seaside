@@ -1,1 +1,0 @@
-I demonstrate how to use components that put state into URLs so that action can be taken once a session is expired.

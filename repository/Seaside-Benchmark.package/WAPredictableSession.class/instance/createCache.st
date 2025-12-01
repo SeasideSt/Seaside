@@ -1,3 +1,0 @@
-initialization
-createCache
-	^ WAPredictableCache new

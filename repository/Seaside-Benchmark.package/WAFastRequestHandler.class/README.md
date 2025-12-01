@@ -1,1 +1,0 @@
-I return a static 16k byte array. This number is the number of bytes in the Seaside homepage. I'm useful for benchmarking the HTTP server and server adapter.
