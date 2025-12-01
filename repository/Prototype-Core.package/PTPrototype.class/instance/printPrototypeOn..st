@@ -1,3 +1,3 @@
 printing
-printPrototypeOn: aStream
-	aStream nextPutAll: self defaultPrototype
+printPrototypeOn: aRenderer
+	aRenderer document identifier: self defaultPrototype

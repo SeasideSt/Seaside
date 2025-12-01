@@ -1,6 +1,5 @@
 printing
-javascriptContentOn: aStream
-	aStream
-		nextPutAll: 'new Comet(';
-		javascript: self url;
-		nextPut: $)
+javascriptContentOn: aRenderer
+	(aRenderer new: 'Comet')
+		with: [
+			aRenderer render: self url ]

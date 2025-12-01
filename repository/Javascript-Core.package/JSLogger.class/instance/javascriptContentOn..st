@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'console'
+javascriptContentOn: aRenderer
+	aRenderer document identifier: 'console'

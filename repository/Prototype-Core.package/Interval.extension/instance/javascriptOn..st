@@ -1,3 +1,7 @@
 *Prototype-Core
-javascriptOn: aStream
-	aStream nextPutAll: '$R('; javascript: self first; nextPut: $,; javascript: self last; nextPut: $)
+javascriptOn: aRenderer
+	(aRenderer function: '$R')
+		with: [
+			"$R(first$, last$)"
+			aRenderer argument: self first, '$'.
+			aRenderer argument: self last, '$' ]

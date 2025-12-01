@@ -1,8 +1,9 @@
 printing
-javascriptContentOn: aStream
-	aStream
-		nextPutAll: 'if(';
-		javascript: self statement;
-		nextPutAll: '){'.
-	super javascriptContentOn: aStream.
-	aStream nextPut: $}
+javascriptContentOn: aRenderer
+
+	(aRenderer function: 'if')
+		with: [ 
+			aRenderer render: self statement ].
+	aRenderer document openBlock.
+	super javascriptContentOn: aRenderer.
+	aRenderer document closeBlock.

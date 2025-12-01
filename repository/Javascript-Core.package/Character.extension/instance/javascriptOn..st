@@ -1,3 +1,3 @@
 *javascript-core
-javascriptOn: aStream
-	(String with: self) javascriptOn: aStream
+javascriptOn: aRenderer
+	aRenderer string: (String with: self)

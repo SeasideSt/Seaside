@@ -1,4 +1,5 @@
 initialization
 initialize
+
 	super initialize.
-	stream := WriteStream on: String new
+	fragments := OrderedCollection new: 2

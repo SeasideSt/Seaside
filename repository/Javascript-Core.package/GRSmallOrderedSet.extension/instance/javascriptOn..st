@@ -1,3 +1,5 @@
 *javascript-core
-javascriptOn: aStream
-	JSStream encodeCollection: self on: aStream
+javascriptOn: aRenderer
+	aRenderer array: [
+		self do: [ :each |
+			aRenderer value: each ] ]

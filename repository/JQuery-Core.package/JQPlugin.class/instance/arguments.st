@@ -1,5 +1,5 @@
 accessing
 arguments
-	^ options isNil
-		ifTrue: [ Array new ]
-		ifFalse: [ Array with: options ]
+	^ Array streamContents: [ :stream |
+		self argumentsDo: [ :each |
+			stream nextPut: each ] ]

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "2025-11-25T15:08:42.949788+01:00",
+	"super" : "WATableBasedEncoder",
+	"category" : "Javascript-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer",
+		"offset"
+	],
+	"name" : "JSJavascriptEncoder",
+	"type" : "normal"
+}
