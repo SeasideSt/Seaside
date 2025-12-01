@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tools-OmniBrowser'!
-SystemOrganization addCategory: #'Seaside-Tools-OmniBrowser-Commands'!
+self packageOrganizer ensurePackage: #'Seaside-Tools-OmniBrowser' withTags: #('Commands')!
