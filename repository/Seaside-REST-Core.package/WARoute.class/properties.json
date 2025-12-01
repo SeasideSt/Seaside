@@ -9,7 +9,8 @@
 		"method",
 		"selector",
 		"produces",
-		"consumes"
+		"consumes",
+		"optionalQueryParameters"
 	],
 	"name" : "WARoute",
 	"type" : "normal"
