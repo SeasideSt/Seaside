@@ -1,4 +1,4 @@
 writing
 keyword: aString
-	javascripEncoder nextPutAll: aString.
-	javascripEncoder nextPut: Character space
+	javascriptEncoder nextPutAll: aString.
+	javascriptEncoder nextPut: Character space

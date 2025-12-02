@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"javascripEncoder",
-		"urlEncoder"
+		"urlEncoder",
+		"javascriptEncoder"
 	],
 	"name" : "JSJavascriptDocument",
 	"type" : "normal"

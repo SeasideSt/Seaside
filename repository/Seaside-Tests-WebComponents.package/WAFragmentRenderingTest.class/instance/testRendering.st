@@ -6,7 +6,7 @@ testRendering
 	[ handler handle: context ]
 		on: WAResponseNotification
 		do: [ :notification | ].
-	self assert: context response status = 200.
+	self assert: context response status equals: 200.
 	responseContents := context response contents.
-	self assert: (responseContents beginsWith: '<h1>').
-	self assert: (responseContents endsWith: '</a>')
+	self assert: (responseContents greaseBeginsWith: '<h1>').
+	self assert: (responseContents greaseEndsWith: '</a>')

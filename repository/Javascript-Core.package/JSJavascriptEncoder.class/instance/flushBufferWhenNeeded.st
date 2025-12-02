@@ -15,6 +15,4 @@ flushBufferWhenNeeded
 					offset := 1 ].
 			^ self ].
 	"We are not buffering any of the given character sequences, so flush the buffer to the stream and apply regular encoding."
-	contentsOfBuffer do: [:char | 
-		self privateNextPut: char ].
-	offset := 1.
+	self flushBuffer

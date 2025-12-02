@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [
 		"Arguments",
-		"JavascriptCharacters",
 		"This"
 	],
 	"instvars" : [

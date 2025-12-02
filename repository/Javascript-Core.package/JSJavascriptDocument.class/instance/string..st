@@ -1,5 +1,5 @@
 writing
 string: aString
 	stream nextPut: $".
-	javascripEncoder nextPutAll: aString.
+	javascriptEncoder nextPutAll: aString.
 	stream nextPut: $"
