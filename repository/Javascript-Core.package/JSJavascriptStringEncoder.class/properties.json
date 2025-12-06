@@ -9,6 +9,6 @@
 		"buffer",
 		"offset"
 	],
-	"name" : "JSJavascriptEncoder",
+	"name" : "JSJavascriptStringEncoder",
 	"type" : "normal"
 }

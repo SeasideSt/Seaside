@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "JSObject",
+	"category" : "Javascript-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"renderable"
+	],
+	"name" : "JSJavascriptStringRenderable",
+	"type" : "normal"
+}
