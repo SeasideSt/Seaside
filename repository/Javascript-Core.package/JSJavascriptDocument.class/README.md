@@ -1,1 +1,1 @@
-I add the possibility to generate JSON.
+I add the possibility to generate Javascript.
