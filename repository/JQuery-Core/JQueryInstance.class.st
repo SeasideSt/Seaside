@@ -45,7 +45,7 @@ JQueryInstance >> addClass: aString [
 JQueryInstance >> after: aRenderable [ 
 	"Insert content, specified by the parameter, after each element in the set of matched elements."
 	
-	self call: 'after' with: (self render: aRenderable)
+	self call: 'after' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'effects' }
@@ -59,7 +59,7 @@ JQueryInstance >> animate [
 JQueryInstance >> append: aRenderable [ 
 	"Insert content, specified by the parameter, to the end of each element in the set of matched elements."
 	
-	self call: 'append' with: (self render: aRenderable)
+	self call: 'append' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'modifying' }
@@ -108,7 +108,7 @@ JQueryInstance >> attributes: aDictionary [
 JQueryInstance >> before: aRenderable [ 
 	"Insert content, specified by the parameter, before each element in the set of matched elements."
 	
-	self call: 'before' with: (self render: aRenderable)
+	self call: 'before' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'events' }
@@ -491,7 +491,7 @@ JQueryInstance >> html [
 JQueryInstance >> html: aRenderable [ 
 	"Set the HTML contents of matched elements."
 	
-	self call: 'html' with: (self render: aRenderable)
+	self call: 'html' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'private' }
@@ -1000,7 +1000,7 @@ JQueryInstance >> positionTop [
 JQueryInstance >> prepend: aRenderable [ 
 	"Insert content, specified by the parameter, to the beginning of each element in the set of matched elements."
 	
-	self call: 'prepend' with: (self render: aRenderable)
+	self call: 'prepend' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'modifying' }
@@ -1140,7 +1140,7 @@ JQueryInstance >> replaceAll: aString [
 JQueryInstance >> replaceWith: aRenderable [ 
 	"Replace each element in the set of matched elements with the provided new content."
 	
-	self call: 'replaceWith' with: (self render: aRenderable)
+	self call: 'replaceWith' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'css' }
@@ -1509,19 +1509,19 @@ JQueryInstance >> width: anInteger [
 JQueryInstance >> wrap: aRenderable [ 
 	"Wrap an HTML structure around each element in the set of matched elements."
 	
-	self call: 'wrap' with: (self render: aRenderable)
+	self call: 'wrap' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'modifying' }
 JQueryInstance >> wrapAll: aRenderable [ 
 	"Wrap an HTML structure around all elements in the set of matched elements."
 	
-	self call: 'wrapAll' with: (self render: aRenderable)
+	self call: 'wrapAll' with: (self jsStringWith: aRenderable)
 ]
 
 { #category : 'modifying' }
 JQueryInstance >> wrapInner: aRenderable [ 
 	"Wrap an HTML structure around the content of each element in the set of matched elements."
 	
-	self call: 'wrapInner' with: (self render: aRenderable)
+	self call: 'wrapInner' with: (self jsStringWith: aRenderable)
 ]

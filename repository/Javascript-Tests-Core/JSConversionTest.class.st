@@ -12,6 +12,13 @@ JSConversionTest >> testArray [
 ]
 
 { #category : 'tests' }
+JSConversionTest >> testArrayWithStringsEscaping [
+
+	self assert: #('<script>' '<scri' 'pt>') equals: '["\x3Cscript>","<scri","pt>"]'.
+	self assert: #('<' '<=') equals: '["<","<="]'
+]
+
+{ #category : 'tests' }
 JSConversionTest >> testCharacter [
 	self assert: (Character codePoint: 0) equals: '"\0"'.
 	self assert: Character lf equals: '"\n"'.
@@ -145,7 +152,10 @@ JSConversionTest >> testStringBasic [
 JSConversionTest >> testStringEscaping [
 	self assert: '''' equals: '"''"'.
 	self assert: '"' equals: '"\""'.
-	self assert: '\' equals: '"\\"'
+	self assert: '\' equals: '"\\"'.
+	self assert: '<' equals: '"<"'.
+	self assert: '<script></script>' equals: '"\x3Cscript>\x3C/script>"'.
+	self assert: '<!--' equals: '"\x3C!--"'.
 ]
 
 { #category : 'tests' }

@@ -12,8 +12,17 @@ Object >> asFunction: aCollection [
 
 { #category : '*javascript-core' }
 Object >> asJavascript [
+
 	^ JSJavascriptCanvas builder render: [ :javascript |
-		self javascriptOn: javascript ]
+		  self javascriptOn: javascript ]
+]
+
+{ #category : '*javascript-core' }
+Object >> asJavascriptOn: aStream [
+
+	^ JSJavascriptCanvas builder
+		  render: [ :javascript | self javascriptOn: javascript ]
+		  on: aStream
 ]
 
 { #category : '*javascript-core' }

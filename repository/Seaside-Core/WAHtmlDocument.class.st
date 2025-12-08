@@ -1,5 +1,5 @@
 "
-A WAHtmlDocument controls how a string is created from a series of brushes.
+A WAHtmlDocument controls how a string with html is created from a series of brushes.
 "
 Class {
 	#name : 'WAHtmlDocument',

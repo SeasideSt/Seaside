@@ -51,15 +51,6 @@ JSJavascriptCanvas >> bracketProperty: aStringOrInteger [
 	self document closeBracket
 ]
 
-{ #category : 'double-dispatch' }
-JSJavascriptCanvas >> dateAndTime: aDateAndTime [
-	" Note: date and time is not standard json. So we use the ISO 8601 standard here. We convert to string to make it valid json."
-	self flag: #TODO. "will have to change"
-	self document beginString.
-	aDateAndTime printOn: self document stream.
-	self document endString
-]
-
 { #category : 'public' }
 JSJavascriptCanvas >> defineFunction [
 	^ self brush: (JSJavascriptFunctionDefinitionBrush new)
@@ -91,7 +82,7 @@ JSJavascriptCanvas >> initializeWithContext: aRenderContext [
 
 { #category : 'public' }
 JSJavascriptCanvas >> javascript: aString [
-	self document javascript: aString
+	self document jscode: aString
 ]
 
 { #category : 'public' }

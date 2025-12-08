@@ -53,7 +53,7 @@ WADefaultScriptGeneratorTest >> testNestedScripts [
 							  on: 'click'
 							  selector: '.class'
 							  do: (JSStream on: 'alert(''nested script''')) ]) ]
-		gives: '<html><head><title></title></head><body onload="onLoad()"><a id="id2"></a><script type="text/javascript">function onLoad(){$("#id2").closest("div").append("<div id=\"id1\"></div>\x3Cscript type=\"text/javascript\">$(\"#id1\").on(\"click\",\".class\",function(){alert(''nested script''});\x3C/script>");};</script></body></html>'
+		gives: '<html><head><title></title></head><body onload="onLoad()"><a id="id1"></a><script type="text/javascript">function onLoad(){$("#id1").closest("div").append("<div id=\"id2\"></div>\x3Cscript type=\"text/javascript\">$(\"#id2\").on(\"click\",\".class\",function(){alert(''nested script''});\x3C/script>");};</script></body></html>'
 ]
 
 { #category : 'testing' }

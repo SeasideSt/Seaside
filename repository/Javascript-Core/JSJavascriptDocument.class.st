@@ -1,12 +1,12 @@
 "
-I add the possibility to generate JSON.
+I add the possibility to generate Javascript.
 "
 Class {
 	#name : 'JSJavascriptDocument',
 	#superclass : 'WADocument',
 	#instVars : [
-		'javascripEncoder',
-		'urlEncoder'
+		'urlEncoder',
+		'javascriptStringEncoder'
 	],
 	#category : 'Javascript-Core-Base',
 	#package : 'Javascript-Core',
@@ -72,20 +72,21 @@ JSJavascriptDocument >> infinity [
 { #category : 'initialization' }
 JSJavascriptDocument >> initializeWithStream: aStream codec: aCodec [
 	super initializeWithStream: aStream codec: aCodec.
-	javascripEncoder := GRPlatform current javascriptEncoderOn: aStream.
+	javascriptStringEncoder := GRPlatform current javascriptStringEncoderOn: aStream.
 	urlEncoder := GRPlatform current urlEncoderOn: aStream codec: aCodec.
 ]
 
 { #category : 'writing' }
-JSJavascriptDocument >> javascript: aCodeString [
+JSJavascriptDocument >> jscode: aCodeString [
 	"write given Javascript code verbatim"
 	stream nextPutAll: aCodeString
 ]
 
 { #category : 'writing' }
 JSJavascriptDocument >> keyword: aString [
-	javascripEncoder nextPutAll: aString.
-	javascripEncoder nextPut: Character space
+
+	stream nextPutAll: aString.
+	stream nextPut: Character space
 ]
 
 { #category : 'writing' }
@@ -141,7 +142,7 @@ JSJavascriptDocument >> separator [
 { #category : 'writing' }
 JSJavascriptDocument >> string: aString [
 	stream nextPut: $".
-	javascripEncoder nextPutAll: aString.
+	javascriptStringEncoder nextPutAll: aString; flushBuffer.
 	stream nextPut: $"
 ]
 

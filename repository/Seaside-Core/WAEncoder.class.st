@@ -17,6 +17,11 @@ WAEncoder class >> on: aStream [
 	^ self basicNew initializeOn: aStream
 ]
 
+{ #category : 'accessing' }
+WAEncoder >> greaseNext: anInteger putAll: aCollection startingAt: startIndex [
+	self subclassResponsibility
+]
+
 { #category : 'initialization' }
 WAEncoder >> initializeOn: aStream [
 	self initialize.

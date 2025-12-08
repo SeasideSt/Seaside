@@ -200,6 +200,15 @@ JSObject >> javascriptOn: aRenderer [
 	self decoration javascriptContentOn: aRenderer
 ]
 
+{ #category : 'utilities' }
+JSObject >> jsStringWith: aRenderable [
+	"Create a renderable that will render the string immediately on the response stream."
+
+	^ (JSString context: self renderContext) 
+			setRenderable: aRenderable;
+			yourself
+]
+
 { #category : 'decorations' }
 JSObject >> not [
 	"Negate the receiver logically."

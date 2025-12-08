@@ -5,6 +5,23 @@ Class {
 	#package : 'Javascript-Tests-Core'
 }
 
+{ #category : 'tests-performance' }
+JSStreamTest >> generateBestCaseString: size [
+	"Generate a String containing only asciii a-z"
+	| generator |
+	generator := GRPlatform current newRandom.
+	^ String streamContents: [:str | 
+			1 to: size do:[:i |str nextPut: (Character value: 96 + (generator nextInt: 29)) ] ]
+]
+
+{ #category : 'tests-performance' }
+JSStreamTest >> generateWorstCaseString: size [
+	| generator |
+	generator := GRPlatform current newRandom.
+	^ String streamContents: [:str | 
+				1 to: size do: [:i | str nextPut: (Character value: (generator nextInt: 128)) ] ].
+]
+
 { #category : 'tests' }
 JSStreamTest >> testArgument [
 	| stream |
@@ -49,27 +66,30 @@ JSStreamTest >> testCopy [
 	self assert: stream2 contents = 'foobar'
 ]
 
-{ #category : 'tests-encoding' }
-JSStreamTest >> testEncodeKeyValueOn [
-	| actual |
-	actual := String streamContents: [ :stream |
-		JSStream encodeKey: 'key' value: 'value' on: stream ].
-	self assert: actual = '"key":"value"'
-]
-
-{ #category : 'tests-encoding' }
-JSStreamTest >> testHasStringSubStringAt [
-	self assert: (JSStream hasString: 'Seaside' subString: 'Seaside' at: 1).
-	self assert: (JSStream hasString: 'Seaside' subString: 'easide' at: 2).
-	self deny: (JSStream hasString: 'Seaside' subString: 'Seaside' at: 2).
-	self deny: (JSStream hasString: 'Seaside' subString: 'waytoolongtofix' at: 1).
-]
-
 { #category : 'tests' }
 JSStreamTest >> testJavascript [
 	| stream |
 	stream := self stream javascript: #(1 2).
 	self assert: stream contents = '[1,2]'
+]
+
+{ #category : 'tests-performance' }
+JSStreamTest >> testJavascriptRenderingPerformance [
+	 
+	| iterations size worstcasestring bestcasestring stringToStream |
+	iterations := 1000.
+	size := 5000.
+
+	bestcasestring := self generateBestCaseString: size.
+	worstcasestring := self generateWorstCaseString: size.
+	
+	Transcript show: 'Best case:';cr.
+	stringToStream := self timeJavascriptRenderingOf: bestcasestring times: iterations.
+	Transcript show: ('- Rendering {1} Strings with {2} chars in response: {3} ms' format: { iterations asString . size asString . stringToStream asString}); cr.
+	
+	Transcript show: 'Worst case:';cr.
+	stringToStream := self timeJavascriptRenderingOf: worstcasestring times: iterations.
+	Transcript show: ('- Rendering {1} Strings with {2} chars in response: {3} ms' format: { iterations asString . size asString . stringToStream asString}); cr.
 ]
 
 { #category : 'tests' }
@@ -157,4 +177,20 @@ JSStreamTest >> testStringSpecial [
 	self assert: (String with: (Character codePoint: 0)) equals: '"\0"'.
 	self assert: (String with: (Character codePoint: 1)) equals: '"\x01"'.
 	self assert: (String with: (Character codePoint: 31)) equals: '"\x1f"'
+]
+
+{ #category : 'tests-performance' }
+JSStreamTest >> timeJavascriptRenderingOf: aString times: aNumber [
+
+	^ Time millisecondsToRun: [ 
+		WACurrentRequestContext 
+			use: (WARequestContext request: WARequest new response: WABufferedResponse new codec: GRNullCodec new)
+			during: [
+			WACurrentRequestContext value
+				push: WARequestHandler new
+				during: [
+					(GRCodec forEncoding: 'utf-8') encodedStringClass streamContents: [:str |
+						WAHtmlCanvas builder
+							render: [:html | html script: ((html jQuery id: #id) replaceWith: [:h | aNumber timesRepeat: [ h div: aString ] ]) ]
+							on: ((GRCodec forEncoding: 'utf-8') encoderFor: str) ] ] ] ]
 ]
