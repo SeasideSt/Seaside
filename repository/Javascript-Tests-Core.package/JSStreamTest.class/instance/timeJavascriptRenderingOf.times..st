@@ -1,4 +1,4 @@
-as yet unclassified
+tests-performance
 timeJavascriptRenderingOf: aString times: aNumber
 
 	^ Time millisecondsToRun: [ 
@@ -8,7 +8,7 @@ timeJavascriptRenderingOf: aString times: aNumber
 			WACurrentRequestContext value
 				push: WARequestHandler new
 				during: [
-					ByteArray streamContents: [:str |
+					(GRCodec forEncoding: 'utf-8') encodedStringClass streamContents: [:str |
 						WAHtmlCanvas builder
 							render: [:html | html script: ((html jQuery id: #id) replaceWith: [:h | aNumber timesRepeat: [ h div: aString ] ]) ]
 							on: ((GRCodec forEncoding: 'utf-8') encoderFor: str) ] ] ] ]

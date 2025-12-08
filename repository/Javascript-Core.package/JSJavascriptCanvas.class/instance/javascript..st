@@ -1,3 +1,3 @@
 public
 javascript: aString
-	self document javascript: aString
+	self document jscode: aString

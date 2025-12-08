@@ -1,4 +1,4 @@
-as yet unclassified
+tests-performance
 generateWorstCaseString: size
 	| generator |
 	generator := GRPlatform current newRandom.

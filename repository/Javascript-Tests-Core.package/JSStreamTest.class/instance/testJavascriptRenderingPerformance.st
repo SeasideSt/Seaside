@@ -1,4 +1,4 @@
-tests
+tests-performance
 testJavascriptRenderingPerformance
 	 
 	| iterations size worstcasestring bestcasestring stringToStream |

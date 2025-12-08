@@ -1,4 +1,4 @@
 writing
-javascript: aCodeString
+jscode: aCodeString
 	"write given Javascript code verbatim"
 	stream nextPutAll: aCodeString

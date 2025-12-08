@@ -1,4 +1,4 @@
-as yet unclassified
+tests-performance
 generateBestCaseString: size
 	"Generate a String containing only asciii a-z"
 	| generator |
