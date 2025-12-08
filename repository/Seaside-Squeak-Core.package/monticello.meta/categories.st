@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-Squeak-Core' withTags: #('Document')!

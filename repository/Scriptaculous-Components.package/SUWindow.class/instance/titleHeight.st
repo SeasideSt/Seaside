@@ -1,3 +1,0 @@
-accessing
-titleHeight
-	^ 20

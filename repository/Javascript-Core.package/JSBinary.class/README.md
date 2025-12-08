@@ -1,1 +1,0 @@
-I join the decorated object with a binary operator.

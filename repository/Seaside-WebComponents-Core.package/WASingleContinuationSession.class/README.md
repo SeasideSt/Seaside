@@ -1,1 +1,0 @@
-I am a session that stores only a single continuation. I am usesful for cases where state snapshots are not used.

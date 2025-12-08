@@ -1,1 +1,0 @@
-A WATestServerAdaptor is a stub of a server adaptor. It doesn't start an adaptor, it just pretends to allow testing of the server manager

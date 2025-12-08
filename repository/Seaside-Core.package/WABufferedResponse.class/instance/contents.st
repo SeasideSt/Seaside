@@ -1,3 +1,0 @@
-accessing
-contents
-	^ contentsStream contents

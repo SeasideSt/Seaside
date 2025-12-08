@@ -1,3 +1,0 @@
-accessing
-cssClass
-	^ self subclassResponsibility

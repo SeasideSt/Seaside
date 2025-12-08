@@ -1,1 +1,0 @@
-This error is signaled by WARegistry whenever an attempt is made to find the key or URL for a handler that is not registered in its cache.

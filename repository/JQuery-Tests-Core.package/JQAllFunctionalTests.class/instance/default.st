@@ -1,3 +1,0 @@
-configuration
-default
-	^ JQWelcomeFunctionalTest new

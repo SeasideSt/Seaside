@@ -1,3 +1,0 @@
-accessing
-firstSupportedLocaleWithFallback: aNiladicBlock
-	^ self firstSupportedLocaleForAcceptLanguages: self requestContext request acceptLanguage withFallback: aNiladicBlock.

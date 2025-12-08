@@ -1,3 +1,0 @@
-private
-createCache
-	self subclassResponsibility

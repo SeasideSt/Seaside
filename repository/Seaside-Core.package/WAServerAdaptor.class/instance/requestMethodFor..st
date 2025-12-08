@@ -1,3 +1,0 @@
-converting-request
-requestMethodFor: aNativeRequest
-	self subclassResponsibility

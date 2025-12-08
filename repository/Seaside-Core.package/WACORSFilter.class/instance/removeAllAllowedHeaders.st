@@ -1,4 +1,0 @@
-headers
-removeAllAllowedHeaders
-
-	self allowedHeaders removeAll

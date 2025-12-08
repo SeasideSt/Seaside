@@ -1,3 +1,0 @@
-writing
-closeBracket
-	stream nextPut: $]

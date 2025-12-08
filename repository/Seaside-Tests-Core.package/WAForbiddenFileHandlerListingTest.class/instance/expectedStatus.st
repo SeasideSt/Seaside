@@ -1,3 +1,0 @@
-testing
-expectedStatus
-	^ 403

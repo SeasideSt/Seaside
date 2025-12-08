@@ -1,3 +1,0 @@
-accessing
-libraries
-	^ WAAbstractFileLibrary libraries

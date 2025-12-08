@@ -1,3 +1,0 @@
-initialization
-starting
-	status := #starting

@@ -1,1 +1,0 @@
-Root class of all elements inside a <head> section.

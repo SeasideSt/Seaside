@@ -1,1 +1,0 @@
-The command element represents a command that the user can invoke.

@@ -1,3 +1,0 @@
-accessing
-upTime
-	^ WAUpTimeTracker imageUpTime

@@ -1,3 +1,0 @@
-*seaside-session
-isSession
-	^ false

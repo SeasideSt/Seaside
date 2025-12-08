@@ -1,4 +1,0 @@
-accessing
-allowedOrigin
-
-	^ allowedOrigin

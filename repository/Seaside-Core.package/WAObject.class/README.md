@@ -1,1 +1,0 @@
-A WAObject is the base class for all portable Seaside classes. It provides convenience methods for accessing the current request context, session and application.

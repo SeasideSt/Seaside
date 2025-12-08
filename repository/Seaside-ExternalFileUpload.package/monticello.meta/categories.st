@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-ExternalFileUpload' withTags: #('Examples')!

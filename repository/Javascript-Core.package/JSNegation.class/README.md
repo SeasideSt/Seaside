@@ -1,1 +1,0 @@
-I negate the decorated object and yield a boolean value.

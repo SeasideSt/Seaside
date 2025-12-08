@@ -1,1 +1,0 @@
-Initiates and processes an AJAX request. It automatically injects the JavaScript generated during the callback into the page.

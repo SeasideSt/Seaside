@@ -1,3 +1,0 @@
-accessing
-cssFloat
-	^ self subclassResponsibility

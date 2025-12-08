@@ -1,3 +1,0 @@
-accessing
-application
-	^ self parent

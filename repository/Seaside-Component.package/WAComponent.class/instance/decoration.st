@@ -1,3 +1,0 @@
-accessing
-decoration
-	^ decoration contents

@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-Adaptors-FastCGI' withTags: #('Tests')!

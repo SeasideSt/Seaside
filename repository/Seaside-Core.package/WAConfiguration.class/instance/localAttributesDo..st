@@ -1,3 +1,0 @@
-attributes
-localAttributesDo: aBlock
-	self subclassResponsibility

@@ -1,1 +1,0 @@
-I convert requests and responses between Zinc and Seaside, but I do it using Seaside's WAComboResponse in order to allow data to be streamed to the client directly.

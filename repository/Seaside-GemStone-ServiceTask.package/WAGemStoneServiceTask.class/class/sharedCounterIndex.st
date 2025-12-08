@@ -1,4 +1,0 @@
-accessing
-sharedCounterIndex
-
-	^1

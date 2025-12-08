@@ -1,3 +1,0 @@
-accessing
-entryPointName
-	^'tools/objectLog'

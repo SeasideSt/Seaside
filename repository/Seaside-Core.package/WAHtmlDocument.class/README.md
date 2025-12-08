@@ -1,1 +1,0 @@
-A WAHtmlDocument controls how a string with html is created from a series of brushes.

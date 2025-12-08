@@ -1,3 +1,0 @@
-private
-createCache
-	^ WASingleElementCache new

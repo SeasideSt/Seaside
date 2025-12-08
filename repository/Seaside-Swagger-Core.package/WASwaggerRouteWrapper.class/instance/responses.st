@@ -1,3 +1,0 @@
-accessing
-responses
-	^ responses

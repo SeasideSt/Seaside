@@ -1,5 +1,0 @@
-commands
-cmdChangeEncoding
-	<command>
-	
-	^ WACmdEncodingForAdaptor

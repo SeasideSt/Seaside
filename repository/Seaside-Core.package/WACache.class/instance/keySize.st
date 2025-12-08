@@ -1,3 +1,0 @@
-accessing
-keySize
-	^ 16

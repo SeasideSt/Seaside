@@ -1,3 +1,0 @@
-printing
-greaseString
-	^ self asJavascript

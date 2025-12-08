@@ -1,3 +1,0 @@
-configuration
-paneCount
-	^ 1

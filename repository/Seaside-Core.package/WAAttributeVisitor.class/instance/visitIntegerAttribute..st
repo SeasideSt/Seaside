@@ -1,3 +1,0 @@
-visiting
-visitIntegerAttribute: anAttribute
-	self visitNumberAttribute: anAttribute

@@ -1,1 +1,0 @@
-I demonstrate how to use Seaside-REST to resume WARestCounter once a session has expired.

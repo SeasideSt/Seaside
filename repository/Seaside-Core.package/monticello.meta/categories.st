@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-Core' withTags: #('Backtracking' 'Base' 'Cache' 'Callbacks' 'Configuration' 'Document' 'Document-Elements' 'Exceptions' 'Filter' 'HTTP' 'Libraries' 'Manifest' 'Rendering' 'RequestHandling' 'Server' 'Utilities')!

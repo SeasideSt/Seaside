@@ -1,3 +1,0 @@
-converting
-responseFrom: aRequestContext
-	self shouldNotImplement

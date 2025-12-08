@@ -1,1 +1,0 @@
-I signal a missing response - can be caused by an attempt to use #call: or a similar method while rendering.

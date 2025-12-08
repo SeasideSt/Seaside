@@ -1,3 +1,0 @@
-swagger
-applicationTitle
-	^ 'Swagger'

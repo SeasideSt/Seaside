@@ -1,3 +1,0 @@
-private
-defaultMethod
-	^ 'toggle'

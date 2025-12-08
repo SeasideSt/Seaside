@@ -1,1 +1,0 @@
-I am a Pharo specific URL encoder.

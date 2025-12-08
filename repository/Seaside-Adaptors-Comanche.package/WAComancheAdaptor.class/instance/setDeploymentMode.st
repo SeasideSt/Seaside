@@ -1,3 +1,0 @@
-mode
-setDeploymentMode
-	service setDeploymentMode

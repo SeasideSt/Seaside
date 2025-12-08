@@ -1,3 +1,0 @@
-private
-uid
-	^ uid

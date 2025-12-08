@@ -1,4 +1,0 @@
-processing
-process
-
-	self subclassResponsibility

@@ -1,3 +1,0 @@
-accessing
-themeName
-	^ 'south-street'

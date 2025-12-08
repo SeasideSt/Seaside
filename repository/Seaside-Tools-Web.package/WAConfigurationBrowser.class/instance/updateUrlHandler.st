@@ -1,3 +1,0 @@
-processing
-updateUrlHandler
-	^ self selection

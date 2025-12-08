@@ -1,1 +1,0 @@
-A WATool is the common base class for tools called from the development tool bar. Is doesn't do anything but including WADevelopmentFiles.

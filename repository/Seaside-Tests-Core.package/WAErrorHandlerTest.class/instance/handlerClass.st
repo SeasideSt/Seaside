@@ -1,3 +1,0 @@
-accessing
-handlerClass
-	^ WAErrorHandler
