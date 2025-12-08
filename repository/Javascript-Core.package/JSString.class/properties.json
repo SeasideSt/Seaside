@@ -8,6 +8,6 @@
 	"instvars" : [
 		"renderable"
 	],
-	"name" : "JSJavascriptStringRenderable",
+	"name" : "JSString",
 	"type" : "normal"
 }
