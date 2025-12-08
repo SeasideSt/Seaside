@@ -1,5 +1,5 @@
 initialization
 initializeWithStream: aStream codec: aCodec
 	super initializeWithStream: aStream codec: aCodec.
-	javascriptEncoder := GRPlatform current javascriptEncoderOn: aStream.
+	javascriptStringEncoder := GRPlatform current javascriptStringEncoderOn: aStream.
 	urlEncoder := GRPlatform current urlEncoderOn: aStream codec: aCodec.

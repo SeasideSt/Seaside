@@ -1,3 +1,3 @@
 *Javascript-Pharo-Core
-javascriptEncoderOn: aStream
+javascriptStringEncoderOn: aStream
 	^ JSPharoJavascriptStringEncoder on: aStream

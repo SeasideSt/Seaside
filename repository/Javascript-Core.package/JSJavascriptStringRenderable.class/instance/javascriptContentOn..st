@@ -1,9 +1,9 @@
 utilities
-javascriptOn: aRenderer
+javascriptContentOn: aRenderer
 	"Need to render the renderable as a Javascript string with embedded html"
 	| jsEncoder document |
 	aRenderer document stream nextPut: $".
-	jsEncoder := GRPlatform current javascriptEncoderOn: aRenderer context document stream.
+	jsEncoder := GRPlatform current javascriptStringEncoderOn: aRenderer context document stream.
 	document := (WAHtmlDocument
 		on: jsEncoder
 		codec: self requestContext codec)

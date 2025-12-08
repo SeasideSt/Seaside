@@ -1,4 +1,4 @@
 accessing
-renderable: aRenderable
+setRenderable: aRenderable
 
 	renderable := aRenderable 
