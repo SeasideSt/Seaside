@@ -1,5 +1,5 @@
 *Javascript-Core
-javascriptEncoderOn: aStream
+javascriptStringEncoderOn: aStream
 	"Answer an Javascript encoder that works on aStream.
 	Platforms may provide optimized implementations."
-	^ JSJavascriptEncoder on: aStream
+	^ JSJavascriptStringEncoder on: aStream

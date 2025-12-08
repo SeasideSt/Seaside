@@ -1,5 +1,5 @@
 writing
 string: aString
 	stream nextPut: $".
-	javascriptEncoder nextPutAll: aString.
+	javascriptStringEncoder nextPutAll: aString; flushBuffer.
 	stream nextPut: $"

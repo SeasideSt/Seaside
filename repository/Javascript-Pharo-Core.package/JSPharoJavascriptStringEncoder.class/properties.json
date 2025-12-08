@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "JSPharoJavascriptEncoder",
+	"name" : "JSPharoJavascriptStringEncoder",
 	"type" : "normal"
 }
