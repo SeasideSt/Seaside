@@ -6,6 +6,7 @@ testCORSFilterFunctionalTest
 		self should: [ driver findElementByPartialLinkText: 'Register CORS Resource' ] raise: BPNoSuchElementException.
 
 		self assert: (driver findElementByID: 'allowed-origins') getText equals: 'None'.
+		(Delay forSeconds: 1) wait.
 		(((driver findElementByID: 'get-requests') findElementsByTagName: 'button') detect: [ :button | button getText = 'Same Origin' ]) moveToElement; click.
 		self assert: self getCORSResultText equals: 'Success'.
 		
