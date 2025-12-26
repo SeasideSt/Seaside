@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WACORSFilterTest",
+	"category" : "Seaside-Tests-Core-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WACORSFilterPreflightRequestTest",
+	"type" : "normal"
+}

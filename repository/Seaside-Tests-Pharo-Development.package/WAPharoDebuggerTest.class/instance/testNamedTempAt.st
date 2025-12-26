@@ -16,6 +16,10 @@ testNamedTempAt
 		| tempNames |
 		"fails on Squeak"
 		self shouldnt: [ tempNames := each tempNames ] raise: Notification.
-		tempNames do: [ :name |
-			"fails on Pharo"
-			self shouldnt: [ each tempNamed: name ] raise: Error ] ]
+		tempNames withIndexDo: [ :name :index  |
+			(each respondsTo: #tempNamed:)
+				ifTrue: [
+					"fails on Pharo"
+					self shouldnt: [ each tempNamed: name ] raise: Error ]
+				ifFalse: [
+					self shouldnt: [ each namedTempAt: index ] raise: Error ] ] ]

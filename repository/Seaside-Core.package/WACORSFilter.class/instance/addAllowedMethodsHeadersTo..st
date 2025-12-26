@@ -1,4 +1,4 @@
-headers
+handling
 addAllowedMethodsHeadersTo: aResponse
 
 	self allowedMethods ifNotEmpty: [ :allowed | 

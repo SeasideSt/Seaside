@@ -1,3 +1,3 @@
 accessing
 stringKeysOnly
-	^ StringKeysOnly ifNil: [ false ]
+	^ StringKeysOnly ifNil: [ true ]

@@ -9,6 +9,8 @@ renderTestingOn: html
 	html horizontalRule.
 	self renderCORSFilterOriginsOn: html.
 	self renderCORSFilterMethodsOn: html.
+	self renderCORSAllowedHeadersOn: html.
+	self renderCORSFilterMaxAgeOn: html.
 	html horizontalRule.
 	self renderTestsOn: html.
 	html horizontalRule.

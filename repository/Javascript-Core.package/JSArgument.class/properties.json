@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "2025-07-04T11:35:01.925498+02:00",
+	"super" : "WAObject",
+	"category" : "Javascript-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"argument"
+	],
+	"name" : "JSArgument",
+	"type" : "normal"
+}

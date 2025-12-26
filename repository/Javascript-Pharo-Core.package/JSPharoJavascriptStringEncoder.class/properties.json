@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAPharoEncoder",
+	"category" : "Javascript-Pharo-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSPharoJavascriptStringEncoder",
+	"type" : "normal"
+}

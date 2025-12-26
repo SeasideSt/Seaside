@@ -4,4 +4,4 @@ enableCallbacks
 	self url: self renderContext actionUrl withoutQuery withoutFragment.
 	self addParameters: self renderContext actionUrl queryFields.
 	self addParameter: (callbackId := self renderContext callbacks
-		store: (JSAjaxCallback on: [ self processCallback ]))
+		store: (JQAjaxCallback ajax: self))

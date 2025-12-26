@@ -1,4 +1,6 @@
 initialization
 initialize
+
 	super initialize.
-	stream := WriteStream on: String new
+	renderContext := WARenderContext new.
+	fragments := OrderedCollection new: 2

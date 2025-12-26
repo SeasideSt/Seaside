@@ -1,3 +1,3 @@
 accessing
 uiProcess
-	^ UIManager default uiProcess
+	^ Project current uiProcess

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "JQAjaxAbstractInternalCallback",
+	"category" : "JQuery-Core-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "JQAjaxInternalCallbackRespond",
+	"type" : "normal"
+}

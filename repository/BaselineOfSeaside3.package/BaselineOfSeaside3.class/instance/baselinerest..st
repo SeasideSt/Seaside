@@ -11,9 +11,8 @@ baselinerest: spec
 				spec requires: #('Seaside-REST-Core' 'Seaside-Tests-Core') ].
 		spec 
 			group: 'REST' with: #('Seaside-REST-Core');
-			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core')
-	].
-
+			group: 'REST Tests' with: #('REST' 'Seaside-Tests-REST-Core');
+			group: 'Examples' with: #('Seaside-REST-Examples') ].
 
 	spec for: #'squeakCommon' do: [
 		spec
@@ -24,8 +23,7 @@ baselinerest: spec
 		spec 
 			group: 'REST' with: #('Seaside-REST-Core');
 			group: 'Swagger' with: #('REST' 'Seaside-Swagger-Core');
-			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core')
-	].
+			group: 'Swagger Tests' with: #('Swagger' 'Seaside-Tests-Swagger-Core') ].
 
 	spec for: #(squeak) do:[
 		spec
@@ -33,9 +31,8 @@ baselinerest: spec
 			package: 'Seaside-REST-Core' with:[
 				spec includes: #('Seaside-Squeak-REST-Core') ];
 			package: 'Seaside-Squeak-Swagger-Core';
-			package: 'Seaside-Pharo-Swagger-Core';
 			package: 'Seaside-Swagger-Core' with: [ 
-				spec includes: #('Seaside-Pharo-Swagger-Core' 'Seaside-Squeak-Swagger-Core') ]
+				spec includes: #('Seaside-Squeak-Swagger-Core') ]
 	].
 
 	spec 
@@ -51,7 +48,7 @@ baselinerest: spec
 	].
 
 	spec 
-		for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x') 
+		for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x' 'pharo14.x') 
 		do:[
 			spec
 				package: 'Seaside-Pharo90-REST-Core';

@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Adaptors-FastCGI'!
-SystemOrganization addCategory: #'Seaside-Adaptors-FastCGI-Tests'!
+self packageOrganizer ensurePackage: #'Seaside-Adaptors-FastCGI' withTags: #('Tests')!

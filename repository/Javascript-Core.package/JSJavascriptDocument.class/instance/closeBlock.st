@@ -1,0 +1,3 @@
+writing
+closeBlock
+	stream nextPut: $}

@@ -1,3 +1,3 @@
 printing
-javascriptContentOn: aStream
-	self owner javascriptContentOn: aStream
+javascriptContentOn: aRenderer
+	self owner javascriptContentOn: aRenderer

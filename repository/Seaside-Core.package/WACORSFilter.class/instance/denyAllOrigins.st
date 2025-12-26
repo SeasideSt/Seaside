@@ -1,4 +1,4 @@
 origins
 denyAllOrigins
 
-	self allowedOrigins removeAll
+	allowedOrigin := nil

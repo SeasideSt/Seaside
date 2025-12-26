@@ -1,4 +1,4 @@
 printing
-javascriptContentOn: aStream
-	aStream nextPutAll: 'new '.
-	super javascriptContentOn: aStream
+javascriptContentOn: aRenderer
+	aRenderer document keyword: 'new'.
+	super javascriptContentOn: aRenderer

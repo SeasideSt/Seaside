@@ -1,0 +1,3 @@
+writing
+openArray
+	stream nextPut: $[

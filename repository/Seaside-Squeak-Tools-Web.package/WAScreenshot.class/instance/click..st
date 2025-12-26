@@ -1,5 +1,6 @@
 actions
 click: aPoint
+	"see EventSensor >> #createMouseEvent"
 	| event |
 	event := Array new: 8.
 	event at: 1 put: 1.

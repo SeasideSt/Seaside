@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "JQAjaxAbstractInternalCallback",
+	"category" : "JQuery-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"renderable"
+	],
+	"name" : "JQAjaxInternalCallbackRespondJSON",
+	"type" : "normal"
+}
