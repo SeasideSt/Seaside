@@ -1,4 +1,4 @@
 protected
-websocketEventHandlerJavaScriptOn: aStream
-	aStream 
-		nextPutAll: '.addEventListener(''message'', (event) => { Function(`"use strict";return (${event.data})`)(); })'
+websocketEventHandlerJavaScriptOn: aRenderer
+	aRenderer 
+		javascript: '.addEventListener(''message'', (event) => { Function(`"use strict";return (${event.data})`)(); })'

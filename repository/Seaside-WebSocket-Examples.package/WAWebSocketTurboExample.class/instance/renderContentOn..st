@@ -12,13 +12,13 @@ renderContentOn: html
 			callback: [ :value | input := value ];
 			placeholder: 'Enter some text'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts append: #text with: input ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts append: #text with: input ] ]), (JSStream on: 'return false');
 			with: 'Append'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts prepend: #text with: input ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts prepend: #text with: input ] ]), (JSStream on: 'return false');
 			with: 'Prepend'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text; with: input ] ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text; with: input ] ] ]), (JSStream on: 'return false');
 			with: 'Replace'  ].
 	
 	html paragraph 
