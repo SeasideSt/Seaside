@@ -1,1 +1,0 @@
-I am a utility class used to initialize and provide a default environment.

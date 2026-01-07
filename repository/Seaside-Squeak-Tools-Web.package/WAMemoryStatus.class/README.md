@@ -1,1 +1,0 @@
-A WAMemoryStatus displays information about memory usage.

@@ -1,3 +1,0 @@
-morphic
-wantsSteps
-	^ true

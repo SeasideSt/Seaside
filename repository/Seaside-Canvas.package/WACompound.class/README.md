@@ -1,1 +1,0 @@
-I am the superclass for stuff that is not html element but you still want to access via the canvas API.

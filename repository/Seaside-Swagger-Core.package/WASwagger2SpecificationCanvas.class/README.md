@@ -1,1 +1,0 @@
-I generate a Swagger JSON document that describes and documents RESTful APIs.

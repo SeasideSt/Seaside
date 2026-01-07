@@ -1,3 +1,0 @@
-instance creation
-newWebSocketInRequestContext: aRequestContext
-	^ self socketClass basicNew initializeWithRequestContext: aRequestContext

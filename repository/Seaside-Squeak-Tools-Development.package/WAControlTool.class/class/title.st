@@ -1,4 +1,0 @@
-configuration
-title
-
-	^ 'Seaside Tool'

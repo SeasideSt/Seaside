@@ -1,1 +1,0 @@
-I represent a verbatim JavaScript string. I support streaming facilities to efficiently encode JavaScript input.

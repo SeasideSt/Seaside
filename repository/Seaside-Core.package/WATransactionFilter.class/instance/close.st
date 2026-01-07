@@ -1,3 +1,0 @@
-actions
-close
-	closed := true

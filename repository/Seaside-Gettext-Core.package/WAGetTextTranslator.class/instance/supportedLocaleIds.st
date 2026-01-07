@@ -1,3 +1,0 @@
-accessing
-supportedLocaleIds
-	^ moFilePerLocaleId keys

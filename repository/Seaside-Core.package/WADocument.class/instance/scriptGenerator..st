@@ -1,3 +1,0 @@
-accessing
-scriptGenerator: aScriptGenerator
-	"ignore"

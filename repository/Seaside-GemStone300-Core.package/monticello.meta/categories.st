@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-GemStone300-Core' withTags: #()!

@@ -1,1 +1,0 @@
-I am the translation result. I keep the original string, translation and information whether the tranlation was successful or not.

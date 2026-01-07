@@ -1,3 +1,0 @@
-public
-clear
-	dictionary removeAll

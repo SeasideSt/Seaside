@@ -1,1 +1,0 @@
-Enumerable provides a large set of useful methods for enumerations, that is, objects that act as collections of values. It is a cornerstone of Prototype.

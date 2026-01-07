@@ -1,3 +1,0 @@
-hooks
-canBeRun
-	^ self hasAdaptor

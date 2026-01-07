@@ -1,3 +1,0 @@
-accessing
-selected
-	^ navigation selectedComponent

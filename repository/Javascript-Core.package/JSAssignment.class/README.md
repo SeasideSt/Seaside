@@ -1,1 +1,0 @@
-I represent an assignment ot the decorated object.

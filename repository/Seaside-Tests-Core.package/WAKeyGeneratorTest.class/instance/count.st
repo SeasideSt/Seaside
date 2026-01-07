@@ -1,3 +1,0 @@
-accessing
-count
-	^ 512

@@ -1,4 +1,0 @@
-testing
-isRegular
-
-	^ loading isNil

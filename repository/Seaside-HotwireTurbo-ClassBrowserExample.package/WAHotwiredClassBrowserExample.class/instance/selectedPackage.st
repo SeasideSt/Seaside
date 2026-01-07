@@ -1,4 +1,0 @@
-accessing
-selectedPackage
-
-	^ packagesPane selectedItem

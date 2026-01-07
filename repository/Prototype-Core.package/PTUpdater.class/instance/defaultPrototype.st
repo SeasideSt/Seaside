@@ -1,3 +1,0 @@
-private
-defaultPrototype
-	^ 'Ajax.Updater'

@@ -1,3 +1,0 @@
-accessing
-generatedCategory
-	^ 'languages-generated'

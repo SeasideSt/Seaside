@@ -1,3 +1,0 @@
-accessing
-attribute
-	^ attribute

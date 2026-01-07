@@ -1,3 +1,0 @@
-writing
-separator
-	stream nextPut: $;

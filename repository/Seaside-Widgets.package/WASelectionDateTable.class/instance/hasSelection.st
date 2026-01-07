@@ -1,3 +1,0 @@
-testing
-hasSelection
-	^ dateSelectionStart notNil

@@ -1,3 +1,0 @@
-writing
-endString
-	stream nextPut: $"

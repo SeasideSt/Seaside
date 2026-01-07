@@ -1,4 +1,0 @@
-attributes
-refreshUsingMorph
-
-	refresh := 'morph'

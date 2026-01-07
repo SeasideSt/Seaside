@@ -1,3 +1,0 @@
-private
-authConfigurationError: aString
-	WAAuthConfigurationError signal: aString

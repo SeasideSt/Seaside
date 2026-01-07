@@ -1,3 +1,0 @@
-accessing
-gemServer
-  self subclassResponsibility

@@ -1,1 +1,0 @@
-self packageOrganizer ensurePackage: #'Seaside-Tools-OmniBrowser' withTags: #('Commands')!

@@ -1,3 +1,0 @@
-accessing
-themeName
-	^ 'dark-hive'

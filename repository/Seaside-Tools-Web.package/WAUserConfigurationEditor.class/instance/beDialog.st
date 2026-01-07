@@ -1,3 +1,0 @@
-accessing
-beDialog
-	dialog := true

@@ -1,3 +1,0 @@
-accessing
-elementHeight
-	^ elementExtent y

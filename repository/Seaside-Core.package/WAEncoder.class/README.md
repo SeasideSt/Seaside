@@ -1,1 +1,0 @@
-I encode everything that is written to myself using #nextPut: and #nextPutAll: onto the wrapped stream.

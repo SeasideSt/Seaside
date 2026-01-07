@@ -1,1 +1,0 @@
-I alias the decorated object with a name.

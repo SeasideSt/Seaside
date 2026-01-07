@@ -1,1 +1,0 @@
-Load JSON data using an HTTP GET request.

@@ -1,1 +1,0 @@
-I wrap the decorated object into a conditional statement.

@@ -1,4 +1,0 @@
-mode
-setDeploymentMode
-
-	FSLog disableLog

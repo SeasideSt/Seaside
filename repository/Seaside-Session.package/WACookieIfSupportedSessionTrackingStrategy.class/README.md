@@ -1,1 +1,0 @@
-I use cookies to track sessions if the browser supports it and use query fields (?_s=key) otherwise. I keep adding the session cookie and the session query field until the session cookie shows up in the request. Then I stop adding the query field.

@@ -1,1 +1,0 @@
-Abstract superclass for partial and regular continuations.

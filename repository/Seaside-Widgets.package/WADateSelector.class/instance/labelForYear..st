@@ -1,3 +1,0 @@
-accessing
-labelForYear: aNumber
-	^ aNumber

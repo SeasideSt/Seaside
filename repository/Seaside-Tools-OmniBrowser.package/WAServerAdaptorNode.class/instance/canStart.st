@@ -1,3 +1,0 @@
-testing
-canStart
-	^ adaptor canStart

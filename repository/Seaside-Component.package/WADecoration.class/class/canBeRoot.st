@@ -1,3 +1,0 @@
-testing
-canBeRoot
-	^ false

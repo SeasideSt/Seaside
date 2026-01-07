@@ -1,1 +1,0 @@
-I am the abstract superclass for tag based canvases.
