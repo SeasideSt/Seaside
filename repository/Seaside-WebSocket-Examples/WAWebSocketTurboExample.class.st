@@ -41,13 +41,13 @@ WAWebSocketTurboExample >> renderContentOn: html [
 			callback: [ :value | input := value ];
 			placeholder: 'Enter some text'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts append: #text with: input ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts append: #text with: input ] ]), (JSStream on: 'return false');
 			with: 'Append'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts prepend: #text with: input ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts prepend: #text with: input ] ]), (JSStream on: 'return false');
 			with: 'Prepend'.
 		html button
-			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text; with: input ] ] ]);
+			onClick: (html jQuery ajax serializeForm; callback: [ self pusher turboStream: [ :ts | ts replace: #text with: [:inner | inner paragraph id: #text; with: input ] ] ]), (JSStream on: 'return false');
 			with: 'Replace'  ].
 	
 	html paragraph 
@@ -60,6 +60,5 @@ WAWebSocketTurboExample >> updateRoot: aRoot [
 	super updateRoot: aRoot.
 	aRoot javascript
 		type: 'module';
-		"url: 'https://cdn.jsdelivr.net/npm/@hotwired/turbo@latest/dist/turbo.es2017-esm.min.js'."
 		url: WATurboFileLibrary / #turboes2017esmminJs 
 ]

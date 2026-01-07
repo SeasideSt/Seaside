@@ -21,6 +21,12 @@ WAHotwiredClassBrowserExample class >> canBeRoot [
 	^ true
 ]
 
+{ #category : 'initialization' }
+WAHotwiredClassBrowserExample class >> initialize [
+
+	self register
+]
+
 { #category : 'testing' }
 WAHotwiredClassBrowserExample class >> register [
 	"test"

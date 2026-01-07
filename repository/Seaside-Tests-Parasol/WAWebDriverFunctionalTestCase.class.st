@@ -80,6 +80,18 @@ WAWebDriverFunctionalTestCase >> selectTest: aName [
 	select selectByVisibleText: aName.
 ]
 
+{ #category : 'private' }
+WAWebDriverFunctionalTestCase >> skipOnGemStone36 [
+
+	[
+		(((Smalltalk at: #System) stoneVersionAt: 'gsVersion')
+			 findString: '3.6'
+			 startingAt: 1) > 0 ifTrue: [ ^ true ] ]
+		on: Error
+		do: [ :e | "catch all" ].
+	^ false
+]
+
 { #category : 'testing' }
 WAWebDriverFunctionalTestCase >> testBatchFunctionalTest [
 	self selectTest: 'WABatchFunctionalTest'.
@@ -125,6 +137,10 @@ WAWebDriverFunctionalTestCase >> testButtonFunctionalTest [
 
 { #category : 'testing' }
 WAWebDriverFunctionalTestCase >> testCORSFilterFunctionalTest [
+
+	"Due to a missing method in the test code on versions of Gemstone earlier than 3.7, we skip this test."
+	self skipOnGemStone36 ifTrue: [ ^self ].
+
 	[ 
 		WACORSResourceExample register; registerCorsAdaptor.
 		self selectTest: 'WACORSFilterFunctionalTest'.

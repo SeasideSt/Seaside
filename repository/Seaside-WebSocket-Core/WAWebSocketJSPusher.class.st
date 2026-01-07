@@ -19,7 +19,7 @@ WAWebSocketJSPusher >> javascript: aBlock [
 ]
 
 { #category : 'protected' }
-WAWebSocketJSPusher >> websocketEventHandlerJavaScriptOn: aStream [
-	aStream 
-		nextPutAll: '.addEventListener(''message'', (event) => { Function(`"use strict";return (${event.data})`)(); })'
+WAWebSocketJSPusher >> websocketEventHandlerJavaScriptOn: aRenderer [
+	aRenderer 
+		javascript: '.addEventListener(''message'', (event) => { Function(`"use strict";return (${event.data})`)(); })'
 ]

@@ -15,6 +15,12 @@ WATurboMultiCounter class >> canBeRoot [
 ]
 
 { #category : 'initialization' }
+WATurboMultiCounter class >> initialize [ 
+
+	self register
+]
+
+{ #category : 'initialization' }
 WATurboMultiCounter class >> register [
 
 	(WAAdmin register: self asApplicationAt: '/examples/hotwired/multicounter')

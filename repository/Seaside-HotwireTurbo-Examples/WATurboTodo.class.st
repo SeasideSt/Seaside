@@ -14,6 +14,12 @@ WATurboTodo class >> canBeRoot [
 ]
 
 { #category : 'initialization' }
+WATurboTodo class >> initialize [ 
+
+	self register
+]
+
+{ #category : 'initialization' }
 WATurboTodo class >> register [
 
 	(WAAdmin register: self asApplicationAt: '/examples/hotwired/todo')

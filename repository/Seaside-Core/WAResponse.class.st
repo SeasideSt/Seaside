@@ -847,6 +847,19 @@ WAResponse >> respond [
 	WAResponseNotification signal
 ]
 
+{ #category : 'status' }
+WAResponse >> seeOther [
+	"Indicate that the resource reside temporarily under a different URI."
+	
+	self status: WAResponse statusSeeOther
+]
+
+{ #category : 'convenience-status' }
+WAResponse >> seeOtherTo: aUrlOrString [
+	self location: aUrlOrString.
+	self seeOther
+]
+
 { #category : 'accessing' }
 WAResponse >> status [
 	"Answer the status code associated with this response."
