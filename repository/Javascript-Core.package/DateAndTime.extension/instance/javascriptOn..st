@@ -8,4 +8,4 @@ javascriptOn: aRenderer
 				argument: self dayOfMonth;
 				argument: self hour;
 				argument: self minute;
-				argument: self second ]
+				argument: self second asInteger ]
