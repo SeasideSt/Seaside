@@ -1,3 +1,4 @@
 testing
 isStopped
-	^ status = #stopped
+
+	^ status isNil or: [ status = #stopped ]
