@@ -1,0 +1,1 @@
+I add the possibility to generate Javascript.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJavascriptElementBrush",
+	"category" : "Javascript-Core-Brushes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJavascriptValueBrush",
+	"type" : "normal"
+}

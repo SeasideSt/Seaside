@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJavascriptBrush",
+	"category" : "Javascript-Core-Brushes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJavascriptAssignmentBrush",
+	"type" : "normal"
+}

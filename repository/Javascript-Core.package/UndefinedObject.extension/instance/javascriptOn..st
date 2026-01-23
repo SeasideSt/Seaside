@@ -1,3 +1,3 @@
 *javascript-core
-javascriptOn: aStream
-	aStream nextPutAll: 'null'
+javascriptOn: aRenderer
+	aRenderer document null

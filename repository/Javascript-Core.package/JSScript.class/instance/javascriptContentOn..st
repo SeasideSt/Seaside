@@ -1,3 +1,5 @@
 printing
-javascriptContentOn: aStream
-	statements do: [ :each | aStream javascript: each ] separatedBy: [ aStream nextPut: $; ]
+javascriptContentOn: aRenderer
+	statements
+		do: [ :each | aRenderer render: each ]
+		separatedBy: [ aRenderer document separator ]

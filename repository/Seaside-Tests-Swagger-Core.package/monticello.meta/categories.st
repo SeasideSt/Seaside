@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-Tests-Swagger-Core'!
+self packageOrganizer ensurePackage: #'Seaside-Tests-Swagger-Core' withTags: #()!

@@ -1,3 +1,3 @@
 utilities
 parse: aString
-	^ WAJsonParser parse: aString
+	^ GRPlatform current jsonParserClass parse: aString

@@ -1,5 +1,9 @@
 testing
 testCORSFilterFunctionalTest
+
+	"Due to a missing method in the test code on versions of Gemstone earlier than 3.7, we skip this test."
+	self skipOnGemStone36 ifTrue: [ ^self ].
+
 	[ 
 		WACORSResourceExample register; registerCorsAdaptor.
 		self selectTest: 'WACORSFilterFunctionalTest'.

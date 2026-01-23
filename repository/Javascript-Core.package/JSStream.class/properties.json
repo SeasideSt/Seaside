@@ -6,11 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [
 		"Arguments",
-		"JavascriptCharacters",
 		"This"
 	],
 	"instvars" : [
-		"stream"
+		"fragments"
 	],
 	"name" : "JSStream",
 	"type" : "normal"

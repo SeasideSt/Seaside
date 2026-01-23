@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Seaside-GemStone-Session-Filter'!
+self packageOrganizer ensurePackage: #'Seaside-GemStone-Session' withTags: #('Filter')!

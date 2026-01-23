@@ -1,0 +1,4 @@
+private
+flushBuffer
+
+	^delegate flushBuffer

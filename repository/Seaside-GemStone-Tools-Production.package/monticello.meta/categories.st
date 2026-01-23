@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-GemStone-Tools-Production-Gems'!
-SystemOrganization addCategory: #'Seaside-GemStone-Tools-Production-ObjectLog'!
+self packageOrganizer ensurePackage: #'Seaside-GemStone-Tools' withTags: #('Gems' 'ObjectLog')!
