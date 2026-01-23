@@ -1,3 +1,5 @@
 *Scriptaculous-Core
-javascriptOn: aStream
-	aStream nextPut: $[; javascript: self x; nextPut: $,; javascript: self y; nextPut: $]
+javascriptOn: aRenderer
+	aRenderer array: [ 
+		aRenderer value: self x.
+		aRenderer value: self y]

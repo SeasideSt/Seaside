@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'Javascript-Core' withTags: #('Decorations')!
+self packageOrganizer ensurePackage: #'Javascript-Core' withTags: #(#Decorations)!

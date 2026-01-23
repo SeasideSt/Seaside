@@ -1,3 +1,3 @@
 *javascript-core
-javascriptOn: aStream
-	JSStream encodeString: self on: aStream
+javascriptOn: aRenderer
+	aRenderer string: self

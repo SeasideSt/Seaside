@@ -1,3 +1,4 @@
 copying
 copy
-	^ self class on: self contents
+
+	^ self class withFragments: fragments copy

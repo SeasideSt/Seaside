@@ -2,4 +2,4 @@ private
 touchSession
 	"Prevent session expiry."
 
-	session ifNotNil: [ :s | s  touch]
+	session ifNotNil: [ :s | s touch ]

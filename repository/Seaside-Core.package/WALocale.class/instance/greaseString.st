@@ -13,5 +13,4 @@ greaseString
 				nextPutAll: language;
 				nextPut: $-;
 				nextPutAll: country.
-			"no need for #contents because we allocated with the correct size"
-			^ string ]
+			^ stream contents ]

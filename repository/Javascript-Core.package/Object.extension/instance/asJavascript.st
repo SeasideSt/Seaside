@@ -1,3 +1,5 @@
 *javascript-core
 asJavascript
-	^ String streamContents: [ :stream | self javascriptOn: stream ]
+
+	^ JSJavascriptCanvas builder render: [ :javascript |
+		  self javascriptOn: javascript ]

@@ -1,14 +1,11 @@
 {
-	"category" : "Seaside-Tests-Swagger-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "pmm 8/24/2016 13:55",
-	"instvars" : [
-		 ],
-	"name" : "WASwagger2PlatformTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Seaside-Tests-Swagger-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WASwagger2PlatformTest",
+	"type" : "normal"
+}

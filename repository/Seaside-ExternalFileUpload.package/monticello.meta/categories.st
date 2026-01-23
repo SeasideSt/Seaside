@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Seaside-ExternalFileUpload'!
-SystemOrganization addCategory: 'Seaside-ExternalFileUpload-Examples'!
+self packageOrganizer ensurePackage: #'Seaside-ExternalFileUpload' withTags: #('Examples')!

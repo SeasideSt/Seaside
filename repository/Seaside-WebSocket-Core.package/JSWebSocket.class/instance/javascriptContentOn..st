@@ -1,8 +1,8 @@
 printing
-javascriptContentOn: aStream
+javascriptContentOn: aRenderer
 	"TODO: window.location should not be retrieved here..."
-	aStream
-		nextPutAll: 'new WebSocket(((window.location.protocol === "https:") ? "wss://" : "ws://") + window.location.host + ';
-		javascript: self url;
-		nextPut: $).
-	pusher ifNotNil:[ pusher websocketEventHandlerJavaScriptOn: aStream ]
+	aRenderer
+		javascript: 'new WebSocket(((window.location.protocol === "https:") ? "wss://" : "ws://") + window.location.host + ';
+		string: self url greaseString;
+		javascript: $).
+	pusher ifNotNil:[ pusher websocketEventHandlerJavaScriptOn: aRenderer ]
