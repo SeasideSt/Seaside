@@ -11,7 +11,7 @@ testRenderUsingSameCanvasClass
 	
 	instance html: [ :canvas | rendererSpecies := canvas species. canvas spaceEntity ].
 	
-	instance asJavascript. "Trigger the renderable callback".
+	instance asJavascript. "Trigger the renderable callback"
 
 	self 
 		assert: rendererSpecies 
