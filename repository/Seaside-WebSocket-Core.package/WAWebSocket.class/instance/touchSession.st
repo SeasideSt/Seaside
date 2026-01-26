@@ -2,5 +2,4 @@ private
 touchSession
 	"Prevent session expiry."
 
-	session ifNotNil: [ :s | 
-		s application cache at: s key ifAbsent: [ ] ]
+	session ifNotNil: [ :s | s touch ]
