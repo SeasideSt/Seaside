@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "lr 2/27/2007 21:16",
-	"super" : "PTElement",
 	"category" : "Prototype-Core-Elements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/27/2007 21:16",
+	"instvars" : [
+		 ],
 	"name" : "PTFormElement",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTElement",
+	"type" : "normal" }

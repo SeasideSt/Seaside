@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFileLibrary",
 	"category" : "Prototype-Core-Libraries",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PTGoogleLibrary",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'Seaside-Squeak-Core' withTags: #('Document')!
+SystemOrganization addCategory: #'Seaside-Squeak-Core-Document'!

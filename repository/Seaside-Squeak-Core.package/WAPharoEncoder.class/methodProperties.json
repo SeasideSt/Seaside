@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"delegateOn:" : " 3/16/2026 13:22:29",
+		"on:" : " 3/16/2026 13:22:29",
+		"on:codec:" : " 3/16/2026 13:22:29" },
+	"instance" : {
+		"includesUnsafeCharacter:" : " 3/16/2026 13:22:29",
+		"initializeOn:table:delegate:" : " 3/16/2026 13:22:29",
+		"nextPut:" : " 3/16/2026 13:22:29",
+		"nextPutAll:" : " 3/16/2026 13:22:29",
+		"nextPutAllFast:" : " 3/16/2026 13:22:29" } }

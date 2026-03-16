@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PTObject",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"options"
-	],
+		"options" ],
 	"name" : "PTPrototype",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTObject",
+	"type" : "normal" }
