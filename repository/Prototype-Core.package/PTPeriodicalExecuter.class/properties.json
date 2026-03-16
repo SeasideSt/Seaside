@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "pmm 9/10/2018 11:34",
-	"super" : "JSDecoration",
 	"category" : "Prototype-Core-Ajax",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/10/2018 11:34",
 	"instvars" : [
 		"callback",
-		"frequency"
-	],
+		"frequency" ],
 	"name" : "PTPeriodicalExecuter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "JSDecoration",
+	"type" : "normal" }

@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "lr 4/28/2008 09:46",
-	"super" : "WAObject",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 4/28/2008 09:46",
 	"instvars" : [
 		"context",
 		"block",
-		"rendererClass"
-	],
+		"rendererClass" ],
 	"name" : "PTFactory",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }
