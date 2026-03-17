@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Squeak-Tools-Development",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 12/6/2023 13:57",
+	"instvars" : [
+		 ],
+	"name" : "WASqueakInspector",
+	"pools" : [
+		 ],
+	"super" : "WAInspector",
+	"type" : "normal" }
