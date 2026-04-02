@@ -23,8 +23,11 @@ baselinegettext: spec
     do: [ 
       spec
         package: 'Seaside-Pharo-Gettext-Core';
+        package: 'Seaside-Pharo-Gettext-Examples';
         package: 'Seaside-Gettext-Core'
           with: [ spec includes: 'Seaside-Pharo-Gettext-Core' ];
+        package: 'Seaside-Gettext-Examples'
+          with: [ spec includes: 'Seaside-Pharo-Gettext-Examples' ];
         package: 'Seaside-Tests-Pharo-Gettext'
           with: [ spec requires: 'Seaside-Pharo-Gettext-Core' ].
       spec

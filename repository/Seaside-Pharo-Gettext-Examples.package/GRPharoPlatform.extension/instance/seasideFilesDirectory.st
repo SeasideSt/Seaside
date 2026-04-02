@@ -1,4 +1,4 @@
-*Seaside-Gettext-Examples
+*Seaside-Pharo-Gettext-Examples
 seasideFilesDirectory
 	| icebergRepo fileTreeRepository |
 	icebergRepo := IceRepository registry detect:[ :repo | repo name = 'Seaside' ] ifNone: [ nil ].
