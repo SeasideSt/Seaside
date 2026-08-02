@@ -31,8 +31,8 @@ baselinecommon: spec
 					repository: 'github://SeasideSt/Parasol:master/repository';
 					loads: 'default' ].
 		spec
-			package: 'Seaside-Aria' with: [
-				spec requires:#('Seaside-Aria-Core'). ];
+			package: 'Seaside-Aria-Core' with: [
+				spec requires:#('Seaside-Canvas'). ];
 			package: 'Seaside-Canvas' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Component' with: [
@@ -116,5 +116,5 @@ baselinecommon: spec
 			group: 'Development' with: #('Core' 'Seaside-Development');
 			group: 'Development Tests' with: #('Development' 'Core' 'Seaside-Tests-Development');
 			group: 'Email' with: #('Seaside-Email');
-			group: 'Aria' with: #('Seaside-Aria');
+			group: 'Aria' with: #('Seaside-Aria-Core');
 			group: 'Examples' with: #('Core' 'Seaside-Examples' 'Seaside-REST-Examples' 'Seaside-HotwireTurbo-Examples' 'Seaside-WebComponents-Examples') ].
