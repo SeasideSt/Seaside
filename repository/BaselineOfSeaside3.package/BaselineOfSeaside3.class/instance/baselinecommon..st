@@ -102,7 +102,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-Parasol' with: [
 				spec requires: #('Parasol' 'Seaside-Tests-Functional' 'Seaside-Tools-Core') ];
 			package: 'Seaside-Tests-HotwireTurbo' with: [ 
-				spec requires: #('Seaside-Tests-Functional' 'Seaside-HotwireTurbo-Core') ].
+				spec requires: #('Seaside-Tests-Functional' 'Seaside-HotwireTurbo-Core' 'Seaside-HotwireStimulus-Core') ].
 
 		spec
 			group: 'default' with: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Seaside-Examples' 'Seaside-Welcome');
