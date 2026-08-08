@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"authorCoverageFor:" : " 7/4/2026 15:05:36",
+		"browserEnvironmentFor:" : " 7/4/2026 15:05:36",
+		"cleanupPackages:" : " 7/4/2026 15:05:36",
+		"commentCoverageFor:" : " 7/4/2026 15:05:36",
+		"commitPackages:" : " 7/4/2026 15:05:36",
+		"ensureAuthorInitials" : " 7/4/2026 15:05:36",
+		"ensureAuthorInitialsWith:" : "pmm 7/4/2026 16:23",
+		"gofersFor:" : " 7/4/2026 15:05:36",
+		"loadPackages:" : " 7/4/2026 15:05:36",
+		"localPackageChanges:" : " 7/4/2026 15:05:36",
+		"packageWithName:" : "pmm 7/4/2026 16:24",
+		"recompilePackages:" : " 7/4/2026 15:05:36",
+		"reinitializePackages:" : " 7/4/2026 15:05:36",
+		"remotePackageChanges:" : " 7/4/2026 15:05:36",
+		"renamePackage:to:" : "pmm 7/4/2026 16:25",
+		"request:" : " 7/4/2026 15:05:36",
+		"requestor" : " 7/4/2026 15:05:36",
+		"revertPackages:" : " 7/4/2026 15:05:36",
+		"workingCopyFor:" : " 7/4/2026 15:05:36" },
+	"instance" : {
+		 } }

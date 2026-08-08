@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAContextTest",
 	"category" : "Seaside-Tests-Squeak-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAGenericCodecTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAContextTest",
+	"type" : "normal" }

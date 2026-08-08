@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"supportsSwitchToNewCompiler" : " 7/4/2026 15:05:37",
+		"testAddAllFilesIn" : " 7/4/2026 15:05:37",
+		"testCompileByteArrayLiteralSource" : " 7/4/2026 15:05:37",
+		"testCompileByteArrayWithCacheSource" : " 7/4/2026 15:05:37",
+		"useCompileUseNewCompiler:during:" : " 7/4/2026 15:05:37" } }

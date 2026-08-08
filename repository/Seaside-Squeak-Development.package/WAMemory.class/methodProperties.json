@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accumulate:" : " 7/4/2026 15:05:36",
+		"buildTable" : " 7/4/2026 15:05:36",
+		"children" : " 7/4/2026 15:05:36",
+		"initialize" : " 7/4/2026 15:05:36",
+		"renderContentOn:" : " 7/4/2026 15:05:36",
+		"totalInstances" : " 7/4/2026 15:05:36",
+		"totalSize" : " 7/4/2026 15:05:36",
+		"traverse:value:seen:" : " 7/4/2026 15:05:36",
+		"traverseWithMemory:seen:" : " 7/4/2026 15:05:36" } }

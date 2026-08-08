@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCodec" : " 7/4/2026 15:05:37",
+		"testEncodedLatin1Url" : " 7/4/2026 15:05:37",
+		"testEncodedSupplementaryMultilingualPlane" : " 7/4/2026 15:05:37",
+		"testEncodedSupplementaryMultilingualPlaneUrl" : " 7/4/2026 15:05:37",
+		"testEncodedUnicode" : " 7/4/2026 15:05:37",
+		"testEncodedUnicodeUrl" : " 7/4/2026 15:05:37" } }

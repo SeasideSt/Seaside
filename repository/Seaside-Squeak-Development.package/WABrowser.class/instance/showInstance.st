@@ -1,0 +1,3 @@
+actions
+showInstance
+	self model indicateInstanceMessages

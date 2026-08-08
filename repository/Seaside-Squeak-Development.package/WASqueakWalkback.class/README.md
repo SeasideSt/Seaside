@@ -1,0 +1,1 @@
+A Squeak-specific implementation of WAWalkback.

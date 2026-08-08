@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:next:startingAt:encoder:gives:" : " 7/4/2026 15:05:37",
+		"testGreaseNextPutAllStartingAt" : " 7/4/2026 15:05:37",
+		"testIncludesUnsafeUrlCharacter" : " 7/4/2026 15:05:37",
+		"testIncludesUnsafeXmlCharacter" : " 7/4/2026 15:05:37",
+		"testUrlGreaseNextPutAllStartingAt" : " 7/4/2026 15:05:37",
+		"testXmlGreaseNextPutAllStartingAt" : " 7/4/2026 15:05:37",
+		"urlEncoderClass" : " 7/4/2026 15:05:37",
+		"xmlEncoderClass" : " 7/4/2026 15:05:37" } }

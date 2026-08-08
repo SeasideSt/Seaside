@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initialize" : " 7/4/2026 15:05:36",
+		"unload" : " 7/4/2026 15:05:36" },
+	"instance" : {
+		"frameCount" : " 7/4/2026 15:05:36",
+		"frames" : " 7/4/2026 15:05:36",
+		"initializeWithException:" : " 7/4/2026 15:05:36",
+		"renderObject:labelled:on:" : " 7/4/2026 15:05:36",
+		"renderStackFrame:on:" : " 7/4/2026 15:05:36",
+		"renderStackOn:" : " 7/4/2026 15:05:36",
+		"safePrintString:" : " 7/4/2026 15:05:36",
+		"tempNamesAndValuesIn:do:" : "pmm 7/4/2026 16:20" } }

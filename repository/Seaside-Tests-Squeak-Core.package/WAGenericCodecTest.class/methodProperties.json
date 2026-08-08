@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asString:" : " 7/4/2026 15:05:37",
+		"latin1String" : " 7/4/2026 15:05:37",
+		"macromanString" : " 7/4/2026 15:05:37",
+		"testGenericCodecAll" : "pmm 7/4/2026 17:05",
+		"testGenericCodecMacRoman" : "pmm 7/4/2026 17:07",
+		"testGenericCodecUtf16be" : "pmm 7/4/2026 17:05",
+		"testGenericCodecUtf16le" : "pmm 7/4/2026 17:05",
+		"testInstantiateUtf8" : "pmm 7/4/2026 17:06",
+		"testSqueakCodecLatin1" : " 7/4/2026 15:05:37",
+		"utf16beString" : " 7/4/2026 15:05:37",
+		"utf16leString" : " 7/4/2026 15:05:37",
+		"utf8String" : " 7/4/2026 15:05:37" } }

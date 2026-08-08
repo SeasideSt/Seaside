@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"delegateOn:" : " 7/5/2026 14:42:13",
+		"on:" : " 7/5/2026 14:42:13",
+		"on:codec:" : " 7/5/2026 14:42:13" },
+	"instance" : {
+		"basicNextPut:" : " 7/5/2026 14:42:13",
+		"basicNextPutAll:" : " 7/5/2026 14:42:13",
+		"greaseNext:putAll:startingAt:" : "pmm 7/5/2026 16:36",
+		"greaseNext:putAllFast:startingAt:" : "pmm 7/5/2026 16:36",
+		"includesUnsafeCharacter:" : " 7/5/2026 14:42:13",
+		"initializeOn:table:delegate:" : " 7/5/2026 14:42:13",
+		"isBinary" : " 7/5/2026 14:42:13",
+		"nextPut:" : " 7/5/2026 14:42:13",
+		"nextPutAll:" : " 7/5/2026 14:42:13",
+		"nextPutAllFast:" : "pmm 7/5/2026 16:37" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Squeak-Development-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/12/2018 14:41",
+	"instvars" : [
+		"instances",
+		"table",
+		"formatter" ],
+	"name" : "WAMemory",
+	"pools" : [
+		 ],
+	"super" : "WATool",
+	"type" : "normal" }

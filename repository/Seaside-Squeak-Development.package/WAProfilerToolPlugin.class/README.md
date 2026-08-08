@@ -1,0 +1,1 @@
+I display the rendering profiler.
