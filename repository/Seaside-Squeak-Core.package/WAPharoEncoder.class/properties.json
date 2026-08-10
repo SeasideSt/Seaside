@@ -1,16 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WAEncoder",
 	"category" : "Seaside-Squeak-Core-Document",
 	"classinstvars" : [
-		"table"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"table" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"table",
-		"delegate"
-	],
+		"delegate" ],
 	"name" : "WAPharoEncoder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAEncoder",
+	"type" : "normal" }

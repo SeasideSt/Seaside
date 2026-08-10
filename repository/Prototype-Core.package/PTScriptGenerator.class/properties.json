@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAScriptGenerator",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PTScriptGenerator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAScriptGenerator",
+	"type" : "normal" }

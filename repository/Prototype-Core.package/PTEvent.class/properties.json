@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 2/27/2007 21:13",
-	"super" : "PTPrototype",
 	"category" : "Prototype-Core-Elements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/27/2007 21:13",
 	"instvars" : [
-		"event"
-	],
+		"event" ],
 	"name" : "PTEvent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTPrototype",
+	"type" : "normal" }

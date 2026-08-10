@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PTPrototype",
 	"category" : "Prototype-Core-Ajax",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"url",
-		"callback"
-	],
+		"callback" ],
 	"name" : "PTAjax",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTPrototype",
+	"type" : "normal" }

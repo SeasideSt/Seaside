@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 6/16/2007 18:28",
-	"super" : "PTObject",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 6/16/2007 18:28",
 	"instvars" : [
-		"receiver"
-	],
+		"receiver" ],
 	"name" : "PTEnumerable",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTObject",
+	"type" : "normal" }

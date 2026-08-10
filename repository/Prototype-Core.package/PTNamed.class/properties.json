@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PTPrototype",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"id",
 		"method",
-		"arguments"
-	],
+		"arguments" ],
 	"name" : "PTNamed",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTPrototype",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAPharoEncoder",
 	"category" : "Seaside-Squeak-Core-Document",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAPharoXmlEncoder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAPharoEncoder",
+	"type" : "normal" }

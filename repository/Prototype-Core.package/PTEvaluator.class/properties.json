@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "lr 2/27/2007 20:40",
-	"super" : "PTRequest",
 	"category" : "Prototype-Core-Ajax",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/27/2007 20:40",
+	"instvars" : [
+		 ],
 	"name" : "PTEvaluator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PTRequest",
+	"type" : "normal" }

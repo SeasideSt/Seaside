@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "JSObject",
 	"category" : "Prototype-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PTObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "JSObject",
+	"type" : "normal" }
