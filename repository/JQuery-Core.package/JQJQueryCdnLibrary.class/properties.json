@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAFileLibrary",
+	"category" : "JQuery-Core-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQJQueryCdnLibrary",
+	"type" : "normal"
+}

@@ -2,7 +2,7 @@ events
 bind: aString data: aDataObject  do: anObject
 
 	self 
-		greaseDeprecatedApi: 'JQueryInstance>>#bind:do:'
-		details: 'See https://jquery.com/upgrade-guide/3.0/#deprecated-bind-and-delegate'.
+		greaseDeprecatedApi: 'JQueryInstance>>#bind:data:do:'
+		details: 'Deprecated in jQuery 3. Prefer the #on... API.'.
 	
-	self call: 'bind' with: aString with: aDataObject with: anObject asFunction
+	self call: 'on' withArguments: (Array with: aString with: aDataObject with: anObject asFunction)

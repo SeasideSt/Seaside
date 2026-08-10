@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "JQueryUiTest",
+	"category" : "JQuery-Tests-UI-Unit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JQGeneratorTest",
+	"type" : "normal"
+}
