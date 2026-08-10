@@ -4,8 +4,8 @@ routeForElements: aCollection parameters: aDictionary contentType: aMimeType acc
 	result := (routes select: [ :each |
 			(each matchesPath: aCollection)
 				and: [ (each matchesParameters: aDictionary)
-				and: [ (aMimeType isNil or: [ each consumes: aMimeType ])
-				and: [ aCollectionOfAccept isNil or: [ each produces: aCollectionOfAccept ] ] ] ] ]) asArray.
+					and: [ (aMimeType isNil or: [ each consumes: aMimeType ])
+						and: [ aCollectionOfAccept isNil or: [ each produces: aCollectionOfAccept ] ] ] ] ]) asArray.
 	result isEmpty
 		ifTrue: [ ^ anAbsentBlock value ].
 	result size = 1
