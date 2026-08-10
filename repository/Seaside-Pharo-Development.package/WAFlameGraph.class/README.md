@@ -1,0 +1,1 @@
+I render a message tally as a flame graph. I handle only the HTML side and hand off the Javascript side to WAFlameGraphScript.

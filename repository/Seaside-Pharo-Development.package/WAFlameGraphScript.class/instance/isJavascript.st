@@ -1,0 +1,3 @@
+testing
+isJavascript
+	^ true

@@ -1,6 +1,6 @@
 accessing-dynamic
 tree
-	^ String streamContents: [ :stream | 
+	^ WAProfilerMessage message: (String streamContents: [ :stream | 
 		self tally
 			maxTabs: SmallInteger maxVal;
 			maxClassNameSize: SmallInteger maxVal;
@@ -11,4 +11,4 @@ tree
 			total: tally tally
 			totalTime: tally time
 			tallyExact: false
-			orThreshold: 2 ]
+			orThreshold: 2 ])

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "2026-07-12T18:37:36.051022+02:00",
+	"super" : "WAComponent",
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "WAProfilerMessage",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
 accessing-dynamic
 leavesBySends
-	^ String streamContents: [ :stream | 
-		self tally leavesPrintExactOn: stream ]
+	^ WAProfilerMessage message: (String streamContents: [ :stream | 
+		self tally leavesPrintExactOn: stream ])

@@ -1,3 +1,3 @@
 hooks
 children
-	^ Array with: self report
+	^ Array with: self report with: message

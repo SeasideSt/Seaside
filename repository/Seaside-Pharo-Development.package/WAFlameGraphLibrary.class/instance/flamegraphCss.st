@@ -1,0 +1,48 @@
+uploaded
+flamegraphCss
+	^ '.d3-flame-graph rect {
+    stroke: #eeeeee;
+    fill-opacity: 0.8;
+}
+
+.d3-flame-graph rect:hover {
+    stroke: #474747;
+    stroke-width: 0.5;
+    cursor: pointer;
+}
+
+.d3-flame-graph-label {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: Verdana;
+    margin-left: 4px;
+    margin-right: 4px;
+    line-height: 1.5;
+    padding: 0 0 0;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+}
+
+.d3-flame-graph .fade {
+    opacity: 0.6 !important;
+}
+
+.d3-flame-graph .title {
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.d3-flame-graph-tip {
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    min-width: 250px;
+    text-align: left;
+    color: white;
+    z-index: 10;
+}
+'

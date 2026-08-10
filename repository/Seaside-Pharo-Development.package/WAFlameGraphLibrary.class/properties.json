@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "2026-07-12T18:36:29.716069+02:00",
+	"super" : "WAFileLibrary",
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAFlameGraphLibrary",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "2026-07-12T18:40:09.333007+02:00",
+	"super" : "WAComponent",
+	"category" : "Seaside-Pharo-Development-Core-Profiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageTally"
+	],
+	"name" : "WAFlameGraph",
+	"type" : "normal"
+}
