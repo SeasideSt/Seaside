@@ -1,6 +1,6 @@
 private
 generate
-	"This code is used to generate the widget classes from the JQuery documentation. It is not necessary to port or call this method from any Smalltalk platform other than Pharo. The actual code of this method is commented to avoid problems on other platforms."
+	"Legacy generator used historically to scaffold widget bindings from old jQuery UI documentation pages. This method is intentionally inactive in normal development: the script body is commented out and should be treated as archival reference only."
 
 	"| model base comment |
 	model := RBNamespace new.
@@ -116,3 +116,5 @@ generate
 
 	' open changes '.
 	model changes open"
+
+	self error: 'comment only'

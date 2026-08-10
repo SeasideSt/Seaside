@@ -1,5 +1,5 @@
 effects
 toggle: aDuration callback: anObject
-	"Bind two or more handlers to the matched elements, to be executed on alternate clicks."
+	"Display or hide the matched elements with an animation, invoking the callback when complete."
 	
 	self call: 'toggle' with: aDuration with: anObject asFunction

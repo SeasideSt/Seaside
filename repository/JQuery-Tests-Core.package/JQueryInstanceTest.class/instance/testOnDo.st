@@ -5,4 +5,10 @@ testOnDo
 		equals: self function , '("a").on("click",function(){alert("Clicked")})'.
 	self
 		assert: ((self jQuery: 'a') on: 'click' selector: 'div' do: (self javascript alert: 'Clicked'))
-		equals: self function , '("a").on("click","div",function(){alert("Clicked")})'
+		equals: self function , '("a").on("click","div",function(){alert("Clicked")})'.
+	self
+		assert: ((self jQuery: 'a') on: 'click' data: Dictionary new do: (self javascript alert: 'Clicked'))
+		equals: self function , '("a").on("click",{},function(){alert("Clicked")})'.
+	self
+		assert: ((self jQuery: 'a') on: 'click' selector: 'div' data: Dictionary new do: (self javascript alert: 'Clicked'))
+		equals: self function , '("a").on("click","div",{},function(){alert("Clicked")})'

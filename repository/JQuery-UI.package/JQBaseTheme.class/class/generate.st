@@ -1,6 +1,6 @@
 private
 generate
-	"This code is used to generate the theme classes. It is not necessary to port or call this method from any Smalltalk platform other than Pharo. The actual code of this method is commented to avoid problems on other platforms."
+	"Legacy generator used historically to scaffold theme classes. This method is intentionally inactive in normal development: the script body is commented out and should be treated as archival reference only."
 
 	"| model themes className |
 	model := (Smalltalk at: #RBNamespace) new.

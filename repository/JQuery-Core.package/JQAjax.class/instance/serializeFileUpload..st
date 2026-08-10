@@ -11,7 +11,7 @@ serializeFileUpload: aQuery
 			 (JSStream on:'for(i=0;i<files.length;i++) formdata.append(name,files[i])'),
 			 (JSStream on: 'return formdata')) asFunction) apply: #());
 		url: self renderContext actionUrl;
-		type: 'POST';
+		method: 'POST';
 		cache: false;
 		processData: false;
 		contentType: false

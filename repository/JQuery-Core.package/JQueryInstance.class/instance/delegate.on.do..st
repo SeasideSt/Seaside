@@ -1,5 +1,8 @@
 events
 delegate: aSelectorString on: anEventString do: aHandlerObject
-	"Attach a handler to the event anEventString for all elements which match the selector aSelectorString, now or in the future, based upon a specific set of root elements."
-	
-	self call: 'delegate' withArguments: (Array with: aSelectorString with: anEventString with: aHandlerObject asFunction)
+	"Compatibility wrapper for legacy #delegate:on:do:. Emits modern jQuery #on(event, selector, handler)."
+	self
+		greaseDeprecatedApi: 'JQueryInstance>>#delegate:on:do:'
+		details: 'Deprecated in jQuery 3. Prefer the #on... API.'.
+
+	self on: anEventString selector: aSelectorString do: aHandlerObject
