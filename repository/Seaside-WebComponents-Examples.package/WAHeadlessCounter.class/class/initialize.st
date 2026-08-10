@@ -7,5 +7,6 @@ initialize
 	application
 		rootClass: self;
 		sessionClass: WASingleContinuationSession;
+		scriptGeneratorClass: WAInlineScriptGenerator;
 		preferenceAt: #renderPhaseContinuationClass put: WAFragmentRenderPhaseContinuation;
 		preferenceAt: #actionPhaseContinuationClass put: WAWebComponentActionContinuation

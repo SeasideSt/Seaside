@@ -1,3 +1,3 @@
 writing
 openOn: aDocument
-	"intentionally empty"
+	aDocument scriptGenerator open: self on: aDocument

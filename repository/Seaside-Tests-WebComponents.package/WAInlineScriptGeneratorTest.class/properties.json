@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAScriptGeneratorTest",
+	"category" : "Seaside-Tests-WebComponents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAInlineScriptGeneratorTest",
+	"type" : "normal"
+}

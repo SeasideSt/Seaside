@@ -1,0 +1,1 @@
+I add load scripts at the end of the content. Useful as web components have no <body> or <head>.

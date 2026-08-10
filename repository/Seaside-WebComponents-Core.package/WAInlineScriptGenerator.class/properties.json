@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "2026-07-10T11:04:35.38703+03:00",
+	"super" : "WAScriptGenerator",
+	"category" : "Seaside-WebComponents-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WAInlineScriptGenerator",
+	"type" : "normal"
+}

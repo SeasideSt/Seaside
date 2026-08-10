@@ -1,3 +1,3 @@
 writing
 closeOn: aDocument
-	"intentionally empty"
+	aDocument scriptGenerator close: self on: aDocument

@@ -6,5 +6,6 @@ newHandler
 		addParent: WARenderLoopConfiguration instance.
 	^ application
 		rootClass: WACounter;
+		scriptGeneratorClass: WAInlineScriptGenerator;
 		preferenceAt: #renderPhaseContinuationClass put: WAFragmentRenderPhaseContinuation;
 		yourself
