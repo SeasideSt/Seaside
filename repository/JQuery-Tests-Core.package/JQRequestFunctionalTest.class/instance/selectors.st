@@ -1,3 +1,3 @@
 accessing
 selectors
-	^ #(renderContentOn: renderButton:ajax:on:)
+	^ #(renderContentOn: renderButton:ajax:on: renderFailButtonOn:)

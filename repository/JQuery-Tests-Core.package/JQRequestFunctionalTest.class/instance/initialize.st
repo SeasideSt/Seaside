@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	logger := OrderedCollection new
+	self resetLogger
