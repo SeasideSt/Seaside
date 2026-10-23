@@ -1,4 +1,7 @@
 hooks
 afterCheck: aNode mappings: dict
 
-	^ aNode arguments first references: aNode receiver leftmostChainReceiver name
+	| receiver |
+	receiver := aNode receiver.
+	[ receiver isMessage ] whileTrue: [ receiver := receiver receiver ].
+	^ aNode arguments first references: receiver name
