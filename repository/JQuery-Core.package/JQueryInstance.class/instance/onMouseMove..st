@@ -1,5 +1,5 @@
 events-register
 onMouseMove: anObject
-	"Bind an event handler to the 'mousemove' JavaScript event, or trigger that event on an element."
+	"Bind an event handler to the 'mousemove' JavaScript event."
 	
-	self call: 'mousemove' with: anObject asFunction
+	self on: 'mousemove' do: anObject

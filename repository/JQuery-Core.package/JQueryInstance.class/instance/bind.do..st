@@ -3,6 +3,6 @@ bind: aString do: anObject
 
 	self 
 		greaseDeprecatedApi: 'JQueryInstance>>#bind:do:'
-		details: 'See https://jquery.com/upgrade-guide/3.0/#deprecated-bind-and-delegate'.
+		details: 'Deprecated in jQuery 3. Prefer the #on... API.'.
 	
-	self call: 'bind' with: aString with: anObject asFunction
+	self on: aString do: anObject

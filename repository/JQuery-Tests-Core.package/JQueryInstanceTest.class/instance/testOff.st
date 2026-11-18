@@ -1,6 +1,9 @@
 tests-events
 testOff
 	self
+		assert: ((self jQuery: 'a') off)
+		equals: self function , '("a").off()'.
+	self
 		assert: ((self jQuery: 'a') off: 'click')
 		equals: self function , '("a").off("click")'.
 	self
