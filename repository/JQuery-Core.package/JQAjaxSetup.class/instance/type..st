@@ -4,6 +4,6 @@ type: aString
 
 	self
 		greaseDeprecatedApi: 'JQAjaxSetup>>#type:'
-		details: 'Deprecated in jQuery 3. Prefer #method:.'.
-	
-	self optionAt: 'method' put: aString asUppercase
+		details: 'Deprecated in jQuery 3. Prefer #httpMethod:.'
+
+	self httpMethod: aString.
