@@ -4,6 +4,6 @@ type: aString
 
 	self
 		greaseDeprecatedApi: 'JQAjaxSetup>>#type:'
-		details: 'Deprecated in jQuery 3. Prefer #httpMethod:.'
+		details: 'Deprecated in jQuery 3. Prefer #httpMethod:.' .
 
 	self httpMethod: aString.
