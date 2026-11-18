@@ -1,5 +1,5 @@
 utilities
-map: anObject
+map: anObject transform: aFunction
 	"Translate all items in an array or object to a new array of items."
 
-	self call: 'map' with: anObject
+	self call: 'map' with: anObject with: aFunction asFunction
