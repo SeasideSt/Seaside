@@ -1,8 +1,8 @@
 utilities
 parseJSON: aString
-	"Compatibility wrapper for the old jQuery parseJSON API. Prefer native JSON.parse(...) instead."
+	"Takes a well-formed JSON string and returns the resulting JavaScript object."
 	self 
 		greaseDeprecatedApi: 'JQueryClass>>#parseJSON'
-		details: 'Deprecated in jQuery 3. Prefer native JSON.parse(...).'.
+		details: 'Deprecated in jQuery 3. Prefer #jsonFromString:.'.
 	
-	^ (JSJson context: self renderContext) parse: aString
+	self call: 'parseJSON' with: aString
